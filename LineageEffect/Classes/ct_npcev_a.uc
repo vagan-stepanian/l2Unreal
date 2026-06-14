@@ -1,0 +1,96 @@
+class ct_npcev_a extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter63
+         ColorScale(0)=(Color=(B=58,G=48,R=154,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=35,G=22,R=73,A=255))
+         FadeOutStartTime=4.000000
+         MaxParticles=1
+         StartLocationOffset=(Z=38.375999)
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.020000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.100000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageNpcsTexEV.trap_device_switch.warp_gate_001'
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="SpriteEmitter63"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.ct_npcev_a.SpriteEmitter63'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=120,G=120,R=188,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.400000
+         FadeOutStartTime=0.420000
+         FadeOut=True
+         FadeInEndTime=0.255000
+         FadeIn=True
+         MaxParticles=15
+         StartLocationOffset=(Z=12.664000)
+         StartLocationShape=PTLS_Polar
+         SphereRadiusRange=(Max=50.000000)
+         StartLocationPolarRange=(X=(Min=-30.000000,Max=30.000000),Y=(Min=-30.000000,Max=30.000000),Z=(Max=10.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=0.100000,Max=0.300000))
+         SpinParticles=True
+         StartSizeRange=(X=(Min=25.000000,Max=25.000000),Y=(Min=25.000000,Max=25.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5023'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-30.000000,Max=30.000000),Y=(Min=-30.000000,Max=30.000000),Z=(Min=25.000000,Max=50.000000))
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000))
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.ct_npcev_a.SpriteEmitter9'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.496429,Color=(B=92,G=92,R=173,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.750000,Max=0.750000))
+         Opacity=0.700000
+         FadeOutStartTime=3.160000
+         FadeOut=True
+         FadeInEndTime=0.680000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationOffset=(Z=38.375999)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.100000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=1.000000
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=1.000000
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageNpcsTexEV.trap_device_switch.warp_gate_002'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=1.000000))
+         VelocityLossRange=(Z=(Min=3.000000,Max=3.000000))
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.ct_npcev_a.SpriteEmitter8'
+     bNoDelete=False
+     bSunAffect=True
+}

@@ -1,0 +1,106 @@
+class e_u072_a_simple extends NSkillProjectile; // 가래 브레스 - 발사체
+
+defaultproperties
+{
+     Speed=1300.000000
+     AccSpeed=3000.000000
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter34
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.082143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.342857,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.734000,Max=0.734000))
+         Opacity=0.600000
+         FadeOutStartTime=0.084000
+         FadeOut=True
+         FadeInEndTime=0.003000
+         FadeIn=True
+         MaxParticles=35
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.700000)
+         SizeScaleRepeats=4.000000
+         StartSizeRange=(X=(Min=12.000000,Max=12.000000),Y=(Min=12.000000,Max=12.000000),Z=(Min=12.000000,Max=12.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0000'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=7
+         SubdivisionEnd=8
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(X=(Min=-4.800000,Max=4.800000),Y=(Min=-4.800000,Max=4.800000),Z=(Min=-4.800000,Max=4.800000))
+         WarmupTicksPerSecond=5.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter34"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u072_a_simple.SpriteEmitter34'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter33
+         Acceleration=(X=-240.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.400000
+         FadeOut=True
+         FadeInEndTime=0.065000
+         FadeIn=True
+         MaxParticles=32
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.400000,RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=5.000000
+         StartSizeRange=(X=(Min=6.400000,Max=6.400000),Y=(Min=6.400000,Max=6.400000),Z=(Min=6.400000,Max=6.400000))
+         InitialParticlesPerSecond=7.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1000'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-12.000000,Max=12.000000),Y=(Min=-12.000000,Max=12.000000),Z=(Min=-12.000000,Max=12.000000))
+         WarmupTicksPerSecond=5.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter33"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u072_a_simple.SpriteEmitter33'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter32
+         Acceleration=(X=-2.400000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=2.000000
+         MaxParticles=25
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.300000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.430000,RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=5.000000
+         StartSizeRange=(X=(Min=9.600000,Max=12.000000),Y=(Min=9.600000,Max=12.000000),Z=(Min=9.600000,Max=12.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1001'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=1
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Max=2.400000),Y=(Max=2.400000),Z=(Max=2.400000))
+         WarmupTicksPerSecond=5.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter32"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.e_u072_a_simple.SpriteEmitter32'
+     DrawScale=0.020000
+     bDirectional=True
+}

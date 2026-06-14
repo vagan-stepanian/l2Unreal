@@ -1,0 +1,89 @@
+class z_electlic_rain_a_sub_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter15
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.108000
+         FadeOut=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=20.000000),Y=(Min=70.000000,Max=70.000000),Z=(Min=10.000000,Max=20.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(Z=(Min=450.000000,Max=450.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter15"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.z_electlic_rain_a_sub_ca_simple.SpriteEmitter15'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=179,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=109,G=182,R=182,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.170000
+         FadeOut=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=20.000000)
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.750000)
+         StartSizeRange=(X=(Min=30.000000,Max=40.000000),Y=(Min=40.000000,Max=60.000000),Z=(Min=30.000000,Max=40.000000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0109'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=15.000000,Max=15.000000))
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.z_electlic_rain_a_sub_ca_simple.SpriteEmitter16'
+     Begin Object Class=MeshEmitter Name=MeshEmitter19
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh03.xel_bolt'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.539286,Color=(B=188,G=188,R=188,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=50.000000
+         Opacity=0.200000
+         FadeOutStartTime=0.102000
+         FadeOut=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.600000,Max=0.600000),Z=(Min=1.000000,Max=1.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.200000,Max=0.200000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=1.000000))
+         Name="MeshEmitter19"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.z_electlic_rain_a_sub_ca_simple.MeshEmitter19'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

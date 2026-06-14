@@ -1,0 +1,101 @@
+class u_mon_fire5s_ta_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         Acceleration=(X=-120.000000,Z=50.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.050000,Color=(R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.246429,Color=(R=64,A=255))
+         ColorScale(3)=(RelativeTime=0.607143,Color=(A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(A=255))
+         Opacity=0.700000
+         FadeOutStartTime=0.481000
+         FadeOut=True
+         FadeInEndTime=0.104000
+         FadeIn=True
+         MaxParticles=30
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-16.000000,Max=16.000000),Y=(Min=-16.000000,Max=16.000000),Z=(Min=-16.000000,Max=16.000000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=3.000000,Max=3.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=12.000000,Max=30.000000),Y=(Min=12.000000,Max=30.000000),Z=(Min=12.000000,Max=30.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4013'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=0.600000,Max=1.300000)
+         StartVelocityRange=(X=(Min=50.000000,Max=160.000000),Y=(Min=50.000000,Max=160.000000),Z=(Min=50.000000,Max=160.000000))
+         VelocityLossRange=(X=(Min=7.000000,Max=10.000000),Y=(Min=7.000000,Max=10.000000),Z=(Min=7.000000,Max=10.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_mon_fire5s_ta_simple.SpriteEmitter8'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter10
+         ColorScale(0)=(Color=(G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.900000
+         FadeOutStartTime=0.096000
+         FadeOut=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-1.200000,Max=1.200000),Y=(Min=-1.200000,Max=1.200000),Z=(Min=-1.200000,Max=1.200000))
+         StartLocationShape=PTLS_Sphere
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.400000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2035'
+         LifetimeRange=(Min=0.200000,Max=0.200000)
+         StartVelocityRange=(X=(Min=-1.200000,Max=1.200000),Y=(Min=-1.200000,Max=1.200000),Z=(Min=-1.200000,Max=1.200000))
+         Name="SpriteEmitter10"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_mon_fire5s_ta_simple.SpriteEmitter10'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter14
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.850000,Max=0.850000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.830000
+         FadeOutStartTime=0.203500
+         FadeOut=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-15.000000,Max=15.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UniformSize=True
+         StartSizeRange=(X=(Min=15.000000,Max=20.000000),Y=(Min=15.000000,Max=20.000000),Z=(Min=15.000000,Max=20.000000))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         Name="SpriteEmitter14"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.u_mon_fire5s_ta_simple.SpriteEmitter14'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

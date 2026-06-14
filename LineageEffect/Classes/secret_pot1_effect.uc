@@ -1,0 +1,107 @@
+class secret_pot1_effect extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.514286,Color=(B=43,G=43,R=43,A=255))
+         ColorScale(2)=(RelativeTime=0.750000,Color=(B=77,G=77,R=77,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=5.000000
+         FadeOutStartTime=1.000000
+         Disabled=True
+         StartLocationOffset=(Z=60.000000)
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=30.000000,Max=30.000000)
+         StartLocationPolarRange=(X=(Min=150.000000,Max=150.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=30.000000,Max=30.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=2.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.310000,RelativeSize=0.600000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=3.000000,Max=5.000000),Y=(Min=3.000000,Max=5.000000),Z=(Min=3.000000,Max=5.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0061'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=8
+         UseRandomSubdivision=True
+         SubdivisionStart=1
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.500000,Max=2.000000)
+         InitialDelayRange=(Min=0.050000,Max=0.050000)
+         StartVelocityRange=(X=(Min=-40.000000,Max=40.000000),Y=(Min=-40.000000,Max=40.000000),Z=(Min=35.000000,Max=35.000000))
+         VelocityLossRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=6.000000,Max=6.000000),Z=(Min=0.100000,Max=0.100000))
+         GetVelocityDirectionFrom=PTVD_AddRadial
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.secret_pot1_effect.SpriteEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseDirectionAs=PTDU_Up
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=213,G=213,R=213,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=209,G=209,R=209,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.950000,Max=0.950000),Z=(Min=0.850000,Max=0.850000))
+         Opacity=0.840000
+         FadeOutStartTime=1.088000
+         FadeOut=True
+         FadeInEndTime=0.288000
+         FadeIn=True
+         MaxParticles=2
+         Disabled=True
+         StartLocationOffset=(Z=40.000000)
+         SpinParticles=True
+         StartSizeRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=30.000000,Max=30.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=1.200000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Fire.fx_m_t_3002'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=31
+         LifetimeRange=(Min=1.600000,Max=1.600000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=1.000000))
+         VelocityLossRange=(Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.secret_pot1_effect.SpriteEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         UseDirectionAs=PTDU_Up
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=213,G=213,R=213,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=209,G=209,R=209,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.950000,Max=0.950000),Z=(Min=0.850000,Max=0.850000))
+         Opacity=0.650000
+         FadeOutStartTime=0.944000
+         FadeOut=True
+         FadeInEndTime=0.192000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationOffset=(Z=60.000000)
+         SpinParticles=True
+         StartSizeRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=40.000000,Max=40.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=1.200000
+         AutomaticInitialSpawning=False
+         Texture=Texture'FX_E_T.Flameset.de_fire_0000'
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=31
+         LifetimeRange=(Min=1.600000,Max=1.600000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=1.000000))
+         VelocityLossRange=(Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.secret_pot1_effect.SpriteEmitter3'
+     SpawnSound(0)=Sound'AmbSound.Fire.fire_03'
+     SoundLooping=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     SoundRadius=40.000000
+     SoundVolume=250.000000
+}

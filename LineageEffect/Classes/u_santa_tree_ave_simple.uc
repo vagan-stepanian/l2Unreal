@@ -1,0 +1,137 @@
+class u_santa_tree_ave_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         Acceleration=(Z=-10.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         MaxParticles=1
+         StartLocationRange=(Z=(Min=-0.500000,Max=-0.500000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.450000,Max=0.450000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.100000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures2.Particles3.fx_m_t6294'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         SubdivisionEnd=1
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=5.000000,Max=5.000000))
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_santa_tree_ave_simple.SpriteEmitter9'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter4
+         UseDirectionAs=PTDU_Forward
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.400000
+         FadeOutStartTime=0.330000
+         FadeOut=True
+         FadeInEndTime=0.240000
+         FadeIn=True
+         MaxParticles=4
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Min=0.300000,Max=0.300000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.280000,RelativeSize=0.800000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=5.000000,Max=7.000000),Y=(Min=5.000000,Max=7.000000),Z=(Min=5.000000,Max=7.000000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1018'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         Name="SpriteEmitter4"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_santa_tree_ave_simple.SpriteEmitter4'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter33
+         Acceleration=(Z=-5.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.489286,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         FadeOutStartTime=0.630000
+         FadeOut=True
+         FadeInEndTime=0.200000
+         FadeIn=True
+         MaxParticles=45
+         StartLocationOffset=(Z=5.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=150.000000),Y=(Max=150.000000),Z=(Min=-5.000000,Max=5.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.480000),Y=(Min=0.300000,Max=0.480000),Z=(Min=0.300000,Max=0.480000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles3.fx_m_t6294'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=8
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         SubdivisionStart=36
+         SubdivisionEnd=38
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-3.000000,Max=-1.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter33"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_santa_tree_ave_simple.SpriteEmitter33'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter37
+         Acceleration=(Z=-10.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.500000
+         MaxParticles=1
+         StartLocationRange=(Y=(Min=0.080000,Max=0.080000),Z=(Min=-0.430000,Max=-0.430000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.450000,Max=0.450000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.100000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=3.400000,Max=3.400000),Y=(Min=3.400000,Max=3.400000),Z=(Min=3.400000,Max=3.400000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.Particles3.fx_m_t6295'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         SubdivisionEnd=1
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=5.000000,Max=5.000000))
+         Name="SpriteEmitter37"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_santa_tree_ave_simple.SpriteEmitter37'
+     AutoDestroy=False
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=-624)
+     DrawScale=0.010000
+     bUnlit=False
+     SwayRotationOrig=(Yaw=-624)
+}

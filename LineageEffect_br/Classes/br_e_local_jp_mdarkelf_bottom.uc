@@ -1,0 +1,165 @@
+class br_e_local_jp_mdarkelf_bottom extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Impact.lightcone01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=28,G=72,R=253,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.600000,Max=0.600000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.100000
+         FadeOutStartTime=0.507000
+         FadeOut=True
+         FadeInEndTime=0.117000
+         FadeIn=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=0.600000,Max=0.600000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.250000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.800000,RelativeSize=1.500000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.750000)
+         StartSizeRange=(X=(Min=0.030000,Max=0.030000),Y=(Min=0.030000,Max=0.030000),Z=(Min=0.090000,Max=0.090000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         InitialDelayRange=(Min=0.250000,Max=0.250000)
+         Name="MeshEmitter2"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect_Br.br_e_local_jp_mdarkelf_bottom.MeshEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         Acceleration=(Z=10.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.750000,Max=0.750000),Y=(Min=0.600000,Max=0.600000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.460000
+         FadeOut=True
+         FadeInEndTime=0.170000
+         FadeIn=True
+         MaxParticles=17
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=2.000000,Max=10.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.200000,Max=0.200000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0134'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         InitialDelayRange=(Min=1.100000,Max=1.100000)
+         StartVelocityRange=(Z=(Min=4.000000,Max=12.000000))
+         VelocityLossRange=(Z=(Min=3.000000,Max=3.000000))
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect_Br.br_e_local_jp_mdarkelf_bottom.SpriteEmitter8'
+     Begin Object Class=MeshEmitter Name=MeshEmitter10
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.wind_L'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=3.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=74,R=74,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=60,R=157,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.850000
+         FadeOutStartTime=0.762500
+         FadeOut=True
+         FadeInEndTime=0.137500
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=3.000000)
+         StartLocationRange=(Z=(Max=0.500000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=1.200000,Max=1.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.650000)
+         SizeScale(1)=(RelativeTime=0.700000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.055000,Max=0.065000),Y=(Min=0.055000,Max=0.065000),Z=(Min=0.030000,Max=0.055000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         InitialDelayRange=(Min=0.250000,Max=0.250000)
+         Name="MeshEmitter10"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect_Br.br_e_local_jp_mdarkelf_bottom.MeshEmitter10'
+     Begin Object Class=MeshEmitter Name=MeshEmitter11
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.Barler_bright2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.400000,Max=0.700000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.250000
+         FadeOutStartTime=0.540000
+         FadeOut=True
+         FadeInEndTime=0.040000
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-0.060000,Max=-0.020000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=1.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.750000)
+         StartSizeRange=(X=(Min=0.000740,Max=0.000740),Y=(Min=0.000740,Max=0.000740),Z=(Min=0.001600,Max=0.001600))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(Z=(Min=0.020000,Max=0.150000))
+         Name="MeshEmitter11"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect_Br.br_e_local_jp_mdarkelf_bottom.MeshEmitter11'
+     Begin Object Class=MeshEmitter Name=MeshEmitter12
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.swirl_ring_05'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=125,R=125,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=166,R=210,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.750000,Max=0.750000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.500000
+         FadeOutStartTime=0.400000
+         FadeOut=True
+         FadeInEndTime=0.230000
+         FadeIn=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-1.000000,Max=-1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.250000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.300000)
+         StartSizeRange=(X=(Min=0.130000,Max=0.130000),Y=(Min=0.130000,Max=0.130000),Z=(Min=0.130000,Max=0.130000))
+         InitialParticlesPerSecond=12.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.100000,Max=0.100000)
+         InitialDelayRange=(Min=0.150000,Max=0.150000)
+         Name="MeshEmitter12"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect_Br.br_e_local_jp_mdarkelf_bottom.MeshEmitter12'
+     bNoDelete=False
+     DrawScale=0.100000
+}

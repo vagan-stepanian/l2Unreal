@@ -1,0 +1,144 @@
+class e_u346_deco_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=100.000000
+         MaxParticles=2
+         ForcedFade=True
+         StartLocationOffset=(X=-20.000000)
+         UniformSize=True
+         StartSizeRange=(X=(Min=60.000000,Max=60.000000),Y=(Min=60.000000,Max=60.000000),Z=(Min=60.000000,Max=60.000000))
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t6106'
+         LifetimeRange=(Min=100.000000,Max=100.000000)
+         WarmupTicksPerSecond=2.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u346_deco_simple.SpriteEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter5
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=100.000000
+         MaxParticles=1
+         StartLocationOffset=(X=-22.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=30.000000,Max=30.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t6108'
+         LifetimeRange=(Min=100.000000,Max=100.000000)
+         WarmupTicksPerSecond=2.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter5"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u346_deco_simple.SpriteEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.492857,Color=(G=64,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         ColorScaleRepeats=20.000000
+         Opacity=0.900000
+         FadeOutStartTime=1.030200
+         FadeOut=True
+         FadeInEndTime=0.787800
+         FadeIn=True
+         MaxParticles=20
+         StartLocationOffset=(X=-20.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.340000,RelativeSize=1.150000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=60.000000,Max=60.000000),Y=(Min=60.000000,Max=60.000000),Z=(Min=60.000000,Max=60.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t6109'
+         LifetimeRange=(Min=1.820000,Max=2.020000)
+         WarmupTicksPerSecond=2.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.e_u346_deco_simple.SpriteEmitter6'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=100.000000
+         MaxParticles=1
+         StartLocationOffset=(X=-20.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=58.000000,Max=58.000000),Y=(Min=58.000000,Max=58.000000),Z=(Min=58.000000,Max=58.000000))
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t6114'
+         LifetimeRange=(Min=100.000000,Max=100.000000)
+         WarmupTicksPerSecond=2.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.e_u346_deco_simple.SpriteEmitter7'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.500000
+         FadeOutStartTime=0.510000
+         FadeOut=True
+         FadeInEndTime=0.310000
+         FadeIn=True
+         MaxParticles=20
+         StartLocationOffset=(X=-20.000000,Z=-20.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=-35.000000,Max=35.000000))
+         UseSizeScale=True
+         UniformSize=True
+         StartSizeRange=(X=(Min=45.000000,Max=50.000000),Y=(Min=45.000000,Max=50.000000),Z=(Min=45.000000,Max=50.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.AirEffect.air_effect0002'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=50.000000,Max=50.000000))
+         WarmupTicksPerSecond=2.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.e_u346_deco_simple.SpriteEmitter8'
+     SpawnSound(0)=Sound'AmbSound3.SSQ_Dungeon.ssq_energy_loop_01'
+     SoundPitchMin=1.200000
+     SoundPitchMax=1.200000
+     SoundLooping=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     SoundRadius=70.000000
+     SoundVolume=250.000000
+     bDirectional=True
+}

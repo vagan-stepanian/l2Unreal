@@ -1,0 +1,79 @@
+class d_wi_strongwater2_handca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter97
+         Acceleration=(Z=10.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=253,G=190,R=159,A=255))
+         ColorScale(1)=(RelativeTime=0.282143,Color=(B=228,G=154,R=80,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=237,G=210,R=139,A=255))
+         Opacity=0.700000
+         FadeOutStartTime=0.322500
+         FadeOut=True
+         FadeInEndTime=0.202500
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=30
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Max=3.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.750000)
+         StartSizeRange=(X=(Min=2.500000,Max=4.000000),Y=(Min=2.500000,Max=4.000000),Z=(Min=2.500000,Max=4.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t4046'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         VelocityLossRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter97"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_wi_strongwater2_handca_simple.SpriteEmitter97'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter138
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=170,R=85,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=170,R=85,A=255))
+         Opacity=0.510000
+         FadeOutStartTime=0.460000
+         FadeOut=True
+         FadeInEndTime=0.460000
+         FadeIn=True
+         MaxParticles=12
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.250000,Max=0.250000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=12.000000,Max=12.000000),Y=(Min=12.000000,Max=12.000000),Z=(Min=12.000000,Max=12.000000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t8299'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionStart=2
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter138"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_wi_strongwater2_handca_simple.SpriteEmitter138'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

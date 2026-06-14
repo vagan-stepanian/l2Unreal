@@ -1,0 +1,104 @@
+class d_wa_hurriarmor_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter19
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.magiccircle.magiccircleblack02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.774000,Max=0.774000),Y=(Min=0.506000,Max=0.506000),Z=(Min=0.280000,Max=0.280000))
+         Opacity=0.400000
+         FadeOutStartTime=0.532000
+         FadeOut=True
+         FadeInEndTime=0.119000
+         FadeIn=True
+         MaxParticles=1
+         ForcedFade=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.400000,RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=10.000000
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000))
+         Name="MeshEmitter19"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_wa_hurriarmor_ca_simple.MeshEmitter19'
+     Begin Object Class=MeshEmitter Name=MeshEmitter29
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Wind.windknifewave00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=240.000015)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=128,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.264286,Color=(B=78,G=162,R=254,A=255))
+         ColorScale(2)=(RelativeTime=0.557143,Color=(G=153,R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.330000
+         FadeOutStartTime=0.129000
+         FadeOut=True
+         FadeInEndTime=0.060000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=10.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000),Y=(Min=0.750000,Max=0.750000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.310000,RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.650000,RelativeSize=2.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=3.500000)
+         StartSizeRange=(X=(Min=4.000000,Max=4.000000),Y=(Min=0.320000,Max=0.320000),Z=(Min=0.320000,Max=0.320000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=-240.000015,Max=-240.000015))
+         Name="MeshEmitter29"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_wa_hurriarmor_ca_simple.MeshEmitter29'
+     Begin Object Class=MeshEmitter Name=MeshEmitter21
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.swirl_ring_05'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.275000,Color=(B=113,G=159,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=133,G=171,R=243,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.176000
+         FadeOut=True
+         FadeInEndTime=0.080000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-7.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=85.000000,Max=95.000000),Z=(Min=16.000000,Max=16.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=2.800000)
+         StartSizeRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.800000,Max=0.800000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.fx_m_t5108'
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         Name="MeshEmitter21"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_wa_hurriarmor_ca_simple.MeshEmitter21'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

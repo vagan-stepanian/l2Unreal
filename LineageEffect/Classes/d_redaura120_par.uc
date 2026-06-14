@@ -1,0 +1,84 @@
+class d_redaura120_par extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=5.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.550000,Color=(B=100,G=154,R=80,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=117,R=186,A=255))
+         Opacity=0.900000
+         FadeOutStartTime=0.432000
+         FadeOut=True
+         FadeInEndTime=0.288000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=30
+         StartLocationRange=(X=(Min=-4.000000,Max=4.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-2.000000,Max=6.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.001000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=4.500000,Max=4.500000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4023'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=32
+         LifetimeRange=(Min=0.900000,Max=0.900000)
+         StartVelocityRange=(X=(Min=-1.500000,Max=1.500000),Y=(Min=-1.500000,Max=1.500000),Z=(Min=4.000000,Max=7.000000))
+         VelocityLossRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.500000,Max=1.500000))
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_redaura120_par.SpriteEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=5.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=164,G=62,R=72,A=255))
+         ColorScale(1)=(RelativeTime=0.817857,Color=(B=36,G=36,R=234,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=142,G=88,R=55,A=255))
+         Opacity=0.700000
+         FadeOutStartTime=0.432000
+         FadeOut=True
+         FadeInEndTime=0.270000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=30
+         StartLocationRange=(X=(Min=-4.000000,Max=4.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-2.000000,Max=6.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.001000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=2.500000,Max=2.500000),Y=(Min=4.000000,Max=4.000000),Z=(Min=2.500000,Max=2.500000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4023'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=32
+         LifetimeRange=(Min=0.900000,Max=0.900000)
+         StartVelocityRange=(X=(Min=-1.500000,Max=1.500000),Y=(Min=-1.500000,Max=1.500000),Z=(Min=4.000000,Max=7.000000))
+         VelocityLossRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.500000,Max=1.500000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_redaura120_par.SpriteEmitter2'
+     bRotEmitter=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bDirectional=True
+}

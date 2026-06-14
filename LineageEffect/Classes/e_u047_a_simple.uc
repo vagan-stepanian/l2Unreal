@@ -1,0 +1,49 @@
+class e_u047_a_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         Acceleration=(Z=1500.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.900000,Max=1.000000),Y=(Min=0.840000,Max=0.940000),Z=(Min=0.670000,Max=0.757000))
+         Opacity=0.100000
+         FadeOutStartTime=0.170000
+         FadeOut=True
+         FadeInEndTime=0.105000
+         FadeIn=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=50.000000)
+         StartLocationRange=(X=(Min=-21.000000,Max=21.000000),Y=(Min=-21.000000,Max=21.000000))
+         StartLocationShape=PTLS_Polar
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.300000),Y=(Min=0.050000,Max=0.100000),Z=(Min=0.050000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=40.000000,Max=60.000000),Y=(Min=40.000000,Max=60.000000),Z=(Min=40.000000,Max=60.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0071'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=12
+         SubdivisionEnd=15
+         LifetimeRange=(Min=0.400000,Max=0.500000)
+         StartVelocityRange=(X=(Min=400.000000,Max=400.000000),Y=(Min=-60.000000,Max=60.000000),Z=(Min=-60.000000,Max=60.000000))
+         VelocityLossRange=(X=(Min=2.000000,Max=3.000000),Y=(Min=2.000000,Max=3.000000),Z=(Min=2.000000,Max=3.000000))
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u047_a_simple.SpriteEmitter0'
+     AutoReset=True
+     bLightChanged=True
+     bNoDelete=False
+     Tag="Emitter"
+     Rotation=(Pitch=-8964,Yaw=32744)
+     bUnlit=False
+}

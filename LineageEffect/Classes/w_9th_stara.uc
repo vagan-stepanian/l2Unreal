@@ -1,0 +1,162 @@
+class w_9th_stara extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.400000
+         FadeOutStartTime=0.036000
+         FadeOut=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.750000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.250000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=5000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0064'
+         LifetimeRange=(Min=0.360000,Max=0.360000)
+         InitialDelayRange=(Min=0.950000,Max=0.950000)
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.w_9th_stara.SpriteEmitter11'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter12
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.027500
+         FadeOut=True
+         MaxParticles=4
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.200000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=4000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0105'
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         InitialDelayRange=(Min=0.910000,Max=0.910000)
+         Name="SpriteEmitter12"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.w_9th_stara.SpriteEmitter12'
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.620000,Max=0.620000),Z=(Min=0.407000,Max=0.407000))
+         Opacity=0.400000
+         FadeOutStartTime=0.378000
+         FadeOut=True
+         FadeInEndTime=0.085500
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Sphere
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.450000,Max=0.450000)
+         Name="MeshEmitter5"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.w_9th_stara.MeshEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter14
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.400000,Max=0.800000),Z=(Min=0.300000,Max=0.700000))
+         FadeOutStartTime=0.250100
+         FadeOut=True
+         FadeInEndTime=0.094300
+         FadeIn=True
+         MaxParticles=6
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=0.100000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=30.000000,Max=30.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t7021'
+         LifetimeRange=(Min=0.410000,Max=0.410000)
+         Name="SpriteEmitter14"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.w_9th_stara.SpriteEmitter14'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter15
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.400000,Max=0.800000),Z=(Min=0.300000,Max=0.700000))
+         FadeOutStartTime=0.148000
+         FadeOut=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.100000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.400000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.750000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t7022'
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         InitialDelayRange=(Min=0.970000,Max=0.970000)
+         Name="SpriteEmitter15"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.w_9th_stara.SpriteEmitter15'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.542857,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=9.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.400000,Max=0.800000),Z=(Min=0.300000,Max=0.700000))
+         FadeOutStartTime=0.238000
+         FadeOut=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.100000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.750000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t7023'
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         InitialDelayRange=(Min=0.970000,Max=0.970000)
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.w_9th_stara.SpriteEmitter16'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

@@ -1,0 +1,96 @@
+class e_u320_deco_cow extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter162
+         Acceleration=(Z=2.500000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255))
+         ColorScale(1)=(RelativeTime=0.300000,Color=(B=221,G=244,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.621429,Color=(B=255,G=255,R=255,A=100))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.600000,Max=0.600000))
+         Opacity=0.550000
+         FadeOutStartTime=1.620000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=84
+         StartLocationRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Max=1.250000))
+         StartLocationShape=PTLS_Polar
+         SphereRadiusRange=(Min=30.000000,Max=60.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=20.000000,Max=20.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.030000,Max=0.030000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=0.900000,RelativeSize=1.700000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=30.000000),Y=(Min=20.000000,Max=30.000000),Z=(Min=20.000000,Max=30.000000))
+         InitialParticlesPerSecond=12.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2091'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=2.500000,Max=3.000000)
+         StartVelocityRange=(X=(Min=-60.000000,Max=60.000000),Y=(Min=-60.000000,Max=60.000000),Z=(Min=10.000000,Max=30.000000))
+         VelocityLossRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.300000,Max=0.500000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter162"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u320_deco_cow.SpriteEmitter162'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter163
+         Acceleration=(Z=5.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=102,G=209,R=255,A=100))
+         ColorScale(1)=(RelativeTime=0.521429,Color=(B=254,G=239,R=207,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=230,R=202,A=100))
+         ColorMultiplierRange=(X=(Min=0.320000,Max=0.320000),Y=(Min=0.320000,Max=0.320000),Z=(Min=0.320000,Max=0.320000))
+         Opacity=0.150000
+         FadeOutStartTime=1.620000
+         FadeOut=True
+         FadeInEndTime=0.210000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=64
+         StartLocationOffset=(Z=-5.000000)
+         StartLocationShape=PTLS_Polar
+         SphereRadiusRange=(Min=30.000000,Max=60.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=50.000000,Max=100.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.015000,Max=0.015000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=17.500000,Max=30.000000),Y=(Min=17.500000,Max=30.000000),Z=(Min=17.500000,Max=30.000000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2091'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=3
+         SubdivisionEnd=7
+         LifetimeRange=(Min=2.500000,Max=3.000000)
+         StartVelocityRange=(X=(Min=25.000000,Max=25.000000),Y=(Min=25.000000,Max=25.000000),Z=(Min=20.000000,Max=37.500000))
+         VelocityLossRange=(X=(Max=0.500000),Y=(Max=0.500000),Z=(Max=0.500000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter163"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u320_deco_cow.SpriteEmitter163'
+     bRotEmitter=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     RotationRate=(Yaw=15000)
+     bDirectional=True
+}

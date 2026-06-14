@@ -1,0 +1,136 @@
+class d_ro_warp1_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter18
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.pwave00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=190,G=190,R=190,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=120.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.100000
+         FadeOutStartTime=0.049500
+         FadeOut=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         UseRevolution=True
+         UseRevolutionScale=True
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000),Y=(Min=0.050000,Max=0.050000),Z=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.120000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.350000,Max=0.350000),Y=(Min=0.350000,Max=0.350000),Z=(Min=0.350000,Max=0.350000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.450000,Max=0.450000)
+         VelocityLossRange=(Z=(Max=1.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="MeshEmitter18"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_ro_warp1_ca.MeshEmitter18'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter43
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.200000
+         FadeOut=True
+         FadeInEndTime=0.060000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.350000,RelativeSize=1.600000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8109'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter43"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_ro_warp1_ca.SpriteEmitter43'
+     Begin Object Class=MeshEmitter Name=MeshEmitter35
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.guardstone03'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.120000
+         FadeOutStartTime=0.084000
+         FadeOut=True
+         FadeInEndTime=0.044000
+         FadeIn=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=2.000000,Max=2.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter35"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_ro_warp1_ca.MeshEmitter35'
+     Begin Object Class=MeshEmitter Name=MeshEmitter36
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.wind_L'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.464286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=7.000000
+         Opacity=0.300000
+         FadeOutStartTime=0.084000
+         FadeOut=True
+         FadeInEndTime=0.044000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         IsRepresentativeParticle=False
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=1.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=2.000000,Max=2.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=0.350000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.200000,Max=0.200000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         Name="MeshEmitter36"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.d_ro_warp1_ca.MeshEmitter36'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bDirectional=True
+}

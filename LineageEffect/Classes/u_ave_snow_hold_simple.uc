@@ -1,0 +1,76 @@
+class u_ave_snow_hold_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=76,G=76,R=76,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.700000,Max=0.700000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=1.350000
+         FadeOut=True
+         FadeInEndTime=0.105000
+         FadeIn=True
+         StartLocationOffset=(Z=1.000000)
+         StartLocationRange=(X=(Min=-12.000000,Max=12.000000),Y=(Min=-12.000000,Max=12.000000),Z=(Max=2.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.400000)
+         StartSizeRange=(X=(Min=15.000000,Max=20.000000),Y=(Min=15.000000,Max=20.000000),Z=(Min=15.000000,Max=20.000000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4035'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.300000,Max=1.500000)
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_ave_snow_hold_simple.SpriteEmitter7'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.ice_hold'
+         RenderTwoSided=True
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.900000,Max=0.900000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.610000
+         FadeOutStartTime=9.800000
+         FadeOut=True
+         MaxParticles=1
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.010000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.800000,Max=0.800000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=10.000000,Max=10.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter2"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.u_ave_snow_hold_simple.MeshEmitter2'
+     AutoDestroy=False
+     SpawnSound(0)=Sound'SkillSound11.snow_slow.ave_snow_hold'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bUnlit=False
+     SoundRadius=80.000000
+     SoundVolume=250.000000
+}

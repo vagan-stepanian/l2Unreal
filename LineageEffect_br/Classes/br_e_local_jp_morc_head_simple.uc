@@ -1,0 +1,166 @@
+class br_e_local_jp_morc_head_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter19
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=99,G=148,R=222,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.201000,Max=0.201000),Z=(Min=0.201000,Max=0.201000))
+         FadeOutStartTime=1.200000
+         MaxParticles=12
+         StartLocationOffset=(X=1.800000,Z=2.800000)
+         StartLocationRange=(X=(Min=-0.294000,Max=0.294000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.040000,RelativeSize=3.500000)
+         SizeScale(1)=(RelativeTime=0.050000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.546000,Max=0.546000),Y=(Min=0.546000,Max=0.546000),Z=(Min=0.546000,Max=0.546000))
+         InitialParticlesPerSecond=12.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0000'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=7
+         SubdivisionEnd=8
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter19"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_local_jp_morc_head_simple.SpriteEmitter19'
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.spirit_gun00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.521429,Color=(B=105,G=105,R=105,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Min=0.300000,Max=0.500000),Y=(Min=0.200000,Max=0.400000),Z=(Min=0.300000,Max=0.500000))
+         Opacity=0.800000
+         FadeOutStartTime=0.570000
+         FadeOut=True
+         StartLocationOffset=(X=1.300000,Z=2.800000)
+         StartLocationRange=(X=(Min=-0.420000,Max=0.420000))
+         SpinParticles=True
+         SpinCCWorCW=(Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000),Y=(Min=0.050000,Max=0.050000),Z=(Min=1.000000,Max=2.000000))
+         StartSpinRange=(Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.030000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.070000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.080000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=0.560000,RelativeSize=1.000000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=0.010000)
+         StartSizeRange=(X=(Min=0.010500,Max=0.010500),Y=(Min=0.005880,Max=0.007560),Z=(Min=0.005880,Max=0.007560))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=5.000000,Max=5.000000)
+         Name="MeshEmitter5"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect_Br.br_e_local_jp_morc_head_simple.MeshEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter20
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.500000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.657143,Color=(B=178,G=178,R=178,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=18.000000
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         FadeOutStartTime=0.702000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         StartLocationOffset=(X=1.800000,Z=2.800000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=0.125000,Max=0.125000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.040000,RelativeSize=1.300000)
+         SizeScale(1)=(RelativeTime=0.070000,RelativeSize=1.400000)
+         SizeScale(2)=(RelativeTime=0.130000,RelativeSize=1.450000)
+         SizeScale(3)=(RelativeTime=0.440000,RelativeSize=1.490000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=1.510000)
+         StartSizeRange=(X=(Min=0.352800,Max=0.352800),Y=(Min=0.352800,Max=0.352800),Z=(Min=0.352800,Max=0.352800))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0068'
+         LifetimeRange=(Min=1.300000,Max=1.300000)
+         Name="SpriteEmitter20"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect_Br.br_e_local_jp_morc_head_simple.SpriteEmitter20'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter21
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.682143,Color=(B=209,G=209,R=209,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=23.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         FadeOutStartTime=1.122000
+         FadeOut=True
+         MaxParticles=1
+         Disabled=True
+         StartLocationOffset=(X=1.800000,Z=2.800000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=0.125000,Max=0.125000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.030000,RelativeSize=1.600000)
+         SizeScale(1)=(RelativeTime=0.070000,RelativeSize=2.100000)
+         SizeScale(2)=(RelativeTime=0.120000,RelativeSize=2.400000)
+         SizeScale(3)=(RelativeTime=0.210000,RelativeSize=2.500000)
+         SizeScale(4)=(RelativeTime=0.520000,RelativeSize=2.600000)
+         SizeScale(5)=(RelativeTime=1.000000,RelativeSize=2.700000)
+         StartSizeRange=(X=(Min=0.504000,Max=0.504000),Y=(Min=0.504000,Max=0.504000),Z=(Min=0.504000,Max=0.504000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0002'
+         LifetimeRange=(Min=1.700000,Max=1.700000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         Name="SpriteEmitter21"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect_Br.br_e_local_jp_morc_head_simple.SpriteEmitter21'
+     Begin Object Class=MeshEmitter Name=MeshEmitter8
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.wispray00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.780000,Max=0.780000),Z=(Min=0.783000,Max=0.783000))
+         Opacity=0.200000
+         FadeOutStartTime=0.150000
+         FadeOut=True
+         FadeInEndTime=0.150000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationOffset=(X=1.800000,Z=2.800000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.012000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=0.008400,Max=0.008400),Y=(Min=0.008400,Max=0.008400),Z=(Min=0.008400,Max=0.008400))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter8"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect_Br.br_e_local_jp_morc_head_simple.MeshEmitter8'
+     bNoDelete=False
+}

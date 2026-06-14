@@ -1,0 +1,117 @@
+class u_wi_defense_shield_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter126
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.027000
+         FadeOut=True
+         MaxParticles=4
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=0.830000,RelativeSize=1.500000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=7.000000,Max=7.000000),Y=(Min=7.000000,Max=7.000000),Z=(Min=7.000000,Max=7.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=0.100000,Max=0.100000))
+         Name="SpriteEmitter126"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_wi_defense_shield_simple.SpriteEmitter126'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter127
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=244,G=193,R=159,A=255))
+         ColorScale(1)=(RelativeTime=0.278571,Color=(B=238,G=179,R=138,A=255))
+         ColorScale(2)=(RelativeTime=0.332143,Color=(B=239,G=16,R=78,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=242,G=191,R=149,A=255))
+         FadeOutStartTime=0.033000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.140000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3037'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         InitialDelayRange=(Min=0.150000,Max=0.150000)
+         Name="SpriteEmitter127"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_wi_defense_shield_simple.SpriteEmitter127'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter128
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.396429,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.450000,Color=(B=12,G=9,R=132,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.630000
+         FadeOutStartTime=0.084000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.230000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8062'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.160000,Max=0.160000)
+         Name="SpriteEmitter128"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_wi_defense_shield_simple.SpriteEmitter128'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter129
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=35,G=31,R=216,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.750000,Max=0.750000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.200000
+         MaxParticles=1
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=5.500000,Max=5.500000),Y=(Min=7.500000,Max=7.500000),Z=(Min=5.500000,Max=5.500000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t6166'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         SubdivisionEnd=1
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.030000,Max=0.030000)
+         StartVelocityRange=(Z=(Min=0.100000,Max=0.100000))
+         Name="SpriteEmitter129"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_wi_defense_shield_simple.SpriteEmitter129'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

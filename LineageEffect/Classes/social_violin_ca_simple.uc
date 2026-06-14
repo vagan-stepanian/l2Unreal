@@ -1,0 +1,118 @@
+class social_violin_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter12
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.840000
+         FadeOut=True
+         FadeInEndTime=0.390000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=30
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=1.000000,Max=3.000000))
+         RevolutionCenterOffsetRange=(Z=(Min=0.500000,Max=0.500000))
+         RevolutionsPerSecondRange=(Z=(Min=0.306000,Max=0.306000))
+         UseRevolutionScale=True
+         RevolutionScale(1)=(RelativeTime=1.000000,RelativeRevolution=(Z=1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.150000))
+         StartSpinRange=(X=(Min=-0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.290000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=0.470000,RelativeSize=1.500000)
+         SizeScale(3)=(RelativeTime=0.720000,RelativeSize=2.000000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=1.800000)
+         StartSizeRange=(X=(Min=0.199000,Max=0.312000),Y=(Min=0.199000,Max=0.312000),Z=(Min=0.199000,Max=0.312000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t6147'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-2.000000,Max=2.000000))
+         VelocityLossRange=(Z=(Min=0.500000,Max=0.500000))
+         Name="SpriteEmitter12"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.social_violin_ca_simple.SpriteEmitter12'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter13
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=0.700000,Max=1.000000),Z=(Min=0.700000,Max=1.000000))
+         Opacity=0.050000
+         FadeOutStartTime=0.600000
+         FadeOut=True
+         FadeInEndTime=0.300000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=40
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-3.000000,Max=3.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0063'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         SubdivisionStart=4
+         SubdivisionEnd=5
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         Name="SpriteEmitter13"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.social_violin_ca_simple.SpriteEmitter13'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter14
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=0.574000,Max=1.000000),Z=(Min=0.700000,Max=1.000000))
+         Opacity=0.050000
+         FadeOutStartTime=0.765000
+         FadeOut=True
+         FadeInEndTime=0.405000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=40
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=4.000000,Max=4.000000),Y=(Min=4.000000,Max=4.000000),Z=(Min=4.000000,Max=4.000000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0088'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         SubdivisionEnd=8
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         Name="SpriteEmitter14"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.social_violin_ca_simple.SpriteEmitter14'
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.social.Violin'
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOut=True
+         MaxParticles=1
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Name="MeshEmitter5"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.social_violin_ca_simple.MeshEmitter5'
+     AutoDestroy=False
+     bNoDelete=False
+     bUnlit=False
+}

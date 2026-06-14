@@ -1,0 +1,105 @@
+class d_wa_smash2_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter3
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.cross_plane1'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.482143,Color=(B=225,G=223,R=157,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=251,G=21,R=84,A=255))
+         Opacity=0.200000
+         FadeOutStartTime=0.200000
+         FadeOut=True
+         FadeInEndTime=0.200000
+         FadeIn=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=90.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.600000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.260000,Max=0.260000)
+         StartVelocityRange=(Z=(Min=-400.000000,Max=-400.000000))
+         Name="MeshEmitter3"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_wa_smash2_ca_simple.MeshEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter26
+         UseDirectionAs=PTDU_Forward
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.439286,Color=(B=209,G=168,R=148,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=130,G=87,A=255))
+         Opacity=0.750000
+         FadeOutStartTime=0.180000
+         FadeOut=True
+         FadeInEndTime=0.114000
+         FadeIn=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-0.100000,Max=0.100000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=10.000000,Max=40.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=1.750000,Max=3.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.600000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=25.000000,Max=25.000000),Y=(Min=25.000000,Max=25.000000),Z=(Min=25.000000,Max=25.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8104'
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(X=(Min=-0.020000,Max=0.020000),Y=(Min=-0.020000,Max=0.020000),Z=(Min=0.100000,Max=0.100000))
+         Name="SpriteEmitter26"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_wa_smash2_ca_simple.SpriteEmitter26'
+     Begin Object Class=MeshEmitter Name=MeshEmitter48
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_charge00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=-200.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=202,G=217,R=119,A=255))
+         ColorScale(1)=(RelativeTime=0.346429,Color=(B=23,G=99,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(R=166,A=255))
+         ColorMultiplierRange=(X=(Min=0.750000,Max=0.750000),Y=(Min=0.750000,Max=0.750000),Z=(Min=0.750000,Max=0.750000))
+         Opacity=0.200000
+         FadeOutStartTime=0.140800
+         FadeOut=True
+         FadeInEndTime=0.013200
+         FadeIn=True
+         MaxParticles=19
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=30.000000,Max=30.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.350000,Max=0.350000),Y=(Min=0.350000,Max=0.350000),Z=(Min=0.500000,Max=0.500000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles6.fx_m_t7084'
+         LifetimeRange=(Min=0.350000,Max=0.350000)
+         InitialDelayRange=(Min=0.020000,Max=0.020000)
+         StartVelocityRange=(Z=(Min=50.000000,Max=50.000000))
+         Name="MeshEmitter48"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.d_wa_smash2_ca_simple.MeshEmitter48'
+     bLightChanged=True
+     bNoDelete=False
+     DrawScale=0.200000
+}

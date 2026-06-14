@@ -1,0 +1,90 @@
+class mb_frintessa_organ_cancel extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter451
+         Acceleration=(Z=1.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.850000,Max=0.850000),Y=(Min=0.872000,Max=0.910000),Z=(Min=0.960000,Max=0.960000))
+         Opacity=0.300000
+         FadeOutStartTime=0.350000
+         FadeOut=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=7.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=20.000000,Max=20.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.360000)
+         SpinsPerSecondRange=(X=(Max=0.013000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.120000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=15.000000,Max=30.000000),Y=(Min=15.000000,Max=30.000000),Z=(Min=15.000000,Max=30.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2053'
+         TextureUSubdivisions=10
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=25
+         SubdivisionEnd=39
+         LifetimeRange=(Min=0.800000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-20.000000,Max=20.000000),Y=(Min=-20.000000,Max=20.000000),Z=(Min=50.000000,Max=100.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=2.000000),Y=(Min=1.000000,Max=2.000000),Z=(Min=3.000000,Max=3.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter451"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.mb_frintessa_organ_cancel.SpriteEmitter451'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter452
+         Acceleration=(Z=5.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.623000,Max=0.623000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.200000
+         FadeOutStartTime=0.350000
+         FadeOut=True
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=5.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=30.000000,Max=30.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.025000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.120000,RelativeSize=1.300000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=20.000000,Max=30.000000),Y=(Min=20.000000,Max=30.000000),Z=(Min=20.000000,Max=30.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2054'
+         TextureUSubdivisions=10
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=22
+         SubdivisionEnd=28
+         LifetimeRange=(Min=0.800000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-60.000000,Max=60.000000),Y=(Min=-60.000000,Max=60.000000),Z=(Min=60.000000,Max=120.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.500000),Y=(Min=1.000000,Max=1.500000),Z=(Max=1.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter452"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.mb_frintessa_organ_cancel.SpriteEmitter452'
+     bRotEmitter=True
+     bDynamicActorFilterState=True
+     bLightChanged=True
+     bNoDelete=False
+     Rotation=(Yaw=17000)
+     DrawScale=0.200000
+     SwayRotationOrig=(Yaw=17000)
+     bDirectional=True
+}

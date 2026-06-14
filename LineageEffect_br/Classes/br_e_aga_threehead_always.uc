@@ -1,0 +1,83 @@
+class br_e_aga_threehead_always extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         Acceleration=(Z=-2.000000)
+         ColorScale(0)=(Color=(B=255,G=128,A=255))
+         ColorScale(1)=(RelativeTime=0.521429,Color=(B=255,G=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,A=255))
+         ColorScaleRepeats=50.000000
+         ColorMultiplierRange=(X=(Max=0.100000),Y=(Max=0.500000),Z=(Min=0.900000,Max=0.900000))
+         FadeOutStartTime=0.940000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=36
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Max=4.000000)
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(Z=(Max=0.100000))
+         RevolutionsPerSecondRange=(Z=(Min=0.500000,Max=1.000000))
+         UseRevolutionScale=True
+         RevolutionScale(0)=(RelativeTime=0.100000,RelativeRevolution=(Z=0.100000))
+         RevolutionScale(1)=(RelativeTime=1.000000,RelativeRevolution=(Z=0.200000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.125000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Max=0.500000),Y=(Max=0.500000),Z=(Max=0.500000))
+         InitialParticlesPerSecond=36.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0083'
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         InitialDelayRange=(Max=0.500000)
+         StartVelocityRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-2.000000,Max=-2.000000))
+         VelocityLossRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Max=0.500000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_aga_threehead_always.SpriteEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter25
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_charge02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.442857,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=8.000000
+         ColorMultiplierRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.900000,Max=0.900000))
+         Opacity=0.600000
+         FadeOutStartTime=0.112000
+         FadeOut=True
+         StartLocationShape=PTLS_Sphere
+         StartLocationPolarRange=(X=(Min=90.000000,Max=90.000000),Y=(Max=360.000000),Z=(Min=15.000000,Max=20.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.300000),Y=(Max=0.300000),Z=(Max=0.300000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.600000,RelativeSize=0.900000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=10.000000
+         StartSizeRange=(X=(Max=0.150000),Y=(Max=0.150000),Z=(Max=0.150000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.200000,Max=0.700000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(X=(Min=25.000000,Max=25.000000),Y=(Min=25.000000,Max=25.000000),Z=(Min=25.000000,Max=25.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="MeshEmitter25"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect_Br.br_e_aga_threehead_always.MeshEmitter25'
+     bUpdate=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

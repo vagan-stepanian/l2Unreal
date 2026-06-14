@@ -1,0 +1,74 @@
+class a_u025_ave_sp_down extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter0
+         VertexMesh=VertMesh'LineageEffectMeshes.speedDown3'
+         UseMeshBlendMode=False
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=62,G=69,R=104,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=48,G=55,R=88,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.740000,Max=0.770000),Z=(Min=0.740000,Max=0.770000))
+         Opacity=0.600000
+         FadeOutStartTime=1.305000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=40
+         StartLocationOffset=(Z=-2.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.400000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.300000),Y=(Min=0.150000,Max=0.300000),Z=(Min=0.100000,Max=0.400000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles6.fx_m_t4091'
+         LifetimeRange=(Min=1.980000,Max=1.980000)
+         Name="VertMeshEmitter0"
+     End Object
+     Emitters(0)=VertMeshEmitter'LineageEffect.a_u025_ave_sp_down.VertMeshEmitter0'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter1
+         VertexMesh=VertMesh'LineageEffectMeshes.speedDown3'
+         UseMeshBlendMode=False
+         UseParticleColor=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=232,G=232,R=232,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=68,G=68,R=68,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.900000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.800000
+         FadeOutStartTime=1.305000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=12
+         StartLocationOffset=(Z=-2.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.400000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.300000),Y=(Min=0.150000,Max=0.300000),Z=(Min=0.100000,Max=0.400000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles6.fx_m_t4091'
+         LifetimeRange=(Min=1.980000,Max=1.980000)
+         Name="VertMeshEmitter1"
+     End Object
+     Emitters(1)=VertMeshEmitter'LineageEffect.a_u025_ave_sp_down.VertMeshEmitter1'
+     SpawnSound(0)=Sound'SkillSound11.a_u025_ave_sp_down.a_u025_ave_sp_down_loop'
+     SoundLooping=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     SoundRadius=80.000000
+     SoundVolume=250.000000
+}

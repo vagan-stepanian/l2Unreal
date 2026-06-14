@@ -1,0 +1,167 @@
+class z_ice_heavyknight_fl extends NskillProjectile;
+
+defaultproperties
+{
+     Speed=300.000000
+     AccSpeed=1000.000000
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.water.iceRock3'
+         ColorScale(0)=(Color=(A=255))
+         ColorScale(1)=(RelativeTime=0.489286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(A=255))
+         FadeOut=True
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000),Z=(Min=0.250000,Max=0.250000))
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.370000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.390000,Max=1.010000),Y=(Min=0.390000,Max=1.010000),Z=(Min=0.390000,Max=1.010000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=2.840000,Max=4.040000)
+         Name="MeshEmitter5"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.z_ice_heavyknight_fl.MeshEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter31
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=-14.500000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.898000,Max=0.898000),Y=(Min=0.960000,Max=0.960000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.200000
+         FadeOutStartTime=0.800000
+         FadeOut=True
+         FadeInEndTime=0.700000
+         FadeIn=True
+         MaxParticles=42
+         Disabled=True
+         StartLocationRange=(X=(Min=-18.090000,Max=18.090000),Y=(Min=-18.090000,Max=18.090000),Z=(Min=-2.000000,Max=2.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.050000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=22.979000,Max=29.768000),Y=(Min=28.219999,Max=39.587002),Z=(Min=22.979000,Max=29.768000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t6030'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=10
+         LifetimeRange=(Min=2.644000,Max=3.552000)
+         InitialDelayRange=(Min=0.900000,Max=0.900000)
+         StartVelocityRange=(Z=(Min=-46.444000,Max=-29.771000))
+         VelocityLossRange=(Z=(Min=1.800000,Max=1.800000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter31"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.z_ice_heavyknight_fl.SpriteEmitter31'
+     Begin Object Class=MeshEmitter Name=MeshEmitter9
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.water.iceRock3'
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.378000
+         FadeOut=True
+         FadeInEndTime=0.183600
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=20
+         StartLocationOffset=(X=-17.850000)
+         StartLocationRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         StartLocationShape=PTLS_Polar
+         SphereRadiusRange=(Min=-1.500000,Max=1.500000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=11.276000,Max=13.538000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.250000)
+         SizeScale(1)=(RelativeTime=0.590000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=0.072000,Max=0.119000),Y=(Min=0.072000,Max=0.119000),Z=(Min=0.072000,Max=0.119000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.615000,Max=0.615000)
+         InitialDelayRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(X=(Min=-162.832993,Max=-101.438004))
+         Name="MeshEmitter9"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.z_ice_heavyknight_fl.MeshEmitter9'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter92
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.157143,Color=(B=193,G=193,R=193,A=255))
+         ColorScale(2)=(RelativeTime=0.339286,Color=(B=255,G=210,R=166,A=255))
+         ColorScale(3)=(RelativeTime=0.532143,Color=(B=200,G=200,R=200,A=255))
+         ColorScale(4)=(RelativeTime=0.714286,Color=(B=242,G=191,R=191,A=255))
+         ColorScale(5)=(RelativeTime=0.875000,Color=(B=205,G=205,R=205,A=255))
+         ColorScale(6)=(RelativeTime=1.000000,Color=(B=255,G=252,R=244,A=255))
+         ColorScale(7)=(RelativeTime=1.000000,Color=(B=232,G=232,R=232,A=255))
+         Opacity=0.000000
+         FadeOutStartTime=0.501000
+         FadeOut=True
+         FadeInEndTime=0.267200
+         FadeIn=True
+         MaxParticles=15
+         StartLocationOffset=(Z=0.414000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Min=-10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.200000,Max=0.200000))
+         StartSpinRange=(X=(Min=-0.200000,Max=0.200000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.490000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1022'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.835000,Max=0.835000)
+         Name="SpriteEmitter92"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.z_ice_heavyknight_fl.SpriteEmitter92'
+     Begin Object Class=TrailEmitter Name=TrailEmitter288
+         TrailShadeType=PTTST_PointLife
+         MaxPointsPerTrail=200
+         PointLifeTime=0.900000
+         VelocityMinThreshold=1.000000
+         AttachEmitterIndex=3
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.753000,Max=0.753000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.500000
+         FadeOutStartTime=0.522000
+         FadeOut=True
+         FadeInEndTime=0.117000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=1
+         AutoReset=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=4.620000,Max=4.620000),Y=(Min=4.620000,Max=4.620000),Z=(Min=4.620000,Max=4.620000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0123'
+         LifetimeRange=(Min=0.900000,Max=0.900000)
+         Name="TrailEmitter288"
+     End Object
+     Emitters(4)=TrailEmitter'LineageEffect.z_ice_heavyknight_fl.TrailEmitter288'
+     bUseDynamicLights=False
+     bLightChanged=True
+     bAcceptsProjectors=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

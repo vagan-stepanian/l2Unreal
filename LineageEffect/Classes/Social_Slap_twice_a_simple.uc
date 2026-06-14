@@ -1,0 +1,136 @@
+class Social_Slap_twice_a_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         ColorScale(0)=(Color=(G=255,R=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(G=255,R=128,A=255))
+         ColorMultiplierRange=(X=(Min=0.544000,Max=0.544000),Y=(Min=0.544000,Max=0.544000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.102000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.300000,Max=0.300000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=1.250000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=-15.000000,Max=-15.000000),Y=(Min=-15.000000,Max=-15.000000),Z=(Min=-15.000000,Max=-15.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t8305'
+         LifetimeRange=(Min=0.120000,Max=0.120000)
+         InitialDelayRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(Z=(Min=0.100000,Max=0.100000))
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.Social_Slap_twice_a_simple.SpriteEmitter11'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter14
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.532143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         FadeOutStartTime=0.201500
+         FadeOut=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-8.000000,Max=8.000000),Y=(Min=-8.000000,Max=8.000000),Z=(Min=-8.000000,Max=8.000000))
+         RevolutionCenterOffsetRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-0.500000,Max=0.500000))
+         RevolutionsPerSecondRange=(X=(Min=-0.100000,Max=0.100000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.400000)
+         StartSizeRange=(X=(Min=3.000000,Max=5.000000),Y=(Min=3.000000,Max=5.000000),Z=(Min=3.000000,Max=5.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.250000,Max=0.400000)
+         InitialDelayRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(Z=(Min=-2.000000,Max=2.000000))
+         Name="SpriteEmitter14"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.Social_Slap_twice_a_simple.SpriteEmitter14'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter21
+         ColorScale(0)=(Color=(G=255,R=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(G=255,R=128,A=255))
+         Opacity=0.910000
+         FadeOutStartTime=0.105000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5133'
+         SubdivisionEnd=8
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         InitialDelayRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(Z=(Min=0.100000,Max=0.100000))
+         Name="SpriteEmitter21"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.Social_Slap_twice_a_simple.SpriteEmitter21'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter22
+         ColorScale(0)=(Color=(G=255,R=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(G=255,R=128,A=255))
+         ColorMultiplierRange=(X=(Min=0.544000,Max=0.544000),Y=(Min=0.544000,Max=0.544000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.102000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=1.250000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=-8.000000,Max=-8.000000),Y=(Min=-8.000000,Max=-8.000000),Z=(Min=-8.000000,Max=-8.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t8305'
+         LifetimeRange=(Min=0.120000,Max=0.120000)
+         StartVelocityRange=(Z=(Min=0.100000,Max=0.100000))
+         Name="SpriteEmitter22"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.Social_Slap_twice_a_simple.SpriteEmitter22'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2328
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.000000
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         UniformSize=True
+         InitialParticlesPerSecond=100000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter2328"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.Social_Slap_twice_a_simple.SpriteEmitter2328'
+     AutoDestroy=False
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=-208)
+     DrawScale=0.050000
+     SwayRotationOrig=(Yaw=-208)
+}

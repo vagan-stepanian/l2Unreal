@@ -1,0 +1,98 @@
+class d_wi_mbfire_ta_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         Acceleration=(X=-150.000000,Z=75.000000)
+         ColorScale(0)=(Color=(R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=107,G=177,R=254,A=255))
+         ColorMultiplierRange=(X=(Min=0.310000,Max=0.310000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.590000
+         FadeOutStartTime=0.552000
+         FadeOut=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.200000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=30.000000,Max=30.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4152'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         StartVelocityRange=(X=(Min=-75.000000,Max=75.000000),Y=(Min=-75.000000,Max=75.000000),Z=(Min=-75.000000,Max=75.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_wi_mbfire_ta_simple.SpriteEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=47,G=125,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=0.700000,Max=1.000000),Z=(Min=0.700000,Max=1.000000))
+         Opacity=0.660000
+         FadeOutStartTime=0.119000
+         FadeOut=True
+         FadeInEndTime=0.049000
+         FadeIn=True
+         MaxParticles=7
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.400000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.450000),Y=(Min=0.150000,Max=0.450000),Z=(Min=0.150000,Max=0.450000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(X=(Min=-75.000000,Max=15.000000))
+         Name="MeshEmitter0"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_wi_mbfire_ta_simple.MeshEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.257143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.307143,Color=(R=249,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=247,G=77,R=4,A=255))
+         Opacity=0.720000
+         FadeOutStartTime=0.115000
+         FadeOut=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.200000)
+         StartSizeRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=30.000000,Max=30.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3037'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_wi_mbfire_ta_simple.SpriteEmitter3'
+     AutoReplay=True
+     bAllDead=True
+     bNoDelete=False
+}

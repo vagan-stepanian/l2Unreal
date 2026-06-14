@@ -1,0 +1,51 @@
+class w_poem_sing_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter26
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.840000,Max=0.840000),Z=(Min=0.810000,Max=0.810000))
+         FadeOutStartTime=2.040000
+         FadeOut=True
+         FadeInEndTime=0.750000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-2.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=1.000000,Max=3.000000))
+         RevolutionCenterOffsetRange=(Z=(Min=0.500000,Max=0.500000))
+         RevolutionsPerSecondRange=(Z=(Min=0.306000,Max=0.306000))
+         UseRevolutionScale=True
+         RevolutionScale(1)=(RelativeTime=1.000000,RelativeRevolution=(Z=1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.150000))
+         StartSpinRange=(X=(Min=-0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.290000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=0.470000,RelativeSize=1.500000)
+         SizeScale(3)=(RelativeTime=0.720000,RelativeSize=2.000000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=1.800000)
+         StartSizeRange=(X=(Min=0.185000,Max=0.499000),Y=(Min=0.185000,Max=0.499000),Z=(Min=0.185000,Max=0.499000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t6147'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(X=(Min=2.000000,Max=6.000000),Z=(Min=1.500000,Max=2.000000))
+         VelocityLossRange=(Z=(Min=0.500000,Max=0.500000))
+         Name="SpriteEmitter26"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.w_poem_sing_simple.SpriteEmitter26'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     bDirectional=True
+}

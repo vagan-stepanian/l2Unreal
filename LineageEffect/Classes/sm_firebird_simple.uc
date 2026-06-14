@@ -1,0 +1,112 @@
+class sm_firebird_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter17
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.phoenix'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.900000,Max=0.900000))
+         FadeOutStartTime=1.000000
+         MaxParticles=100
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.600000,Max=0.600000))
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter17"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.sm_firebird_simple.MeshEmitter17'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter12
+         UseDirectionAs=PTDU_Up
+         Acceleration=(X=-187.041428)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.600000
+         FadeOutStartTime=0.408000
+         FadeOut=True
+         FadeInEndTime=0.294000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationOffset=(X=-12.000000,Z=1.000000)
+         StartLocationRange=(X=(Max=8.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=0.300000,RelativeSize=0.700000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.010000)
+         StartSizeRange=(X=(Min=4.000000,Max=6.690000),Y=(Min=14.000000,Max=20.908001),Z=(Min=8.364000,Max=8.364000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Fire.fx_m_t_3001'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=31
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(X=(Min=-40.924000,Max=-3.924000))
+         Name="SpriteEmitter12"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.sm_firebird_simple.SpriteEmitter12'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.600000,Max=0.600000))
+         FadeOutStartTime=1.000000
+         MaxParticles=1
+         StartLocationOffset=(X=3.000000,Z=1.000000)
+         UniformSize=True
+         StartSizeRange=(X=(Min=39.000000,Max=39.000000),Y=(Min=78.000000,Max=78.000000),Z=(Min=39.000000,Max=39.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3208'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.sm_firebird_simple.SpriteEmitter16'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter17
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.900000,Max=0.900000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.760000
+         FadeOutStartTime=0.324000
+         FadeOut=True
+         FadeInEndTime=0.234000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=60
+         StartLocationOffset=(Z=3.000000)
+         StartLocationRange=(X=(Min=-6.000000,Max=-4.000000),Y=(Min=-14.000000,Max=14.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=3.000000,Max=6.000000),Y=(Min=8.000000,Max=14.000000),Z=(Min=6.300000,Max=6.300000))
+         InitialParticlesPerSecond=35.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3048'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=8
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=50
+         LifetimeRange=(Min=0.500000,Max=0.800000)
+         StartVelocityRange=(X=(Min=50.703999,Max=100.704002),Y=(Min=4.600000,Max=4.600000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter17"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.sm_firebird_simple.SpriteEmitter17'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.050000
+}

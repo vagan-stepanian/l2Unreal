@@ -1,0 +1,164 @@
+class u_mon_holy1_ta extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter821
+         Acceleration=(Z=10.000000)
+         ColorScale(0)=(Color=(B=255,G=98,R=130,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=203,G=84,R=92,A=255))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.400000,Max=0.400000))
+         Opacity=0.500000
+         FadeOutStartTime=0.112000
+         FadeOut=True
+         FadeInEndTime=0.048000
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=-0.100000,Max=0.100000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.100000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=35.000000,Max=35.000000),Y=(Min=100.000000,Max=100.000000),Z=(Min=35.000000,Max=35.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t4072'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         StartVelocityRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter821"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_mon_holy1_ta.SpriteEmitter821'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter822
+         UseDirectionAs=PTDU_Forward
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.214286,Color=(B=128,G=242,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=99,G=165,R=254,A=255))
+         Opacity=0.900000
+         FadeOutStartTime=0.120000
+         FadeOut=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.400000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.750000)
+         StartSizeRange=(X=(Min=35.000000,Max=35.000000),Y=(Min=35.000000,Max=35.000000),Z=(Min=35.000000,Max=35.000000))
+         InitialParticlesPerSecond=200.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8034'
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(X=(Min=-20.000000,Max=20.000000),Y=(Min=-20.000000,Max=20.000000),Z=(Min=10.000000,Max=10.000000))
+         Name="SpriteEmitter822"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_mon_holy1_ta.SpriteEmitter822'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter823
+         Acceleration=(Z=10.000000)
+         ColorScale(0)=(Color=(B=255,G=203,R=151,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=213,G=146,R=72,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.900000,Max=0.900000))
+         Opacity=0.600000
+         FadeOutStartTime=0.108000
+         FadeOut=True
+         FadeInEndTime=0.048000
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         UseRevolution=True
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=35.000000,Max=35.000000),Y=(Min=100.000000,Max=100.000000),Z=(Min=35.000000,Max=35.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t7077'
+         TextureUSubdivisions=5
+         TextureVSubdivisions=8
+         SubdivisionEnd=40
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-18.000000,Max=18.000000),Y=(Min=-18.000000,Max=18.000000),Z=(Min=-18.000000,Max=18.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter823"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_mon_holy1_ta.SpriteEmitter823'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter824
+         ColorScale(0)=(Color=(B=227,R=97,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=86,G=31,R=69,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.100000
+         FadeOut=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-10.000000,Max=10.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=3.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.200000)
+         StartSizeRange=(X=(Min=1.000000,Max=10.000000),Y=(Min=1.000000,Max=10.000000),Z=(Min=1.000000,Max=10.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t6081'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         Name="SpriteEmitter824"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_mon_holy1_ta.SpriteEmitter824'
+     Begin Object Class=MeshEmitter Name=MeshEmitter488
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.Cir_Beam'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.489286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.500000,Max=0.500000))
+         FadeOutStartTime=0.037500
+         FadeOut=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=0.270000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.100000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.200000,Max=0.200000),Z=(Min=0.400000,Max=0.400000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles2.fx_m_t_3042'
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         Name="MeshEmitter488"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.u_mon_holy1_ta.MeshEmitter488'
+     bAllDead=True
+     bNoDelete=False
+}

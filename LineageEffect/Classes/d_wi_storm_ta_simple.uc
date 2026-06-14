@@ -1,0 +1,140 @@
+class d_wi_storm_ta_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter22
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.478571,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=4.000000
+         ColorMultiplierRange=(X=(Min=0.868000,Max=0.868000),Y=(Min=0.490000,Max=0.490000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.900000
+         FadeOutStartTime=0.115000
+         FadeOut=True
+         FadeInEndTime=0.055000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=15.412000,Max=15.412000),Y=(Min=15.412000,Max=15.412000),Z=(Min=15.412000,Max=15.412000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5009'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter22"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_wi_storm_ta_simple.SpriteEmitter22'
+     Begin Object Class=MeshEmitter Name=MeshEmitter76
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_charge01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=95,G=122,R=250,A=255))
+         ColorScale(1)=(RelativeTime=0.107143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.189286,Color=(A=255))
+         ColorScale(3)=(RelativeTime=0.789286,Color=(A=255))
+         ColorScale(4)=(RelativeTime=0.932143,Color=(B=90,G=118,R=250,A=255))
+         ColorScale(5)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=2.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.700000,Max=0.700000))
+         FadeOutStartTime=0.400000
+         FadeOut=True
+         FadeInEndTime=0.030000
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-13.000000,Max=13.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.800000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.600000),Y=(Min=0.300000,Max=0.600000),Z=(Min=0.300000,Max=0.600000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.600000,Max=0.768000)
+         Name="MeshEmitter76"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.d_wi_storm_ta_simple.MeshEmitter76'
+     Begin Object Class=MeshEmitter Name=MeshEmitter45
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.deadblow2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.175000,Color=(B=200,G=153,R=55,A=255))
+         ColorScale(2)=(RelativeTime=0.514286,Color=(B=153,G=49,R=49,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(A=255))
+         FadeOutStartTime=0.105000
+         FadeOut=True
+         MaxParticles=4
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-5.000000,Max=-5.000000))
+         SpinParticles=True
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=3.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=0.050000,Max=0.050000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(X=(Min=-100.000000,Max=-100.000000))
+         VelocityLossRange=(X=(Min=6.000000,Max=6.000000))
+         Name="MeshEmitter45"
+     End Object
+     Emitters(6)=MeshEmitter'LineageEffect.d_wi_storm_ta_simple.MeshEmitter45'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter30
+         Acceleration=(Z=5.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=160,G=160,R=160,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=90.000000
+         FadeOutStartTime=0.040000
+         FadeOut=True
+         MaxParticles=2
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.125000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.080000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=8.540000,Max=8.540000),Y=(Min=8.540000,Max=8.540000),Z=(Min=8.540000,Max=8.540000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3051'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=15
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter30"
+     End Object
+     Emitters(7)=SpriteEmitter'LineageEffect.d_wi_storm_ta_simple.SpriteEmitter30'
+     bNoDelete=False
+}

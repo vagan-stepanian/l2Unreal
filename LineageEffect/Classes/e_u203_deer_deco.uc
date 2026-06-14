@@ -1,0 +1,115 @@
+class e_u203_deer_deco extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter27
+         Acceleration=(X=-90.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.550000,Color=(G=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=128,R=255,A=255))
+         ColorScaleRepeats=9.000000
+         ColorMultiplierRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=0.700000,Max=1.000000),Z=(Min=0.700000,Max=1.000000))
+         FadeOutStartTime=0.380000
+         FadeOut=True
+         FadeInEndTime=0.110000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=120
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=-20.000000,Z=20.000000)
+         StartLocationRange=(X=(Min=-1.120000,Max=1.120000),Y=(Min=-1.568000,Max=1.568000),Z=(Min=-1.568000,Max=1.568000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=15.000000,Max=20.000000)
+         UseRevolution=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Min=0.075000,Max=3.750000),Y=(Min=0.075000,Max=3.750000),Z=(Min=0.075000,Max=3.750000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3005'
+         UseRandomSubdivision=True
+         SubdivisionEnd=1
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-75.000000,Max=-75.000000))
+         Name="SpriteEmitter27"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u203_deer_deco.SpriteEmitter27'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter5
+         Acceleration=(X=-54.000004)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,R=128,A=255))
+         ColorScale(1)=(RelativeTime=0.550000,Color=(B=128,G=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         ColorScaleRepeats=9.000000
+         ColorMultiplierRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=0.700000,Max=1.000000),Z=(Min=0.700000,Max=1.000000))
+         FadeOutStartTime=0.380000
+         FadeOut=True
+         FadeInEndTime=0.110000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=120
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=25.000000,Z=20.000000)
+         StartLocationRange=(X=(Min=-2.520000,Max=2.520000),Y=(Min=-3.528000,Max=3.528000),Z=(Min=-3.528000,Max=3.528000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=15.000000,Max=20.000000)
+         UseRevolution=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Min=0.045000,Max=2.250000),Y=(Min=0.045000,Max=2.250000),Z=(Min=0.045000,Max=2.250000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3005'
+         UseRandomSubdivision=True
+         SubdivisionEnd=1
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-45.000000,Max=-45.000000))
+         Name="SpriteEmitter5"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u203_deer_deco.SpriteEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         Acceleration=(X=-32.400005)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,A=255))
+         ColorScale(1)=(RelativeTime=0.550000,Color=(G=64,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=128,R=255,A=255))
+         ColorScaleRepeats=9.000000
+         ColorMultiplierRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=0.700000,Max=1.000000),Z=(Min=0.700000,Max=1.000000))
+         FadeOutStartTime=0.380000
+         FadeOut=True
+         FadeInEndTime=0.110000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=120
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=80.000000,Z=20.000000)
+         StartLocationRange=(X=(Min=-1.512000,Max=1.512000),Y=(Min=-2.117000,Max=2.117000),Z=(Min=-2.117000,Max=2.117000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=15.000000,Max=20.000000)
+         UseRevolution=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Min=0.027000,Max=1.350000),Y=(Min=0.027000,Max=1.350000),Z=(Min=0.027000,Max=1.350000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3005'
+         UseRandomSubdivision=True
+         SubdivisionEnd=1
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-27.000002,Max=-27.000002))
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.e_u203_deer_deco.SpriteEmitter6'
+     bNoDelete=False
+     DrawScale=0.500000
+}

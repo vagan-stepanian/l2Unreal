@@ -1,0 +1,134 @@
+class d_mon_wind_handca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter25
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.390000
+         FadeOut=True
+         FadeInEndTime=0.114000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         ForcedFade=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.070000,Max=0.130000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=4.000000,Max=4.000000),Y=(Min=4.000000,Max=4.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5004'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         SubdivisionStart=2
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="SpriteEmitter25"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_mon_wind_handca_simple.SpriteEmitter25'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter26
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.276000
+         FadeOut=True
+         FadeInEndTime=0.156000
+         FadeIn=True
+         WeatherSoundCheck=True
+         ForcedFade=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.230000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=13.000000,Max=13.000000),Y=(Min=13.000000,Max=13.000000),Z=(Min=13.000000,Max=13.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=None
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="SpriteEmitter26"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_mon_wind_handca_simple.SpriteEmitter26'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Wind.rollingWind'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=7.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=192,G=175,R=97,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=209,G=206,R=143,A=255))
+         FadeOutStartTime=0.252000
+         FadeOut=True
+         FadeInEndTime=0.102000
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-3.000000)
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Max=3.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.150000,Max=0.400000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-0.050000,Max=0.050000),Z=(Min=-0.050000,Max=0.050000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=3.600000)
+         StartSizeRange=(X=(Min=3.330000,Max=5.680000),Y=(Min=3.330000,Max=5.680000),Z=(Min=2.130000,Max=3.360000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(Z=(Min=-5.700000))
+         Name="MeshEmitter2"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_mon_wind_handca_simple.MeshEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter19
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=0.276000
+         FadeOut=True
+         FadeInEndTime=0.096000
+         FadeIn=True
+         WeatherSoundCheck=True
+         ForcedFade=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.060000,Max=0.140000))
+         StartSpinRange=(X=(Min=0.100000,Max=0.300000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.230000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.960000)
+         StartSizeRange=(X=(Min=11.000000,Max=11.000000),Y=(Min=11.000000,Max=11.000000),Z=(Min=11.000000,Max=11.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=None
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="SpriteEmitter19"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_mon_wind_handca_simple.SpriteEmitter19'
+     bRotEmitter=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.050000
+     bUnlit=False
+}

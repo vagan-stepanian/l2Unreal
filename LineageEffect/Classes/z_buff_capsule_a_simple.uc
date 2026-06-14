@@ -1,0 +1,200 @@
+class z_buff_capsule_a_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter21
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=233,R=187,A=255))
+         Opacity=0.400000
+         FadeOutStartTime=0.294000
+         FadeOut=True
+         FadeInEndTime=0.156000
+         FadeIn=True
+         MaxParticles=2
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.350000)
+         StartSizeRange=(X=(Min=25.000000,Max=25.000000),Y=(Min=37.500000,Max=37.500000),Z=(Min=25.000000,Max=25.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t8213'
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         StartVelocityRange=(Z=(Min=-0.050000,Max=0.050000))
+         Name="SpriteEmitter21"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.z_buff_capsule_a_simple.SpriteEmitter21'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter12
+         VertexMesh=VertMesh'LineageEffectMeshes.sh555'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=0.700000,Max=1.000000),Z=(Min=0.700000,Max=1.000000))
+         Opacity=0.850000
+         FadeOutStartTime=0.198000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=25.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.140000,Max=0.140000),Y=(Min=0.140000,Max=0.140000),Z=(Min=-0.190000,Max=-0.190000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.650000,Max=0.650000)
+         InitialDelayRange=(Min=0.250000,Max=0.250000)
+         Name="VertMeshEmitter12"
+     End Object
+     Emitters(1)=VertMeshEmitter'LineageEffect.z_buff_capsule_a_simple.VertMeshEmitter12'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter13
+         VertexMesh=VertMesh'LineageEffectMeshes.sh555'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=0.700000,Max=1.000000),Z=(Min=0.700000,Max=1.000000))
+         FadeOutStartTime=0.198000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-23.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.140000,Max=0.140000),Y=(Min=0.140000,Max=0.140000),Z=(Min=0.190000,Max=0.190000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.650000,Max=0.650000)
+         InitialDelayRange=(Min=0.250000,Max=0.250000)
+         Name="VertMeshEmitter13"
+     End Object
+     Emitters(2)=VertMeshEmitter'LineageEffect.z_buff_capsule_a_simple.VertMeshEmitter13'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter22
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=64,G=79,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.321429,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.657143,Color=(B=128,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=118,G=183,R=254,A=255))
+         Opacity=0.760000
+         FadeOutStartTime=0.073500
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=40.000000,Max=40.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0138'
+         LifetimeRange=(Min=0.350000,Max=0.350000)
+         StartVelocityRange=(Z=(Min=-0.050000,Max=0.050000))
+         Name="SpriteEmitter22"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.z_buff_capsule_a_simple.SpriteEmitter22'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter23
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=192,G=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=210,R=166,A=255))
+         Opacity=0.650000
+         FadeOutStartTime=0.294000
+         FadeOut=True
+         FadeInEndTime=0.156000
+         FadeIn=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=25.000000,Max=25.000000),Y=(Min=40.000000,Max=40.000000),Z=(Min=25.000000,Max=25.000000))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         StartVelocityRange=(Z=(Min=-0.050000,Max=0.050000))
+         Name="SpriteEmitter23"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.z_buff_capsule_a_simple.SpriteEmitter23'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter24
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=242,G=98,R=77,A=255))
+         ColorScale(1)=(RelativeTime=0.321429,Color=(B=255,G=64,R=88,A=255))
+         ColorScale(2)=(RelativeTime=0.657143,Color=(B=255,G=245,R=128,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=166,R=117,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=0.610000
+         FadeOut=True
+         FadeInEndTime=0.150000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.050000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=40.000000,Max=40.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t8212'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.150000,Max=0.150000)
+         StartVelocityRange=(Z=(Min=0.010000,Max=0.010000))
+         Name="SpriteEmitter24"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.z_buff_capsule_a_simple.SpriteEmitter24'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter31
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.550000,Color=(B=47,G=47,R=47,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Min=20.000000,Max=20.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.600000,Max=1.000000)
+         StartVelocityRange=(X=(Min=50.000000,Max=100.000000),Y=(Min=50.000000,Max=100.000000),Z=(Min=50.000000,Max=100.000000))
+         VelocityLossRange=(X=(Min=3.000000,Max=7.000000),Y=(Min=3.000000,Max=7.000000),Z=(Min=3.000000,Max=7.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter31"
+     End Object
+     Emitters(6)=SpriteEmitter'LineageEffect.z_buff_capsule_a_simple.SpriteEmitter31'
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

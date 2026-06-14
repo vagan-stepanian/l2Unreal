@@ -1,0 +1,138 @@
+class s_u804_hand_a extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter41
+         UseDirectionAs=PTDU_Forward
+         UseColorScale=True
+         ColorScale(0)=(Color=(A=255))
+         ColorScale(1)=(RelativeTime=0.064286,Color=(B=119,G=184,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.128571,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.275000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(4)=(RelativeTime=0.500000,Color=(B=35,G=35,R=116,A=255))
+         ColorScale(5)=(RelativeTime=0.800000,Color=(B=46,G=46,R=109,A=255))
+         ColorScale(6)=(RelativeTime=1.000000,Color=(A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.045000
+         FadeOut=True
+         FadeInEndTime=0.010000
+         FadeIn=True
+         MaxParticles=23
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=90.000000),Z=(Min=7.000000,Max=10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=3.000000,Max=3.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=0.600000)
+         StartSizeRange=(X=(Min=5.000000,Max=10.000000),Y=(Min=5.000000,Max=10.000000),Z=(Min=5.000000,Max=10.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0063'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=12
+         SubdivisionEnd=13
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-0.150000,Max=0.150000),Y=(Min=-0.150000,Max=0.150000),Z=(Min=0.300000,Max=0.700000))
+         Name="SpriteEmitter41"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.s_u804_hand_a.SpriteEmitter41'
+     Begin Object Class=MeshEmitter Name=MeshEmitter28
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Support.supportenchant01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.357143,Color=(B=255,G=255,R=255,A=191))
+         ColorScale(2)=(RelativeTime=0.789286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(3)=(RelativeTime=0.914286,Color=(B=255,G=255,R=255,A=191))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=15.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.470000,Max=0.470000),Z=(Min=0.076000,Max=0.076000))
+         FadeOutStartTime=0.252000
+         FadeOut=True
+         FadeInEndTime=0.184500
+         FadeIn=True
+         MaxParticles=40
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.700000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.010000)
+         StartSizeRange=(X=(Min=0.100000,Max=0.150000),Y=(Min=0.100000,Max=0.150000),Z=(Min=0.100000,Max=0.150000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter28"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.s_u804_hand_a.MeshEmitter28'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter43
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.769000,Max=0.769000),Z=(Min=0.551000,Max=0.551000))
+         Opacity=0.800000
+         FadeOutStartTime=0.130000
+         FadeOut=True
+         FadeInEndTime=0.130000
+         FadeIn=True
+         MaxParticles=32
+         RespawnDeadParticles=False
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Max=0.125000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=10.000000,Max=15.000000),Y=(Min=10.000000,Max=15.000000),Z=(Min=10.000000,Max=15.000000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0058'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter43"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.s_u804_hand_a.SpriteEmitter43'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter2
+         VertexMesh=VertMesh'LineageEffectMeshes.swirl'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.150000
+         FadeOut=True
+         FadeInEndTime=0.070000
+         FadeIn=True
+         MaxParticles=14
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=0.015000,Max=0.015000),Y=(Min=0.015000,Max=0.015000),Z=(Min=0.015000,Max=0.015000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="VertMeshEmitter2"
+     End Object
+     Emitters(3)=VertMeshEmitter'LineageEffect.s_u804_hand_a.VertMeshEmitter2'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.050000
+}

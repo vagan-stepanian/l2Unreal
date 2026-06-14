@@ -1,0 +1,87 @@
+class br_e_singer_deco_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter221
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255))
+         ColorScale(1)=(RelativeTime=0.425000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000)
+         ColorScaleRepeats=12.000000
+         ColorMultiplierRange=(X=(Min=0.600000,Max=1.000000),Y=(Min=0.600000,Max=1.000000),Z=(Min=0.600000,Max=1.000000))
+         Opacity=0.900000
+         FadeOutStartTime=0.672000
+         FadeOut=True
+         FadeInEndTime=0.576000
+         FadeIn=True
+         ResetAfterChange=True
+         WeatherSoundCheck=True
+         ForcedFade=True
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartLocationPolarRange=(X=(Max=10.000000),Y=(Max=10.000000),Z=(Max=10.000000))
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.120000,Max=0.120000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.370000,RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=0.750000,RelativeSize=0.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=1
+         LifetimeRange=(Min=0.500000,Max=0.900000)
+         StartVelocityRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter221"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_singer_deco_simple.SpriteEmitter221'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter222
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(Color=(B=255,G=91,R=91,A=255))
+         ColorScale(2)=(RelativeTime=0.382143,Color=(B=255,G=114,R=111,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=237,G=27,R=48,A=255))
+         FadeOutStartTime=3.000000
+         FadeOut=True
+         FadeInEndTime=2.000000
+         FadeIn=True
+         MaxParticles=4
+         ForcedFade=True
+         StartLocationRange=(Z=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=0.300000,RelativeSize=0.700000)
+         SizeScale(3)=(RelativeTime=0.800000,RelativeSize=1.300000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1017'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=5.000000,Max=5.000000)
+         UseVelocityScale=True
+         VelocityScale(1)=(RelativeTime=0.500000,RelativeVelocity=(Z=-5.700000))
+         VelocityScale(2)=(RelativeTime=0.600000)
+         Name="SpriteEmitter222"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect_Br.br_e_singer_deco_simple.SpriteEmitter222'
+     bNoDelete=False
+     DrawScale=0.030000
+}

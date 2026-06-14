@@ -1,0 +1,85 @@
+class br_e_u065_aga_snotrumpet_ponytail extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         Acceleration=(Z=-6.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.532143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         FadeOutStartTime=3.050000
+         FadeOut=True
+         FadeInEndTime=0.800000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=25
+         StartLocationOffset=(Z=-1.000000)
+         StartLocationRange=(X=(Min=-1.200000,Max=1.200000),Y=(Min=-1.200000,Max=1.200000),Z=(Min=-1.512000,Max=1.200000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-0.500000,Max=0.500000))
+         RevolutionsPerSecondRange=(X=(Min=-0.100000,Max=0.100000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-0.100000,Max=0.100000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.200000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.600000)
+         StartSizeRange=(X=(Min=0.378000,Max=4.000000),Y=(Min=0.378000,Max=4.000000),Z=(Min=0.378000,Max=4.000000))
+         InitialParticlesPerSecond=75.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.001000,Max=3.000000)
+         StartVelocityRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Min=-0.504000,Max=0.504000))
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.br_e_u065_aga_snotrumpet_ponytail.SpriteEmitter6'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         Acceleration=(Z=-6.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.532143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         FadeOutStartTime=3.050000
+         FadeOut=True
+         FadeInEndTime=1.300000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=50
+         StartLocationRange=(X=(Min=-0.105000,Max=0.105000),Y=(Min=-0.105000,Max=0.105000),Z=(Min=-0.105000,Max=0.105000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Max=2.000000)
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-1.000000,Max=1.000000))
+         RevolutionsPerSecondRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.670000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.420000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Max=0.500000),Y=(Max=0.500000),Z=(Max=0.500000))
+         InitialParticlesPerSecond=20.000000
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8122'
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=0.001000,Max=3.000000)
+         StartVelocityRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Min=-0.300000,Max=-0.300000))
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.br_e_u065_aga_snotrumpet_ponytail.SpriteEmitter7'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

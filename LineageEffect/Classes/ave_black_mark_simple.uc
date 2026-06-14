@@ -1,0 +1,140 @@
+class ave_black_mark_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter18
+         Acceleration=(Z=10.000000)
+         ColorScale(0)=(Color=(B=192,G=128,R=128,A=255))
+         ColorScale(1)=(RelativeTime=0.275000,Color=(B=177,G=99,R=99,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=38,G=38,R=38,A=255))
+         ColorMultiplierRange=(X=(Min=0.720000,Max=0.720000),Y=(Min=0.530000,Max=0.530000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.400000
+         FadeOutStartTime=0.600000
+         FadeOut=True
+         FadeInEndTime=0.200000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=30
+         Disabled=True
+         StartLocationOffset=(Z=-7.500000)
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-60.000000,Max=60.000000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Max=2.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.250000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=12.000000,Max=18.000000),Y=(Min=12.000000,Max=18.000000),Z=(Min=12.000000,Max=18.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4009'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=-45.000000,Max=-45.000000))
+         Name="SpriteEmitter18"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.ave_black_mark_simple.SpriteEmitter18'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter19
+         UseColorScale=True
+         ColorScale(0)=(Color=(R=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=41,G=41,R=86,A=255))
+         ColorMultiplierRange=(X=(Min=0.250000,Max=0.250000),Y=(Min=0.250000,Max=0.250000),Z=(Min=0.250000,Max=0.250000))
+         FadeOutStartTime=0.650000
+         FadeOut=True
+         FadeInEndTime=0.260000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-2.000000,Max=2.000000))
+         AddLocationFromOtherEmitter=3
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=15.000000,Max=15.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles5.cloud_wooh01'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter19"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.ave_black_mark_simple.SpriteEmitter19'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter21
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.730000,Max=0.730000),Y=(Min=0.730000,Max=0.730000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.550000
+         FadeOutStartTime=0.500000
+         FadeOut=True
+         FadeInEndTime=0.500000
+         FadeIn=True
+         MaxParticles=5
+         Disabled=True
+         AddLocationFromOtherEmitter=4
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=9.000000,Max=9.000000),Y=(Min=9.000000,Max=9.000000),Z=(Min=9.000000,Max=9.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8013'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=0.100000,Max=0.100000))
+         Name="SpriteEmitter21"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.ave_black_mark_simple.SpriteEmitter21'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter22
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=2.000000
+         MaxParticles=5
+         WeatherSoundCheck=True
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.100000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=7.000000,Max=7.000000),Y=(Min=7.000000,Max=7.000000),Z=(Min=7.000000,Max=7.000000))
+         InitialParticlesPerSecond=24.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t6063'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(Z=(Min=0.500000,Max=0.500000))
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeVelocity=(Z=15.000000))
+         VelocityScale(1)=(RelativeTime=0.500000,RelativeVelocity=(Z=-15.000000))
+         VelocityScale(2)=(RelativeTime=1.000000,RelativeVelocity=(Z=15.000000))
+         Name="SpriteEmitter22"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.ave_black_mark_simple.SpriteEmitter22'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.050000
+     bUnlit=False
+}

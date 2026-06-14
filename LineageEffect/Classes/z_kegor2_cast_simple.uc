@@ -1,0 +1,181 @@
+class z_kegor2_cast_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter21
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.247500
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=20
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-12.500000,Max=12.500000),Y=(Min=-12.500000,Max=12.500000),Z=(Max=20.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=40.000000,Max=60.000000),Z=(Min=-1.000000,Max=1.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         InitialDelayRange=(Min=0.250000,Max=0.250000)
+         StartVelocityRange=(Z=(Min=200.000000,Max=350.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter21"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.z_kegor2_cast_simple.SpriteEmitter21'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter22
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.482143,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=64,G=128,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.480000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=50
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-15.000000,Max=15.000000),Y=(Min=-15.000000,Max=15.000000),Z=(Min=-10.000000,Max=10.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=60.000000,Max=80.000000),Z=(Min=-10.000000,Max=10.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t8237'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         InitialDelayRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(Z=(Min=120.000000,Max=120.000000))
+         VelocityLossRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         Name="SpriteEmitter22"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.z_kegor2_cast_simple.SpriteEmitter22'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter23
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.247500
+         FadeOut=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-60.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=70.000000,Max=70.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         StartVelocityRange=(Z=(Min=400.000000,Max=400.000000))
+         VelocityLossRange=(X=(Min=4.000000,Max=4.000000),Y=(Min=4.000000,Max=4.000000),Z=(Min=4.000000,Max=4.000000))
+         Name="SpriteEmitter23"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.z_kegor2_cast_simple.SpriteEmitter23'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter24
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.200000
+         FadeOutStartTime=0.750000
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=70.000000,Max=70.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=2.500000,Max=2.500000)
+         Name="SpriteEmitter24"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.z_kegor2_cast_simple.SpriteEmitter24'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter26
+         UseDirectionAs=PTDU_Forward
+         ColorScale(0)=(Color=(G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.200000
+         FadeOutStartTime=0.750000
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=60.000000,Max=60.000000),Y=(Min=60.000000,Max=60.000000),Z=(Min=60.000000,Max=60.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8137'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionStart=3
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         StartVelocityRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter26"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.z_kegor2_cast_simple.SpriteEmitter26'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter27
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=128,G=255,R=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=128,R=255,A=255))
+         FadeOutStartTime=0.330000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=60.000000,Max=60.000000),Z=(Min=50.000000,Max=50.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8034'
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         StartVelocityRange=(Z=(Min=0.100000,Max=0.100000))
+         Name="SpriteEmitter27"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.z_kegor2_cast_simple.SpriteEmitter27'
+     bOnInitialDelay=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

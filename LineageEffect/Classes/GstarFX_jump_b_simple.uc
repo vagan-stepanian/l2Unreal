@@ -1,0 +1,131 @@
+class GstarFX_jump_b_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         Acceleration=(Z=50.000000)
+         ColorScale(0)=(Color=(B=192,G=192,R=192,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=192,G=192,R=192,A=255))
+         ColorMultiplierRange=(X=(Min=0.731000,Max=0.731000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.904000,Max=0.904000))
+         Opacity=0.300000
+         UseCloudColor=True
+         FadeOutStartTime=0.440000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=20
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-30.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=2.000000,Max=2.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(X=(Min=-0.010000,Max=0.010000),Y=(Min=-0.010000,Max=0.010000),Z=(Min=-0.010000,Max=0.010000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.540000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.150000))
+         StartSpinRange=(X=(Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=30.000000,Max=30.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t4046'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.500000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-250.000000,Max=250.000000),Y=(Min=-250.000000,Max=250.000000))
+         VelocityLossRange=(X=(Min=7.000000,Max=7.000000),Y=(Min=7.000000,Max=7.000000),Z=(Min=7.000000,Max=7.000000))
+         UseSoftParticle=True
+         SoftParticleFadeDist=20.000000
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.GstarFX_jump_b_simple.SpriteEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=0.205000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-16.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=5.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=10.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t7114'
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.GstarFX_jump_b_simple.SpriteEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.aura_wooh02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.140000
+         FadeOutStartTime=0.245000
+         FadeOut=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-16.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.260000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.700000)
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter5"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.GstarFX_jump_b_simple.MeshEmitter5'
+     Begin Object Class=MeshEmitter Name=MeshEmitter6
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.BRC_crossplane'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.200000
+         FadeOutStartTime=0.085000
+         FadeOut=True
+         FadeInEndTime=0.085000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-16.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.260000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.150000),Y=(Min=0.150000,Max=0.150000),Z=(Min=0.150000,Max=0.150000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter6"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.GstarFX_jump_b_simple.MeshEmitter6'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.250000
+     bDirectional=True
+}

@@ -1,0 +1,151 @@
+class d_istinasmash_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter34
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,R=64,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=64,R=64,A=255))
+         ColorScaleRepeats=8.000000
+         Opacity=0.500000
+         FadeOutStartTime=0.232000
+         FadeOut=True
+         FadeInEndTime=0.164000
+         FadeIn=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(Z=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=0.600000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(X=(Min=50.000000,Max=50.000000))
+         Name="MeshEmitter34"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_istinasmash_ca.MeshEmitter34'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=111,G=157,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=64,R=128,A=255))
+         FadeOutStartTime=0.295000
+         FadeOut=True
+         FadeInEndTime=0.085000
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=30.000000,Max=30.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.200000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=78.000000,Max=78.000000),Y=(Min=78.000000,Max=78.000000),Z=(Min=78.000000,Max=78.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8018'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-80.000000,Max=-80.000000))
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_istinasmash_ca.SpriteEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Impact.sparkredcone00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.167500
+         FadeOut=True
+         FadeInEndTime=0.110000
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.050000,Max=0.050000),Y=(Min=-0.050000,Max=0.050000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.250000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         Name="MeshEmitter0"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_istinasmash_ca.MeshEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.White.white_radiation00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.150000
+         FadeOutStartTime=0.167500
+         FadeOut=True
+         FadeInEndTime=0.110000
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.050000,Max=0.050000),Y=(Min=-0.050000,Max=0.050000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.250000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=1.500000,Max=1.500000),Y=(Min=1.500000,Max=1.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         Name="MeshEmitter2"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_istinasmash_ca.MeshEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=0.295000
+         FadeOut=True
+         FadeInEndTime=0.115000
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=40.000000,Max=40.000000),Y=(Min=40.000000,Max=40.000000),Z=(Min=40.000000,Max=40.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t7060'
+         TextureUSubdivisions=5
+         TextureVSubdivisions=6
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=30
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_istinasmash_ca.SpriteEmitter1'
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=1144,Roll=32)
+     DrawScale=0.200000
+     bUnlit=False
+     SwayRotationOrig=(Yaw=1144,Roll=32)
+}

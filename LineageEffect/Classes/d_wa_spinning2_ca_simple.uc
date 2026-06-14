@@ -1,0 +1,109 @@
+class d_wa_spinning2_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter41
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=64,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=40,G=81,R=81,A=255))
+         ColorMultiplierRange=(X=(Min=0.350000,Max=0.750000),Y=(Min=0.800000,Max=1.000000),Z=(Min=0.350000,Max=0.750000))
+         Opacity=0.600000
+         FadeOutStartTime=0.750000
+         MaxParticles=18
+         RespawnDeadParticles=False
+         Disabled=True
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Min=30.000000,Max=30.000000))
+         RevolutionCenterOffsetRange=(X=(Max=0.250000),Y=(Max=1.000000),Z=(Max=1.000000))
+         RevolutionsPerSecondRange=(X=(Min=-0.010000,Max=0.010000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-0.100000,Max=0.100000))
+         SpinsPerSecondRange=(X=(Min=0.070000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t8237'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionScale(0)=5.000000
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=10.000000))
+         Name="SpriteEmitter41"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_wa_spinning2_ca_simple.SpriteEmitter41'
+     Begin Object Class=MeshEmitter Name=MeshEmitter33
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.sh_crossplane'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.900000),Z=(Min=0.600000,Max=0.800000))
+         Opacity=0.600000
+         FadeOutStartTime=0.248000
+         FadeOut=True
+         FadeInEndTime=0.056000
+         FadeIn=True
+         MaxParticles=13
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.150000),Y=(Min=0.150000,Max=0.150000),Z=(Min=0.150000,Max=0.150000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.fx_m_t7114'
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         Name="MeshEmitter33"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_wa_spinning2_ca_simple.MeshEmitter33'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter67
+         UseDirectionAs=PTDU_Forward
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.760000,Max=0.760000),Z=(Min=0.500000,Max=0.500000))
+         FadeOutStartTime=0.300000
+         FadeOut=True
+         MaxParticles=17
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-5.000000,Max=5.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=2.000000,Max=2.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.800000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=5.000000)
+         StartSizeRange=(X=(Min=18.000000,Max=18.000000),Y=(Min=18.000000,Max=18.000000),Z=(Min=18.000000,Max=18.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t8264'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=1
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=10.000000,Max=10.000000))
+         Name="SpriteEmitter67"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_wa_spinning2_ca_simple.SpriteEmitter67'
+     RotPerSecond=(Pitch=8192,Yaw=8192,Roll=8192)
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     bRotateToDesired=True
+     RotationLimit=(Pitch=0,Yaw=0,Roll=0)
+}

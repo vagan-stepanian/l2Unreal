@@ -1,0 +1,182 @@
+class u_kn_ramshield_buff_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter4
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(R=174,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=162,G=60,R=92,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.585000,Max=0.585000),Z=(Min=0.585000,Max=0.585000))
+         Opacity=0.170000
+         FadeOutStartTime=0.300000
+         FadeOut=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.120000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.280000,RelativeSize=1.250000)
+         SizeScale(3)=(RelativeTime=0.510000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Min=0.050000,Max=0.120000),Y=(Min=0.050000,Max=0.120000),Z=(Min=0.050000,Max=0.120000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter4"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_kn_ramshield_buff_simple.MeshEmitter4'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter26
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=102,G=102,R=102,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=6.000000
+         FadeOutStartTime=0.380000
+         FadeOut=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=2.000000)
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=1.000000,Max=110.000000),Y=(Max=360.000000),Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.200000)
+         SizeScale(1)=(RelativeTime=0.070000,RelativeSize=0.700000)
+         SizeScale(2)=(RelativeTime=0.400000,RelativeSize=0.200000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=25.000000,Max=35.000000),Z=(Min=1.000000,Max=1.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.printesha.fx_m_t_3126'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.350000,Max=0.350000)
+         StartVelocityRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter26"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_kn_ramshield_buff_simple.SpriteEmitter26'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=177,R=136,A=255))
+         Opacity=0.620000
+         FadeOutStartTime=0.081000
+         FadeOut=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=0.700000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3037'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         InitialDelayRange=(Min=0.350000,Max=0.350000)
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_kn_ramshield_buff_simple.SpriteEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=177,R=136,A=255))
+         Opacity=0.540000
+         FadeOutStartTime=0.081000
+         FadeOut=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=0.700000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5004'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         SubdivisionEnd=1
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_kn_ramshield_buff_simple.SpriteEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter22
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.282143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=143,G=141,R=239,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.750000,Max=0.750000),Z=(Min=0.600000,Max=0.600000))
+         Opacity=0.170000
+         FadeOutStartTime=0.333000
+         FadeOut=True
+         MaxParticles=6
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=0.670000,RelativeSize=0.900000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=12.000000,Max=12.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=12.000000,Max=12.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t6166'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         SubdivisionEnd=1
+         LifetimeRange=(Min=0.550000,Max=0.550000)
+         InitialDelayRange=(Min=0.020000,Max=0.020000)
+         StartVelocityRange=(Z=(Min=0.100000,Max=0.100000))
+         Name="SpriteEmitter22"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.u_kn_ramshield_buff_simple.SpriteEmitter22'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter37
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=131,G=180,R=245,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=65,G=65,R=237,A=255))
+         Opacity=0.180000
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-5.000000,Max=-5.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=0.140000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=9.000000,Max=9.000000),Y=(Min=-5.500000,Max=-5.500000),Z=(Min=9.000000,Max=9.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t7137'
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         InitialDelayRange=(Min=0.350000,Max=0.350000)
+         StartVelocityRange=(Z=(Min=50.000000,Max=50.000000))
+         VelocityLossRange=(Z=(Min=10.000000,Max=10.000000))
+         Name="SpriteEmitter37"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.u_kn_ramshield_buff_simple.SpriteEmitter37'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bDirectional=True
+}

@@ -1,0 +1,182 @@
+class d_ro_crossc_shot extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter38
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.grey_circle'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=58,G=55,R=111,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=34,G=32,R=64,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.608000,Max=0.608000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.700000
+         FadeOutStartTime=0.455000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         IsRepresentativeParticle=False
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=2.500000,Max=2.500000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.900000)
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         Name="MeshEmitter38"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_ro_crossc_shot.MeshEmitter38'
+     Begin Object Class=MeshEmitter Name=MeshEmitter4
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.S_around_Aura'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.300000,Max=0.800000))
+         FadeOutStartTime=0.210000
+         FadeOut=True
+         MaxParticles=7
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=30.000000)
+         StartLocationShape=PTLS_Sphere
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=80.000000),Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.200000,Max=0.200000),Z=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.530000,RelativeSize=1.800000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.900000)
+         StartSizeRange=(X=(Min=0.320000,Max=0.320000),Y=(Min=0.320000,Max=0.320000),Z=(Min=-0.500000,Max=-0.500000))
+         InitialParticlesPerSecond=35.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="MeshEmitter4"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_ro_crossc_shot.MeshEmitter4'
+     Begin Object Class=MeshEmitter Name=MeshEmitter3
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.S_around_Aura'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=233,G=108,R=61,A=255))
+         ColorMultiplierRange=(X=(Min=0.468000,Max=0.468000),Y=(Min=0.410000,Max=0.410000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.700000
+         FadeOutStartTime=0.265000
+         FadeOut=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         IsRepresentativeParticle=False
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=30.000000)
+         StartLocationShape=PTLS_Sphere
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=80.000000),Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.530000,RelativeSize=1.800000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.900000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.300000,Max=0.300000),Z=(Min=-0.500000,Max=-0.500000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter3"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_ro_crossc_shot.MeshEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter12
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=10.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.400000,Max=0.600000),Y=(Min=0.700000,Max=0.800000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.035000
+         FadeOut=True
+         WeatherSoundCheck=True
+         IsRepresentativeParticle=False
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=5.000000)
+         StartLocationRange=(X=(Min=30.000000,Max=30.000000),Z=(Min=25.000000,Max=25.000000))
+         RevolutionCenterOffsetRange=(Z=(Min=5.000000,Max=10.000000))
+         RevolutionsPerSecondRange=(Z=(Max=0.500000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=0.110000,RelativeSize=0.700000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.700000)
+         StartSizeRange=(X=(Min=20.000000,Max=30.000000),Y=(Min=20.000000,Max=30.000000),Z=(Min=20.000000,Max=30.000000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8016'
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=0.350000,Max=0.350000)
+         StartVelocityRange=(X=(Min=-70.000000,Max=-70.000000))
+         Name="SpriteEmitter12"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_ro_crossc_shot.SpriteEmitter12'
+     Begin Object Class=MeshEmitter Name=MeshEmitter8
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.cross_01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.154000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=25.000000,Max=25.000000),Z=(Min=30.000000,Max=30.000000))
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.450000,Max=0.450000),Z=(Min=0.500000,Max=0.500000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         Name="MeshEmitter8"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.d_ro_crossc_shot.MeshEmitter8'
+     Begin Object Class=MeshEmitter Name=MeshEmitter9
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.cross_01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=203,R=132,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=238,G=17,R=177,A=255))
+         Opacity=0.920000
+         FadeOutStartTime=0.033000
+         FadeOut=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=15.000000,Max=15.000000),Z=(Min=30.000000,Max=30.000000))
+         SpinParticles=True
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=0.260000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.650000,Max=0.650000),Z=(Min=0.650000,Max=0.650000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles.fx_m_t0100'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(X=(Min=-30.000000,Max=-30.000000))
+         Name="MeshEmitter9"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.d_ro_crossc_shot.MeshEmitter9'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale3D=(X=0.200000,Y=0.200000,Z=0.200000)
+}

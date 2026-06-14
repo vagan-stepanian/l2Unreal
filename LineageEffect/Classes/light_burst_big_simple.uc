@@ -1,0 +1,128 @@
+class light_burst_big_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter4
+         StaticMesh=StaticMesh'BG_Effect_S.Wisp'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(R=240,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(G=198,R=240,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.840000
+         FadeOutStartTime=12.000000
+         FadeOut=True
+         FadeInEndTime=4.800000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationShape=PTLS_Sphere
+         AlphaTest=False
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.100000,Max=0.100000))
+         RevolutionsPerSecondRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-0.500000,Max=0.500000))
+         UseRevolutionScale=True
+         RevolutionScale(0)=(RelativeRevolution=(X=50.000000,Y=50.000000,Z=50.000000))
+         RevolutionScale(1)=(RelativeTime=1.000000,RelativeRevolution=(X=10.000000,Y=10.000000,Z=10.000000))
+         RevolutionScaleRepeats=1.000000
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=-0.200000,Max=0.200000),Y=(Min=-0.200000,Max=0.200000),Z=(Min=-0.200000,Max=0.200000))
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.060000)
+         SizeScale(1)=(RelativeTime=0.700000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.240000,RelativeSize=1.000000)
+         SizeScaleRepeats=1.000000
+         StartSizeRange=(X=(Min=0.800000,Max=1.000000),Y=(Min=0.800000,Max=1.000000),Z=(Min=0.800000,Max=1.000000))
+         InitialParticlesPerSecond=5.000000
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles.fx_m_t0103'
+         LifetimeRange=(Min=15.000000,Max=15.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter4"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.light_burst_big_simple.MeshEmitter4'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.570000
+         FadeOutStartTime=3.200000
+         FadeOut=True
+         FadeInEndTime=1.600000
+         FadeIn=True
+         MaxParticles=3
+         AlphaTest=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=50.000000,Max=50.000000))
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'FX_E_T.particles_etc.o_fx_fire02'
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.light_burst_big_simple.SpriteEmitter8'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter18
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         MaxParticles=1
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.100000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.700000,RelativeSize=3.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=15.000000,Max=15.000000))
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'FX_E_T.Fx_argos_eye.Fx_argos_eye_t04'
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter18"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.light_burst_big_simple.SpriteEmitter18'
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'FX_E_S.etc.fx_wispray00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.300000,Max=0.300000))
+         Opacity=0.240000
+         FadeOutStartTime=8.600000
+         FadeOut=True
+         FadeInEndTime=4.500000
+         FadeIn=True
+         MaxParticles=2
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.700000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=0.700000,Max=1.000000),Z=(Min=0.700000,Max=1.000000))
+         LifetimeRange=(Min=10.000000,Max=10.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter5"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.light_burst_big_simple.MeshEmitter5'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Group="None,light_burst_big"
+     Texture=None
+     bUnlit=False
+}

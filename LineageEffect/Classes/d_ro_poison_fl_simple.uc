@@ -1,0 +1,149 @@
+class d_ro_poison_fl_simple extends NSkillProjectile;
+
+defaultproperties
+{
+     Speed=5000.000000
+     AccSpeed=10000.000000
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.489286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=5.000000
+         Opacity=0.050000
+         FadeOutStartTime=0.230000
+         FadeOut=True
+         FadeInEndTime=0.110000
+         FadeIn=True
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4123'
+         LifetimeRange=(Min=0.500000,Max=0.700000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_ro_poison_fl_simple.SpriteEmitter9'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter10
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.000000
+         MaxParticles=5
+         WeatherSoundCheck=True
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=5.000000,Max=5.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3055'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter10"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_ro_poison_fl_simple.SpriteEmitter10'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.482143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         Opacity=0.950000
+         FadeOutStartTime=0.045000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=20
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=4.000000,Max=4.000000),Y=(Min=4.000000,Max=4.000000),Z=(Min=4.000000,Max=4.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1020'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_ro_poison_fl_simple.SpriteEmitter11'
+     Begin Object Class=TrailEmitter Name=TrailEmitter43
+         TrailShadeType=PTTST_PointLife
+         DistanceThreshold=4.000000
+         PointLifeTime=1.000000
+         AttachEmitterIndex=1
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.860000
+         FadeOutStartTime=0.324000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4124'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="TrailEmitter43"
+     End Object
+     Emitters(3)=TrailEmitter'LineageEffect.d_ro_poison_fl_simple.TrailEmitter43'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.aura_nemo'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=-80.767998)
+         ColorScale(0)=(Color=(B=245,G=244,R=241,A=180))
+         ColorScale(1)=(RelativeTime=0.582143,Color=(B=252,G=235,R=194,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=180))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.672000,Max=0.672000),Y=(Min=0.630000,Max=0.630000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.500000
+         FadeOutStartTime=0.189000
+         FadeOut=True
+         FadeInEndTime=0.070000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         SpinParticles=True
+         StartSpinRange=(Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.190000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.060000,Max=0.060000),Z=(Min=0.060000,Max=0.060000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         StartVelocityRange=(X=(Min=-24.000000,Max=-24.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter2"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.d_ro_poison_fl_simple.MeshEmitter2'
+     AutoReset=True
+     bRotEmitter=True
+     RotPerSecond=(Roll=61440)
+     bLightChanged=True
+     bSunAffect=True
+     Rotation=(Roll=675794105)
+     DrawScale=0.100000
+     bUnlit=False
+     SwayRotationOrig=(Roll=673841432)
+     bDirectional=True
+}

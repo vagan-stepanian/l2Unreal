@@ -1,0 +1,50 @@
+class br_e_local_jp_mdarkelf_dummy extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter10
+         Acceleration=(Z=-3.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.539286,Color=(B=155,G=155,R=155,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=9.000000
+         ColorMultiplierRange=(X=(Min=0.100000,Max=0.400000),Y=(Max=0.600000),Z=(Min=0.500000,Max=0.800000))
+         FadeOutStartTime=0.100000
+         FadeInEndTime=0.044000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=100
+         StartLocationOffset=(Z=-1.000000)
+         StartLocationRange=(X=(Min=-6.000000,Max=6.000000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Max=0.600000)
+         RevolutionsPerSecondRange=(Z=(Min=-0.500000,Max=-0.500000))
+         RevolutionScale(0)=(RelativeRevolution=(Z=1.000000))
+         RevolutionScale(1)=(RelativeTime=1.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Max=0.420000),Y=(Max=0.420000),Z=(Max=0.420000))
+         InitialParticlesPerSecond=15.000000
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=1
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter10"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_local_jp_mdarkelf_dummy.SpriteEmitter10'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.050000
+}

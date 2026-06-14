@@ -1,0 +1,116 @@
+class br_e_local_ch_mfighter_bone_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.532143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         FadeOutStartTime=0.480000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=20
+         StartLocationRange=(X=(Min=-0.150000,Max=0.150000),Y=(Min=-0.150000,Max=0.150000),Z=(Min=-0.150000,Max=0.150000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-0.500000,Max=0.500000))
+         RevolutionsPerSecondRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-0.500000,Max=0.500000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.200000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.600000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.300000),Y=(Min=0.150000,Max=0.300000),Z=(Min=0.150000,Max=0.300000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=0.150000,Max=0.300000))
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_local_ch_mfighter_bone_simple.SpriteEmitter3'
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.fire_line_Plane'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Max=0.800000),Y=(Max=1.000000),Z=(Max=1.000000))
+         FadeOutStartTime=0.397500
+         FadeOut=True
+         FadeInEndTime=0.097500
+         FadeIn=True
+         MaxParticles=3
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.300000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.025200,Max=0.028350),Y=(Min=0.025200,Max=0.028350),Z=(Min=0.025200,Max=0.028350))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles5.fx_m_t8132'
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         StartVelocityRange=(X=(Min=-0.063000,Max=0.063000),Y=(Min=-0.063000,Max=0.063000),Z=(Min=-0.063000,Max=0.063000))
+         Name="MeshEmitter0"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect_Br.br_e_local_ch_mfighter_bone_simple.MeshEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         Acceleration=(Z=-4.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.539286,Color=(B=155,G=155,R=155,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=9.000000
+         ColorMultiplierRange=(X=(Max=0.800000),Y=(Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         FadeOutStartTime=0.100000
+         FadeInEndTime=0.044000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=15
+         StartLocationOffset=(Z=-1.000000)
+         StartLocationRange=(X=(Min=-5.600000,Max=5.600000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Max=0.400000)
+         RevolutionsPerSecondRange=(Z=(Min=-0.500000,Max=-0.500000))
+         RevolutionScale(0)=(RelativeRevolution=(Z=1.000000))
+         RevolutionScale(1)=(RelativeTime=1.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Max=0.392000),Y=(Max=0.392000),Z=(Max=0.392000))
+         InitialParticlesPerSecond=15.000000
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=1
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect_Br.br_e_local_ch_mfighter_bone_simple.SpriteEmitter11'
+     bNoDelete=False
+     Rotation=(Yaw=-544)
+     DrawScale=0.050000
+}

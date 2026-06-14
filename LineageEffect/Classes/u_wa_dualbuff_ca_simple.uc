@@ -1,0 +1,136 @@
+class u_wa_dualbuff_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter16
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.grey_circle'
+         UseMeshBlendMode=False
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=43,R=132,A=255))
+         ColorScale(1)=(RelativeTime=0.489286,Color=(B=47,G=23,R=23,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(G=39,R=121,A=255))
+         ColorScaleRepeats=10.000000
+         FadeOutStartTime=0.562500
+         FadeOut=True
+         FadeInEndTime=0.225000
+         FadeIn=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=1.000000)
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=2.000000,Max=2.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=1.500000,Max=1.500000),Y=(Min=1.500000,Max=1.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=0.850000,Max=0.850000)
+         Name="MeshEmitter16"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_wa_dualbuff_ca_simple.MeshEmitter16'
+     Begin Object Class=MeshEmitter Name=MeshEmitter18
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.BRC_crossplane'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=179,G=203,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.464286,Color=(B=111,G=157,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(R=128,A=255))
+         FadeOutStartTime=0.248000
+         FadeOut=True
+         ForcedMaxParticles=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=0.560000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.150000),Y=(Min=0.150000,Max=0.150000),Z=(Min=0.300000,Max=0.300000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         Name="MeshEmitter18"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.u_wa_dualbuff_ca_simple.MeshEmitter18'
+     Begin Object Class=MeshEmitter Name=MeshEmitter22
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.line_glow2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.489286,Color=(B=109,G=109,R=109,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=12.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.600000,Max=0.600000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.750000
+         FadeOutStartTime=0.427000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-10.000000,Max=-10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.030000,Max=0.030000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.700000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.800000,RelativeSize=1.300000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.090000,Max=0.090000),Y=(Min=0.090000,Max=0.090000),Z=(Min=0.200000,Max=0.200000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.850000,Max=0.850000)
+         StartVelocityRange=(Z=(Min=100.000000,Max=100.000000))
+         VelocityLossRange=(Z=(Min=9.000000,Max=9.000000))
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeTime=0.800000)
+         VelocityScale(1)=(RelativeTime=1.000000,RelativeVelocity=(Z=-10.000000))
+         Name="MeshEmitter22"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.u_wa_dualbuff_ca_simple.MeshEmitter22'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         UseDirectionAs=PTDU_Forward
+         Acceleration=(Z=5.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=129,G=188,R=254,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=202,G=202,R=255,A=255))
+         Opacity=0.550000
+         FadeOutStartTime=0.155000
+         FadeOut=True
+         MaxParticles=7
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=2.000000,Max=30.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=1.500000,Max=2.500000))
+         StartSpinRange=(X=(Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=23.000000,Max=26.000000),Y=(Min=23.000000,Max=26.000000),Z=(Min=23.000000,Max=26.000000))
+         InitialParticlesPerSecond=21.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8016'
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(X=(Min=-1.500000,Max=1.500000),Z=(Min=10.000000,Max=10.000000))
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.u_wa_dualbuff_ca_simple.SpriteEmitter9'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bUnlit=False
+     bDirectional=True
+}

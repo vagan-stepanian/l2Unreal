@@ -1,0 +1,180 @@
+class u_he_shade_5s_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter90
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=62,R=117,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=1,G=43,R=61,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.700000
+         FadeOutStartTime=4.290000
+         FadeOut=True
+         FadeInEndTime=0.330000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=0.050000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.100000,RelativeSize=1.600000)
+         StartSizeRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=30.000000,Max=30.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=4.500000,Max=4.500000)
+         Name="SpriteEmitter90"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_he_shade_5s_ca_simple.SpriteEmitter90'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter93
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(G=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.870000,Max=0.870000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.502500
+         FadeOut=True
+         FadeInEndTime=0.097500
+         FadeIn=True
+         MaxParticles=12
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.700000)
+         StartSizeRange=(X=(Min=70.000000,Max=70.000000),Y=(Min=70.000000,Max=70.000000),Z=(Min=70.000000,Max=70.000000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7114'
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         Name="SpriteEmitter93"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_he_shade_5s_ca_simple.SpriteEmitter93'
+     Begin Object Class=MeshEmitter Name=MeshEmitter30
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.wooh04.heal_cast01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=3.847500
+         FadeOut=True
+         FadeInEndTime=0.190000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=1.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=0.050000,RelativeSize=1.020000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=4.750000,Max=4.750000)
+         Name="MeshEmitter30"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.u_he_shade_5s_ca_simple.MeshEmitter30'
+     Begin Object Class=MeshEmitter Name=MeshEmitter31
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.wooh04.heal_dd04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.400000
+         FadeOutStartTime=0.152000
+         FadeOut=True
+         FadeInEndTime=0.148000
+         FadeIn=True
+         MaxParticles=22
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-5.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.980000)
+         StartSizeRange=(X=(Min=1.500000,Max=1.500000),Y=(Min=1.500000,Max=1.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(Z=(Min=50.000000,Max=50.000000))
+         VelocityLossRange=(Z=(Min=5.000000,Max=5.000000))
+         Name="MeshEmitter31"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.u_he_shade_5s_ca_simple.MeshEmitter31'
+     Begin Object Class=MeshEmitter Name=MeshEmitter32
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.wooh04.heal_zine01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.250000
+         FadeOutStartTime=4.132500
+         FadeOut=True
+         FadeInEndTime=0.285000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=1.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=1.000000)
+         StartSpinRange=(X=(Min=0.125000,Max=0.125000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=0.050000,RelativeSize=1.020000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=4.750000,Max=4.750000)
+         Name="MeshEmitter32"
+     End Object
+     Emitters(6)=MeshEmitter'LineageEffect.u_he_shade_5s_ca_simple.MeshEmitter32'
+     Begin Object Class=MeshEmitter Name=MeshEmitter33
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.wooh04.heal_cast02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.900000,Max=0.900000),Y=(Min=0.900000,Max=0.900000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.300000
+         FadeOutStartTime=3.990000
+         FadeOut=True
+         FadeInEndTime=0.237500
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=1.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=0.050000,RelativeSize=1.020000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.150000)
+         StartSizeRange=(X=(Min=2.800000,Max=2.800000),Y=(Min=2.800000,Max=2.800000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=4.750000,Max=4.750000)
+         Name="MeshEmitter33"
+     End Object
+     Emitters(7)=MeshEmitter'LineageEffect.u_he_shade_5s_ca_simple.MeshEmitter33'
+     bNoDelete=False
+}

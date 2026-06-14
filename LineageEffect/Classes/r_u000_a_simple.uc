@@ -1,0 +1,56 @@
+class r_u000_a_simple extends AirEmitter;
+
+defaultproperties
+{
+     bByOpacity=True
+     NumSteps=10
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter5
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.550000,Color=(B=160,G=160,R=160,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=120.000000
+         ColorMultiplierRange=(X=(Min=0.740000,Max=0.740000),Y=(Min=0.740000,Max=0.740000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.800000
+         FadeOutStartTime=8.000000
+         FadeOut=True
+         FadeInEndTime=2.000000
+         FadeIn=True
+         MaxParticles=30
+         ResetAfterChange=True
+         ForcedFade=True
+         StartLocationOffset=(X=17.000000)
+         StartLocationRange=(Y=(Min=-12.000000,Max=12.000000),Z=(Min=-8.000000,Max=8.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.200000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.600000,RelativeSize=0.700000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=100.000000
+         StartSizeRange=(X=(Min=0.150000,Max=0.250000),Y=(Min=0.150000,Max=0.250000),Z=(Min=0.150000,Max=0.250000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.AirEffect.air_effect0000'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=10.000000,Max=10.000000)
+         StartVelocityRange=(Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeTime=0.200000,RelativeVelocity=(Y=2.000000,Z=0.500000))
+         VelocityScale(1)=(RelativeTime=0.400000,RelativeVelocity=(Y=0.500000,Z=2.000000))
+         VelocityScale(2)=(RelativeTime=0.600000,RelativeVelocity=(Y=2.000000,Z=0.500000))
+         VelocityScale(3)=(RelativeTime=0.800000,RelativeVelocity=(Y=0.500000,Z=2.000000))
+         VelocityScale(4)=(RelativeTime=1.000000,RelativeVelocity=(Y=2.000000,Z=0.500000))
+         Name="SpriteEmitter5"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.r_u000_a_simple.SpriteEmitter5'
+     bNoDelete=False
+     bDirectional=True
+}

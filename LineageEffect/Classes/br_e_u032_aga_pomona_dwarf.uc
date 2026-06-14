@@ -1,0 +1,105 @@
+class br_e_u032_aga_pomona_dwarf extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.100000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.171429,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(3)=(RelativeTime=0.600000,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=1.000000),Y=(Min=0.800000,Max=1.000000),Z=(Max=0.300000))
+         FadeOutStartTime=0.080000
+         FadeOut=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.090000,RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.240000,RelativeSize=2.500000)
+         SizeScale(2)=(RelativeTime=0.600000,RelativeSize=3.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=3.400000)
+         StartSizeRange=(X=(Min=0.021000,Max=0.035000),Y=(Min=0.021000,Max=0.035000),Z=(Min=0.021000,Max=0.035000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         Name="MeshEmitter1"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.br_e_u032_aga_pomona_dwarf.MeshEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.657143,Color=(B=178,G=178,R=178,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=18.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.300000,Max=0.300000))
+         Opacity=0.800000
+         FadeOutStartTime=0.702000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=0.125000,Max=0.125000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.040000,RelativeSize=1.300000)
+         SizeScale(1)=(RelativeTime=0.070000,RelativeSize=1.400000)
+         SizeScale(2)=(RelativeTime=0.130000,RelativeSize=1.450000)
+         SizeScale(3)=(RelativeTime=0.440000,RelativeSize=1.490000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=1.510000)
+         StartSizeRange=(X=(Min=2.940000,Max=2.940000),Y=(Min=2.940000,Max=2.940000),Z=(Min=2.940000,Max=2.940000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0060'
+         LifetimeRange=(Min=2.600000,Max=2.600000)
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.br_e_u032_aga_pomona_dwarf.SpriteEmitter6'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.682143,Color=(B=209,G=209,R=209,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=23.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.300000,Max=0.300000))
+         Opacity=0.620000
+         FadeOutStartTime=1.122000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=0.125000,Max=0.125000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.030000,RelativeSize=1.600000)
+         SizeScale(1)=(RelativeTime=0.070000,RelativeSize=2.100000)
+         SizeScale(2)=(RelativeTime=0.120000,RelativeSize=2.400000)
+         SizeScale(3)=(RelativeTime=0.210000,RelativeSize=2.500000)
+         SizeScale(4)=(RelativeTime=0.520000,RelativeSize=2.600000)
+         SizeScale(5)=(RelativeTime=1.000000,RelativeSize=2.700000)
+         StartSizeRange=(X=(Min=2.100000,Max=2.100000),Y=(Min=2.100000,Max=2.100000),Z=(Min=2.100000,Max=2.100000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0116'
+         LifetimeRange=(Min=6.800000,Max=6.800000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.br_e_u032_aga_pomona_dwarf.SpriteEmitter7'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

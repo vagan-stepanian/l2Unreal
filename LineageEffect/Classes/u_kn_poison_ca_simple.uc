@@ -1,0 +1,166 @@
+class u_kn_poison_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=209,G=173,R=176,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=100,G=2,R=153,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.600000,Max=0.600000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.051000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3037'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_kn_poison_ca_simple.SpriteEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.bright_red'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=128,A=255))
+         ColorScale(1)=(RelativeTime=0.746429,Color=(B=213,G=106,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=250,G=61,R=113,A=255))
+         ColorMultiplierRange=(X=(Min=0.403000,Max=0.620000),Y=(Min=0.600000,Max=0.800000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.600000
+         FadeOutStartTime=0.052000
+         FadeOut=True
+         FadeInEndTime=0.020000
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-60.000000,Max=-60.000000))
+         SpinsPerSecondRange=(X=(Min=10.000000,Max=10.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.500000,Max=0.500000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(Z=(Min=320.000000,Max=320.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="MeshEmitter0"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.u_kn_poison_ca_simple.MeshEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.line_mesh'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=186,G=254,R=192,A=255))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.600000,Max=1.000000))
+         FadeOutStartTime=0.128000
+         FadeOut=True
+         FadeInEndTime=0.040000
+         FadeIn=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=2.000000,Max=2.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.130000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=0.450000,RelativeSize=2.250000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.350000),Y=(Min=0.300000,Max=0.350000),Z=(Min=0.300000,Max=0.300000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles5.fx_m_t8062'
+         LifetimeRange=(Min=0.500000,Max=0.700000)
+         StartVelocityRange=(Z=(Min=-10.000000,Max=10.000000))
+         Name="MeshEmitter1"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.u_kn_poison_ca_simple.MeshEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=141,G=241,R=250,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=57,G=57,R=57,A=255))
+         Opacity=0.650000
+         FadeOutStartTime=0.090000
+         FadeOut=True
+         FadeInEndTime=0.020000
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-2.000000,Max=2.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.300000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.700000)
+         StartSizeRange=(X=(Min=20.000000,Max=30.000000),Y=(Min=20.000000,Max=30.000000),Z=(Min=20.000000,Max=30.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.aura_wooh02'
+         LifetimeRange=(Min=0.400000,Max=0.450000)
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_kn_poison_ca_simple.SpriteEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=233,G=1,R=169,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=104,G=66,R=130,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.400000
+         FadeOutStartTime=0.156000
+         FadeOut=True
+         FadeInEndTime=0.042000
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-10.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=4.000000,Max=8.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=35.000000,Max=40.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Fire.fx_m_t2032'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=1
+         SubdivisionEnd=1
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(Z=(Min=110.000000,Max=130.000000))
+         VelocityLossRange=(Z=(Min=0.500000,Max=0.500000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.u_kn_poison_ca_simple.SpriteEmitter2'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

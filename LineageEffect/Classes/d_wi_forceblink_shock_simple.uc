@@ -1,0 +1,102 @@
+class d_wi_forceblink_shock_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter12
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.pwave00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=-5.427000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=124,G=155,R=177,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=248,G=191,R=135,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=0.700000,Max=1.000000),Z=(Min=0.700000,Max=1.000000))
+         Opacity=0.200000
+         FadeOutStartTime=0.100000
+         FadeOut=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=80.000000)
+         StartLocationRange=(X=(Min=-50.000000,Max=50.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.050000,Max=0.050000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=0.400000,Max=0.600000),Y=(Min=0.400000,Max=0.600000),Z=(Min=0.400000,Max=0.800000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-17.816000,Max=-3.080000))
+         Name="MeshEmitter12"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_wi_forceblink_shock_simple.MeshEmitter12'
+     Begin Object Class=MeshEmitter Name=MeshEmitter13
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.pwave00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=120,G=143,R=182,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=128,A=255))
+         Opacity=0.580000
+         FadeOutStartTime=0.100000
+         FadeOut=True
+         FadeInEndTime=0.040000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=150.000000)
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.050000,Max=0.050000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=0.450000,Max=0.600000),Y=(Min=0.450000,Max=0.600000),Z=(Min=0.500000,Max=0.700000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter13"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_wi_forceblink_shock_simple.MeshEmitter13'
+     Begin Object Class=MeshEmitter Name=MeshEmitter14
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.cross_poison'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=-20.000000)
+         ColorScale(0)=(Color=(B=124,G=155,R=177,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=124,G=36,R=244,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.820000,Max=0.820000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.200000
+         FadeOutStartTime=0.100000
+         FadeOut=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=160.000000,Z=5.000000)
+         StartLocationRange=(X=(Min=-7.000000,Max=7.000000),Y=(Min=-7.000000,Max=7.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.200000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=1.858000,Max=2.534000),Y=(Min=1.500000,Max=1.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-90.500000,Max=-20.000000))
+         Name="MeshEmitter14"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_wi_forceblink_shock_simple.MeshEmitter14'
+     bNoDelete=False
+}

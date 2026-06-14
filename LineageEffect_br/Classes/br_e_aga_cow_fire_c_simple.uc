@@ -1,0 +1,181 @@
+class br_e_aga_cow_fire_c_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         Acceleration=(Z=-3.500000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.900000,Max=1.000000),Y=(Min=0.900000,Max=1.000000),Z=(Min=0.900000,Max=1.000000))
+         Opacity=0.370000
+         FadeOutStartTime=0.160000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000))
+         RevolutionsPerSecondRange=(Z=(Min=-0.500000,Max=-0.500000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.170000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=8.750000,Max=8.750000),Y=(Min=8.750000,Max=8.750000),Z=(Min=8.750000,Max=8.750000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1002'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(X=(Min=-17.500000,Max=17.500000),Y=(Min=-17.500000,Max=17.500000),Z=(Min=-17.500000,Max=17.500000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_aga_cow_fire_c_simple.SpriteEmitter6'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         Acceleration=(Z=-4.375000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.521429,Color=(A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.668000,Max=1.000000),Y=(Min=0.290000,Max=1.000000),Z=(Min=0.365000,Max=0.805000))
+         FadeOutStartTime=4.000000
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=40
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=0.875000,Max=1.750000),Y=(Min=0.875000,Max=1.750000),Z=(Min=0.875000,Max=1.750000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0005'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=6
+         SubdivisionEnd=9
+         LifetimeRange=(Min=1.000000,Max=4.000000)
+         StartVelocityRange=(X=(Min=-52.500000,Max=52.500000),Y=(Min=-52.500000,Max=52.500000),Z=(Min=-52.500000,Max=52.500000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect_Br.br_e_aga_cow_fire_c_simple.SpriteEmitter7'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.670000,Max=0.670000),Z=(Min=0.390000,Max=0.390000))
+         FadeOutStartTime=0.312000
+         FadeOut=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.120000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.230000,RelativeSize=1.500000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=7.000000,Max=7.000000),Y=(Min=7.000000,Max=7.000000),Z=(Min=7.000000,Max=7.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1003'
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect_Br.br_e_aga_cow_fire_c_simple.SpriteEmitter8'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.240000
+         FadeOut=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.110000,RelativeSize=0.800000)
+         SizeScale(2)=(RelativeTime=0.230000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=3.500000,Max=3.500000),Y=(Min=3.500000,Max=3.500000),Z=(Min=3.500000,Max=3.500000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Cubics.fx_m_t0091'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=1
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect_Br.br_e_aga_cow_fire_c_simple.SpriteEmitter9'
+     Begin Object Class=MeshEmitter Name=MeshEmitter3
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.039000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=5
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.420000,RelativeSize=1.300000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=0.087500,Max=0.087500),Y=(Min=0.087500,Max=0.087500),Z=(Min=0.087500,Max=0.087500))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         Name="MeshEmitter3"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect_Br.br_e_aga_cow_fire_c_simple.MeshEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter10
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.160000
+         FadeOut=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.400000)
+         SizeScale(1)=(RelativeTime=0.160000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.380000,RelativeSize=1.500000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=5.250000,Max=5.250000),Y=(Min=5.250000,Max=5.250000),Z=(Min=5.250000,Max=5.250000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0033'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         SubdivisionStart=1
+         SubdivisionEnd=1
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         Name="SpriteEmitter10"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect_Br.br_e_aga_cow_fire_c_simple.SpriteEmitter10'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

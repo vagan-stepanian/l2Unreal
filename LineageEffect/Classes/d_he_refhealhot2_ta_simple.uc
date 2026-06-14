@@ -1,0 +1,109 @@
+class d_he_refhealhot2_ta_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=130,G=201,R=253,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=129,G=198,R=254,A=255))
+         Opacity=0.750000
+         FadeOutStartTime=0.265000
+         FadeOut=True
+         MaxParticles=12
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-5.000000)
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-10.000000,Max=10.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=3.000000,Max=5.000000))
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=3.500000,Max=5.000000),Y=(Min=20.000000,Max=30.000000),Z=(Min=3.500000,Max=5.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.350000,Max=0.350000)
+         StartVelocityRange=(Z=(Min=25.000000,Max=50.000000))
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_he_refhealhot2_ta_simple.SpriteEmitter8'
+     Begin Object Class=MeshEmitter Name=MeshEmitter3
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.wispray01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=170,G=198,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=166,G=194,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.500000
+         FadeOutStartTime=1.005000
+         FadeOut=True
+         FadeInEndTime=0.150000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.020000),Y=(Min=0.020000,Max=0.020000),Z=(Min=0.020000,Max=0.020000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.600000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=0.250000,Max=0.250000),Y=(Min=0.250000,Max=0.250000),Z=(Min=0.250000,Max=0.250000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeVelocity=(Y=50.000000))
+         VelocityScale(1)=(RelativeVelocity=(Y=-50.000000))
+         VelocityScale(2)=(RelativeVelocity=(Y=50.000000))
+         Name="MeshEmitter3"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_he_refhealhot2_ta_simple.MeshEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter33
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=20.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.750000,Max=1.000000),Y=(Min=0.750000,Max=1.000000),Z=(Min=0.750000,Max=1.000000))
+         Opacity=0.700000
+         FadeOutStartTime=0.258500
+         FadeOut=True
+         FadeInEndTime=0.099000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-6.000000,Max=6.000000),Y=(Min=-6.000000,Max=6.000000),Z=(Min=-15.000000,Max=15.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=2.500000,Max=6.000000))
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.600000),Y=(Min=10.000000,Max=40.000000),Z=(Min=0.300000,Max=0.600000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=0.550000,Max=0.550000)
+         InitialDelayRange=(Min=0.350000,Max=0.350000)
+         StartVelocityRange=(Z=(Min=35.000000,Max=80.000000))
+         Name="SpriteEmitter33"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_he_refhealhot2_ta_simple.SpriteEmitter33'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

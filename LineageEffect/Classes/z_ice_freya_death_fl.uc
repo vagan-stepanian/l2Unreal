@@ -1,0 +1,187 @@
+class z_ice_freya_death_fl extends NskillProjectile;
+
+defaultproperties
+{
+     Speed=80.000000
+     AccSpeed=300.000000
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter17
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(Y=(Min=0.100000,Max=0.100000),Z=(Min=0.300000,Max=0.300000))
+         Opacity=0.400000
+         FadeOutStartTime=2.400000
+         FadeOut=True
+         FadeInEndTime=1.110000
+         FadeIn=True
+         MaxParticles=6
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.400000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0108'
+         SubdivisionEnd=40
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="SpriteEmitter17"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.z_ice_freya_death_fl.SpriteEmitter17'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter18
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.900000,Max=0.900000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.250000
+         FadeOutStartTime=2.400000
+         FadeOut=True
+         FadeInEndTime=1.110000
+         FadeIn=True
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.400000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=15.000000,Max=15.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t7077'
+         TextureUSubdivisions=5
+         TextureVSubdivisions=8
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=40
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="SpriteEmitter18"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.z_ice_freya_death_fl.SpriteEmitter18'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter19
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.900000,Max=0.900000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=2.400000
+         FadeOut=True
+         FadeInEndTime=0.540000
+         FadeIn=True
+         MaxParticles=15
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=3.000000,Max=7.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.400000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=1.000000,Max=3.000000),Y=(Min=1.000000,Max=3.000000),Z=(Min=1.000000,Max=3.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5006'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="SpriteEmitter19"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.z_ice_freya_death_fl.SpriteEmitter19'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter20
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.900000,Max=0.900000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.800000
+         FadeOutStartTime=2.400000
+         FadeOut=True
+         FadeInEndTime=0.540000
+         FadeIn=True
+         MaxParticles=15
+         SphereRadiusRange=(Min=5.000000,Max=5.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.300000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.400000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=15.000000,Max=15.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t7047'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="SpriteEmitter20"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.z_ice_freya_death_fl.SpriteEmitter20'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter26
+         Refraction=REF_LightPerformance
+         RefrUScale=0.050000
+         RefrVScale=0.050000
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.900000,Max=0.900000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=2.400000
+         FadeOut=True
+         FadeInEndTime=0.540000
+         FadeIn=True
+         MaxParticles=6
+         SphereRadiusRange=(Min=5.000000,Max=5.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.300000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.400000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=15.000000),Y=(Min=10.000000,Max=15.000000),Z=(Min=10.000000,Max=15.000000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8019'
+         UseRandomSubdivision=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="SpriteEmitter26"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.z_ice_freya_death_fl.SpriteEmitter26'
+     Begin Object Class=TrailEmitter Name=TrailEmitter1
+         TrailShadeType=PTTST_PointLife
+         TrailLocation=PTTL_FollowEmitter
+         MaxPointsPerTrail=300
+         DistanceThreshold=3.000000
+         UseCrossedSheets=True
+         PointLifeTime=0.500000
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.500000
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         AutoReset=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=25.000000,Max=25.000000),Y=(Min=25.000000,Max=25.000000),Z=(Min=25.000000,Max=25.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t7040'
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="TrailEmitter1"
+     End Object
+     Emitters(5)=TrailEmitter'LineageEffect.z_ice_freya_death_fl.TrailEmitter1'
+     bUseDynamicLights=False
+     bLightChanged=True
+     bAcceptsProjectors=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

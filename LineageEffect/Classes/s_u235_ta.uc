@@ -1,0 +1,131 @@
+class s_u235_ta extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter16
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_charge00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.830000,Max=0.830000),Z=(Min=0.640000,Max=0.640000))
+         Opacity=0.400000
+         FadeOutStartTime=0.212000
+         FadeOut=True
+         FadeInEndTime=0.072000
+         FadeIn=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-10.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         StartSpinRange=(X=(Max=0.750000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.800000)
+         StartSizeRange=(X=(Min=0.134000,Max=0.134000),Y=(Min=0.134000,Max=0.134000),Z=(Min=0.141000,Max=0.141000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(Z=(Min=300.000000,Max=300.000000))
+         VelocityLossRange=(Z=(Min=5.000000,Max=5.000000))
+         Name="MeshEmitter16"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.s_u235_ta.MeshEmitter16'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=500.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.847000,Max=0.847000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.957000,Max=0.957000))
+         Opacity=0.350000
+         FadeOutStartTime=0.099000
+         FadeOut=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.310000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=12.266000,Max=12.266000),Y=(Min=64.144997,Max=64.144997),Z=(Min=12.266000,Max=12.266000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         InitialDelayRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(Z=(Min=200.000000,Max=200.000000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.s_u235_ta.SpriteEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=250.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.900000,Max=0.900000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.770000,Max=0.770000))
+         Opacity=0.800000
+         FadeOutStartTime=0.093000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-15.000000,Max=15.000000),Y=(Min=-15.000000,Max=15.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=26.495001,Max=26.495001),Y=(Min=26.495001,Max=26.495001),Z=(Min=26.495001,Max=26.495001))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4001'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         InitialDelayRange=(Min=0.050000,Max=0.050000)
+         StartVelocityRange=(Z=(Min=100.000000,Max=100.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.s_u235_ta.SpriteEmitter3'
+     Begin Object Class=MeshEmitter Name=MeshEmitter30
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.line_glow2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.650000,Max=0.650000),Z=(Min=0.650000,Max=0.650000))
+         Opacity=0.300000
+         FadeOutStartTime=0.054000
+         FadeOut=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-10.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=0.090000,Max=0.090000),Y=(Min=0.090000,Max=0.090000),Z=(Min=0.250000,Max=0.250000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.220000,Max=0.220000)
+         StartVelocityRange=(Z=(Min=175.000000,Max=175.000000))
+         VelocityLossRange=(Z=(Min=4.500000,Max=4.500000))
+         Name="MeshEmitter30"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.s_u235_ta.MeshEmitter30'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

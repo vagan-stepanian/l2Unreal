@@ -1,0 +1,109 @@
+class d_wa_doomattack_ta_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2482
+         Acceleration=(Z=40.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.482143,Color=(B=210,G=210,R=210,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=5.000000
+         Opacity=0.400000
+         FadeOutStartTime=0.134000
+         FadeOut=True
+         FadeInEndTime=0.042880
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         RespawnDeadParticles=False
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=6.000000,Max=10.000000))
+         UseRotationFrom=PTRS_Actor
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.500000,Max=0.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=25.545000,Max=25.545000),Y=(Min=25.545000,Max=25.545000),Z=(Min=25.545000,Max=25.545000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1022'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         SubdivisionEnd=1
+         LifetimeRange=(Min=0.268000,Max=0.268000)
+         StartVelocityRange=(X=(Min=23.805000,Max=23.805000),Y=(Min=23.805000,Max=23.805000),Z=(Min=50.000000,Max=50.000000))
+         VelocityLossRange=(X=(Max=2.000000),Y=(Max=2.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter2482"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_wa_doomattack_ta_simple.SpriteEmitter2482'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2485
+         Acceleration=(Z=-30.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.758000,Max=0.758000),Z=(Min=0.658000,Max=0.658000))
+         Opacity=0.400000
+         FadeOutStartTime=0.249920
+         FadeOut=True
+         FadeInEndTime=0.107920
+         FadeIn=True
+         MaxParticles=4
+         RespawnDeadParticles=False
+         SpinCCWorCW=(X=1.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=0.170000,RelativeSize=1.800000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=33.000000,Max=33.000000),Y=(Min=33.000000,Max=33.000000),Z=(Min=33.000000,Max=33.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5112'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=0.568000,Max=0.568000)
+         StartVelocityRange=(X=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         Name="SpriteEmitter2485"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_wa_doomattack_ta_simple.SpriteEmitter2485'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1209
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.deadblow2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.175000,Color=(B=117,G=186,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.539286,Color=(B=27,G=72,R=228,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.105000
+         FadeOut=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=15.000000,Max=15.000000))
+         SpinParticles=True
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=3.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=-0.063000,Max=-0.063000),Y=(Min=0.671000,Max=0.671000),Z=(Min=0.671000,Max=0.671000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(X=(Min=100.000000,Max=100.000000))
+         VelocityLossRange=(X=(Min=6.000000,Max=6.000000))
+         Name="MeshEmitter1209"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.d_wa_doomattack_ta_simple.MeshEmitter1209'
+     AutoReplay=True
+     bNoDelete=False
+}

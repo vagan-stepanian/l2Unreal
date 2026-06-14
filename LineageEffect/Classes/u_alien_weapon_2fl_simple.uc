@@ -1,0 +1,139 @@
+class u_alien_weapon_2fl_simple extends NSkillProjectile;
+
+defaultproperties
+{
+     Speed=1000.000000
+     AccSpeed=3000.000000
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.000000
+         FadeOutStartTime=0.205000
+         FadeOut=True
+         FadeInEndTime=0.010000
+         FadeIn=True
+         DestroyWhenHitTarget=False
+         StartLocationRange=(X=(Min=30.000000,Max=30.000000))
+         UseRevolution=True
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1060'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_alien_weapon_2fl_simple.SpriteEmitter7'
+     Begin Object Class=TrailEmitter Name=TrailEmitter103
+         TrailShadeType=PTTST_PointLife
+         DistanceThreshold=10.000000
+         PointLifeTime=0.450000
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=51,G=51,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=11,G=96,R=236,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.670000
+         FadeOutStartTime=0.345000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         DestroyWhenHitTarget=False
+         AutoReset=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4148'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="TrailEmitter103"
+     End Object
+     Emitters(1)=TrailEmitter'LineageEffect.u_alien_weapon_2fl_simple.TrailEmitter103'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.840000
+         FadeOutStartTime=0.632130
+         FadeOut=True
+         FadeInEndTime=0.066540
+         FadeIn=True
+         MaxParticles=20
+         StartLocationRange=(X=(Min=20.000000,Max=20.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0006'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         SubdivisionEnd=1
+         LifetimeRange=(Min=1.109000,Max=1.109000)
+         StartVelocityRange=(X=(Min=-80.000000,Max=-80.000000))
+         WarmupTicksPerSecond=2.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_alien_weapon_2fl_simple.SpriteEmitter16'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter17
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.720000
+         MaxParticles=1
+         StartSizeRange=(X=(Min=4.000000,Max=4.000000),Y=(Min=25.000000,Max=25.000000),Z=(Min=25.000000,Max=25.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0000'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=4
+         SubdivisionEnd=5
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=0.100000,Max=0.100000))
+         Name="SpriteEmitter17"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_alien_weapon_2fl_simple.SpriteEmitter17'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter18
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=3,G=71,R=252,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=191,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.500000,Max=0.500000))
+         MaxParticles=5
+         StartLocationOffset=(X=30.000000)
+         StartLocationRange=(X=(Min=-30.000000,Max=-30.000000))
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=30.000000,Max=30.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0000'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=4
+         SubdivisionEnd=5
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=0.100000,Max=0.100000))
+         Name="SpriteEmitter18"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.u_alien_weapon_2fl_simple.SpriteEmitter18'
+     bLightChanged=True
+     bSunAffect=True
+     DrawScale=0.100000
+     bUnlit=False
+     bDirectional=True
+}

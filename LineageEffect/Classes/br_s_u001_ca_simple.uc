@@ -1,0 +1,81 @@
+class br_s_u001_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.new_clan.new_clan_round2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=37,G=231,R=27,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=208,G=208,R=208,A=255))
+         ColorScale(2)=(RelativeTime=0.571429,Color=(B=200,G=200,R=200,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=30.000000
+         ColorMultiplierRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.320000
+         FadeOut=True
+         MaxParticles=6
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-2.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=0.250000,Max=0.300000),Y=(Min=0.250000,Max=0.300000),Z=(Min=0.050000,Max=0.050000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.800000,Max=1.000000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter5"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.br_s_u001_ca_simple.MeshEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter13
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.521429,Color=(B=97,G=97,R=97,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=20.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.800000
+         FadeOutStartTime=0.918000
+         FadeOut=True
+         MaxParticles=40
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=8.000000,Max=8.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         RevolutionsPerSecondRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-0.500000,Max=0.500000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.300000,Max=0.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.050000,RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=0.070000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=0.410000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=1.500000,Max=3.000000),Y=(Min=1.500000,Max=3.000000),Z=(Min=1.500000,Max=3.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=1.300000,Max=1.800000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=-150.000000,Max=150.000000))
+         VelocityLossRange=(X=(Min=4.000000,Max=4.000000),Y=(Min=4.000000,Max=4.000000),Z=(Min=4.000000,Max=4.000000))
+         Name="SpriteEmitter13"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.br_s_u001_ca_simple.SpriteEmitter13'
+     bNoDelete=False
+}

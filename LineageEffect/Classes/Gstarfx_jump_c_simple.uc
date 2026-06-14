@@ -1,0 +1,151 @@
+class Gstarfx_jump_c_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=TrailEmitter Name=TrailEmitter39
+         TrailShadeType=PTTST_PointLife
+         MaxPointsPerTrail=200
+         DistanceThreshold=4.000000
+         UseCrossedSheets=True
+         PointLifeTime=2.000000
+         AttachEmitterIndex=1
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=128,G=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=128,G=128,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         FadeOutStartTime=0.560000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         AutoReset=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=1.000000,Max=5.000000),Y=(Min=1.000000,Max=5.000000),Z=(Min=1.000000,Max=5.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Aura.aurafilm_000'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="TrailEmitter39"
+     End Object
+     Emitters(0)=TrailEmitter'LineageEffect.Gstarfx_jump_c_simple.TrailEmitter39'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         ColorScale(0)=(Color=(B=128,G=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=128,R=128,A=255))
+         Opacity=0.000000
+         FadeOutStartTime=0.245000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         MaxParticles=40
+         StartLocationRange=(X=(Min=-15.000000,Max=15.000000),Y=(Min=-15.000000,Max=15.000000),Z=(Min=-15.000000,Max=15.000000))
+         RevolutionsPerSecondRange=(Z=(Min=1.000000,Max=1.000000))
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.020000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=0.250000,Max=5.000000),Y=(Min=0.250000,Max=5.000000),Z=(Min=0.250000,Max=5.000000))
+         InitialParticlesPerSecond=60.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.Gstarfx_jump_c_simple.SpriteEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter13
+         UseDirectionAs=PTDU_Forward
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.760000,Max=0.760000))
+         Opacity=0.590000
+         FadeOutStartTime=0.102000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=30
+         StartLocationOffset=(Z=20.000000)
+         StartLocationRange=(Z=(Min=-5.000000,Max=5.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.250000,Max=0.250000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.250000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=35.000000,Max=35.000000),Y=(Min=35.000000,Max=35.000000),Z=(Min=35.000000,Max=35.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5104'
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-50.000000,Max=-50.000000))
+         Name="SpriteEmitter13"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.Gstarfx_jump_c_simple.SpriteEmitter13'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.BRC_crossplane'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.790000,Max=0.790000))
+         Opacity=0.290000
+         FadeOutStartTime=0.156000
+         FadeOut=True
+         MaxParticles=15
+         StartLocationOffset=(Z=40.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.100000,Max=0.200000),Y=(Min=0.100000,Max=0.200000),Z=(Min=-3.000000,Max=-3.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(Z=(Min=-150.000000,Max=-100.000000))
+         Name="MeshEmitter2"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.Gstarfx_jump_c_simple.MeshEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter14
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=0.343000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=50
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=15.000000,Max=15.000000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5103'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         Name="SpriteEmitter14"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.Gstarfx_jump_c_simple.SpriteEmitter14'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.250000
+     bDirectional=True
+}

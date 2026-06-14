@@ -1,0 +1,126 @@
+class br_e_local_jp_mdarkelf_front extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter14
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255))
+         ColorScale(1)=(RelativeTime=0.539286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=15.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.790000,Max=1.000000),Z=(Min=0.279000,Max=1.000000))
+         Opacity=0.150000
+         FadeOutStartTime=0.020000
+         FadeOut=True
+         MaxParticles=37
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         StartSpinRange=(Y=(Min=-0.250000,Max=-0.250000))
+         StartSizeRange=(X=(Min=0.075000,Max=0.090000),Y=(Min=0.075000,Max=0.090000),Z=(Min=0.075000,Max=0.090000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-9.000000))
+         VelocityLossRange=(X=(Max=1.000000))
+         Name="MeshEmitter14"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect_Br.br_e_local_jp_mdarkelf_front.MeshEmitter14'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter15
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.756000,Max=0.756000),Z=(Min=0.590000,Max=0.590000))
+         Opacity=0.300000
+         FadeOutStartTime=0.420000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=8
+         RespawnDeadParticles=False
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.030000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.290000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=2.400000,Max=2.400000),Y=(Min=2.400000,Max=2.400000),Z=(Min=2.400000,Max=2.400000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0127'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-9.600000))
+         VelocityLossRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         Name="SpriteEmitter15"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect_Br.br_e_local_jp_mdarkelf_front.SpriteEmitter15'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter3
+         VertexMesh=VertMesh'LineageEffectMeshes.swirl'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.700000,Max=0.700000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.350000
+         FadeOutStartTime=0.230000
+         FadeOut=True
+         FadeInEndTime=0.050000
+         FadeIn=True
+         MaxParticles=6
+         RespawnDeadParticles=False
+         UseRotationFrom=PTRS_Actor
+         SpinParticles=True
+         StartSpinRange=(Y=(Min=0.250000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.400000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.005850,Max=0.005850),Y=(Min=0.005850,Max=0.005850),Z=(Min=0.005850,Max=0.005850))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         VelocityLossRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         Name="VertMeshEmitter3"
+     End Object
+     Emitters(2)=VertMeshEmitter'LineageEffect_Br.br_e_local_jp_mdarkelf_front.VertMeshEmitter3'
+     Begin Object Class=MeshEmitter Name=MeshEmitter15
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.spark00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.900000,Max=0.900000))
+         FadeOutStartTime=0.480000
+         FadeOut=True
+         FadeInEndTime=0.280000
+         FadeIn=True
+         MaxParticles=8
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=0.024000,Max=0.060000),Y=(Min=0.024000,Max=0.060000),Z=(Min=0.024000,Max=0.060000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         VelocityLossRange=(Y=(Max=1.000000),Z=(Max=1.000000))
+         Name="MeshEmitter15"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect_Br.br_e_local_jp_mdarkelf_front.MeshEmitter15'
+     bNoDelete=False
+}

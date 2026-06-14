@@ -1,0 +1,159 @@
+class u_heal_bened_ta extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=200,G=200,R=200,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=30.000000
+         Opacity=0.400000
+         FadeOutStartTime=1.580000
+         FadeOut=True
+         FadeInEndTime=0.480000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=32.000000,Max=32.000000),Y=(Min=32.000000,Max=32.000000),Z=(Min=32.000000,Max=32.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5127'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_heal_bened_ta.SpriteEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=39,G=70,R=216,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=136,R=102,A=255))
+         ColorMultiplierRange=(X=(Min=0.844000,Max=0.844000),Y=(Min=0.481000,Max=0.481000),Z=(Min=0.492000,Max=0.492000))
+         Opacity=0.350000
+         FadeOutStartTime=0.690000
+         FadeOut=True
+         FadeInEndTime=0.310000
+         FadeIn=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=0.670000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=32.000000,Max=32.000000),Y=(Min=32.000000,Max=32.000000),Z=(Min=32.000000,Max=32.000000))
+         InitialParticlesPerSecond=7.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7115'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_heal_bened_ta.SpriteEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter3
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.wooh04.heal_dd04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=81,G=141,R=255,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=0.148000
+         FadeOut=True
+         FadeInEndTime=0.148000
+         FadeIn=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-5.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.600000)
+         SizeScale(1)=(RelativeTime=0.050000,RelativeSize=1.300000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.150000)
+         StartSizeRange=(X=(Min=1.700000,Max=1.700000),Y=(Min=1.700000,Max=1.700000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=30.000000,Max=30.000000))
+         Name="MeshEmitter3"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.u_heal_bened_ta.MeshEmitter3'
+     Begin Object Class=MeshEmitter Name=MeshEmitter4
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.White.white_heal01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=30.000000
+         Opacity=0.600000
+         FadeOutStartTime=1.540000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.250000,Max=0.250000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.150000)
+         StartSizeRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.350000,Max=0.350000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="MeshEmitter4"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.u_heal_bened_ta.MeshEmitter4'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter43
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=-100.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.800000
+         FadeOut=True
+         FadeInEndTime=0.250000
+         FadeIn=True
+         MaxParticles=12
+         ResetAfterChange=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=100.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=80.000000,Max=100.000000),Z=(Min=15.000000,Max=15.000000))
+         UseRotationFrom=PTRS_Actor
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.230000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.500000,Max=1.066000),Y=(Min=61.500000,Max=61.500000),Z=(Min=61.500000,Max=61.500000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0050'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=1
+         SubdivisionEnd=1
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         StartVelocityRange=(Z=(Min=-20.000000,Max=-20.000000))
+         Name="SpriteEmitter43"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.u_heal_bened_ta.SpriteEmitter43'
+     bNoDelete=False
+}

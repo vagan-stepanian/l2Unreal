@@ -1,0 +1,132 @@
+class br_e_u114_g_halloween_magic_hat_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter75
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.502000,Max=0.502000),Z=(Min=0.180000,Max=0.180000))
+         Opacity=0.200000
+         FadeOutStartTime=1.102500
+         FadeOut=True
+         FadeInEndTime=0.192500
+         FadeIn=True
+         MaxParticles=20
+         StartLocationRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=-0.500000,Max=-0.500000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.700000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5009'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=1.750000,Max=1.750000)
+         StartVelocityRange=(X=(Min=-0.510000,Max=0.510000),Y=(Min=-0.510000,Max=0.510000),Z=(Min=-0.510000,Max=0.510000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter75"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.br_e_u114_g_halloween_magic_hat_simple.SpriteEmitter75'
+     Begin Object Class=MeshEmitter Name=MeshEmitter27
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.Barler_bright0'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.532143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=8.000000
+         ColorMultiplierRange=(X=(Min=0.744000,Max=0.744000),Y=(Min=0.502000,Max=0.502000),Z=(Min=0.180000,Max=0.180000))
+         Opacity=0.060000
+         FadeOutStartTime=1.080000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=-2.300000,Max=-2.300000))
+         UseRotationFrom=PTRS_Normal
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.850000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.150000)
+         StartSizeRange=(X=(Max=0.070000),Y=(Max=0.081000),Z=(Max=0.070000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         Name="MeshEmitter27"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.br_e_u114_g_halloween_magic_hat_simple.MeshEmitter27'
+     Begin Object Class=MeshEmitter Name=MeshEmitter28
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.Barler_bright0'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=168,G=174,R=51,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=8.000000
+         ColorMultiplierRange=(X=(Min=0.744000,Max=0.744000),Y=(Min=0.502000,Max=0.502000),Z=(Min=0.180000,Max=0.180000))
+         Opacity=0.040000
+         FadeOutStartTime=0.765000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=-2.300000,Max=-2.300000),Z=(Min=-1.000000,Max=-1.000000))
+         UseRotationFrom=PTRS_Normal
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.850000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.150000)
+         StartSizeRange=(X=(Max=0.030000),Y=(Max=0.030000),Z=(Max=0.030000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         Name="MeshEmitter28"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.br_e_u114_g_halloween_magic_hat_simple.MeshEmitter28'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.Barler_bright0'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=168,G=174,R=51,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=8.000000
+         ColorMultiplierRange=(X=(Min=0.744000,Max=0.744000),Y=(Min=0.502000,Max=0.502000),Z=(Min=0.180000,Max=0.180000))
+         Opacity=0.040000
+         FadeOutStartTime=0.765000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=-2.300000,Max=-2.300000),Z=(Min=1.000000,Max=1.000000))
+         UseRotationFrom=PTRS_Normal
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.850000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.150000)
+         StartSizeRange=(X=(Max=0.030000),Y=(Max=0.030000),Z=(Max=0.030000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         Name="MeshEmitter2"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.br_e_u114_g_halloween_magic_hat_simple.MeshEmitter2'
+     bNoDelete=False
+     Rotation=(Yaw=39999)
+     DrawScale=0.100000
+     SwayRotationOrig=(Yaw=39999)
+}

@@ -1,0 +1,136 @@
+class z_s_phatom_deco_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter104
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=10.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(A=255))
+         ColorScale(1)=(RelativeTime=0.514286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=0.568000,Max=0.568000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.630000
+         FadeOutStartTime=1.380000
+         FadeOut=True
+         FadeInEndTime=1.230000
+         FadeIn=True
+         MaxParticles=40
+         StartLocationOffset=(Z=10.000000)
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-100.000000,Max=30.000000))
+         StartLocationPolarRange=(X=(Min=30.000000,Max=100.000000),Y=(Min=-80.000000,Max=80.000000),Z=(Min=50.000000,Max=50.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=30.000000,Max=50.000000),Y=(Min=30.000000,Max=50.000000),Z=(Min=30.000000,Max=50.000000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8156'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000),Z=(Min=-20.000000,Max=20.000000))
+         VelocityLossRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter104"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.z_s_phatom_deco_simple.SpriteEmitter104'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter19
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=1,R=26,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=3,G=2,R=34,A=255))
+         Opacity=0.280000
+         FadeOutStartTime=2.460000
+         FadeOut=True
+         FadeInEndTime=2.100000
+         FadeIn=True
+         MaxParticles=16
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-60.000000,Max=-20.000000))
+         SpinParticles=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=40.000000,Max=70.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4036'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         SubdivisionEnd=32
+         LifetimeRange=(Min=4.000000,Max=6.000000)
+         StartVelocityRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Max=30.000000))
+         Name="SpriteEmitter19"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.z_s_phatom_deco_simple.SpriteEmitter19'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter20
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=5,G=1,R=152,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=15,G=11,R=55,A=255))
+         ColorMultiplierRange=(X=(Min=0.450000,Max=1.000000),Y=(Min=0.450000,Max=1.000000),Z=(Min=0.450000,Max=1.000000))
+         Opacity=0.500000
+         FadeOutStartTime=3.060000
+         FadeOut=True
+         FadeInEndTime=2.220000
+         FadeIn=True
+         MaxParticles=32
+         StartLocationRange=(X=(Min=-15.000000,Max=15.000000),Y=(Min=-15.000000,Max=15.000000),Z=(Min=-40.000000,Max=-20.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=40.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7120'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         SubdivisionEnd=32
+         LifetimeRange=(Min=4.000000,Max=5.000000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=10.000000),Z=(Max=30.000000))
+         Name="SpriteEmitter20"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.z_s_phatom_deco_simple.SpriteEmitter20'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter17
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=5,G=1,R=152,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=15,G=11,R=55,A=255))
+         ColorMultiplierRange=(X=(Min=0.450000,Max=1.000000),Y=(Min=0.450000,Max=1.000000),Z=(Min=0.450000,Max=1.000000))
+         Opacity=0.680000
+         FadeOutStartTime=3.060000
+         FadeOut=True
+         FadeInEndTime=2.220000
+         FadeIn=True
+         MaxParticles=13
+         StartLocationRange=(X=(Min=-15.000000,Max=15.000000),Y=(Min=-15.000000,Max=15.000000),Z=(Min=-40.000000,Max=-20.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=40.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7120'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=32
+         LifetimeRange=(Min=4.000000,Max=6.000000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=10.000000),Z=(Max=30.000000))
+         Name="SpriteEmitter17"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.z_s_phatom_deco_simple.SpriteEmitter17'
+     bLightChanged=True
+     bNoDelete=False
+     DrawScale=0.200000
+     bDirectional=True
+}

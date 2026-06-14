@@ -1,0 +1,84 @@
+class br_e_u076_kotatsu_dummy_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter4
+         Acceleration=(Z=6.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=128,A=255))
+         Opacity=0.050000
+         FadeOutStartTime=2.040000
+         FadeOut=True
+         FadeInEndTime=0.320000
+         FadeIn=True
+         MaxParticles=24
+         StartLocationRange=(X=(Min=-6.000000,Max=6.000000),Y=(Min=-6.000000,Max=6.000000),Z=(Min=-8.000000,Max=8.000000))
+         StartLocationShape=PTLS_Sphere
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Max=2.500000),Y=(Max=2.500000),Z=(Max=2.500000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5011'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=1
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(Z=(Max=7.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         Name="SpriteEmitter4"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.br_e_u076_kotatsu_dummy_simple.SpriteEmitter4'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         Acceleration=(Z=4.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.482143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=30.000000
+         Opacity=0.150000
+         FadeOutStartTime=0.240000
+         FadeOut=True
+         MaxParticles=30
+         StartLocationOffset=(Z=2.000000)
+         StartLocationRange=(X=(Min=-0.788000,Max=0.788000),Y=(Min=-0.788000,Max=0.788000),Z=(Min=0.433000,Max=0.433000))
+         SphereRadiusRange=(Max=15.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=90.000000),Z=(Min=10.000000,Max=50.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.596000)
+         StartSizeRange=(X=(Max=0.200000),Y=(Max=0.200000),Z=(Max=0.200000))
+         InitialParticlesPerSecond=1250.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0083'
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=0.001000,Max=4.000000)
+         InitialDelayRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-2.625000,Max=2.625000),Y=(Min=-3.150000,Max=3.150000),Z=(Min=0.105000,Max=3.150000))
+         MaxAbsVelocity=(X=15625.000000,Y=10000.000000,Z=12500.000000)
+         VelocityLossRange=(X=(Min=0.800000,Max=1.200000),Y=(Min=0.800000,Max=1.200000),Z=(Min=0.800000,Max=1.200000))
+         VelocityScale(0)=(RelativeTime=0.100000,RelativeVelocity=(X=10.000000,Y=10.000000,Z=-10.000000))
+         VelocityScale(1)=(RelativeTime=0.500000,RelativeVelocity=(X=1.000000,Y=1.000000,Z=-0.500000))
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.br_e_u076_kotatsu_dummy_simple.SpriteEmitter7'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

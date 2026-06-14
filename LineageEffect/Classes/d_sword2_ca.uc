@@ -1,0 +1,167 @@
+class d_sword2_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=7.000000)
+         Acceleration=(Z=-154.850006)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.609000,Max=0.609000),Z=(Min=0.541000,Max=0.541000))
+         Opacity=0.300000
+         FadeOutStartTime=0.028000
+         FadeOut=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=-36.723000,Y=-3.800000)
+         StartLocationPolarRange=(X=(Min=-3.600000,Max=43.000000),Y=(Min=-3.600000,Max=43.000000),Z=(Max=5.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=0.200000,Max=0.200000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=0.360000,RelativeSize=0.700000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=83.790001,Max=83.790001),Y=(Min=83.790001,Max=83.790001),Z=(Min=337.553986,Max=337.553986))
+         InitialParticlesPerSecond=100000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t6134'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.175000,Max=0.175000)
+         StartVelocityRange=(X=(Min=5.000000,Max=20.000000),Z=(Min=-232.834000,Max=-151.647995))
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_sword2_ca.SpriteEmitter11'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter12
+         Acceleration=(Z=-50.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.119280
+         FadeOut=True
+         FadeInEndTime=0.038340
+         FadeIn=True
+         MaxParticles=50
+         RespawnDeadParticles=False
+         StartLocationOffset=(Y=-45.000000,Z=20.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000),Z=(Min=-20.000000,Max=20.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=2.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=1.545000,Max=2.177000),Y=(Min=1.545000,Max=2.177000),Z=(Min=1.545000,Max=2.177000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0066'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=4
+         SubdivisionEnd=5
+         LifetimeRange=(Min=0.426000,Max=0.426000)
+         StartVelocityRange=(X=(Min=-500.000000,Max=500.000000),Y=(Min=-500.000000,Max=500.000000),Z=(Min=-50.000000,Max=50.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter12"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_sword2_ca.SpriteEmitter12'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter13
+         Acceleration=(Z=5.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=160,G=160,R=160,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=90.000000
+         ColorMultiplierRange=(X=(Min=0.420000,Max=0.420000),Y=(Min=0.490000,Max=0.490000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.700000
+         FadeOutStartTime=0.083750
+         FadeOut=True
+         FadeInEndTime=0.043550
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationOffset=(Y=-38.000000,Z=-70.000000)
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.125000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.080000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=25.000000,Max=25.000000),Y=(Min=25.000000,Max=25.000000),Z=(Min=25.000000,Max=25.000000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3051'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=15
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         Name="SpriteEmitter13"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_sword2_ca.SpriteEmitter13'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter14
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=7.000000)
+         Acceleration=(Z=-154.850006)
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.512000,Max=0.512000),Z=(Min=0.541000,Max=0.541000))
+         Opacity=0.700000
+         FadeOutStartTime=0.028000
+         FadeOut=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=-36.723000,Y=-13.785000)
+         StartLocationRange=(X=(Max=30.000000),Y=(Max=10.000000))
+         StartLocationPolarRange=(X=(Min=-3.600000,Max=43.000000),Y=(Min=-3.600000,Max=43.000000),Z=(Max=5.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=0.200000,Max=0.200000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=0.360000,RelativeSize=0.700000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=101.386002,Max=101.386002),Y=(Min=101.386002,Max=101.386002),Z=(Min=608.002991,Max=608.002991))
+         InitialParticlesPerSecond=100000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t6134'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=1
+         LifetimeRange=(Min=0.175000,Max=0.175000)
+         StartVelocityRange=(X=(Min=5.000000,Max=20.000000),Z=(Min=-232.834000,Max=-151.647995))
+         Name="SpriteEmitter14"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_sword2_ca.SpriteEmitter14'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.000000
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-100.000000)
+         UniformSize=True
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=2.500000,Max=2.500000)
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_sword2_ca.SpriteEmitter16'
+     bNoDelete=False
+}

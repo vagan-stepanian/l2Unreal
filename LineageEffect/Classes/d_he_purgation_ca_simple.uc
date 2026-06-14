@@ -1,0 +1,186 @@
+class d_he_purgation_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter32
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.wooh04.heal_dd01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=1.900000
+         FadeInEndTime=0.209000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.030000)
+         StartSizeRange=(X=(Min=1.600000,Max=1.600000),Y=(Min=1.600000,Max=1.600000),Z=(Min=1.600000,Max=1.600000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.900000,Max=1.900000)
+         Name="MeshEmitter32"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_he_purgation_ca_simple.MeshEmitter32'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter109
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(G=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.870000,Max=0.870000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.202500
+         FadeOut=True
+         FadeInEndTime=0.202500
+         FadeIn=True
+         MaxParticles=7
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=75.000000,Max=75.000000),Y=(Min=75.000000,Max=75.000000),Z=(Min=75.000000,Max=75.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7114'
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         Name="SpriteEmitter109"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_he_purgation_ca_simple.SpriteEmitter109'
+     Begin Object Class=MeshEmitter Name=MeshEmitter33
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.wooh04.heal_dd01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=1))
+         ColorScale(1)=(Color=(B=108))
+         ColorScale(2)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.130000
+         FadeOutStartTime=0.093000
+         FadeOut=True
+         MaxParticles=4
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=1.750000,Max=1.750000),Y=(Min=1.750000,Max=1.750000),Z=(Min=1.750000,Max=1.750000))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         InitialDelayRange=(Min=1.500000,Max=1.500000)
+         Name="MeshEmitter33"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_he_purgation_ca_simple.MeshEmitter33'
+     Begin Object Class=MeshEmitter Name=MeshEmitter4
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.wooh04.heal_dd02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=1.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=1.512000
+         FadeOut=True
+         FadeInEndTime=0.306000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-10.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.125000,Max=0.125000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.030000)
+         StartSizeRange=(X=(Min=1.500000,Max=1.500000),Y=(Min=1.500000,Max=1.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.800000,Max=1.800000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         StartVelocityRange=(Z=(Min=50.000000,Max=50.000000))
+         VelocityLossRange=(Z=(Min=5.000000,Max=5.000000))
+         Name="MeshEmitter4"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.d_he_purgation_ca_simple.MeshEmitter4'
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.wooh04.heal_dd03'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.750000
+         FadeOutStartTime=1.305000
+         FadeOut=True
+         FadeInEndTime=0.300000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.125000,Max=0.125000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.980000)
+         StartSizeRange=(X=(Min=1.500000,Max=1.500000),Y=(Min=1.500000,Max=1.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         InitialDelayRange=(Min=0.300000,Max=0.300000)
+         Name="MeshEmitter5"
+     End Object
+     Emitters(6)=MeshEmitter'LineageEffect.d_he_purgation_ca_simple.MeshEmitter5'
+     Begin Object Class=MeshEmitter Name=MeshEmitter6
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.wooh04.heal_dd04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=0.148000
+         FadeOut=True
+         FadeInEndTime=0.148000
+         FadeIn=True
+         MaxParticles=7
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-5.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.980000)
+         StartSizeRange=(X=(Min=1.500000,Max=1.500000),Y=(Min=1.500000,Max=1.500000),Z=(Min=2.200000,Max=2.200000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         StartVelocityRange=(Z=(Min=50.000000,Max=50.000000))
+         Name="MeshEmitter6"
+     End Object
+     Emitters(7)=MeshEmitter'LineageEffect.d_he_purgation_ca_simple.MeshEmitter6'
+     bOnInitialDelay=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

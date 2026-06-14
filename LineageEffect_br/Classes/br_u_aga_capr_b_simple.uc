@@ -1,0 +1,124 @@
+class br_u_aga_capr_b_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1462
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=192,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.514286,Color=(B=255,G=193,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=192,G=128,R=255,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=8.400000
+         FadeOut=True
+         FadeInEndTime=0.900000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationOffset=(Z=5.000000)
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.950000)
+         SizeScale(1)=(RelativeTime=0.280000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.050000)
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t6137'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         SubdivisionStart=9
+         SubdivisionEnd=10
+         LifetimeRange=(Min=10.000000,Max=10.000000)
+         WarmupTicksPerSecond=2.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter1462"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_u_aga_capr_b_simple.SpriteEmitter1462'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1525
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.296429,Color=(B=255,G=164,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.539286,Color=(B=149,G=149,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.775000,Color=(B=192,G=128,R=255,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=255,R=255,A=255))
+         ColorScale(5)=(RelativeTime=1.000000,Color=(B=43,G=43,R=43,A=255))
+         Opacity=0.490000
+         FadeOutStartTime=1.360000
+         FadeOut=True
+         FadeInEndTime=0.500000
+         FadeIn=True
+         MaxParticles=3
+         SpinCCWorCW=(X=0.000000)
+         UniformSize=True
+         StartSizeRange=(X=(Min=5.300000,Max=5.300000),Y=(Min=5.300000,Max=5.300000),Z=(Min=5.300000,Max=5.300000))
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t6136'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         WarmupTicksPerSecond=2.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter1525"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect_Br.br_u_aga_capr_b_simple.SpriteEmitter1525'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1526
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=192,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.514286,Color=(B=114,G=179,R=237,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=128,R=255,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=0.800000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=15
+         StartLocationOffset=(Z=5.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.410000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=1.000000,Max=2.000000),Y=(Min=1.000000,Max=2.000000),Z=(Min=1.000000,Max=2.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0069'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         SubdivisionStart=5
+         SubdivisionEnd=6
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="SpriteEmitter1526"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect_Br.br_u_aga_capr_b_simple.SpriteEmitter1526'
+     Begin Object Class=MeshEmitter Name=MeshEmitter588
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.aga_star1'
+         UseParticleColor=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=113,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=255,G=149,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=119,R=255,A=255))
+         FadeOutStartTime=12.000000
+         MaxParticles=7
+         StartLocationRange=(X=(Min=0.500000,Max=2.000000),Y=(Min=0.500000,Max=2.000000),Z=(Min=0.500000,Max=2.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=90.000000,Max=90.000000),Y=(Max=360.000000),Z=(Min=2.500000,Max=5.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Min=10.000000,Max=10.000000))
+         RevolutionsPerSecondRange=(X=(Min=0.050000,Max=0.150000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.300000),Y=(Min=0.100000,Max=0.300000),Z=(Min=0.100000,Max=0.300000))
+         StartSpinRange=(X=(Max=0.200000),Y=(Max=0.200000),Z=(Max=0.200000))
+         StartSizeRange=(X=(Min=0.008000,Max=0.016000),Y=(Min=0.008000,Max=0.016000),Z=(Min=0.022000,Max=0.022000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=12.000000,Max=12.000000)
+         Name="MeshEmitter588"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect_Br.br_u_aga_capr_b_simple.MeshEmitter588'
+     bNoDelete=False
+}

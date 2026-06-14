@@ -1,0 +1,72 @@
+class e_u300_heart_fl_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         Acceleration=(X=-42.783001)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.228571,Color=(A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=0.320000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=53
+         StartLocationRange=(X=(Min=-1.750000,Max=1.750000),Y=(Min=-1.750000,Max=1.750000),Z=(Min=-1.750000,Max=1.750000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=3.000000))
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.600000)
+         SizeScaleRepeats=10.000000
+         StartSizeRange=(X=(Min=0.700000,Max=1.050000),Y=(Min=0.700000,Max=1.050000),Z=(Min=0.700000,Max=1.050000))
+         InitialParticlesPerSecond=10.000000
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6002'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         SubdivisionEnd=1
+         LifetimeRange=(Min=1.250000,Max=1.250000)
+         StartVelocityRange=(X=(Min=-1.750000,Max=-1.750000))
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u300_heart_fl_simple.SpriteEmitter9'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter4
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         MaxParticles=1
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.900000)
+         StartSizeRange=(X=(Min=2.772000,Max=2.772000),Y=(Min=2.772000,Max=2.772000),Z=(Min=2.772000,Max=2.772000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6002'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         SubdivisionEnd=1
+         LifetimeRange=(Min=0.510000,Max=0.510000)
+         Name="SpriteEmitter4"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u300_heart_fl_simple.SpriteEmitter4'
+     Physics=PHYS_Trailer
+     bUseDynamicLights=False
+     bLightChanged=True
+     bNoDelete=False
+     bTrailerSameRotation=True
+     bTrailerPrePivot=True
+     bTrailerNoOwnerDestroy=True
+     bAcceptsProjectors=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bDirectional=True
+}

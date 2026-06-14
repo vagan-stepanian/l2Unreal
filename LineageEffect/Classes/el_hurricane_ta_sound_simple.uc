@@ -1,0 +1,126 @@
+class el_hurricane_ta_sound_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         ColorScale(0)=(Color=(B=251,G=145,R=94))
+         ColorScale(1)=(RelativeTime=1.000000)
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Min=0.900000,Max=0.900000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.800000
+         FadeOutStartTime=0.329000
+         FadeOut=True
+         FadeInEndTime=0.091000
+         FadeIn=True
+         MaxParticles=12
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=-3.000000)
+         StartLocationPolarRange=(X=(Min=90.000000,Max=90.000000),Y=(Max=360.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.400000)
+         SpinsPerSecondRange=(X=(Min=-0.200000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.110000,RelativeSize=1.800000)
+         SizeScale(1)=(RelativeTime=0.330000,RelativeSize=2.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=8.000000,Max=9.600000),Y=(Min=64.000000,Max=64.000000),Z=(Min=64.000000,Max=64.000000))
+         InitialParticlesPerSecond=200.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0067'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=2
+         SubdivisionEnd=4
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-24.000000,Max=24.000000),Y=(Min=-24.000000,Max=24.000000),Z=(Min=-8.000000,Max=8.000000))
+         MaxAbsVelocity=(X=6400.000000,Y=10000.000000,Z=8000.000000)
+         VelocityLossRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.400000,Max=0.400000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.el_hurricane_ta_sound_simple.SpriteEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Wind.windblowin03'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutFactor=(W=1.000000,X=0.300000,Y=0.300000,Z=0.300000)
+         FadeOutStartTime=0.235000
+         FadeOut=True
+         FadeInFactor=(W=1.000000,X=0.300000,Y=0.300000,Z=0.300000)
+         FadeInEndTime=0.050000
+         FadeIn=True
+         MaxParticles=1
+         ResetAfterChange=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-2.560000))
+         UseRotationFrom=PTRS_Actor
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.090000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=0.310000,RelativeSize=2.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=0.048000,Max=0.048000),Y=(Min=0.048000,Max=0.048000),Z=(Min=0.048000,Max=0.048000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0000'
+         InitialTimeRange=(Min=0.100000,Max=0.100000)
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         VelocityLossRange=(X=(Min=2.000000,Max=2.000000))
+         Name="MeshEmitter5"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.el_hurricane_ta_sound_simple.MeshEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         UseDirectionAs=PTDU_Forward
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=0.165000
+         FadeOut=True
+         MaxParticles=4
+         ResetAfterChange=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=2.000000,Max=2.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.070000,RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.230000,RelativeSize=1.900000)
+         SizeScale(2)=(RelativeTime=0.600000,RelativeSize=2.200000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=12.000000,Max=24.000000),Y=(Min=80.000000,Max=80.000000),Z=(Min=80.000000,Max=80.000000))
+         InitialParticlesPerSecond=2000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0033'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionStart=2
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         StartVelocityRange=(X=(Min=-0.080000,Max=0.080000),Y=(Min=-0.080000,Max=0.080000),Z=(Min=-0.800000,Max=-0.800000))
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000))
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.el_hurricane_ta_sound_simple.SpriteEmitter8'
+     SpawnSound(0)=Sound'SkillSound.wind_strike.wind_strike_shot'
+     bNoDelete=False
+     DrawScale=0.250000
+     SoundRadius=30.000000
+     SoundVolume=250.000000
+     bDirectional=True
+}

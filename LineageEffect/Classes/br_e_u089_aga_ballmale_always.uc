@@ -1,0 +1,77 @@
+class br_e_u089_aga_ballmale_always extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter147
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.092857,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.532143,Color=(B=217,G=217,R=217,A=255))
+         ColorScale(3)=(RelativeTime=0.946429,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=17.000000
+         ColorMultiplierRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.600000,Max=0.600000))
+         Opacity=0.500000
+         FadeOutStartTime=0.480000
+         FadeOut=True
+         FadeInEndTime=0.060000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=30
+         WeatherSoundCheck=True
+         ForcedFade=True
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.050000,Max=0.050000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3038'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=8
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=64
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter147"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.br_e_u089_aga_ballmale_always.SpriteEmitter147'
+     Begin Object Class=MeshEmitter Name=MeshEmitter96
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=167,G=167,R=167,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=20.000000
+         Opacity=0.150000
+         FadeOutStartTime=1.200000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=20
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.470000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.930000,RelativeSize=0.500000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Max=0.030000),Y=(Max=0.030000),Z=(Max=0.030000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.200000,Max=0.200000)
+         Name="MeshEmitter96"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.br_e_u089_aga_ballmale_always.MeshEmitter96'
+     bNoDelete=False
+     DrawScale=0.100000
+}

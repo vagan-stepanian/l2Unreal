@@ -1,0 +1,75 @@
+class e_u859_deco_crob extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=10.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.225000,Color=(B=173,G=173,R=173,A=255))
+         ColorScale(2)=(RelativeTime=0.889286,Color=(B=64,G=64,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(A=255))
+         Opacity=0.450000
+         FadeOutStartTime=0.470000
+         FadeOut=True
+         FadeInEndTime=0.150000
+         FadeIn=True
+         MaxParticles=20
+         StartLocationRange=(X=(Min=-6.000000,Max=6.000000),Y=(Min=-6.000000,Max=6.000000),Z=(Min=-6.000000,Max=6.000000))
+         StartLocationPolarRange=(X=(Min=-170.000000,Max=170.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=50.000000,Max=100.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=7.000000,Max=7.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=7.000000,Max=7.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2054'
+         TextureUSubdivisions=10
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=40
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=20.000000,Max=20.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u859_deco_crob.SpriteEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter8
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Bereth.round_roll'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=1.400000
+         FadeOut=True
+         FadeInEndTime=0.300000
+         FadeIn=True
+         MaxParticles=20
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-12.000000,Max=12.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.250000,Max=0.250000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-0.010000,Max=0.010000),Z=(Min=-0.010000,Max=0.010000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.400000),Y=(Min=0.300000,Max=0.400000),Z=(Min=0.200000,Max=0.200000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="MeshEmitter8"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.e_u859_deco_crob.MeshEmitter8'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bDirectional=True
+}

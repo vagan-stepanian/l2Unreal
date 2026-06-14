@@ -1,0 +1,117 @@
+class d_ro_criticalwound_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter22
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.magiccircle.magiccircleblack02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.010000,Max=0.010000),Y=(Min=0.010000,Max=0.010000),Z=(Min=0.010000,Max=0.010000))
+         FadeOutStartTime=2.214000
+         FadeOut=True
+         FadeInEndTime=0.783000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         ForcedFade=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-1.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.010000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.660000,RelativeSize=1.010000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=20.000000
+         StartSizeRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.200000,Max=0.200000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=2.700000,Max=2.700000)
+         Name="MeshEmitter22"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_ro_criticalwound_ca_simple.MeshEmitter22'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter29
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(A=255))
+         ColorScale(1)=(RelativeTime=0.514286,Color=(B=180,G=180,R=180,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(A=255))
+         ColorScaleRepeats=2.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.727000,Max=0.727000),Z=(Min=0.646000,Max=0.646000))
+         Opacity=0.480000
+         FadeOutStartTime=0.576000
+         FadeOut=True
+         FadeInEndTime=0.144000
+         FadeIn=True
+         MaxParticles=9
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=2.000000)
+         StartLocationRange=(Z=(Max=1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.010000,Max=0.010000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=26.000000,Max=26.000000),Y=(Min=26.000000,Max=26.000000),Z=(Min=26.000000,Max=26.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3249'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=1
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         Name="SpriteEmitter29"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_ro_criticalwound_ca_simple.SpriteEmitter29'
+     Begin Object Class=MeshEmitter Name=MeshEmitter28
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Black.black_magic_00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=200.000000
+         FadeOutStartTime=2.214000
+         FadeOut=True
+         FadeInEndTime=0.783000
+         FadeIn=True
+         MaxParticles=1
+         ResetAfterChange=True
+         WeatherSoundCheck=True
+         ForcedFade=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=4.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.030000,Max=0.030000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.120000,RelativeSize=1.015000)
+         SizeScale(2)=(RelativeTime=0.370000,RelativeSize=0.995000)
+         SizeScale(3)=(RelativeTime=0.590000,RelativeSize=1.010000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=3.000000
+         StartSizeRange=(X=(Min=0.350000,Max=0.350000),Y=(Min=0.350000,Max=0.350000),Z=(Min=0.350000,Max=0.350000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=2.700000,Max=2.700000)
+         Name="MeshEmitter28"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.d_ro_criticalwound_ca_simple.MeshEmitter28'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bDirectional=True
+}

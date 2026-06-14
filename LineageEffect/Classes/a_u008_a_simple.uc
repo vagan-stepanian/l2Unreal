@@ -1,0 +1,97 @@
+class a_u008_a_simple extends Emitter; // DOT - »Î
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         Acceleration=(Z=30.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.571429,Color=(B=234,G=234,R=234,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.350000,Max=0.350000),Y=(Min=0.250000,Max=0.250000),Z=(Min=0.150000,Max=0.150000))
+         FadeOutStartTime=0.300000
+         FadeOut=True
+         FadeInEndTime=0.165000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=7
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-5.000000,Max=5.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.140000,RelativeSize=1.300000)
+         SizeScale(1)=(RelativeTime=0.420000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.600000)
+         StartSizeRange=(X=(Min=15.000000,Max=20.000000),Y=(Min=15.000000,Max=20.000000),Z=(Min=15.000000,Max=20.000000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0071'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=10
+         SubdivisionEnd=15
+         LifetimeRange=(Min=1.000000,Max=1.500000)
+         StartVelocityRange=(X=(Min=-30.000000,Max=30.000000),Y=(Min=-30.000000,Max=30.000000))
+         VelocityLossRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.a_u008_a_simple.SpriteEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         Acceleration=(Z=10.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.639286,Color=(B=164,G=164,R=164,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=35.000000
+         ColorMultiplierRange=(X=(Min=0.200000,Max=0.400000),Y=(Min=0.750000,Max=1.000000),Z=(Max=0.200000))
+         FadeOutStartTime=0.600000
+         FadeOut=True
+         FadeInEndTime=0.165000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=15
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-12.000000,Max=12.000000),Y=(Min=-12.000000,Max=12.000000),Z=(Min=-10.000000,Max=10.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=5.000000,Max=5.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=-0.200000,Max=0.200000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-3.000000,Max=3.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.600000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=6.000000
+         StartSizeRange=(X=(Min=1.800000,Max=4.000000),Y=(Min=1.800000,Max=4.000000),Z=(Min=1.800000,Max=4.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionStart=1
+         SubdivisionEnd=2
+         LifetimeRange=(Min=2.800000,Max=3.333000)
+         StartVelocityRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=-15.000000))
+         VelocityLossRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.a_u008_a_simple.SpriteEmitter3'
+     SpawnSound(0)=Sound'SkillSound14.GD22.a_u008_a'
+     bNoDelete=False
+     SoundRadius=40.000000
+     SoundVolume=250.000000
+     bDirectional=True
+}

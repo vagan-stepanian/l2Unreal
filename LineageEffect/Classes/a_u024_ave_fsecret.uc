@@ -1,0 +1,102 @@
+class a_u024_ave_fsecret extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter13
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=10.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.425000,Color=(B=202,G=202,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=128,G=128,A=255))
+         Opacity=0.450000
+         FadeOutStartTime=0.600000
+         FadeOut=True
+         FadeInEndTime=0.160000
+         FadeIn=True
+         MaxParticles=20
+         StartLocationRange=(X=(Min=-7.000000,Max=7.000000),Y=(Min=-7.000000,Max=7.000000),Z=(Min=-7.000000,Max=7.000000))
+         StartLocationPolarRange=(X=(Min=-170.000000,Max=170.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=50.000000,Max=100.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2054'
+         TextureUSubdivisions=10
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=40
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=20.000000,Max=20.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter13"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.a_u024_ave_fsecret.SpriteEmitter13'
+     Begin Object Class=MeshEmitter Name=MeshEmitter20
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.Cir_Beam'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(G=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.150000
+         FadeOutStartTime=0.760000
+         FadeOut=True
+         FadeInEndTime=0.060000
+         FadeIn=True
+         MaxParticles=20
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.100000,Max=0.100000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter20"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.a_u024_ave_fsecret.MeshEmitter20'
+     Begin Object Class=MeshEmitter Name=MeshEmitter21
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Bereth.round_roll'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.496429,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(R=128,A=255))
+         Opacity=0.250000
+         FadeOutStartTime=0.460000
+         FadeOut=True
+         FadeInEndTime=0.110000
+         FadeIn=True
+         MaxParticles=20
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-12.000000,Max=12.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.400000),Y=(Min=0.300000,Max=0.400000),Z=(Min=0.350000,Max=0.350000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles2.fx_m_t_3042'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter21"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.a_u024_ave_fsecret.MeshEmitter21'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bDirectional=True
+}

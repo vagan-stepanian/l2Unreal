@@ -1,0 +1,142 @@
+class u_antapendant_01_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter22
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.magiccircle.magiccirclewhite00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=106,G=145,R=247))
+         ColorScale(1)=(RelativeTime=0.514286,Color=(B=7,G=119,R=241))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=106,G=145,R=247))
+         ColorScaleRepeats=40.000000
+         Opacity=0.720000
+         FadeOutStartTime=2.960000
+         FadeOut=True
+         FadeInEndTime=0.280000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.018000,Max=0.018000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.200000,Max=0.200000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Name="MeshEmitter22"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_antapendant_01_ca_simple.MeshEmitter22'
+     Begin Object Class=MeshEmitter Name=MeshEmitter25
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.magiccircle.magiccirclewhite01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=95,G=96,R=126))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=184,G=186,R=211))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=95,G=96,R=126))
+         ColorScaleRepeats=20.000000
+         Opacity=0.600000
+         FadeOutStartTime=2.280000
+         FadeOut=True
+         FadeInEndTime=1.020000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=10.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.070000,Max=0.070000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=0.110000,Max=0.110000),Y=(Min=0.110000,Max=0.110000),Z=(Min=0.200000,Max=0.200000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         Name="MeshEmitter25"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.u_antapendant_01_ca_simple.MeshEmitter25'
+     Begin Object Class=MeshEmitter Name=MeshEmitter28
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.magiccircle.magiccirclewhite01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=95,G=96,R=126))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=184,G=186,R=211))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=95,G=96,R=126))
+         ColorScaleRepeats=40.000000
+         FadeOutStartTime=1.980000
+         FadeOut=True
+         FadeInEndTime=0.900000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=12.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.040000,Max=0.040000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=0.085000,Max=0.085000),Y=(Min=0.085000,Max=0.085000),Z=(Min=0.300000,Max=0.300000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter28"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.u_antapendant_01_ca_simple.MeshEmitter28'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter34
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=2,R=91,A=255))
+         ColorScale(1)=(RelativeTime=0.525000,Color=(B=134,G=134,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=2,R=91,A=255))
+         ColorScaleRepeats=20.000000
+         FadeOutStartTime=2.695000
+         FadeOut=True
+         FadeInEndTime=0.280000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=7.000000,Max=7.000000))
+         SpinParticles=True
+         UniformSize=True
+         StartSizeRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=30.000000,Max=30.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t7063'
+         Name="SpriteEmitter34"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_antapendant_01_ca_simple.SpriteEmitter34'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter35
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         MaxParticles=1
+         RespawnDeadParticles=False
+         Disabled=True
+         StartLocationRange=(Z=(Min=80.000000,Max=80.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.960000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="SpriteEmitter35"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.u_antapendant_01_ca_simple.SpriteEmitter35'
+     AutoReplay=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bDirectional=True
+}

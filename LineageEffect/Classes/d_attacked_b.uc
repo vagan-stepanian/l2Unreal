@@ -1,0 +1,127 @@
+class d_attacked_b extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter26
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=-281.750000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.126000
+         FadeOut=True
+         MaxParticles=50
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Max=1.250000),Y=(Min=-2.500000,Max=2.500000))
+         StartLocationPolarRange=(X=(Min=-45.000000,Max=45.000000),Y=(Min=60.000000,Max=120.000000),Z=(Min=4.000000,Max=4.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.370000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=0.350000,Max=0.350000),Y=(Min=3.000000,Max=9.000000),Z=(Min=56.250000,Max=56.250000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t4076'
+         UseRandomSubdivision=True
+         SubdivisionStart=17
+         SubdivisionEnd=20
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         StartVelocityRange=(X=(Min=5.000000,Max=75.000000),Y=(Min=-125.000000,Max=125.000000),Z=(Min=75.000000,Max=175.000000))
+         Name="SpriteEmitter26"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_attacked_b.SpriteEmitter26'
+     Begin Object Class=MeshEmitter Name=MeshEmitter36
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Impact.spread00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=225,G=85,R=117,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=30,G=148,R=255,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.312000
+         FadeOut=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.100000,RelativeSize=2.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles2.fx_m_t_3056'
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="MeshEmitter36"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_attacked_b.MeshEmitter36'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter2
+         VertexMesh=VertMesh'LineageEffectMeshes.darion_ray'
+         UseMeshBlendMode=False
+         UseParticleColor=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=201,R=134,A=255))
+         ColorScale(1)=(Color=(B=255,G=183,R=117,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=147,G=255,R=252,A=255))
+         ColorMultiplierRange=(X=(Min=0.900000,Max=0.900000),Y=(Min=0.700000,Max=0.700000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.123500
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=12
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000),Y=(Min=0.050000,Max=0.450000),Z=(Max=1.000000))
+         StartSizeRange=(X=(Min=0.100000,Max=0.350000),Y=(Min=0.100000,Max=0.350000),Z=(Min=0.100000,Max=0.350000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles3.fx_m_t7004'
+         LifetimeRange=(Min=0.550000,Max=0.550000)
+         Name="VertMeshEmitter2"
+     End Object
+     Emitters(2)=VertMeshEmitter'LineageEffect.d_attacked_b.VertMeshEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter37
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.cross_plane1'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.700000,Max=0.700000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.780000
+         FadeOutStartTime=0.378000
+         FadeOut=True
+         FadeInEndTime=0.120000
+         FadeIn=True
+         MaxParticles=2
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-6.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.050000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.400000,Max=0.400000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles6.fx_m_t8232'
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="MeshEmitter37"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_attacked_b.MeshEmitter37'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=160)
+     DrawScale=0.100000
+     SwayRotationOrig=(Yaw=160)
+}

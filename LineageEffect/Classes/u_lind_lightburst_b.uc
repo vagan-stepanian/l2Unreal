@@ -1,0 +1,130 @@
+class u_lind_lightburst_b extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter6
+         StaticMesh=StaticMesh'BG_Effect_S.Wisp'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=40,R=51,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=83,R=47,A=255))
+         Opacity=0.840000
+         FadeOutStartTime=12.000000
+         FadeOut=True
+         FadeInEndTime=4.800000
+         FadeIn=True
+         MaxParticles=8
+         StartLocationShape=PTLS_Sphere
+         AlphaTest=False
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.100000,Max=0.100000))
+         RevolutionsPerSecondRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-0.500000,Max=0.500000))
+         UseRevolutionScale=True
+         RevolutionScale(0)=(RelativeRevolution=(X=50.000000,Y=50.000000,Z=50.000000))
+         RevolutionScale(1)=(RelativeTime=1.000000,RelativeRevolution=(X=10.000000,Y=10.000000,Z=10.000000))
+         RevolutionScaleRepeats=1.000000
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=-0.200000,Max=0.200000),Y=(Min=-0.200000,Max=0.200000),Z=(Min=-0.200000,Max=0.200000))
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.060000)
+         SizeScale(1)=(RelativeTime=0.700000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.240000,RelativeSize=1.000000)
+         SizeScaleRepeats=1.000000
+         StartSizeRange=(X=(Min=0.800000,Max=1.000000),Y=(Min=0.800000,Max=1.000000),Z=(Min=0.800000,Max=1.000000))
+         InitialParticlesPerSecond=5.000000
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles.fx_m_t0103'
+         LifetimeRange=(Min=15.000000,Max=15.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter6"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_lind_lightburst_b.MeshEmitter6'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=230,G=196,R=176,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=234,G=203,R=191,A=255))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.570000
+         FadeOutStartTime=3.200000
+         FadeOut=True
+         FadeInEndTime=1.600000
+         FadeIn=True
+         MaxParticles=3
+         AlphaTest=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=50.000000,Max=50.000000))
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'FX_E_T.particles_etc.o_fx_fire02'
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_lind_lightburst_b.SpriteEmitter6'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         MaxParticles=3
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.100000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.700000,RelativeSize=3.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=15.000000,Max=15.000000))
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_lind_lightburst_b.SpriteEmitter7'
+     Begin Object Class=MeshEmitter Name=MeshEmitter7
+         StaticMesh=StaticMesh'FX_E_S.etc.fx_wispray00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.390000
+         FadeOutStartTime=8.600000
+         FadeOut=True
+         FadeInEndTime=4.500000
+         FadeIn=True
+         MaxParticles=2
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.700000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=0.700000,Max=1.000000),Z=(Min=0.700000,Max=1.000000))
+         LifetimeRange=(Min=10.000000,Max=10.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter7"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.u_lind_lightburst_b.MeshEmitter7'
+     SpawnSound(0)=Sound'SkillSound14.GD30.u_lind_lightburst_b'
+     SoundLooping=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     SoundRadius=60.000000
+     SoundVolume=250.000000
+}

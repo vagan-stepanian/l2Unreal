@@ -1,0 +1,79 @@
+class npc_statue_crystal_light_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.660000
+         FadeOutStartTime=2.640000
+         FadeOut=True
+         FadeInEndTime=1.440000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationOffset=(X=12.452105,Y=0.154368,Z=21.238342)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.010000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.530000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=40.000000,Max=60.000000),Y=(Min=40.000000,Max=60.000000),Z=(Min=40.000000,Max=60.000000))
+         InitialParticlesPerSecond=50.000000
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'FX_E_T.LightGlowSet.npc_2f_etc_W'
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.npc_statue_crystal_light_simple.SpriteEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter95
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.114286,Color=(B=103,G=103,R=103,A=255))
+         ColorScale(2)=(RelativeTime=0.260714,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.428571,Color=(B=97,G=97,R=97,A=255))
+         ColorScale(4)=(RelativeTime=0.589286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(5)=(RelativeTime=0.742857,Color=(B=100,G=100,R=100,A=255))
+         ColorScale(6)=(RelativeTime=0.885714,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(7)=(RelativeTime=1.000000,Color=(B=113,G=113,R=113,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=2.120000
+         FadeOut=True
+         FadeInEndTime=0.800000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationOffset=(X=12.452105,Y=0.154368,Z=21.238342)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.020000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=65.000000,Max=65.000000),Y=(Min=65.000000,Max=65.000000),Z=(Min=65.000000,Max=65.000000))
+         Texture=Texture'FX_E_T.LightGlowSet.npc_2f_etc_G01'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         SubdivisionEnd=1
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="SpriteEmitter95"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.npc_statue_crystal_light_simple.SpriteEmitter95'
+     bDynamicActorFilterState=True
+     bLightChanged=True
+     bNoDelete=False
+     Tag="Emitter"
+     bSunAffect=True
+     DrawScale=0.300000
+     bSelected=True
+     TexModifyInfo=(Color=(B=255,G=255,R=255,A=255),AlphaOp=1,ColorOp=1)
+}

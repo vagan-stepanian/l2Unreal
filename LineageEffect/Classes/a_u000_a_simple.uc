@@ -1,0 +1,51 @@
+class a_u000_a_simple extends Emitter; // 이상상태 (독)
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         Acceleration=(Z=-100.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=140,G=64,R=135,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=120,G=63,R=106,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=1.000000),Y=(Min=0.800000,Max=1.000000),Z=(Min=0.800000,Max=1.000000))
+         FadeOutStartTime=1.080000
+         FadeOut=True
+         FadeInEndTime=0.120000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-3.000000)
+         StartLocationRange=(X=(Min=-8.000000,Max=8.000000),Y=(Min=-8.000000,Max=8.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.100000,RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=0.360000,RelativeSize=4.600000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=6.000000)
+         StartSizeRange=(X=(Min=2.000000,Max=4.500000),Y=(Min=2.000000,Max=4.500000),Z=(Min=2.000000,Max=4.500000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0089'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-80.000000,Max=80.000000),Y=(Min=-80.000000,Max=80.000000),Z=(Min=30.000000,Max=30.000000))
+         VelocityLossRange=(X=(Min=4.000000,Max=4.000000),Y=(Min=4.000000,Max=4.000000),Z=(Min=4.000000,Max=4.000000))
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.a_u000_a_simple.SpriteEmitter1'
+     SpawnSound(0)=Sound'SkillSound.poison_cloud.poison_cloud_shot'
+     SoundPitchMin=0.900000
+     SoundPitchMax=1.100000
+     bNoDelete=False
+     DrawScale=0.200000
+     SoundRadius=40.000000
+     SoundVolume=250.000000
+}

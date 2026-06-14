@@ -1,0 +1,114 @@
+class u_bigbd_demon_npc extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter47
+         Acceleration=(Z=5.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=18,G=12,R=245,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=210,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.900000,Max=0.900000))
+         FadeOutStartTime=0.560000
+         FadeOut=True
+         FadeInEndTime=0.140000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=23
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-5.000000,Max=5.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Max=25.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(Z=(Min=1.000000,Max=1.000000))
+         RevolutionsPerSecondRange=(X=(Min=-0.050000,Max=0.050000),Y=(Min=-0.050000,Max=0.050000),Z=(Min=0.300000,Max=0.300000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=0.690000,RelativeSize=0.750000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=0.500000,Max=1.300000),Y=(Min=0.500000,Max=1.300000),Z=(Min=0.500000,Max=1.300000))
+         InitialParticlesPerSecond=23.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4145'
+         LifetimeRange=(Min=0.500000,Max=0.700000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=5.000000,Max=10.000000))
+         VelocityLossRange=(Z=(Min=1.000000,Max=2.000000))
+         WarmupTicksPerSecond=2.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter47"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_bigbd_demon_npc.SpriteEmitter47'
+     Begin Object Class=MeshEmitter Name=MeshEmitter73
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.spark00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=35.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.157143,Color=(B=192,G=128,A=255))
+         ColorScale(2)=(RelativeTime=0.307143,Color=(A=255))
+         ColorScale(3)=(RelativeTime=0.607143,Color=(A=255))
+         ColorScale(4)=(RelativeTime=0.789286,Color=(B=70,G=70,R=255,A=255))
+         ColorScale(5)=(RelativeTime=1.000000,Color=(B=157,G=253,R=251,A=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Min=0.896000,Max=1.000000),Y=(Min=0.896000,Max=1.000000),Z=(Min=0.896000,Max=1.000000))
+         FadeOutStartTime=0.600000
+         FadeOut=True
+         FadeInEndTime=0.600000
+         FadeIn=True
+         MaxParticles=4
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-3.000000,Max=3.000000))
+         SphereRadiusRange=(Max=7.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.480000,Max=1.000000),Y=(Min=0.480000,Max=1.000000),Z=(Min=0.480000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=0.100000,Max=0.200000),Y=(Min=0.100000,Max=0.200000),Z=(Min=0.100000,Max=0.200000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.750000,Max=0.800000)
+         MaxAbsVelocity=(X=6400.000000,Y=10000.000000,Z=8000.000000)
+         VelocityLossRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.800000,Max=0.800000))
+         Name="MeshEmitter73"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.u_bigbd_demon_npc.MeshEmitter73'
+     Begin Object Class=MeshEmitter Name=MeshEmitter76
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.sky.sky_line2'
+         RenderTwoSided=True
+         UseParticleColor=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=35,G=30,R=242,A=255))
+         ColorScale(1)=(RelativeTime=0.139286,Color=(B=200,G=6,R=113,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(A=255))
+         FadeOutStartTime=0.636000
+         FadeOut=True
+         FadeInEndTime=0.300000
+         FadeIn=True
+         MaxParticles=4
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-6.000000,Max=6.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-0.250000,Max=0.250000),Z=(Min=-0.250000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.990000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.010000)
+         StartSizeRange=(X=(Min=0.060000,Max=0.080000),Y=(Min=0.060000,Max=0.080000),Z=(Min=0.060000,Max=0.080000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Shader'LineageEffectsTextures2.Particles2.vala_line'
+         LifetimeRange=(Min=1.000000,Max=1.200000)
+         Name="MeshEmitter76"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.u_bigbd_demon_npc.MeshEmitter76'
+     AutoDestroy=False
+     AutoReplay=True
+     SpawnSound(0)=Sound'SkillSound11.bigbd.bigbd_demon_npc'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bUnlit=False
+     SoundRadius=80.000000
+     SoundVolume=250.000000
+     bDirectional=True
+}

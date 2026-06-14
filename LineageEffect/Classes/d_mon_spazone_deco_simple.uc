@@ -1,0 +1,172 @@
+class d_mon_spazone_deco_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter23
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=162,G=227,R=130,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.700000,Max=0.700000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.750000
+         FadeOutStartTime=0.410000
+         FadeOut=True
+         FadeInEndTime=0.090000
+         FadeIn=True
+         MaxParticles=5
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=120.000000,Max=120.000000),Y=(Min=120.000000,Max=120.000000),Z=(Min=120.000000,Max=120.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1017'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter23"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_mon_spazone_deco_simple.SpriteEmitter23'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter24
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=21,G=21,R=85,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=33,G=32,R=74,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=0.870000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=2.000000,Max=2.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=50.000000,Max=50.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles5.ct2_c04'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(X=(Min=200.000000,Max=200.000000),Y=(Min=200.000000,Max=200.000000),Z=(Min=200.000000,Max=200.000000))
+         VelocityLossRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter24"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_mon_spazone_deco_simple.SpriteEmitter24'
+     Begin Object Class=MeshEmitter Name=MeshEmitter31
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.White.white_center01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=106,G=139,R=253,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=71,G=63,R=114,A=255))
+         ColorScaleRepeats=10.000000
+         Opacity=0.300000
+         FadeOutStartTime=0.670000
+         FadeOut=True
+         FadeInEndTime=0.120000
+         FadeIn=True
+         MaxParticles=1
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter31"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_mon_spazone_deco_simple.MeshEmitter31'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter25
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=18,G=58,R=88,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=18,G=58,R=88,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.575000
+         FadeOut=True
+         FadeInEndTime=0.175000
+         FadeIn=True
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=2.000000,Max=2.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=50.000000,Max=50.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8156'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.250000,Max=1.250000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(X=(Min=200.000000,Max=200.000000),Y=(Min=200.000000,Max=200.000000),Z=(Min=200.000000,Max=200.000000))
+         VelocityLossRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter25"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_mon_spazone_deco_simple.SpriteEmitter25'
+     Begin Object Class=MeshEmitter Name=MeshEmitter32
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Summon.summon00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=80,G=109,R=83,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=107,G=180,R=97,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=0.800000
+         FadeOut=True
+         FadeInEndTime=0.300000
+         FadeIn=True
+         MaxParticles=1
+         StartLocationRange=(Z=(Min=-50.000000,Max=-50.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=-180.000000,Max=180.000000),Z=(Min=100.000000,Max=100.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         Name="MeshEmitter32"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.d_mon_spazone_deco_simple.MeshEmitter32'
+     Begin Object Class=MeshEmitter Name=MeshEmitter33
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.wind_L'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=31,G=54,R=97,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=31,G=54,R=97,A=255))
+         Opacity=0.400000
+         FadeOutStartTime=0.490000
+         FadeOut=True
+         FadeInEndTime=0.200000
+         FadeIn=True
+         StartLocationRange=(Z=(Max=50.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.250000,Max=0.250000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.750000,Max=0.750000),Y=(Min=0.750000,Max=0.750000),Z=(Min=0.500000,Max=0.500000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter33"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.d_mon_spazone_deco_simple.MeshEmitter33'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bUnlit=False
+}

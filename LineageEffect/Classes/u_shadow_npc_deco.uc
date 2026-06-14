@@ -1,0 +1,120 @@
+class u_shadow_npc_deco extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter449
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.grey_circle'
+         UseMeshBlendMode=False
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=60,G=62,R=72,A=255))
+         ColorScale(1)=(RelativeTime=0.475000,Color=(B=28,G=30,R=43,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=52,G=53,R=69,A=255))
+         ColorScaleRepeats=10.000000
+         Opacity=0.800000
+         FadeOutStartTime=0.492000
+         FadeOut=True
+         FadeInEndTime=0.108000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationOffset=(Z=1.000000)
+         StartLocationRange=(Z=(Min=-28.000000,Max=-28.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=1.500000,Max=1.500000),Y=(Min=1.500000,Max=1.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="MeshEmitter449"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_shadow_npc_deco.MeshEmitter449'
+     Begin Object Class=MeshEmitter Name=MeshEmitter450
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_charge00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=36,G=39,R=96,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=80,G=119,R=235,A=255))
+         ColorMultiplierRange=(X=(Max=0.500000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.200000
+         FadeOut=True
+         FadeInEndTime=0.065000
+         FadeIn=True
+         MaxParticles=15
+         StartLocationRange=(Z=(Min=-18.000000,Max=-18.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.250000)
+         SizeScale(1)=(RelativeTime=0.560000,RelativeSize=3.000000)
+         SizeScale(2)=(RelativeTime=0.750000,RelativeSize=3.700000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.030000,Max=0.030000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=-10.000000,Max=-10.000000))
+         Name="MeshEmitter450"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.u_shadow_npc_deco.MeshEmitter450'
+     Begin Object Class=MeshEmitter Name=MeshEmitter451
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.etc_levelup00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.314286,Color=(B=194,G=194,R=194,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=70.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.200000,Max=0.200000))
+         Opacity=0.070000
+         FadeOutStartTime=0.510000
+         FadeOut=True
+         FadeInEndTime=0.320000
+         FadeIn=True
+         MaxParticles=6
+         Disabled=True
+         StartLocationRange=(Z=(Min=-28.000000,Max=-28.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.200000,Max=0.200000),Z=(Min=0.600000,Max=0.600000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.850000,Max=0.850000)
+         Name="MeshEmitter451"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.u_shadow_npc_deco.MeshEmitter451'
+     Begin Object Class=MeshEmitter Name=MeshEmitter452
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.sel_ring_red01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.514286,Color=(B=185,G=185,R=185,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=17.000000
+         Opacity=0.620000
+         MaxParticles=1
+         StartLocationRange=(Z=(Min=-28.000000,Max=-28.000000))
+         StartSizeRange=(X=(Min=0.220000,Max=0.220000),Y=(Min=0.220000,Max=0.220000),Z=(Min=0.220000,Max=0.220000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter452"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.u_shadow_npc_deco.MeshEmitter452'
+     bRotEmitter=True
+     RotPerSecond=(Yaw=16384)
+     bNoDelete=False
+     Rotation=(Yaw=13620810)
+     SwayRotationOrig=(Yaw=12125960)
+}

@@ -1,0 +1,108 @@
+class u_lind_log06_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter997
+         Acceleration=(X=-50.000000,Z=-50.000000)
+         ColorScale(0)=(Color=(B=223,G=151,R=136,A=255))
+         ColorScale(1)=(RelativeTime=0.221429,Color=(B=255,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=0.500000,Color=(B=255,G=210,R=210,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=187,R=187,A=255))
+         ColorMultiplierRange=(X=(Min=0.530000,Max=0.530000),Y=(Min=0.450000,Max=0.450000),Z=(Min=0.380000,Max=0.380000))
+         Opacity=0.600000
+         FadeOutStartTime=0.490000
+         FadeOut=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-16.000000,Max=16.000000),Y=(Min=-16.000000,Max=16.000000),Z=(Min=-16.000000,Max=16.000000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=5.000000,Max=5.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.200000)
+         StartSizeRange=(X=(Min=23.000000,Max=35.000000),Y=(Min=23.000000,Max=35.000000),Z=(Min=23.000000,Max=35.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4013'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=0.600000,Max=1.300000)
+         StartVelocityRange=(X=(Min=90.000000,Max=160.000000),Y=(Min=90.000000,Max=160.000000),Z=(Min=90.000000,Max=160.000000))
+         VelocityLossRange=(X=(Min=3.000000,Max=7.000000),Y=(Min=3.000000,Max=7.000000),Z=(Min=3.000000,Max=7.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter997"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_lind_log06_ca.SpriteEmitter997'
+     Begin Object Class=MeshEmitter Name=MeshEmitter23
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh03.stone_p'
+         RenderTwoSided=True
+         Acceleration=(Z=-300.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         MaxParticles=8
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-20.000000,Max=20.000000),Y=(Min=-20.000000,Max=20.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Min=35.000000,Max=35.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.500000),Y=(Min=0.100000,Max=0.500000),Z=(Min=0.100000,Max=0.500000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=0.900000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.250000)
+         StartSizeRange=(X=(Min=0.050000,Max=0.100000),Y=(Min=0.050000,Max=0.100000),Z=(Min=0.050000,Max=0.100000))
+         InitialParticlesPerSecond=300.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         CustomMaterials(0)=Texture'L2_Lobby_T.LindLog_03'
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         StartVelocityRange=(X=(Min=-75.000000,Max=75.000000),Y=(Min=-75.000000,Max=75.000000),Z=(Min=80.000000,Max=120.000000))
+         Name="MeshEmitter23"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.u_lind_log06_ca.MeshEmitter23'
+     Begin Object Class=MeshEmitter Name=MeshEmitter316
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh03.stone_p'
+         RenderTwoSided=True
+         Acceleration=(Z=-300.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         MaxParticles=4
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-20.000000,Max=20.000000),Y=(Min=-20.000000,Max=20.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Min=35.000000,Max=35.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.500000),Y=(Min=0.100000,Max=0.500000),Z=(Min=0.100000,Max=0.500000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=0.900000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.250000)
+         StartSizeRange=(X=(Min=0.075000,Max=0.150000),Y=(Min=0.075000,Max=0.150000),Z=(Min=0.075000,Max=0.150000))
+         InitialParticlesPerSecond=300.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         CustomMaterials(0)=Texture'L2_Lobby_T.LindLog_03'
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         StartVelocityRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000),Z=(Min=40.000000,Max=80.000000))
+         Name="MeshEmitter316"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.u_lind_log06_ca.MeshEmitter316'
+     bUseQuake=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=16712)
+     bUnlit=False
+     SwayRotationOrig=(Yaw=16712)
+     bDirectional=True
+}

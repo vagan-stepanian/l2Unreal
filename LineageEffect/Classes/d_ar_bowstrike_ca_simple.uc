@@ -1,0 +1,80 @@
+class d_ar_bowstrike_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter6
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.aura_gn_a02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=235,R=193,A=255))
+         ColorMultiplierRange=(X=(Min=0.727000,Max=0.727000),Y=(Min=0.640000,Max=0.640000),Z=(Min=0.532000,Max=0.532000))
+         FadeOutStartTime=0.301000
+         FadeOut=True
+         FadeInEndTime=0.098000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=15.000000)
+         SphereRadiusRange=(Min=1.000000,Max=1.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=80.000000,Max=180.000000),Z=(Min=100.000000,Max=100.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.900000)
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=1.000000,Max=1.000000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles5.fx_m_t8156'
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         StartVelocityRange=(Z=(Min=15.000000,Max=15.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="MeshEmitter6"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_ar_bowstrike_ca_simple.MeshEmitter6'
+     Begin Object Class=MeshEmitter Name=MeshEmitter20
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.fx_m_sm8162_03'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=181,G=181,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.317857,Color=(B=134,G=173,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=201,R=147,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.618000,Max=0.618000),Z=(Min=0.548000,Max=0.548000))
+         Opacity=0.720000
+         FadeOutStartTime=0.210000
+         FadeOut=True
+         FadeInEndTime=0.070000
+         FadeIn=True
+         MaxParticles=6
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=3.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         StartSpinRange=(X=(Min=-0.015000,Max=-0.015000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.560000,RelativeSize=3.000000)
+         SizeScale(2)=(RelativeTime=0.750000,RelativeSize=3.700000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=0.450000,Max=0.450000),Y=(Min=0.450000,Max=0.450000),Z=(Min=-2.000000,Max=-2.000000))
+         InitialParticlesPerSecond=7.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles7.fx_m_t7114'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter20"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_ar_bowstrike_ca_simple.MeshEmitter20'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bUnlit=False
+     bDirectional=True
+}

@@ -1,0 +1,135 @@
+class br_e_u034_fire_elemental_icearml_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter12
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.water.watericebolt00'
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Max=0.200000),Y=(Max=0.800000),Z=(Max=1.000000))
+         FadeOutStartTime=4.000000
+         MaxParticles=2
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=0.100000,Max=0.400000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.070000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.030250,Max=0.049500),Y=(Min=0.030250,Max=0.049500),Z=(Min=0.030250,Max=0.049500))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=1.000000,Max=100.000000)
+         Name="MeshEmitter12"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.br_e_u034_fire_elemental_icearml_simple.MeshEmitter12'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=76,G=76,R=76,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.300000,Max=0.620000),Y=(Min=0.700000,Max=0.800000),Z=(Min=0.900000,Max=1.000000))
+         FadeOutStartTime=9.000000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-5.000000)
+         StartLocationRange=(X=(Min=-6.000000,Max=6.000000),Y=(Min=-6.000000,Max=6.000000),Z=(Min=-3.000000,Max=3.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=80.000000,Max=100.000000),Z=(Min=3.000000,Max=5.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.010000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.030000,RelativeSize=1.900000)
+         SizeScale(2)=(RelativeTime=0.060000,RelativeSize=1.700000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.700000)
+         StartSizeRange=(X=(Min=2.000000,Max=4.000000),Y=(Min=2.000000,Max=4.000000),Z=(Min=2.000000,Max=4.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4035'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionStart=1
+         SubdivisionEnd=3
+         LifetimeRange=(Min=100.000000,Max=100.000000)
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.br_e_u034_fire_elemental_icearml_simple.SpriteEmitter8'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         Acceleration=(Z=-13.600000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=76,G=76,R=76,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         FadeOutStartTime=1.260000
+         FadeOut=True
+         FadeInEndTime=0.080000
+         FadeIn=True
+         StartLocationOffset=(Z=3.000000)
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-8.000000,Max=8.000000),Z=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.400000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=0.100000,Max=0.500000),Y=(Min=0.100000,Max=0.500000),Z=(Min=0.100000,Max=0.500000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5006'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=1.600000,Max=2.000000)
+         StartVelocityRange=(X=(Max=15.000000),Y=(Max=5.000000),Z=(Min=-1.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.br_e_u034_fire_elemental_icearml_simple.SpriteEmitter16'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter18
+         Acceleration=(Z=-9.503000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=225,G=217,R=196,A=255))
+         ColorScale(1)=(RelativeTime=0.407143,Color=(B=58,G=58,R=58,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=213,G=184,R=155,A=255))
+         ColorScaleRepeats=10.000000
+         FadeOutStartTime=1.000000
+         FadeOut=True
+         FadeInEndTime=0.200000
+         FadeIn=True
+         StartLocationOffset=(Z=3.000000)
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-6.000000,Max=6.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.150000,Max=0.150000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.010000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1071'
+         LifetimeRange=(Min=1.600000,Max=2.000000)
+         StartVelocityRange=(X=(Max=15.000000),Y=(Max=5.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter18"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.br_e_u034_fire_elemental_icearml_simple.SpriteEmitter18'
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

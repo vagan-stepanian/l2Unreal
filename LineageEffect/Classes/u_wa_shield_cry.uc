@@ -1,0 +1,128 @@
+class u_wa_shield_cry extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.etc_levelup00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.314286,Color=(B=194,G=194,R=194,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=70.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.200000,Max=0.200000))
+         Opacity=0.050000
+         FadeOutStartTime=0.250000
+         FadeOut=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.150000),Y=(Min=0.150000,Max=0.150000),Z=(Min=0.600000,Max=0.600000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter2"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_wa_shield_cry.MeshEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.110000
+         FadeOutStartTime=0.328000
+         FadeOut=True
+         FadeInEndTime=0.312000
+         FadeIn=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         Disabled=True
+         StartLocationRange=(Z=(Min=90.000000,Max=90.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=25.000000,Max=25.000000),Y=(Min=25.000000,Max=25.000000),Z=(Min=25.000000,Max=25.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4111'
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_wa_shield_cry.SpriteEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter4
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.tiat_emblem'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=-50.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=248,G=194,R=194,A=255))
+         ColorScale(1)=(RelativeTime=0.475000,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=241,G=171,R=180,A=255))
+         ColorScaleRepeats=12.000000
+         ColorMultiplierRange=(X=(Min=0.900000,Max=0.900000),Y=(Min=0.800000,Max=0.800000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.770000
+         FadeOutStartTime=0.380000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=90.000000,Max=90.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.750000,Max=0.750000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.260000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=4.000000,Max=4.000000),Y=(Min=4.000000,Max=4.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles6.fx_m_t4094'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter4"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.u_wa_shield_cry.MeshEmitter4'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter5
+         UseDirectionAs=PTDU_Forward
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.421429,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.739286,Color=(B=255,G=128,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=55,R=55,A=255))
+         ColorMultiplierRange=(X=(Min=0.400000,Max=1.000000),Y=(Min=0.548000,Max=0.800000),Z=(Min=0.600000,Max=0.600000))
+         Opacity=0.600000
+         FadeOutStartTime=0.047840
+         FadeOut=True
+         FadeInEndTime=0.026910
+         FadeIn=True
+         MaxParticles=20
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-0.100000,Max=0.100000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=90.000000,Max=90.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.600000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=27.298000,Max=27.298000),Y=(Min=27.298000,Max=27.298000),Z=(Min=11.299000,Max=11.299000))
+         InitialParticlesPerSecond=60.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8104'
+         LifetimeRange=(Min=0.299000,Max=0.299000)
+         StartVelocityRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000))
+         Name="SpriteEmitter5"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_wa_shield_cry.SpriteEmitter5'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

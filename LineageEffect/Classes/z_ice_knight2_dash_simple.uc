@@ -1,0 +1,147 @@
+class z_ice_knight2_dash_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter7
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.pwave00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=-5.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.707143,Color=(B=108,G=108,R=108,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=62,G=62,R=62,A=255))
+         ColorMultiplierRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.490000,Max=0.490000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.400000
+         FadeOutStartTime=0.068000
+         FadeOut=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=10.000000)
+         SpinParticles=True
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=0.750000,Max=0.750000),Y=(Min=1.500000,Max=1.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(X=(Min=-20.000000,Max=-20.000000))
+         Name="MeshEmitter7"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.z_ice_knight2_dash_simple.MeshEmitter7'
+     Begin Object Class=TrailEmitter Name=TrailEmitter1
+         TrailShadeType=PTTST_PointLife
+         TrailLocation=PTTL_FollowEmitter
+         MaxPointsPerTrail=200
+         PointLifeTime=1.000000
+         AttachEmitterIndex=3
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255))
+         ColorScale(1)=(RelativeTime=0.157143,Color=(B=208,G=208,R=208,A=255))
+         ColorScale(2)=(RelativeTime=0.771429,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=87,G=87,R=87,A=255))
+         ColorMultiplierRange=(X=(Min=0.701000,Max=0.701000),Y=(Min=0.720000,Max=0.720000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.520000
+         FadeOut=True
+         FadeInEndTime=0.240000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         AutoReset=True
+         StartLocationOffset=(X=-5.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=-5.000000,Max=5.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=4.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=4.084000,Max=4.084000),Y=(Min=3.000000,Max=4.000000),Z=(Min=3.000000,Max=4.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t8231'
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="TrailEmitter1"
+     End Object
+     Emitters(1)=TrailEmitter'LineageEffect.z_ice_knight2_dash_simple.TrailEmitter1'
+     Begin Object Class=MeshEmitter Name=MeshEmitter8
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=-100.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.510714,Color=(B=255,G=255,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=151,R=151,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.092400
+         FadeOut=True
+         FadeInEndTime=0.006600
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=-10.000000)
+         StartLocationRange=(X=(Min=-20.000000,Max=20.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Min=3.000000,Max=4.000000))
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=0.750000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.500000,Max=1.500000),Y=(Min=0.250000,Max=0.300000),Z=(Min=0.250000,Max=0.300000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.220000,Max=0.220000)
+         StartVelocityRange=(X=(Min=-400.000000,Max=-400.000000))
+         Name="MeshEmitter8"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.z_ice_knight2_dash_simple.MeshEmitter8'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter20
+         UseDirectionAs=PTDU_Up
+         Refraction=REF_LightPerformance
+         Acceleration=(X=-100.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.230000
+         FadeOut=True
+         FadeInEndTime=0.035000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-10.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.010000,Max=0.010000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.250000)
+         StartSizeRange=(X=(Min=40.000000,Max=40.000000),Y=(Min=120.000000,Max=120.000000),Z=(Min=40.000000,Max=40.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4036'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=32
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-450.000000,Max=-450.000000))
+         Name="SpriteEmitter20"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.z_ice_knight2_dash_simple.SpriteEmitter20'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.500000
+     bDirectional=True
+}

@@ -1,0 +1,113 @@
+class br_e_local_jp_melf_spatk_b extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter147
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.092857,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.532143,Color=(B=217,G=217,R=217,A=255))
+         ColorScale(3)=(RelativeTime=0.946429,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=17.000000
+         ColorMultiplierRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.600000,Max=0.600000))
+         Opacity=0.600000
+         FadeOutStartTime=2.670000
+         FadeOut=True
+         FadeInEndTime=1.080000
+         FadeIn=True
+         MaxParticles=3
+         ForcedFade=True
+         RespawnDeadParticles=False
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.050000,Max=0.050000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=9.500000,Max=9.500000),Y=(Min=9.500000,Max=9.500000),Z=(Min=9.500000,Max=9.500000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3038'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=8
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=64
+         LifetimeRange=(Min=3.500000,Max=3.500000)
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter147"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_local_jp_melf_spatk_b.SpriteEmitter147'
+     Begin Object Class=MeshEmitter Name=MeshEmitter96
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=167,G=167,R=167,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=20.000000
+         Opacity=0.500000
+         FadeOutStartTime=1.200000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=50
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.470000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.930000,RelativeSize=0.500000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=0.100000,Max=0.200000),Y=(Min=0.100000,Max=0.200000),Z=(Min=0.100000,Max=0.200000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         Name="MeshEmitter96"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect_Br.br_e_local_jp_melf_spatk_b.MeshEmitter96'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter148
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=16.000000
+         ColorMultiplierRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.820000,Max=0.820000),Z=(Min=0.780000,Max=0.780000))
+         Opacity=0.250000
+         FadeOutStartTime=2.670000
+         FadeOut=True
+         FadeInEndTime=1.080000
+         FadeIn=True
+         MaxParticles=1
+         ForcedFade=True
+         RespawnDeadParticles=False
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.050000,Max=0.050000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3044'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=8
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=59
+         LifetimeRange=(Min=3.500000,Max=3.500000)
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter148"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect_Br.br_e_local_jp_melf_spatk_b.SpriteEmitter148'
+     bNoDelete=False
+}

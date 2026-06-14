@@ -1,0 +1,122 @@
+class u_wa_attack_shot_b extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2673
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000))
+         Opacity=0.280000
+         FadeOutStartTime=0.150000
+         FadeOut=True
+         FadeInEndTime=0.050000
+         FadeIn=True
+         MaxParticles=1
+         DestroyWhenHitTarget=False
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=48.000000,Max=48.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.600000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=80.000000,Max=80.000000),Y=(Min=80.000000,Max=80.000000),Z=(Min=80.000000,Max=80.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4157'
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         InitialDelayRange=(Min=0.080000,Max=0.080000)
+         Name="SpriteEmitter2673"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_wa_attack_shot_b.SpriteEmitter2673'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2674
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.320000
+         FadeOutStartTime=0.150000
+         FadeOut=True
+         FadeInEndTime=0.050000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         DestroyWhenHitTarget=False
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=48.000000,Max=48.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.600000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=56.000000,Max=56.000000),Y=(Min=56.000000,Max=56.000000),Z=(Min=56.000000,Max=56.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4157'
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         Name="SpriteEmitter2674"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_wa_attack_shot_b.SpriteEmitter2674'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2675
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.750000,Max=0.750000),Y=(Min=0.750000,Max=0.750000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.700000
+         FadeOutStartTime=0.150000
+         FadeOut=True
+         FadeInEndTime=0.050000
+         FadeIn=True
+         MaxParticles=2
+         DestroyWhenHitTarget=False
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=48.000000,Max=48.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.600000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=48.000000,Max=48.000000),Y=(Min=48.000000,Max=48.000000),Z=(Min=48.000000,Max=48.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4157'
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         InitialDelayRange=(Min=0.080000,Max=0.080000)
+         Name="SpriteEmitter2675"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_wa_attack_shot_b.SpriteEmitter2675'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2676
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.740000,Max=0.740000),Y=(Min=0.740000,Max=0.740000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.700000
+         FadeOutStartTime=0.150000
+         FadeOut=True
+         FadeInEndTime=0.050000
+         FadeIn=True
+         MaxParticles=3
+         DestroyWhenHitTarget=False
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=48.000000,Max=48.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.600000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=32.000000,Max=32.000000),Y=(Min=32.000000,Max=32.000000),Z=(Min=32.000000,Max=32.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4157'
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         Name="SpriteEmitter2676"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_wa_attack_shot_b.SpriteEmitter2676'
+     bNoDelete=False
+}

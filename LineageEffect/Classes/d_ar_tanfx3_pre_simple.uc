@@ -1,0 +1,114 @@
+class d_ar_tanfx3_pre_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter24
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh03.istina_bullet'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=176,G=202,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.239286,Color=(B=38,G=73,R=121,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=18,G=18,R=44,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.400000,Max=0.400000))
+         Opacity=0.900000
+         FadeOutStartTime=0.130000
+         FadeOut=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=13.000000)
+         StartLocationRange=(X=(Min=8.000000,Max=8.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(Z=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=5.000000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.300000,Max=0.300000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter24"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_ar_tanfx3_pre_simple.MeshEmitter24'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter10
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.200000
+         FadeOutStartTime=0.090000
+         FadeOut=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=4.000000)
+         StartLocationRange=(X=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t6156'
+         LifetimeRange=(Min=0.450000,Max=0.450000)
+         StartVelocityRange=(X=(Min=-20.000000,Max=-20.000000))
+         Name="SpriteEmitter10"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_ar_tanfx3_pre_simple.SpriteEmitter10'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter14
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         Acceleration=(X=-100.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=60,G=118,R=198,A=255))
+         Opacity=0.900000
+         FadeOutStartTime=0.080000
+         FadeOut=True
+         FadeInEndTime=0.024000
+         FadeIn=True
+         MaxParticles=6
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=-8.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.400000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.200000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8104'
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=0.200000,Max=0.200000)
+         StartVelocityRange=(X=(Min=100.000000,Max=100.000000))
+         VelocityLossRange=(X=(Min=4.000000,Max=4.000000))
+         Name="SpriteEmitter14"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_ar_tanfx3_pre_simple.SpriteEmitter14'
+     bRotEmitter=True
+     RotPerSecond=(Roll=91440)
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Roll=-1605153285)
+     DrawScale=0.100000
+     SwayRotationOrig=(Roll=-1606740347)
+     bDirectional=True
+}

@@ -1,0 +1,82 @@
+class d_unholyst_g_deco_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter15
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=6.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=187,G=191,R=244,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.610000,Max=0.610000))
+         Opacity=0.940000
+         FadeOutStartTime=0.350000
+         FadeOut=True
+         FadeInEndTime=0.350000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=8
+         StartLocationRange=(X=(Min=-4.800000,Max=4.800000),Y=(Min=-2.400000,Max=2.400000),Z=(Min=-2.400000,Max=7.200000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.001000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=3.600000,Max=3.600000),Y=(Min=5.400000,Max=5.400000),Z=(Min=3.600000,Max=3.600000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4012'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=20
+         SubdivisionEnd=30
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-1.800000,Max=1.800000),Y=(Min=-1.800000,Max=1.800000),Z=(Min=4.800000,Max=8.400001))
+         VelocityLossRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.500000,Max=1.500000))
+         Name="SpriteEmitter15"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_unholyst_g_deco_simple.SpriteEmitter15'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         Acceleration=(Z=-36.000000)
+         ColorScale(0)=(Color=(B=126,G=117,R=71,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=43,G=43,R=23,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.610000,Max=0.610000))
+         Opacity=0.740000
+         FadeOutStartTime=0.145250
+         FadeOut=True
+         FadeInEndTime=0.069720
+         FadeIn=True
+         MaxParticles=4
+         StartLocationShape=PTLS_Polar
+         SphereRadiusRange=(Min=-5.000000,Max=5.000000)
+         StartLocationPolarRange=(X=(Min=-360.000000,Max=360.000000),Y=(Min=-360.000000,Max=360.000000),Z=(Min=4.000000,Max=4.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.200000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=4.402800,Max=6.009600),Y=(Min=4.402800,Max=6.009600),Z=(Min=4.402800,Max=6.009600))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4012'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=20
+         SubdivisionEnd=30
+         LifetimeRange=(Min=0.581000,Max=0.581000)
+         StartVelocityRange=(X=(Min=48.000000,Max=48.000000),Y=(Min=48.000000,Max=48.000000),Z=(Min=48.000000,Max=48.000000))
+         VelocityLossRange=(X=(Min=8.000000,Max=8.000000),Y=(Min=8.000000,Max=8.000000),Z=(Min=8.000000,Max=8.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_unholyst_g_deco_simple.SpriteEmitter16'
+     bNoDelete=False
+}

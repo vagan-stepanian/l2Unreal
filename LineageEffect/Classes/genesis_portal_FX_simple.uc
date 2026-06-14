@@ -1,0 +1,118 @@
+class genesis_portal_FX_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.239286,Color=(B=88,G=88,R=88,A=255))
+         ColorScale(2)=(RelativeTime=0.707143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=90,G=90,R=90,A=255))
+         ColorScaleRepeats=4.000000
+         FadeOutStartTime=1.160000
+         FadeOut=True
+         FadeInEndTime=0.480000
+         FadeIn=True
+         MaxParticles=12
+         StartLocationRange=(X=(Min=-24.000000,Max=24.000000),Y=(Min=-24.000000,Max=24.000000),Z=(Max=10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.480000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=1.000000,Max=3.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.genesis_portal_FX_simple.SpriteEmitter9'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.571429,Color=(B=178,G=178,R=178,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=12.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.850000,Max=0.850000),Z=(Min=0.720000,Max=0.720000))
+         FadeOutStartTime=1.100000
+         FadeOut=True
+         FadeInEndTime=0.320000
+         FadeIn=True
+         StartLocationOffset=(Z=1.000000)
+         StartLocationRange=(X=(Min=-36.000000,Max=36.000000),Y=(Min=-36.000000,Max=36.000000))
+         SphereRadiusRange=(Min=1.000000,Max=3.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Min=10.000000,Max=20.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Min=0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         SizeScaleRepeats=10.000000
+         StartSizeRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         InitialParticlesPerSecond=1000.000000
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionScale(0)=0.200000
+         SubdivisionScale(1)=0.800000
+         SubdivisionEnd=2
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(Z=(Min=5.000000,Max=5.000000))
+         VelocityLossRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=6.000000,Max=6.000000),Z=(Min=6.000000,Max=6.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.genesis_portal_FX_simple.SpriteEmitter11'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter15
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.350000,Color=(B=88,G=88,R=88,A=255))
+         ColorScale(2)=(RelativeTime=0.739286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=90,G=90,R=90,A=255))
+         ColorScaleRepeats=1.000000
+         FadeOutStartTime=2.040000
+         FadeOut=True
+         FadeInEndTime=0.660000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationRange=(X=(Min=-7.000000,Max=7.000000),Y=(Min=-7.000000,Max=7.000000),Z=(Max=5.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.480000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Min=1.000000,Max=2.000000),Y=(Min=1.000000,Max=2.000000),Z=(Min=1.000000,Max=2.000000))
+         Texture=Texture'FX_E_T.particles_etc.elf_particleA_03'
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=4.000000,Max=5.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter15"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.genesis_portal_FX_simple.SpriteEmitter15'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Group="None,genesis_portal_FX"
+     DrawScale=0.200000
+}

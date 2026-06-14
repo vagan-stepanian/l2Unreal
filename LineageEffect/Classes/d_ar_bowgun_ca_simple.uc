@@ -1,0 +1,107 @@
+class d_ar_bowgun_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter75
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.bowskill'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.705000,Max=1.000000),Z=(Min=0.473000,Max=0.798000))
+         Opacity=0.500000
+         FadeOutStartTime=0.292500
+         FadeOut=True
+         FadeInEndTime=0.285000
+         FadeIn=True
+         MaxParticles=12
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=1.500000,Max=1.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.240000,RelativeSize=1.400000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.750000)
+         StartSizeRange=(X=(Min=1.200000,Max=1.200000),Y=(Min=1.200000,Max=1.200000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=9.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=2.000000))
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000))
+         Name="MeshEmitter75"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_ar_bowgun_ca_simple.MeshEmitter75'
+     Begin Object Class=MeshEmitter Name=MeshEmitter10
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_charge00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.185714,Color=(B=255,G=255,R=128,A=255))
+         ColorScale(2)=(RelativeTime=0.300000,Color=(B=255,G=128,R=128,A=255))
+         ColorScale(3)=(RelativeTime=0.410714,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(R=128,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.900000,Max=0.900000),Z=(Min=0.600000,Max=0.600000))
+         Opacity=0.200000
+         FadeOutStartTime=0.165000
+         FadeOut=True
+         FadeInEndTime=0.030000
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=25.000000,Max=25.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.750000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=0.120000,Max=0.120000),Y=(Min=0.120000,Max=0.120000),Z=(Min=0.300000,Max=0.300000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         Name="MeshEmitter10"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_ar_bowgun_ca_simple.MeshEmitter10'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.White.White_s2basez'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.250000
+         FadeOutStartTime=0.264000
+         FadeOut=True
+         FadeInEndTime=0.138000
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=5.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.200000,Max=0.200000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles7.fx_m_t7114'
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="MeshEmitter2"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.d_ar_bowgun_ca_simple.MeshEmitter2'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

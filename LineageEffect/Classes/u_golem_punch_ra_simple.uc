@@ -1,0 +1,129 @@
+class u_golem_punch_ra_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter6
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Wind.windknifewave00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=540.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.385714,Color=(B=91,G=91,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=254,G=56,R=111,A=255))
+         Opacity=0.400000
+         FadeOutStartTime=0.117000
+         FadeOut=True
+         FadeInEndTime=0.057000
+         FadeIn=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-5.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000),Y=(Min=0.750000,Max=0.750000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.310000,RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.650000,RelativeSize=2.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.200000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=3.500000)
+         StartSizeRange=(X=(Min=1.100000,Max=1.100000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.600000,Max=0.600000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(Z=(Min=-240.000015,Max=-240.000015))
+         Name="MeshEmitter6"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_golem_punch_ra_simple.MeshEmitter6'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         Acceleration=(X=1.000000,Y=1.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=98,R=118,A=255))
+         ColorMultiplierRange=(X=(Min=0.928000,Max=0.928000),Y=(Min=0.770000,Max=0.770000),Z=(Min=0.664000,Max=0.664000))
+         Opacity=0.590000
+         FadeOutStartTime=0.036000
+         FadeOut=True
+         FadeInEndTime=0.009000
+         FadeIn=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.200000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.200000,RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=4.500000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2035'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_golem_punch_ra_simple.SpriteEmitter9'
+     Begin Object Class=MeshEmitter Name=MeshEmitter7
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.w_blockade_line_mesh'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.565000,Max=0.565000))
+         Opacity=0.200000
+         FadeOutStartTime=0.080500
+         FadeOut=True
+         FadeInEndTime=0.035000
+         FadeIn=True
+         MaxParticles=4
+         RespawnDeadParticles=False
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=85.000000,Max=95.000000),Z=(Min=16.000000,Max=16.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000),Z=(Min=-0.010000,Max=0.010000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.500000,RelativeSize=2.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.800000)
+         StartSizeRange=(X=(Min=0.620000,Max=0.620000),Y=(Min=0.620000,Max=0.620000),Z=(Min=1.000000,Max=1.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.350000,Max=0.350000)
+         StartVelocityRange=(Z=(Min=-10.000000,Max=-10.000000))
+         Name="MeshEmitter7"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.u_golem_punch_ra_simple.MeshEmitter7'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter10
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         Acceleration=(X=1.000000,Y=1.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=98,R=118,A=255))
+         FadeOutStartTime=0.096000
+         FadeOut=True
+         FadeInEndTime=0.009000
+         FadeIn=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.200000,RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=4.500000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7114'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter10"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_golem_punch_ra_simple.SpriteEmitter10'
+     bAllDead=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bDirectional=True
+}

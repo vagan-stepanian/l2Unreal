@@ -1,0 +1,75 @@
+class br_e_aga_elwait_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         Acceleration=(X=0.750000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.125000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Max=0.500000),Y=(Max=0.500000),Z=(Max=0.500000))
+         FadeOutStartTime=0.220000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=48
+         StartLocationOffset=(Z=0.300000)
+         StartLocationRange=(Y=(Min=-0.200000,Max=0.200000),Z=(Min=-0.200000,Max=0.200000))
+         SpinsPerSecondRange=(X=(Min=-0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         InitialParticlesPerSecond=12.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6001'
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         StartVelocityRange=(X=(Min=-8.000000,Max=-8.000000),Y=(Min=-8.000000),Z=(Min=-3.000000,Max=-1.000000))
+         MaxAbsVelocity=(X=2500.000000,Y=10000.000000,Z=5000.000000)
+         VelocityLossRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_aga_elwait_simple.SpriteEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         Acceleration=(X=0.750000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.125000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Max=0.500000),Y=(Max=0.500000),Z=(Max=0.500000))
+         FadeOutStartTime=3.280000
+         FadeOut=True
+         FadeInEndTime=1.240000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=48
+         StartLocationOffset=(Z=0.300000)
+         StartLocationRange=(X=(Max=2.000000),Y=(Min=-0.200000,Max=2.000000),Z=(Min=-0.200000,Max=2.000000))
+         SpinsPerSecondRange=(X=(Min=-0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Max=0.400000),Y=(Min=0.200000,Max=0.200000),Z=(Min=0.200000,Max=0.200000))
+         InitialParticlesPerSecond=12.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6001'
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         StartVelocityRange=(X=(Min=-4.000000,Max=-4.000000),Y=(Max=2.000000))
+         MaxAbsVelocity=(X=2500.000000,Y=10000.000000,Z=5000.000000)
+         VelocityLossRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect_Br.br_e_aga_elwait_simple.SpriteEmitter3'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=-12520)
+     DrawScale=0.100000
+     bDirectional=True
+}

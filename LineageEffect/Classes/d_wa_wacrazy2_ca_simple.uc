@@ -1,0 +1,108 @@
+class d_wa_wacrazy2_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter36
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=160,G=160,R=160,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=90.000000
+         ColorMultiplierRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.720000,Max=0.720000),Z=(Min=0.310000,Max=0.310000))
+         Opacity=0.750000
+         FadeOutStartTime=0.215000
+         FadeOut=True
+         FadeInEndTime=0.070000
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=100.000000,Max=120.000000),Y=(Min=100.000000,Max=120.000000),Z=(Min=100.000000,Max=120.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0105'
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         Name="SpriteEmitter36"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_wa_wacrazy2_ca_simple.SpriteEmitter36'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter28
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.482000,Max=0.482000),Z=(Min=0.374000,Max=0.374000))
+         Opacity=0.850000
+         FadeOutStartTime=0.216000
+         FadeOut=True
+         FadeInEndTime=0.104000
+         FadeIn=True
+         MaxParticles=4
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=30.000000,Max=30.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=3.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=45.000000,Max=55.000000),Y=(Min=45.000000,Max=55.000000),Z=(Min=45.000000,Max=55.000000))
+         InitialParticlesPerSecond=12.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5018'
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         Name="SpriteEmitter28"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_wa_wacrazy2_ca_simple.SpriteEmitter28'
+     Begin Object Class=MeshEmitter Name=MeshEmitter21
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Impact.lightcone01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.489286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=6.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.606000,Max=0.606000),Z=(Min=0.517000,Max=0.517000))
+         Opacity=0.230000
+         FadeOutStartTime=0.147500
+         FadeOut=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=5.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.130000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=0.600000,RelativeSize=1.500000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.800000)
+         StartSizeRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.400000,Max=0.400000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles4.fx_m_t8062'
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         Name="MeshEmitter21"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.d_wa_wacrazy2_ca_simple.MeshEmitter21'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bDirectional=True
+}

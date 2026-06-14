@@ -1,0 +1,80 @@
+class d_chainheal_ta extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter5
+         ColorScale(0)=(Color=(B=223,G=151,R=136,A=255))
+         ColorScale(1)=(RelativeTime=0.242857,Color=(R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.492857,Color=(G=255,A=255))
+         ColorScale(3)=(RelativeTime=0.728571,Color=(B=128,R=128,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.900000,Max=0.900000))
+         Opacity=0.700000
+         FadeOutStartTime=0.300000
+         FadeOut=True
+         FadeInEndTime=0.140000
+         FadeIn=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-20.000000,Max=20.000000),Y=(Min=-20.000000,Max=20.000000),Z=(Min=-20.000000,Max=20.000000))
+         StartLocationShape=PTLS_Sphere
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Min=15.000000,Max=15.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=1.000000,Max=12.000000),Y=(Min=1.000000,Max=12.000000),Z=(Min=1.000000,Max=12.000000))
+         InitialParticlesPerSecond=14.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1020'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         Name="SpriteEmitter5"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_chainheal_ta.SpriteEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.150000,Color=(A=255))
+         ColorScale(2)=(RelativeTime=0.503571,Color=(A=255))
+         ColorScale(3)=(RelativeTime=0.750000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.700000,Max=0.700000))
+         FadeOutStartTime=0.300000
+         FadeOut=True
+         FadeInEndTime=0.140000
+         FadeIn=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-20.000000,Max=20.000000),Y=(Min=-20.000000,Max=20.000000),Z=(Min=-20.000000,Max=20.000000))
+         StartLocationShape=PTLS_Sphere
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Min=15.000000,Max=15.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=14.000000,Max=14.000000),Y=(Min=14.000000,Max=14.000000),Z=(Min=14.000000,Max=14.000000))
+         InitialParticlesPerSecond=9.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8137'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_chainheal_ta.SpriteEmitter6'
+     AutoReplay=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

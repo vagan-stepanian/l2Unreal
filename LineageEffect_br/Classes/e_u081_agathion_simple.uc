@@ -1,0 +1,115 @@
+class e_u081_agathion_simple extends Emitter; // ¾Æ³ªÅ´ ¾Æ°¡½Ã¿Â ÀÌÆåÆ®
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter136
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.485714,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=25.000000
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.600000
+         FadeOutStartTime=100.000000
+         MaxParticles=1
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.010000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.700000,RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.800000,RelativeSize=4.000000)
+         SizeScale(2)=(RelativeTime=0.810000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=0.010000)
+         StartSizeRange=(X=(Min=14.000000,Max=14.000000),Y=(Min=14.000000,Max=14.000000),Z=(Min=14.000000,Max=14.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0135'
+         LifetimeRange=(Min=100.000000,Max=100.000000)
+         Name="SpriteEmitter136"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.e_u081_agathion_simple.SpriteEmitter136'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.wispray01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.482143,Color=(B=176,G=176,R=176,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=24.000000
+         ColorMultiplierRange=(X=(Min=0.100000,Max=0.400000),Y=(Min=0.400000,Max=0.700000),Z=(Min=0.700000,Max=1.000000))
+         Opacity=0.120000
+         FadeOutStartTime=1.600000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=14
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Min=-0.030000,Max=0.030000))
+         StartSpinRange=(Z=(Max=1.000000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.280000,RelativeSize=1.300000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.800000)
+         StartSizeRange=(X=(Max=0.200000),Y=(Max=0.300000),Z=(Max=0.300000))
+         InitialParticlesPerSecond=7.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="MeshEmitter1"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect_Br.e_u081_agathion_simple.MeshEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter179
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.130000
+         FadeOutStartTime=0.400000
+         FadeOut=True
+         FadeInEndTime=0.200000
+         FadeIn=True
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Min=4.000000,Max=4.000000))
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=1.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0137'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionStart=1
+         SubdivisionEnd=2
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter179"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect_Br.e_u081_agathion_simple.SpriteEmitter179'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter180
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=221,G=221,R=221,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=55.000000
+         ColorMultiplierRange=(X=(Min=0.690000,Max=0.690000),Y=(Min=0.910000,Max=0.910000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.400000
+         FadeOutStartTime=5.000000
+         MaxParticles=1
+         UniformSize=True
+         StartSizeRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=15.000000,Max=15.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0137'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=1
+         LifetimeRange=(Min=5.000000,Max=5.000000)
+         Name="SpriteEmitter180"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect_Br.e_u081_agathion_simple.SpriteEmitter180'
+     bNoDelete=False
+}

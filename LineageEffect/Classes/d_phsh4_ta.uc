@@ -1,0 +1,217 @@
+class d_phsh4_ta extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter285
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.4thClass.guardz'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.600000,Max=0.600000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.400000
+         FadeOutStartTime=0.200000
+         FadeOut=True
+         FadeInEndTime=0.110000
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=12.000000,Max=12.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.100000,RelativeSize=2.200000)
+         SizeScale(1)=(RelativeTime=0.270000,RelativeSize=3.800000)
+         SizeScale(2)=(RelativeTime=0.630000,RelativeSize=5.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=5.800000)
+         StartSizeRange=(X=(Min=0.140000,Max=0.140000),Y=(Min=0.140000,Max=0.140000),Z=(Min=0.140000,Max=0.140000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.fx_m_t5127'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=-5.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000))
+         Name="MeshEmitter285"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_phsh4_ta.MeshEmitter285'
+     Begin Object Class=MeshEmitter Name=MeshEmitter286
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.4thClass.guardz'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.600000,Max=0.600000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.400000
+         FadeOutStartTime=0.200000
+         FadeOut=True
+         FadeInEndTime=0.110000
+         FadeIn=True
+         MaxParticles=7
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=12.000000,Max=12.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.100000,RelativeSize=2.200000)
+         SizeScale(1)=(RelativeTime=0.270000,RelativeSize=3.800000)
+         SizeScale(2)=(RelativeTime=0.630000,RelativeSize=5.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=5.800000)
+         StartSizeRange=(X=(Min=0.140000,Max=0.140000),Y=(Min=0.140000,Max=0.140000),Z=(Min=0.140000,Max=0.140000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles5.fx_m_t8104'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=-5.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000))
+         Name="MeshEmitter286"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_phsh4_ta.MeshEmitter286'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter5732
+         Acceleration=(Z=-20.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.489286,Color=(A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=3.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.700000,Max=0.700000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.200000
+         MaxParticles=6
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=15.000000,Max=30.000000),Z=(Min=-17.000000,Max=15.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Min=12.000000,Max=12.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.250000,Max=0.250000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.600000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=3.000000,Max=13.000000),Y=(Min=3.000000,Max=13.000000),Z=(Min=3.000000,Max=13.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8136'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=3
+         SubdivisionEnd=8
+         LifetimeRange=(Min=0.200000,Max=0.200000)
+         StartVelocityRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         Name="SpriteEmitter5732"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_phsh4_ta.SpriteEmitter5732'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter1
+         VertexMesh=VertMesh'LineageEffectMeshes.sphere_shield'
+         UseMeshBlendMode=False
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=247,G=139,R=98,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=230,G=227,R=249,A=255))
+         FadeOutStartTime=0.042000
+         FadeOut=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=4.000000,Max=4.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=0.380000,Max=0.380000),Y=(Min=0.380000,Max=0.380000),Z=(Min=0.280000,Max=0.280000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.FX_M_T4172'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         Name="VertMeshEmitter1"
+     End Object
+     Emitters(3)=VertMeshEmitter'LineageEffect.d_phsh4_ta.VertMeshEmitter1'
+     Begin Object Class=MeshEmitter Name=MeshEmitter31
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.sphere_01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=251,G=190,R=162,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=245,G=103,R=18,A=255))
+         ColorScaleRepeats=3.000000
+         FadeOutStartTime=0.192000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=1.080000,Max=1.080000),Y=(Min=1.080000,Max=1.080000),Z=(Min=0.840000,Max=0.840000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.FX_M_T4171'
+         LifetimeRange=(Min=1.200000,Max=1.200000)
+         Name="MeshEmitter31"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.d_phsh4_ta.MeshEmitter31'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter4
+         VertexMesh=VertMesh'LineageEffectMeshes2.mi_sphere_40'
+         UseMeshBlendMode=False
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=200,G=211,R=146,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=175,G=78,R=56,A=255))
+         Opacity=0.790000
+         FadeOutStartTime=0.252000
+         FadeOut=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-8.000000,Max=-8.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.520000,Max=0.520000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.200000,Max=1.200000)
+         Name="VertMeshEmitter4"
+     End Object
+     Emitters(5)=VertMeshEmitter'LineageEffect.d_phsh4_ta.VertMeshEmitter4'
+     Begin Object Class=MeshEmitter Name=MeshEmitter39
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.sphere_01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.475000,Color=(B=172,G=172,R=172,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=3.000000
+         FadeOutStartTime=0.020000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=1.080000,Max=1.080000),Y=(Min=1.080000,Max=1.080000),Z=(Min=0.840000,Max=0.840000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.FX_M_T4111'
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         Name="MeshEmitter39"
+     End Object
+     Emitters(6)=MeshEmitter'LineageEffect.d_phsh4_ta.MeshEmitter39'
+     Begin Object Class=MeshEmitter Name=MeshEmitter41
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.sphere_01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.475000,Color=(B=172,G=172,R=172,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=3.000000
+         ColorMultiplierRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.600000,Max=0.600000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.052000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=1.080000,Max=1.080000),Y=(Min=1.080000,Max=1.080000),Z=(Min=0.840000,Max=0.840000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.FX_M_T4170'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter41"
+     End Object
+     Emitters(7)=MeshEmitter'LineageEffect.d_phsh4_ta.MeshEmitter41'
+     AutoReplay=True
+     bNoDelete=False
+}

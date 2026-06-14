@@ -1,0 +1,140 @@
+class wisp_fairy_big_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter572
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.330000
+         FadeOutStartTime=3.350000
+         FadeOut=True
+         FadeInEndTime=0.900000
+         FadeIn=True
+         CoordinateSystem=PTCS_RelativeRotation
+         MaxParticles=3
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.020000))
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.350000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=0.350000,RelativeSize=1.000000)
+         SizeScaleRepeats=1.000000
+         StartSizeRange=(X=(Min=28.000000,Max=35.000000),Y=(Min=28.000000,Max=35.000000),Z=(Min=28.000000,Max=35.000000))
+         InitialParticlesPerSecond=2.000000
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'BG_Effect_T.Wisp_A'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=5.000000,Max=5.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter572"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.wisp_fairy_big_simple.SpriteEmitter572'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter573
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.800000,Max=0.800000))
+         FadeOutStartTime=2.520000
+         FadeOut=True
+         FadeInEndTime=1.120000
+         FadeIn=True
+         MaxParticles=5
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.090000,Max=0.090000))
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=18.000000,Max=20.000000),Y=(Min=18.000000,Max=20.000000),Z=(Min=18.000000,Max=20.000000))
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0111'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=2
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter573"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.wisp_fairy_big_simple.SpriteEmitter573'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter574
+         Refraction=REF_LightPerformance
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=4.000000
+         CoordinateSystem=PTCS_RelativeRotation
+         MaxParticles=1
+         AlphaTest=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.010000))
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.350000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=0.350000,RelativeSize=1.000000)
+         SizeScaleRepeats=1.000000
+         StartSizeRange=(X=(Min=25.000000,Max=25.000000),Y=(Min=25.000000,Max=25.000000),Z=(Min=25.000000,Max=25.000000))
+         InitialParticlesPerSecond=2.000000
+         DrawStyle=PTDS_Regular
+         Texture=Texture'LineageEffectsTextures.Particles5.ct2_c03'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=100.000000,Max=100.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter574"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.wisp_fairy_big_simple.SpriteEmitter574'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter575
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.450000
+         FadeOutStartTime=2.520000
+         FadeOut=True
+         FadeInEndTime=1.120000
+         FadeIn=True
+         MaxParticles=2
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.080000,Max=0.080000))
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.800000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=35.000000),Y=(Min=20.000000,Max=35.000000),Z=(Min=20.000000,Max=35.000000))
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5004'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=1
+         SubdivisionEnd=2
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter575"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.wisp_fairy_big_simple.SpriteEmitter575'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Group="None,wisp_fairy_big"
+     DrawScale=0.100000
+}

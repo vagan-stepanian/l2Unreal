@@ -1,0 +1,112 @@
+class d_wi_strongwater_ta_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter73
+         Acceleration=(X=-120.000000,Z=50.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,A=255))
+         ColorScale(1)=(RelativeTime=0.071429,Color=(B=151,G=131,R=104,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=225,G=188,R=157,A=255))
+         Opacity=0.400000
+         FadeOutStartTime=0.490000
+         FadeOut=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-16.000000,Max=16.000000),Y=(Min=-16.000000,Max=16.000000),Z=(Min=-16.000000,Max=16.000000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=3.000000,Max=3.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=12.000000,Max=30.000000),Y=(Min=12.000000,Max=30.000000),Z=(Min=12.000000,Max=30.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4013'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=0.600000,Max=1.300000)
+         StartVelocityRange=(X=(Min=50.000000,Max=160.000000),Y=(Min=50.000000,Max=160.000000),Z=(Min=50.000000,Max=160.000000))
+         VelocityLossRange=(X=(Min=7.000000,Max=10.000000),Y=(Min=7.000000,Max=10.000000),Z=(Min=7.000000,Max=10.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter73"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_wi_strongwater_ta_simple.SpriteEmitter73'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter74
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.650000,Max=0.650000),Y=(Min=0.650000,Max=0.650000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.860000
+         FadeOutStartTime=0.203500
+         FadeOut=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-15.000000,Max=15.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UniformSize=True
+         StartSizeRange=(X=(Min=15.000000,Max=20.000000),Y=(Min=15.000000,Max=20.000000),Z=(Min=15.000000,Max=20.000000))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=0.550000,Max=0.550000)
+         Name="SpriteEmitter74"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_wi_strongwater_ta_simple.SpriteEmitter74'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter77
+         UseDirectionAs=PTDU_Forward
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=210,G=182,R=166,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.147000
+         FadeOut=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-1.200000,Max=1.200000),Y=(Min=-1.200000,Max=1.200000),Z=(Min=-1.200000,Max=1.200000))
+         StartLocationShape=PTLS_Sphere
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.020000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.400000)
+         StartSizeRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=30.000000,Max=30.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8137'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionStart=3
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.150000,Max=0.150000)
+         StartVelocityRange=(X=(Min=-1.200000,Max=1.200000),Y=(Min=-1.200000,Max=1.200000),Z=(Min=-1.200000,Max=1.200000))
+         Name="SpriteEmitter77"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_wi_strongwater_ta_simple.SpriteEmitter77'
+     bUseQuake=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=32768)
+     DrawScale=0.100000
+     bUnlit=False
+     SwayRotationOrig=(Yaw=32768)
+     bDirectional=True
+}

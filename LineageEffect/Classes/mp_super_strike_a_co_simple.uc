@@ -1,0 +1,131 @@
+class mp_super_strike_a_co_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter16
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=-2.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255))
+         ColorScale(1)=(RelativeTime=0.539286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=15.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.790000,Max=1.000000),Z=(Min=0.279000,Max=1.000000))
+         Opacity=0.150000
+         FadeOutStartTime=0.020000
+         FadeOut=True
+         MaxParticles=37
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         StartSpinRange=(Y=(Min=-0.250000,Max=-0.250000))
+         StartSizeRange=(X=(Min=0.250000,Max=0.300000),Y=(Min=0.250000,Max=0.300000),Z=(Min=0.250000,Max=0.300000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-30.000000,Max=-20.000000))
+         VelocityLossRange=(X=(Max=1.000000))
+         Name="MeshEmitter16"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.mp_super_strike_a_co_simple.MeshEmitter16'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter13
+         Acceleration=(X=2.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.756000,Max=0.756000),Z=(Min=0.590000,Max=0.590000))
+         Opacity=0.300000
+         FadeOutStartTime=0.420000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=16
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=20.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.030000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.290000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0127'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-40.000000,Max=-25.000000))
+         VelocityLossRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         Name="SpriteEmitter13"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.mp_super_strike_a_co_simple.SpriteEmitter13'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter4
+         VertexMesh=VertMesh'LineageEffectMeshes.swirl'
+         UseMeshBlendMode=False
+         Acceleration=(X=3.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.350000
+         FadeOutStartTime=0.230000
+         FadeOut=True
+         FadeInEndTime=0.050000
+         FadeIn=True
+         MaxParticles=12
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=20.000000)
+         UseRotationFrom=PTRS_Actor
+         SpinParticles=True
+         StartSpinRange=(Y=(Min=0.250000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.400000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.030000,Max=0.030000),Y=(Min=0.030000,Max=0.030000),Z=(Min=0.030000,Max=0.030000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-20.000000,Max=-20.000000))
+         VelocityLossRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         Name="VertMeshEmitter4"
+     End Object
+     Emitters(2)=VertMeshEmitter'LineageEffect.mp_super_strike_a_co_simple.VertMeshEmitter4'
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.spark00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.410000
+         FadeOut=True
+         MaxParticles=32
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=25.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=0.080000,Max=0.200000),Y=(Min=0.080000,Max=0.200000),Z=(Min=0.080000,Max=0.200000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-50.000000,Max=-30.000000),Y=(Min=-15.000000,Max=15.000000),Z=(Min=-15.000000,Max=15.000000))
+         VelocityLossRange=(Y=(Max=1.000000),Z=(Max=1.000000))
+         Name="MeshEmitter0"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.mp_super_strike_a_co_simple.MeshEmitter0'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

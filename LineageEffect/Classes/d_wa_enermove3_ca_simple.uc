@@ -1,0 +1,107 @@
+class d_wa_enermove3_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter8
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.magiccircle.magiccircleblack02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.890000,Max=0.890000),Y=(Min=0.506000,Max=0.506000),Z=(Min=0.280000,Max=0.280000))
+         Opacity=0.400000
+         FadeOutStartTime=1.218000
+         FadeOut=True
+         FadeInEndTime=0.378000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         ForcedFade=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.400000,RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=20.000000
+         StartSizeRange=(X=(Min=0.960000,Max=0.960000),Y=(Min=0.960000,Max=0.960000),Z=(Min=0.960000,Max=0.960000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=1.400000,Max=1.400000)
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000))
+         Name="MeshEmitter8"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_wa_enermove3_ca_simple.MeshEmitter8'
+     Begin Object Class=MeshEmitter Name=MeshEmitter9
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Wind.windknifewave00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=240.000015)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=62,R=62,A=255))
+         ColorScale(1)=(RelativeTime=0.267857,Color=(B=78,G=162,R=254,A=255))
+         ColorScale(2)=(RelativeTime=0.542857,Color=(R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.530000
+         FadeOutStartTime=0.129000
+         FadeOut=True
+         FadeInEndTime=0.060000
+         FadeIn=True
+         MaxParticles=11
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=10.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000),Y=(Min=0.750000,Max=0.750000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.310000,RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.650000,RelativeSize=2.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=3.500000)
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=0.360000,Max=0.360000),Z=(Min=0.360000,Max=0.360000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(Z=(Min=-240.000015,Max=-240.000015))
+         Name="MeshEmitter9"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_wa_enermove3_ca_simple.MeshEmitter9'
+     Begin Object Class=MeshEmitter Name=MeshEmitter10
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.swirl_ring_05'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=70,G=70,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.410714,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.753571,Color=(B=255,G=62,R=62,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=62,R=62,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.176000
+         FadeOut=True
+         FadeInEndTime=0.080000
+         FadeIn=True
+         MaxParticles=7
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=85.000000,Max=95.000000),Z=(Min=16.000000,Max=16.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=2.800000)
+         StartSizeRange=(X=(Min=0.380000,Max=0.380000),Y=(Min=0.380000,Max=0.380000),Z=(Min=0.320000,Max=0.320000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.fx_m_t5108'
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         Name="MeshEmitter10"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_wa_enermove3_ca_simple.MeshEmitter10'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

@@ -1,0 +1,133 @@
+class d_kn_finalven2_continue extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter9
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Wind.windknifewave00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=-100.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.325000,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=11,G=17,R=255,A=255))
+         Opacity=0.080000
+         FadeOutStartTime=0.148000
+         FadeOut=True
+         FadeInEndTime=0.052000
+         FadeIn=True
+         MaxParticles=8
+         StartLocationOffset=(Z=-3.000000)
+         StartLocationRange=(Z=(Min=-5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Min=0.750000,Max=0.750000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.450000,Max=0.450000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=10.000000))
+         Name="MeshEmitter9"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_kn_finalven2_continue.MeshEmitter9'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter10
+         UseDirectionAs=PTDU_Forward
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.207143,Color=(B=192,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.478571,Color=(B=45,G=113,R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=0.155000
+         FadeOut=True
+         MaxParticles=8
+         StartLocationOffset=(Z=-3.000000)
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=1.500000,Max=2.500000))
+         StartSpinRange=(X=(Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=30.000000,Max=40.000000),Y=(Min=30.000000,Max=40.000000),Z=(Min=30.000000,Max=40.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8041'
+         LifetimeRange=(Min=0.450000,Max=0.450000)
+         StartVelocityRange=(X=(Min=-3.000000,Max=3.000000),Z=(Min=7.000000,Max=7.000000))
+         Name="SpriteEmitter10"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_kn_finalven2_continue.SpriteEmitter10'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter20
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.382143,Color=(B=185,G=185,R=185,A=255))
+         ColorScale(2)=(RelativeTime=0.675000,Color=(B=142,G=142,R=142,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=90,G=90,R=90,A=255))
+         ColorScaleRepeats=8.000000
+         Opacity=0.350000
+         FadeOutStartTime=2.000000
+         MaxParticles=3
+         WeatherSoundCheck=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.500000,RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         SizeScaleRepeats=4.000000
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0105'
+         LifetimeRange=(Min=1.200000,Max=1.200000)
+         Name="SpriteEmitter20"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_kn_finalven2_continue.SpriteEmitter20'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter24
+         ColorScale(0)=(Color=(B=255,G=255,R=255))
+         ColorScale(1)=(RelativeTime=0.482143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Min=0.800000,Max=1.000000),Y=(Min=0.400000,Max=1.000000),Z=(Min=0.800000,Max=1.000000))
+         Opacity=0.300000
+         FadeOutStartTime=0.200000
+         FadeOut=True
+         FadeInEndTime=0.020000
+         FadeIn=True
+         MaxParticles=3
+         ResetAfterChange=True
+         StartLocationRange=(Z=(Max=1.000000))
+         SphereRadiusRange=(Min=3.000000,Max=3.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=16.000000,Max=16.000000))
+         SpinsPerSecondRange=(X=(Min=0.400000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=0.900000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=18.000000,Max=18.000000),Y=(Min=18.000000,Max=18.000000),Z=(Min=18.000000,Max=18.000000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.etc.fx_m_t0153'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=1.000000))
+         VelocityLossRange=(X=(Min=2.000000,Max=5.000000),Y=(Min=2.000000,Max=5.000000),Z=(Min=2.000000,Max=2.000000))
+         Name="SpriteEmitter24"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_kn_finalven2_continue.SpriteEmitter24'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

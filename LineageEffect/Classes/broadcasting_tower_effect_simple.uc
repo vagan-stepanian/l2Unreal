@@ -1,0 +1,166 @@
+class broadcasting_tower_effect_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter25
+         StaticMesh=StaticMesh'FX_E_S.etc.fx_skill_charge01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=5.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.800000
+         FadeOut=True
+         FadeInEndTime=0.300000
+         FadeIn=True
+         MaxParticles=15
+         StartLocationOffset=(Z=-4.000000)
+         StartLocationRange=(Z=(Min=-2.000000,Max=2.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.200000),Y=(Max=0.200000),Z=(Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=0.510000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=0.120000,Max=0.120000),Y=(Min=0.120000,Max=0.120000),Z=(Min=0.400000,Max=0.400000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(Z=(Min=0.500000,Max=0.800000))
+         Name="MeshEmitter25"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.broadcasting_tower_effect_simple.MeshEmitter25'
+     Begin Object Class=MeshEmitter Name=MeshEmitter26
+         StaticMesh=StaticMesh'FX_E_S.etc.fx_jewel_ring1'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=131,G=131,R=131,A=255))
+         Opacity=0.640000
+         FadeOutStartTime=2.600000
+         FadeOut=True
+         FadeInEndTime=1.080000
+         FadeIn=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=1.500000)
+         StartLocationRange=(Z=(Max=0.200000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=0.020000),Y=(Max=0.020000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.600000)
+         SizeScale(1)=(RelativeTime=0.280000,RelativeSize=4.500000)
+         SizeScale(2)=(RelativeTime=0.500000,RelativeSize=3.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=1.500000,Max=1.500000),Y=(Min=1.500000,Max=1.500000),Z=(Min=0.500000,Max=0.500000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="MeshEmitter26"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.broadcasting_tower_effect_simple.MeshEmitter26'
+     Begin Object Class=MeshEmitter Name=MeshEmitter27
+         StaticMesh=StaticMesh'FX_E_S.etc.fx_jewel_ring1'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=2.010000
+         FadeOut=True
+         FadeInEndTime=0.570000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationOffset=(Z=1.500000)
+         StartLocationRange=(Z=(Min=-0.500000,Max=0.500000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=0.460000,RelativeSize=2.700000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=1.600000,Max=1.600000),Y=(Min=1.600000,Max=1.600000),Z=(Min=0.500000,Max=0.500000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         InitialDelayRange=(Min=2.000000,Max=2.000000)
+         Name="MeshEmitter27"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.broadcasting_tower_effect_simple.MeshEmitter27'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter13
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.471429,Color=(B=37,G=119,R=218,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=94,G=190,R=215,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.800000,Max=0.800000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.320000
+         FadeOutStartTime=0.732000
+         FadeOut=True
+         FadeInEndTime=0.264000
+         FadeIn=True
+         MaxParticles=15
+         StartLocationOffset=(Z=1.500000)
+         UniformSize=True
+         StartSizeRange=(X=(Min=5.000000,Max=6.000000),Y=(Min=5.000000,Max=6.000000),Z=(Min=5.000000,Max=6.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'FX_E_T.etc.fx_e_t001_34'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=2
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.200000,Max=1.200000)
+         StartVelocityRange=(X=(Min=-4.000000,Max=4.000000),Y=(Min=-4.000000,Max=4.000000),Z=(Min=-4.000000,Max=4.000000))
+         Name="SpriteEmitter13"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.broadcasting_tower_effect_simple.SpriteEmitter13'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.940000
+         FadeOutStartTime=0.680000
+         FadeOut=True
+         FadeInEndTime=0.010000
+         FadeIn=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=1.000000)
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=6.000000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=3.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.600000)
+         StartSizeRange=(X=(Min=8.000000,Max=11.000000),Y=(Min=8.000000,Max=11.000000),Z=(Min=8.000000,Max=11.000000))
+         InitialParticlesPerSecond=130.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'FX_M_T.M_FX_FlareSet.flare7'
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(X=(Min=-12.000000,Max=12.000000),Y=(Min=-12.000000,Max=12.000000),Z=(Min=-3.000000,Max=3.000000))
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.broadcasting_tower_effect_simple.SpriteEmitter0'
+     bLightChanged=True
+     bNoDelete=False
+     Tag="aden_controltower_on"
+     DrawScale=0.100000
+     bUnlit=False
+}

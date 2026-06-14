@@ -1,0 +1,122 @@
+class d_kn_alterdefense2_ta_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter11
+         RenderTwoSided=True
+         UseParticleColor=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.482143,Color=(B=182,G=182,R=182,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=22.000000
+         Opacity=0.400000
+         FadeOutStartTime=0.650000
+         FadeOut=True
+         FadeInEndTime=0.160000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.010000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.260000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=0.330000,Max=0.330000),Y=(Min=0.330000,Max=0.330000),Z=(Min=1.000000,Max=1.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=0.500000,Max=0.500000))
+         Name="MeshEmitter11"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_kn_alterdefense2_ta_simple.MeshEmitter11'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         UseDirectionAs=PTDU_Up
+         ProjectionNormal=(X=1.000000,Y=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.532143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=12.000000
+         Opacity=0.300000
+         FadeOutStartTime=0.760000
+         FadeOut=True
+         FadeInEndTime=0.070000
+         FadeIn=True
+         MaxParticles=7
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-175.000000,Max=175.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=15.000000,Max=15.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.180000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=13.000000,Max=13.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=70.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7121'
+         TextureUSubdivisions=5
+         TextureVSubdivisions=5
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=25
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(Z=(Min=0.100000,Max=0.100000))
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_kn_alterdefense2_ta_simple.SpriteEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.defense2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=50.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.250000,Max=0.250000))
+         Opacity=0.100000
+         FadeOutStartTime=0.700000
+         FadeOut=True
+         FadeInEndTime=0.140000
+         FadeIn=True
+         MaxParticles=4
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-20.000000)
+         StartLocationRange=(Z=(Min=-15.000000,Max=-5.000000))
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=2.000000,Max=2.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-0.001000,Max=0.001000),Z=(Min=-0.001000,Max=0.001000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.100000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.900000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.500000,Max=0.500000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=25.000000,Max=25.000000))
+         Name="MeshEmitter2"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.d_kn_alterdefense2_ta_simple.MeshEmitter2'
+     bRotEmitter=True
+     RotPerSecond=(Yaw=8192)
+     bOnInitialDelay=True
+     bSelfRotation=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=289621559)
+     DrawScale=0.200000
+     SwayRotationOrig=(Yaw=288937272)
+}

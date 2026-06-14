@@ -1,0 +1,115 @@
+class g_wa_slashkick_ca_b extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter16
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.sh_crossplane'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.750000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.479000,Max=1.000000))
+         FadeOutStartTime=0.180000
+         FadeOut=True
+         FadeInEndTime=0.048000
+         FadeIn=True
+         MaxParticles=8
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.250000,Max=0.250000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=0.230000,Max=0.270000),Y=(Min=0.230000,Max=0.270000),Z=(Min=0.230000,Max=0.270000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(Z=(Min=50.000000,Max=50.000000))
+         Name="MeshEmitter16"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.g_wa_slashkick_ca_b.MeshEmitter16'
+     Begin Object Class=MeshEmitter Name=MeshEmitter17
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.wind_L'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=50.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=142,G=179,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.489286,Color=(G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=16,G=213,R=235,A=255))
+         Opacity=0.400000
+         FadeOutStartTime=0.235000
+         FadeOut=True
+         FadeInEndTime=0.125000
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=10.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.200000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=0.430000,Max=0.430000),Y=(Min=0.430000,Max=0.430000),Z=(Min=0.200000,Max=0.200000))
+         InitialParticlesPerSecond=35.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=15.000000,Max=25.000000))
+         Name="MeshEmitter17"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.g_wa_slashkick_ca_b.MeshEmitter17'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter13
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=15.000000
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.500000,Max=0.500000))
+         FadeOutStartTime=0.408000
+         FadeOut=True
+         FadeInEndTime=0.090000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=30
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-25.000000,Max=25.000000),Y=(Min=-25.000000,Max=25.000000),Z=(Min=-25.000000,Max=25.000000))
+         SphereRadiusRange=(Max=1.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Min=2.000000,Max=2.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Max=0.500000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.150000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=3.000000,Max=5.000000),Y=(Min=3.000000,Max=5.000000),Z=(Min=3.000000,Max=5.000000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0051'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=150.000000,Max=150.000000))
+         VelocityLossRange=(Z=(Min=5.000000,Max=5.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter13"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.g_wa_slashkick_ca_b.SpriteEmitter13'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bUnlit=False
+}

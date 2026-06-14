@@ -1,0 +1,90 @@
+class ev_brazier_freedom_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter67
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=41,G=154,R=228,A=255))
+         ColorScale(1)=(RelativeTime=0.564286,Color=(B=44,G=89,R=226,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=78,G=78,R=218,A=255))
+         Opacity=0.210000
+         FadeOutStartTime=2.520000
+         FadeOut=True
+         FadeInEndTime=1.200000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationOffset=(Z=69.000000)
+         UseRevolutionScale=True
+         RevolutionScale(0)=(RelativeRevolution=(X=1.000000,Y=1.000000,Z=1.000000))
+         RevolutionScale(1)=(RelativeTime=1.000000,RelativeRevolution=(X=2.000000,Y=2.000000,Z=2.000000))
+         RevolutionScaleRepeats=1.000000
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.300000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=12.000000,Max=12.000000),Y=(Min=12.000000,Max=12.000000),Z=(Min=12.000000,Max=12.000000))
+         Texture=Texture'FX_E_T.LightGlowSet.npc_2f_etc_Y'
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="SpriteEmitter67"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.ev_brazier_freedom_simple.SpriteEmitter67'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         Acceleration=(Z=1.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=149,G=149,R=149,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=128,G=128,R=128,A=255))
+         Opacity=0.260000
+         FadeOutStartTime=1.480000
+         FadeOut=True
+         FadeInEndTime=0.500000
+         FadeIn=True
+         MaxParticles=7
+         StartLocationOffset=(Z=65.000000)
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.410000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=6.000000,Max=6.000000),Z=(Min=6.000000,Max=6.000000))
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'FX_E_T.Flameset_a.FX_E_fire_ani5'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.ev_brazier_freedom_simple.SpriteEmitter7'
+     Begin Object Class=MeshEmitter Name=MeshEmitter6
+         StaticMesh=StaticMesh'FX_E_S.Flameset.Default_Flame01'
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.020000
+         FadeOutStartTime=6.000000
+         FadeOut=True
+         FadeInEndTime=1.840000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationOffset=(Z=58.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Max=0.500000))
+         StartSizeRange=(X=(Min=0.220000,Max=0.220000),Y=(Min=0.220000,Max=0.220000),Z=(Min=0.220000,Max=0.220000))
+         LifetimeRange=(Min=8.000000,Max=8.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter6"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.ev_brazier_freedom_simple.MeshEmitter6'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

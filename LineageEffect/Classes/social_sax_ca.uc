@@ -1,0 +1,137 @@
+class social_sax_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.456300
+         FadeOut=True
+         FadeInEndTime=0.228150
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-3.000000,Max=3.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=-2.000000,Max=2.000000))
+         RevolutionCenterOffsetRange=(Z=(Min=0.500000,Max=0.500000))
+         RevolutionsPerSecondRange=(Z=(Min=0.306000,Max=0.306000))
+         UseRevolutionScale=True
+         RevolutionScale(1)=(RelativeTime=1.000000,RelativeRevolution=(Z=1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.150000))
+         StartSpinRange=(X=(Min=-0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.290000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=0.470000,RelativeSize=1.500000)
+         SizeScale(3)=(RelativeTime=0.720000,RelativeSize=2.000000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=1.800000)
+         StartSizeRange=(X=(Min=0.185000,Max=0.300000),Y=(Min=0.185000,Max=0.300000),Z=(Min=0.185000,Max=0.300000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t6147'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.521000,Max=1.521000)
+         StartVelocityRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-2.000000,Max=2.000000))
+         VelocityLossRange=(Z=(Min=0.500000,Max=0.500000))
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.social_sax_ca.SpriteEmitter9'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter10
+         ColorScale(0)=(Color=(B=225,G=155,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=182,G=115,R=242,A=255))
+         ColorMultiplierRange=(X=(Min=0.539000,Max=0.580000),Y=(Min=0.500000,Max=0.800000),Z=(Min=0.500000,Max=0.800000))
+         Opacity=0.070000
+         FadeOutStartTime=0.765000
+         FadeOut=True
+         FadeInEndTime=0.030000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=20
+         StartLocationOffset=(X=1.000000)
+         StartLocationRange=(X=(Min=-10.584000,Max=10.584000),Y=(Min=-10.584000,Max=10.584000),Z=(Min=-14.112000,Max=14.112000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=6.143000,Max=8.653000),Y=(Min=6.143000,Max=8.653000),Z=(Min=6.143000,Max=8.653000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.aura_test_RGB'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.600000,Max=2.000000)
+         InitialDelayRange=(Min=0.350000,Max=0.350000)
+         StartVelocityRange=(X=(Min=2.000000,Max=3.000000),Y=(Min=2.000000,Max=3.000000),Z=(Min=2.540000,Max=5.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=0.200000,Max=3.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeVelocity=(X=3.000000,Y=3.000000,Z=1.000000))
+         VelocityScale(1)=(RelativeTime=0.200000,RelativeVelocity=(Z=10.000000))
+         Name="SpriteEmitter10"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.social_sax_ca.SpriteEmitter10'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.469000,Max=1.000000),Y=(Min=0.469000,Max=1.000000),Z=(Min=0.469000,Max=1.000000))
+         FadeOutStartTime=1.080000
+         FadeOut=True
+         FadeInEndTime=0.480000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=5
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.400000)
+         SizeScale(1)=(RelativeTime=0.260000,RelativeSize=0.800000)
+         SizeScale(2)=(RelativeTime=0.460000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=0.670000,RelativeSize=0.800000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=0.400000)
+         SizeScaleRepeats=2.000000
+         StartSizeRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.800000,Max=0.800000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t6211'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-2.000000,Max=2.000000))
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.social_sax_ca.SpriteEmitter11'
+     Begin Object Class=MeshEmitter Name=MeshEmitter4
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.social.saxophone'
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         MaxParticles=1
+         WeatherSoundCheck=True
+         StartLocationRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=3.000000,Max=3.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.750000,Max=0.750000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=5.000000,Max=5.000000)
+         Name="MeshEmitter4"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.social_sax_ca.MeshEmitter4'
+     AutoDestroy=False
+     bNoDelete=False
+     bSunAffect=True
+}

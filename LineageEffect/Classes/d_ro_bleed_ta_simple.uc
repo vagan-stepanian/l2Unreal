@@ -1,0 +1,107 @@
+class d_ro_bleed_ta_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter3
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.Impact.impact_tx'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=18,G=58,R=199,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=35,G=75,R=90,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.465000,Max=0.465000),Z=(Min=0.636000,Max=0.636000))
+         FadeOutStartTime=0.045000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=5.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.080000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.290000,RelativeSize=2.300000)
+         SizeScale(3)=(RelativeTime=0.400000,RelativeSize=2.500000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=2.600000)
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles7.fx_m_t7114'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(X=(Min=35.000000,Max=35.000000))
+         Name="MeshEmitter3"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_ro_bleed_ta_simple.MeshEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         UseDirectionAs=PTDU_Up
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=83,G=83,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.467857,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=238,G=81,R=77,A=255))
+         FadeOutStartTime=0.084000
+         FadeOut=True
+         MaxParticles=7
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=2.000000)
+         StartLocationShape=PTLS_Polar
+         SphereRadiusRange=(Min=15.000000,Max=25.000000)
+         StartLocationPolarRange=(X=(Min=90.000000,Max=90.000000),Y=(Max=360.000000),Z=(Min=10.000000,Max=15.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.460000,RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.105000,Max=0.490000),Y=(Min=12.599999,Max=17.500000),Z=(Min=0.105000,Max=0.490000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0061'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         SubdivisionStart=2
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(X=(Min=105.000000,Max=126.000000),Y=(Min=105.000000,Max=126.000000),Z=(Min=105.000000,Max=126.000000))
+         VelocityLossRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_ro_bleed_ta_simple.SpriteEmitter8'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=-140.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.115000
+         FadeOut=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-45.000000,Max=45.000000),Y=(Min=60.000000,Max=120.000000),Z=(Min=4.000000,Max=4.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.370000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Min=0.140000,Max=0.280000),Y=(Min=1.260000,Max=2.450000),Z=(Min=70.000000,Max=70.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0061'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=8
+         UseRandomSubdivision=True
+         SubdivisionStart=17
+         SubdivisionEnd=20
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(X=(Min=35.000000,Max=84.000000),Y=(Min=-56.000000,Max=56.000000),Z=(Min=-56.000000,Max=56.000000))
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_ro_bleed_ta_simple.SpriteEmitter9'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bDirectional=True
+}

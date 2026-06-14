@@ -1,0 +1,113 @@
+class d_wa_hurriarmor_ta_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter35
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.White.white_radiation00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(G=128,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.340000,Max=0.340000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.210000
+         FadeOut=True
+         FadeInEndTime=0.105000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=25.000000)
+         SpinParticles=True
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=0.700000)
+         SizeScale(2)=(RelativeTime=0.720000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=0.400000,Max=0.450000),Y=(Min=0.400000,Max=0.450000),Z=(Min=0.400000,Max=0.450000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter35"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_wa_hurriarmor_ta_simple.MeshEmitter35'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=100.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=78,G=128,R=243,A=255))
+         ColorScale(1)=(RelativeTime=0.250000,Color=(G=166,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=57,G=159,R=242,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.850000,Max=0.850000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.700000
+         FadeOutStartTime=0.340000
+         FadeOut=True
+         FadeInEndTime=0.060000
+         FadeIn=True
+         MaxParticles=7
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=30.000000)
+         StartLocationRange=(X=(Min=-20.000000,Max=20.000000),Y=(Min=-20.000000,Max=20.000000),Z=(Min=-20.000000,Max=20.000000))
+         StartLocationShape=PTLS_Polar
+         SphereRadiusRange=(Min=5.000000,Max=10.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=15.000000,Max=20.000000))
+         SpinParticles=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=8.000000,Max=15.000000),Y=(Min=40.000000,Max=40.000000),Z=(Min=8.000000,Max=15.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t8237'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=12
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=20.000000,Max=30.000000))
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_wa_hurriarmor_ta_simple.SpriteEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter28
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.block_ngon'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.611000,Max=0.611000),Z=(Min=0.424000,Max=0.424000))
+         FadeOutStartTime=0.300000
+         FadeOut=True
+         FadeInEndTime=0.055000
+         FadeIn=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.600000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.300000,Max=0.300000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         Name="MeshEmitter28"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_wa_hurriarmor_ta_simple.MeshEmitter28'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

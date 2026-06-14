@@ -1,0 +1,129 @@
+class u_er_wa_right_dir_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter30
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.deadblow2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.175000,Color=(B=117,G=186,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.539286,Color=(B=23,G=88,R=168,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(A=255))
+         Opacity=0.580000
+         FadeOutStartTime=0.105000
+         FadeOut=True
+         MaxParticles=6
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.150000,Max=-0.150000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=3.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=-0.060000,Max=-0.060000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.400000,Max=0.400000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(Y=(Min=-64.000000,Max=-64.000000),Z=(Min=-64.000000))
+         VelocityLossRange=(X=(Min=6.000000,Max=6.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="MeshEmitter30"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_er_wa_right_dir_simple.MeshEmitter30'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.252000
+         FadeOut=True
+         FadeInEndTime=0.120000
+         FadeIn=True
+         MaxParticles=30
+         ForcedMaxParticles=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=-5.000000,Y=-10.000000,Z=-10.000000)
+         StartLocationRange=(X=(Max=20.000000),Y=(Min=-15.000000,Max=15.000000),Z=(Min=-5.000000,Max=5.000000))
+         AddLocationFromOtherEmitter=0
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=10.000000,Max=15.000000),Y=(Min=10.000000,Max=15.000000),Z=(Min=10.000000,Max=15.000000))
+         InitialParticlesPerSecond=150.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3051'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=17
+         LifetimeRange=(Min=0.300000,Max=0.600000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(Z=(Min=0.500000,Max=0.500000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Z=(Min=0.500000,Max=0.500000))
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_er_wa_right_dir_simple.SpriteEmitter11'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.200000,Max=0.200000),Z=(Min=0.200000,Max=0.200000))
+         FadeOutStartTime=0.132000
+         FadeOut=True
+         FadeInEndTime=0.060000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=3
+         RespawnDeadParticles=False
+         StartLocationRange=(Y=(Min=-10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         StartSpinRange=(X=(Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=20.000000,Max=35.000000),Y=(Min=20.000000,Max=35.000000),Z=(Min=20.000000,Max=35.000000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t6059'
+         InitialTimeRange=(Min=0.075000,Max=0.075000)
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_er_wa_right_dir_simple.SpriteEmitter7'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         UseColorScale=True
+         ColorScale(0)=(Color=(R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.079200
+         FadeOut=True
+         FadeInEndTime=0.042240
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=12.000000,Max=12.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.460000,RelativeSize=0.760000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=15.000000,Max=30.000000),Y=(Min=15.000000,Max=30.000000),Z=(Min=15.000000,Max=30.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1021'
+         LifetimeRange=(Min=0.264000,Max=0.264000)
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_er_wa_right_dir_simple.SpriteEmitter8'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bDirectional=True
+}

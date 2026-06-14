@@ -1,0 +1,136 @@
+class d_in_musicde2_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter13
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Wind.windknifewave00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=240.000015)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.167857,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.375000,Color=(B=5,G=23,R=250,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=28,G=189,R=15,A=255))
+         ColorMultiplierRange=(X=(Min=0.610000,Max=0.610000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.400000
+         FadeOutStartTime=0.070000
+         FadeOut=True
+         FadeInEndTime=0.052500
+         FadeIn=True
+         MaxParticles=4
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=30.000000,Max=30.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000),Y=(Min=0.750000,Max=0.750000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.310000,RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.650000,RelativeSize=2.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=3.500000)
+         StartSizeRange=(X=(Min=2.550000,Max=2.550000),Y=(Min=0.130000,Max=0.130000),Z=(Min=0.130000,Max=0.130000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=0.536000,Max=0.536000)
+         StartVelocityRange=(Z=(Min=-240.000015,Max=-240.000015))
+         Name="MeshEmitter13"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_in_musicde2_ca_simple.MeshEmitter13'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter21
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.700000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.500000
+         FadeOutStartTime=0.111600
+         FadeOut=True
+         FadeInEndTime=0.028800
+         FadeIn=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-5.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Max=10.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=1.500000,Max=1.500000),Y=(Min=15.000000,Max=60.599998),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=76.320000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t7068'
+         LifetimeRange=(Min=0.360000,Max=0.360000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         StartVelocityRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=150.000000,Max=150.000000))
+         Name="SpriteEmitter21"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_in_musicde2_ca_simple.SpriteEmitter21'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter23
+         Acceleration=(Z=80.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=213,G=213,R=213,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=8.000000
+         FadeOutStartTime=0.756000
+         FadeOut=True
+         FadeInEndTime=0.492000
+         FadeIn=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.200000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.290000,RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.590000,RelativeSize=0.400000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Min=3.000000,Max=5.000000),Y=(Min=3.000000,Max=5.000000),Z=(Min=3.000000,Max=5.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t6147'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=1.000000,Max=1.200000)
+         StartVelocityRange=(X=(Min=-48.418999,Max=48.418999),Y=(Min=-58.500000,Max=58.500000),Z=(Min=-58.500000,Max=58.500000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         Name="SpriteEmitter23"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_in_musicde2_ca_simple.SpriteEmitter23'
+     Begin Object Class=MeshEmitter Name=MeshEmitter14
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.twist_m06'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=0.404000
+         FadeOut=True
+         FadeInEndTime=0.181800
+         FadeIn=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-15.000000,Max=-10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.600000)
+         SizeScale(1)=(RelativeTime=0.460000,RelativeSize=0.900000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.150000),Y=(Min=0.150000,Max=0.150000),Z=(Min=0.200000,Max=0.250000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles6.fx_m_t6148'
+         LifetimeRange=(Min=0.505000,Max=1.010000)
+         Name="MeshEmitter14"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.d_in_musicde2_ca_simple.MeshEmitter14'
+     bNoDelete=False
+}

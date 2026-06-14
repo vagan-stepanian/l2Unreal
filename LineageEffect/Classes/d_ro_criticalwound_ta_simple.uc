@@ -1,0 +1,111 @@
+class d_ro_criticalwound_ta_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         Acceleration=(Z=-15.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.472000,Max=0.472000),Y=(Min=0.955000,Max=0.955000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=1.040000
+         FadeOut=True
+         FadeInEndTime=0.117000
+         FadeIn=True
+         MaxParticles=4
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinCCWorCW=(X=1.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.170000,RelativeSize=1.800000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=15.000000,Max=15.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5112'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=1.300000,Max=1.300000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=10.000000))
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_ro_criticalwound_ta_simple.SpriteEmitter16'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.517857,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=0.096000
+         FadeOut=True
+         FadeInEndTime=0.024000
+         FadeIn=True
+         MaxParticles=2
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=2.500000)
+         StartLocationRange=(Z=(Min=-0.500000,Max=0.500000))
+         SpinCCWorCW=(X=1.000000)
+         StartSpinRange=(X=(Min=-0.200000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.370000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=50.000000,Max=70.000000),Y=(Min=50.000000,Max=70.000000),Z=(Min=50.000000,Max=70.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7115'
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_ro_criticalwound_ta_simple.SpriteEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         Acceleration=(Z=-15.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=128,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.228571,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=70,R=70,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=1.040000
+         FadeOut=True
+         FadeInEndTime=0.117000
+         FadeIn=True
+         MaxParticles=2
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         StartSpinRange=(X=(Min=0.150000,Max=0.150000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.170000,RelativeSize=1.800000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=15.000000,Max=15.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5112'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=1.300000,Max=1.300000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=10.000000))
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.d_ro_criticalwound_ta_simple.SpriteEmitter9'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bDirectional=True
+}

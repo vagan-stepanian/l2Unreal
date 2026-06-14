@@ -1,0 +1,143 @@
+class z_dash_red_trail_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter3920
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.cross_poison'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=-20.000000)
+         ColorScale(0)=(Color=(B=124,G=155,R=177,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=124,G=36,R=244,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.580000,Max=0.580000),Z=(Min=0.689000,Max=0.891000))
+         Opacity=0.400000
+         FadeOutStartTime=0.100000
+         FadeOut=True
+         MaxParticles=20
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=20.000000,Z=15.000000)
+         StartLocationRange=(X=(Min=-7.000000,Max=7.000000),Y=(Min=-7.000000,Max=7.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.200000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=0.774000,Max=0.986000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-90.500000,Max=-20.000000))
+         Name="MeshEmitter3920"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.z_dash_red_trail_simple.MeshEmitter3920'
+     Begin Object Class=MeshEmitter Name=MeshEmitter3921
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.pwave00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=-5.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.721429,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=0.560000,Max=0.560000),Y=(Min=0.560000,Max=0.560000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.400000
+         FadeOutStartTime=0.080000
+         FadeOut=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=10.000000,Z=15.000000)
+         SpinParticles=True
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=0.570000,Max=0.570000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-20.000000,Max=-20.000000))
+         Name="MeshEmitter3921"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.z_dash_red_trail_simple.MeshEmitter3921'
+     Begin Object Class=TrailEmitter Name=TrailEmitter50385
+         TrailShadeType=PTTST_PointLife
+         TrailLocation=PTTL_FollowEmitter
+         MaxPointsPerTrail=120
+         UseCrossedSheets=True
+         PointLifeTime=1.000000
+         AttachEmitterIndex=3
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255))
+         ColorScale(1)=(RelativeTime=0.157143,Color=(B=208,G=208,R=208,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=146,G=146,R=146,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.720000,Max=0.720000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.520000
+         FadeOut=True
+         FadeInEndTime=0.240000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=15.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=-5.000000,Max=5.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=4.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=2.500000,Max=3.000000),Y=(Min=3.000000,Max=4.000000),Z=(Min=3.000000,Max=4.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t6141'
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="TrailEmitter50385"
+     End Object
+     Emitters(2)=TrailEmitter'LineageEffect.z_dash_red_trail_simple.TrailEmitter50385'
+     Begin Object Class=MeshEmitter Name=MeshEmitter12
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_charge00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=-50.000000)
+         ColorScale(0)=(Color=(B=124,G=155,R=177,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=124,G=36,R=244,A=255))
+         ColorMultiplierRange=(X=(Min=0.850000,Max=0.850000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.680000
+         FadeOutStartTime=0.085000
+         FadeOut=True
+         FadeInEndTime=0.035000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=-10.000000,Z=15.000000)
+         StartLocationRange=(X=(Max=10.000000))
+         SpinParticles=True
+         StartSpinRange=(Y=(Min=0.250000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=0.600000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=0.100000,Max=0.300000),Y=(Min=0.100000,Max=0.300000),Z=(Min=0.100000,Max=0.300000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         StartVelocityRange=(X=(Min=-50.000000,Max=-50.000000))
+         Name="MeshEmitter12"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.z_dash_red_trail_simple.MeshEmitter12'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.300000
+     bDirectional=True
+}

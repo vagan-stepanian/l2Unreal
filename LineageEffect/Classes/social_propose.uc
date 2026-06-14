@@ -1,0 +1,103 @@
+class social_Propose extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter2577
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.social.Rose'
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.750000,Max=0.750000),Y=(Min=0.750000,Max=0.750000),Z=(Min=0.750000,Max=0.750000))
+         FadeOutStartTime=6.800000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000))
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=8.000000,Max=8.000000)
+         Name="MeshEmitter2577"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.social_propose.MeshEmitter2577'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter5026
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.400000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.150000
+         FadeOutStartTime=0.160000
+         FadeOut=True
+         FadeInEndTime=0.010000
+         FadeIn=True
+         MaxParticles=16
+         ResetAfterChange=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-0.250000)
+         StartLocationRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-0.100000,Max=0.100000))
+         SphereRadiusRange=(Min=3.000000,Max=3.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=16.000000,Max=16.000000))
+         SpinsPerSecondRange=(X=(Min=0.400000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.750000)
+         StartSizeRange=(X=(Min=3.300000,Max=3.300000),Y=(Min=3.300000,Max=3.300000),Z=(Min=3.300000,Max=3.300000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.etc.fx_m_t0153'
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=1.000000))
+         VelocityLossRange=(X=(Min=2.000000,Max=5.000000),Y=(Min=2.000000,Max=5.000000),Z=(Min=2.000000,Max=2.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter5026"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.social_propose.SpriteEmitter5026'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter5027
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(G=82,R=251,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=24.000000
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.500000
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=99
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=2.000000,Max=7.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-2.000000,Max=2.000000))
+         StartLocationPolarRange=(X=(Min=-170.000000,Max=170.000000),Y=(Min=-170.000000,Max=170.000000),Z=(Min=1.000000,Max=5.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=0.200000,Max=0.600000),Y=(Min=0.200000,Max=0.600000),Z=(Min=0.200000,Max=0.600000))
+         InitialParticlesPerSecond=14.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.340000,Max=0.400000)
+         StartVelocityRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         VelocityLossRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter5027"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.social_propose.SpriteEmitter5027'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Pitch=393146,Yaw=309788917)
+     DrawScale=0.050000
+     SwayRotationOrig=(Pitch=393146,Yaw=309788917)
+     bDirectional=True
+}

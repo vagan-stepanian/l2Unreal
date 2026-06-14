@@ -1,0 +1,70 @@
+class d_ar_bomb_icon_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.bomb'
+         RenderTwoSided=True
+         UseParticleColor=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=128,G=128,R=128,A=255))
+         ColorScale(1)=(RelativeTime=0.350000,Color=(B=15,G=100,R=240,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=128,G=128,R=128,A=255))
+         ColorScaleRepeats=10.000000
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.100000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=10.000000
+         StartSizeRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=5.000000,Max=5.000000)
+         Name="MeshEmitter2"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_ar_bomb_icon_simple.MeshEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOut=True
+         MaxParticles=48
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Y=(Min=-3.000000,Max=-3.000000),Z=(Min=10.000000,Max=10.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=70.000000,Max=100.000000),Z=(Max=110.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=10.000000,Max=15.000000),Y=(Min=10.000000,Max=15.000000),Z=(Min=10.000000,Max=15.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3051'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionScale(0)=5.000000
+         SubdivisionStart=3
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_ar_bomb_icon_simple.SpriteEmitter11'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bUnlit=False
+     bDirectional=True
+}

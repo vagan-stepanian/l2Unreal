@@ -1,0 +1,133 @@
+class br_e_bread_b_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter17
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.039286)
+         ColorScale(2)=(RelativeTime=0.050000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.050000,Color=(B=80,G=80,R=80,A=255))
+         ColorScale(4)=(RelativeTime=0.800000,Color=(B=80,G=80,R=80,A=255))
+         ColorScale(5)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=0.150000,Max=0.150000),Y=(Min=0.450000,Max=0.450000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.570000
+         FadeOutStartTime=1.200000
+         MaxParticles=6
+         RespawnDeadParticles=False
+         Disabled=True
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.040000,RelativeSize=3.500000)
+         SizeScale(1)=(RelativeTime=0.050000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=12.000000,Max=12.000000),Y=(Min=12.000000,Max=12.000000),Z=(Min=12.000000,Max=12.000000))
+         InitialParticlesPerSecond=400.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0000'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=7
+         SubdivisionEnd=8
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter17"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_bread_b_simple.SpriteEmitter17'
+     Begin Object Class=MeshEmitter Name=MeshEmitter3
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.spirit_gun00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=8,G=106,R=170,A=255))
+         ColorScale(1)=(RelativeTime=0.521429,Color=(G=92,R=148,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(G=118,R=220,A=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Min=0.300000,Max=0.500000),Y=(Min=0.200000,Max=0.400000),Z=(Min=0.300000,Max=0.500000))
+         Opacity=0.800000
+         FadeOutStartTime=2.720000
+         FadeOut=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.150000,Max=0.150000),Y=(Min=0.150000,Max=0.150000),Z=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.030000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.070000,RelativeSize=1.800000)
+         SizeScale(2)=(RelativeTime=0.080000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=0.670000,RelativeSize=1.000000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=0.018900,Max=0.018900),Y=(Min=0.056700,Max=0.075600),Z=(Min=0.056700,Max=0.075600))
+         InitialParticlesPerSecond=200.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=2.000000,Max=2.400000)
+         MaxAbsVelocity=(X=2500.000000,Y=10000.000000,Z=5000.000000)
+         Name="MeshEmitter3"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect_Br.br_e_bread_b_simple.MeshEmitter3'
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.100000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.171429,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(3)=(RelativeTime=0.600000,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=1.000000),Y=(Min=0.800000,Max=1.000000),Z=(Min=0.800000,Max=1.000000))
+         FadeOutStartTime=0.080000
+         FadeOut=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.090000,RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.240000,RelativeSize=2.500000)
+         SizeScale(2)=(RelativeTime=0.600000,RelativeSize=3.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=3.400000)
+         StartSizeRange=(X=(Min=0.060000,Max=0.100000),Y=(Min=0.060000,Max=0.100000),Z=(Min=0.060000,Max=0.100000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         Name="MeshEmitter5"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect_Br.br_e_bread_b_simple.MeshEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter18
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.400000
+         FadeOutStartTime=0.020000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.080000,RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=2.800000)
+         SizeScale(2)=(RelativeTime=0.600000,RelativeSize=3.200000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=3.400000)
+         StartSizeRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=6.000000,Max=6.000000),Z=(Min=6.000000,Max=6.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0056'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter18"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect_Br.br_e_bread_b_simple.SpriteEmitter18'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

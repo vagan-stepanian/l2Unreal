@@ -1,0 +1,73 @@
+class npc_statue_crystal_fire extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter75
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.820000
+         FadeOutStartTime=2.920000
+         FadeOut=True
+         FadeInEndTime=0.840000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationOffset=(X=12.452105,Y=0.154368,Z=21.238342)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=30.000000,Max=40.000000),Y=(Min=30.000000,Max=40.000000),Z=(Min=30.000000,Max=40.000000))
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'FX_E_T.LightGlowSet.npc_2f_etc_R'
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="SpriteEmitter75"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.npc_statue_crystal_fire.SpriteEmitter75'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter98
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.110714,Color=(B=108,G=108,R=108,A=255))
+         ColorScale(2)=(RelativeTime=0.242857,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.400000,Color=(B=98,G=98,R=98,A=255))
+         ColorScale(4)=(RelativeTime=0.539286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(5)=(RelativeTime=0.703571,Color=(B=113,G=113,R=113,A=255))
+         ColorScale(6)=(RelativeTime=0.846429,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(7)=(RelativeTime=1.000000,Color=(B=93,G=93,R=93,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.200000,Max=0.200000),Z=(Min=0.300000,Max=0.300000))
+         Opacity=0.620000
+         FadeOutStartTime=1.640000
+         FadeOut=True
+         FadeInEndTime=0.840000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationOffset=(X=12.452105,Y=0.154368,Z=21.238342)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.030000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.650000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=65.000000,Max=65.000000),Y=(Min=65.000000,Max=65.000000),Z=(Min=65.000000,Max=65.000000))
+         Texture=Texture'FX_E_T.LightGlowSet.npc_2f_etc_G01'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         SubdivisionEnd=1
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="SpriteEmitter98"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.npc_statue_crystal_fire.SpriteEmitter98'
+     bDynamicActorFilterState=True
+     bLightChanged=True
+     bNoDelete=False
+     Tag="Emitter"
+     bSunAffect=True
+     DrawScale=0.300000
+     bSelected=True
+     TexModifyInfo=(Color=(B=255,G=255,R=255,A=255),AlphaOp=1,ColorOp=1)
+}

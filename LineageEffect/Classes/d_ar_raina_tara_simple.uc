@@ -1,0 +1,100 @@
+class d_ar_raina_tara_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=200.000000)
+         StartLocationRange=(X=(Min=-90.000000,Max=90.000000),Y=(Min=-90.000000,Max=90.000000))
+         StartSpinRange=(X=(Min=0.125000,Max=0.125000))
+         UseSizeScale=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=3.000000,Max=4.000000),Y=(Min=-55.000000,Max=-55.000000),Z=(Min=3.000000,Max=4.000000))
+         InitialParticlesPerSecond=60.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t8286'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=1
+         UseRandomSubdivision=True
+         SubdivisionStart=1
+         SubdivisionEnd=1
+         LifetimeRange=(Min=0.100000,Max=0.200000)
+         StartVelocityRange=(X=(Min=-150.000000,Max=150.000000),Y=(Min=-150.000000,Max=150.000000),Z=(Min=-1750.000000,Max=-1750.000000))
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=4.000000,Max=4.000000))
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_ar_raina_tara_simple.SpriteEmitter6'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=133,G=179,R=205,A=255))
+         ColorScale(1)=(RelativeTime=0.221429,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=0.514286,Color=(B=98,G=98,R=98,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=75,G=75,R=75))
+         Opacity=0.200000
+         FadeOutStartTime=1.500000
+         FadeOut=True
+         MaxParticles=20
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=15.000000)
+         StartLocationRange=(X=(Min=-100.000000,Max=100.000000),Y=(Min=-100.000000,Max=100.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Max=0.050000))
+         StartSpinRange=(X=(Min=0.350000,Max=0.650000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=30.000000,Max=75.000000),Y=(Min=30.000000,Max=75.000000),Z=(Min=30.000000,Max=75.000000))
+         InitialParticlesPerSecond=60.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t4043'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.150000,Max=0.170000)
+         UseSoftParticle=True
+         SoftParticleFadeDist=15.000000
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_ar_raina_tara_simple.SpriteEmitter7'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.739286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.850000,Max=0.850000),Z=(Min=0.850000,Max=0.850000))
+         FadeOutStartTime=0.351000
+         FadeOut=True
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=2.000000)
+         StartLocationRange=(X=(Min=-100.000000,Max=100.000000),Y=(Min=-100.000000,Max=100.000000))
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=-25.000000,Max=25.000000),Y=(Min=-25.000000,Max=25.000000),Z=(Min=-25.000000,Max=25.000000))
+         InitialParticlesPerSecond=90.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3051'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.450000,Max=0.450000)
+         InitialDelayRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_ar_raina_tara_simple.SpriteEmitter16'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

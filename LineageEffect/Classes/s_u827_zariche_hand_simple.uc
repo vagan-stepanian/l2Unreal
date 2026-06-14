@@ -1,0 +1,74 @@
+class s_u827_zariche_hand_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=94,G=91,R=164,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=23,G=23,R=43,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         FadeOutStartTime=2.400000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         MaxParticles=16
+         StartLocationRange=(X=(Min=-2.400000,Max=2.400000),Y=(Min=-0.840000,Max=0.840000),Z=(Min=-1.200000,Max=1.200000))
+         SphereRadiusRange=(Min=1.000000,Max=1.500000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=70.000000,Max=70.000000),Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.500000,RelativeSize=1.300000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=1.200000,Max=1.800000),Y=(Min=2.000000,Max=4.500000),Z=(Min=105.839996,Max=105.839996))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4036'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=31
+         LifetimeRange=(Min=2.600000,Max=3.000000)
+         StartVelocityRange=(X=(Min=-0.504000,Max=0.504000),Y=(Min=-0.504000,Max=0.504000),Z=(Min=2.000000,Max=2.500000))
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.s_u827_zariche_hand_simple.SpriteEmitter6'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.830000,Max=0.830000),Z=(Min=0.490000,Max=0.490000))
+         Opacity=0.830000
+         FadeOutStartTime=1.360000
+         FadeOut=True
+         FadeInEndTime=0.300000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         StartLocationOffset=(Z=-1.000000)
+         SpinParticles=True
+         UniformSize=True
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6021'
+         TextureUSubdivisions=6
+         TextureVSubdivisions=6
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=35
+         StartVelocityRange=(Z=(Min=0.100000,Max=0.100000))
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.s_u827_zariche_hand_simple.SpriteEmitter16'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Roll=7000)
+     DrawScale=0.100000
+     SwayRotationOrig=(Roll=7000)
+}

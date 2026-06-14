@@ -1,0 +1,204 @@
+class u_er_wi_lightning3_hand_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2424
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=0.450000
+         FadeOut=True
+         FadeInEndTime=0.185000
+         FadeIn=True
+         MaxParticles=14
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=25.000000,Max=25.000000),Y=(Min=25.000000,Max=25.000000),Z=(Min=25.000000,Max=25.000000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3037'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter2424"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_er_wi_lightning3_hand_simple.SpriteEmitter2424'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=249,G=209,R=128,A=255))
+         FadeOutStartTime=0.295000
+         FadeOut=True
+         FadeInEndTime=0.085000
+         FadeIn=True
+         MaxParticles=30
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=8.000000,Max=10.000000),Y=(Min=8.000000,Max=10.000000),Z=(Min=8.000000,Max=10.000000))
+         InitialParticlesPerSecond=12.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8018'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_er_wi_lightning3_hand_simple.SpriteEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.White.white_radiation00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         Opacity=0.110000
+         FadeOutStartTime=0.167500
+         FadeOut=True
+         FadeInEndTime=0.110000
+         FadeIn=True
+         MaxParticles=13
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.250000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=0.250000,Max=0.250000),Y=(Min=0.250000,Max=0.250000),Z=(Min=0.250000,Max=0.250000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         Name="MeshEmitter1"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.u_er_wi_lightning3_hand_simple.MeshEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=64,R=128,A=255))
+         ColorMultiplierRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.700000,Max=0.700000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.250000
+         FadeOutStartTime=0.200000
+         FadeInEndTime=0.048000
+         FadeIn=True
+         MaxParticles=16
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=10.000000,Max=15.000000),Y=(Min=10.000000,Max=15.000000),Z=(Min=10.000000,Max=15.000000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5108'
+         LifetimeRange=(Min=0.200000,Max=0.200000)
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_er_wi_lightning3_hand_simple.SpriteEmitter16'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=12,A=255))
+         ColorScale(1)=(RelativeTime=0.489286,Color=(B=255,G=245,R=176,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=64,G=12,A=255))
+         ColorScaleRepeats=8.000000
+         Opacity=0.210000
+         FadeOutStartTime=0.232000
+         FadeOut=True
+         FadeInEndTime=0.164000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=26
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(Z=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=0.600000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=0.450000,Max=0.450000),Y=(Min=0.450000,Max=0.450000),Z=(Min=0.450000,Max=0.450000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         Name="MeshEmitter2"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.u_er_wi_lightning3_hand_simple.MeshEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter18
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=148,R=102,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=148,R=102,A=255))
+         ColorScaleRepeats=2.000000
+         FadeOutStartTime=0.200000
+         FadeInEndTime=0.082000
+         FadeIn=True
+         MaxParticles=25
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=15.000000,Max=20.000000),Y=(Min=15.000000,Max=20.000000),Z=(Min=15.000000,Max=20.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5007'
+         LifetimeRange=(Min=0.150000,Max=0.200000)
+         Name="SpriteEmitter18"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.u_er_wi_lightning3_hand_simple.SpriteEmitter18'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2097
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=64,R=128,A=255))
+         Opacity=0.330000
+         FadeOutStartTime=0.200000
+         FadeInEndTime=0.048000
+         FadeIn=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.300000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=10.000000,Max=15.000000),Y=(Min=10.000000,Max=15.000000),Z=(Min=10.000000,Max=15.000000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5133'
+         LifetimeRange=(Min=0.200000,Max=0.200000)
+         Name="SpriteEmitter2097"
+     End Object
+     Emitters(6)=SpriteEmitter'LineageEffect.u_er_wi_lightning3_hand_simple.SpriteEmitter2097'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=1144,Roll=32)
+     DrawScale=0.200000
+     bUnlit=False
+     SwayRotationOrig=(Yaw=1144,Roll=32)
+}

@@ -1,0 +1,75 @@
+class br_e_aga_wpanda_atk_b extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter20
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.spirit_gun00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.521429,Color=(B=105,G=105,R=105,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Max=0.100000),Y=(Min=0.200000,Max=0.400000),Z=(Max=0.100000))
+         Opacity=0.800000
+         FadeOutStartTime=1.360000
+         FadeOut=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=7.000000,Y=-1.000000)
+         SpinParticles=True
+         SpinCCWorCW=(Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.300000,Max=0.300000),Z=(Min=2.000000,Max=2.000000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.030000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.070000,RelativeSize=1.800000)
+         SizeScale(2)=(RelativeTime=0.080000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=0.670000,RelativeSize=1.000000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=0.015000,Max=0.015000),Y=(Min=0.030000,Max=0.040000),Z=(Min=0.030000,Max=0.040000))
+         InitialParticlesPerSecond=400.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.200000)
+         Name="MeshEmitter20"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect_Br.br_e_aga_wpanda_atk_b.MeshEmitter20'
+     Begin Object Class=MeshEmitter Name=MeshEmitter22
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.spirit_gun00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.521429,Color=(B=105,G=105,R=105,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Max=0.100000),Y=(Min=0.200000,Max=0.400000),Z=(Max=0.100000))
+         Opacity=0.800000
+         FadeOutStartTime=1.360000
+         FadeOut=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=7.000000,Y=-1.000000)
+         SpinParticles=True
+         SpinCCWorCW=(Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.300000,Max=0.300000),Z=(Min=2.000000,Max=2.000000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.030000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.070000,RelativeSize=1.800000)
+         SizeScale(2)=(RelativeTime=0.080000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=0.670000,RelativeSize=1.000000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=0.015000,Max=0.015000),Y=(Min=0.030000,Max=0.040000),Z=(Min=0.030000,Max=0.040000))
+         InitialParticlesPerSecond=400.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.200000)
+         Name="MeshEmitter22"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect_Br.br_e_aga_wpanda_atk_b.MeshEmitter22'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

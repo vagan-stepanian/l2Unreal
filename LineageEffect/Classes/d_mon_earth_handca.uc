@@ -1,0 +1,161 @@
+class d_mon_earth_handca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter18
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=173,G=173,R=173,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=181,G=181,R=181,A=255))
+         FadeOutStartTime=0.426000
+         FadeOut=True
+         FadeInEndTime=0.066000
+         FadeIn=True
+         MaxParticles=12
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.200000))
+         StartSpinRange=(X=(Min=0.050000,Max=0.150000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.100000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.600000)
+         StartSizeRange=(X=(Min=12.000000,Max=12.000000),Y=(Min=12.000000,Max=12.000000),Z=(Min=12.000000,Max=12.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=None
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(X=(Min=20.000000,Max=30.000000),Y=(Min=30.000000,Max=40.000000),Z=(Min=10.000000,Max=20.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter18"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_mon_earth_handca.SpriteEmitter18'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=59,G=59,R=59,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=35,G=35,R=35,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=1.050000
+         FadeOut=True
+         FadeInEndTime=0.210000
+         FadeIn=True
+         MaxParticles=12
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.100000))
+         StartSpinRange=(X=(Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5004'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_mon_earth_handca.SpriteEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=193,G=193,R=193,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=197,G=197,R=197,A=255))
+         ColorMultiplierRange=(X=(Min=0.850000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.700000,Max=0.900000))
+         Opacity=0.630000
+         FadeOutStartTime=0.952000
+         FadeOut=True
+         FadeInEndTime=0.068000
+         FadeIn=True
+         MaxParticles=12
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.300000,Max=0.300000))
+         StartSpinRange=(X=(Min=-0.060000,Max=0.060000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.300000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.600000)
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=None
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_mon_earth_handca.SpriteEmitter8'
+     Begin Object Class=MeshEmitter Name=MeshEmitter26
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.230000
+         FadeOutStartTime=0.413000
+         FadeOut=True
+         FadeInEndTime=0.042000
+         FadeIn=True
+         MaxParticles=6
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.640000,Max=0.930000),Y=(Min=0.640000,Max=0.930000),Z=(Min=0.640000,Max=0.930000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=0.075000,Max=0.110000),Y=(Min=0.075000,Max=0.110000),Z=(Min=0.075000,Max=0.110000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="MeshEmitter26"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_mon_earth_handca.MeshEmitter26'
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.stone_stone00'
+         RenderTwoSided=True
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.500000
+         FadeInEndTime=0.075000
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=2.000000,Max=5.000000)
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         RevolutionsPerSecondRange=(X=(Min=0.360000,Max=0.630000),Y=(Min=0.360000,Max=0.630000),Z=(Min=0.360000,Max=0.630000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.600000),Y=(Max=0.600000),Z=(Max=0.600000))
+         StartSpinRange=(X=(Max=0.830000),Y=(Max=0.830000),Z=(Max=0.830000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.100000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=0.030000,Max=0.030000),Y=(Min=0.030000,Max=0.030000),Z=(Min=0.030000,Max=0.030000))
+         InitialParticlesPerSecond=12.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter5"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.d_mon_earth_handca.MeshEmitter5'
+     bRotEmitter=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.050000
+     bUnlit=False
+}

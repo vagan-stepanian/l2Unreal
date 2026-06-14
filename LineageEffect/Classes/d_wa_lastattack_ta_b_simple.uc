@@ -1,0 +1,100 @@
+class d_wa_lastattack_ta_b_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter18
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=146,G=198,R=57,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=226,G=242,R=164,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.630000,Max=0.630000),Z=(Min=0.661000,Max=0.661000))
+         FadeOutStartTime=0.152500
+         FadeOut=True
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=-7.500000)
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=90.000000,Max=90.000000),Y=(Max=360.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=10.000000,Max=20.000000),Z=(Min=10.000000,Max=20.000000))
+         InitialParticlesPerSecond=300.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8145'
+         LifetimeRange=(Min=0.200000,Max=0.200000)
+         StartVelocityRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=50.000000,Max=50.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         UseSoftParticle=True
+         SoftParticleFadeDist=30.000000
+         Name="SpriteEmitter18"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_wa_lastattack_ta_b_simple.SpriteEmitter18'
+     Begin Object Class=MeshEmitter Name=MeshEmitter15
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Impact.spread00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=128,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.321429,Color=(B=191,G=211,R=169,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=217,G=221,R=185,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=15,R=15,A=255))
+         FadeOutStartTime=0.115000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.020000,Max=0.020000),Y=(Min=-0.250000,Max=-0.250000),Z=(Min=-0.020000,Max=0.020000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=2.200000,Max=2.200000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.FX_M_T4112'
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         StartVelocityRange=(X=(Min=-100.000000,Max=-100.000000))
+         Name="MeshEmitter15"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_wa_lastattack_ta_b_simple.MeshEmitter15'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter20
+         Acceleration=(Z=-15.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.700000,Max=0.700000))
+         FadeOutStartTime=0.205000
+         FadeOut=True
+         MaxParticles=4
+         RespawnDeadParticles=False
+         SpinCCWorCW=(X=1.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.170000,RelativeSize=1.800000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5112'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(X=(Min=30.000000,Max=30.000000),Z=(Min=10.000000,Max=10.000000))
+         Name="SpriteEmitter20"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_wa_lastattack_ta_b_simple.SpriteEmitter20'
+     AutoReplay=True
+     bNoDelete=False
+}

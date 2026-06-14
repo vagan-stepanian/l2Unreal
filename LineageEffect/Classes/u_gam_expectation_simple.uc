@@ -1,0 +1,91 @@
+class u_gam_expectation_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Support.star_trail1'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=234,G=53,A=255))
+         ColorScale(1)=(RelativeTime=0.475000,Color=(B=203,G=133,R=1,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=234,G=53,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=2.610000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         AddLocationFromOtherEmitter=0
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=2.000000,Max=2.000000))
+         StartSizeRange=(X=(Min=0.220000,Max=0.220000),Y=(Min=0.220000,Max=0.220000),Z=(Min=0.220000,Max=0.220000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="MeshEmitter1"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_gam_expectation_simple.MeshEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.496429,Color=(B=187,G=187,R=187,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=2.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.100000,Max=0.100000))
+         FadeOutStartTime=1.660000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         Disabled=True
+         RevolutionScaleRepeats=1.000000
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.020000)
+         SizeScale(2)=(RelativeTime=0.600000,RelativeSize=1.020000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=4.000000,Max=4.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures2.Particles2.fx_m_t7219'
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(Z=(Min=0.001000,Max=0.001000))
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_gam_expectation_simple.SpriteEmitter6'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.100000
+         FadeOutStartTime=1.215000
+         FadeOut=True
+         FadeInEndTime=0.165000
+         FadeIn=True
+         MaxParticles=25
+         RespawnDeadParticles=False
+         Disabled=True
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=35.000000,Max=35.000000),Y=(Min=35.000000,Max=35.000000),Z=(Min=35.000000,Max=35.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6010'
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         WarmupTicksPerSecond=2.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_gam_expectation_simple.SpriteEmitter7'
+     bNoDelete=False
+}

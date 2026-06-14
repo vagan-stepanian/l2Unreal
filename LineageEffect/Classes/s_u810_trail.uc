@@ -1,0 +1,105 @@
+class s_u810_trail extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter36
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.816000,Max=0.816000),Z=(Min=0.816000,Max=0.816000))
+         FadeOutStartTime=0.072500
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=35.000000)
+         StartLocationRange=(X=(Min=7.500000,Max=7.500000),Y=(Min=-10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         StartSpinRange=(X=(Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=40.000000,Max=55.000000),Y=(Min=40.000000,Max=55.000000),Z=(Min=40.000000,Max=55.000000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.FX_M_T8030'
+         InitialTimeRange=(Min=0.075000,Max=0.075000)
+         LifetimeRange=(Min=0.225000,Max=0.225000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         Name="SpriteEmitter36"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.s_u810_trail.SpriteEmitter36'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter39
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.900000
+         FadeOutStartTime=0.138000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=15.000000,Z=25.000000)
+         StartLocationRange=(X=(Max=20.000000),Y=(Min=-20.000000,Max=20.000000),Z=(Min=-7.000000,Max=7.000000))
+         AddLocationFromOtherEmitter=0
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=15.000000,Max=25.000000),Y=(Min=20.000000,Max=30.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3051'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=17
+         LifetimeRange=(Min=0.300000,Max=0.600000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=-10.000000),Z=(Min=0.500000,Max=0.500000))
+         VelocityLossRange=(Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter39"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.s_u810_trail.SpriteEmitter39'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter40
+         Acceleration=(X=-20.000000,Z=-10.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.390000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=3
+         RespawnDeadParticles=False
+         Disabled=True
+         StartLocationOffset=(Z=20.000000)
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=40.000000,Max=40.000000),Y=(Min=40.000000,Max=40.000000),Z=(Min=40.000000,Max=40.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4006'
+         SubdivisionScale(0)=2.000000
+         LifetimeRange=(Min=0.750000,Max=1.000000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(X=(Min=-15.000000,Max=-15.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=0.100000,Max=10.000000))
+         Name="SpriteEmitter40"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.s_u810_trail.SpriteEmitter40'
+     bLightChanged=True
+     bNoDelete=False
+     DrawScale=0.200000
+     bDirectional=True
+}

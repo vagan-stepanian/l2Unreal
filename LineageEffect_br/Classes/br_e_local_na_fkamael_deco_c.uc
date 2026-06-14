@@ -1,0 +1,141 @@
+class br_e_local_na_fkamael_deco_c extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=192,G=128,A=255))
+         ColorMultiplierRange=(X=(Max=0.800000),Y=(Max=1.000000),Z=(Max=1.000000))
+         FadeOutStartTime=2.500000
+         FadeInEndTime=2.500000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=50
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.380000,RelativeSize=1.000000)
+         SizeScaleRepeats=20.000000
+         StartSizeRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.800000,Max=0.800000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5027'
+         LifetimeRange=(Min=0.001000,Max=2.500000)
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_local_na_fkamael_deco_c.SpriteEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter22
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.300000,Max=1.000000))
+         Opacity=0.500000
+         FadeOutStartTime=4.000000
+         FadeInEndTime=4.000000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=50
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.380000,RelativeSize=1.000000)
+         SizeScaleRepeats=20.000000
+         StartSizeRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.800000,Max=0.800000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6001'
+         LifetimeRange=(Min=0.001000,Max=2.500000)
+         Name="SpriteEmitter22"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect_Br.br_e_local_na_fkamael_deco_c.SpriteEmitter22'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter24
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.300000,Max=1.000000))
+         FadeOutStartTime=2.500000
+         FadeInEndTime=2.125000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=25
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.380000,RelativeSize=1.000000)
+         SizeScaleRepeats=20.000000
+         StartSizeRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.400000,Max=0.400000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0002'
+         LifetimeRange=(Min=0.001000,Max=2.500000)
+         Name="SpriteEmitter24"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect_Br.br_e_local_na_fkamael_deco_c.SpriteEmitter24'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         Acceleration=(Z=-7.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=74,G=74,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.607143,Color=(B=74,G=74,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=9.000000
+         ColorMultiplierRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=0.700000,Max=1.000000),Z=(Min=0.500000,Max=0.800000))
+         FadeOutStartTime=0.100000
+         FadeInEndTime=0.044000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=15
+         StartLocationOffset=(Z=-1.000000)
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Max=0.500000)
+         RevolutionsPerSecondRange=(Z=(Min=-0.500000,Max=-0.500000))
+         RevolutionScale(0)=(RelativeRevolution=(Z=1.000000))
+         RevolutionScale(1)=(RelativeTime=1.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Max=0.350000),Y=(Max=0.350000),Z=(Max=0.350000))
+         InitialParticlesPerSecond=15.000000
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=1
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect_Br.br_e_local_na_fkamael_deco_c.SpriteEmitter9'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.050000
+     bSelected=True
+     TexModifyInfo=(Color=(B=255,G=255,R=255,A=255),AlphaOp=1,ColorOp=1)
+}

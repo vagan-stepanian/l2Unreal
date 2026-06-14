@@ -1,0 +1,116 @@
+class e_u861_deco_death_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter46
+         Acceleration=(Z=50.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.657000,Max=0.836000),Y=(Min=0.450000,Max=0.513000),Z=(Min=0.600000,Max=0.600000))
+         Opacity=0.850000
+         FadeOutStartTime=0.360000
+         FadeOut=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=5.000000,Max=5.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.030000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=30.000000,Max=75.000000),Y=(Min=30.000000,Max=75.000000),Z=(Min=30.000000,Max=75.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t4043'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.900000,Max=0.900000)
+         StartVelocityRange=(X=(Min=-30.000000,Max=30.000000),Y=(Min=-30.000000,Max=30.000000),Z=(Min=-30.000000,Max=30.000000))
+         UseSoftParticle=True
+         SoftParticleFadeDist=2.000000
+         Name="SpriteEmitter46"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u861_deco_death_simple.SpriteEmitter46'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter47
+         Acceleration=(Z=-25.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.780000,Max=1.000000),Y=(Min=0.587000,Max=0.587000),Z=(Min=0.587000,Max=0.587000))
+         FadeOutStartTime=0.162000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=35
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-17.500000,Max=17.500000),Y=(Min=-17.500000,Max=17.500000),Z=(Min=-22.500000,Max=22.500000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Min=15.000000,Max=15.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=-13.430000,Max=13.430000),Y=(Min=-75.735001,Max=-75.735001),Z=(Min=-13.430000,Max=13.430000))
+         InitialParticlesPerSecond=150.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1019'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=500.000000,Max=500.000000),Y=(Min=500.000000,Max=500.000000),Z=(Min=500.000000,Max=500.000000))
+         VelocityLossRange=(X=(Min=7.000000,Max=7.000000),Y=(Min=7.000000,Max=7.000000),Z=(Min=7.000000,Max=7.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter47"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u861_deco_death_simple.SpriteEmitter47'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter51
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=0.195000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=20
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-17.500000,Max=17.500000),Y=(Min=-17.500000,Max=17.500000),Z=(Min=-22.500000,Max=22.500000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Min=5.000000,Max=5.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=-40.000000,Max=40.000000),Y=(Min=-40.000000,Max=40.000000),Z=(Min=-40.000000,Max=40.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1084'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=100.000000,Max=100.000000),Y=(Min=100.000000,Max=100.000000),Z=(Min=100.000000,Max=100.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter51"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.e_u861_deco_death_simple.SpriteEmitter51'
+     bUseQuake=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

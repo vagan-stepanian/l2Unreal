@@ -1,0 +1,54 @@
+class br_e_u088_aga_ballkick_alwaysbone extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         Acceleration=(Z=-1.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.521429,Color=(B=160,G=160,R=160,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=50.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.660000,Max=1.000000),Z=(Min=0.500000,Max=0.500000))
+         FadeOutStartTime=2.940000
+         FadeOut=True
+         FadeInEndTime=0.060000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=24
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Max=2.000000)
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=0.500000,Max=1.000000))
+         UseRevolutionScale=True
+         RevolutionScale(0)=(RelativeTime=0.100000,RelativeRevolution=(Z=0.100000))
+         RevolutionScale(1)=(RelativeTime=1.000000,RelativeRevolution=(Z=0.200000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.125000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=0.500000,Max=2.000000),Y=(Min=0.500000,Max=2.000000),Z=(Min=0.500000,Max=2.000000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2033'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         InitialDelayRange=(Max=0.500000)
+         StartVelocityRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-2.000000,Max=-1.000000))
+         VelocityLossRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Max=0.500000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.br_e_u088_aga_ballkick_alwaysbone.SpriteEmitter2'
+     bUpdate=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

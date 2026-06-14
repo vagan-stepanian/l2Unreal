@@ -1,0 +1,125 @@
+class z_monastery_red_zone_a_area_cross extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter22
+         Acceleration=(Z=-100.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=94,G=94,R=94,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=16.000000
+         FadeOutStartTime=0.624000
+         FadeOut=True
+         FadeInEndTime=0.088000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=66
+         ResetAfterChange=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=10.000000,Max=10.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         UseRotationFrom=PTRS_Actor
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.300000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         SizeScaleRepeats=12.000000
+         StartSizeRange=(X=(Min=1.500000,Max=2.250000),Y=(Min=1.500000,Max=2.250000),Z=(Min=1.500000,Max=2.250000))
+         InitialParticlesPerSecond=22.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-30.000000,Max=30.000000),Y=(Min=-30.000000,Max=30.000000),Z=(Min=-30.000000,Max=30.000000))
+         VelocityLossRange=(X=(Max=2.000000),Y=(Max=2.000000),Z=(Max=2.000000))
+         Name="SpriteEmitter22"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.z_monastery_red_zone_a_area_cross.SpriteEmitter22'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter23
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.571429,Color=(B=213,G=213,R=213,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         Opacity=0.050000
+         FadeOutStartTime=2.010000
+         FadeOut=True
+         FadeInEndTime=0.600000
+         FadeIn=True
+         MaxParticles=14
+         ResetAfterChange=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SphereRadiusRange=(Min=30.000000,Max=30.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=0.470000,RelativeSize=0.800000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=100.000000
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=38.000000,Max=38.000000),Z=(Min=38.000000,Max=38.000000))
+         InitialParticlesPerSecond=14.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0063'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=8
+         SubdivisionEnd=9
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(X=(Min=6.000000,Max=6.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter23"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.z_monastery_red_zone_a_area_cross.SpriteEmitter23'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter24
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.546429,Color=(B=209,G=209,R=209,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=20.000000
+         FadeOutStartTime=2.400000
+         FadeOut=True
+         FadeInEndTime=1.088000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.160000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=0.370000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=23.000000,Max=23.000000),Y=(Min=23.000000,Max=23.000000),Z=(Min=23.000000,Max=23.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t6146'
+         LifetimeRange=(Min=3.200000,Max=3.200000)
+         InitialDelayRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=1.000000))
+         VelocityLossRange=(Z=(Min=0.450000,Max=0.450000))
+         Name="SpriteEmitter24"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.z_monastery_red_zone_a_area_cross.SpriteEmitter24'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

@@ -1,0 +1,163 @@
+class d_ar_trapin2_icon_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=129,G=129,R=192,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=129,G=129,R=192,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.750000,Max=0.750000))
+         Opacity=0.250000
+         FadeOutStartTime=0.397500
+         FadeOut=True
+         FadeInEndTime=0.060000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationRange=(Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=14.000000,Max=14.000000),Y=(Min=14.000000,Max=14.000000),Z=(Min=14.000000,Max=14.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t7043'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         SubdivisionStart=1
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(Z=(Max=7.000000))
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_ar_trapin2_icon_simple.SpriteEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter4
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=128,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.750000,Max=0.750000),Z=(Min=0.250000,Max=0.250000))
+         Opacity=0.150000
+         FadeOutStartTime=0.390000
+         FadeOut=True
+         MaxParticles=5
+         StartLocationRange=(Z=(Min=12.000000,Max=12.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=8.000000,Max=8.000000),Y=(Min=8.000000,Max=8.000000),Z=(Min=8.000000,Max=8.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.ring-bw'
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=1
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         Name="SpriteEmitter4"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_ar_trapin2_icon_simple.SpriteEmitter4'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.250000,Max=0.250000),Z=(Min=0.600000,Max=0.600000))
+         Opacity=0.100000
+         FadeOutStartTime=0.290000
+         FadeOut=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0143'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=2
+         SubdivisionStart=1
+         SubdivisionEnd=2
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_ar_trapin2_icon_simple.SpriteEmitter8'
+     Begin Object Class=MeshEmitter Name=MeshEmitter4
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.Barler_bright3'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=151,G=185,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=38,G=74,R=247,A=255))
+         Opacity=0.750000
+         FadeOutStartTime=0.490000
+         FadeOut=True
+         FadeInEndTime=0.049000
+         FadeIn=True
+         MaxParticles=1
+         StartLocationRange=(Z=(Min=34.000000,Max=34.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=0.750000)
+         SizeScale(2)=(RelativeTime=0.800000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.650000,Max=0.650000),Y=(Min=0.650000,Max=0.650000),Z=(Min=-0.150000,Max=-0.150000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.fx_m_t7150'
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         StartVelocityRange=(Z=(Min=-2.000000,Max=-2.000000))
+         Name="MeshEmitter4"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_ar_trapin2_icon_simple.MeshEmitter4'
+     Begin Object Class=MeshEmitter Name=MeshEmitter11
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.up_03'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=12.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.100000
+         FadeOutStartTime=0.175000
+         FadeOut=True
+         FadeInEndTime=0.150000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationRange=(Z=(Min=-1.000000,Max=-1.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.030000,Max=0.030000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.300000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=0.700000,RelativeSize=0.300000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.400000)
+         StartSizeRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.200000,Max=0.200000),Z=(Min=0.200000,Max=0.200000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeTime=0.800000)
+         VelocityScale(1)=(RelativeTime=1.000000,RelativeVelocity=(Z=-10.000000))
+         Name="MeshEmitter11"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.d_ar_trapin2_icon_simple.MeshEmitter11'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bUnlit=False
+     bDirectional=True
+}

@@ -1,0 +1,116 @@
+class u_su_sumcross_ave extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=97,G=191,R=254,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=145,G=183,R=253,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.900000,Max=0.900000))
+         Opacity=0.760000
+         FadeOutStartTime=1.200000
+         FadeOut=True
+         FadeInEndTime=0.760000
+         FadeIn=True
+         MaxParticles=4
+         StartLocationRange=(X=(Min=-7.000000,Max=7.000000),Y=(Min=-7.000000,Max=7.000000),Z=(Min=5.000000,Max=15.000000))
+         StartSizeRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=15.000000,Max=35.000000),Z=(Min=6.000000,Max=6.000000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2053'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=32
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(Z=(Min=-15.000000,Max=-15.000000))
+         VelocityLossRange=(Z=(Min=1.200000,Max=1.200000))
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_su_sumcross_ave.SpriteEmitter6'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter5
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=78,G=24,R=114,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=22,G=22,R=122,A=255))
+         MaxParticles=6
+         WeatherSoundCheck=True
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-10.000000,Max=15.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=0.100000,Max=0.300000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.240000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8025'
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         StartVelocityRange=(Z=(Min=-15.000000,Max=-15.000000))
+         VelocityLossRange=(Z=(Min=2.000000,Max=2.000000))
+         Name="SpriteEmitter5"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_su_sumcross_ave.SpriteEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=97,G=191,R=254,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=145,G=183,R=253,A=255))
+         ColorMultiplierRange=(Y=(Max=0.500000),Z=(Min=0.500000,Max=1.000000))
+         Opacity=0.490000
+         FadeOutStartTime=1.200000
+         FadeOut=True
+         FadeInEndTime=0.760000
+         FadeIn=True
+         MaxParticles=4
+         StartLocationRange=(X=(Min=-7.000000,Max=7.000000),Y=(Min=-7.000000,Max=7.000000),Z=(Min=5.000000,Max=15.000000))
+         StartSizeRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=15.000000,Max=35.000000),Z=(Min=6.000000,Max=6.000000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2053'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=32
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(Z=(Min=-15.000000,Max=-15.000000))
+         VelocityLossRange=(Z=(Min=1.200000,Max=1.200000))
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_su_sumcross_ave.SpriteEmitter16'
+     Begin Object Class=MeshEmitter Name=MeshEmitter37
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.wooh04.heal_dd04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=45,G=45,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=1,G=169,R=241,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.550000
+         FadeOutStartTime=0.610000
+         FadeOut=True
+         FadeInEndTime=0.340000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationRange=(Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.400000,Max=0.400000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000))
+         StartSizeRange=(X=(Min=1.200000,Max=1.200000),Y=(Min=1.200000,Max=1.200000),Z=(Min=0.500000,Max=0.500000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=-20.000000,Max=-20.000000))
+         Name="MeshEmitter37"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.u_su_sumcross_ave.MeshEmitter37'
+     AutoDestroy=False
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bUnlit=False
+}

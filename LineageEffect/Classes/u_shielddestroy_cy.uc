@@ -1,0 +1,150 @@
+class u_shielddestroy_cy extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter325
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.651000,Max=0.651000),Z=(Min=0.600000,Max=0.600000))
+         FadeOutStartTime=0.027000
+         FadeOut=True
+         MaxParticles=4
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=0.830000,RelativeSize=1.500000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=9.099999,Max=9.099999),Y=(Min=9.099999,Max=9.099999),Z=(Min=9.099999,Max=9.099999))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(Z=(Min=0.130000,Max=0.130000))
+         Name="SpriteEmitter325"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_shielddestroy_cy.SpriteEmitter325'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter326
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.264286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.332143,Color=(B=251,G=236,R=130,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.033000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.140000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=13.000000,Max=13.000000),Y=(Min=13.000000,Max=13.000000),Z=(Min=13.000000,Max=13.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3037'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         InitialDelayRange=(Min=0.150000,Max=0.150000)
+         Name="SpriteEmitter326"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_shielddestroy_cy.SpriteEmitter326'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter327
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=35,G=31,R=216,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.750000,Max=0.750000),Z=(Min=0.600000,Max=0.600000))
+         FadeOutStartTime=0.200000
+         MaxParticles=1
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=7.150000,Max=7.150000),Y=(Min=9.750000,Max=9.750000),Z=(Min=7.150000,Max=7.150000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t6166'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         SubdivisionEnd=1
+         LifetimeRange=(Min=0.200000,Max=0.200000)
+         InitialDelayRange=(Min=0.030000,Max=0.030000)
+         StartVelocityRange=(Z=(Min=0.130000,Max=0.130000))
+         Name="SpriteEmitter327"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_shielddestroy_cy.SpriteEmitter327'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter328
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=30,G=26,R=210,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=47,G=44,R=188,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.750000,Max=0.750000),Z=(Min=0.600000,Max=0.600000))
+         FadeOutStartTime=0.136000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=8.450000,Max=8.450000),Y=(Min=10.400000,Max=10.400000),Z=(Min=8.450000,Max=8.450000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t6166'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         SubdivisionEnd=8
+         LifetimeRange=(Min=0.200000,Max=0.200000)
+         InitialDelayRange=(Min=0.160000,Max=0.160000)
+         StartVelocityRange=(Z=(Min=0.130000,Max=0.130000))
+         Name="SpriteEmitter328"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_shielddestroy_cy.SpriteEmitter328'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter329
+         Acceleration=(Z=-52.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.439286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.750000,Max=0.750000),Z=(Min=0.600000,Max=0.600000))
+         FadeOutStartTime=0.066000
+         FadeOut=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-1.300000,Max=1.300000),Y=(Min=-1.300000,Max=1.300000),Z=(Min=-1.300000,Max=1.300000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.600000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.800000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=1.300000,Max=3.900000),Y=(Min=1.300000,Max=3.900000),Z=(Min=1.300000,Max=3.900000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t7000'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         StartVelocityRange=(X=(Min=26.000000,Max=169.000000),Y=(Min=26.000000,Max=169.000000),Z=(Min=26.000000,Max=169.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=12.000000),Y=(Min=5.000000,Max=12.000000),Z=(Min=5.000000,Max=12.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter329"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.u_shielddestroy_cy.SpriteEmitter329'
+     bNoDelete=False
+}

@@ -1,0 +1,97 @@
+class d_ar_trapwind_ra_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh03.dopa_wind'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.220500
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=5.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.450000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=1.400000,Max=1.400000),Y=(Min=1.400000,Max=1.400000),Z=(Min=0.500000,Max=0.500000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.450000,Max=0.450000)
+         InitialDelayRange=(Min=0.050000,Max=0.050000)
+         Name="MeshEmitter2"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_ar_trapwind_ra_simple.MeshEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter38
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.810000
+         FadeOutStartTime=0.200000
+         FadeOut=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Max=5.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.070000,RelativeSize=3.000000)
+         SizeScale(2)=(RelativeTime=0.150000,RelativeSize=1.500000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=30.000000),Y=(Min=20.000000,Max=30.000000),Z=(Min=20.000000,Max=30.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8062'
+         SubdivisionStart=2
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter38"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_ar_trapwind_ra_simple.SpriteEmitter38'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter41
+         ColorScale(0)=(Color=(B=128,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=208,G=208,R=255,A=255))
+         Opacity=0.310000
+         FadeOutStartTime=0.304000
+         FadeOut=True
+         MaxParticles=25
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=80.000000,Max=100.000000),Z=(Min=25.000000,Max=25.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=25.000000,Max=40.000000),Y=(Min=25.000000,Max=40.000000),Z=(Min=25.000000,Max=40.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles5.ct2_c04'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         UseSubdivisionScale=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.600000,Max=0.800000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(X=(Min=300.000000,Max=450.000000),Y=(Min=300.000000,Max=450.000000),Z=(Min=300.000000,Max=450.000000))
+         VelocityLossRange=(X=(Min=4.000000,Max=4.000000),Y=(Min=4.000000,Max=4.000000),Z=(Min=4.000000,Max=4.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter41"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_ar_trapwind_ra_simple.SpriteEmitter41'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

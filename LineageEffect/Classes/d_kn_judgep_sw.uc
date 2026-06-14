@@ -1,0 +1,77 @@
+class d_kn_judgep_sw extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter12
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=-0.200000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.123000
+         FadeOut=True
+         FadeInEndTime=0.111000
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=20.000000,Max=30.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=-2.000000,Max=-1.000000))
+         StartSpinRange=(X=(Min=-0.200000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.110000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=30.000000),Y=(Min=10.000000,Max=30.000000),Z=(Min=10.000000,Max=30.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4160'
+         LifetimeRange=(Min=0.200000,Max=0.300000)
+         StartVelocityRange=(X=(Min=100.000000,Max=100.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter12"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_kn_judgep_sw.SpriteEmitter12'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter13
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=-0.200000,Y=0.200000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=5,G=137,R=245,A=255))
+         ColorScale(1)=(RelativeTime=0.796429,Color=(B=245,G=121,R=10,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=237,G=92,R=5,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.690000,Max=0.690000),Z=(Min=0.690000,Max=0.690000))
+         FadeOutStartTime=0.126000
+         FadeOut=True
+         FadeInEndTime=0.021000
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-10.000000,Max=-10.000000),Z=(Min=10.000000,Max=30.600000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=-2.000000,Max=-1.300000))
+         StartSpinRange=(X=(Min=-0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.110000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=35.000000),Y=(Min=10.000000,Max=35.000000),Z=(Min=10.000000,Max=35.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4159'
+         LifetimeRange=(Min=0.200000,Max=0.350000)
+         InitialDelayRange=(Min=0.050000,Max=0.050000)
+         StartVelocityRange=(X=(Min=2.000000,Max=200.000000),Y=(Max=50.000000),Z=(Max=50.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter13"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_kn_judgep_sw.SpriteEmitter13'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

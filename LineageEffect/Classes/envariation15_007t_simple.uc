@@ -1,0 +1,119 @@
+class envariation15_007t_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter97
+         UseDirectionAs=PTDU_Up
+         Acceleration=(X=5.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=87,G=192,R=232,A=255))
+         Opacity=0.250000
+         FadeOutStartTime=0.490000
+         FadeOut=True
+         FadeInEndTime=0.370000
+         FadeIn=True
+         MaxParticles=30
+         StartLocationOffset=(X=35.000000)
+         StartLocationRange=(X=(Min=-4.000000,Max=4.000000),Y=(Min=-4.000000,Max=4.000000),Z=(Min=-4.000000,Max=4.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=90.000000),Z=(Max=30.000000))
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=2.000000,Max=3.000000),Y=(Min=4.000000,Max=4.000000),Z=(Min=2.000000,Max=3.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Weapon.fx_m_t6290'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         SubdivisionEnd=15
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=2.000000,Max=2.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter97"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.envariation15_007t_simple.SpriteEmitter97'
+     Begin Object Class=MeshEmitter Name=MeshEmitter61
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.whirl_04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         FadeOutStartTime=2.310000
+         FadeOut=True
+         FadeInEndTime=0.420000
+         FadeIn=True
+         MaxParticles=6
+         StartLocationOffset=(X=30.000000)
+         StartLocationRange=(X=(Min=1.000000,Max=5.000000))
+         SpinParticles=True
+         SpinCCWorCW=(Z=0.000000)
+         SpinsPerSecondRange=(Z=(Min=0.250000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=0.480000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.100000,Max=0.400000),Z=(Min=0.100000,Max=0.400000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.FX_M_T4163'
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         VelocityLossRange=(Z=(Min=0.200000,Max=0.200000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter61"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.envariation15_007t_simple.MeshEmitter61'
+     Begin Object Class=MeshEmitter Name=MeshEmitter114
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.wispray01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=70,G=168,R=249,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=40,G=184,R=215,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.300000
+         FadeOutStartTime=0.800000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationOffset=(X=28.000000)
+         SpinParticles=True
+         SpinCCWorCW=(Z=0.000000)
+         SpinsPerSecondRange=(X=(Max=0.040000),Y=(Max=0.040000),Z=(Max=0.040000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=0.800000)
+         SizeScale(2)=(RelativeTime=0.360000,RelativeSize=1.200000)
+         SizeScale(3)=(RelativeTime=0.590000,RelativeSize=0.800000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=3.000000
+         StartSizeRange=(X=(Min=0.070000,Max=0.100000),Y=(Min=0.070000,Max=0.100000),Z=(Min=0.070000,Max=0.100000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         Name="MeshEmitter114"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.envariation15_007t_simple.MeshEmitter114'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Pitch=16372,Yaw=16349)
+     DrawScale=0.100000
+     bUnlit=False
+     SwayRotationOrig=(Pitch=16372,Yaw=16349)
+     bDirectional=True
+}

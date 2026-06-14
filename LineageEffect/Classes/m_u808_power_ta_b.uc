@@ -1,0 +1,172 @@
+class m_u808_power_ta_b extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter25
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.610000
+         FadeOut=True
+         FadeInEndTime=0.160000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.030000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.150000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=19.000000,Max=22.000000),Y=(Min=19.000000,Max=22.000000),Z=(Min=19.000000,Max=22.000000))
+         InitialParticlesPerSecond=500.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5018'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.150000,Max=0.150000)
+         Name="SpriteEmitter25"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.m_u808_power_ta_b.SpriteEmitter25'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter26
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.900000
+         FadeOutStartTime=0.192000
+         FadeOut=True
+         FadeInEndTime=0.112000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.700000,RelativeSize=1.150000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.180000)
+         StartSizeRange=(X=(Min=16.000000,Max=16.000000),Y=(Min=16.000000,Max=16.000000),Z=(Min=16.000000,Max=16.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8013'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter26"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.m_u808_power_ta_b.SpriteEmitter26'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter27
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.760000,Max=0.760000),Z=(Min=0.760000,Max=0.760000))
+         Opacity=0.700000
+         FadeOutStartTime=0.412500
+         FadeOut=True
+         FadeInEndTime=0.198000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=11.000000,Max=11.000000),Y=(Min=11.000000,Max=11.000000),Z=(Min=11.000000,Max=11.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.circleAura2_0001'
+         LifetimeRange=(Min=1.300000,Max=1.300000)
+         InitialDelayRange=(Min=0.250000,Max=0.250000)
+         Name="SpriteEmitter27"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.m_u808_power_ta_b.SpriteEmitter27'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter28
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.790000,Max=0.790000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.900000
+         FadeOutStartTime=0.375000
+         FadeOut=True
+         FadeInEndTime=0.090000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.130000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8013'
+         LifetimeRange=(Min=1.300000,Max=1.300000)
+         Name="SpriteEmitter28"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.m_u808_power_ta_b.SpriteEmitter28'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter31
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.450000,Max=0.450000),Z=(Min=0.450000,Max=0.450000))
+         Opacity=0.480000
+         FadeOutStartTime=0.299000
+         FadeOut=True
+         FadeInEndTime=0.084500
+         FadeIn=True
+         MaxParticles=20
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=15.000000,Max=15.000000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8011'
+         LifetimeRange=(Min=0.650000,Max=0.650000)
+         InitialDelayRange=(Min=0.220000,Max=0.220000)
+         Name="SpriteEmitter31"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.m_u808_power_ta_b.SpriteEmitter31'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter33
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.700000
+         FadeOutStartTime=0.285000
+         FadeOut=True
+         FadeInEndTime=0.285000
+         FadeIn=True
+         MaxParticles=4
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.030000,Max=0.040000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=17.000000,Max=17.000000),Y=(Min=17.000000,Max=17.000000),Z=(Min=17.000000,Max=17.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.aura_wooh02'
+         LifetimeRange=(Min=1.650000,Max=1.650000)
+         Name="SpriteEmitter33"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.m_u808_power_ta_b.SpriteEmitter33'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

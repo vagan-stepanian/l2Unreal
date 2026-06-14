@@ -1,0 +1,102 @@
+class d_wa_drainst3_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter3
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_charge00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=197,G=197,R=197,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=40.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.608000,Max=0.608000),Z=(Min=0.374000,Max=0.374000))
+         Opacity=0.500000
+         FadeOutStartTime=0.198000
+         FadeOut=True
+         FadeInEndTime=0.079200
+         FadeIn=True
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=19.134001)
+         StartLocationRange=(Z=(Min=-3.000000,Max=3.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=0.217000,Max=0.217000),Y=(Min=0.180000,Max=0.180000),Z=(Min=0.180000,Max=0.180000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.252000,Max=0.252000)
+         Name="MeshEmitter3"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_wa_drainst3_ca_simple.MeshEmitter3'
+     Begin Object Class=MeshEmitter Name=MeshEmitter7
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.aura_wooh02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.553000,Max=0.553000),Z=(Min=0.400000,Max=0.400000))
+         Opacity=0.700000
+         FadeOutStartTime=0.226800
+         FadeOut=True
+         FadeInEndTime=0.168000
+         FadeIn=True
+         MaxParticles=8
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.510000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.750000)
+         StartSizeRange=(X=(Min=1.206000,Max=1.206000),Y=(Min=1.206000,Max=1.206000),Z=(Min=0.582000,Max=0.582000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.840000,Max=0.840000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         Name="MeshEmitter7"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.d_wa_drainst3_ca_simple.MeshEmitter7'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter0
+         VertexMesh=VertMesh'LineageEffectMeshes2.drein_30'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.400000
+         FadeOutStartTime=0.400000
+         FadeOut=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-5.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=0.800000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.800000,Max=0.800000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="VertMeshEmitter0"
+     End Object
+     Emitters(6)=VertMeshEmitter'LineageEffect.d_wa_drainst3_ca_simple.VertMeshEmitter0'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bDirectional=True
+}

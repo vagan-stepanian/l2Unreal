@@ -1,0 +1,80 @@
+class e_u330_deco extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=238,G=154,R=62,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=213,G=244,R=117))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=98,G=160,R=255,A=255))
+         FadeOutStartTime=1.360000
+         FadeOut=True
+         FadeInEndTime=0.200000
+         FadeIn=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         StartLocationRange=(X=(Min=-4.000000,Max=4.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-3.000000,Max=3.000000))
+         SphereRadiusRange=(Min=1.000000,Max=1.500000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=70.000000,Max=70.000000),Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.500000,RelativeSize=1.300000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=3.000000,Max=4.000000),Y=(Min=6.000000,Max=10.000000),Z=(Min=200.000000,Max=200.000000))
+         InitialParticlesPerSecond=1.500000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4023'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=31
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=4.000000,Max=6.000000))
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u330_deco.SpriteEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=5.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=35,G=111,R=237,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=245,G=174,R=116))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=98,G=160,R=255,A=255))
+         FadeOutStartTime=1.400000
+         FadeOut=True
+         FadeInEndTime=0.260000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationRange=(X=(Min=-4.000000,Max=4.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-3.000000,Max=3.000000))
+         SphereRadiusRange=(Min=1.000000,Max=1.500000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=70.000000,Max=70.000000),Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.500000,RelativeSize=1.300000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=3.000000,Max=4.000000),Y=(Min=6.000000,Max=10.000000),Z=(Min=200.000000,Max=200.000000))
+         InitialParticlesPerSecond=1.500000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4012'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=15
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=4.000000,Max=6.000000))
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u330_deco.SpriteEmitter0'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

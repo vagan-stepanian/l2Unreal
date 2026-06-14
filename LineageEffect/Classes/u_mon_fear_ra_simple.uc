@@ -1,0 +1,162 @@
+class u_mon_fear_ra_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter4
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=62,G=148,R=225,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=24,G=117,R=231,A=255))
+         ColorMultiplierRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.100000,Max=0.100000))
+         Opacity=0.400000
+         FadeOutStartTime=1.640000
+         FadeOut=True
+         FadeInEndTime=0.600000
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=400.000000,Max=400.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=520.000000,Max=520.000000),Y=(Min=520.000000,Max=520.000000),Z=(Min=520.000000,Max=520.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8017'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="SpriteEmitter4"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_mon_fear_ra_simple.SpriteEmitter4'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter5
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=62,G=148,R=225,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=24,G=117,R=231,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.700000
+         FadeOutStartTime=1.925000
+         FadeOut=True
+         FadeInEndTime=0.425000
+         FadeIn=True
+         MaxParticles=30
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-200.000000,Max=200.000000),Y=(Min=-200.000000,Max=200.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=100.000000,Max=400.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.200000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=100.000000,Max=150.000000),Y=(Min=100.000000,Max=150.000000),Z=(Min=100.000000,Max=150.000000))
+         InitialParticlesPerSecond=22.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4035'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=2.000000,Max=2.500000)
+         StartVelocityRange=(X=(Min=-10.000000))
+         Name="SpriteEmitter5"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_mon_fear_ra_simple.SpriteEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter10
+         Acceleration=(Z=15.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.468000
+         FadeOut=True
+         FadeInEndTime=0.108000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=40
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=10.000000)
+         StartLocationRange=(Z=(Min=15.000000,Max=25.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Max=400.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=40.000000,Max=50.000000),Y=(Min=40.000000,Max=50.000000),Z=(Min=40.000000,Max=50.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7120'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=0.700000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=5.000000,Max=15.000000))
+         Name="SpriteEmitter10"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_mon_fear_ra_simple.SpriteEmitter10'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         Acceleration=(Z=15.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.400000,Max=0.500000),Y=(Min=0.400000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.800000
+         FadeOutStartTime=0.468000
+         FadeOut=True
+         FadeInEndTime=0.108000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=40
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=10.000000)
+         StartLocationRange=(Z=(Min=15.000000,Max=25.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Max=300.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=40.000000,Max=50.000000),Y=(Min=40.000000,Max=50.000000),Z=(Min=40.000000,Max=50.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7120'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=0.700000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=5.000000,Max=15.000000))
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_mon_fear_ra_simple.SpriteEmitter11'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter167
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         MaxParticles=100
+         RespawnDeadParticles=False
+         Disabled=True
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=150.000000,Max=150.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="SpriteEmitter167"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.u_mon_fear_ra_simple.SpriteEmitter167'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

@@ -1,0 +1,127 @@
+class d_wi_fear_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter87
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.aura_wooh02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.500000
+         FadeOutStartTime=1.289600
+         FadeOut=True
+         FadeInEndTime=0.306280
+         FadeIn=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.030000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.650000,RelativeSize=0.950000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=1.800000,Max=2.200000),Y=(Min=1.800000,Max=2.200000),Z=(Min=1.800000,Max=2.200000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=1.612000,Max=1.612000)
+         Name="MeshEmitter87"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_wi_fear_ca_simple.MeshEmitter87'
+     Begin Object Class=MeshEmitter Name=MeshEmitter91
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Support.supportenchant03'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=-10.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.431000,Max=0.431000),Z=(Min=0.152000,Max=0.152000))
+         FadeOutStartTime=0.330000
+         FadeOut=True
+         FadeInEndTime=0.140000
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Sphere
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Max=4.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         StartSizeRange=(X=(Min=0.050000,Max=0.140000),Y=(Min=0.050000,Max=0.140000),Z=(Min=0.500000,Max=0.700000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(Z=(Min=100.000000,Max=100.000000))
+         Name="MeshEmitter91"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.d_wi_fear_ca_simple.MeshEmitter91'
+     Begin Object Class=MeshEmitter Name=MeshEmitter92
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.magic.magic001'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=201,G=201,R=201,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=20.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.280000,Max=0.280000),Z=(Min=0.280000,Max=0.280000))
+         Opacity=0.730000
+         FadeOutStartTime=0.800000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-2.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=0.496000,Max=0.496000),Y=(Min=0.496000,Max=0.496000),Z=(Min=0.703000,Max=0.703000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="MeshEmitter92"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.d_wi_fear_ca_simple.MeshEmitter92'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter32
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.517857,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=0.184000
+         FadeOut=True
+         FadeInEndTime=0.072000
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-0.500000,Max=0.500000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         StartSpinRange=(X=(Min=-0.200000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.370000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=30.000000,Max=40.000000),Y=(Min=30.000000,Max=40.000000),Z=(Min=30.000000,Max=40.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7115'
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         Name="SpriteEmitter32"
+     End Object
+     Emitters(6)=SpriteEmitter'LineageEffect.d_wi_fear_ca_simple.SpriteEmitter32'
+     bNoDelete=False
+}

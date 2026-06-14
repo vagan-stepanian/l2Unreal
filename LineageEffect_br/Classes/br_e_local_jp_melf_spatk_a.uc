@@ -1,0 +1,121 @@
+class br_e_local_jp_melf_spatk_a extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter24
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.900000,Max=0.900000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.150000
+         FadeOutStartTime=0.500000
+         FadeOut=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=1.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=9.800000,Max=9.800000),Y=(Min=9.800000,Max=9.800000),Z=(Min=9.800000,Max=9.800000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0033'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         SubdivisionEnd=1
+         LifetimeRange=(Min=6.000000,Max=6.000000)
+         Name="SpriteEmitter24"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_local_jp_melf_spatk_a.SpriteEmitter24'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter25
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=134,G=134,R=134,A=255))
+         ColorScale(1)=(RelativeTime=0.525000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=149,G=149,R=149,A=255))
+         ColorScaleRepeats=8.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.150000
+         MaxParticles=5
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.400000)
+         SizeScale(1)=(RelativeTime=0.450000,RelativeSize=0.800000)
+         SizeScale(2)=(RelativeSize=0.500000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=2.000000
+         StartSizeRange=(X=(Min=24.500000,Max=24.500000),Y=(Min=24.500000,Max=24.500000),Z=(Min=24.500000,Max=24.500000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5004'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=1
+         SubdivisionEnd=2
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="SpriteEmitter25"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect_Br.br_e_local_jp_melf_spatk_a.SpriteEmitter25'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter26
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.150000
+         FadeOutStartTime=0.310000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Max=0.200000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=6.860000,Max=6.860000),Y=(Min=6.860000,Max=6.860000),Z=(Min=6.860000,Max=6.860000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0003'
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=5.000000,Max=5.000000)
+         Name="SpriteEmitter26"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect_Br.br_e_local_jp_melf_spatk_a.SpriteEmitter26'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter28
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.597000,Max=0.653000),Z=(Min=0.307000,Max=0.307000))
+         Opacity=0.450000
+         FadeOutStartTime=0.690000
+         FadeOut=True
+         FadeInEndTime=0.340000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.030000,Max=0.030000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.600000)
+         StartSizeRange=(X=(Min=5.714380,Max=8.571569),Y=(Min=5.714380,Max=8.571569),Z=(Min=5.714380,Max=8.571569))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t7010'
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=4.000000,Max=6.500000)
+         InitialDelayRange=(Max=2.000000)
+         Name="SpriteEmitter28"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect_Br.br_e_local_jp_melf_spatk_a.SpriteEmitter28'
+     bNoDelete=False
+}

@@ -1,0 +1,103 @@
+class d_wa_strike2_handca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter11
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.357143,Color=(B=255,G=255,R=255,A=191))
+         ColorScale(2)=(RelativeTime=0.789286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(3)=(RelativeTime=0.914286,Color=(B=255,G=255,R=255,A=191))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=15.000000
+         Opacity=0.720000
+         FadeOutStartTime=0.252000
+         FadeOut=True
+         FadeInEndTime=0.184500
+         FadeIn=True
+         MaxParticles=12
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.250000)
+         SizeScale(1)=(RelativeTime=0.700000,RelativeSize=0.250000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.010000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.250000),Y=(Min=0.150000,Max=0.250000),Z=(Min=0.150000,Max=0.250000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.340000,Max=0.340000)
+         Name="MeshEmitter11"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_wa_strike2_handca_simple.MeshEmitter11'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.321429,Color=(B=255,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.857143,Color=(B=93,G=93,R=93,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=20.000000
+         Opacity=0.500000
+         FadeOutStartTime=0.255000
+         FadeOut=True
+         FadeInEndTime=0.195000
+         FadeIn=True
+         ForcedFade=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=0.800000,RelativeSize=1.750000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         SizeScaleRepeats=2.000000
+         StartSizeRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=6.000000,Max=6.000000),Z=(Min=6.000000,Max=6.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t4072'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_wa_strike2_handca_simple.SpriteEmitter11'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter12
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=245,G=255,R=202,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=128,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.513500
+         FadeOut=True
+         FadeInEndTime=0.162500
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=22.000000,Max=22.000000),Y=(Min=22.000000,Max=22.000000),Z=(Min=22.000000,Max=22.000000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7114'
+         LifetimeRange=(Min=0.650000,Max=0.650000)
+         Name="SpriteEmitter12"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_wa_strike2_handca_simple.SpriteEmitter12'
+     AutoReplay=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.050000
+}

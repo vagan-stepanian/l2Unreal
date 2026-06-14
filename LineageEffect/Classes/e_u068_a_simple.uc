@@ -1,0 +1,75 @@
+class e_u068_a_simple extends Emitter;	// 바이움 - 발먼지
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter4
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.600000,Max=0.600000))
+         FadeOutStartTime=0.100000
+         FadeOut=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=8.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.090000,RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.210000,RelativeSize=2.500000)
+         SizeScale(2)=(RelativeTime=0.480000,RelativeSize=3.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=3.500000)
+         StartSizeRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=50.000000,Max=50.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0108'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter4"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u068_a_simple.SpriteEmitter4'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter51
+         Acceleration=(Z=50.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=209,G=134,R=225,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.800000
+         FadeOutStartTime=0.400000
+         FadeOut=True
+         MaxParticles=12
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=15.000000)
+         StartLocationRange=(X=(Min=-30.000000,Max=30.000000),Y=(Min=-30.000000,Max=30.000000),Z=(Min=-40.000000,Max=40.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=15.000000,Max=15.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.150000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=18.000000),Y=(Min=10.000000,Max=18.000000),Z=(Min=10.000000,Max=18.000000))
+         InitialParticlesPerSecond=170.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0071'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=13
+         SubdivisionEnd=15
+         LifetimeRange=(Min=1.000000,Max=1.300000)
+         StartVelocityRange=(X=(Min=400.000000,Max=600.000000),Y=(Min=400.000000,Max=600.000000),Z=(Min=30.000000,Max=60.000000))
+         VelocityLossRange=(X=(Min=9.000000,Max=9.000000),Y=(Min=9.000000,Max=9.000000),Z=(Min=9.000000,Max=9.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter51"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u068_a_simple.SpriteEmitter51'
+     bNoDelete=False
+     DrawScale=2.000000
+     bDirectional=True
+}

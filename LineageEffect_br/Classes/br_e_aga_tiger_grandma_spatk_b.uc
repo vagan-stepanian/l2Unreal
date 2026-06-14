@@ -1,0 +1,145 @@
+class br_e_aga_tiger_grandma_spatk_b extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.w_blockade04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.600000,Max=0.600000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.850000
+         FadeOutStartTime=1.200000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         Disabled=True
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=-2.000000,Max=-2.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=0.560000,RelativeSize=1.600000)
+         SizeScale(2)=(RelativeTime=0.750000,RelativeSize=2.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         SizeScaleRepeats=3.000000
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.030000,Max=0.030000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(Z=(Min=1.500000,Max=1.500000))
+         Name="MeshEmitter2"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect_Br.br_e_aga_tiger_grandma_spatk_b.MeshEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         Acceleration=(Z=120.000000)
+         UseColorScale=True
+         ColorScale(1)=(RelativeTime=0.089286,Color=(B=253,G=253,R=253,A=255))
+         ColorScale(2)=(RelativeTime=0.464286,Color=(B=255,G=255,R=255))
+         ColorScale(3)=(RelativeTime=1.000000)
+         ColorScaleRepeats=2.000000
+         FadeOutStartTime=0.240000
+         FadeOut=True
+         MaxParticles=40
+         ResetAfterChange=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=5.000000)
+         StartLocationRange=(X=(Min=-6.000000,Max=6.000000),Y=(Min=-6.000000,Max=6.000000),Z=(Min=-6.000000,Max=6.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=15.000000,Max=20.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.170000)
+         SizeScale(1)=(RelativeTime=0.370000)
+         SizeScale(2)=(RelativeTime=0.500000,RelativeSize=0.800000)
+         SizeScale(3)=(RelativeTime=0.620000)
+         SizeScaleRepeats=6.000000
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=50.000000,Max=50.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1020'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         StartVelocityRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=30.000000,Max=30.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect_Br.br_e_aga_tiger_grandma_spatk_b.SpriteEmitter0'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter0
+         VertexMesh=VertMesh'LineageEffectMeshes.pointline45'
+         UseMeshBlendMode=False
+         Acceleration=(Z=100.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=235,G=137,R=203,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=202,R=202,A=255))
+         ColorMultiplierRange=(X=(Min=0.750000,Max=0.750000),Y=(Min=0.750000,Max=0.750000),Z=(Min=0.800000,Max=1.000000))
+         FadeOutStartTime=0.814000
+         FadeOut=True
+         FadeInEndTime=0.176000
+         FadeIn=True
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=7.000000)
+         StartLocationRange=(X=(Min=-7.000000,Max=7.000000),Y=(Min=-7.000000,Max=7.000000),Z=(Max=12.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.200000,Max=0.200000),Z=(Min=0.200000,Max=0.200000))
+         InitialParticlesPerSecond=12.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.100000,Max=1.100000)
+         StartVelocityRange=(Z=(Min=-50.000000,Max=-50.000000))
+         Name="VertMeshEmitter0"
+     End Object
+     Emitters(2)=VertMeshEmitter'LineageEffect_Br.br_e_aga_tiger_grandma_spatk_b.VertMeshEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter3
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.cent_round3'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.500000
+         FadeOutStartTime=1.920000
+         FadeOut=True
+         FadeInEndTime=0.200000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=2.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=-1.500000,Max=-1.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=0.560000,RelativeSize=1.600000)
+         SizeScale(2)=(RelativeTime=0.750000,RelativeSize=2.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         SizeScaleRepeats=3.000000
+         StartSizeRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.090000,Max=0.090000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(Z=(Max=4.000000))
+         Name="MeshEmitter3"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect_Br.br_e_aga_tiger_grandma_spatk_b.MeshEmitter3'
+     bNoDelete=False
+}

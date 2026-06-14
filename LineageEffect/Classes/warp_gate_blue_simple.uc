@@ -1,0 +1,207 @@
+class warp_gate_blue_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=167,G=62,R=39,A=255))
+         ColorScale(1)=(RelativeTime=0.496429,Color=(B=134,G=62,R=40,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=198,G=43,R=50,A=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.400000
+         MaxParticles=2
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=0.900000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=5.000000
+         StartSizeRange=(X=(Min=180.000000,Max=180.000000),Y=(Min=180.000000,Max=180.000000),Z=(Min=180.000000,Max=180.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=None
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.warp_gate_blue_simple.SpriteEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         Acceleration=(Z=8.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=158,G=56,R=180,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=198,G=69,R=201,A=255))
+         ColorMultiplierRange=(X=(Min=0.366000,Max=0.878000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.366000,Max=0.878000))
+         Opacity=0.610000
+         FadeOutStartTime=1.060000
+         FadeOut=True
+         FadeInEndTime=0.300000
+         FadeIn=True
+         MaxParticles=20
+         StartLocationRange=(X=(Min=-30.000000,Max=30.000000),Y=(Min=-30.000000,Max=30.000000),Z=(Min=-5.000000,Max=5.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=0.100000,Max=0.500000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.300000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.750000)
+         StartSizeRange=(X=(Min=1.000000,Max=5.000000),Y=(Min=1.000000,Max=5.000000),Z=(Min=1.000000,Max=5.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=None
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionScale(0)=1.000000
+         SubdivisionScale(1)=-1.000000
+         SubdivisionEnd=1
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(Z=(Min=75.000000,Max=140.000000))
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.warp_gate_blue_simple.SpriteEmitter1'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter1
+         UseMeshBlendMode=False
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=198,G=71,R=53,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=171,G=73,R=56,A=255))
+         ColorMultiplierRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.600000,Max=0.600000))
+         Opacity=0.500000
+         FadeOutStartTime=1.260000
+         FadeOut=True
+         FadeInEndTime=0.600000
+         FadeIn=True
+         MaxParticles=20
+         StartLocationOffset=(Z=3.000000)
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-5.000000,Max=5.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=50.000000,Max=90.000000))
+         StartSizeRange=(X=(Min=0.400000,Max=0.500000),Y=(Min=0.400000,Max=0.500000),Z=(Min=0.300000,Max=0.500000))
+         InitialParticlesPerSecond=13.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=20.000000))
+         Name="VertMeshEmitter1"
+     End Object
+     Emitters(2)=VertMeshEmitter'LineageEffect.warp_gate_blue_simple.VertMeshEmitter1'
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.line_glow2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=234,G=129,R=106,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=227,G=139,R=117,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=224,G=166,R=86,A=255))
+         Opacity=0.290000
+         FadeOutStartTime=0.510000
+         FadeOut=True
+         FadeInEndTime=0.500000
+         FadeIn=True
+         MaxParticles=3
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=0.100000,Max=0.300000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         StartSizeRange=(X=(Min=0.050000,Max=0.250000),Y=(Min=0.050000,Max=0.250000),Z=(Min=1.400000,Max=1.400000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter0"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.warp_gate_blue_simple.MeshEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.line_glow2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=168,G=56,R=53,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=164,G=66,R=55,A=255))
+         ColorMultiplierRange=(X=(Min=0.650000,Max=0.650000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.650000,Max=0.650000))
+         Opacity=0.180000
+         FadeOutStartTime=0.500000
+         FadeOut=True
+         FadeInEndTime=0.500000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationOffset=(Z=3.000000)
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=0.100000,Max=0.300000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         StartSizeRange=(X=(Min=0.350000,Max=0.500000),Y=(Min=0.350000,Max=0.500000),Z=(Min=0.650000,Max=0.900000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter1"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.warp_gate_blue_simple.MeshEmitter1'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.line_glow2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=172,G=50,R=47,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=168,G=53,R=56,A=255))
+         ColorMultiplierRange=(X=(Min=0.650000,Max=0.650000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.650000,Max=0.650000))
+         Opacity=0.150000
+         FadeOutStartTime=0.500000
+         FadeOut=True
+         FadeInEndTime=0.500000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationOffset=(Z=3.000000)
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=0.100000,Max=0.300000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         StartSizeRange=(X=(Min=0.500000,Max=0.600000),Y=(Min=0.500000,Max=0.600000),Z=(Min=0.300000,Max=0.500000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter2"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.warp_gate_blue_simple.MeshEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter3
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=164,G=77,R=55,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=169,G=77,R=63,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.300000
+         FadeOutStartTime=0.880000
+         FadeOut=True
+         FadeInEndTime=0.200000
+         FadeIn=True
+         MaxParticles=6
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.600000)
+         StartSizeRange=(X=(Min=1.100000,Max=1.100000),Y=(Min=1.100000,Max=1.100000),Z=(Min=1.100000,Max=1.100000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(Z=(Min=-25.000000,Max=-25.000000))
+         Name="MeshEmitter3"
+     End Object
+     Emitters(6)=MeshEmitter'LineageEffect.warp_gate_blue_simple.MeshEmitter3'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bDirectional=True
+}

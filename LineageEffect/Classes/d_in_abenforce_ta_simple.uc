@@ -1,0 +1,123 @@
+class d_in_abenforce_ta_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.135714,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=145,G=23,R=217,A=255))
+         FadeOutStartTime=0.051000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8062'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_in_abenforce_ta_simple.SpriteEmitter8'
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.White.white_option01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=254,G=160,R=120,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.378000,Max=0.900000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.160000,Max=0.160000))
+         FadeOutStartTime=0.324000
+         FadeOut=True
+         FadeInEndTime=0.126000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=1.000000)
+         SpinsPerSecondRange=(Z=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.100000,Max=0.160000),Y=(Min=0.100000,Max=0.160000),Z=(Min=0.100000,Max=0.160000))
+         InitialParticlesPerSecond=200.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         InitialDelayRange=(Min=0.380000,Max=0.380000)
+         Name="MeshEmitter5"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_in_abenforce_ta_simple.MeshEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=224,G=101,R=224,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=248,G=158,R=78,A=255))
+         FadeOutStartTime=0.032000
+         FadeOut=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.310000,RelativeSize=0.600000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=50.000000,Max=60.000000),Y=(Min=50.000000,Max=60.000000),Z=(Min=50.000000,Max=60.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5108'
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_in_abenforce_ta_simple.SpriteEmitter9'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter12
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=224,G=101,R=224,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=248,G=158,R=78,A=255))
+         ColorMultiplierRange=(X=(Min=0.440000,Max=0.440000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.195000,Max=0.195000))
+         FadeOutStartTime=0.204000
+         FadeOut=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.310000,RelativeSize=0.600000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=40.000000,Max=40.000000),Y=(Min=40.000000,Max=40.000000),Z=(Min=40.000000,Max=40.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4034'
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         Name="SpriteEmitter12"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_in_abenforce_ta_simple.SpriteEmitter12'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bDirectional=True
+}

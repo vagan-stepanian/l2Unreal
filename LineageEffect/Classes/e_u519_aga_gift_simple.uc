@@ -1,0 +1,87 @@
+class e_u519_aga_gift_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         Acceleration=(Z=-32.240002)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.514286,Color=(B=154,G=154,R=154,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=30.000000
+         FadeOutStartTime=0.720000
+         FadeOut=True
+         MaxParticles=40
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=30.000000,Max=30.000000)
+         RevolutionsPerSecondRange=(X=(Max=0.100000))
+         RevolutionScale(0)=(RelativeRevolution=(X=1.000000,Y=1.000000))
+         RevolutionScale(1)=(RelativeTime=0.500000,RelativeRevolution=(X=0.100000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.570000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=10.000000,Max=15.000000),Y=(Min=10.000000,Max=15.000000),Z=(Min=10.000000,Max=15.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1020'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.000000,Max=4.000000)
+         StartVelocityRange=(X=(Min=150.000000,Max=150.000000),Y=(Min=150.000000,Max=150.000000),Z=(Min=150.000000,Max=150.000000))
+         VelocityLossRange=(X=(Min=3.742000,Max=3.742000),Y=(Min=3.742000,Max=3.742000),Z=(Min=3.742000,Max=3.742000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u519_aga_gift_simple.SpriteEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         ColorScale(0)=(Color=(R=251,A=255))
+         ColorScale(1)=(RelativeTime=0.171429,Color=(G=153,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.428571,Color=(B=45,G=255,A=255))
+         ColorScale(3)=(RelativeTime=0.725000,Color=(B=255,G=140,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=255,G=11,R=219,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.349000,Max=0.349000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.152000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.120000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.230000,RelativeSize=1.500000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=40.000000,Max=40.000000),Y=(Min=40.000000,Max=40.000000),Z=(Min=40.000000,Max=40.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=None
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u519_aga_gift_simple.SpriteEmitter9'
+     bRotEmitter=True
+     RotPerSecond=(Yaw=5000)
+     SpawnSound(0)=Sound'SkillSound4.agathion_gift.newyear_gift_shot'
+     bLightChanged=True
+     bNoDelete=False
+     Rotation=(Yaw=92143671,Roll=-280)
+     DrawScale=0.500000
+     SoundRadius=40.000000
+     SoundVolume=250.000000
+     SwayRotationOrig=(Yaw=91302332,Roll=-280)
+     bDirectional=True
+}

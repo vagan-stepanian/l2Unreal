@@ -1,0 +1,112 @@
+class br_e_u041_aga_sunwukong_spatk extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter60
+         ColorScale(0)=(Color=(B=126,G=149,R=2,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.300000
+         FadeOutStartTime=0.630000
+         FadeOut=True
+         FadeInEndTime=0.270000
+         FadeIn=True
+         MaxParticles=30
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-0.104000,Max=0.104000),Y=(Min=-0.524000,Max=0.524000),Z=(Min=-0.524000,Max=0.524000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Max=0.200000)
+         StartLocationPolarRange=(X=(Min=-40.000000,Max=40.000000),Y=(Min=40.000000,Max=40.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Min=0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=3.150000,Max=7.350000),Y=(Min=3.150000,Max=7.350000),Z=(Min=3.150000,Max=7.350000))
+         InitialParticlesPerSecond=200.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4013'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionScale(0)=0.200000
+         SubdivisionScale(1)=0.800000
+         SubdivisionEnd=8
+         InitialDelayRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(X=(Min=52.500000,Max=52.500000),Y=(Min=52.500000,Max=52.500000),Z=(Min=52.500000,Max=52.500000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter60"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.br_e_u041_aga_sunwukong_spatk.SpriteEmitter60'
+     Begin Object Class=MeshEmitter Name=MeshEmitter30
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Impact.spread00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.950000
+         FadeOutStartTime=0.104500
+         FadeOut=True
+         FadeInEndTime=0.049500
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-10.000000)
+         StartLocationRange=(X=(Min=-2.040000,Max=2.040000),Y=(Min=-2.040000,Max=2.040000))
+         StartLocationShape=PTLS_Sphere
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.800000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=0.612000,Max=0.612000),Y=(Min=0.612000,Max=0.612000),Z=(Min=0.612000,Max=0.612000))
+         InitialParticlesPerSecond=70.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=0.550000,Max=0.550000)
+         StartVelocityRange=(Z=(Max=6.120000))
+         Name="MeshEmitter30"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.br_e_u041_aga_sunwukong_spatk.MeshEmitter30'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter62
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.500000
+         FadeOutStartTime=0.408000
+         FadeOut=True
+         MaxParticles=30
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=15.000000)
+         StartLocationRange=(X=(Min=-7.372801,Max=7.372801),Y=(Min=-7.372801,Max=7.372801),Z=(Min=0.491520,Max=0.491520))
+         SphereRadiusRange=(Max=40.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=4.718593,Max=7.077889),Y=(Min=9.437186,Max=14.155778),Z=(Min=4.718593,Max=7.077889))
+         InitialParticlesPerSecond=70.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t4044'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         InitialDelayRange=(Min=0.250000,Max=0.250000)
+         StartVelocityRange=(Z=(Min=0.011796,Max=0.023593))
+         Name="SpriteEmitter62"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.br_e_u041_aga_sunwukong_spatk.SpriteEmitter62'
+     bNoDelete=False
+}

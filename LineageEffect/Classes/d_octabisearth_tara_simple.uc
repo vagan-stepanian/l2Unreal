@@ -1,0 +1,143 @@
+class d_octabisearth_tara_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter21
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.boss.stone_clash'
+         RenderTwoSided=True
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=206,G=189,R=155,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.900000,Max=0.900000),Y=(Min=0.900000,Max=0.900000),Z=(Min=0.900000,Max=0.900000))
+         FadeOutStartTime=0.560000
+         FadeOut=True
+         MaxParticles=4
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-95.000000)
+         StartLocationRange=(X=(Min=-70.000000,Max=70.000000),Y=(Min=-70.000000,Max=70.000000),Z=(Max=5.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=40.000000,Max=40.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=0.500000,Max=0.700000),Y=(Min=0.500000,Max=0.700000),Z=(Min=0.600000,Max=0.900000))
+         InitialParticlesPerSecond=300.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         CustomMaterials(0)=Shader'LineageEffectsTextures.Particles6.RockShader2'
+         LifetimeRange=(Min=1.300000,Max=1.300000)
+         StartVelocityRange=(Z=(Min=1500.000000,Max=1500.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=18.000000,Max=18.000000))
+         Name="MeshEmitter21"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_octabisearth_tara_simple.MeshEmitter21'
+     Begin Object Class=MeshEmitter Name=MeshEmitter22
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.Barler_crack3'
+         RenderTwoSided=True
+         UseParticleColor=True
+         Acceleration=(Z=-500.000000)
+         ColorScale(0)=(Color=(B=206,G=189,R=155,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.650000
+         FadeOut=True
+         MaxParticles=20
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-30.000000,Max=30.000000),Y=(Min=-30.000000,Max=30.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=80.000000,Max=80.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-0.500000,Max=0.500000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=0.010000,Max=0.050000),Y=(Min=0.010000,Max=0.050000),Z=(Min=0.010000,Max=0.050000))
+         InitialParticlesPerSecond=200.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         CustomMaterials(0)=Texture'LineageEffectsTextures.etc.fx_m_t4015'
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         StartVelocityRange=(X=(Min=-200.000000,Max=200.000000),Y=(Min=-200.000000,Max=200.000000),Z=(Min=200.000000,Max=300.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="MeshEmitter22"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_octabisearth_tara_simple.MeshEmitter22'
+     Begin Object Class=MeshEmitter Name=MeshEmitter25
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Impact.spread00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         Acceleration=(Z=-30.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.600000,Max=0.600000))
+         FadeOutStartTime=0.138000
+         FadeOut=True
+         MaxParticles=14
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-3.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=30.000000,Max=90.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=2.000000,Max=4.000000),Y=(Min=2.000000,Max=4.000000),Z=(Min=1.500000,Max=3.000000))
+         InitialParticlesPerSecond=200.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles.fx_m_t0109'
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(Z=(Min=5.000000,Max=5.000000))
+         Name="MeshEmitter25"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_octabisearth_tara_simple.MeshEmitter25'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         Acceleration=(Z=-50.000000)
+         ColorScale(0)=(Color=(B=254,G=227,R=203,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=250,G=227,R=197,A=255))
+         ColorMultiplierRange=(X=(Min=0.900000,Max=0.900000),Y=(Min=0.900000,Max=0.900000),Z=(Min=0.900000,Max=0.900000))
+         FadeOutStartTime=0.840000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=18
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-6.000000)
+         StartLocationRange=(X=(Min=-20.000000,Max=20.000000),Y=(Min=-20.000000,Max=20.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartLocationShape=PTLS_Polar
+         SphereRadiusRange=(Min=20.000000,Max=20.000000)
+         StartLocationPolarRange=(X=(Min=-360.000000,Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=60.000000,Max=120.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=30.000000,Max=60.000000),Y=(Min=30.000000,Max=60.000000),Z=(Min=30.000000,Max=60.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t4043'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=1.200000,Max=1.500000)
+         StartVelocityRange=(X=(Min=-40.000000,Max=40.000000),Y=(Min=-40.000000,Max=40.000000),Z=(Min=50.000000,Max=50.000000))
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         UseSoftParticle=True
+         SoftParticleFadeDist=10.000000
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_octabisearth_tara_simple.SpriteEmitter1'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bUnlit=False
+}

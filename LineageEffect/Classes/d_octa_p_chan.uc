@@ -1,0 +1,52 @@
+class d_octa_p_chan extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=BeamEmitter Name=BeamEmitter3
+         BeamEndPoints(0)=(Weight=1.000000,BoneName="e_bone")
+         DetermineEndPointBy=PTEP_Actor
+         TriggerEndpoint=True
+         LowFrequencyNoiseRange=(X=(Min=10.000000,Max=30.000000),Y=(Min=10.000000,Max=30.000000),Z=(Min=10.000000,Max=30.000000))
+         LowFrequencyPoints=12
+         HighFrequencyNoiseRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         HighFrequencyPoints=12
+         LFScaleFactors(0)=(FrequencyScale=(X=11.000000,Y=9.000000,Z=16.000000),RelativeLength=0.370000)
+         HFScaleFactors(0)=(FrequencyScale=(Z=-1.500000),RelativeLength=0.300000)
+         HFScaleFactors(1)=(FrequencyScale=(Z=1.500000),RelativeLength=0.650000)
+         UseLowFrequencyScale=True
+         NoiseDeterminesEndPoint=True
+         DynamicHFNoisePointsRange=(Min=0.500000,Max=1.000000)
+         bApllyBezierCurve=True
+         BranchProbability=(Min=1.000000,Max=1.000000)
+         BranchEmitter=1
+         BranchSpawnAmountRange=(Min=1.000000,Max=1.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.489286,Color=(B=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=128,R=255,A=255))
+         Opacity=0.650000
+         FadeOutStartTime=0.100000
+         CoordinateSystem=PTCS_Independent
+         RespawnDeadParticles=False
+         RevolutionCenterOffsetRange=(X=(Max=89.000000),Y=(Max=89.000000),Z=(Max=89.000000))
+         RevolutionsPerSecondRange=(X=(Min=-1.000000,Max=36.000000))
+         UseRotationFrom=PTRS_Normal
+         StartSizeRange=(X=(Min=10.000000,Max=20.000000),Y=(Min=10.000000,Max=20.000000),Z=(Min=10.000000,Max=20.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4030'
+         LifetimeRange=(Min=0.100000,Max=0.100000)
+         TriggerDisabled=False
+         ResetOnTrigger=True
+         Name="BeamEmitter3"
+     End Object
+     Emitters(0)=BeamEmitter'LineageEffect.d_octa_p_chan.BeamEmitter3'
+     bLightChanged=True
+     bNoDelete=False
+     Tag="Emitter"
+     bSunAffect=True
+     Location=(X=202.552124,Y=-56.571899,Z=-497.000000)
+     DrawScale=0.200000
+     bUnlit=False
+     bDirectional=True
+}

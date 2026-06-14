@@ -1,0 +1,75 @@
+class y_er_wa_blow_noti_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(Y=0.200000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=167,G=215,R=254,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=111,G=168,R=139,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.700000,Max=0.800000))
+         Opacity=0.770000
+         FadeOutStartTime=0.050000
+         FadeOut=True
+         FadeInEndTime=0.014000
+         FadeIn=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=2.000000,Max=2.000000))
+         StartSpinRange=(X=(Min=0.750000,Max=0.750000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=0.190000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=8.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=30.000000),Y=(Min=20.000000,Max=30.000000),Z=(Min=20.000000,Max=30.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4159'
+         LifetimeRange=(Min=0.200000,Max=0.200000)
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.y_er_wa_blow_noti_simple.SpriteEmitter6'
+     Begin Object Class=MeshEmitter Name=MeshEmitter4
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Bereth.Rotroll'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.614286,Color=(B=151,G=253,R=130,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=138,R=21,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.078000
+         FadeOut=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=2.000000,Max=2.000000),Z=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=0.200000,Max=0.200000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.750000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         SizeScale(3)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.200000,Max=0.200000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles3.fx_m_t4038'
+         LifetimeRange=(Min=0.230000,Max=0.230000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(Z=(Min=-100.000000,Max=-100.000000))
+         VelocityLossRange=(Z=(Min=2.000000,Max=2.000000))
+         Name="MeshEmitter4"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.y_er_wa_blow_noti_simple.MeshEmitter4'
+     bNoDelete=False
+     bUnlit=False
+}

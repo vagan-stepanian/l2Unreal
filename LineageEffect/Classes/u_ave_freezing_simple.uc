@@ -1,0 +1,78 @@
+class u_ave_freezing_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.water.iceRock3'
+         RenderTwoSided=True
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.850000,Max=0.850000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.900000
+         FadeOutStartTime=10.000000
+         MaxParticles=5
+         StartLocationOffset=(Z=-10.000000)
+         StartLocationRange=(X=(Min=-5.250000,Max=5.250000),Y=(Min=-5.250000,Max=5.250000),Z=(Max=3.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=30.000000,Max=200.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-0.100000,Max=0.100000))
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.040000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.960000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=0.735000,Max=1.000000),Y=(Min=0.735000,Max=1.000000),Z=(Min=0.300000,Max=0.700000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=30.000000,Max=30.000000)
+         VelocityLossRange=(Z=(Min=15.000000,Max=15.000000))
+         Name="MeshEmitter5"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_ave_freezing_simple.MeshEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=251,G=253,R=172,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=218,G=183,R=139,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=237,G=223,R=158,A=255))
+         ColorScaleRepeats=2.000000
+         Opacity=0.900000
+         FadeOutStartTime=2.040000
+         FadeOut=True
+         FadeInEndTime=0.300000
+         FadeIn=True
+         MaxParticles=20
+         StartLocationRange=(X=(Min=-12.000000,Max=12.000000),Y=(Min=-12.000000,Max=12.000000),Z=(Min=-1.800000,Max=1.800000))
+         SphereRadiusRange=(Max=2.000000)
+         RevolutionsPerSecondRange=(Z=(Max=0.050000))
+         RevolutionScale(0)=(RelativeRevolution=(Z=1.000000))
+         RevolutionScale(1)=(RelativeTime=0.800000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.010000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=18.000000,Max=24.000000),Y=(Min=1.800000,Max=3.600000),Z=(Min=1.800000,Max=3.600000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4035'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_ave_freezing_simple.SpriteEmitter0'
+     AutoDestroy=False
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bUnlit=False
+}

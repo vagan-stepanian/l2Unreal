@@ -1,0 +1,91 @@
+class a_u014_abno_stone extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=0.500000,Max=0.500000))
+         UseRevolutionScale=True
+         RevolutionScale(0)=(RelativeRevolution=(Z=0.500000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=1.009000,Max=1.602000),Y=(Min=1.009000,Max=1.602000),Z=(Min=1.009000,Max=1.602000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0062'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.a_u014_abno_stone.SpriteEmitter11'
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Fire.firebomb00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.287000,Max=0.287000),Y=(Min=0.686000,Max=0.686000),Z=(Min=0.862000,Max=0.862000))
+         MaxParticles=1
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=0.500000))
+         StartSizeRange=(X=(Min=0.125000,Max=0.125000),Y=(Min=0.125000,Max=0.125000),Z=(Min=0.125000,Max=0.125000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter0"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.a_u014_abno_stone.MeshEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.107143,Color=(B=172,G=172,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.289286,Color=(B=217,G=143,R=252,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=149,G=116,R=237,A=255))
+         ColorMultiplierRange=(X=(Min=0.640000,Max=0.640000),Y=(Min=0.640000,Max=0.640000),Z=(Min=0.640000,Max=0.640000))
+         Opacity=0.300000
+         FadeOutStartTime=0.204000
+         FadeOut=True
+         MaxParticles=23
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=2.000000,Max=2.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.050000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=1.000000,Max=10.000000),Y=(Min=1.000000,Max=10.000000),Z=(Min=1.000000,Max=10.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6006'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(X=(Min=80.000000,Max=80.000000),Y=(Min=80.000000,Max=80.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.a_u014_abno_stone.SpriteEmitter16'
+     SpawnSound(0)=Sound'SkillSound5.turn_stone.turn_stone_loop'
+     SoundLooping=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=-784)
+     DrawScale=0.200000
+     SoundRadius=40.000000
+     SoundVolume=250.000000
+     SwayRotationOrig=(Yaw=-784)
+}

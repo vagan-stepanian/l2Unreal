@@ -1,0 +1,185 @@
+class u_poisonzone_200_gold extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.aura_wooh02'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.950000,Max=0.950000),Y=(Min=0.850000,Max=0.850000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.500000
+         FadeOutStartTime=0.980000
+         FadeOut=True
+         FadeInEndTime=0.300000
+         FadeIn=True
+         MaxParticles=6
+         StartLocationOffset=(Z=3.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=3.500000)
+         StartSizeRange=(X=(Min=3.850000,Max=3.850000),Y=(Min=3.850000,Max=3.850000),Z=(Min=1.100000,Max=1.100000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="MeshEmitter5"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_poisonzone_200_gold.MeshEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter53
+         ColorScale(0)=(Color=(G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.503571,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         Opacity=0.670000
+         FadeOutStartTime=0.988000
+         FadeOut=True
+         FadeInEndTime=0.299000
+         FadeIn=True
+         MaxParticles=20
+         StartLocationRange=(X=(Min=-90.000000,Max=90.000000),Y=(Min=-90.000000,Max=90.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=50.000000,Max=150.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.040000))
+         StartSpinRange=(X=(Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=10.000000,Max=20.000000),Y=(Min=10.000000,Max=20.000000),Z=(Min=10.000000,Max=20.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1019'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.100000,Max=1.300000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=10.000000))
+         Name="SpriteEmitter53"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_poisonzone_200_gold.SpriteEmitter53'
+     Begin Object Class=MeshEmitter Name=MeshEmitter10
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.aura_wooh02'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.750000,Max=0.750000),Z=(Min=0.450000,Max=0.450000))
+         Opacity=0.430000
+         FadeOutStartTime=0.980000
+         FadeOut=True
+         FadeInEndTime=0.300000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationOffset=(Z=3.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.025000,Max=0.025000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=3.500000)
+         StartSizeRange=(X=(Min=4.004000,Max=4.004000),Y=(Min=4.004000,Max=4.004000),Z=(Min=2.145000,Max=2.145000))
+         InitialParticlesPerSecond=1.500000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=-1.430000,Max=-1.430000))
+         Name="MeshEmitter10"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.u_poisonzone_200_gold.MeshEmitter10'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter48
+         ColorScale(0)=(Color=(G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.503571,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.900000,Max=0.900000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.500000
+         FadeOutStartTime=0.780000
+         FadeOut=True
+         FadeInEndTime=0.299000
+         FadeIn=True
+         MaxParticles=50
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=50.000000,Max=150.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.040000))
+         StartSpinRange=(X=(Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=50.000000,Max=50.000000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t4043'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=15
+         LifetimeRange=(Min=1.100000,Max=1.300000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=10.000000))
+         Name="SpriteEmitter48"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_poisonzone_200_gold.SpriteEmitter48'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter49
+         UseDirectionAs=PTDU_Normal
+         Acceleration=(Z=-2.640000)
+         ColorScale(0)=(Color=(B=24,G=48,R=48,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=24,G=48,R=48,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.400000,Max=0.400000))
+         Opacity=0.600000
+         FadeOutStartTime=0.423000
+         FadeOut=True
+         FadeInEndTime=0.423000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationOffset=(Z=5.000000)
+         StartLocationShape=PTLS_Sphere
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.020000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=105.600006,Max=105.600006),Y=(Min=105.600006,Max=105.600006),Z=(Min=105.600006,Max=105.600006))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5112'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-1.320000,Max=1.320000),Y=(Min=-1.320000,Max=1.320000),Z=(Min=-1.320000,Max=1.320000))
+         StartVelocityRadialRange=(Min=72.617996,Max=72.617996)
+         Name="SpriteEmitter49"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.u_poisonzone_200_gold.SpriteEmitter49'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter43
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         MaxParticles=100
+         Disabled=True
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=200.000000,Max=200.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Name="SpriteEmitter43"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.u_poisonzone_200_gold.SpriteEmitter43'
+     SpawnSound(0)=Sound'SkillSound11.summonpoisonzone.s_poisonzone'
+     SoundLooping=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bUnlit=False
+     SoundRadius=120.000000
+     SoundVolume=250.000000
+     bDirectional=True
+}

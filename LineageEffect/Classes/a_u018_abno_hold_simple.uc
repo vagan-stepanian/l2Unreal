@@ -1,0 +1,167 @@
+class a_u018_abno_hold_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter4
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.explode_remain'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=128,G=128,A=255))
+         FadeOutStartTime=1.740000
+         FadeOut=True
+         FadeInEndTime=0.660000
+         FadeIn=True
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Z=(Min=0.250000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.200000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=0.084000,Max=0.084000),Y=(Min=0.084000,Max=0.084000),Z=(Min=0.084000,Max=0.084000))
+         InitialParticlesPerSecond=500.000000
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter4"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.a_u018_abno_hold_simple.MeshEmitter4'
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Fire.fireRoll'
+         RenderTwoSided=True
+         UseParticleColor=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=166,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=173,R=91,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.310000
+         FadeOut=True
+         FadeInEndTime=0.270000
+         FadeIn=True
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.370000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=0.057600,Max=0.086400),Y=(Min=0.057600,Max=0.086400),Z=(Min=0.057600,Max=0.086400))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Shader'LineageEffectsTextures.Particles5.taken_panner'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter5"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.a_u018_abno_hold_simple.MeshEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         Acceleration=(X=-1.800000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=156,G=174,R=245,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=128,R=128,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.500000
+         FadeOutStartTime=1.095000
+         FadeOut=True
+         FadeInEndTime=0.360000
+         FadeIn=True
+         MaxParticles=15
+         StartLocationPolarRange=(X=(Min=-170.000000,Max=170.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=70.000000,Max=70.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.750000)
+         StartSizeRange=(X=(Min=5.400001,Max=7.200000),Y=(Min=5.400001,Max=7.200000),Z=(Min=5.400001,Max=7.200000))
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8040'
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(X=(Min=28.800001,Max=28.800001),Y=(Min=28.800001,Max=28.800001),Z=(Min=28.800001,Max=28.800001))
+         VelocityLossRange=(X=(Min=1.250000,Max=1.250000),Y=(Min=1.250000,Max=1.250000),Z=(Min=1.250000,Max=1.250000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.a_u018_abno_hold_simple.SpriteEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter6
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.agathion_glow'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=215,G=172,R=172,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=81,R=168,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.400000,Max=0.400000))
+         Opacity=0.100000
+         FadeOutStartTime=0.880000
+         FadeOut=True
+         FadeInEndTime=0.510000
+         FadeIn=True
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.250000)
+         SizeScale(1)=(RelativeTime=0.210000,RelativeSize=0.750000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.360000,Max=0.360000),Y=(Min=0.360000,Max=0.360000),Z=(Min=0.360000,Max=0.360000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles2.fx_m_t_3073'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.250000,Max=0.250000)
+         Name="MeshEmitter6"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.a_u018_abno_hold_simple.MeshEmitter6'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter4
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=1.840000
+         FadeOut=True
+         FadeInEndTime=0.720000
+         FadeIn=True
+         MaxParticles=150
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-170.000000,Max=170.000000),Y=(Min=60.000000,Max=120.000000),Z=(Min=30.000000,Max=90.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(Z=(Min=0.100000,Max=0.100000))
+         RevolutionsPerSecondRange=(Z=(Min=0.100000,Max=0.100000))
+         UseRevolutionScale=True
+         RevolutionScale(0)=(RelativeRevolution=(Z=0.100000))
+         RevolutionScale(1)=(RelativeTime=0.320000)
+         RevolutionScale(2)=(RelativeTime=0.730000,RelativeRevolution=(Z=0.500000))
+         RevolutionScale(3)=(RelativeTime=1.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=0.800000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=0.240000,Max=0.480000),Y=(Min=0.240000,Max=0.480000),Z=(Min=0.240000,Max=0.480000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.AirEffect.air_effect0000'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         StartVelocityRange=(X=(Min=0.360000,Max=0.360000),Y=(Min=0.360000,Max=0.360000),Z=(Min=0.360000,Max=0.360000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter4"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.a_u018_abno_hold_simple.SpriteEmitter4'
+     bNoDelete=False
+}

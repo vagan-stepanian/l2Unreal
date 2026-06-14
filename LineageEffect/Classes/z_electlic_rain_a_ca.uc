@@ -1,0 +1,106 @@
+class z_electlic_rain_a_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.castleob04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=30.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.517857,Color=(B=188,G=188,R=188,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=50.000000
+         ColorMultiplierRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=0.700000,Max=1.000000),Z=(Min=0.700000,Max=1.000000))
+         Opacity=0.660000
+         FadeOutStartTime=0.472500
+         FadeOut=True
+         FadeInEndTime=0.150000
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=40.000000)
+         StartLocationRange=(X=(Min=-2.500000,Max=2.500000),Y=(Min=-2.500000,Max=2.500000),Z=(Min=-15.000000,Max=15.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         StartSizeRange=(X=(Min=0.200000,Max=0.300000),Y=(Min=0.200000,Max=0.300000),Z=(Min=0.700000,Max=0.700000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=20.000000,Max=20.000000))
+         Name="MeshEmitter1"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.z_electlic_rain_a_ca.MeshEmitter1'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.cross_plane1'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=30.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.539286,Color=(B=188,G=188,R=188,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=50.000000
+         Opacity=0.660000
+         FadeOutStartTime=0.500000
+         FadeOut=True
+         FadeInEndTime=0.250000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Max=17.500000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         StartSizeRange=(X=(Min=0.300000,Max=0.400000),Y=(Min=0.300000,Max=0.400000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=50.000000,Max=80.000000))
+         Name="MeshEmitter2"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.z_electlic_rain_a_ca.MeshEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         UseDirectionAs=PTDU_Up
+         ProjectionNormal=(X=0.050000,Y=0.050000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.496429,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=2.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.700000),Y=(Min=0.700000,Max=0.900000),Z=(Min=0.900000,Max=1.000000))
+         FadeOutStartTime=0.057000
+         FadeOut=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=40.000000)
+         StartLocationRange=(X=(Min=-30.000000,Max=30.000000),Y=(Min=-30.000000,Max=30.000000),Z=(Max=5.000000))
+         SphereRadiusRange=(Min=2.000000,Max=2.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=40.000000,Max=40.000000))
+         UseSizeScale=True
+         StartSizeRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=-60.000000,Max=-60.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8136'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=0.100000,Max=0.100000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.z_electlic_rain_a_ca.SpriteEmitter7'
+     bOnInitialDelay=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

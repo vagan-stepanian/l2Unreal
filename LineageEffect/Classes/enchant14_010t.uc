@@ -1,0 +1,86 @@
+class enchant14_010t extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter328
+         UseDirectionAs=PTDU_Up
+         Acceleration=(X=12.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=87,G=192,R=232,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.490000
+         FadeOut=True
+         FadeInEndTime=0.370000
+         FadeIn=True
+         MaxParticles=30
+         StartLocationOffset=(X=5.000000)
+         StartLocationRange=(X=(Min=-1.500000,Max=17.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=90.000000),Z=(Max=30.000000))
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=3.000000,Max=5.000000),Z=(Min=1.000000,Max=1.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Weapon.fx_m_t6290'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         SubdivisionEnd=15
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=8.000000,Max=16.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter328"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.enchant14_010t.SpriteEmitter328'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter331
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.496429,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=20.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.770000,Max=0.770000))
+         FadeOutStartTime=1.200000
+         FadeOut=True
+         FadeInEndTime=0.315000
+         FadeIn=True
+         MaxParticles=20
+         IsRepresentativeParticle=False
+         StartLocationOffset=(X=8.000000)
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-1.500000,Max=1.500000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=90.000000),Z=(Min=5.000000,Max=5.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Min=1.000000,Max=1.000000))
+         RevolutionsPerSecondRange=(X=(Min=0.500000,Max=0.500000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2033'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=15
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(X=(Min=50.000000,Max=50.000000))
+         VelocityLossRange=(X=(Min=8.000000,Max=8.000000))
+         Name="SpriteEmitter331"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.enchant14_010t.SpriteEmitter331'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Pitch=16372,Yaw=16349)
+     DrawScale=0.100000
+     bUnlit=False
+     SwayRotationOrig=(Pitch=16372,Yaw=16349)
+     bDirectional=True
+}

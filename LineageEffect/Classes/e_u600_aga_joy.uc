@@ -1,0 +1,112 @@
+class e_u600_aga_joy extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter12
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.w_blockade_line_mesh'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=155,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=232,G=232,R=232,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=198,G=198,R=198,A=255))
+         Opacity=0.000000
+         FadeOutStartTime=0.150000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=1.200000,Max=1.200000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.070000,RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.210000,RelativeSize=3.000000)
+         SizeScale(2)=(RelativeTime=0.500000,RelativeSize=3.500000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=0.450000,Max=0.450000),Y=(Min=0.450000,Max=0.450000),Z=(Min=0.200000,Max=0.200000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="MeshEmitter12"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.e_u600_aga_joy.MeshEmitter12'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter24
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.600000,Color=(B=160,G=160,R=126,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=128,G=92,R=79,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         Opacity=0.900000
+         FadeOutStartTime=0.181500
+         FadeOut=True
+         MaxParticles=20
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=5.000000)
+         StartLocationRange=(X=(Min=-9.000000,Max=9.000000),Y=(Min=-9.000000,Max=9.000000),Z=(Min=-20.000000,Max=30.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=3.000000,Max=6.000000),Y=(Min=3.000000,Max=6.000000),Z=(Min=3.000000,Max=6.000000))
+         InitialParticlesPerSecond=14.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6008'
+         LifetimeRange=(Min=0.330000,Max=0.330000)
+         InitialDelayRange=(Min=0.800000,Max=0.800000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=30.000000))
+         Name="SpriteEmitter24"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u600_aga_joy.SpriteEmitter24'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter25
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.439286,Color=(B=102,G=102,R=102,A=255))
+         ColorScale(2)=(RelativeTime=0.657143,Color=(B=93,G=93,R=93,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=17.500000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         FadeOutStartTime=2.500000
+         FadeInEndTime=0.500000
+         FadeIn=True
+         MaxParticles=20
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-16.000000,Max=16.000000),Y=(Min=-16.000000,Max=16.000000),Z=(Min=-16.000000,Max=16.000000))
+         SphereRadiusRange=(Min=10.000000,Max=10.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=60.000000,Max=120.000000),Z=(Min=12.000000,Max=12.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.550000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.490000,RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=0.760000,RelativeSize=0.600000)
+         SizeScale(2)=(RelativeTime=0.910000,RelativeSize=0.400000)
+         SizeScale(3)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=4.000000,Max=5.500000),Y=(Min=4.000000,Max=5.500000),Z=(Min=4.000000,Max=5.500000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=2.000000,Max=2.500000)
+         InitialDelayRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(X=(Min=20.000000,Max=35.000000),Y=(Min=20.000000,Max=35.000000),Z=(Min=4.000000,Max=40.000000))
+         VelocityLossRange=(X=(Min=0.700000,Max=1.200000),Y=(Min=0.700000,Max=1.200000),Z=(Min=0.200000,Max=0.800000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter25"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.e_u600_aga_joy.SpriteEmitter25'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.250000
+}

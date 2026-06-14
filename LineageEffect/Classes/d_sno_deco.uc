@@ -1,0 +1,78 @@
+class d_sno_deco extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         Acceleration=(Z=25.000000)
+         ColorScale(0)=(Color=(B=85,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(G=128,R=128,A=255))
+         ColorMultiplierRange=(X=(Min=0.650000,Max=1.000000),Y=(Min=0.650000,Max=1.000000),Z=(Min=0.650000,Max=1.000000))
+         Opacity=0.680000
+         FadeOutStartTime=1.005000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=15
+         StartLocationRange=(X=(Min=-15.000000,Max=15.000000),Y=(Min=-15.000000,Max=15.000000),Z=(Max=20.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=60.000000,Max=120.000000),Z=(Min=15.000000,Max=15.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         RevolutionsPerSecondRange=(X=(Min=-0.100000,Max=0.100000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-0.100000,Max=0.100000))
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=1.250000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=10.000000
+         StartSizeRange=(X=(Min=1.000000,Max=3.000000),Y=(Min=1.000000,Max=3.000000),Z=(Min=1.000000,Max=3.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionScale(0)=5.000000
+         SubdivisionEnd=2
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=10.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_sno_deco.SpriteEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter8
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.wooh04.heal_dd04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.750000,Max=1.000000),Y=(Min=0.750000,Max=1.000000),Z=(Min=0.750000,Max=1.000000))
+         Opacity=0.200000
+         FadeOutStartTime=0.148000
+         FadeOut=True
+         FadeInEndTime=0.148000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationOffset=(Z=-5.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.980000)
+         StartSizeRange=(X=(Min=1.300000,Max=1.300000),Y=(Min=1.300000,Max=1.300000),Z=(Min=1.300000,Max=1.300000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(Z=(Min=50.000000,Max=50.000000))
+         Name="MeshEmitter8"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_sno_deco.MeshEmitter8'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

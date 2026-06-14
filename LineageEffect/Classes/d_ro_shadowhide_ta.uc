@@ -1,0 +1,112 @@
+class d_ro_shadowhide_ta extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter11
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.cross_plane1'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=240,G=176,R=119,A=255))
+         ColorMultiplierRange=(X=(Min=0.280000,Max=1.000000),Y=(Min=0.280000,Max=1.000000),Z=(Min=0.280000,Max=1.000000))
+         Opacity=0.400000
+         FadeOutStartTime=0.230400
+         FadeOut=True
+         FadeInEndTime=0.076800
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=0.552000,Max=0.552000),Y=(Min=0.552000,Max=0.552000),Z=(Min=0.552000,Max=0.552000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles4.fx_m_t0821'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         Name="MeshEmitter11"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_ro_shadowhide_ta.MeshEmitter11'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter17
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         Opacity=0.800000
+         FadeOutStartTime=0.205000
+         FadeOut=True
+         FadeInEndTime=0.150000
+         FadeIn=True
+         WeatherSoundCheck=True
+         IsRepresentativeParticle=False
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-35.818001)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=15.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(Z=(Min=0.500000,Max=0.500000))
+         RevolutionsPerSecondRange=(Z=(Min=0.200000,Max=0.200000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.100000))
+         StartSpinRange=(X=(Max=0.200000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=11.578000,Max=22.688999),Y=(Min=11.578000,Max=22.688999),Z=(Min=11.578000,Max=22.688999))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles5.ct2_c03'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(Z=(Min=70.000000,Max=122.910004))
+         Name="SpriteEmitter17"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_ro_shadowhide_ta.SpriteEmitter17'
+     Begin Object Class=MeshEmitter Name=MeshEmitter14
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.defense2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=20.000000)
+         ColorScale(0)=(Color=(B=64,R=64,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=192,G=128,R=128,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.180000,Max=0.180000))
+         Opacity=0.100000
+         FadeOutStartTime=0.180000
+         FadeOut=True
+         FadeInEndTime=0.063000
+         FadeIn=True
+         MaxParticles=30
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=15.000000)
+         StartLocationRange=(Z=(Min=1.000000,Max=10.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.340000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=0.735000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.710000)
+         StartSizeRange=(X=(Min=0.280000,Max=0.280000),Y=(Min=0.280000,Max=0.280000),Z=(Min=0.280000,Max=0.280000))
+         InitialParticlesPerSecond=60.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(Z=(Min=-128.063004,Max=-64.736000))
+         Name="MeshEmitter14"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_ro_shadowhide_ta.MeshEmitter14'
+     bLightChanged=True
+     bNoDelete=False
+     DrawScale=0.200000
+}

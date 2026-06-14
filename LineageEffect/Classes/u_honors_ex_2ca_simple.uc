@@ -1,0 +1,129 @@
+class u_honors_ex_2ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter64
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.guardstone02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=20.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.776000,Max=0.776000),Z=(Min=0.646000,Max=0.646000))
+         Opacity=0.400000
+         FadeOutStartTime=3.750000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.030000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=1.100000,Max=1.100000),Y=(Min=1.100000,Max=1.100000),Z=(Min=1.100000,Max=1.100000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=5.000000,Max=5.000000)
+         Name="MeshEmitter64"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_honors_ex_2ca_simple.MeshEmitter64'
+     Begin Object Class=MeshEmitter Name=MeshEmitter68
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.A_circle'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=88,G=193,R=220,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=53,G=168,R=174,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.100000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartSpinRange=(X=(Max=1.000000),Y=(Min=0.750000,Max=0.750000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.350000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.600000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=3.500000)
+         StartSizeRange=(X=(Min=1.500000,Max=1.500000),Y=(Min=1.500000,Max=1.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter68"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.u_honors_ex_2ca_simple.MeshEmitter68'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter82
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.517857,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.774000,Max=0.774000),Z=(Min=0.347000,Max=0.347000))
+         Opacity=0.650000
+         FadeOutStartTime=0.420000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         MaxParticles=11
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         StartSpinRange=(X=(Min=-0.200000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.660000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=60.000000,Max=80.000000),Y=(Min=60.000000,Max=80.000000),Z=(Min=60.000000,Max=80.000000))
+         InitialParticlesPerSecond=2.500000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7115'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter82"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_honors_ex_2ca_simple.SpriteEmitter82'
+     Begin Object Class=MeshEmitter Name=MeshEmitter73
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.magic_11'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=20.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.743000,Max=0.743000),Z=(Min=0.417000,Max=0.417000))
+         Opacity=0.650000
+         FadeOutStartTime=3.735000
+         FadeOut=True
+         FadeInEndTime=0.090000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.030000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.300000,Max=0.300000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=4.500000,Max=4.500000)
+         Name="MeshEmitter73"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.u_honors_ex_2ca_simple.MeshEmitter73'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

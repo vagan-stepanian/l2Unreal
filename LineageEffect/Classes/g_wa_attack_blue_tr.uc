@@ -1,0 +1,106 @@
+class g_wa_attack_blue_tr extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter508
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.385000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         MaxParticles=2
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=1.000000,Max=1.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=1.000000,Max=2.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=0.050000,Max=0.050000),Y=(Min=0.050000,Max=0.050000),Z=(Min=0.050000,Max=0.050000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=None
+         TextureUSubdivisions=4
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         Name="SpriteEmitter508"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.g_wa_attack_blue_tr.SpriteEmitter508'
+     Begin Object Class=TrailEmitter Name=TrailEmitter335
+         TrailShadeType=PTTST_PointLife
+         MaxPointsPerTrail=40
+         UseCrossedSheets=True
+         PointLifeTime=0.900000
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.320000
+         FadeOut=True
+         FadeInEndTime=0.080000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         DestroyWhenHitTarget=False
+         RespawnDeadParticles=False
+         AutoReset=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.bowgun'
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         Name="TrailEmitter335"
+     End Object
+     Emitters(1)=TrailEmitter'LineageEffect.g_wa_attack_blue_tr.TrailEmitter335'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter24
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.514286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=3.000000
+         FadeOutStartTime=0.249000
+         FadeOut=True
+         FadeInEndTime=0.039000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=50
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartLocationPolarRange=(X=(Min=90.000000,Max=90.000000),Y=(Min=-175.000000,Max=175.000000),Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.800000,Max=0.800000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.700000,Max=0.700000))
+         InitialParticlesPerSecond=150.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t7081'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=6
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         VelocityLossRange=(X=(Min=8.000000,Max=8.000000),Y=(Min=8.000000,Max=8.000000),Z=(Min=8.000000,Max=8.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter24"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.g_wa_attack_blue_tr.SpriteEmitter24'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bDirectional=True
+}

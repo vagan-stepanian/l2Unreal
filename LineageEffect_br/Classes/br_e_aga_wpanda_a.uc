@@ -1,0 +1,82 @@
+class br_e_aga_wpanda_a extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter13
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.564286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=15.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.500000
+         FadeOutStartTime=0.240000
+         FadeOut=True
+         FadeInEndTime=0.060000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=25
+         StartLocationOffset=(X=1.000000)
+         StartLocationShape=PTLS_Sphere
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.560000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Max=0.420000),Y=(Max=0.420000),Z=(Max=0.420000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1060'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.850000,Max=1.000000)
+         InitialDelayRange=(Min=0.050000,Max=0.050000)
+         VelocityLossRange=(X=(Min=5.000000,Max=15.000000),Y=(Min=5.000000,Max=15.000000),Z=(Min=5.000000,Max=15.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter13"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_aga_wpanda_a.SpriteEmitter13'
+     Begin Object Class=MeshEmitter Name=MeshEmitter6
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.wispray01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.496429,Color=(B=93,G=93,R=93,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.100000,Max=0.800000))
+         Opacity=0.500000
+         FadeOutStartTime=0.752000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=20
+         StartLocationOffset=(X=1.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=1.000000)
+         SpinsPerSecondRange=(Y=(Min=0.100000,Max=0.150000))
+         StartSpinRange=(X=(Max=0.250000),Y=(Max=0.250000),Z=(Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.300000)
+         SizeScale(2)=(RelativeTime=0.500000,RelativeSize=1.600000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=0.400000)
+         StartSizeRange=(X=(Min=0.006600,Max=0.006600),Y=(Min=0.006600,Max=0.006600),Z=(Min=0.006600,Max=0.006600))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Name="MeshEmitter6"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect_Br.br_e_aga_wpanda_a.MeshEmitter6'
+     AutoReplay=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.050000
+}

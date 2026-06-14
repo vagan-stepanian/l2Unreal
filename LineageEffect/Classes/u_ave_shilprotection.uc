@@ -1,0 +1,122 @@
+class u_ave_shilprotection extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.478571,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=2.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.490000
+         FadeOut=True
+         FadeInEndTime=0.410000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=15.000000,Max=40.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=12.000000,Max=12.000000),Y=(Min=12.000000,Max=12.000000),Z=(Min=12.000000,Max=12.000000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8130'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_ave_shilprotection.SpriteEmitter11'
+     Begin Object Class=MeshEmitter Name=MeshEmitter11
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.sphere_02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=84,G=254,R=118,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=94,G=223,R=194,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         FadeOutStartTime=0.480000
+         FadeOut=True
+         FadeInEndTime=0.370000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationRange=(Z=(Min=30.000000,Max=30.000000))
+         UseRevolution=True
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.030000,Max=0.080000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-0.170000,Max=0.170000),Z=(Min=-0.170000,Max=0.170000))
+         StartSizeRange=(X=(Min=0.330000,Max=0.330000),Y=(Min=0.330000,Max=0.330000),Z=(Min=0.330000,Max=0.330000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles5.fx_m_t8130'
+         LifetimeRange=(Min=0.500000,Max=1.000000)
+         Name="MeshEmitter11"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.u_ave_shilprotection.MeshEmitter11'
+     Begin Object Class=MeshEmitter Name=MeshEmitter4
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.sphere_03'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.464286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=4.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.400000,Max=0.400000))
+         Opacity=0.650000
+         FadeOutStartTime=0.345000
+         FadeOut=True
+         FadeInEndTime=0.240000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationRange=(Z=(Min=23.000000,Max=23.000000))
+         UseRevolution=True
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-0.200000,Max=0.200000),Z=(Min=-0.200000,Max=0.200000))
+         StartSizeRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles5.fx_m_t8130'
+         LifetimeRange=(Min=1.000000,Max=1.500000)
+         Name="MeshEmitter4"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.u_ave_shilprotection.MeshEmitter4'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.sphere_03'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.464286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=4.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.345000
+         FadeOut=True
+         FadeInEndTime=0.240000
+         FadeIn=True
+         MaxParticles=1
+         StartLocationRange=(Z=(Min=23.000000,Max=23.000000))
+         UseRevolution=True
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-0.200000,Max=0.200000),Z=(Min=-0.200000,Max=0.200000))
+         StartSizeRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles5.fx_m_t8130'
+         LifetimeRange=(Min=1.000000,Max=1.500000)
+         Name="MeshEmitter1"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.u_ave_shilprotection.MeshEmitter1'
+     AutoDestroy=False
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bUnlit=False
+}

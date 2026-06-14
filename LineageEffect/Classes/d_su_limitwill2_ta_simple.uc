@@ -1,0 +1,126 @@
+class d_su_limitwill2_ta_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=BeamEmitter Name=BeamEmitter4
+         BeamEndPoints(0)=(offset=(Z=(Min=-170.000000,Max=-170.000000)))
+         DetermineEndPointBy=PTEP_Offset
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.521429,Color=(B=231,G=231,R=231,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=17.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.170000
+         FadeOutStartTime=0.590000
+         FadeOut=True
+         FadeInEndTime=0.410000
+         FadeIn=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=150.000000)
+         StartLocationRange=(X=(Min=-20.000000,Max=10.000000),Y=(Min=-15.000000,Max=15.000000),Z=(Min=40.000000,Max=40.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=70.000000,Max=110.000000),Z=(Min=13.000000,Max=13.000000))
+         StartSizeRange=(X=(Min=6.000000,Max=10.000000),Y=(Min=100.000000,Max=100.000000),Z=(Min=100.000000,Max=100.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0004'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="BeamEmitter4"
+     End Object
+     Emitters(0)=BeamEmitter'LineageEffect.d_su_limitwill2_ta_simple.BeamEmitter4'
+     Begin Object Class=MeshEmitter Name=MeshEmitter31
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Aura.auracharge01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.471429,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=20.000000
+         ColorMultiplierRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.700000,Max=0.700000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.530000
+         FadeOutStartTime=0.552000
+         FadeOut=True
+         FadeInEndTime=0.372000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-20.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.460000,RelativeSize=0.990000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=20.000000
+         StartSizeRange=(X=(Min=0.380000,Max=0.380000),Y=(Min=0.380000,Max=0.380000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=1.200000,Max=1.200000)
+         Name="MeshEmitter31"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_su_limitwill2_ta_simple.MeshEmitter31'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter0
+         VertexMesh=VertMesh'LineageEffectMeshes.recharge_60'
+         UseMeshBlendMode=False
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.757143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.300000,Max=0.300000))
+         FadeOutStartTime=1.260000
+         FadeOut=True
+         FadeInEndTime=0.200000
+         FadeIn=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=130.000000)
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Max=10.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000),Z=(Min=0.500000,Max=0.500000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=0.754000,Max=0.754000),Y=(Min=0.754000,Max=0.754000),Z=(Min=0.754000,Max=0.754000))
+         InitialParticlesPerSecond=80.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="VertMeshEmitter0"
+     End Object
+     Emitters(3)=VertMeshEmitter'LineageEffect.d_su_limitwill2_ta_simple.VertMeshEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter50
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.200000
+         FadeOutStartTime=0.410400
+         FadeOut=True
+         FadeInEndTime=0.136800
+         FadeIn=True
+         MaxParticles=6
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-3.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=0.600000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=60.000000,Max=60.000000),Y=(Min=60.000000,Max=60.000000),Z=(Min=60.000000,Max=60.000000))
+         InitialParticlesPerSecond=24.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7114'
+         LifetimeRange=(Min=0.720000,Max=0.720000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=10.000000))
+         Name="SpriteEmitter50"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.d_su_limitwill2_ta_simple.SpriteEmitter50'
+     AutoReplay=True
+     bNoDelete=False
+}

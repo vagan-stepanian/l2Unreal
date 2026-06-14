@@ -1,0 +1,99 @@
+class s_u509_b_simple extends Emitter; // ÇÜ½ºÆ®¸µ¼¦
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter13
+         Acceleration=(X=-10.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.496429,Color=(B=180,G=180,R=180,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=15.000000
+         FadeOutStartTime=0.200000
+         FadeOut=True
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=90.000000,Max=90.000000),Y=(Max=360.000000),Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.123000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0000'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=14
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.800000,Max=1.200000)
+         StartVelocityRange=(X=(Min=200.000000,Max=200.000000),Y=(Min=200.000000,Max=200.000000),Z=(Min=200.000000,Max=200.000000))
+         VelocityLossRange=(X=(Min=8.000000,Max=8.000000),Y=(Min=8.000000,Max=8.000000),Z=(Min=8.000000,Max=8.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter13"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.s_u509_b_simple.SpriteEmitter13'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.482143,Color=(B=180,G=180,R=180,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         Opacity=0.600000
+         FadeOutStartTime=0.160200
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=-1.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0056'
+         LifetimeRange=(Min=0.801000,Max=0.801000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=-10.000000))
+         VelocityLossRange=(X=(Min=6.000000,Max=6.000000))
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.s_u509_b_simple.SpriteEmitter16'
+     Begin Object Class=MeshEmitter Name=MeshEmitter16
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Wind.windknifeball00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=-300.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=7,G=149,R=243,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.078000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=10.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(Z=(Min=3.000000,Max=3.000000))
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=0.150000,Max=0.150000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.100000,Max=0.100000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         Name="MeshEmitter16"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.s_u509_b_simple.MeshEmitter16'
+     bNoDelete=False
+     bDirectional=True
+}

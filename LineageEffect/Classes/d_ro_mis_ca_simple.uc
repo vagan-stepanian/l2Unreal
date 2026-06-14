@@ -1,0 +1,74 @@
+class d_ro_mis_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter63
+         Acceleration=(Z=-50.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.539286,Color=(B=109,G=109,R=109,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=16.100000
+         FadeOutStartTime=0.194560
+         FadeOut=True
+         FadeInEndTime=0.143360
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         AddLocationFromOtherEmitter=3
+         StartLocationShape=PTLS_Polar
+         SphereRadiusRange=(Min=20.000000,Max=20.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Min=5.000000,Max=10.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=2.500000,Max=3.500000),Y=(Min=2.500000,Max=3.500000),Z=(Min=2.500000,Max=3.500000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1019'
+         UseRandomSubdivision=True
+         SubdivisionEnd=1
+         LifetimeRange=(Min=0.472000,Max=0.512000)
+         StartVelocityRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=50.000000,Max=50.000000))
+         VelocityLossRange=(X=(Min=7.000000,Max=7.000000),Y=(Min=7.000000,Max=7.000000),Z=(Min=7.000000,Max=7.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter63"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_ro_mis_ca_simple.SpriteEmitter63'
+     Begin Object Class=MeshEmitter Name=MeshEmitter10
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.wispray00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.812000,Max=0.812000),Z=(Min=0.563000,Max=0.563000))
+         Opacity=0.180000
+         FadeOutStartTime=0.184500
+         FadeOut=True
+         FadeInEndTime=0.139500
+         FadeIn=True
+         MaxParticles=7
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=1.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.190000,RelativeSize=0.400000)
+         SizeScale(2)=(RelativeTime=0.320000,RelativeSize=2.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=0.080000,Max=0.150000),Y=(Min=0.080000,Max=0.150000),Z=(Min=0.080000,Max=0.150000))
+         InitialParticlesPerSecond=120.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         Name="MeshEmitter10"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_ro_mis_ca_simple.MeshEmitter10'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

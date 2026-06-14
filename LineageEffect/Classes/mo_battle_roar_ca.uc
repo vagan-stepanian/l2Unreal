@@ -1,0 +1,139 @@
+class mo_battle_roar_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter12
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.magiccircle.magiccircleblack02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=17,G=74,R=247,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.600000
+         FadeOutStartTime=1.080000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=1
+         ForcedFade=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.400000,RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=20.000000
+         StartSizeRange=(X=(Min=0.660000,Max=0.660000),Y=(Min=0.660000,Max=0.660000),Z=(Min=0.660000,Max=0.660000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000))
+         Name="MeshEmitter12"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.mo_battle_roar_ca.MeshEmitter12'
+     Begin Object Class=MeshEmitter Name=MeshEmitter13
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Wind.windknifewave00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=240.000015)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.314286,Color=(B=162,G=230,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.589286,Color=(G=159,R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(R=227,A=255))
+         Opacity=0.100000
+         FadeOutStartTime=0.129000
+         FadeOut=True
+         FadeInEndTime=0.060000
+         FadeIn=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=40.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000),Y=(Min=0.750000,Max=0.750000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.310000,RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.650000,RelativeSize=2.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=3.500000)
+         StartSizeRange=(X=(Min=1.395000,Max=1.395000),Y=(Min=0.313000,Max=0.313000),Z=(Min=0.313000,Max=0.313000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=-150.000000,Max=-150.000000))
+         Name="MeshEmitter13"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.mo_battle_roar_ca.MeshEmitter13'
+     Begin Object Class=MeshEmitter Name=MeshEmitter14
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_charge00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.400000
+         FadeOutStartTime=0.176000
+         FadeOut=True
+         FadeInEndTime=0.080000
+         FadeIn=True
+         MaxParticles=11
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=2.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=0.143000,Max=0.143000),Y=(Min=0.143000,Max=0.143000),Z=(Min=0.048000,Max=0.048000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         Name="MeshEmitter14"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.mo_battle_roar_ca.MeshEmitter14'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter13
+         Acceleration=(Z=10.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=105,G=176,R=224,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=51,R=15,A=255))
+         Opacity=0.320000
+         FadeOutStartTime=0.430000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=36
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-6.000000)
+         StartLocationRange=(X=(Min=-14.470000,Max=14.470000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=1.000000,Max=1.500000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UniformSize=True
+         StartSizeRange=(X=(Min=23.000000,Max=28.000000),Y=(Min=23.000000,Max=28.000000),Z=(Min=23.000000,Max=28.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1002'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         SubdivisionStart=4
+         SubdivisionEnd=8
+         LifetimeRange=(Min=0.800000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=80.596001,Max=98.250000))
+         VelocityLossRange=(X=(Max=0.500000),Y=(Max=0.500000),Z=(Max=0.500000))
+         Name="SpriteEmitter13"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.mo_battle_roar_ca.SpriteEmitter13'
+     bNoDelete=False
+     DrawScale=0.200000
+     bDirectional=True
+}

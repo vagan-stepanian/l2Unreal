@@ -1,0 +1,120 @@
+class d_rednet_shot_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter5
+         VertexMesh=VertMesh'LineageEffectMeshes.big_net'
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.500000
+         FadeOutStartTime=0.208000
+         FadeOut=True
+         FadeInEndTime=0.136500
+         FadeIn=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.050000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.850000,Max=0.935000),Y=(Min=0.850000,Max=0.935000),Z=(Min=0.340000,Max=0.595000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Shader'LineageEffectsTextures.Particles6.big_net_Shader'
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         Name="VertMeshEmitter5"
+     End Object
+     Emitters(0)=VertMeshEmitter'LineageEffect.d_rednet_shot_simple.VertMeshEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.300000
+         FadeOutStartTime=0.069000
+         FadeOut=True
+         MaxParticles=6
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=50.000000,Max=50.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t8178'
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_rednet_shot_simple.SpriteEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill.km_Arc'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.200000
+         FadeOutStartTime=0.204000
+         FadeOut=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-20.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.600000)
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=1.000000,Max=1.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(X=(Min=30.000000,Max=30.000000))
+         Name="MeshEmitter5"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_rednet_shot_simple.MeshEmitter5'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter8
+         VertexMesh=VertMesh'LineageEffectMeshes.big_net'
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=10))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=10))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.600000
+         FadeOutStartTime=0.540000
+         FadeOut=True
+         FadeInEndTime=0.150000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.050000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.935000,Max=0.935000),Y=(Min=0.935000,Max=0.935000),Z=(Min=0.425000,Max=0.425000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Shader'LineageEffectsTextures.Particles6.net_shader'
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         Name="VertMeshEmitter8"
+     End Object
+     Emitters(3)=VertMeshEmitter'LineageEffect.d_rednet_shot_simple.VertMeshEmitter8'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bUnlit=False
+}

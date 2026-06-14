@@ -1,0 +1,74 @@
+class br_e_g_ev_floor_mark2_e_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter27
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=200,G=200,R=200,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=30.000000
+         Opacity=0.400000
+         FadeOutStartTime=1.600000
+         FadeOut=True
+         FadeInEndTime=0.480000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=40.000000,Max=40.000000))
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=25.000000,Max=25.000000),Y=(Min=25.000000,Max=25.000000),Z=(Min=25.000000,Max=25.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5127'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         InitialDelayRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=-100.000000,Max=-100.000000))
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         Name="SpriteEmitter27"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_g_ev_floor_mark2_e_simple.SpriteEmitter27'
+     Begin Object Class=MeshEmitter Name=MeshEmitter32
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.fx_m_sm8162_03'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=25.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.820000,Max=0.820000),Z=(Min=0.627000,Max=0.627000))
+         Opacity=0.660000
+         FadeOutStartTime=2.000000
+         FadeOut=True
+         FadeInEndTime=0.300000
+         FadeIn=True
+         MaxParticles=2
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.070000,Max=0.070000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.fx_m_t5129'
+         LifetimeRange=(Min=2.500000,Max=2.500000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter32"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect_Br.br_e_g_ev_floor_mark2_e_simple.MeshEmitter32'
+     bNoDelete=False
+     DrawScale=0.500000
+}

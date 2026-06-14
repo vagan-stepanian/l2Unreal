@@ -1,0 +1,128 @@
+class z_buff_d_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter39
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.swirl_ring_05'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=64,R=128,A=255))
+         ColorScaleRepeats=2.000000
+         Opacity=0.900000
+         FadeOutStartTime=0.255000
+         FadeOut=True
+         FadeInEndTime=0.140000
+         FadeIn=True
+         MaxParticles=14
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.150000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.650000,Max=0.650000),Y=(Min=0.650000,Max=0.650000),Z=(Min=0.800000,Max=0.800000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter39"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.z_buff_d_ca.MeshEmitter39'
+     Begin Object Class=MeshEmitter Name=MeshEmitter40
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.twist_m06'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=128,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.100000,Max=0.100000))
+         FadeOutStartTime=0.140000
+         FadeOut=True
+         FadeInEndTime=0.085000
+         FadeIn=True
+         MaxParticles=16
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=0.250000,Max=0.250000),Y=(Min=0.250000,Max=0.250000),Z=(Min=0.250000,Max=0.250000))
+         InitialParticlesPerSecond=7.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter40"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.z_buff_d_ca.MeshEmitter40'
+     Begin Object Class=MeshEmitter Name=MeshEmitter41
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.death.bunnoseed_Round'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=117,G=162,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.489286,Color=(B=183,G=111,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(R=128,A=255))
+         ColorScaleRepeats=4.000000
+         Opacity=0.500000
+         FadeOutStartTime=0.396000
+         FadeOut=True
+         FadeInEndTime=0.084000
+         FadeIn=True
+         MaxParticles=16
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.700000,Max=0.700000))
+         InitialParticlesPerSecond=7.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="MeshEmitter41"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.z_buff_d_ca.MeshEmitter41'
+     Begin Object Class=MeshEmitter Name=MeshEmitter42
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.death.bunnoseed'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=128,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=0.126000
+         FadeOut=True
+         FadeInEndTime=0.073500
+         FadeIn=True
+         MaxParticles=24
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.150000),Z=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=0.500000),Z=(Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=0.250000,Max=0.250000),Y=(Min=0.250000,Max=0.250000),Z=(Min=0.250000,Max=0.250000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.350000,Max=0.350000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=10.000000))
+         Name="MeshEmitter42"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.z_buff_d_ca.MeshEmitter42'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=1144,Roll=32)
+     DrawScale=0.200000
+     SwayRotationOrig=(Yaw=1144,Roll=32)
+}

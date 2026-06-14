@@ -1,0 +1,82 @@
+class d_cartia_poison extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter26
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=2.000000)
+         ColorScale(0)=(Color=(B=86,G=82,R=243,A=255))
+         ColorScale(1)=(RelativeTime=0.346429,Color=(B=6,R=234,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=85,G=34,R=26,A=255))
+         ColorMultiplierRange=(X=(Min=0.650000,Max=0.650000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.540000
+         FadeOut=True
+         FadeInEndTime=0.260000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=320
+         StartLocationRange=(X=(Min=-850.000000,Max=1250.000000),Y=(Min=-850.000000,Max=850.000000))
+         UseRevolutionScale=True
+         RevolutionScale(0)=(RelativeTime=0.030000,RelativeRevolution=(X=50.000000))
+         RevolutionScaleRepeats=20.000000
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.001000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.460000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=50.000000,Max=50.000000))
+         InitialParticlesPerSecond=160.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8040'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=1
+         SubdivisionEnd=32
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         VelocityLossRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.500000,Max=1.500000))
+         Name="SpriteEmitter26"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_cartia_poison.SpriteEmitter26'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter27
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=2.000000)
+         ColorScale(0)=(Color=(B=86,G=82,R=243,A=255))
+         ColorScale(1)=(RelativeTime=0.346429,Color=(B=6,R=234,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=85,G=34,R=26,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.600000,Max=0.600000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.800000
+         FadeOutStartTime=0.300000
+         FadeOut=True
+         FadeInEndTime=0.300000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=400
+         StartLocationRange=(X=(Min=-850.000000,Max=1250.000000),Y=(Min=-850.000000,Max=850.000000))
+         UseRevolutionScale=True
+         RevolutionScale(0)=(RelativeTime=0.030000,RelativeRevolution=(X=50.000000))
+         RevolutionScaleRepeats=20.000000
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.001000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.460000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=30.000000,Max=50.000000),Y=(Min=30.000000,Max=50.000000),Z=(Min=30.000000,Max=50.000000))
+         InitialParticlesPerSecond=200.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8040'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=1
+         SubdivisionEnd=32
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         VelocityLossRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.500000,Max=1.500000))
+         Name="SpriteEmitter27"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_cartia_poison.SpriteEmitter27'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

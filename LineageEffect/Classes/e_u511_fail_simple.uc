@@ -1,0 +1,58 @@
+class e_u511_fail_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=238,G=227,R=232,A=255))
+         ColorScale(1)=(RelativeTime=0.696429,Color=(B=201,G=167,R=167,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=207,G=134,R=116,A=255))
+         ColorMultiplierRange=(X=(Min=0.948000,Max=0.948000),Y=(Min=0.948000,Max=0.948000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.390000
+         FadeOutStartTime=0.735000
+         FadeOut=True
+         MaxParticles=12
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=20.000000)
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-2.000000,Max=2.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.260000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.530000,RelativeSize=1.200000)
+         SizeScale(3)=(RelativeTime=0.720000,RelativeSize=1.400000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=1.700000)
+         StartSizeRange=(X=(Min=32.264000,Max=39.856998),Y=(Min=32.264000,Max=39.856998),Z=(Min=32.264000,Max=39.856998))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1002'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=4
+         SubdivisionEnd=7
+         LifetimeRange=(Min=1.200000,Max=1.500000)
+         StartVelocityRange=(X=(Min=70.000000,Max=70.000000),Y=(Min=70.000000,Max=70.000000),Z=(Min=4.000000,Max=4.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=3.000000,Max=3.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeTime=0.050000,RelativeVelocity=(Z=150.000000))
+         VelocityScale(1)=(RelativeTime=0.170000,RelativeVelocity=(Z=150.000000))
+         VelocityScale(2)=(RelativeTime=0.190000,RelativeVelocity=(X=30.000000,Y=30.000000,Z=100.000000))
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u511_fail_simple.SpriteEmitter11'
+     bLightChanged=True
+     bNoDelete=False
+     Tag="Emitter"
+     bSunAffect=True
+     Rotation=(Yaw=224)
+     DrawScale=0.250000
+     SwayRotationOrig=(Yaw=224)
+}

@@ -1,0 +1,161 @@
+class z_tiger_enter extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.magiccircle.magiccircleblack02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.001000,Max=0.001000),Y=(Min=0.001000,Max=0.001000),Z=(Min=0.200000,Max=0.200000))
+         FadeOutStartTime=3.000000
+         FadeOut=True
+         FadeInEndTime=1.000000
+         FadeIn=True
+         MaxParticles=1
+         ForcedFade=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=5.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.500000,RelativeSize=0.950000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=50.000000
+         StartSizeRange=(X=(Min=0.360000,Max=0.360000),Y=(Min=0.360000,Max=0.360000),Z=(Min=0.108000,Max=0.108000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         InitialDelayRange=(Min=1.200000,Max=1.200000)
+         Name="MeshEmitter1"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.z_tiger_enter.MeshEmitter1'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Summon.summon00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.789286,Color=(B=227,G=214,R=208,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=50.000000
+         Opacity=0.800000
+         FadeOutStartTime=4.300000
+         FadeOut=True
+         FadeInEndTime=1.000000
+         FadeIn=True
+         MaxParticles=1
+         ForcedFade=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.020000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.460000,RelativeSize=0.997000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=25.000000
+         StartSizeRange=(X=(Min=0.244800,Max=0.244800),Y=(Min=0.244800,Max=0.244800),Z=(Min=0.244800,Max=0.244800))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=5.000000,Max=5.000000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         Name="MeshEmitter2"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.z_tiger_enter.MeshEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.532143,Color=(B=200,G=200,R=200,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.800000,Max=0.800000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.252000
+         FadeOut=True
+         FadeInEndTime=0.024000
+         FadeIn=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=15.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.100000,RelativeSize=2.200000)
+         SizeScale(1)=(RelativeTime=0.270000,RelativeSize=3.800000)
+         SizeScale(2)=(RelativeTime=0.630000,RelativeSize=5.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=5.800000)
+         StartSizeRange=(X=(Min=7.200000,Max=7.200000),Y=(Min=7.200000,Max=7.200000),Z=(Min=7.200000,Max=7.200000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0061'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=2
+         SubdivisionStart=1
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.z_tiger_enter.SpriteEmitter6'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         UseDirectionAs=PTDU_Normal
+         Acceleration=(Z=78.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.575000,Color=(B=230,G=211,R=204,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=25.000000
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.300000
+         FadeOutStartTime=0.390000
+         FadeOut=True
+         FadeInEndTime=0.054000
+         FadeIn=True
+         MaxParticles=12
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=15.000000)
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=17.549999,Max=17.549999),Y=(Min=17.549999,Max=17.549999),Z=(Min=17.549999,Max=17.549999))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0068'
+         LifetimeRange=(Min=0.900000,Max=0.900000)
+         InitialDelayRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=7.800000,Max=7.800000))
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.z_tiger_enter.SpriteEmitter7'
+     Begin Object Class=MeshEmitter Name=MeshEmitter3
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Summon.summon01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=216.000015)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=0.234000
+         FadeOut=True
+         FadeInEndTime=0.078000
+         FadeIn=True
+         MaxParticles=18
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-10.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         StartSizeRange=(X=(Min=0.180000,Max=0.180000),Y=(Min=0.180000,Max=0.180000),Z=(Min=0.360000,Max=0.360000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         InitialDelayRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=21.600000,Max=21.600000))
+         Name="MeshEmitter3"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.z_tiger_enter.MeshEmitter3'
+     bNoDelete=False
+     bSunAffect=True
+}

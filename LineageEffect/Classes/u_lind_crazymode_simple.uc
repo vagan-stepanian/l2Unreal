@@ -1,0 +1,73 @@
+class u_lind_crazymode_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter9
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.wooh04.energy_aura'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.600000,Max=0.600000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.200000
+         FadeOutStartTime=0.283500
+         FadeOut=True
+         FadeInEndTime=0.121500
+         FadeIn=True
+         MaxParticles=12
+         StartLocationRange=(X=(Min=-4.000000,Max=4.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-2.000000,Max=2.000000))
+         SpinParticles=True
+         StartSpinRange=(Y=(Min=-0.250000,Max=0.250000),Z=(Min=-0.250000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=3.934000,Max=5.853000),Y=(Min=3.934000,Max=5.853000),Z=(Min=6.643000,Max=10.484000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles2.fx_m_t_3216'
+         LifetimeRange=(Min=0.810000,Max=1.409000)
+         StartVelocityRange=(X=(Min=2.000000,Max=4.000000))
+         Name="MeshEmitter9"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_lind_crazymode_simple.MeshEmitter9'
+     Begin Object Class=MeshEmitter Name=MeshEmitter10
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.sky.sky_line2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.252000,Max=0.427000),Y=(Min=0.766000,Max=0.766000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.300000
+         FadeOutStartTime=1.016260
+         FadeOut=True
+         FadeInEndTime=0.433160
+         FadeIn=True
+         MaxParticles=4
+         StartLocationRange=(X=(Min=-4.000000,Max=4.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-2.000000,Max=2.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.950000)
+         StartSizeRange=(X=(Min=1.500000,Max=2.000000),Y=(Min=1.500000,Max=2.000000),Z=(Min=1.500000,Max=2.000000))
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.AirFilms.auroraHorizon_000'
+         LifetimeRange=(Min=1.466000,Max=1.666000)
+         StartVelocityRange=(X=(Min=2.000000,Max=4.000000))
+         Name="MeshEmitter10"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.u_lind_crazymode_simple.MeshEmitter10'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=49151)
+     DrawScale=3.000000
+     CollisionRadius=6341.628906
+     CollisionHeight=4484.208984
+     SwayRotationOrig=(Yaw=49151)
+     ColLocation=(X=-123.000000,Y=533.000000,Z=-371.000000)
+     bDirectional=True
+}

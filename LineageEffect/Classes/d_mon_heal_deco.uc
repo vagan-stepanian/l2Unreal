@@ -1,0 +1,184 @@
+class d_mon_heal_deco extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter25
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=74,G=94,R=34,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=43,G=50,R=31,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.500000
+         FadeOutStartTime=0.600000
+         FadeOut=True
+         FadeInEndTime=0.250000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationRange=(X=(Min=-15.000000,Max=15.000000),Y=(Min=-15.000000,Max=15.000000),Z=(Min=-15.000000,Max=15.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         RevolutionsPerSecondRange=(Z=(Min=0.100000,Max=0.200000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.750000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5011'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-10.000000,Max=10.000000))
+         Name="SpriteEmitter25"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_mon_heal_deco.SpriteEmitter25'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter26
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=202,G=242,R=253,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.600000
+         FadeOut=True
+         FadeInEndTime=0.120000
+         FadeIn=True
+         MaxParticles=2
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=25.000000,Max=25.000000),Y=(Min=25.000000,Max=25.000000),Z=(Min=25.000000,Max=25.000000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t8228'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter26"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_mon_heal_deco.SpriteEmitter26'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter27
+         ColorScale(0)=(Color=(B=128,R=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=66,G=89,R=253,A=255))
+         Opacity=0.030000
+         FadeOutStartTime=0.430000
+         FadeOut=True
+         FadeInEndTime=0.420000
+         FadeIn=True
+         MaxParticles=15
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=35.000000,Max=35.000000),Y=(Min=35.000000,Max=35.000000),Z=(Min=35.000000,Max=35.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4145'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter27"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_mon_heal_deco.SpriteEmitter27'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter28
+         ProjectionNormal=(X=90.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=160,G=231,R=231,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.900000,Max=0.900000))
+         Opacity=0.960000
+         FadeOutStartTime=0.603000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationRange=(X=(Min=-15.000000,Max=15.000000),Y=(Min=-15.000000,Max=15.000000),Z=(Min=-15.000000,Max=15.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.050000,Max=-0.050000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=14.000000,Max=14.000000),Y=(Min=14.000000,Max=14.000000),Z=(Min=14.000000,Max=14.000000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8137'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=1
+         LifetimeRange=(Min=0.900000,Max=0.900000)
+         Name="SpriteEmitter28"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_mon_heal_deco.SpriteEmitter28'
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.wind_L'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.060000
+         FadeOutStartTime=0.640000
+         FadeOut=True
+         FadeInEndTime=0.250000
+         FadeIn=True
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=1.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         StartSizeRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.300000,Max=0.300000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter5"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.d_mon_heal_deco.MeshEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter29
+         ProjectionNormal=(X=90.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=160,G=231,R=231,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.850000
+         FadeOutStartTime=0.204000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=9
+         StartLocationRange=(X=(Min=-15.000000,Max=15.000000),Y=(Min=-15.000000,Max=15.000000),Z=(Min=-15.000000,Max=15.000000))
+         SpinsPerSecondRange=(X=(Min=-0.050000,Max=-0.050000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=4.000000,Max=8.000000),Y=(Min=4.000000,Max=8.000000),Z=(Min=4.000000,Max=8.000000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t6048'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter29"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.d_mon_heal_deco.SpriteEmitter29'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

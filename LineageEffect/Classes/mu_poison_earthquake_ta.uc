@@ -1,0 +1,120 @@
+class mu_poison_earthquake_ta extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter13
+         Acceleration=(Z=-30.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=130,G=106,R=117,A=255))
+         ColorScale(1)=(RelativeTime=0.907143,Color=(B=57,G=51,R=54,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(A=255))
+         Opacity=0.600000
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=25
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=30.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=4.000000,Max=25.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=25.000000,Max=45.000000),Y=(Min=25.000000,Max=45.000000),Z=(Min=25.000000,Max=45.000000))
+         InitialParticlesPerSecond=140.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0089'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.623000,Max=1.800000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(X=(Min=200.408997,Max=300.408997),Y=(Min=200.408997,Max=300.408997),Z=(Min=-10.000000,Max=10.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter13"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.mu_poison_earthquake_ta.SpriteEmitter13'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter15
+         UseDirectionAs=PTDU_Normal
+         Acceleration=(Z=-3.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Min=0.844000,Max=0.844000),Y=(Min=0.916000,Max=0.916000),Z=(Min=0.753000,Max=0.753000))
+         Opacity=0.810000
+         FadeOutStartTime=0.077000
+         FadeOut=True
+         FadeInEndTime=0.031500
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=35.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.070000,RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=0.270000,RelativeSize=5.000000)
+         SizeScale(2)=(RelativeTime=0.560000,RelativeSize=7.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=8.500000)
+         StartSizeRange=(X=(Min=18.000000,Max=18.000000),Y=(Min=18.000000,Max=18.000000),Z=(Min=18.000000,Max=18.000000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0061'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=2
+         SubdivisionStart=1
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter15"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.mu_poison_earthquake_ta.SpriteEmitter15'
+     Begin Object Class=MeshEmitter Name=MeshEmitter9
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Support.supportenchant01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.355000,Max=0.355000),Z=(Min=0.355000,Max=0.355000))
+         Opacity=0.400000
+         FadeOutStartTime=0.140000
+         FadeOut=True
+         FadeInEndTime=0.036000
+         FadeIn=True
+         MaxParticles=4
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=30.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.050000,Max=0.050000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         Name="MeshEmitter9"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.mu_poison_earthquake_ta.MeshEmitter9'
+     bRotEmitter=True
+     bUseQuake=True
+     ShakeIntensity=80.000000
+     ShakeVector=(Y=1.000000)
+     ShakeRange=200.000000
+     ShakeCount=60
+     ShakeTime=3.000000
+     bNoDelete=False
+     Rotation=(Yaw=63994800)
+     DrawScale=0.050000
+     bDirectional=True
+}

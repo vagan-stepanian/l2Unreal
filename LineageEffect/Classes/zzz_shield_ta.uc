@@ -1,0 +1,171 @@
+class zzz_shield_ta extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.fx_m_sm8160'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=128,G=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=0.116000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         StartSpinRange=(Y=(Min=0.250000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=1.250000,Max=1.250000),Y=(Min=1.250000,Max=1.250000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         StartVelocityRange=(X=(Min=-20.000000,Max=-20.000000))
+         Name="MeshEmitter0"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.zzz_shield_ta.MeshEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=151,G=210,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=165,G=230,R=254,A=255))
+         Opacity=0.350000
+         FadeOutStartTime=0.200000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         Disabled=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=70.000000,Max=70.000000),Y=(Min=70.000000,Max=70.000000),Z=(Min=70.000000,Max=70.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t8233'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.zzz_shield_ta.SpriteEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         RefrUScale=1.000000
+         RefrVScale=1.000000
+         Acceleration=(X=-50.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.700000
+         FadeOutStartTime=0.252000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.250000,Max=0.250000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.300000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=50.000000,Max=50.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8121'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-20.000000,Max=-20.000000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.zzz_shield_ta.SpriteEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter18
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         RefrUScale=1.000000
+         RefrVScale=1.000000
+         Acceleration=(X=-25.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=179,G=255,R=179,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=0.252000
+         FadeOut=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         Disabled=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=30.000000,Max=30.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=12.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8121'
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         Name="SpriteEmitter18"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.zzz_shield_ta.SpriteEmitter18'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter19
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         RefrUScale=0.300000
+         RefrVScale=0.300000
+         Acceleration=(X=-25.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.700000
+         FadeOutStartTime=0.252000
+         FadeOut=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         Disabled=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=30.000000,Max=30.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=12.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8121'
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         Name="SpriteEmitter19"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.zzz_shield_ta.SpriteEmitter19'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter20
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.000000
+         MaxParticles=1
+         RespawnDeadParticles=False
+         Disabled=True
+         UniformSize=True
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8122'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter20"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.zzz_shield_ta.SpriteEmitter20'
+     bNoDelete=False
+}

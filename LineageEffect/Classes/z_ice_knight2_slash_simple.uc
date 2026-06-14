@@ -1,0 +1,97 @@
+class z_ice_knight2_slash_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter14
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Bereth.Rotroll'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.457143,Color=(B=255,G=255,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=74,R=74,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.159500
+         FadeOut=True
+         MaxParticles=2
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Y=(Min=-10.000000,Max=-10.000000),Z=(Min=30.000000,Max=30.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=3.500000,Max=3.500000))
+         StartSpinRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.520000,Max=0.520000),Z=(Min=-0.040000,Max=-0.040000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.750000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.250000,Max=0.250000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles3.fx_m_t4038'
+         LifetimeRange=(Min=0.275000,Max=0.275000)
+         InitialDelayRange=(Min=0.480000,Max=0.480000)
+         StartVelocityRange=(X=(Min=100.000000,Max=100.000000),Z=(Min=-30.000000,Max=-30.000000))
+         VelocityLossRange=(Z=(Min=2.000000,Max=2.000000))
+         Name="MeshEmitter14"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.z_ice_knight2_slash_simple.MeshEmitter14'
+     Begin Object Class=MeshEmitter Name=MeshEmitter15
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=-100.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.446429,Color=(B=255,G=255,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=85,R=85,A=255))
+         Opacity=0.350000
+         FadeOutStartTime=0.092400
+         FadeOut=True
+         FadeInEndTime=0.006600
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=-5.000000)
+         StartLocationRange=(X=(Min=-20.000000,Max=20.000000),Z=(Min=30.000000,Max=30.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Min=2.000000,Max=4.000000))
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=0.750000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=0.500000,Max=1.500000),Y=(Min=0.250000,Max=0.300000),Z=(Min=0.250000,Max=0.300000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.220000,Max=0.220000)
+         StartVelocityRange=(X=(Min=-400.000000,Max=-400.000000))
+         Name="MeshEmitter15"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.z_ice_knight2_slash_simple.MeshEmitter15'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter4
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.000000
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0105'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter4"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.z_ice_knight2_slash_simple.SpriteEmitter4'
+     bOnInitialDelay=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bDirectional=True
+}

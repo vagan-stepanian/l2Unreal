@@ -1,0 +1,128 @@
+class d_he_refheal1_fl extends NSkillProjectile;
+
+defaultproperties
+{
+     Speed=500.000000
+     AccSpeed=1000.000000
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter17
+         ColorScale(0)=(Color=(B=128,G=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=128,R=128,A=255))
+         Opacity=0.000000
+         FadeOutStartTime=0.245000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         MaxParticles=3
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=5.000000,Max=10.000000),Y=(Min=5.000000,Max=10.000000),Z=(Min=5.000000,Max=10.000000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4009'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         Name="SpriteEmitter17"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_he_refheal1_fl.SpriteEmitter17'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter19
+         ColorScale(0)=(Color=(B=150,G=255,R=45,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(G=255,R=128,A=255))
+         ColorScaleRepeats=10.000000
+         Opacity=0.400000
+         FadeOutStartTime=0.200000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=60
+         WeatherSoundCheck=True
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.010000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=6.500000,Max=6.500000),Y=(Min=6.500000,Max=6.500000),Z=(Min=6.500000,Max=6.500000))
+         InitialParticlesPerSecond=80.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8137'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionStart=3
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-0.100000,Max=0.100000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-0.100000,Max=0.100000))
+         Name="SpriteEmitter19"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_he_refheal1_fl.SpriteEmitter19'
+     Begin Object Class=TrailEmitter Name=TrailEmitter7
+         TrailShadeType=PTTST_PointLife
+         MaxPointsPerTrail=100
+         UseCrossedSheets=True
+         PointLifeTime=0.400000
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=129,G=220,R=254,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=129,G=220,R=254,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=1.000000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         AutoReset=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=6.000000,Max=6.000000),Z=(Min=6.000000,Max=6.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t8282'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="TrailEmitter7"
+     End Object
+     Emitters(2)=TrailEmitter'LineageEffect.d_he_refheal1_fl.TrailEmitter7'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter23
+         ColorScale(0)=(Color=(B=128,G=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=128,R=128,A=255))
+         FadeOutStartTime=0.245000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=40
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-2.000000,Max=2.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.020000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=1.000000,Max=2.000000),Y=(Min=1.000000,Max=2.000000),Z=(Min=1.000000,Max=2.000000))
+         InitialParticlesPerSecond=60.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-10.000000,Max=10.000000))
+         Name="SpriteEmitter23"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_he_refheal1_fl.SpriteEmitter23'
+     bRotEmitter=True
+     RotPerSecond=(Roll=12288)
+     bLightChanged=True
+     bSunAffect=True
+     Rotation=(Roll=226218285)
+     DrawScale=0.100000
+     SwayRotationOrig=(Roll=225491180)
+     bDirectional=True
+}

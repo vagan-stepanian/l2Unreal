@@ -1,0 +1,114 @@
+class d_kn_chain_chann extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=BeamEmitter Name=BeamEmitter1
+         BeamDistanceRange=(Min=500.000000,Max=500.000000)
+         DetermineEndPointBy=PTEP_Actor
+         BeamTextureUScale=34.000000
+         RotatingSheets=3
+         TriggerEndpoint=True
+         LowFrequencyPoints=10
+         LFScaleFactors(0)=(FrequencyScale=(X=11.000000,Y=9.000000,Z=16.000000),RelativeLength=0.370000)
+         HFScaleFactors(0)=(FrequencyScale=(Z=-1.500000),RelativeLength=0.300000)
+         HFScaleFactors(1)=(FrequencyScale=(Z=1.500000),RelativeLength=0.650000)
+         UseLowFrequencyScale=True
+         NoiseDeterminesEndPoint=True
+         DynamicHFNoisePointsRange=(Min=0.500000,Max=1.000000)
+         bApllyBezierCurve=True
+         ControlPoints(0)=(oscillationRange=(X=50.000000,Y=-10.000000,Z=-30.000000),Frequency=0.750000,locationratio=0.250000)
+         RenderingDensity=10
+         BranchProbability=(Min=0.600000,Max=1.000000)
+         BranchEmitter=1
+         BranchSpawnAmountRange=(Min=0.480000,Max=1.000000)
+         FindEndPointCnt=1
+         ColorScale(0)=(Color=(B=128,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=128,G=128,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.600000,Max=0.600000))
+         FadeOutStartTime=0.200000
+         MaxParticles=1
+         RevolutionCenterOffsetRange=(X=(Max=89.000000),Y=(Max=89.000000),Z=(Max=89.000000))
+         RevolutionsPerSecondRange=(X=(Min=-1.000000,Max=36.000000))
+         StartSizeRange=(X=(Min=1.500000,Max=1.500000),Y=(Min=1.500000,Max=1.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=0.001000,Max=0.001000)
+         TriggerDisabled=False
+         ResetOnTrigger=True
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="BeamEmitter1"
+     End Object
+     Emitters(0)=BeamEmitter'LineageEffect.d_kn_chain_chann.BeamEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=128,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.257143,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=64,G=128,R=255,A=255))
+         MaxParticles=3
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.530000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=8.000000,Max=12.000000),Y=(Min=8.000000,Max=12.000000),Z=(Min=8.000000,Max=12.000000))
+         InitialParticlesPerSecond=3.000000
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8062'
+         LifetimeRange=(Min=0.200000,Max=0.200000)
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_kn_chain_chann.SpriteEmitter7'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter12
+         Acceleration=(X=-4.535625)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=182,G=182,R=182,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.750000,Max=0.750000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.870000
+         FadeOutStartTime=0.200000
+         FadeOut=True
+         FadeInEndTime=0.040000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         StartLocationRange=(X=(Max=50.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=5.000000,Max=5.000000))
+         RevolutionsPerSecondRange=(Z=(Min=1.500000,Max=1.500000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.070000,RelativeSize=1.700000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=2.200000)
+         SizeScale(2)=(RelativeTime=0.430000,RelativeSize=2.600000)
+         SizeScale(3)=(RelativeTime=0.770000,RelativeSize=2.900000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=3.000000,Max=4.000000),Y=(Min=3.000000,Max=4.000000),Z=(Min=3.000000,Max=4.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8134'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=0.700000,Max=1.000000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(Y=(Min=-1.171875,Max=1.171875),Z=(Min=-1.171875,Max=1.171875))
+         VelocityLossRange=(X=(Min=4.000000,Max=4.000000),Y=(Min=4.000000,Max=4.000000),Z=(Min=4.000000,Max=4.000000))
+         Name="SpriteEmitter12"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_kn_chain_chann.SpriteEmitter12'
+     bLightChanged=True
+     bNoDelete=False
+     Tag="Emitter"
+     bSunAffect=True
+     DrawScale=0.200000
+     bUnlit=False
+}

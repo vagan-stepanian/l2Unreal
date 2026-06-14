@@ -1,0 +1,125 @@
+class d_ro_reverse_swca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter3
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.spear04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=127,G=127,R=127,A=255))
+         ColorScale(1)=(RelativeTime=0.064286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=0.125000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.232143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(4)=(RelativeTime=0.346429,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(5)=(RelativeTime=0.382143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(6)=(RelativeTime=0.439286,Color=(B=194,G=194,R=194,A=255))
+         ColorScale(7)=(RelativeTime=0.482143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(8)=(RelativeTime=0.539286,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(9)=(RelativeTime=0.589286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(10)=(RelativeTime=0.646429,Color=(B=193,G=193,R=193,A=255))
+         ColorScale(11)=(RelativeTime=0.675000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(12)=(RelativeTime=0.750000,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(13)=(RelativeTime=0.789286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(14)=(RelativeTime=0.857143,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(15)=(RelativeTime=0.907143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(16)=(RelativeTime=0.964286,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(17)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.467000,Max=0.467000),Y=(Min=0.520000,Max=0.520000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.500000
+         FadeOutStartTime=0.200000
+         FadeOut=True
+         FadeInEndTime=0.045000
+         FadeIn=True
+         MaxParticles=2
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(Z=0.000000)
+         SpinsPerSecondRange=(Z=(Min=3.000000,Max=3.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=0.060000,Max=0.060000),Y=(Min=0.050000,Max=0.050000),Z=(Min=0.050000,Max=0.050000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         Name="MeshEmitter3"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_ro_reverse_swca_simple.MeshEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter28
+         Acceleration=(Z=5.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=160,G=160,R=160,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=90.000000
+         Opacity=0.700000
+         FadeOutStartTime=0.040000
+         FadeOut=True
+         MaxParticles=2
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.125000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.080000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=4.000000,Max=4.000000),Y=(Min=4.000000,Max=4.000000),Z=(Min=4.000000,Max=4.000000))
+         InitialParticlesPerSecond=100000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3051'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         Name="SpriteEmitter28"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_ro_reverse_swca_simple.SpriteEmitter28'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter30
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.953000,Max=0.953000),Y=(Min=0.468000,Max=0.468000),Z=(Min=0.640000,Max=0.640000))
+         Opacity=0.650000
+         FadeOutStartTime=0.126400
+         FadeOut=True
+         FadeInEndTime=0.063200
+         FadeIn=True
+         MaxParticles=4
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinCCWorCW=(X=1.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.170000,RelativeSize=1.800000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5112'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         StartVelocityRange=(X=(Min=-50.000000,Max=-50.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000))
+         Name="SpriteEmitter30"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_ro_reverse_swca_simple.SpriteEmitter30'
+     RotPerSecond=(Roll=191440)
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Roll=-571535215)
+     DrawScale=0.100000
+     SwayRotationOrig=(Roll=-571535215)
+     bDirectional=True
+}

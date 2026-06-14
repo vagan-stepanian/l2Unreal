@@ -1,0 +1,140 @@
+class d_su_seriousfear_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=160,G=160,R=160,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=90.000000
+         ColorMultiplierRange=(X=(Min=0.483000,Max=0.483000),Y=(Min=0.900000,Max=0.900000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.780000
+         FadeOutStartTime=0.265000
+         FadeOut=True
+         FadeInEndTime=0.095000
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=25.000000)
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.080000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=15.000000,Max=20.000000),Y=(Min=15.000000,Max=20.000000),Z=(Min=15.000000,Max=20.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0105'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_su_seriousfear_ca_simple.SpriteEmitter3'
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.Impact.impact_tx'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=7,G=113,R=190,A=255))
+         ColorScale(1)=(RelativeTime=0.742857,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.819000,Max=0.819000),Y=(Min=0.476000,Max=0.476000),Z=(Min=0.288000,Max=0.288000))
+         FadeOutStartTime=0.145000
+         FadeOut=True
+         FadeInEndTime=0.060000
+         FadeIn=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=25.000000)
+         SpinParticles=True
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.500000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.300000),Y=(Min=1.000000,Max=1.300000),Z=(Min=1.000000,Max=1.300000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles3.fx_m_t5018'
+         LifetimeRange=(Min=0.350000,Max=0.350000)
+         InitialDelayRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(X=(Min=-25.000000,Max=-25.000000))
+         Name="MeshEmitter5"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_su_seriousfear_ca_simple.MeshEmitter5'
+     Begin Object Class=MeshEmitter Name=MeshEmitter8
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.Impact.impact_tx'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=7,G=113,R=190,A=255))
+         ColorScale(1)=(RelativeTime=0.742857,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.556000,Max=0.556000),Z=(Min=0.251000,Max=0.251000))
+         Opacity=0.680000
+         FadeOutStartTime=0.100000
+         FadeOut=True
+         FadeInEndTime=0.040000
+         FadeIn=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=25.000000)
+         SpinParticles=True
+         StartSpinRange=(Z=(Min=-0.010000,Max=0.010000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.400000,RelativeSize=2.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.200000)
+         StartSizeRange=(X=(Min=1.500000,Max=1.500000),Y=(Min=1.500000,Max=1.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles7.fx_m_t7115'
+         LifetimeRange=(Min=0.400000,Max=0.500000)
+         StartVelocityRange=(X=(Min=20.000000,Max=20.000000))
+         Name="MeshEmitter8"
+     End Object
+     Emitters(6)=MeshEmitter'LineageEffect.d_su_seriousfear_ca_simple.MeshEmitter8'
+     Begin Object Class=MeshEmitter Name=MeshEmitter9
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.wind_tonado'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=235,R=193,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.512000,Max=0.512000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.850000
+         FadeOutStartTime=0.203000
+         FadeOut=True
+         FadeInEndTime=0.042000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=5
+         RespawnDeadParticles=False
+         Disabled=True
+         StartLocationOffset=(Z=25.000000)
+         SphereRadiusRange=(Min=1.000000,Max=1.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=80.000000,Max=180.000000),Z=(Min=100.000000,Max=100.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=1.000000)
+         SpinsPerSecondRange=(Z=(Min=0.500000,Max=0.700000))
+         StartSpinRange=(Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=-1.500000,Max=-1.500000),Y=(Min=0.500000,Max=0.700000),Z=(Min=0.500000,Max=0.700000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles5.fx_m_t8156'
+         LifetimeRange=(Min=0.350000,Max=0.350000)
+         StartVelocityRange=(X=(Min=15.000000,Max=15.000000),Z=(Min=10.000000,Max=10.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="MeshEmitter9"
+     End Object
+     Emitters(7)=MeshEmitter'LineageEffect.d_su_seriousfear_ca_simple.MeshEmitter9'
+     bNoDelete=False
+}

@@ -1,0 +1,84 @@
+class s_u520_worm extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter5
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=-3.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=244,G=89,R=6,A=255))
+         ColorScale(1)=(RelativeTime=0.432143,Color=(B=245,G=107,R=152,A=255))
+         ColorScale(2)=(RelativeTime=0.957143,Color=(B=251,G=174,R=198,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=132,G=181,R=255,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=1.410000
+         FadeOut=True
+         FadeInEndTime=0.750000
+         FadeIn=True
+         MaxParticles=28
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-4.000000,Max=4.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=3.000000,Max=3.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.020000,Max=0.020000))
+         StartSpinRange=(X=(Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=3.000000,Max=4.000000),Y=(Min=3.000000,Max=6.000000),Z=(Min=3.000000,Max=4.000000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4012'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=20
+         LifetimeRange=(Min=2.000000,Max=3.000000)
+         StartVelocityRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=12.000000,Max=12.000000))
+         GetVelocityDirectionFrom=PTVD_AddRadial
+         Name="SpriteEmitter5"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.s_u520_worm.SpriteEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=-2.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=191,G=118,R=235,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.656000,Max=0.656000),Z=(Min=0.310000,Max=0.310000))
+         Opacity=0.700000
+         FadeOutStartTime=1.590000
+         FadeOut=True
+         FadeInEndTime=1.140000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=200
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-20.000000,Max=20.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=3.000000,Max=3.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.200000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=2.500000,Max=2.500000),Y=(Min=3.000000,Max=8.000000),Z=(Min=2.000000,Max=5.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1060'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=2.500000,Max=3.000000)
+         StartVelocityRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=10.000000,Max=10.000000))
+         GetVelocityDirectionFrom=PTVD_AddRadial
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.s_u520_worm.SpriteEmitter8'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bDirectional=True
+}

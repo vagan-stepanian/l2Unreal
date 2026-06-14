@@ -1,0 +1,181 @@
+class u_su_spunex1_r_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter49
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.557143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         Opacity=0.800000
+         FadeOutStartTime=0.385000
+         FadeOut=True
+         MaxParticles=15
+         IsRepresentativeParticle=False
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-20.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Max=5.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.250000),Y=(Min=15.000000,Max=30.000000),Z=(Min=0.150000,Max=0.250000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=100.000000,Max=150.000000))
+         Name="SpriteEmitter49"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_su_spunex1_r_ca.SpriteEmitter49'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter50
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.247500
+         FadeOut=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-30.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=7.000000,Max=7.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=7.000000,Max=7.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         StartVelocityRange=(Z=(Min=150.000000,Max=150.000000))
+         VelocityLossRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         Name="SpriteEmitter50"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_su_spunex1_r_ca.SpriteEmitter50'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter51
+         Acceleration=(Z=12.500000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=108,G=190,R=210,A=255))
+         ColorScale(1)=(RelativeTime=0.692857,Color=(B=83,G=69,R=254,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=192,G=128,R=128,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         Opacity=0.400000
+         FadeOutStartTime=0.750000
+         FadeOut=True
+         FadeInEndTime=0.195000
+         FadeIn=True
+         MaxParticles=25
+         IsRepresentativeParticle=False
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=5.000000,Max=5.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Max=0.250000),Y=(Max=1.000000),Z=(Max=1.000000))
+         RevolutionsPerSecondRange=(X=(Min=-0.010000,Max=0.010000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-0.100000,Max=0.100000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.070000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=7.500000,Max=17.500000),Y=(Min=7.500000,Max=17.500000),Z=(Min=7.500000,Max=17.500000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t6081'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.400000,Max=1.500000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         StartVelocityRange=(X=(Min=125.000000,Max=150.000000),Y=(Min=125.000000,Max=150.000000),Z=(Min=125.000000,Max=150.000000))
+         VelocityLossRange=(X=(Min=7.000000,Max=7.000000),Y=(Min=7.000000,Max=7.000000),Z=(Min=7.000000,Max=7.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter51"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_su_spunex1_r_ca.SpriteEmitter51'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter8
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.203000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=5.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="VertMeshEmitter8"
+     End Object
+     Emitters(3)=VertMeshEmitter'LineageEffect.u_su_spunex1_r_ca.VertMeshEmitter8'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter52
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=10.000000,Max=10.000000),Z=(Min=-5.000000,Max=-5.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=2.500000,Max=2.500000))
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'FX_E_T.warpgate.fx_m_t8032'
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeVelocity=(Z=5.000000))
+         VelocityScale(1)=(RelativeTime=0.500000,RelativeVelocity=(Z=-5.000000))
+         VelocityScale(2)=(RelativeTime=1.000000,RelativeVelocity=(Z=5.000000))
+         VelocityScaleRepeats=2.000000
+         Name="SpriteEmitter52"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.u_su_spunex1_r_ca.SpriteEmitter52'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter9
+         VertexMesh=VertMesh'LineageEffectMeshes2.pointplane25f'
+         UseMeshBlendMode=False
+         Acceleration=(Z=150.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.485714,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.600000
+         FadeOutStartTime=0.378000
+         FadeOut=True
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=10.000000)
+         AddLocationFromOtherEmitter=4
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         StartVelocityRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=-50.000000,Max=-50.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="VertMeshEmitter9"
+     End Object
+     Emitters(5)=VertMeshEmitter'LineageEffect.u_su_spunex1_r_ca.VertMeshEmitter9'
+     bNoDelete=False
+}

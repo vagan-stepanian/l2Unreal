@@ -1,0 +1,109 @@
+class u_er_wa_pmental_trail extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter32
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.682000
+         FadeOut=True
+         FadeInEndTime=0.319000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=4.000000,Max=4.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(Z=(Max=1.000000))
+         RevolutionsPerSecondRange=(Z=(Min=1.000000,Max=2.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.100000,Max=0.100000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=None
+         TextureUSubdivisions=4
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=1.100000,Max=1.100000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter32"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_er_wa_pmental_trail.SpriteEmitter32'
+     Begin Object Class=TrailEmitter Name=TrailEmitter32
+         TrailShadeType=PTTST_PointLife
+         MaxPointsPerTrail=60
+         PointLifeTime=0.900000
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(G=255,R=128,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.360000,Max=0.360000))
+         Opacity=0.600000
+         FadeOutStartTime=0.690000
+         FadeOut=True
+         FadeInEndTime=0.170000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         DestroyWhenHitTarget=False
+         AutoReset=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4148'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="TrailEmitter32"
+     End Object
+     Emitters(1)=TrailEmitter'LineageEffect.u_er_wa_pmental_trail.TrailEmitter32'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter33
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.800000
+         FadeOutStartTime=0.168000
+         FadeOut=True
+         FadeInEndTime=0.088000
+         FadeIn=True
+         MaxParticles=15
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=2.000000,Max=2.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0059'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=2
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.384000,Max=0.384000)
+         StartVelocityRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter33"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_er_wa_pmental_trail.SpriteEmitter33'
+     AutoDestroy=False
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.050000
+     bDirectional=True
+}

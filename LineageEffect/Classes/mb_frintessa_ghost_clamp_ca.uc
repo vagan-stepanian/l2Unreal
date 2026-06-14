@@ -1,0 +1,126 @@
+class mb_frintessa_ghost_clamp_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter71
+         Acceleration=(X=-5.000000,Z=10.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=6,G=6,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=29,G=70,R=177,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.382000,Max=0.382000),Z=(Min=0.207000,Max=0.207000))
+         Opacity=0.500000
+         FadeOutStartTime=0.615000
+         FadeOut=True
+         FadeInEndTime=0.375000
+         FadeIn=True
+         MaxParticles=30
+         StartLocationOffset=(X=70.000000)
+         StartLocationRange=(X=(Min=-20.000000,Max=20.000000),Y=(Min=-20.000000,Max=20.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-150.000000,Max=150.000000),Y=(Min=100.000000,Max=100.000000),Z=(Min=20.000000,Max=20.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.125000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=10.000000,Max=25.000000),Y=(Min=10.000000,Max=25.000000),Z=(Min=10.000000,Max=25.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures2.balakas.fx_m_t2011'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionStart=1
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=-50.000000,Max=50.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=2.000000),Y=(Min=1.000000,Max=2.000000),Z=(Min=1.000000,Max=2.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter71"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.mb_frintessa_ghost_clamp_ca.SpriteEmitter71'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter72
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.260714,Color=(B=180,G=180,R=180,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         FadeOutStartTime=0.225000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         MaxParticles=30
+         StartLocationOffset=(X=70.000000)
+         StartLocationRange=(X=(Min=-4.000000,Max=4.000000),Y=(Min=-4.000000,Max=4.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-160.000000,Max=160.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=8.000000,Max=8.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(X=(Min=0.250000,Max=0.800000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=0.500000,Max=2.000000),Y=(Min=0.500000,Max=2.000000),Z=(Min=0.500000,Max=2.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3044'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=8
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=40
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(X=(Min=50.000000,Max=50.000000))
+         VelocityLossRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter72"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.mb_frintessa_ghost_clamp_ca.SpriteEmitter72'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter164
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(R=168,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=128,G=204,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.717857,Color=(B=252,G=215,R=169,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.150000
+         FadeOutStartTime=0.345000
+         FadeOut=True
+         FadeInEndTime=0.105000
+         FadeIn=True
+         MaxParticles=30
+         StartLocationOffset=(X=70.000000)
+         StartLocationRange=(X=(Min=-10.000000,Max=-5.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-3.000000,Max=3.000000))
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=15.000000),Y=(Min=30.000000,Max=40.000000),Z=(Min=15.000000,Max=30.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2051'
+         TextureUSubdivisions=5
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=19
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=50.000000,Max=50.000000))
+         VelocityLossRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter164"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.mb_frintessa_ghost_clamp_ca.SpriteEmitter164'
+     bDynamicActorFilterState=True
+     bLightChanged=True
+     bNoDelete=False
+     DrawScale=0.500000
+     SwayRotationOrig=(Yaw=16384)
+     bDirectional=True
+}

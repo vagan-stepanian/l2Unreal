@@ -1,0 +1,121 @@
+class mb_valakas_step_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter19
+         Acceleration=(X=-80.000000,Z=25.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.409000,Max=0.409000),Y=(Min=0.353000,Max=0.353000),Z=(Min=0.286000,Max=0.286000))
+         Opacity=0.250000
+         FadeOutStartTime=0.225000
+         FadeOut=True
+         UseActorForces=True
+         MaxParticles=30
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=15.000000)
+         StartLocationRange=(X=(Min=-30.000000,Max=30.000000),Y=(Min=-30.000000,Max=30.000000),Z=(Min=-5.000000,Max=5.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=48.000000,Max=90.000000),Z=(Min=2.000000,Max=20.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.260000)
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.250000))
+         StartSpinRange=(X=(Min=-0.255000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.020000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.050000,RelativeSize=4.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=7.000000)
+         StartSizeRange=(X=(Min=15.000000,Max=25.000000),Y=(Min=15.000000,Max=25.000000),Z=(Min=15.000000,Max=25.000000))
+         InitialParticlesPerSecond=5000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures2.balakas.fx_m_t2011'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionStart=1
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.800000,Max=1.200000)
+         StartVelocityRange=(X=(Min=500.000000,Max=500.000000),Y=(Min=500.000000,Max=500.000000),Z=(Min=5.000000,Max=10.000000))
+         VelocityLossRange=(X=(Min=2.500000,Max=2.500000),Y=(Min=2.500000,Max=2.500000),Z=(Max=1.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter19"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.mb_valakas_step_simple.SpriteEmitter19'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter20
+         Acceleration=(X=-20.000000,Z=-100.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.585000,Max=0.585000),Z=(Min=0.307000,Max=0.307000))
+         FadeOutStartTime=0.460000
+         FadeOut=True
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=90.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.125000))
+         StartSpinRange=(X=(Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.balakas.fx_m_t1037'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.500000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-160.000000,Max=160.000000),Y=(Min=-160.000000,Max=160.000000),Z=(Min=60.000000,Max=150.000000))
+         VelocityLossRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=0.200000))
+         Name="SpriteEmitter20"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.mb_valakas_step_simple.SpriteEmitter20'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter47
+         Acceleration=(Z=-80.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.341000,Max=0.341000),Z=(Min=0.084000,Max=0.084000))
+         Opacity=0.700000
+         FadeOutStartTime=0.290000
+         FadeOut=True
+         FadeInEndTime=0.050000
+         FadeIn=True
+         MaxParticles=8
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=5.000000,Max=10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.025000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.080000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=20.000000,Max=50.000000),Y=(Min=20.000000,Max=50.000000),Z=(Min=20.000000,Max=50.000000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.balakas.fx_m_t2013'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=4
+         SubdivisionEnd=7
+         LifetimeRange=(Min=0.800000,Max=1.000000)
+         StartVelocityRange=(X=(Min=30.000000,Max=50.000000),Y=(Min=-60.000000,Max=60.000000),Z=(Min=20.000000,Max=80.000000))
+         VelocityLossRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         Name="SpriteEmitter47"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.mb_valakas_step_simple.SpriteEmitter47'
+     bNoDelete=False
+     bSunAffect=True
+     CollisionRadius=548.463562
+     CollisionHeight=387.822296
+     bCollideActors=True
+     bDirectional=True
+}

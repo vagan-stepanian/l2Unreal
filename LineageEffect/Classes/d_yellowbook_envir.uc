@@ -1,0 +1,200 @@
+class d_yellowbook_envir extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter76
+         Acceleration=(Z=4.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=39,G=193,R=226,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=58,G=159,R=220,A=255))
+         ColorMultiplierRange=(X=(Min=0.366000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Max=0.500000))
+         Opacity=0.610000
+         FadeOutStartTime=1.060000
+         FadeOut=True
+         FadeInEndTime=0.300000
+         FadeIn=True
+         MaxParticles=20
+         StartLocationOffset=(Z=30.000000)
+         StartLocationRange=(X=(Min=-30.000000,Max=30.000000),Y=(Min=-30.000000,Max=30.000000),Z=(Min=-5.000000,Max=5.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=0.100000,Max=0.500000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.300000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.750000)
+         StartSizeRange=(X=(Min=1.000000,Max=5.000000),Y=(Min=1.000000,Max=5.000000),Z=(Min=1.000000,Max=5.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'FX_E_T.eva_effect.eva_effect_map32'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionScale(0)=1.000000
+         SubdivisionScale(1)=-1.000000
+         SubdivisionEnd=1
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=90.000000))
+         Name="SpriteEmitter76"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_yellowbook_envir.SpriteEmitter76'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter3
+         VertexMesh=VertMesh'LineageEffectMeshes.warpPointlineUP'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=160,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=160,A=255))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.400000,Max=0.400000))
+         Opacity=0.200000
+         FadeOutStartTime=1.260000
+         FadeOut=True
+         FadeInEndTime=0.600000
+         FadeIn=True
+         MaxParticles=20
+         StartLocationOffset=(Z=3.000000)
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-5.000000,Max=5.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Max=60.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=0.150000,Max=0.150000),Y=(Min=0.150000,Max=0.150000),Z=(Max=1.000000))
+         InitialParticlesPerSecond=13.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(X=(Min=0.100000,Max=0.100000),Z=(Min=10.000000,Max=20.000000))
+         Name="VertMeshEmitter3"
+     End Object
+     Emitters(1)=VertMeshEmitter'LineageEffect.d_yellowbook_envir.VertMeshEmitter3'
+     Begin Object Class=MeshEmitter Name=MeshEmitter15
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.line_glow2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=135,G=214,R=248,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=146,G=215,R=237,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.250000
+         FadeOutStartTime=0.510000
+         FadeOut=True
+         FadeInEndTime=0.500000
+         FadeIn=True
+         MaxParticles=3
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=0.100000,Max=0.300000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         StartSizeRange=(X=(Min=0.100000,Max=0.150000),Y=(Min=0.100000,Max=0.150000),Z=(Min=1.400000,Max=1.400000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter15"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_yellowbook_envir.MeshEmitter15'
+     Begin Object Class=MeshEmitter Name=MeshEmitter57
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.line_glow2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=2,G=95,R=125,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=1,G=92,R=126,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.180000
+         FadeOutStartTime=0.500000
+         FadeOut=True
+         FadeInEndTime=0.500000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationOffset=(Z=3.000000)
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=0.100000,Max=0.300000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         StartSizeRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.200000,Max=0.200000),Z=(Min=0.650000,Max=0.900000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter57"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_yellowbook_envir.MeshEmitter57'
+     Begin Object Class=MeshEmitter Name=MeshEmitter56
+         StaticMesh=StaticMesh'FX_E_S.warpgate.warpGate_Lightmesh_ground'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=129,G=254,R=182,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=130,G=253,R=185,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.580000,Max=0.580000))
+         Opacity=0.040000
+         FadeOutStartTime=0.880000
+         FadeOut=True
+         FadeInEndTime=0.200000
+         FadeIn=True
+         MaxParticles=6
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.600000)
+         StartSizeRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-1.000000),Z=(Min=70.000000,Max=70.000000))
+         Name="MeshEmitter56"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.d_yellowbook_envir.MeshEmitter56'
+     Begin Object Class=MeshEmitter Name=MeshEmitter55
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.block_line'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=49,G=156,R=183,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=51,G=128,R=198,A=255))
+         Opacity=0.260000
+         FadeOutStartTime=2.400000
+         FadeOut=True
+         FadeInEndTime=0.560000
+         FadeIn=True
+         MaxParticles=2
+         WeatherSoundCheck=True
+         StartLocationOffset=(Z=35.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSizeRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         StartVelocityRange=(Z=(Max=1.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter55"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.d_yellowbook_envir.MeshEmitter55'
+     Begin Object Class=MeshEmitter Name=MeshEmitter19
+         StaticMesh=StaticMesh'FX_E_S.SSQ_altar01_02_np'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.300000,Max=0.300000))
+         Opacity=0.500000
+         FadeOutStartTime=4.000000
+         MaxParticles=1
+         StartLocationOffset=(Z=67.000000)
+         UseRotationFrom=PTRS_Offset
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.125000,Max=0.125000))
+         StartSizeRange=(X=(Min=0.450000,Max=0.450000),Y=(Min=0.450000,Max=0.450000),Z=(Min=0.450000,Max=0.450000))
+         LifetimeRange=(Min=8.000000,Max=8.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter19"
+     End Object
+     Emitters(6)=MeshEmitter'LineageEffect.d_yellowbook_envir.MeshEmitter19'
+     bNoDelete=False
+     DrawScale=0.500000
+     bDirectional=True
+}

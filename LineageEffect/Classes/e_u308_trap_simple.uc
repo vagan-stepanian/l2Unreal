@@ -1,0 +1,111 @@
+class e_u308_trap_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter82
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.Barler_bright0'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=6,G=134,R=249,A=255))
+         ColorScale(1)=(RelativeTime=0.307143,Color=(B=66,G=132,R=240,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=213,G=122,R=13,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.200000,Max=0.200000))
+         Opacity=0.300000
+         FadeOutStartTime=1.100000
+         FadeOut=True
+         FadeInEndTime=0.500000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=20.000000)
+         SpinParticles=True
+         StartSpinRange=(Y=(Min=0.500000,Max=0.500000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=1.254000,Max=1.254000),Y=(Min=1.254000,Max=1.254000),Z=(Min=0.800000,Max=0.800000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         VelocityLossRange=(Z=(Min=5.000000,Max=5.000000))
+         Name="MeshEmitter82"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.e_u308_trap_simple.MeshEmitter82'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter161
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.328571,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=2,G=66,R=255,A=255))
+         ColorMultiplierRange=(X=(Max=1.000000),Y=(Min=0.900000,Max=0.900000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.600000
+         FadeOutStartTime=1.500000
+         FadeOut=True
+         FadeInEndTime=0.420000
+         FadeIn=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=1.000000)
+         StartLocationRange=(Z=(Max=30.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.660000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.710000,RelativeSize=0.300000)
+         SizeScale(2)=(RelativeTime=0.850000,RelativeSize=1.500000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=40.000000),Y=(Min=20.000000,Max=40.000000),Z=(Min=20.000000,Max=40.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2071'
+         TextureUSubdivisions=5
+         TextureVSubdivisions=5
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=28
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="SpriteEmitter161"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u308_trap_simple.SpriteEmitter161'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter162
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.264286,Color=(B=232,G=232,R=232,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=20.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.200000,Max=0.200000))
+         FadeOutStartTime=1.025000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         MaxParticles=2
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=90.000000),Z=(Min=50.000000,Max=50.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.070000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=54.000000,Max=54.000000),Y=(Min=36.000000,Max=36.000000),Z=(Min=54.000000,Max=54.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0135'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter162"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.e_u308_trap_simple.SpriteEmitter162'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bUnlit=False
+}

@@ -1,0 +1,108 @@
+class d_kn_eledefense1_ta_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter50
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Bereth.round_roll'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=157,G=189,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.596429,Color=(B=185,G=185,R=185,A=255))
+         ColorScale(2)=(RelativeTime=0.882143,Color=(A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.400000,Max=0.400000))
+         Opacity=0.060000
+         FadeOutStartTime=0.562500
+         FadeOut=True
+         FadeInEndTime=0.237500
+         FadeIn=True
+         MaxParticles=18
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-15.000000,Max=-10.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=85.000000,Max=95.000000),Z=(Min=16.000000,Max=16.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-0.001000,Max=0.001000),Z=(Min=-0.001000,Max=0.001000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.270000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.600000)
+         StartSizeRange=(X=(Min=0.250000,Max=0.250000),Y=(Min=0.250000,Max=0.250000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.250000,Max=1.250000)
+         Name="MeshEmitter50"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_kn_eledefense1_ta_simple.MeshEmitter50'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter38
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=0.560000
+         FadeOut=True
+         FadeInEndTime=0.140000
+         FadeIn=True
+         MaxParticles=6
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=60.000000,Max=60.000000),Y=(Min=60.000000,Max=60.000000),Z=(Min=60.000000,Max=60.000000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7114'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter38"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_kn_eledefense1_ta_simple.SpriteEmitter38'
+     Begin Object Class=MeshEmitter Name=MeshEmitter52
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.etcpotion00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=15.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.250000,Max=0.250000))
+         Opacity=0.350000
+         FadeOutStartTime=0.528000
+         FadeOut=True
+         FadeInEndTime=0.128000
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-20.000000)
+         StartLocationRange=(Z=(Min=-20.000000,Max=-10.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=2.000000,Max=2.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-0.010000,Max=0.010000),Z=(Min=-0.010000,Max=0.010000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.100000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.900000)
+         SizeScaleRepeats=1.000000
+         StartSizeRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.200000,Max=0.200000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         StartVelocityRange=(Z=(Min=30.000000,Max=30.000000))
+         Name="MeshEmitter52"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_kn_eledefense1_ta_simple.MeshEmitter52'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

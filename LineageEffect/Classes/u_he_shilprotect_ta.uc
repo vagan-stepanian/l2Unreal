@@ -1,0 +1,179 @@
+class u_he_shilprotect_ta extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter0
+         VertexMesh=VertMesh'LineageEffectMeshes.sh555'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         FadeOutStartTime=0.198000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=50.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=0.190000,Max=0.190000),Y=(Min=0.190000,Max=0.190000),Z=(Min=-0.200000,Max=-0.200000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.550000,Max=0.550000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="VertMeshEmitter0"
+     End Object
+     Emitters(0)=VertMeshEmitter'LineageEffect.u_he_shilprotect_ta.VertMeshEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=64,G=79,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.321429,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.657143,Color=(B=128,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=118,G=183,R=254,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.290000
+         FadeOutStartTime=0.210000
+         FadeOut=True
+         FadeInEndTime=0.065000
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=5.000000,Max=5.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=30.000000,Max=30.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8023'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_he_shilprotect_ta.SpriteEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         UseDirectionAs=PTDU_Normal
+         Acceleration=(Z=-80.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=253,G=230,R=66,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=251,G=233,R=15,A=255))
+         Opacity=0.590000
+         FadeOutStartTime=0.100000
+         FadeOut=True
+         FadeInEndTime=0.030000
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=58.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=0.190000,RelativeSize=0.800000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=30.000000,Max=30.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8023'
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(Z=(Min=-60.000000,Max=-60.000000))
+         VelocityLossRange=(Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_he_shilprotect_ta.SpriteEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter4
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.140000
+         FadeOut=True
+         FadeInEndTime=0.070000
+         FadeIn=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=15.000000,Max=40.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=13.000000,Max=13.000000),Y=(Min=13.000000,Max=13.000000),Z=(Min=13.000000,Max=13.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8130'
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         Name="SpriteEmitter4"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_he_shilprotect_ta.SpriteEmitter4'
+     Begin Object Class=MeshEmitter Name=MeshEmitter13
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.sphere_02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=84,G=254,R=118,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=94,G=223,R=194,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         FadeOutStartTime=0.189000
+         FadeOut=True
+         FadeInEndTime=0.084000
+         FadeIn=True
+         MaxParticles=6
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=28.000000,Max=28.000000))
+         UseRevolution=True
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.030000,Max=0.080000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-0.170000,Max=0.170000),Z=(Min=-0.170000,Max=0.170000))
+         StartSizeRange=(X=(Min=0.450000,Max=0.450000),Y=(Min=0.450000,Max=0.450000),Z=(Min=0.450000,Max=0.450000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles5.fx_m_t8130'
+         LifetimeRange=(Min=0.500000,Max=0.700000)
+         Name="MeshEmitter13"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.u_he_shilprotect_ta.MeshEmitter13'
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.block_ngon'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=84,G=254,R=118,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=94,G=223,R=194,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.500000
+         FadeOutStartTime=0.364000
+         FadeOut=True
+         FadeInEndTime=0.203000
+         FadeIn=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=10.000000,Max=23.000000))
+         UseRevolution=True
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.300000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.200000,Max=0.200000),Z=(Min=0.150000,Max=0.150000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles5.fx_m_t8130'
+         LifetimeRange=(Min=0.500000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=-20.000000,Max=-5.000000))
+         Name="MeshEmitter0"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.u_he_shilprotect_ta.MeshEmitter0'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bUnlit=False
+}

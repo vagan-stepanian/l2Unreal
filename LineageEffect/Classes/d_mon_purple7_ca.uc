@@ -1,0 +1,142 @@
+class d_mon_purple7_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter35
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_charge00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=244,G=209,R=162,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=243,G=139,R=179,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.200000,Max=1.000000))
+         FadeOutStartTime=0.248000
+         FadeOut=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=5.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.800000)
+         SizeScale(1)=(RelativeTime=0.560000,RelativeSize=3.000000)
+         SizeScale(2)=(RelativeTime=0.750000,RelativeSize=3.700000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=0.070000,Max=0.070000),Y=(Min=0.070000,Max=0.070000),Z=(Min=0.010000,Max=0.010000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(Z=(Min=5.000000,Max=5.000000))
+         Name="MeshEmitter35"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_mon_purple7_ca.MeshEmitter35'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter38
+         Acceleration=(Z=100.000000)
+         UseColorScale=True
+         ColorScale(1)=(RelativeTime=0.089286,Color=(B=253,G=253,R=253,A=255))
+         ColorScale(2)=(RelativeTime=0.464286,Color=(B=255,G=255,R=255))
+         ColorScale(3)=(RelativeTime=1.000000)
+         ColorScaleRepeats=2.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.200000,Max=0.200000))
+         FadeOutStartTime=0.500000
+         ResetAfterChange=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=10.000000)
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-10.000000,Max=10.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=15.000000,Max=20.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.170000)
+         SizeScale(1)=(RelativeTime=0.370000)
+         SizeScale(2)=(RelativeTime=0.500000,RelativeSize=0.800000)
+         SizeScale(3)=(RelativeTime=0.620000)
+         SizeScaleRepeats=6.000000
+         StartSizeRange=(X=(Min=5.000000,Max=10.000000),Y=(Min=100.000000,Max=100.000000),Z=(Min=100.000000,Max=100.000000))
+         InitialParticlesPerSecond=7.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1020'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=30.000000,Max=30.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter38"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_mon_purple7_ca.SpriteEmitter38'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter7
+         VertexMesh=VertMesh'LineageEffectMeshes.pointline45'
+         UseMeshBlendMode=False
+         Acceleration=(Z=100.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=235,G=137,R=203,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=202,R=202,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Max=1.000000))
+         FadeOutStartTime=1.035000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=15.000000)
+         StartLocationRange=(X=(Min=-12.000000,Max=12.000000),Y=(Min=-12.000000,Max=12.000000),Z=(Max=20.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.150000),Y=(Min=0.150000,Max=0.150000),Z=(Min=0.350000,Max=0.350000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(Z=(Min=-50.000000,Max=-50.000000))
+         Name="VertMeshEmitter7"
+     End Object
+     Emitters(2)=VertMeshEmitter'LineageEffect.d_mon_purple7_ca.VertMeshEmitter7'
+     Begin Object Class=MeshEmitter Name=MeshEmitter36
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.twist_m06'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=100,G=133,R=155,A=255))
+         ColorScale(1)=(RelativeTime=0.150000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.382143,Color=(B=96,G=120,R=159,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         FadeOutStartTime=0.264000
+         FadeOut=True
+         FadeInEndTime=0.048000
+         FadeIn=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=-1.500000,Max=-1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.060000,RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.120000,RelativeSize=1.800000)
+         SizeScale(2)=(RelativeTime=0.300000,RelativeSize=2.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=4.500000)
+         StartSizeRange=(X=(Min=0.020000,Max=0.050000),Y=(Min=0.020000,Max=0.050000),Z=(Min=0.030000,Max=0.110000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.700000)
+         StartVelocityRange=(Z=(Min=0.900000,Max=1.500000))
+         Name="MeshEmitter36"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_mon_purple7_ca.MeshEmitter36'
+     AutoReplay=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

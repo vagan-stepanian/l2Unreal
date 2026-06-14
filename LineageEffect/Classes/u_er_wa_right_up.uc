@@ -1,0 +1,72 @@
+class u_er_wa_right_up extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter86
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.682000
+         FadeOut=True
+         FadeInEndTime=0.319000
+         FadeIn=True
+         MaxParticles=5
+         DestroyWhenHitTarget=False
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Z=(Min=3.000000,Max=3.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(Z=(Max=1.000000))
+         RevolutionsPerSecondRange=(X=(Min=1.000000,Max=2.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.100000,Max=0.100000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=None
+         TextureUSubdivisions=4
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=1.100000,Max=1.100000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter86"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_er_wa_right_up.SpriteEmitter86'
+     Begin Object Class=TrailEmitter Name=TrailEmitter50
+         TrailShadeType=PTTST_PointLife
+         MaxPointsPerTrail=60
+         PointLifeTime=0.900000
+         UseColorScale=True
+         ColorScale(0)=(Color=(R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(G=128,R=255,A=255))
+         FadeOutStartTime=0.690000
+         FadeOut=True
+         FadeInEndTime=0.170000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         DestroyWhenHitTarget=False
+         RespawnDeadParticles=False
+         AutoReset=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.printesha.fx_m_t_3079'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="TrailEmitter50"
+     End Object
+     Emitters(1)=TrailEmitter'LineageEffect.u_er_wa_right_up.TrailEmitter50'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.050000
+     bUnlit=False
+     bDirectional=True
+}

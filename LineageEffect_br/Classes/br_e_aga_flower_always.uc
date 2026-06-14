@@ -1,0 +1,104 @@
+class br_e_aga_flower_always extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter28
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.632143,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(R=128,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.100000
+         FadeOutStartTime=0.622500
+         FadeOut=True
+         FadeInEndTime=0.082500
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=20
+         WeatherSoundCheck=True
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.600000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.400000,Max=0.400000))
+         InitialParticlesPerSecond=9.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6008'
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=30
+         LifetimeRange=(Min=0.600000,Max=0.750000)
+         Name="SpriteEmitter28"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_aga_flower_always.SpriteEmitter28'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter30
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.050000
+         FadeOutStartTime=0.740000
+         FadeOut=True
+         FadeInEndTime=0.190000
+         FadeIn=True
+         MaxParticles=14
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.800000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.800000,Max=0.800000))
+         InitialParticlesPerSecond=7.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3037'
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter30"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect_Br.br_e_aga_flower_always.SpriteEmitter30'
+     Begin Object Class=MeshEmitter Name=MeshEmitter18
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.wispray01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.532143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.650000,Max=1.000000),Y=(Min=0.500000,Max=0.700000),Z=(Min=0.300000,Max=0.500000))
+         Opacity=0.020000
+         FadeOutStartTime=0.800000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=8
+         SpinParticles=True
+         SpinCCWorCW=(Z=0.000000)
+         SpinsPerSecondRange=(X=(Max=0.020000),Y=(Max=0.020000),Z=(Max=0.020000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=0.800000)
+         SizeScale(2)=(RelativeTime=0.360000,RelativeSize=1.200000)
+         SizeScale(3)=(RelativeTime=0.590000,RelativeSize=0.800000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=3.000000
+         StartSizeRange=(X=(Max=0.050000),Y=(Max=0.050000),Z=(Max=0.050000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="MeshEmitter18"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect_Br.br_e_aga_flower_always.MeshEmitter18'
+     bNoDelete=False
+     Rotation=(Yaw=80)
+     DrawScale=0.030000
+     SwayRotationOrig=(Yaw=80)
+}

@@ -1,0 +1,137 @@
+class d_wi_restraint_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=128,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.425000,Color=(B=119,G=164,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=242,G=68,R=64,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.221200
+         FadeOut=True
+         FadeInEndTime=0.014000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=30.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=0.390000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0064'
+         LifetimeRange=(Min=0.280000,Max=0.280000)
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_wi_restraint_ca_simple.SpriteEmitter7'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=160,G=160,R=160,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=90.000000
+         ColorMultiplierRange=(X=(Min=0.370000,Max=0.370000),Y=(Min=0.701000,Max=0.701000),Z=(Min=0.628000,Max=0.628000))
+         Opacity=0.800000
+         FadeOutStartTime=0.277200
+         FadeOut=True
+         FadeInEndTime=0.178200
+         FadeIn=True
+         MaxParticles=12
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-2.000000,Max=2.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.125000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.080000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=17.000000,Max=17.000000),Y=(Min=17.000000,Max=17.000000),Z=(Min=17.000000,Max=17.000000))
+         InitialParticlesPerSecond=45.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0105'
+         LifetimeRange=(Min=0.660000,Max=0.660000)
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_wi_restraint_ca_simple.SpriteEmitter9'
+     Begin Object Class=MeshEmitter Name=MeshEmitter25
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.sky.sky_line'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.445000,Max=0.445000),Z=(Min=0.366000,Max=0.366000))
+         Opacity=0.850000
+         FadeOutStartTime=0.200400
+         FadeOut=True
+         FadeInEndTime=0.100200
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.100000),Y=(Max=0.100000))
+         StartSpinRange=(X=(Min=0.030000,Max=0.070000),Y=(Min=0.030000,Max=0.070000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=0.600000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=0.219000,Max=0.267000),Y=(Min=0.219000,Max=0.267000),Z=(Min=0.219000,Max=0.267000))
+         InitialParticlesPerSecond=300.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=3.000000))
+         Name="MeshEmitter25"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.d_wi_restraint_ca_simple.MeshEmitter25'
+     Begin Object Class=MeshEmitter Name=MeshEmitter26
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.twist_m05'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=20.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=128,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.482143,Color=(B=87,G=173,R=244,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=64,G=128,R=255,A=255))
+         FadeOutStartTime=0.313200
+         FadeOut=True
+         FadeInEndTime=0.177480
+         FadeIn=True
+         MaxParticles=6
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-10.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=2.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=0.270000,Max=0.287000),Y=(Min=0.270000,Max=0.287000),Z=(Min=0.081000,Max=0.116000))
+         InitialParticlesPerSecond=24.120001
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.522000,Max=0.522000)
+         StartVelocityRange=(Z=(Min=40.000000,Max=40.000000))
+         Name="MeshEmitter26"
+     End Object
+     Emitters(6)=MeshEmitter'LineageEffect.d_wi_restraint_ca_simple.MeshEmitter26'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

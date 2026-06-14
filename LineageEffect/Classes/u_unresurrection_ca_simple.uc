@@ -1,0 +1,140 @@
+class u_unresurrection_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter56
+         Acceleration=(Z=5.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=160,G=160,R=160,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=20.000000
+         Opacity=0.410000
+         FadeOutStartTime=0.215000
+         FadeOut=True
+         FadeInEndTime=0.115000
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-10.000000,Max=10.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=6.000000,Max=10.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.080000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=40.000000,Max=40.000000),Y=(Min=40.000000,Max=40.000000),Z=(Min=40.000000,Max=40.000000))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5004'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         SubdivisionStart=2
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter56"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_unresurrection_ca_simple.SpriteEmitter56'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter57
+         ColorScale(0)=(Color=(G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=192,G=128,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.782000,Max=0.782000),Z=(Min=0.918000,Max=0.918000))
+         Opacity=0.900000
+         FadeOutStartTime=0.245000
+         FadeOut=True
+         FadeInEndTime=0.115000
+         FadeIn=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.340000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=23.000000,Max=30.000000),Y=(Min=23.000000,Max=30.000000),Z=(Min=23.000000,Max=30.000000))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5105'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         WarmupTicksPerSecond=0.500000
+         RelativeWarmupTime=0.500000
+         Name="SpriteEmitter57"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_unresurrection_ca_simple.SpriteEmitter57'
+     Begin Object Class=MeshEmitter Name=MeshEmitter49
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.spear_hand03'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=81,G=164,R=238,A=255))
+         ColorMultiplierRange=(X=(Min=0.642000,Max=1.000000),Y=(Min=0.500000,Max=0.680000),Z=(Min=0.830000,Max=0.830000))
+         FadeOutStartTime=0.150500
+         FadeOut=True
+         FadeInEndTime=0.140000
+         FadeIn=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=4.000000,Max=4.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(Z=(Min=2.000000,Max=2.000000))
+         StartSpinRange=(X=(Min=-0.100000,Max=0.100000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.300000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.600000,Max=0.600000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles4.fx_m_t8034'
+         LifetimeRange=(Min=0.350000,Max=0.350000)
+         Name="MeshEmitter49"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.u_unresurrection_ca_simple.MeshEmitter49'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter64
+         ColorScale(0)=(Color=(B=192,G=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.500000
+         FadeOutStartTime=0.147000
+         FadeOut=True
+         FadeInEndTime=0.087000
+         FadeIn=True
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.200000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=50.000000,Max=80.000000),Y=(Min=50.000000,Max=80.000000),Z=(Min=50.000000,Max=80.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5133'
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(Z=(Min=5.000000,Max=5.000000))
+         Name="SpriteEmitter64"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_unresurrection_ca_simple.SpriteEmitter64'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

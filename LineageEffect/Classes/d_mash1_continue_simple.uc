@@ -1,0 +1,82 @@
+class d_mash1_continue_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter16
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.tiat_emblem'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=253,G=254,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.375000,Color=(B=162,G=162,R=162,A=255))
+         ColorScale(2)=(RelativeTime=0.689286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=20.000000
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.900000,Max=0.900000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.850000
+         FadeOutStartTime=2.250000
+         FadeOut=True
+         FadeInEndTime=0.690000
+         FadeIn=True
+         MaxParticles=2
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=3.700000,Max=3.700000),Y=(Min=3.700000,Max=3.700000),Z=(Min=3.700000,Max=3.700000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles4.fx_m_t4062'
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="MeshEmitter16"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_mash1_continue_simple.MeshEmitter16'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter28
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=3.000000)
+         ColorScale(0)=(Color=(B=243,G=243,R=243,A=255))
+         ColorScale(1)=(RelativeTime=0.357143,Color=(B=97,G=97,R=97,A=255))
+         ColorScale(2)=(RelativeTime=0.807143,Color=(A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=230,G=230,R=230,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.800000,Max=0.800000))
+         FadeOut=True
+         MaxParticles=18
+         StartLocationOffset=(Z=-33.000000)
+         StartLocationRange=(X=(Min=-18.000000,Max=18.000000),Y=(Min=-18.000000,Max=18.000000),Z=(Min=-5.000000,Max=5.000000))
+         SphereRadiusRange=(Min=100.000000,Max=100.000000)
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(Z=(Min=0.200000,Max=0.200000))
+         RevolutionsPerSecondRange=(Z=(Min=0.100000,Max=0.200000))
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.747000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.440000,RelativeSize=0.850000)
+         SizeScale(3)=(RelativeTime=0.630000,RelativeSize=0.600000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=15.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=15.000000,Max=20.000000))
+         InitialParticlesPerSecond=9.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t4084'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=3
+         SubdivisionEnd=15
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=1.000000,Max=10.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter28"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_mash1_continue_simple.SpriteEmitter28'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

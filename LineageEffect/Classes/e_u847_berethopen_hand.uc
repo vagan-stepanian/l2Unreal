@@ -1,0 +1,136 @@
+class e_u847_berethopen_hand extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         UseDirectionAs=PTDU_Up
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.475000,Color=(R=176,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(G=128,R=255,A=255))
+         Opacity=0.750000
+         FadeOutStartTime=1.360000
+         FadeOut=True
+         FadeInEndTime=0.460000
+         FadeIn=True
+         MaxParticles=20
+         StartLocationOffset=(Z=10.000000)
+         StartLocationRange=(X=(Max=3.120000),Z=(Min=-15.600000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Y=(Min=70.000000,Max=160.000000),Z=(Min=3.000000,Max=8.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.250000))
+         StartSpinRange=(X=(Min=-0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.750000)
+         StartSizeRange=(X=(Min=4.000000,Max=8.000000),Y=(Min=6.000000,Max=10.000000),Z=(Min=4.000000,Max=8.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles3.ora02'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=20
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=10.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u847_berethopen_hand.SpriteEmitter3'
+     Begin Object Class=MeshEmitter Name=MeshEmitter3
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.debuff_twist_02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.732143,Color=(B=244,G=113,R=221,A=255))
+         ColorScale(2)=(RelativeTime=0.992857,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=254,G=120,R=147,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.400000
+         FadeOutStartTime=1.640000
+         FadeOut=True
+         FadeInEndTime=0.800000
+         FadeIn=True
+         MaxParticles=15
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.100000),Y=(Max=0.100000),Z=(Max=0.100000))
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         StartVelocityRange=(Z=(Min=1.000000,Max=1.000000))
+         Name="MeshEmitter3"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.e_u847_berethopen_hand.MeshEmitter3'
+     Begin Object Class=MeshEmitter Name=MeshEmitter24
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.twist_m06'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.250000,Max=0.250000),Z=(Min=0.100000,Max=0.100000))
+         Opacity=0.500000
+         FadeOutStartTime=0.860000
+         FadeOut=True
+         FadeInEndTime=0.540000
+         FadeIn=True
+         MaxParticles=14
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-10.000000,Max=-5.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.150000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.250000,Max=0.500000))
+         InitialParticlesPerSecond=7.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="MeshEmitter24"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.e_u847_berethopen_hand.MeshEmitter24'
+     Begin Object Class=MeshEmitter Name=MeshEmitter25
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.Barler_bright0'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.050000
+         FadeOutStartTime=1.260000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=8
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000),Y=(Min=-0.025000,Max=-0.025000))
+         UseSizeScale=True
+         StartSizeRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.400000,Max=0.400000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="MeshEmitter25"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.e_u847_berethopen_hand.MeshEmitter25'
+     bDynamicActorFilterState=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Pitch=-4,Yaw=1144,Roll=32)
+     bUnlit=False
+     SwayRotationOrig=(Pitch=-4,Yaw=1144,Roll=32)
+}

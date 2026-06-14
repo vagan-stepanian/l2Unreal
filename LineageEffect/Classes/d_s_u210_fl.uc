@@ -1,0 +1,120 @@
+class d_s_u210_fl extends NSkillProjectile;
+
+defaultproperties
+{
+     Speed=1000.000000
+     AccSpeed=3000.000000
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.bowgun_arrow'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=127,G=127,R=127,A=255))
+         ColorScale(1)=(RelativeTime=0.064286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=0.125000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.232143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(4)=(RelativeTime=0.346429,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(5)=(RelativeTime=0.382143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(6)=(RelativeTime=0.439286,Color=(B=194,G=194,R=194,A=255))
+         ColorScale(7)=(RelativeTime=0.482143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(8)=(RelativeTime=0.539286,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(9)=(RelativeTime=0.589286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(10)=(RelativeTime=0.646429,Color=(B=193,G=193,R=193,A=255))
+         ColorScale(11)=(RelativeTime=0.675000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(12)=(RelativeTime=0.750000,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(13)=(RelativeTime=0.789286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(14)=(RelativeTime=0.857143,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(15)=(RelativeTime=0.907143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(16)=(RelativeTime=0.964286,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(17)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.500000,Max=0.500000))
+         FadeOutStartTime=0.422500
+         FadeOut=True
+         FadeInEndTime=0.026000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Min=3.000000,Max=3.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=0.050000,Max=0.050000),Y=(Min=0.030000,Max=0.030000),Z=(Min=0.030000,Max=0.030000))
+         InitialParticlesPerSecond=100000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(1)=Texture'LineageEffectsTextures.Spark2.fx_m_t0117'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter1"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_s_u210_fl.MeshEmitter1'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.bowskill2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.400000
+         FadeOutStartTime=0.200000
+         FadeOut=True
+         FadeInEndTime=0.060000
+         FadeIn=True
+         MaxParticles=24
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=5.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         StartSpinRange=(X=(Min=-0.250000,Max=-0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.120000,RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=0.330000,RelativeSize=4.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=6.000000)
+         StartSizeRange=(X=(Min=0.020000,Max=0.020000),Y=(Min=0.020000,Max=0.020000),Z=(Min=0.020000,Max=0.020000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-60.200001,Max=-60.200001))
+         WarmupTicksPerSecond=5.000000
+         RelativeWarmupTime=0.630000
+         Name="MeshEmitter2"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_s_u210_fl.MeshEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter82
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.400000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=45
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         AddLocationFromOtherEmitter=0
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=90.000000,Max=90.000000),Y=(Max=360.000000),Z=(Min=1.000000,Max=1.000000))
+         RevolutionsPerSecondRange=(Z=(Min=0.500000,Max=0.500000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=-0.800000,Max=0.800000),Y=(Min=-0.800000,Max=0.800000),Z=(Min=-0.800000,Max=0.800000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0105'
+         UseSubdivisionScale=True
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-50.000000,Max=-50.000000))
+         AddVelocityFromOtherEmitter=0
+         Name="SpriteEmitter82"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_s_u210_fl.SpriteEmitter82'
+     Physics=PHYS_Trailer
+     bUseDynamicLights=False
+     bTrailerSameRotation=True
+     bTrailerPrePivot=True
+     bTrailerNoOwnerDestroy=True
+     bAcceptsProjectors=False
+     Tag="s_u003_b"
+     bSunAffect=True
+}

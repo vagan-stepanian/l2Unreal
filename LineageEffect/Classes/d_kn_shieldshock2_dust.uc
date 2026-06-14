@@ -1,0 +1,107 @@
+class d_kn_shieldshock2_dust extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter51
+         Acceleration=(X=500.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.000000
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=15.000000,Max=15.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(X=(Min=350.000000,Max=350.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         Name="SpriteEmitter51"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_kn_shieldshock2_dust.SpriteEmitter51'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter52
+         Acceleration=(X=-15.000000,Z=5.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.520000,Max=0.520000),Y=(Min=0.450000,Max=0.450000),Z=(Min=0.380000,Max=0.380000))
+         Opacity=0.500000
+         FadeOutStartTime=0.300000
+         FadeOut=True
+         FadeInEndTime=0.045000
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=-25.000000)
+         StartLocationRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000))
+         AddLocationFromOtherEmitter=0
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-45.000000,Max=45.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=35.000000,Max=35.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.540000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.750000)
+         StartSizeRange=(X=(Min=20.000000,Max=40.000000),Y=(Min=20.000000,Max=40.000000),Z=(Min=20.000000,Max=40.000000))
+         InitialParticlesPerSecond=35.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4013'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         StartVelocityRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=10.000000),Z=(Min=5.000000,Max=10.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter52"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_kn_shieldshock2_dust.SpriteEmitter52'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter53
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.520000,Max=0.520000),Y=(Min=0.450000,Max=0.450000),Z=(Min=0.380000,Max=0.380000))
+         FadeOutStartTime=0.405000
+         FadeOut=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=10.000000)
+         StartLocationRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000))
+         AddLocationFromOtherEmitter=0
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-80.000000,Max=80.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=1.000000,Max=30.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.540000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=15.000000,Max=20.000000),Y=(Min=15.000000,Max=20.000000),Z=(Min=15.000000,Max=20.000000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4006'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         StartVelocityRange=(X=(Min=50.000000,Max=150.000000),Y=(Min=50.000000,Max=150.000000),Z=(Min=50.000000,Max=150.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter53"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_kn_shieldshock2_dust.SpriteEmitter53'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bDirectional=True
+}

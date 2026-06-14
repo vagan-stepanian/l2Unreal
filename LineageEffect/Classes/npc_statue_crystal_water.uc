@@ -1,0 +1,79 @@
+class npc_statue_crystal_water extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.810000
+         FadeOutStartTime=2.640000
+         FadeOut=True
+         FadeInEndTime=1.440000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationOffset=(X=12.452105,Y=0.154368,Z=21.238342)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.010000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.530000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=40.000000,Max=55.000000),Y=(Min=40.000000,Max=55.000000),Z=(Min=40.000000,Max=55.000000))
+         InitialParticlesPerSecond=50.000000
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'FX_E_T.LightGlowSet.npc_2f_etc01'
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.npc_statue_crystal_water.SpriteEmitter6'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.164286,Color=(B=79,G=79,R=79,A=255))
+         ColorScale(2)=(RelativeTime=0.332143,Color=(B=252,G=252,R=252,A=255))
+         ColorScale(3)=(RelativeTime=0.532143,Color=(B=109,G=109,R=109,A=255))
+         ColorScale(4)=(RelativeTime=0.725000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(5)=(RelativeTime=0.896429,Color=(B=109,G=109,R=109,A=255))
+         ColorScale(6)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.530000
+         FadeOutStartTime=2.240000
+         FadeOut=True
+         FadeInEndTime=0.600000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationOffset=(X=12.452105,Y=0.154368,Z=21.238342)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.040000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=65.000000,Max=65.000000),Y=(Min=65.000000,Max=65.000000),Z=(Min=65.000000,Max=65.000000))
+         Texture=Texture'FX_E_T.LightGlowSet.npc_2f_etc_G01'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         SubdivisionEnd=1
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.npc_statue_crystal_water.SpriteEmitter0'
+     bDynamicActorFilterState=True
+     bLightChanged=True
+     bNoDelete=False
+     Tag="Emitter"
+     bSunAffect=True
+     DrawScale=0.300000
+     bSelected=True
+     TexModifyInfo=(Color=(B=255,G=255,R=255,A=255),AlphaOp=1,ColorOp=1)
+}

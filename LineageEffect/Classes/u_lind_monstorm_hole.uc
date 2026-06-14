@@ -1,0 +1,79 @@
+class u_lind_monstorm_hole extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter76
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.twist_m05'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.127000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.910000
+         FadeOutStartTime=0.562500
+         FadeOut=True
+         FadeInEndTime=0.157500
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         ForcedMaxParticles=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=10.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.300000,Max=0.500000),Y=(Min=0.300000,Max=0.500000),Z=(Min=0.300000,Max=0.500000))
+         StartSpinRange=(X=(Min=0.500000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.800000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.150000,Max=0.250000))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         StartVelocityRange=(Z=(Min=20.000000,Max=40.000000))
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000))
+         Name="MeshEmitter76"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_lind_monstorm_hole.MeshEmitter76'
+     Begin Object Class=MeshEmitter Name=MeshEmitter14
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Wind.rollingWind'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=233,G=213,R=171,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=189,G=157,R=119,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.700000),Y=(Min=0.500000,Max=0.850000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.720000
+         FadeOutStartTime=0.329000
+         FadeOut=True
+         FadeInEndTime=0.077000
+         FadeIn=True
+         MaxParticles=6
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.800000,Max=1.500000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=5.000000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=2.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=35.000000,Max=40.000000),Y=(Min=35.000000,Max=40.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.500000,Max=0.700000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         Name="MeshEmitter14"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.u_lind_monstorm_hole.MeshEmitter14'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bUnlit=False
+}

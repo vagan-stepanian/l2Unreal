@@ -1,0 +1,84 @@
+class w_vari_009_1r extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter160
+         UseDirectionAs=PTDU_Up
+         Acceleration=(X=2.000000,Y=3.500000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.489286,Color=(B=127,G=127,R=127,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=210,R=187,A=255))
+         ColorScaleRepeats=30.000000
+         Opacity=0.400000
+         FadeOutStartTime=0.765000
+         FadeOut=True
+         FadeInEndTime=0.375000
+         FadeIn=True
+         MaxActiveDistance=1500
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=16
+         StartLocationRange=(Y=(Min=-1.200000,Max=1.200000),Z=(Min=-0.400000,Max=0.400000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.800000,Max=1.600000),Y=(Min=3.200000,Max=4.800000),Z=(Min=0.800000,Max=1.072000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1060'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.000000,Max=1.500000)
+         StartVelocityRange=(Y=(Min=1.500000,Max=2.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter160"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.w_vari_009_1r.SpriteEmitter160'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter18
+         UseDirectionAs=PTDU_Up
+         Acceleration=(X=2.000000,Y=3.500000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.528571,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=40.000000
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.800000),Y=(Min=0.500000,Max=0.600000),Z=(Min=0.600000,Max=0.800000))
+         Opacity=0.070000
+         FadeOutStartTime=0.825000
+         FadeOut=True
+         FadeInEndTime=0.495000
+         FadeIn=True
+         MaxActiveDistance=1500
+         MaxParticles=15
+         StartLocationRange=(Y=(Min=-1.440000,Max=1.440000),Z=(Min=-0.480000,Max=0.480000))
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.900000)
+         StartSizeRange=(X=(Min=1.920000,Max=2.880000),Y=(Min=4.000000,Max=6.000000),Z=(Min=0.960000,Max=1.286000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Fire.fx_m_t_3004'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=15
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=1.500000,Max=2.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter18"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.w_vari_009_1r.SpriteEmitter18'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bDirectional=True
+}

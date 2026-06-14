@@ -1,0 +1,69 @@
+class npc_statue_crystal_earth_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter78
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.650000
+         FadeOutStartTime=2.920000
+         FadeOut=True
+         FadeInEndTime=0.840000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationOffset=(X=12.452105,Y=0.154368,Z=21.238342)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=30.000000,Max=40.000000),Y=(Min=30.000000,Max=40.000000),Z=(Min=30.000000,Max=40.000000))
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'FX_E_T.LightGlowSet.npc_2f_etc_Y'
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="SpriteEmitter78"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.npc_statue_crystal_earth_simple.SpriteEmitter78'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter108
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.500000,Max=0.500000))
+         Opacity=0.540000
+         FadeOutStartTime=1.640000
+         FadeOut=True
+         FadeInEndTime=0.880000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationOffset=(X=12.452105,Y=0.154368,Z=21.238342)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.030000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=65.000000,Max=65.000000),Y=(Min=65.000000,Max=65.000000),Z=(Min=65.000000,Max=65.000000))
+         Texture=Texture'FX_E_T.LightGlowSet.npc_2f_etc_G01'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         SubdivisionEnd=1
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="SpriteEmitter108"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.npc_statue_crystal_earth_simple.SpriteEmitter108'
+     bDynamicActorFilterState=True
+     bLightChanged=True
+     bNoDelete=False
+     Tag="Emitter"
+     bSunAffect=True
+     DrawScale=0.300000
+     bSelected=True
+     TexModifyInfo=(Color=(B=255,G=255,R=255,A=255),AlphaOp=1,ColorOp=1)
+}

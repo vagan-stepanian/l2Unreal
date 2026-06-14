@@ -1,0 +1,157 @@
+class d_mon_heal_cross extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.767000,Max=0.767000),Y=(Min=0.695000,Max=0.695000),Z=(Min=0.474000,Max=0.474000))
+         Opacity=0.500000
+         FadeOutStartTime=0.168000
+         FadeOut=True
+         FadeInEndTime=0.096000
+         FadeIn=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=35.000000,Max=35.000000),Y=(Min=35.000000,Max=35.000000),Z=(Min=35.000000,Max=35.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1003'
+         LifetimeRange=(Min=0.200000,Max=0.200000)
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_mon_heal_cross.SpriteEmitter9'
+     Begin Object Class=MeshEmitter Name=MeshEmitter18
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.cross_plane1'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=190,G=224,R=254,A=255))
+         ColorScale(1)=(RelativeTime=0.375000,Color=(B=162,G=162,R=162,A=255))
+         ColorScale(2)=(RelativeTime=0.678571,Color=(B=190,G=224,R=254,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=194,G=225,R=254,A=255))
+         ColorScaleRepeats=30.000000
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.700000,Max=0.700000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.100000
+         FadeOut=True
+         FadeInEndTime=0.035000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Max=10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.800000,Max=0.800000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles4.baler_bright'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         Name="MeshEmitter18"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_mon_heal_cross.MeshEmitter18'
+     Begin Object Class=MeshEmitter Name=MeshEmitter19
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.wispray01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=255,G=225,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.391000,Max=1.000000),Y=(Min=0.693000,Max=0.846000),Z=(Min=0.680000,Max=0.881000))
+         FadeOutStartTime=0.510000
+         FadeOut=True
+         FadeInEndTime=0.456000
+         FadeIn=True
+         MaxParticles=4
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Max=0.100000))
+         StartSpinRange=(Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Min=0.120000,Max=0.120000),Y=(Min=0.210000,Max=0.210000),Z=(Min=0.210000,Max=0.210000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         Name="MeshEmitter19"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_mon_heal_cross.MeshEmitter19'
+     Begin Object Class=MeshEmitter Name=MeshEmitter21
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.wispray01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.422000,Max=1.000000),Y=(Min=0.703000,Max=0.808000),Z=(Min=0.745000,Max=0.953000))
+         Opacity=0.800000
+         FadeOutStartTime=0.027500
+         FadeOut=True
+         MaxParticles=4
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Max=0.100000))
+         StartSpinRange=(Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.120000,Max=0.120000),Y=(Min=0.210000,Max=0.210000),Z=(Min=0.210000,Max=0.210000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         InitialDelayRange=(Min=1.400000,Max=1.400000)
+         Name="MeshEmitter21"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_mon_heal_cross.MeshEmitter21'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter10
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.550000,Color=(B=209,G=209,R=209,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=2.000000
+         FadeOutStartTime=1.380000
+         FadeOut=True
+         FadeInEndTime=0.045000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.050000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=15.000000,Max=15.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t6146'
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         InitialDelayRange=(Max=0.300000)
+         VelocityLossRange=(Z=(Min=0.450000,Max=0.450000))
+         Name="SpriteEmitter10"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_mon_heal_cross.SpriteEmitter10'
+     bAllDead=True
+     bNoDelete=False
+}

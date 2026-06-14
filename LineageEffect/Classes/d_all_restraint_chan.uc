@@ -1,0 +1,50 @@
+class d_all_restraint_chan extends Emitter;
+
+defaultproperties
+{
+     Emitters(0)=SpriteEmitter'LineageEffect.d_agaman_arm_simple.SpriteEmitter1'
+     Begin Object Class=BeamEmitter Name=BeamEmitter2
+         BeamDistanceRange=(Min=500.000000,Max=500.000000)
+         BeamEndPoints(0)=(ActorTag="MFighter1",offset=(X=(Min=-200.000000,Max=-200.000000)),Weight=1.000000)
+         DetermineEndPointBy=PTEP_TraceOffset
+         TriggerEndpoint=True
+         LowFrequencyNoiseRange=(X=(Min=-1.500000,Max=1.500000),Y=(Min=-1.500000,Max=1.500000),Z=(Min=-1.500000,Max=1.500000))
+         LowFrequencyPoints=10
+         HighFrequencyNoiseRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-3.000000,Max=3.000000))
+         HFScaleFactors(0)=(FrequencyScale=(Z=-1.500000),RelativeLength=0.300000)
+         HFScaleFactors(1)=(FrequencyScale=(Z=1.500000),RelativeLength=0.650000)
+         NoiseDeterminesEndPoint=True
+         bApllyLFNoiseSmootly=True
+         bApllyBezierCurve=True
+         ControlPoints(0)=(oscillationRange=(Y=25.000000,Z=20.000000),Frequency=0.500000,locationratio=0.300000)
+         ControlPoints(1)=(oscillationRange=(Y=-25.000000,Z=-35.000000),Frequency=0.800000,locationratio=0.500000)
+         ControlPoints(2)=(oscillationRange=(Y=15.000000,Z=-15.000000),Frequency=1.000000,locationratio=0.700000)
+         RenderingDensity=10
+         UseBranching=True
+         BranchProbability=(Min=1.000000,Max=10.000000)
+         BranchHFPointsRange=(Max=10.000000)
+         BranchEmitter=5
+         BranchSpawnAmountRange=(Min=1.000000,Max=1.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.485714,Color=(B=127,G=127,R=127,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.450000,Max=0.450000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.650000
+         FadeOutStartTime=0.100000
+         MaxParticles=4
+         StartSizeRange=(X=(Min=1.000000,Max=2.000000),Y=(Min=1.000000,Max=2.000000),Z=(Min=1.000000,Max=2.000000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4030'
+         LifetimeRange=(Min=0.100000,Max=0.100000)
+         TriggerDisabled=False
+         ResetOnTrigger=True
+         Name="BeamEmitter2"
+     End Object
+     Emitters(1)=BeamEmitter'LineageEffect.d_all_restraint_chan.BeamEmitter2'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

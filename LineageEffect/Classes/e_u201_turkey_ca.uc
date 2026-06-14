@@ -1,0 +1,141 @@
+class e_u201_turkey_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter4
+         UseMeshBlendMode=False
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.850000,Max=0.850000))
+         FadeOutStartTime=0.396000
+         FadeOut=True
+         FadeInEndTime=0.191400
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-28.000000,Max=28.000000),Y=(Min=-28.000000,Max=28.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000),Y=(Min=0.100000,Max=0.400000),Z=(Max=1.000000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.140000,Max=0.420000),Y=(Min=0.140000,Max=0.420000),Z=(Min=0.140000,Max=0.420000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.660000,Max=0.660000)
+         InitialDelayRange=(Min=1.400000,Max=1.400000)
+         Name="VertMeshEmitter4"
+     End Object
+     Emitters(0)=VertMeshEmitter'LineageEffect.e_u201_turkey_ca.VertMeshEmitter4'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter81
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=64,R=64,A=255))
+         ColorScale(1)=(RelativeTime=0.350000,Color=(B=64,G=64,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(R=64,A=255))
+         ColorMultiplierRange=(X=(Max=0.700000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.600000,Max=0.600000))
+         Opacity=0.600000
+         FadeOutStartTime=1.500000
+         FadeOut=True
+         FadeInEndTime=0.420000
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=1.000000)
+         StartLocationRange=(Z=(Max=1.225000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.660000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.710000,RelativeSize=0.300000)
+         SizeScale(2)=(RelativeTime=0.850000,RelativeSize=1.500000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=1.225000,Max=24.500000),Y=(Min=1.225000,Max=24.500000),Z=(Min=1.225000,Max=24.500000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2071'
+         TextureUSubdivisions=5
+         TextureVSubdivisions=5
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=28
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="SpriteEmitter81"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u201_turkey_ca.SpriteEmitter81'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter83
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.325000,Color=(B=197,G=197,R=197,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.300000,Max=0.300000))
+         Opacity=0.800000
+         FadeOutStartTime=1.500000
+         FadeOut=True
+         FadeInEndTime=0.840000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=1.000000)
+         StartLocationRange=(Z=(Max=1.225000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.050000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.710000,RelativeSize=0.300000)
+         SizeScale(2)=(RelativeTime=0.850000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=12.250000,Max=49.000000),Y=(Min=12.250000,Max=49.000000),Z=(Min=12.250000,Max=49.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1003'
+         SubdivisionEnd=28
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="SpriteEmitter83"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.e_u201_turkey_ca.SpriteEmitter83'
+     Begin Object Class=MeshEmitter Name=MeshEmitter4
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.magiccircle.magiccircleblack02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=187,G=187,R=187,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=50.000000
+         ColorMultiplierRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.050000
+         FadeOutStartTime=3.000000
+         FadeOut=True
+         FadeInEndTime=1.000000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=3.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=0.200000)
+         SizeScale(2)=(RelativeTime=0.140000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=0.930000,RelativeSize=1.000000)
+         SizeScale(4)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=0.790400,Max=0.790400),Y=(Min=0.790400,Max=0.790400),Z=(Min=0.260000,Max=0.260000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="MeshEmitter4"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.e_u201_turkey_ca.MeshEmitter4'
+     bNoDelete=False
+     DrawScale=0.200000
+}

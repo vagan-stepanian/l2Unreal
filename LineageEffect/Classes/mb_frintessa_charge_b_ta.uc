@@ -1,0 +1,91 @@
+class mb_frintessa_charge_b_ta extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter452
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.000000
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Y=150.000000,Z=50.000000)
+         UniformSize=True
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(Y=(Min=-2.000000,Max=-2.000000))
+         VelocityLossRange=(Y=(Min=1.400000,Max=1.400000))
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeVelocity=(Y=400.000000))
+         VelocityScale(1)=(RelativeTime=0.300000,RelativeVelocity=(Y=400.000000))
+         VelocityScale(2)=(RelativeTime=0.400000)
+         Name="SpriteEmitter452"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.mb_frintessa_charge_b_ta.SpriteEmitter452'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter8
+         VertexMesh=VertMesh'LineageEffectMeshes.Sworld'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.350000
+         FadeOut=True
+         FadeInEndTime=0.270000
+         FadeIn=True
+         MaxParticles=13
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=30.000000)
+         StartLocationRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-100.000000,Max=100.000000),Z=(Min=-20.000000,Max=20.000000))
+         AddLocationFromOtherEmitter=0
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         StartSizeRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.100000,Max=0.100000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="VertMeshEmitter8"
+     End Object
+     Emitters(1)=VertMeshEmitter'LineageEffect.mb_frintessa_charge_b_ta.VertMeshEmitter8'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter453
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.800000,Max=0.800000))
+         FadeOutStartTime=0.500000
+         MaxParticles=18
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-60.000000,Max=60.000000),Y=(Min=-60.000000,Max=60.000000),Z=(Min=-30.000000,Max=30.000000))
+         AddLocationFromOtherEmitter=0
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=6.000000,Max=60.000000),Y=(Min=40.000000,Max=70.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3051'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=17
+         LifetimeRange=(Min=0.300000,Max=0.600000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=1.000000))
+         VelocityLossRange=(Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter453"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.mb_frintessa_charge_b_ta.SpriteEmitter453'
+     bRotEmitter=True
+     bDynamicActorFilterState=True
+     bLightChanged=True
+     bNoDelete=False
+     Rotation=(Yaw=31592)
+     DrawScale=0.300000
+     SwayRotationOrig=(Yaw=31592)
+}

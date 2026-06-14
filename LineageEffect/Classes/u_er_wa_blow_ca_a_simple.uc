@@ -1,0 +1,81 @@
+class u_er_wa_blow_ca_a_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter37
+         Acceleration=(Z=20.000000)
+         ColorScale(0)=(Color=(B=1))
+         ColorScale(1)=(Color=(B=53))
+         ColorScale(2)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.305000
+         FadeOut=True
+         FadeInEndTime=0.030000
+         FadeIn=True
+         MaxParticles=40
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-25.000000,Max=25.000000),Y=(Min=-25.000000,Max=25.000000),Z=(Min=-10.000000,Max=25.000000))
+         StartLocationPolarRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-70.000000,Max=70.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.810000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=3.000000,Max=5.000000),Y=(Min=3.000000,Max=5.000000),Z=(Min=3.000000,Max=5.000000))
+         InitialParticlesPerSecond=80.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t7087'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=0.300000,Max=0.500000)
+         StartVelocityRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=10.000000,Max=80.000000))
+         VelocityLossRange=(Z=(Min=1.750000,Max=1.750000))
+         Name="SpriteEmitter37"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_er_wa_blow_ca_a_simple.SpriteEmitter37'
+     Begin Object Class=MeshEmitter Name=MeshEmitter46
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.wind_L'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=10.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=123,G=242,R=239,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=235,G=151,R=58,A=255))
+         Opacity=0.490000
+         FadeOutStartTime=0.185000
+         FadeOut=True
+         FadeInEndTime=0.015000
+         FadeIn=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Max=20.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=1.500000,Max=1.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.350000),Y=(Min=0.300000,Max=0.350000),Z=(Min=0.150000,Max=0.150000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=15.000000,Max=30.000000))
+         Name="MeshEmitter46"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.u_er_wa_blow_ca_a_simple.MeshEmitter46'
+     bNoDelete=False
+     bUnlit=False
+}

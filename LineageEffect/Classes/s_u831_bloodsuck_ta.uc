@@ -1,0 +1,127 @@
+class s_u831_bloodsuck_ta extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter23
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.328571,Color=(B=71,G=102,R=250,A=255))
+         ColorScale(2)=(RelativeTime=0.657143,Color=(B=249,G=224,R=87,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.450000,Max=0.450000))
+         FadeOutStartTime=0.750000
+         FadeOut=True
+         MaxParticles=16
+         WeatherSoundCheck=True
+         ForcedLifeTime=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-12.000000,Max=12.000000),Y=(Min=-12.000000,Max=12.000000),Z=(Min=-16.000000,Max=16.000000))
+         StartLocationPolarRange=(X=(Min=-360.000000,Max=360.000000),Y=(Min=30.000000,Max=140.000000),Z=(Min=8.000000,Max=10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.070000,RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.600000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=4.000000,Max=6.000000),Y=(Min=4.000000,Max=6.000000),Z=(Min=4.000000,Max=6.000000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4029'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=0.800000,Max=1.000000)
+         StartVelocityRange=(X=(Min=20.000000,Max=50.000000),Y=(Min=20.000000,Max=50.000000),Z=(Min=20.000000,Max=50.000000))
+         VelocityLossRange=(X=(Min=7.000000,Max=7.000000),Y=(Min=7.000000,Max=7.000000),Z=(Min=7.000000,Max=7.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter23"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.s_u831_bloodsuck_ta.SpriteEmitter23'
+     Begin Object Class=MeshEmitter Name=MeshEmitter16
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_charge02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=74,G=105,R=249,A=255))
+         ColorScale(1)=(RelativeTime=0.178571,Color=(B=117,G=140,R=251,A=255))
+         ColorScale(2)=(RelativeTime=0.217857,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.232143,Color=(A=255))
+         ColorScale(4)=(RelativeTime=0.807143,Color=(A=255))
+         ColorScale(5)=(RelativeTime=0.900000,Color=(B=107,G=132,R=250,A=255))
+         ColorScale(6)=(RelativeTime=1.000000,Color=(B=249,G=209,R=89,A=255))
+         ColorScaleRepeats=2.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.500000,Max=0.500000))
+         FadeOutStartTime=0.390000
+         FadeOut=True
+         FadeInEndTime=0.030000
+         FadeIn=True
+         WeatherSoundCheck=True
+         ForcedLifeTime=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-13.000000,Max=13.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.800000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=0.200000,Max=0.450000),Y=(Min=0.200000,Max=0.450000),Z=(Min=0.200000,Max=0.450000))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.800000,Max=1.000000)
+         Name="MeshEmitter16"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.s_u831_bloodsuck_ta.MeshEmitter16'
+     Begin Object Class=MeshEmitter Name=MeshEmitter17
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_charge01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=95,G=122,R=250,A=255))
+         ColorScale(1)=(RelativeTime=0.110714,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.189286,Color=(A=255))
+         ColorScale(3)=(RelativeTime=0.789286,Color=(A=255))
+         ColorScale(4)=(RelativeTime=0.935714,Color=(B=90,G=118,R=250,A=255))
+         ColorScale(5)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=2.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.700000,Max=0.700000))
+         FadeOutStartTime=0.400000
+         FadeOut=True
+         FadeInEndTime=0.030000
+         FadeIn=True
+         WeatherSoundCheck=True
+         ForcedLifeTime=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-13.000000,Max=13.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.800000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.600000),Y=(Min=0.300000,Max=0.600000),Z=(Min=0.300000,Max=0.600000))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.800000,Max=1.000000)
+         Name="MeshEmitter17"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.s_u831_bloodsuck_ta.MeshEmitter17'
+     SpawnSound(0)=Sound'Skillsound3.shieldstun.shieldstun_s_shot'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Pitch=32776,Yaw=32760,Roll=-32800)
+     DrawScale=0.100000
+     SoundRadius=70.000000
+     SoundVolume=250.000000
+     SwayRotationOrig=(Pitch=32776,Yaw=32760,Roll=-32800)
+     bDirectional=True
+}

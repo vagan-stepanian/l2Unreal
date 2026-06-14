@@ -1,0 +1,90 @@
+class br_e_u029_aga_sumostage_stagebone extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter61
+         Acceleration=(Z=-5.000000)
+         ColorScale(0)=(Color=(R=64,A=255))
+         ColorScale(1)=(RelativeTime=0.567857,Color=(R=64,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(R=64,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.100000,Max=1.000000),Y=(Min=0.200000,Max=1.000000),Z=(Min=0.100000,Max=1.000000))
+         FadeOutStartTime=0.740000
+         FadeOut=True
+         FadeInEndTime=0.040000
+         FadeIn=True
+         MaxParticles=100
+         StartLocationRange=(Y=(Min=-0.117000,Max=0.117000),Z=(Min=-0.117000,Max=0.117000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Max=3.000000)
+         StartLocationPolarRange=(X=(Min=9.000000,Max=9.000000),Y=(Min=-13.500000,Max=13.500000),Z=(Min=-2.000000,Max=2.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         RevolutionsPerSecondRange=(X=(Min=-0.150000,Max=0.150000),Y=(Min=-0.150000,Max=0.150000),Z=(Min=-0.150000,Max=0.150000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.700000,RelativeSize=2.500000)
+         SizeScale(1)=(RelativeTime=0.850000,RelativeSize=5.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=7.000000)
+         StartSizeRange=(X=(Min=0.062500,Max=0.156250),Y=(Min=0.062500,Max=0.156250),Z=(Min=0.062500,Max=0.156250))
+         InitialParticlesPerSecond=72.000000
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6004'
+         UseRandomSubdivision=True
+         SubdivisionStart=7
+         SubdivisionEnd=8
+         LifetimeRange=(Min=0.001000,Max=2.500000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(Z=(Max=5.000000))
+         VelocityLossRange=(Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter61"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.br_e_u029_aga_sumostage_stagebone.SpriteEmitter61'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter63
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.596429,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=64,G=64,R=128,A=255))
+         ColorScaleRepeats=100.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.400000,Max=0.400000))
+         Opacity=0.950000
+         FadeOutStartTime=0.081000
+         FadeOut=True
+         MaxParticles=20
+         ResetAfterChange=True
+         WeatherSoundCheck=True
+         StartLocationOffset=(Z=7.800000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.130000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.360000,RelativeSize=2.200000)
+         SizeScale(2)=(RelativeTime=0.600000,RelativeSize=2.600000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=2.838125,Max=2.838125),Y=(Min=4.540999,Max=4.540999),Z=(Min=4.540999,Max=4.540999))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0063'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         SubdivisionStart=5
+         SubdivisionEnd=6
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-0.001100,Max=0.001100),Y=(Min=-0.001100,Max=0.001100),Z=(Min=-0.001100,Max=0.001100))
+         Name="SpriteEmitter63"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.br_e_u029_aga_sumostage_stagebone.SpriteEmitter63'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.050000
+}

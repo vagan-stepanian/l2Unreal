@@ -1,0 +1,102 @@
+class social_handMirror extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter3562
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.social.handMirror'
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.650000,Max=0.650000),Z=(Min=1.000000,Max=1.000000))
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         UseRegularSizeScale=False
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=5.000000,Max=5.000000)
+         Name="MeshEmitter3562"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.social_handMirror.MeshEmitter3562'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter73
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.482143,Color=(B=185,G=185,R=185,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=50.000000
+         Opacity=0.150000
+         FadeOutStartTime=0.424000
+         FadeOut=True
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-6.000000,Max=-6.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.020000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.300000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7115'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         Name="SpriteEmitter73"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.social_handMirror.SpriteEmitter73'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7281
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=166,A=255))
+         ColorScale(1)=(RelativeTime=0.510714,Color=(B=159,G=131,R=190,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=172,A=255))
+         ColorScaleRepeats=15.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.750000
+         FadeOutStartTime=0.870000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=40
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=-6.000000)
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-0.500000,Max=0.500000))
+         StartLocationShape=PTLS_Polar
+         SphereRadiusRange=(Min=25.000000,Max=25.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Min=3.000000,Max=3.000000))
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=1.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.700000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         UseSubdivisionScale=True
+         SubdivisionScale(0)=5.000000
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.000000,Max=1.500000)
+         InitialDelayRange=(Min=0.050000,Max=0.050000)
+         StartVelocityRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         VelocityLossRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter7281"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.social_handMirror.SpriteEmitter7281'
+     SpawnSound(0)=Sound'SkillSound14.GD22.social_handMirror'
+     bNoDelete=False
+     DrawScale=0.100000
+     bIgnoredRange=True
+     SoundRadius=40.000000
+     SoundVolume=250.000000
+}

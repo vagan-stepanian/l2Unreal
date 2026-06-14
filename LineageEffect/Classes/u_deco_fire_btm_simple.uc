@@ -1,0 +1,86 @@
+class u_deco_fire_btm_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter26
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.885000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-30.000000,Max=30.000000),Y=(Min=-30.000000,Max=30.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=20.000000,Max=40.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.020000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=0.900000)
+         SizeScale(2)=(RelativeTime=0.200000,RelativeSize=1.100000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=15.000000,Max=25.000000),Y=(Min=15.000000,Max=25.000000),Z=(Min=15.000000,Max=25.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t6081'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         Name="SpriteEmitter26"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_deco_fire_btm_simple.SpriteEmitter26'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter32
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=86,G=186,R=239,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=232,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.315000,Max=0.500000))
+         Opacity=0.450000
+         FadeOutStartTime=0.915000
+         FadeOut=True
+         FadeInEndTime=0.090000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=40
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-30.000000,Max=30.000000),Y=(Min=-30.000000,Max=30.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=20.000000,Max=35.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.010000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=0.900000)
+         SizeScale(2)=(RelativeTime=0.200000,RelativeSize=1.100000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=13.000000,Max=20.000000),Y=(Min=13.000000,Max=20.000000),Z=(Min=13.000000,Max=20.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t7044'
+         TextureUSubdivisions=6
+         TextureVSubdivisions=6
+         UseRandomSubdivision=True
+         SubdivisionEnd=36
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         WarmupTicksPerSecond=0.500000
+         RelativeWarmupTime=0.500000
+         Name="SpriteEmitter32"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_deco_fire_btm_simple.SpriteEmitter32'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

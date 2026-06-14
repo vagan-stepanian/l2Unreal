@@ -1,0 +1,122 @@
+class d_ro_reverse_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=128,R=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,R=255,A=255))
+         Opacity=0.430000
+         FadeOutStartTime=0.114800
+         FadeOut=True
+         FadeInEndTime=0.022400
+         FadeIn=True
+         MaxParticles=8
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=0.390000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=13.500000,Max=19.920000),Y=(Min=13.500000,Max=19.920000),Z=(Min=13.500000,Max=19.920000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4113'
+         LifetimeRange=(Min=0.536000,Max=0.536000)
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_ro_reverse_ca_simple.SpriteEmitter16'
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=244,G=38,R=28,A=255))
+         ColorScale(1)=(RelativeTime=0.457143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.204000
+         FadeOut=True
+         FadeInEndTime=0.117000
+         FadeIn=True
+         MaxParticles=6
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.750000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.300000,Max=0.300000))
+         InitialParticlesPerSecond=18.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         Name="MeshEmitter0"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_ro_reverse_ca_simple.MeshEmitter0'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter2
+         VertexMesh=VertMesh'LineageEffectMeshes.hero_aura00'
+         UseMeshBlendMode=False
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=245,G=201,R=188,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=167,G=39,R=65,A=255))
+         FadeOutStartTime=0.235000
+         FadeOut=True
+         FadeInEndTime=0.195000
+         FadeIn=True
+         MaxParticles=8
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-0.200000,Max=0.200000),Z=(Min=-0.200000,Max=0.200000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.400000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.400000)
+         StartSizeRange=(X=(Min=0.120000,Max=0.120000),Y=(Min=0.120000,Max=0.120000),Z=(Min=0.450000,Max=0.450000))
+         InitialParticlesPerSecond=16.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.400000,Max=0.500000)
+         Name="VertMeshEmitter2"
+     End Object
+     Emitters(3)=VertMeshEmitter'LineageEffect.d_ro_reverse_ca_simple.VertMeshEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Bereth.Rotroll'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,R=255,A=255))
+         Opacity=0.650000
+         FadeOutStartTime=0.190400
+         FadeOut=True
+         FadeInEndTime=0.021760
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-0.500000,Max=0.500000))
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.250000,Max=0.250000),Y=(Min=0.250000,Max=0.250000),Z=(Min=0.400000,Max=0.400000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles3.fx_m_t4038'
+         LifetimeRange=(Min=0.544000,Max=0.544000)
+         Name="MeshEmitter1"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.d_ro_reverse_ca_simple.MeshEmitter1'
+     bNoDelete=False
+}

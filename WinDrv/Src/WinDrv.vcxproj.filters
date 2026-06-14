@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{51b1257b-3e34-45e9-9cc3-821942a3b870}</UniqueIdentifier>
+      <Extensions>*.cpp;*.h</Extensions>
+    </Filter>
+    <Filter Include="Res">
+      <UniqueIdentifier>{a18b0f37-d5db-40b7-b119-c2ccab257dd3}</UniqueIdentifier>
+      <Extensions>*.rc</Extensions>
+    </Filter>
+    <Filter Include="Int">
+      <UniqueIdentifier>{8edd814f-938a-4f18-adfc-de7591c15906}</UniqueIdentifier>
+      <Extensions>*.int</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinClient.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="WinDrv.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="WinViewport.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\WinDrv.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Res\WinDrvRes.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ADDACTOR.CUR">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\BRUSHFR.CUR">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\BRUSHMOV.CUR">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\BRUSHROT.CUR">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\BRUSHSCA.CUR">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\BRUSHSHR.CUR">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\BRUSHSTR.CUR">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\BrushSna.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\BrushWrp.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\CAMZOOM.CUR">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\MOVEACT.CUR">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\SELACTOR.CUR">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\SELECTPO.CUR">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\TEXGRAB.CUR">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\TEXPAN.CUR">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\TEXROT.CUR">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\TEXSCALE.CUR">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\TEXSET.CUR">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\cur00001.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\cur00002.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\cur00003.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\cur00004.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\cur00005.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\cur00006.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\cur00007.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\cur00008.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\cur00009.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\cur00010.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\cur00011.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\cur00012.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\cur00013.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\cur00014.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\cur00015.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\cur00016.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\idcursor.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\terrafor.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="..\..\System\WinDrv.int">
+      <Filter>Int</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\Unreal.ico">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\idicon_m.ico">
+      <Filter>Res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Res\WinDrvRes.rc">
+      <Filter>Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,98 @@
+class w_altar_deco extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter17
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.etc_smoke3'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=132,G=242,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.370000
+         FadeOutStartTime=0.960000
+         FadeOut=True
+         FadeInEndTime=0.840000
+         FadeIn=True
+         StartLocationOffset=(X=5.000000,Y=-3.000000,Z=-7.000000)
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-10.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-10.000000,Max=10.000000))
+         SpinParticles=True
+         StartSpinRange=(Z=(Min=0.250000,Max=0.250000))
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=0.300000,Max=0.600000),Y=(Min=0.300000,Max=0.600000),Z=(Min=1.000000,Max=2.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=1.500000,Max=2.000000)
+         StartVelocityRange=(Z=(Min=4.000000,Max=10.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000))
+         Name="MeshEmitter17"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.w_altar_deco.MeshEmitter17'
+     Begin Object Class=MeshEmitter Name=MeshEmitter20
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.twist_m05'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.100000,Max=0.100000))
+         FadeOutStartTime=1.340000
+         FadeOut=True
+         FadeInEndTime=0.340000
+         FadeIn=True
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-20.000000,Max=-20.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=0.050000,Max=0.050000),Y=(Min=0.050000,Max=0.050000),Z=(Min=0.050000,Max=0.050000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(Z=(Max=10.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000))
+         Name="MeshEmitter20"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.w_altar_deco.MeshEmitter20'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter19
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=245,G=20,R=99,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=239,G=7,R=19,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=1.260000
+         FadeOut=True
+         FadeInEndTime=0.870000
+         FadeIn=True
+         MaxParticles=12
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-7.000000,Max=3.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.030000,Max=0.030000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=3.000000,Max=8.000000),Y=(Min=3.000000,Max=8.000000),Z=(Min=3.000000,Max=8.000000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4042'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=2.000000,Max=3.000000)
+         StartVelocityRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=5.000000,Max=5.000000))
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000))
+         Name="SpriteEmitter19"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.w_altar_deco.SpriteEmitter19'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     bDirectional=True
+}

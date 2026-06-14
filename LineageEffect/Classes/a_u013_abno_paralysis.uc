@@ -1,0 +1,76 @@
+class a_u013_abno_paralysis extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'FX_M_S.fx_hold.FX_head_plane20'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=79,G=79,R=79,A=255))
+         ColorMultiplierRange=(X=(Min=0.810000,Max=0.810000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.552000,Max=0.552000))
+         Opacity=0.600000
+         FadeOutStartTime=0.980000
+         FadeOut=True
+         FadeInEndTime=0.220000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationOffset=(Z=-5.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.270000,RelativeSize=0.800000)
+         SizeScale(2)=(RelativeTime=0.540000,RelativeSize=0.700000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=4.000000,Max=4.000000),Y=(Min=4.000000,Max=4.000000),Z=(Min=4.000000,Max=4.000000))
+         InitialParticlesPerSecond=100.000000
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(Z=(Min=1.200000,Max=1.200000))
+         Name="MeshEmitter2"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.a_u013_abno_paralysis.MeshEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_charge02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=10.000000)
+         ColorScale(0)=(Color=(B=255,G=77,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.996429,Color=(B=64,G=64,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.826000,Max=0.826000),Y=(Min=0.830000,Max=0.830000),Z=(Min=0.660000,Max=0.660000))
+         FadeOutStartTime=1.000000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         StartLocationOffset=(Z=3.000000)
+         StartLocationRange=(X=(Max=8.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-0.500000,Max=0.500000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.540000,RelativeSize=0.800000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=10.000000
+         StartSizeRange=(X=(Min=0.083000,Max=0.188000),Y=(Min=0.083000,Max=0.188000),Z=(Min=0.083000,Max=0.188000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=1.000000,Max=2.000000)
+         StartVelocityRange=(Z=(Min=2.000000,Max=8.000000))
+         Name="MeshEmitter5"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.a_u013_abno_paralysis.MeshEmitter5'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.150000
+}

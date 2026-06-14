@@ -1,0 +1,139 @@
+class d_kn_gustblade_ra_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter91
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.571429,Color=(B=178,G=178,R=178,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=12.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.850000,Max=0.850000),Z=(Min=0.720000,Max=0.720000))
+         FadeOutStartTime=0.260000
+         FadeOut=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-140.000000,Max=140.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=30.000000,Max=50.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Min=0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         SizeScaleRepeats=10.000000
+         StartSizeRange=(X=(Min=5.500000,Max=8.000000),Y=(Min=5.500000,Max=8.000000),Z=(Min=5.500000,Max=8.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionScale(0)=0.200000
+         SubdivisionScale(1)=0.800000
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.600000,Max=1.247000)
+         StartVelocityRange=(X=(Min=300.000000,Max=300.000000),Y=(Min=300.000000,Max=300.000000),Z=(Min=300.000000,Max=300.000000))
+         VelocityLossRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=6.000000,Max=6.000000),Z=(Min=6.000000,Max=6.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter91"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_kn_gustblade_ra_simple.SpriteEmitter91'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter92
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.800000,Max=0.800000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.850000
+         FadeOutStartTime=0.216000
+         FadeOut=True
+         FadeInEndTime=0.104000
+         FadeIn=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=30.000000,Max=30.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=55.000000,Max=65.000000),Y=(Min=55.000000,Max=65.000000),Z=(Min=55.000000,Max=65.000000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5018'
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         Name="SpriteEmitter92"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_kn_gustblade_ra_simple.SpriteEmitter92'
+     Begin Object Class=MeshEmitter Name=MeshEmitter67
+         StaticMesh=StaticMesh'FX_M_S.fx_hold.FX_head_plane07'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.500000
+         FadeOutStartTime=0.285000
+         FadeOut=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=3.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.450000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=-2.000000,Max=-2.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter67"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_kn_gustblade_ra_simple.MeshEmitter67'
+     Begin Object Class=MeshEmitter Name=MeshEmitter68
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.A_circle'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.581000,Max=0.581000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.350000
+         FadeOutStartTime=0.121500
+         FadeOut=True
+         FadeInEndTime=0.049500
+         FadeIn=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-5.000000)
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=0.290000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.800000)
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.fx_m_t5108'
+         LifetimeRange=(Min=0.450000,Max=0.450000)
+         Name="MeshEmitter68"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.d_kn_gustblade_ra_simple.MeshEmitter68'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

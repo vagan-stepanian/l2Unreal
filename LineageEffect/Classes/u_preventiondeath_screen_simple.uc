@@ -1,0 +1,99 @@
+class u_preventiondeath_screen_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter22
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=163,G=238,R=254,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=163,G=238,R=254,A=255))
+         Opacity=0.730000
+         FadeOutStartTime=0.160000
+         FadeOut=True
+         FadeInEndTime=0.090000
+         FadeIn=True
+         CoordinateSystem=PTCS_ScreenAbsolute
+         MaxParticles=1
+         RespawnDeadParticles=False
+         ZTest=False
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures2.screen.fx_m_t7147'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         Name="SpriteEmitter22"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_preventiondeath_screen_simple.SpriteEmitter22'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=163,G=238,R=254,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=107,G=199,R=254,A=255))
+         FadeOutStartTime=0.155000
+         FadeOut=True
+         FadeInEndTime=0.020000
+         FadeIn=True
+         CoordinateSystem=PTCS_ScreenAbsolute
+         MaxParticles=1
+         RespawnDeadParticles=False
+         ZTest=False
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=0.900000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures2.screen.fx_m_t7148'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_preventiondeath_screen_simple.SpriteEmitter8'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter23
+         UseColorScale=True
+         ColorScale(0)=(Color=(A=255))
+         ColorScale(1)=(RelativeTime=0.107143,Color=(B=167,G=221,R=254,A=255))
+         ColorScale(2)=(RelativeTime=0.175000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.557143,Color=(B=68,G=89,R=102,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(A=255))
+         Opacity=0.610000
+         FadeOutStartTime=0.046000
+         FadeOut=True
+         FadeInEndTime=0.022000
+         FadeIn=True
+         CoordinateSystem=PTCS_ScreenAbsolute
+         MaxParticles=1
+         RespawnDeadParticles=False
+         ZTest=False
+         SpinParticles=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.etc.edge00'
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="SpriteEmitter23"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_preventiondeath_screen_simple.SpriteEmitter23'
+     AutoReplay=True
+     bRotEmitter=True
+     bSetSizeScale=False
+     IsScreenEffect=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bDirectional=True
+}

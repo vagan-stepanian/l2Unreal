@@ -1,0 +1,107 @@
+class w_harnak_deco_a_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter45
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.400000,Max=0.400000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.800000
+         FadeOutStartTime=1.734000
+         FadeOut=True
+         FadeInEndTime=0.204000
+         FadeIn=True
+         MaxParticles=4
+         UniformSize=True
+         StartSizeRange=(X=(Min=1.918000,Max=1.918000),Y=(Min=1.918000,Max=1.918000),Z=(Min=1.918000,Max=1.918000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0105'
+         LifetimeRange=(Min=2.040000,Max=2.040000)
+         WarmupTicksPerSecond=2.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter45"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.w_harnak_deco_a_simple.SpriteEmitter45'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter46
+         ColorScale(0)=(Color=(B=74,G=184,R=22,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=68,G=68,R=68,A=255))
+         ColorMultiplierRange=(X=(Max=0.200000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.479000,Max=1.000000))
+         FadeOutStartTime=0.410000
+         FadeOut=True
+         FadeInEndTime=0.170000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=200
+         StartLocationOffset=(Z=-0.200000)
+         StartLocationRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-0.700000,Max=0.700000))
+         StartLocationPolarRange=(X=(Min=360.000000,Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Max=5.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Max=0.059000),Y=(Max=0.059000),Z=(Min=0.088000,Max=0.088000))
+         RevolutionsPerSecondRange=(X=(Max=0.050000),Y=(Max=0.050000),Z=(Min=0.100000,Max=0.150000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.200000))
+         StartSpinRange=(X=(Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.760000,RelativeSize=0.800000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=1.632000,Max=2.564000),Y=(Min=1.632000,Max=2.564000),Z=(Min=1.632000,Max=2.564000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5011'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Max=6.000000))
+         Name="SpriteEmitter46"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.w_harnak_deco_a_simple.SpriteEmitter46'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter47
+         ColorScale(0)=(Color=(B=210,G=140,R=45,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=165,G=138,R=75,A=255))
+         ColorMultiplierRange=(Y=(Max=0.400000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.470400
+         FadeOut=True
+         FadeInEndTime=0.156800
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=80
+         StartLocationOffset=(Z=1.800000)
+         StartLocationRange=(X=(Min=-0.800000,Max=0.800000),Y=(Min=-0.800000,Max=0.800000),Z=(Min=-0.800000,Max=0.800000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.530000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=0.277000,Max=0.474000),Y=(Min=0.277000,Max=0.474000),Z=(Min=0.277000,Max=0.474000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.AirEffect.air_effect0000'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=1
+         LifetimeRange=(Min=0.784000,Max=0.784000)
+         StartVelocityRange=(Z=(Min=6.000000,Max=6.000000))
+         Name="SpriteEmitter47"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.w_harnak_deco_a_simple.SpriteEmitter47'
+     SpawnSound(0)=Sound'SkillSound10.scene_skill.ghost_of_harnak_fire'
+     SoundLooping=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     SoundRadius=60.000000
+     SoundVolume=250.000000
+}

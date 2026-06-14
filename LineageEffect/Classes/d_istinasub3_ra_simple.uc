@@ -1,0 +1,138 @@
+class d_istinasub3_ra_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=TrailEmitter Name=TrailEmitter1
+         TrailShadeType=PTTST_PointLife
+         MaxPointsPerTrail=90
+         PointLifeTime=1.000000
+         VelocityMinThreshold=1.000000
+         AttachEmitterIndex=3
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.300000
+         FadeOutStartTime=0.611000
+         FadeOut=True
+         FadeInEndTime=0.156000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8133'
+         InitialTimeRange=(Max=10.000000)
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="TrailEmitter1"
+     End Object
+     Emitters(0)=TrailEmitter'LineageEffect.d_istinasub3_ra_simple.TrailEmitter1'
+     Begin Object Class=MeshEmitter Name=MeshEmitter17
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Bereth.Rotroll'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=100.000000,Z=100.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=185,G=255,R=185,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=152,G=107,R=58,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.175000
+         FadeOut=True
+         FadeInEndTime=0.125000
+         FadeIn=True
+         MaxParticles=4
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=100.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=2.000000,Max=2.000000))
+         StartSpinRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.500000,Max=0.500000),Z=(Min=-0.050000,Max=-0.050000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.250000)
+         SizeScale(2)=(RelativeTime=0.750000,RelativeSize=1.750000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles2.fx_m_t_3057'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter17"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_istinasub3_ra_simple.MeshEmitter17'
+     Begin Object Class=MeshEmitter Name=MeshEmitter18
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Bereth.Rotroll'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=100.000000,Z=100.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=185,G=255,R=185,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=198,G=169,R=121,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.175000
+         FadeOut=True
+         FadeInEndTime=0.125000
+         FadeIn=True
+         MaxParticles=4
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=100.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=2.000000,Max=2.000000))
+         StartSpinRange=(X=(Min=0.900000,Max=0.900000),Y=(Min=0.500000,Max=0.500000),Z=(Min=-0.050000,Max=-0.050000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.250000)
+         SizeScale(2)=(RelativeTime=0.750000,RelativeSize=1.750000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=-1.000000,Max=-1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=-1.000000,Max=-1.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles2.fx_m_t_3057'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         Name="MeshEmitter18"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_istinasub3_ra_simple.MeshEmitter18'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter21
+         UseDirectionAs=PTDU_Forward
+         Acceleration=(Z=-1000.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=0.078000
+         FadeOut=True
+         FadeInEndTime=0.045000
+         FadeIn=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=80.000000)
+         StartLocationRange=(Z=(Max=50.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=200.000000,Max=200.000000),Y=(Min=200.000000,Max=200.000000),Z=(Min=200.000000,Max=200.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8016'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         InitialDelayRange=(Min=0.150000,Max=0.150000)
+         StartVelocityRange=(X=(Min=300.000000,Max=300.000000),Y=(Min=300.000000,Max=300.000000),Z=(Min=300.000000,Max=300.000000))
+         VelocityLossRange=(X=(Min=4.000000,Max=4.000000),Y=(Min=4.000000,Max=4.000000),Z=(Min=4.000000,Max=4.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter21"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_istinasub3_ra_simple.SpriteEmitter21'
+     AutoReplay=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

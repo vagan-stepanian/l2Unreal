@@ -1,0 +1,139 @@
+class e_u847_berethopen_light_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         Acceleration=(Z=150.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.475000,Color=(R=176,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(G=128,R=255,A=255))
+         Opacity=0.900000
+         FadeOutStartTime=1.672000
+         FadeOut=True
+         FadeInEndTime=0.572000
+         FadeIn=True
+         MaxParticles=30
+         StartLocationOffset=(Z=10.000000)
+         StartLocationRange=(X=(Max=3.120000),Y=(Min=-150.000000,Max=150.000000),Z=(Min=-10.000000,Max=-10.000000))
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Y=(Min=70.000000,Max=160.000000),Z=(Min=70.000000,Max=100.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.750000)
+         StartSizeRange=(X=(Min=50.000000,Max=100.000000),Y=(Min=60.000000,Max=80.000000),Z=(Min=50.000000,Max=100.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles3.ora02'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=20
+         LifetimeRange=(Min=2.200000,Max=2.200000)
+         StartVelocityRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=200.000000,Max=500.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u847_berethopen_light_simple.SpriteEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.twist_m06'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.250000,Max=0.250000),Z=(Min=0.100000,Max=0.100000))
+         Opacity=0.500000
+         FadeOutStartTime=0.860000
+         FadeOut=True
+         FadeInEndTime=0.540000
+         FadeIn=True
+         MaxParticles=14
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-50.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.150000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=5.000000,Max=10.000000))
+         InitialParticlesPerSecond=7.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="MeshEmitter2"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.e_u847_berethopen_light_simple.MeshEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter12
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=200.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=243,G=12,R=163,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.200000
+         FadeOutStartTime=0.936000
+         FadeOut=True
+         FadeInEndTime=0.276000
+         FadeIn=True
+         MaxParticles=15
+         StartLocationRange=(X=(Min=-25.000000,Max=25.000000),Y=(Min=-120.000000,Max=120.000000),Z=(Min=400.000000,Max=500.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.010000,Max=0.010000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=300.000000,Max=400.000000),Y=(Min=600.000000,Max=800.000000),Z=(Min=100.000000,Max=100.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t7060'
+         TextureUSubdivisions=5
+         TextureVSubdivisions=6
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=30
+         LifetimeRange=(Min=1.200000,Max=1.200000)
+         StartVelocityRange=(Z=(Min=50.000000,Max=100.000000))
+         Name="SpriteEmitter12"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.e_u847_berethopen_light_simple.SpriteEmitter12'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter13
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         Opacity=0.750000
+         FadeOutStartTime=0.414000
+         FadeOut=True
+         StartLocationRange=(X=(Min=-100.000000,Max=100.000000),Y=(Min=-100.000000,Max=100.000000),Z=(Min=50.000000,Max=250.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=30.000000,Max=70.000000),Y=(Min=30.000000,Max=70.000000),Z=(Min=30.000000,Max=70.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4029'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=100.000000,Max=300.000000))
+         Name="SpriteEmitter13"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.e_u847_berethopen_light_simple.SpriteEmitter13'
+     SpawnSound(0)=Sound'AmbSound.eerie.eeriewind_02'
+     SoundLooping=True
+     bDynamicActorFilterState=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Pitch=-4,Yaw=1672,Roll=32)
+     bUnlit=False
+     SoundRadius=1000.000000
+     SoundVolume=150.000000
+     SwayRotationOrig=(Pitch=-4,Yaw=1672,Roll=32)
+}

@@ -1,0 +1,165 @@
+class u_wi_darkdi_self extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter12
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Support.supportenchant03'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=128,A=255))
+         ColorMultiplierRange=(X=(Min=0.320000,Max=0.320000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.256000,Max=0.256000))
+         FadeOutStartTime=0.280000
+         FadeOut=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=20.000000,Max=20.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.110000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.300000)
+         StartSizeRange=(X=(Min=0.060000,Max=0.070000),Y=(Min=0.060000,Max=0.070000),Z=(Min=0.100000,Max=0.350000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(Z=(Min=-30.000000,Max=-30.000000))
+         Name="MeshEmitter12"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_wi_darkdi_self.MeshEmitter12'
+     Begin Object Class=MeshEmitter Name=MeshEmitter13
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Support.supportenchant03'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.100000,Max=0.100000))
+         Opacity=0.730000
+         FadeOutStartTime=0.280000
+         FadeOut=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-20.000000,Max=20.000000),Y=(Min=-20.000000,Max=20.000000),Z=(Min=5.000000,Max=20.000000))
+         RevolutionsPerSecondRange=(X=(Max=0.100000),Y=(Max=0.100000),Z=(Max=0.100000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.110000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.300000)
+         StartSizeRange=(X=(Min=0.050000,Max=0.050000),Y=(Min=0.050000,Max=0.050000),Z=(Min=-0.350000,Max=-0.350000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(Z=(Min=-50.000000,Max=-50.000000))
+         Name="MeshEmitter13"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.u_wi_darkdi_self.MeshEmitter13'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter37
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255))
+         ColorScale(1)=(RelativeTime=0.214286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255))
+         ColorScaleRepeats=8.000000
+         ColorMultiplierRange=(X=(Min=0.900000,Max=0.900000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.200000,Max=0.200000))
+         FadeOutStartTime=0.205000
+         FadeOut=True
+         FadeInEndTime=0.075000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=15
+         ResetAfterChange=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-8.000000,Max=8.000000),Y=(Min=-8.000000,Max=8.000000),Z=(Min=35.000000,Max=75.000000))
+         SphereRadiusRange=(Min=3.000000,Max=3.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=7.000000,Max=7.000000))
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.200000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.600000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=1.500000,Max=4.000000),Y=(Min=50.000000,Max=80.000000),Z=(Min=50.000000,Max=80.000000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4163'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(Z=(Min=-500.000000,Max=-300.000000))
+         VelocityLossRange=(Z=(Min=4.000000,Max=4.000000))
+         Name="SpriteEmitter37"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_wi_darkdi_self.SpriteEmitter37'
+     Begin Object Class=MeshEmitter Name=MeshEmitter28
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.Hit2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000))
+         Opacity=0.600000
+         FadeOutStartTime=0.416000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=60.000000,Max=60.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.300000,Max=0.300000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Min=0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.150000)
+         StartSizeRange=(X=(Min=0.180000,Max=0.180000),Y=(Min=0.180000,Max=0.180000),Z=(Min=-0.500000,Max=-0.500000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.650000,Max=0.650000)
+         StartVelocityRange=(Z=(Min=-220.000000,Max=-220.000000))
+         VelocityLossRange=(Z=(Min=1.500000,Max=1.500000))
+         Name="MeshEmitter28"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.u_wi_darkdi_self.MeshEmitter28'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter5
+         VertexMesh=VertMesh'LineageEffectMeshes.loc_wind'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.300000,Max=0.500000),Z=(Min=0.150000,Max=0.150000))
+         Opacity=0.850000
+         FadeOutStartTime=0.235000
+         FadeOut=True
+         FadeInEndTime=0.140000
+         FadeIn=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=10.000000,Z=5.000000)
+         AddLocationFromOtherEmitter=3
+         StartLocationShape=PTLS_Sphere
+         SpinParticles=True
+         StartSpinRange=(Y=(Min=-0.250000,Max=0.250000),Z=(Min=-0.850000,Max=-0.150000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.760000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=0.270000,Max=0.270000),Y=(Min=0.270000,Max=0.270000),Z=(Min=0.270000,Max=0.270000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.050000,Max=0.050000)
+         Name="VertMeshEmitter5"
+     End Object
+     Emitters(4)=VertMeshEmitter'LineageEffect.u_wi_darkdi_self.VertMeshEmitter5'
+     SpawnSound(0)=Sound'SkillSound11.darkdi.darkdi_self'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     SoundRadius=80.000000
+     SoundVolume=250.000000
+}

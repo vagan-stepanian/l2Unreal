@@ -1,0 +1,69 @@
+class d_townnpc_deco_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter29
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.etc_levelup00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.514286,Color=(B=188,G=188,R=188,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.900000,Max=0.900000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.030000
+         FadeOutStartTime=0.470000
+         FadeOut=True
+         FadeInEndTime=0.450000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationRange=(Z=(Min=-55.000000,Max=-55.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.290000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=0.790000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.100000,Max=0.100000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter29"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_townnpc_deco_simple.MeshEmitter29'
+     Begin Object Class=MeshEmitter Name=MeshEmitter30
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.wooh04.aura_cy'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=169,G=252,R=200,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=169,G=243,R=233,A=255))
+         ColorMultiplierRange=(X=(Min=0.669000,Max=0.669000),Y=(Min=0.700000,Max=1.000000),Z=(Min=0.755000,Max=0.755000))
+         Opacity=0.260000
+         FadeOutStartTime=1.680000
+         FadeOut=True
+         FadeInEndTime=1.320000
+         FadeIn=True
+         MaxParticles=16
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.300000,Max=0.300000),Z=(Min=2.000000,Max=3.000000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Name="MeshEmitter30"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_townnpc_deco_simple.MeshEmitter30'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

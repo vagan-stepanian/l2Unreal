@@ -1,0 +1,72 @@
+class u_sp_box_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter1
+         VertexMesh=VertMesh'LineageEffectMeshes.nova_out60'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.885000,Max=0.885000),Y=(Min=0.800000,Max=0.800000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.400000
+         FadeOutStartTime=1.131000
+         FadeOut=True
+         MaxParticles=24
+         WeatherSoundCheck=True
+         ForcedMaxParticles=True
+         RespawnDeadParticles=False
+         StartLocationPolarRange=(X=(Min=-150.000000,Max=150.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Min=-0.050000,Max=0.050000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-0.050000,Max=0.050000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=0.175000,Max=0.175000),Y=(Min=0.175000,Max=0.175000),Z=(Min=0.175000,Max=0.175000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles5.fx_m_t6059'
+         LifetimeRange=(Min=1.300000,Max=1.300000)
+         StartVelocityRange=(X=(Min=35.000000,Max=35.000000),Y=(Min=35.000000,Max=35.000000),Z=(Min=35.000000,Max=35.000000))
+         VelocityLossRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="VertMeshEmitter1"
+     End Object
+     Emitters(0)=VertMeshEmitter'LineageEffect.u_sp_box_ca.VertMeshEmitter1'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter2
+         VertexMesh=VertMesh'LineageEffectMeshes.Freya_ninn60'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.860000,Max=0.860000),Y=(Min=0.800000,Max=0.800000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.400000
+         FadeOutStartTime=1.335000
+         FadeOut=True
+         FadeInEndTime=0.510000
+         FadeIn=True
+         MaxParticles=24
+         ForcedMaxParticles=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-0.050000,Max=0.050000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.150000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.850000)
+         StartSizeRange=(X=(Min=0.122500,Max=0.157500),Y=(Min=0.122500,Max=0.157500),Z=(Min=0.122500,Max=0.157500))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles5.fx_m_t6059'
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         InitialDelayRange=(Min=0.800000,Max=0.800000)
+         Name="VertMeshEmitter2"
+     End Object
+     Emitters(1)=VertMeshEmitter'LineageEffect.u_sp_box_ca.VertMeshEmitter2'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

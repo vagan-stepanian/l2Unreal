@@ -1,0 +1,110 @@
+class d_gui_eye_deco_a_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=3.000000
+         MaxParticles=1
+         SpinParticles=True
+         UniformSize=True
+         StartSizeRange=(X=(Min=1.500000,Max=1.500000),Y=(Min=1.500000,Max=1.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t6183'
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(Z=(Min=0.010000,Max=0.010000))
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_gui_eye_deco_a_simple.SpriteEmitter11'
+     Begin Object Class=TrailEmitter Name=TrailEmitter5
+         TrailShadeType=PTTST_PointLife
+         MaxPointsPerTrail=200
+         PointLifeTime=0.150000
+         VelocityMinThreshold=1.000000
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.900000,Max=0.900000),Z=(Min=0.800000,Max=0.800000))
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=1
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=1.989000,Max=1.989000),Y=(Min=1.989000,Max=1.989000),Z=(Min=1.989000,Max=1.989000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t6184'
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="TrailEmitter5"
+     End Object
+     Emitters(1)=TrailEmitter'LineageEffect.d_gui_eye_deco_a_simple.TrailEmitter5'
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.White.white_Protect01'
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=1.640000
+         FadeOut=True
+         FadeInEndTime=0.440000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationRange=(Y=(Min=0.500000,Max=0.500000))
+         SpinParticles=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.060000,Max=0.060000),Y=(Min=0.080000,Max=0.080000),Z=(Min=0.060000,Max=0.060000))
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         WarmupTicksPerSecond=2.000000
+         RelativeWarmupTime=2.000000
+         Name="MeshEmitter5"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_gui_eye_deco_a_simple.MeshEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter12
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.528571,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=40.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.613000,Max=0.613000),Z=(Min=0.458000,Max=0.458000))
+         Opacity=0.150000
+         FadeOutStartTime=0.767600
+         FadeOut=True
+         FadeInEndTime=0.565600
+         FadeIn=True
+         MaxParticles=15
+         StartLocationRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-0.500000,Max=0.500000))
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.300000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Fire.fx_m_t6214'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=2.020000,Max=2.020000)
+         StartVelocityRange=(X=(Min=3.450000,Max=3.450000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.441000,Max=0.588000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter12"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_gui_eye_deco_a_simple.SpriteEmitter12'
+     AutoReset=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.010000
+     bUnlit=False
+}

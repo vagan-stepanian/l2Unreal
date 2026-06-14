@@ -1,0 +1,77 @@
+class u_ave_shadowstep extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter451
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=78,G=128,R=243,A=255))
+         ColorScale(1)=(RelativeTime=0.250000,Color=(B=167,G=3,R=56,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=222,G=175,R=78,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.850000,Max=0.850000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.700000
+         FadeOutStartTime=0.340000
+         FadeOut=True
+         FadeInEndTime=0.215000
+         FadeIn=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-5.000000)
+         StartLocationRange=(X=(Min=-16.799999,Max=16.799999),Y=(Min=-16.799999,Max=16.799999),Z=(Min=-16.799999,Max=16.799999))
+         StartLocationShape=PTLS_Polar
+         SphereRadiusRange=(Min=5.000000,Max=10.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=7.000000,Max=10.000000))
+         SpinParticles=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=6.720000,Max=12.600000),Y=(Min=42.000000,Max=42.000000),Z=(Min=6.720000,Max=12.600000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t8237'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=12
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=24.000000,Max=36.000000))
+         Name="SpriteEmitter451"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_ave_shadowstep.SpriteEmitter451'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter452
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.517857,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.860000,Max=0.860000),Z=(Min=0.860000,Max=0.860000))
+         Opacity=0.900000
+         FadeOutStartTime=0.600000
+         FadeOut=True
+         FadeInEndTime=0.120000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.020000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.660000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=38.400002,Max=57.600002),Y=(Min=38.400002,Max=57.600002),Z=(Min=38.400002,Max=57.600002))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7114'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter452"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_ave_shadowstep.SpriteEmitter452'
+     AutoDestroy=False
+     SpawnSound(0)=Sound'SkillSound12.bLink.blink_cast'
+     bNoDelete=False
+     SoundRadius=80.000000
+     SoundVolume=250.000000
+}

@@ -1,0 +1,131 @@
+class d_sacshilen_d extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter12
+         VertexMesh=VertMesh'BG_EffectMeshes.sacrifice_shilenV03'
+         UseMeshBlendMode=False
+         RenderTwoSided=False
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=78.400002
+         FadeOut=True
+         MaxParticles=1
+         StartLocationOffset=(Z=10.000000)
+         AlphaTest=False
+         ZWrite=True
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(Z=(Min=-2.000000,Max=-1.000000))
+         RevolutionsPerSecondRange=(X=(Min=0.100000,Max=0.180000),Y=(Min=0.100000,Max=0.180000))
+         SpinParticles=True
+         StartSizeRange=(X=(Min=0.320000,Max=0.320000),Y=(Min=0.320000,Max=0.320000),Z=(Min=0.320000,Max=0.320000))
+         InitialParticlesPerSecond=1000.000000
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=80.000000,Max=80.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="VertMeshEmitter12"
+     End Object
+     Emitters(0)=VertMeshEmitter'LineageEffect.d_sacshilen_d.VertMeshEmitter12'
+     Begin Object Class=MeshEmitter Name=MeshEmitter26
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.twist_m06'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.370000,Max=0.499000),Z=(Min=0.198000,Max=0.420000))
+         FadeOutStartTime=0.640000
+         FadeOut=True
+         FadeInEndTime=0.380000
+         FadeIn=True
+         MaxParticles=15
+         StartLocationOffset=(Z=35.000000)
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.150000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.100000,Max=0.160000),Y=(Min=0.100000,Max=0.160000),Z=(Min=1.500000,Max=2.000000))
+         InitialParticlesPerSecond=7.000000
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="MeshEmitter26"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_sacshilen_d.MeshEmitter26'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter165
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=1.440000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         StartLocationOffset=(Z=50.000000)
+         StartLocationRange=(Z=(Min=-5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=0.700000,RelativeSize=1.250000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.350000)
+         StartSizeRange=(X=(Min=40.000000,Max=60.000000),Y=(Min=40.000000,Max=60.000000),Z=(Min=40.000000,Max=60.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5009'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="SpriteEmitter165"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_sacshilen_d.SpriteEmitter165'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter166
+         Acceleration=(Z=5.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=202,G=202,R=202,A=255))
+         ColorScale(1)=(RelativeTime=0.567857,Color=(B=98,G=98,R=98,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=208,G=208,R=208,A=255))
+         ColorScaleRepeats=25.000000
+         ColorMultiplierRange=(X=(Min=0.901000,Max=1.000000),Y=(Min=0.307000,Max=0.432000),Z=(Min=0.186000,Max=0.239000))
+         Opacity=0.550000
+         FadeOutStartTime=1.360000
+         FadeOut=True
+         FadeInEndTime=0.460000
+         FadeIn=True
+         StartLocationOffset=(Z=50.000000)
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-10.000000,Max=10.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=40.000000,Max=40.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5008'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-10.000000,Max=10.000000))
+         VelocityLossRange=(Z=(Min=2.000000,Max=2.000000))
+         Name="SpriteEmitter166"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_sacshilen_d.SpriteEmitter166'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Group="None,ShilenV_eff"
+     Rotation=(Yaw=112)
+     DrawScale=5.000000
+     PrePivot=(Z=100.000000)
+     bUnlit=False
+     SwayRotationOrig=(Yaw=112)
+}

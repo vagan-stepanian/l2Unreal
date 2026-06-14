@@ -1,0 +1,118 @@
+class d_octabisearth_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter53
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.464286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=2.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.400000,Max=0.400000))
+         FadeOutStartTime=1.560000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=30
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-100.000000,Max=100.000000),Y=(Min=-100.000000,Max=100.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=30.000000,Max=50.000000),Y=(Min=30.000000,Max=50.000000),Z=(Min=30.000000,Max=50.000000))
+         InitialParticlesPerSecond=16.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0111'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         Name="SpriteEmitter53"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_octabisearth_ca_simple.SpriteEmitter53'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter55
+         ColorScale(0)=(Color=(B=122,G=153,R=186,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=150,G=174,R=203,A=255))
+         ColorMultiplierRange=(X=(Min=0.900000,Max=0.900000),Y=(Min=0.900000,Max=0.900000),Z=(Min=0.900000,Max=0.900000))
+         Opacity=0.600000
+         FadeOutStartTime=0.430000
+         FadeOut=True
+         FadeInEndTime=0.230000
+         FadeIn=True
+         MaxParticles=60
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=10.000000)
+         StartLocationRange=(X=(Min=-100.000000,Max=100.000000),Y=(Min=-100.000000,Max=100.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.050000))
+         StartSpinRange=(X=(Min=0.450000,Max=0.550000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=10.000000,Max=30.000000),Y=(Min=10.000000,Max=30.000000),Z=(Min=10.000000,Max=30.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t4043'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=3
+         SubdivisionEnd=12
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=20.000000,Max=20.000000))
+         VelocityScale(0)=(RelativeTime=0.500000,RelativeVelocity=(Z=1.000000))
+         VelocityScale(1)=(RelativeTime=1.000000,RelativeVelocity=(Z=-1.000000))
+         VelocityScaleRepeats=5.000000
+         Name="SpriteEmitter55"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_octabisearth_ca_simple.SpriteEmitter55'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter56
+         ColorScale(0)=(Color=(B=122,G=153,R=186,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=150,G=174,R=203,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.900000,Max=0.900000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.500000
+         FadeOutStartTime=0.410000
+         FadeOut=True
+         FadeInEndTime=0.140000
+         FadeIn=True
+         MaxParticles=110
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-100.000000,Max=100.000000),Y=(Min=-100.000000,Max=100.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000),Z=(Min=-50.000000,Max=50.000000))
+         RevolutionsPerSecondRange=(X=(Max=0.030000),Y=(Max=0.030000),Z=(Max=0.030000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.050000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=10.000000,Max=20.000000),Y=(Min=10.000000,Max=20.000000),Z=(Min=10.000000,Max=20.000000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1071'
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=20.000000,Max=30.000000))
+         VelocityScale(0)=(RelativeTime=0.500000,RelativeVelocity=(Z=1.000000))
+         VelocityScale(1)=(RelativeTime=1.000000,RelativeVelocity=(Z=-1.000000))
+         VelocityScaleRepeats=5.000000
+         Name="SpriteEmitter56"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_octabisearth_ca_simple.SpriteEmitter56'
+     bNoDelete=False
+     LifeSpan=1.000000
+     bUnlit=False
+}

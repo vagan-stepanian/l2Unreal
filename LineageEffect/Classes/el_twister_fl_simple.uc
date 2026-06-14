@@ -1,0 +1,136 @@
+class el_twister_fl_simple extends NSkillProjectile;	// 트위스터, 발사체
+
+defaultproperties
+{
+     Speed=1000.000000
+     AccSpeed=3000.000000
+     Begin Object Class=MeshEmitter Name=MeshEmitter3
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Wind.windblowin02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutFactor=(W=1.000000,X=0.300000,Y=0.300000,Z=0.300000)
+         FadeOutStartTime=6.000000
+         FadeInFactor=(W=1.000000,X=0.300000,Y=0.300000,Z=0.300000)
+         MaxParticles=1
+         ResetAfterChange=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=3.000000,Max=3.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=0.102000,Max=0.102000),Y=(Min=0.102000,Max=0.102000),Z=(Min=0.102000,Max=0.102000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0001'
+         Name="MeshEmitter3"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.el_twister_fl_simple.MeshEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter15
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.180000
+         FadeOutStartTime=5.000000
+         MaxParticles=3
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-0.425000,Max=0.425000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=2.000000,Max=2.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.080000,RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.270000,RelativeSize=4.000000)
+         SizeScale(2)=(RelativeTime=0.660000,RelativeSize=6.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=7.000000)
+         StartSizeRange=(X=(Min=12.750000,Max=21.250000),Y=(Min=12.750000,Max=21.250000),Z=(Min=12.750000,Max=21.250000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0006'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         SubdivisionStart=12
+         SubdivisionEnd=13
+         LifetimeRange=(Min=3.800000,Max=3.800000)
+         Name="SpriteEmitter15"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.el_twister_fl_simple.SpriteEmitter15'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.171429,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.332143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.800000,Max=0.800000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.800000
+         FadeOutStartTime=5.000000
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=360.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=10.200001,Max=10.200001),Y=(Min=68.000000,Max=68.000000),Z=(Min=68.000000,Max=68.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0063'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=1
+         MaxAbsVelocity=(X=6400.000000,Y=10000.000000,Z=8000.000000)
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.el_twister_fl_simple.SpriteEmitter16'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter17
+         Acceleration=(X=-85.000000)
+         ColorScale(0)=(Color=(B=251,G=145,R=94))
+         ColorScale(1)=(RelativeTime=1.000000)
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Min=0.307000,Max=0.307000),Y=(Min=0.610000,Max=0.610000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.630000
+         FadeOutStartTime=0.135000
+         FadeOut=True
+         MaxParticles=100
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=-10.000000)
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=5.000000,Max=5.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=17.000000,Max=17.000000),Y=(Min=68.000000,Max=68.000000),Z=(Min=68.000000,Max=68.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0067'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=2
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.200000,Max=0.300000)
+         StartVelocityRange=(X=(Min=-255.000000,Max=-255.000000),Y=(Min=-8.500000,Max=8.500000),Z=(Min=-8.500000,Max=8.500000))
+         MaxAbsVelocity=(X=6400.000000,Y=10000.000000,Z=8000.000000)
+         WarmupTicksPerSecond=10.000000
+         RelativeWarmupTime=0.100000
+         Name="SpriteEmitter17"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.el_twister_fl_simple.SpriteEmitter17'
+     bRotEmitter=True
+     RotPerSecond=(Roll=30000)
+     bSelfRotation=True
+     bUseDynamicLights=False
+     bAcceptsProjectors=False
+     DrawScale=0.100000
+     bDirectional=True
+}

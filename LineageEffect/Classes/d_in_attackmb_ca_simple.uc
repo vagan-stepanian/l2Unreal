@@ -1,0 +1,185 @@
+class d_in_attackmb_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter14
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=177,R=136,A=255))
+         FadeOutStartTime=0.051000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.170000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8062'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         Name="SpriteEmitter14"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_in_attackmb_ca_simple.SpriteEmitter14'
+     Begin Object Class=MeshEmitter Name=MeshEmitter7
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.wooh_SphereRing'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=224,G=90,R=39,A=128))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=128))
+         Opacity=0.510000
+         FadeOutStartTime=0.280000
+         FadeOut=True
+         FadeInEndTime=0.196000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-5.000000,Max=5.000000))
+         AddLocationFromOtherEmitter=0
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=0.300000,Max=0.500000),Y=(Min=0.300000,Max=0.500000),Z=(Min=0.300000,Max=0.500000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles4.fx_m_t8016'
+         LifetimeRange=(Min=0.500000,Max=0.700000)
+         InitialDelayRange=(Min=0.410000,Max=0.410000)
+         StartVelocityRange=(Z=(Min=30.000000,Max=40.000000))
+         VelocityLossRange=(Z=(Min=1.000000,Max=1.000000))
+         Name="MeshEmitter7"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_in_attackmb_ca_simple.MeshEmitter7'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter23
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=248,G=158,R=78,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=248,G=158,R=78,A=255))
+         ColorScaleRepeats=5.000000
+         FadeOutStartTime=0.090000
+         FadeOut=True
+         MaxParticles=2
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.170000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=50.000000,Max=60.000000),Y=(Min=50.000000,Max=60.000000),Z=(Min=50.000000,Max=60.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8122'
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         InitialDelayRange=(Min=0.420000,Max=0.420000)
+         Name="SpriteEmitter23"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.d_in_attackmb_ca_simple.SpriteEmitter23'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter24
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=177,R=136,A=255))
+         FadeOutStartTime=0.081000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=0.700000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8062'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         InitialDelayRange=(Min=0.450000,Max=0.450000)
+         Name="SpriteEmitter24"
+     End Object
+     Emitters(6)=SpriteEmitter'LineageEffect.d_in_attackmb_ca_simple.SpriteEmitter24'
+     Begin Object Class=MeshEmitter Name=MeshEmitter9
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.block_line'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=176,G=152,R=13,A=128))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=128))
+         Opacity=0.500000
+         FadeOutStartTime=0.143000
+         FadeOut=True
+         MaxParticles=2
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-5.000000,Max=5.000000))
+         AddLocationFromOtherEmitter=0
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.850000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=0.200000,Max=0.350000),Y=(Min=0.200000,Max=0.350000),Z=(Min=0.200000,Max=0.350000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.550000,Max=0.550000)
+         Name="MeshEmitter9"
+     End Object
+     Emitters(7)=MeshEmitter'LineageEffect.d_in_attackmb_ca_simple.MeshEmitter9'
+     Begin Object Class=MeshEmitter Name=MeshEmitter10
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.wooh_SphereRing'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=224,G=90,R=39,A=128))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=128))
+         Opacity=0.590000
+         FadeOutStartTime=0.280000
+         FadeOut=True
+         FadeInEndTime=0.196000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-5.000000,Max=5.000000))
+         AddLocationFromOtherEmitter=0
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=0.300000,Max=0.500000),Y=(Min=0.300000,Max=0.500000),Z=(Min=0.300000,Max=0.500000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles4.fx_m_t8016'
+         LifetimeRange=(Min=0.500000,Max=0.700000)
+         InitialDelayRange=(Min=0.410000,Max=0.410000)
+         StartVelocityRange=(Z=(Min=-40.000000,Max=-30.000000))
+         VelocityLossRange=(Z=(Min=1.000000,Max=1.000000))
+         Name="MeshEmitter10"
+     End Object
+     Emitters(8)=MeshEmitter'LineageEffect.d_in_attackmb_ca_simple.MeshEmitter10'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bDirectional=True
+}

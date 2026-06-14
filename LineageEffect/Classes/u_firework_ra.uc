@@ -1,0 +1,120 @@
+class u_firework_ra extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         Acceleration=(Z=-100.000000)
+         ColorScale(0)=(Color=(B=181,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=202,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.400000,Max=1.000000),Y=(Min=0.400000,Max=1.000000),Z=(Min=0.400000,Max=1.000000))
+         Opacity=0.800000
+         FadeOutStartTime=1.000000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=100
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-10.000000,Max=10.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=80.000000,Max=85.000000),Z=(Min=100.000000,Max=600.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(X=(Min=-0.005000,Max=0.005000),Y=(Min=-0.005000,Max=0.005000),Z=(Min=-0.010000,Max=0.010000))
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         SizeScaleRepeats=10.000000
+         StartSizeRange=(X=(Min=2.000000,Max=4.000000),Y=(Min=2.000000,Max=4.000000),Z=(Min=2.000000,Max=4.000000))
+         InitialParticlesPerSecond=250.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         UseSubdivisionScale=True
+         SubdivisionScale(0)=15.000000
+         SubdivisionEnd=2
+         LifetimeRange=(Min=1.800000,Max=2.300000)
+         InitialDelayRange=(Min=0.300000,Max=0.300000)
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_firework_ra.SpriteEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(G=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.870000,Max=0.870000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.202500
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=2
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.600000)
+         StartSizeRange=(X=(Min=467.999969,Max=467.999969),Y=(Min=467.999969,Max=467.999969),Z=(Min=467.999969,Max=467.999969))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7114'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_firework_ra.SpriteEmitter16'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter18
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(G=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.870000,Max=0.870000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.500000
+         FadeOutStartTime=0.470000
+         FadeOut=True
+         FadeInEndTime=0.470000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=5
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=530.399963,Max=530.399963),Y=(Min=530.399963,Max=530.399963),Z=(Min=530.399963,Max=530.399963))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7114'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.300000,Max=0.300000)
+         Name="SpriteEmitter18"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_firework_ra.SpriteEmitter18'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter19
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         MaxParticles=100
+         RespawnDeadParticles=False
+         Disabled=True
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=400.000000,Max=400.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Name="SpriteEmitter19"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_firework_ra.SpriteEmitter19'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

@@ -1,0 +1,97 @@
+class d_hellfire_fire_f extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter81
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=0.100000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.210000
+         FadeOutStartTime=0.830000
+         FadeOut=True
+         FadeInEndTime=0.150000
+         FadeIn=True
+         MaxActiveDistance=1200
+         MaxParticles=1
+         StartLocationRange=(Z=(Min=2.000000,Max=2.000000))
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=2.700000,Max=2.700000),Y=(Min=4.000000,Max=4.000000),Z=(Min=4.000000,Max=4.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures2.Fire.FX_M_T4209'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=32
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=0.100000,Max=0.100000))
+         VelocityLossRange=(Z=(Min=2.000000,Max=2.000000))
+         Name="SpriteEmitter81"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_hellfire_fire_f.SpriteEmitter81'
+     Begin Object Class=MeshEmitter Name=MeshEmitter21
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.aura_nemo'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=147,G=236,R=255,A=180))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=45,G=139,R=255,A=255))
+         ColorScaleRepeats=1.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.830000,Max=1.000000),Z=(Min=0.830000,Max=1.000000))
+         Opacity=0.100000
+         FadeOutStartTime=0.408000
+         FadeOut=True
+         FadeInEndTime=0.221000
+         FadeIn=True
+         MaxActiveDistance=1200
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         StartSpinRange=(Y=(Min=0.250000,Max=0.250000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.300000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.180000),Y=(Min=0.050000,Max=0.050000),Z=(Min=0.050000,Max=0.050000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.700000,Max=1.700000)
+         StartVelocityRange=(Z=(Min=7.000000,Max=12.000000))
+         VelocityLossRange=(Z=(Min=2.000000,Max=2.000000))
+         Name="MeshEmitter21"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_hellfire_fire_f.MeshEmitter21'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter82
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=3,G=138,R=228,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=9,G=9,R=255,A=255))
+         Opacity=0.490000
+         FadeOutStartTime=0.330000
+         FadeOut=True
+         FadeInEndTime=0.080000
+         FadeIn=True
+         MaxActiveDistance=1200
+         MaxParticles=4
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.300000,Max=0.300000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0105'
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter82"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_hellfire_fire_f.SpriteEmitter82'
+     bNoDelete=False
+}

@@ -1,0 +1,82 @@
+class e_u611_gate_legion extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter16
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.cross_plane1'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         Acceleration=(Z=100.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=156,G=181,R=254,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=191,G=168,R=253,A=255))
+         Opacity=0.060000
+         FadeOutStartTime=0.710000
+         FadeOut=True
+         FadeInEndTime=0.240000
+         FadeIn=True
+         MaxParticles=8
+         StartLocationOffset=(Z=450.000000)
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-200.000000,Max=200.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.020000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Min=0.500000,Max=0.500000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=15.000000,Max=15.000000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles.fx_m_t0113'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=200.000000,Max=200.000000))
+         Name="MeshEmitter16"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.e_u611_gate_legion.MeshEmitter16'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter103
+         Acceleration=(Z=20.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.307143,Color=(B=94,G=94,R=94,A=255))
+         ColorScale(2)=(RelativeTime=0.621429,Color=(B=238,G=238,R=238,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=15.000000
+         FadeOutStartTime=1.660000
+         FadeOut=True
+         FadeInEndTime=0.300000
+         FadeIn=True
+         MaxParticles=40
+         StartLocationOffset=(Z=300.000000)
+         StartLocationRange=(X=(Min=-100.000000,Max=100.000000),Y=(Min=-100.000000,Max=100.000000),Z=(Min=-250.000000,Max=250.000000))
+         SphereRadiusRange=(Max=300.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=-100.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=0.100000,Max=0.300000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=8.000000,Max=12.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=5.000000,Max=15.000000))
+         InitialParticlesPerSecond=1000.000000
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2033'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=4
+         SubdivisionEnd=7
+         LifetimeRange=(Min=1.800000,Max=2.000000)
+         StartVelocityRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=5.000000,Max=10.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeVelocity=(X=3.000000,Y=3.000000,Z=1.000000))
+         VelocityScale(1)=(RelativeTime=0.200000,RelativeVelocity=(Z=10.000000))
+         Name="SpriteEmitter103"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u611_gate_legion.SpriteEmitter103'
+     bNoDelete=False
+     DrawScale=2.000000
+}

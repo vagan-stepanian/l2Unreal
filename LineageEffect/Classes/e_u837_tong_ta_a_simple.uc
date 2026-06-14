@@ -1,0 +1,116 @@
+class e_u837_tong_ta_a_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=241,G=143,R=84,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=140,G=186,R=255,A=255))
+         FadeOutStartTime=0.081600
+         FadeOut=True
+         FadeInEndTime=0.036000
+         FadeIn=True
+         MaxParticles=20
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-5.400000,Max=5.400000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.010000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=12.000000)
+         StartSizeRange=(X=(Min=21.600000,Max=27.000000),Y=(Min=21.600000,Max=27.000000),Z=(Min=21.600000,Max=27.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0064'
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.100000,Max=0.120000)
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u837_tong_ta_a_simple.SpriteEmitter9'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter10
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=241,G=105,R=119,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=242,G=226,R=115,A=255))
+         ColorMultiplierRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.710000
+         FadeOutStartTime=0.252000
+         FadeOut=True
+         FadeInEndTime=0.024500
+         FadeIn=True
+         MaxParticles=8
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-9.000000,Max=9.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=3.000000,Max=3.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.010000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=9.000000)
+         StartSizeRange=(X=(Min=33.000000,Max=39.000000),Y=(Min=33.000000,Max=39.000000),Z=(Min=33.000000,Max=39.000000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1018'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.300000,Max=0.350000)
+         StartVelocityRange=(Z=(Min=-120.000000,Max=-120.000000))
+         Name="SpriteEmitter10"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u837_tong_ta_a_simple.SpriteEmitter10'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=300.000000,Max=300.000000),Y=(Min=300.000000,Max=300.000000),Z=(Min=300.000000,Max=300.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=None
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.e_u837_tong_ta_a_simple.SpriteEmitter11'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Black.black_poison00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.096000
+         FadeOut=True
+         FadeInEndTime=0.064800
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.010000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=13.000000)
+         StartSizeRange=(X=(Min=0.090000,Max=0.100000),Y=(Min=0.090000,Max=0.100000),Z=(Min=0.090000,Max=0.100000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.100000,Max=0.120000)
+         StartVelocityRange=(Z=(Min=-200.000000,Max=-200.000000))
+         Name="MeshEmitter1"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.e_u837_tong_ta_a_simple.MeshEmitter1'
+     bLightChanged=True
+     bNoDelete=False
+}

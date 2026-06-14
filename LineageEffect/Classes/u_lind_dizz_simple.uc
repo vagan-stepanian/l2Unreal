@@ -1,0 +1,134 @@
+class u_lind_dizz_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter147
+         ColorScale(0)=(Color=(B=184,G=184,R=220,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=64,R=128,A=255))
+         ColorMultiplierRange=(X=(Min=0.680000,Max=0.680000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.700000
+         FadeOutStartTime=0.285000
+         FadeOut=True
+         FadeInEndTime=0.285000
+         FadeIn=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.030000,Max=0.040000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=22.000000,Max=22.000000),Y=(Min=22.000000,Max=22.000000),Z=(Min=22.000000,Max=22.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.aura_wooh02'
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         Name="SpriteEmitter147"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_lind_dizz_simple.SpriteEmitter147'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter149
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=162,G=162,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.700000
+         FadeOutStartTime=0.285000
+         FadeOut=True
+         FadeInEndTime=0.285000
+         FadeIn=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=2.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.600000)
+         StartSizeRange=(X=(Min=8.000000,Max=8.000000),Y=(Min=8.000000,Max=8.000000),Z=(Min=8.000000,Max=8.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8016'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.150000,Max=0.150000)
+         Name="SpriteEmitter149"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_lind_dizz_simple.SpriteEmitter149'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter152
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=172,G=172,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.804000,Max=0.804000),Z=(Min=0.685000,Max=0.685000))
+         Opacity=0.900000
+         FadeOutStartTime=0.285000
+         FadeOut=True
+         FadeInEndTime=0.285000
+         FadeIn=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.400000,Max=0.400000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=13.000000,Max=13.000000),Y=(Min=13.000000,Max=13.000000),Z=(Min=13.000000,Max=13.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8019'
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         Name="SpriteEmitter152"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_lind_dizz_simple.SpriteEmitter152'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter153
+         ColorScale(0)=(Color=(B=128,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=64,R=128,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.252000
+         FadeOut=True
+         FadeInEndTime=0.054000
+         FadeIn=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-10.000000,Max=10.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=-180.000000,Max=180.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.080000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=2.000000,Max=8.000000),Y=(Min=2.000000,Max=8.000000),Z=(Min=2.000000,Max=8.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5004'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.350000,Max=0.350000)
+         InitialDelayRange=(Min=0.450000,Max=0.450000)
+         StartVelocityRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter153"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_lind_dizz_simple.SpriteEmitter153'
+     AutoReplay=True
+     bAllDead=True
+     bNoDelete=False
+}

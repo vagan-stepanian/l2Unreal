@@ -1,0 +1,151 @@
+class e_u520_selected_b_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.010000,Max=0.010000),Y=(Min=0.010000,Max=0.010000),Z=(Min=0.010000,Max=0.010000))
+         FadeOutStartTime=4.000000
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-10.000000)
+         UniformSize=True
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0054'
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u520_selected_b_simple.SpriteEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.sel_ring_blue02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.521429,Color=(B=255,G=255,R=255,A=240))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=39.000000
+         ColorMultiplierRange=(X=(Min=0.772000,Max=0.772000),Y=(Min=0.850000,Max=0.850000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.800000
+         FadeOutStartTime=4.000000
+         MaxParticles=1
+         StartLocationOffset=(Z=1.000000)
+         StartLocationRange=(Z=(Min=-4.000000,Max=-4.000000))
+         UseRotationFrom=PTRS_Normal
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.050000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=4.000000
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.300000,Max=0.300000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter0"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.e_u520_selected_b_simple.MeshEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.sel_ring_blue03'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.532143,Color=(B=255,G=255,R=255,A=240))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=39.000000
+         ColorMultiplierRange=(X=(Min=0.772000,Max=0.772000),Y=(Min=0.850000,Max=0.850000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.800000
+         FadeOutStartTime=4.000000
+         MaxParticles=1
+         StartLocationOffset=(Z=1.000000)
+         StartLocationRange=(Z=(Min=-4.000000,Max=-4.000000))
+         UseRotationFrom=PTRS_Normal
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.050000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=4.000000
+         StartSizeRange=(X=(Min=0.290000,Max=0.290000),Y=(Min=0.290000,Max=0.290000),Z=(Min=0.290000,Max=0.290000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter2"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.e_u520_selected_b_simple.MeshEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter16
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.sel_ring_blue02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(R=251,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.772000,Max=0.772000),Y=(Min=0.850000,Max=0.850000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.800000
+         FadeOutStartTime=1.000000
+         FadeInEndTime=0.200000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=1.000000)
+         StartLocationRange=(Z=(Min=-4.000000,Max=-4.000000))
+         UseRotationFrom=PTRS_Normal
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.063000,Max=0.063000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.600000)
+         SizeScale(1)=(RelativeTime=0.420000,RelativeSize=0.980000)
+         SizeScale(2)=(RelativeTime=0.570000,RelativeSize=1.005000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.300000,Max=0.300000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter16"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.e_u520_selected_b_simple.MeshEmitter16'
+     Begin Object Class=MeshEmitter Name=MeshEmitter17
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.sel_ring_blue03'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(R=251,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.772000,Max=0.772000),Y=(Min=0.850000,Max=0.850000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.800000
+         FadeOutStartTime=1.000000
+         FadeInEndTime=0.200000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=1.000000)
+         StartLocationRange=(Z=(Min=-4.000000,Max=-4.000000))
+         UseRotationFrom=PTRS_Normal
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.420000,RelativeSize=0.980000)
+         SizeScale(2)=(RelativeTime=0.570000,RelativeSize=1.005000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.290000,Max=0.290000),Y=(Min=0.290000,Max=0.290000),Z=(Min=0.290000,Max=0.290000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter17"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.e_u520_selected_b_simple.MeshEmitter17'
+     Physics=PHYS_Trailer
+     bNoDelete=False
+     bTrailerPrePivot=True
+     bDirectional=True
+}

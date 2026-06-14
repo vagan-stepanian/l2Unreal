@@ -1,0 +1,107 @@
+class z_ice_stand_boom_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter2
+         VertexMesh=VertMesh'LineageEffectMeshes.ice_knight_exp2'
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.624000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         StartSizeRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.200000,Max=0.200000),Z=(Min=0.200000,Max=0.200000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.200000,Max=1.200000)
+         Name="VertMeshEmitter2"
+     End Object
+     Emitters(0)=VertMeshEmitter'LineageEffect.z_ice_stand_boom_simple.VertMeshEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter22
+         Acceleration=(Z=-40.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=254,G=227,R=203,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=250,G=227,R=197,A=255))
+         ColorMultiplierRange=(X=(Min=0.950000,Max=0.950000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.500000
+         FadeOutStartTime=0.600000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=15.000000)
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-10.000000,Max=10.000000))
+         StartLocationShape=PTLS_Polar
+         SphereRadiusRange=(Min=20.000000,Max=20.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=60.000000,Max=110.000000),Z=(Min=20.000000,Max=20.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=30.000000,Max=60.000000),Y=(Min=30.000000,Max=60.000000),Z=(Min=30.000000,Max=60.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0109'
+         SubdivisionEnd=16
+         LifetimeRange=(Min=1.200000,Max=1.500000)
+         StartVelocityRange=(X=(Min=100.000000,Max=100.000000),Y=(Min=100.000000,Max=100.000000),Z=(Min=100.000000,Max=100.000000))
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter22"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.z_ice_stand_boom_simple.SpriteEmitter22'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter23
+         Acceleration=(Z=-40.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=224,G=224,R=129,A=255))
+         ColorScale(1)=(RelativeTime=0.525000,Color=(B=64,G=64,R=64,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=233,G=237,R=143,A=255))
+         ColorScaleRepeats=6.000000
+         ColorMultiplierRange=(X=(Min=0.900000,Max=0.900000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=1.020000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=30
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=40.000000)
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         SphereRadiusRange=(Max=3.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=20.000000),Y=(Min=10.000000,Max=20.000000),Z=(Min=10.000000,Max=20.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4006'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=1
+         UseRandomSubdivision=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=1.200000,Max=1.500000)
+         StartVelocityRange=(X=(Min=-100.000000,Max=100.000000),Y=(Min=-100.000000,Max=100.000000),Z=(Min=-100.000000,Max=100.000000))
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         Name="SpriteEmitter23"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.z_ice_stand_boom_simple.SpriteEmitter23'
+     SpawnSound(0)=Sound'Skillsound3.freya_cutscene.ice_break_cast'
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     SoundRadius=80.000000
+     SoundVolume=250.000000
+}

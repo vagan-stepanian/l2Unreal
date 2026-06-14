@@ -1,0 +1,58 @@
+class z_smoke_01_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter19
+         Acceleration=(Z=10.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.409000,Max=0.409000),Y=(Min=0.353000,Max=0.353000),Z=(Min=0.286000,Max=0.286000))
+         Opacity=0.530000
+         FadeOutStartTime=0.096000
+         FadeOut=True
+         UseActorForces=True
+         MaxParticles=30
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=20.000000)
+         StartLocationRange=(X=(Min=-45.000000,Max=45.000000),Y=(Min=-45.000000,Max=45.000000),Z=(Min=-7.500000,Max=7.500000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=48.000000,Max=90.000000),Z=(Min=2.000000,Max=20.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.260000)
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.250000))
+         StartSpinRange=(X=(Min=-0.255000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.020000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.050000,RelativeSize=4.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=7.000000)
+         StartSizeRange=(X=(Min=22.500000,Max=37.500000),Y=(Min=22.500000,Max=37.500000),Z=(Min=22.500000,Max=37.500000))
+         InitialParticlesPerSecond=5000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures2.balakas.fx_m_t2011'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionStart=1
+         SubdivisionEnd=3
+         LifetimeRange=(Min=3.000000,Max=4.000000)
+         StartVelocityRange=(X=(Min=500.000000,Max=500.000000),Y=(Min=500.000000,Max=500.000000),Z=(Min=1.000000,Max=10.000000))
+         VelocityLossRange=(X=(Min=2.500000,Max=2.500000),Y=(Min=2.500000,Max=2.500000),Z=(Max=1.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter19"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.z_smoke_01_ca.SpriteEmitter19'
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=-64979)
+     CollisionRadius=540.566406
+     CollisionHeight=382.238159
+     bCollideActors=True
+     SwayRotationOrig=(Yaw=-64979)
+     ColLocation=(X=-290.415649,Y=-1040.649658,Z=-2044.677979)
+     bDirectional=True
+}

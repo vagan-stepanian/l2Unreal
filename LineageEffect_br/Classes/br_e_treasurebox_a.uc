@@ -1,0 +1,75 @@
+class br_e_treasurebox_a extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter43
+         Acceleration=(Z=15.000000)
+         UseColorScale=True
+         ColorScale(1)=(RelativeTime=0.089286,Color=(B=253,G=253,R=253,A=255))
+         ColorScale(2)=(RelativeTime=0.457143,Color=(B=255,G=255,R=255))
+         ColorScale(3)=(RelativeTime=1.000000)
+         ColorScaleRepeats=2.000000
+         FadeOut=True
+         MaxParticles=4
+         ResetAfterChange=True
+         StartLocationOffset=(Z=15.000000)
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-10.000000,Max=10.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=75.000000,Max=105.000000),Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.170000)
+         SizeScale(1)=(RelativeTime=0.370000)
+         SizeScale(2)=(RelativeTime=0.500000,RelativeSize=0.800000)
+         SizeScale(3)=(RelativeTime=0.620000)
+         SizeScaleRepeats=6.000000
+         StartSizeRange=(X=(Min=4.000000,Max=8.000000),Y=(Min=100.000000,Max=100.000000),Z=(Min=100.000000,Max=100.000000))
+         InitialParticlesPerSecond=18.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0005'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=6
+         SubdivisionEnd=8
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         StartVelocityRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=30.000000,Max=30.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter43"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_treasurebox_a.SpriteEmitter43'
+     Begin Object Class=MeshEmitter Name=MeshEmitter49
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Support.supportenchant02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOut=True
+         FadeInEndTime=0.250000
+         MaxParticles=3
+         StartLocationOffset=(Z=2.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=1.500000,Max=1.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.560000,RelativeSize=3.000000)
+         SizeScale(2)=(RelativeTime=0.750000,RelativeSize=3.700000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.200000,Max=0.200000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         Name="MeshEmitter49"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect_Br.br_e_treasurebox_a.MeshEmitter49'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

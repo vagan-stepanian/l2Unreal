@@ -1,0 +1,86 @@
+class e_u312_lighting_red_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter37
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.564286,Color=(B=249,G=249,R=249,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=3.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.528000
+         FadeOut=True
+         FadeInEndTime=0.036000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=85
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=80.000000,Max=90.000000),Z=(Min=25.000000,Max=28.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.070000,RelativeSize=1.700000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=2.200000)
+         SizeScale(2)=(RelativeTime=0.430000,RelativeSize=2.600000)
+         SizeScale(3)=(RelativeTime=0.770000,RelativeSize=2.900000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=4.000000,Max=5.000000),Y=(Min=4.000000,Max=5.000000),Z=(Min=4.000000,Max=5.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8134'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(X=(Min=-25.000000,Max=25.000000),Y=(Min=-25.000000,Max=25.000000),Z=(Min=-5.000000,Max=5.000000))
+         VelocityLossRange=(X=(Min=4.000000,Max=4.000000),Y=(Min=4.000000,Max=4.000000),Z=(Min=4.000000,Max=4.000000))
+         Name="SpriteEmitter37"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u312_lighting_red_simple.SpriteEmitter37'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter43
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.532143,Color=(B=200,G=200,R=200,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.520000,Max=0.520000),Y=(Min=0.520000,Max=0.520000),Z=(Min=0.520000,Max=0.520000))
+         Opacity=0.050000
+         FadeOutStartTime=0.396000
+         FadeOut=True
+         FadeInEndTime=0.198000
+         FadeIn=True
+         MaxParticles=21
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=5.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=32.500000,Max=32.500000),Y=(Min=32.500000,Max=32.500000),Z=(Min=32.500000,Max=32.500000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8040'
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(Z=(Min=-7.000000,Max=-7.000000))
+         Name="SpriteEmitter43"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u312_lighting_red_simple.SpriteEmitter43'
+     bNoDelete=False
+     bSunAffect=True
+}

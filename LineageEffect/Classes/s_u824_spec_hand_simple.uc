@@ -1,0 +1,82 @@
+class s_u824_spec_hand_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.385714,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=235,G=121,R=29,A=255))
+         ColorMultiplierRange=(X=(Min=0.900000,Max=1.000000),Y=(Min=0.350000,Max=0.400000),Z=(Min=0.500000,Max=0.600000))
+         FadeOutStartTime=1.600000
+         FadeOut=True
+         FadeInEndTime=0.425000
+         FadeIn=True
+         MaxParticles=6
+         WeatherSoundCheck=True
+         StartLocationRange=(X=(Min=-2.400000,Max=2.400000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.500000,Max=1.500000))
+         SphereRadiusRange=(Min=1.000000,Max=1.500000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=70.000000,Max=70.000000),Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.500000,RelativeSize=1.300000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=2.250000,Max=3.000000),Y=(Min=4.500000,Max=7.500000),Z=(Min=150.000000,Max=150.000000))
+         InitialParticlesPerSecond=1.500000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4023'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=31
+         LifetimeRange=(Min=2.000000,Max=2.500000)
+         StartVelocityRange=(X=(Min=-0.750000,Max=0.750000),Y=(Min=-0.750000,Max=0.750000),Z=(Min=3.000000,Max=4.500000))
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.s_u824_spec_hand_simple.SpriteEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter28
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.382143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=235,G=121,R=29,A=255))
+         ColorMultiplierRange=(X=(Min=0.900000,Max=1.000000),Y=(Min=0.350000,Max=0.400000),Z=(Min=0.500000,Max=0.600000))
+         FadeOutStartTime=1.600000
+         FadeOut=True
+         FadeInEndTime=0.425000
+         FadeIn=True
+         MaxParticles=6
+         StartLocationRange=(X=(Min=-2.400000,Max=2.400000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.500000,Max=1.500000))
+         SphereRadiusRange=(Min=1.000000,Max=1.500000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=70.000000,Max=70.000000),Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.500000,RelativeSize=1.300000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=-3.000000,Max=-2.000000),Y=(Min=4.500000,Max=7.500000),Z=(Min=150.000000,Max=150.000000))
+         InitialParticlesPerSecond=1.500000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4023'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=31
+         LifetimeRange=(Min=2.000000,Max=2.500000)
+         StartVelocityRange=(X=(Min=-0.750000,Max=0.750000),Y=(Min=-0.750000,Max=0.750000),Z=(Min=3.000000,Max=4.500000))
+         Name="SpriteEmitter28"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.s_u824_spec_hand_simple.SpriteEmitter28'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Roll=2000)
+     DrawScale=0.050000
+     SwayRotationOrig=(Roll=2000)
+}

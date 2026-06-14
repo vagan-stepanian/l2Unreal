@@ -1,0 +1,109 @@
+class d_ave_mp_shield_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter17
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh03.freya_snowcrystal04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.552000,Max=0.552000),Y=(Min=0.760000,Max=0.760000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.495360
+         FadeOut=True
+         FadeInEndTime=0.288960
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-30.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.330000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.300000,Max=0.300000),Z=(Min=1.000000,Max=1.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(Z=(Min=22.000000,Max=48.349998))
+         Name="MeshEmitter17"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_ave_mp_shield_simple.MeshEmitter17'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter83
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.184000
+         FadeOut=True
+         FadeInEndTime=0.124200
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         StartLocationOffset=(Z=-10.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000))
+         RevolutionCenterOffsetRange=(Z=(Min=1.000000,Max=1.000000))
+         RevolutionsPerSecondRange=(Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=3.080000,Max=3.080000))
+         StartSpinRange=(X=(Min=-0.376000,Max=0.376000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=13.000000,Max=35.000000),Y=(Min=3.000000,Max=35.000000),Z=(Min=3.000000,Max=35.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1021'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=1
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.460000,Max=0.460000)
+         InitialDelayRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(Z=(Min=5.000000,Max=80.000000))
+         Name="SpriteEmitter83"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_ave_mp_shield_simple.SpriteEmitter83'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter112
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=65,G=61,R=122,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=19,G=18,R=37))
+         ColorMultiplierRange=(X=(Min=0.580000,Max=0.580000),Y=(Min=0.903000,Max=0.903000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.495000
+         FadeOut=True
+         FadeInEndTime=0.330000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         StartLocationOffset=(Z=40.000000)
+         StartLocationRange=(X=(Min=-15.000000,Max=15.000000),Y=(Min=-15.000000,Max=15.000000))
+         StartLocationPolarRange=(X=(Min=-100.000000,Max=100.000000),Y=(Min=-100.000000,Max=100.000000),Z=(Min=1.000000,Max=3.000000))
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.200000)
+         StartSizeRange=(X=(Max=2.000000),Y=(Min=1.000000,Max=15.000000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t7069'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(Z=(Min=-250.000000,Max=-250.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         Name="SpriteEmitter112"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_ave_mp_shield_simple.SpriteEmitter112'
+     AutoReplay=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     CollisionRadius=397.017273
+     CollisionHeight=280.733612
+     ColLocation=(X=-281.043884,Y=44.410858,Z=-488.377014)
+     bDirectional=True
+}

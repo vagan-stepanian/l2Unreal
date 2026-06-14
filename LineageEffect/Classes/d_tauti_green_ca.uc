@@ -1,0 +1,131 @@
+class d_tauti_green_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter34
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.BRC_crossplane'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=214,G=54,R=27,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.583000,Max=0.583000))
+         Opacity=0.350000
+         FadeOutStartTime=0.156000
+         FadeOut=True
+         MaxParticles=14
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-15.000000,Max=-15.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.120000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.250000,Max=0.300000),Y=(Min=0.250000,Max=0.300000),Z=(Min=1.400000,Max=2.000000))
+         InitialParticlesPerSecond=12.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles6.fx_m_t8228'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         Name="MeshEmitter34"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_tauti_green_ca.MeshEmitter34'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter27
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=100,G=137,R=236,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=96,G=207,R=255,A=255))
+         FadeOutStartTime=0.032000
+         FadeOut=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-15.000000,Max=15.000000),Y=(Min=-15.000000,Max=15.000000),Z=(Min=-70.000000,Max=-50.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=60.000000,Max=80.000000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4155'
+         LifetimeRange=(Min=0.300000,Max=0.400000)
+         InitialDelayRange=(Min=1.300000,Max=1.300000)
+         StartVelocityRange=(Z=(Min=500.000000,Max=700.000000))
+         VelocityLossRange=(Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter27"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_tauti_green_ca.SpriteEmitter27'
+     Begin Object Class=MeshEmitter Name=MeshEmitter35
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.FX_M_8017'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(R=174,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=1,G=226,R=158,A=255))
+         ColorMultiplierRange=(X=(Min=0.680000,Max=1.000000),Y=(Min=0.680000,Max=1.000000),Z=(Min=0.680000,Max=1.000000))
+         Opacity=0.330000
+         FadeOutStartTime=0.232000
+         FadeOut=True
+         FadeInEndTime=0.084000
+         FadeIn=True
+         MaxParticles=26
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.400000)
+         SizeScale(1)=(RelativeTime=0.520000,RelativeSize=0.900000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=4.500000,Max=4.500000),Y=(Min=4.500000,Max=4.500000),Z=(Min=4.500000,Max=4.500000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         BlendBetweenSubdivisions=True
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles3.aura_wooh02'
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         Name="MeshEmitter35"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_tauti_green_ca.MeshEmitter35'
+     Begin Object Class=MeshEmitter Name=MeshEmitter36
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.Hit2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         Acceleration=(Z=-30.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.900000,Max=0.900000))
+         Opacity=0.150000
+         FadeOutStartTime=0.124000
+         FadeOut=True
+         FadeInEndTime=0.056000
+         FadeIn=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.250000,Max=0.250000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.300000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.550000,Max=0.550000),Y=(Min=0.550000,Max=0.550000),Z=(Min=0.700000,Max=0.700000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(Z=(Min=15.000000,Max=15.000000))
+         VelocityLossRange=(Z=(Min=2.000000,Max=2.000000))
+         Name="MeshEmitter36"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_tauti_green_ca.MeshEmitter36'
+     bOnInitialDelay=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bUnlit=False
+}

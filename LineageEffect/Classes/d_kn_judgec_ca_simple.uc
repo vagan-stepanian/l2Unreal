@@ -1,0 +1,129 @@
+class d_kn_judgec_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter26
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.magiccircle.magiccircleblack02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=122,G=29,R=5,A=255))
+         ColorScale(1)=(RelativeTime=0.553571,Color=(B=253,G=218,R=53,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=122,G=29,R=5,A=255))
+         ColorScaleRepeats=8.000000
+         ColorMultiplierRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.122000,Max=0.122000))
+         Opacity=0.650000
+         FadeOutStartTime=1.360000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.300000,Max=0.300000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="MeshEmitter26"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_kn_judgec_ca_simple.MeshEmitter26'
+     Begin Object Class=MeshEmitter Name=MeshEmitter28
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.magic_02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=252,G=34,R=3,A=255))
+         ColorScale(1)=(RelativeTime=0.325000,Color=(B=252,G=191,R=67,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=252,G=121,R=14,A=255))
+         Opacity=0.280000
+         FadeOutStartTime=0.112000
+         FadeOut=True
+         FadeInEndTime=0.052000
+         FadeIn=True
+         MaxParticles=11
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-5.000000,Max=-5.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=0.680000,RelativeSize=1.350000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.150000),Y=(Min=0.150000,Max=0.150000),Z=(Min=0.400000,Max=0.400000))
+         InitialParticlesPerSecond=11.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(Z=(Min=20.000000,Max=20.000000))
+         Name="MeshEmitter28"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_kn_judgec_ca_simple.MeshEmitter28'
+     Begin Object Class=MeshEmitter Name=MeshEmitter29
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.BRC_crossplane'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=214,G=54,R=27,A=255))
+         ColorMultiplierRange=(X=(Min=0.650000,Max=0.650000),Y=(Min=0.815000,Max=0.815000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.074000
+         FadeOut=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=0.120000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.178000),Y=(Min=0.150000,Max=0.178000),Z=(Min=0.308000,Max=0.452000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         Name="MeshEmitter29"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_kn_judgec_ca_simple.MeshEmitter29'
+     Begin Object Class=MeshEmitter Name=MeshEmitter31
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Support.supportenchant01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.766000,Max=1.000000),Y=(Min=0.766000,Max=1.000000),Z=(Min=0.766000,Max=1.000000))
+         Opacity=0.680000
+         FadeOutStartTime=0.259000
+         FadeOut=True
+         FadeInEndTime=0.133000
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         SizeScaleRepeats=1.000000
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.300000,Max=0.300000),Z=(Min=1.400000,Max=1.400000))
+         InitialParticlesPerSecond=13.500000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         Name="MeshEmitter31"
+     End Object
+     Emitters(6)=MeshEmitter'LineageEffect.d_kn_judgec_ca_simple.MeshEmitter31'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

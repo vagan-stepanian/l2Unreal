@@ -1,0 +1,111 @@
+class d_wifi1_deco_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter5
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=252,G=134,R=63,A=255))
+         ColorScale(1)=(RelativeTime=0.478571,Color=(B=254,G=190,R=152,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=252,G=134,R=63,A=255))
+         ColorScaleRepeats=2.000000
+         FadeOutStartTime=1.640000
+         FadeOut=True
+         FadeInEndTime=1.180000
+         FadeIn=True
+         MaxParticles=1
+         StartLocationRange=(Z=(Min=8.500000,Max=8.500000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4207'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(Z=(Min=0.100000,Max=0.100000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter5"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_wifi1_deco_simple.SpriteEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=252,G=134,R=63,A=255))
+         ColorScale(1)=(RelativeTime=0.478571,Color=(B=254,G=190,R=152,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=252,G=134,R=63,A=255))
+         ColorScaleRepeats=2.000000
+         Opacity=0.100000
+         FadeOutStartTime=2.250000
+         FadeOut=True
+         FadeInEndTime=0.600000
+         FadeIn=True
+         StartLocationRange=(Z=(Min=8.500000,Max=8.500000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4207'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=3
+         SubdivisionEnd=4
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(Z=(Min=0.100000,Max=0.100000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_wifi1_deco_simple.SpriteEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=252,G=134,R=63,A=255))
+         ColorScale(1)=(RelativeTime=0.478571,Color=(B=254,G=190,R=152,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=252,G=134,R=63,A=255))
+         ColorScaleRepeats=2.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.200000,Max=0.200000))
+         Opacity=0.320000
+         FadeOutStartTime=1.290000
+         FadeOut=True
+         FadeInEndTime=0.690000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationRange=(Z=(Min=8.500000,Max=8.500000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=5.000000
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0075'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(Z=(Min=0.100000,Max=0.100000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_wifi1_deco_simple.SpriteEmitter2'
+     bRotEmitter=True
+     RotPerSecond=(Yaw=8192)
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=3034386)
+     DrawScale=0.100000
+     bUnlit=False
+     SwayRotationOrig=(Yaw=2994383)
+     bDirectional=True
+}

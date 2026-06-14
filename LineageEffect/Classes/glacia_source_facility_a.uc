@@ -1,0 +1,136 @@
+class glacia_source_facility_a extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter58
+         StaticMesh=StaticMesh'Spirit_island_V_S.spirit_beam2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.500000
+         FadeOutStartTime=2.960000
+         FadeOut=True
+         FadeInEndTime=1.120000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationRange=(Z=(Min=30.000000,Max=30.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Max=0.200000))
+         StartSpinRange=(Y=(Min=0.750000,Max=0.750000))
+         StartSizeRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.300000,Max=0.300000))
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Spark.fx_m_t0042'
+         StartVelocityRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter58"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.glacia_source_facility_a.MeshEmitter58'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter142
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.500000
+         FadeOutStartTime=3.120000
+         FadeOut=True
+         FadeInEndTime=0.360000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationRange=(Z=(Min=100.000000,Max=100.000000))
+         SphereRadiusRange=(Min=20.000000,Max=30.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.200000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=4.000000,Max=4.000000),Y=(Min=4.000000,Max=4.000000),Z=(Min=4.000000,Max=4.000000))
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'spirit_island_v_T.spirit_beam'
+         StartVelocityRange=(Z=(Min=10.000000,Max=10.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter142"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.glacia_source_facility_a.SpriteEmitter142'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'Spirit_island_V_S.spirit_beam2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.500000
+         FadeOutStartTime=2.960000
+         FadeOut=True
+         FadeInEndTime=1.120000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationRange=(Z=(Min=30.000000,Max=30.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Max=0.200000))
+         StartSpinRange=(Y=(Min=0.750000,Max=0.750000))
+         StartSizeRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.300000,Max=0.300000))
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Spark.fx_m_t0042'
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter2"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.glacia_source_facility_a.MeshEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter4
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.wispray00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.114286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=0.171429,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.275000,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(4)=(RelativeTime=0.332143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(5)=(RelativeTime=0.400000,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(6)=(RelativeTime=0.425000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(7)=(RelativeTime=0.457143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(8)=(RelativeTime=0.607143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(9)=(RelativeTime=0.675000,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(10)=(RelativeTime=0.750000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(11)=(RelativeTime=0.789286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(12)=(RelativeTime=0.875000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(13)=(RelativeTime=0.946429,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(14)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=2.800000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.150000
+         FadeOutStartTime=2.400000
+         FadeOut=True
+         FadeInEndTime=0.800000
+         FadeIn=True
+         MaxParticles=8
+         StartLocationOffset=(Z=200.000000)
+         StartLocationRange=(Z=(Min=-65.000000,Max=-65.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Min=-0.050000,Max=0.050000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.700000),Y=(Min=0.300000,Max=0.700000),Z=(Min=0.300000,Max=0.700000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         Name="MeshEmitter4"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.glacia_source_facility_a.MeshEmitter4'
+     SpawnSound(0)=Sound'AmbSound.eerie.electric_hum_reb'
+     SoundLooping=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=13464)
+     bIgnoredRange=True
+     SoundRadius=20.000000
+     SoundVolume=190.000000
+     SwayRotationOrig=(Yaw=13464)
+}

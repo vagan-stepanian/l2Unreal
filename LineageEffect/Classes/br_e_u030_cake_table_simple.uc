@@ -1,0 +1,79 @@
+class br_e_u030_cake_table_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter13
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.596429,Color=(B=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=128,R=255,A=255))
+         ColorScaleRepeats=100.000000
+         ColorMultiplierRange=(X=(Max=0.700000),Y=(Max=0.700000),Z=(Max=0.700000))
+         FadeOutStartTime=0.081000
+         FadeOut=True
+         MaxParticles=150
+         ResetAfterChange=True
+         StartLocationOffset=(Z=-1.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.620000,RelativeSize=1.200000)
+         SizeScaleRepeats=1.000000
+         StartSizeRange=(X=(Min=1.716132,Max=1.716132),Y=(Min=1.716132,Max=1.716132),Z=(Min=1.716132,Max=1.716132))
+         InitialParticlesPerSecond=40.000000
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0063'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         SubdivisionStart=5
+         SubdivisionEnd=6
+         LifetimeRange=(Min=5.000000,Max=5.000000)
+         StartVelocityRange=(Z=(Min=-3.600000,Max=-1.000000))
+         Name="SpriteEmitter13"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.br_e_u030_cake_table_simple.SpriteEmitter13'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter12
+         UseDirectionAs=PTDU_Normal
+         Acceleration=(Z=0.495000)
+         ColorScale(0)=(Color=(B=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.596429,Color=(B=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=128,R=255,A=255))
+         ColorScaleRepeats=100.000000
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.600000,Max=0.600000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.081000
+         FadeOut=True
+         MaxParticles=40
+         ResetAfterChange=True
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.130000,RelativeSize=1.700000)
+         SizeScale(1)=(RelativeTime=0.360000,RelativeSize=2.200000)
+         SizeScale(2)=(RelativeTime=0.600000,RelativeSize=2.600000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=2.606175,Max=2.606175),Y=(Min=4.169880,Max=4.169880),Z=(Min=4.169880,Max=4.169880))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0063'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         SubdivisionStart=5
+         SubdivisionEnd=6
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-0.000869,Max=0.000869),Y=(Min=-0.000869,Max=0.000869),Z=(Min=-0.000869,Max=0.000869))
+         Name="SpriteEmitter12"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.br_e_u030_cake_table_simple.SpriteEmitter12'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

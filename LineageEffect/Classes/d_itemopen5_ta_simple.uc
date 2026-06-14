@@ -1,0 +1,145 @@
+class d_itemopen5_ta_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter33
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.550000,Color=(B=190,G=190,R=190,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=9.000000
+         ColorMultiplierRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.700000,Max=1.000000))
+         FadeOutStartTime=0.380000
+         FadeOut=True
+         FadeInEndTime=0.110000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-7.000000,Max=7.000000),Z=(Min=-7.000000,Max=7.000000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=22.000000,Max=30.000000)
+         UseRevolution=True
+         RevolutionsPerSecondRange=(X=(Max=0.100000),Y=(Max=0.100000),Z=(Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Min=1.200000,Max=1.700000),Y=(Min=1.200000,Max=1.700000),Z=(Min=1.200000,Max=1.700000))
+         InitialParticlesPerSecond=20000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=1
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter33"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_itemopen5_ta_simple.SpriteEmitter33'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter0
+         VertexMesh=VertMesh'LineageEffectMeshes.hero_aura00'
+         UseMeshBlendMode=False
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.560714,Color=(B=255,G=96,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.800000
+         FadeOutStartTime=0.448000
+         FadeOut=True
+         FadeInEndTime=0.196000
+         FadeIn=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         StartSizeRange=(X=(Min=0.095000,Max=0.170000),Y=(Min=0.095000,Max=0.170000),Z=(Min=0.050000,Max=0.050000))
+         InitialParticlesPerSecond=20000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         Name="VertMeshEmitter0"
+     End Object
+     Emitters(1)=VertMeshEmitter'LineageEffect.d_itemopen5_ta_simple.VertMeshEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter9
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.White.white_Protect01'
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.450000
+         MaxParticles=1
+         RespawnDeadParticles=False
+         Disabled=True
+         StartSizeRange=(X=(Min=3.700000,Max=3.700000),Y=(Min=3.700000,Max=3.700000),Z=(Min=3.700000,Max=3.700000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter9"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_itemopen5_ta_simple.MeshEmitter9'
+     Begin Object Class=MeshEmitter Name=MeshEmitter12
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.wispray01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.532143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.440000,Max=0.440000),Z=(Min=0.300000,Max=1.000000))
+         Opacity=0.610000
+         FadeOutStartTime=0.355000
+         FadeOut=True
+         FadeInEndTime=0.090000
+         FadeIn=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(Z=0.000000)
+         SpinsPerSecondRange=(X=(Max=0.020000),Y=(Max=0.020000),Z=(Max=0.020000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=0.800000)
+         SizeScale(2)=(RelativeTime=0.360000,RelativeSize=1.200000)
+         SizeScale(3)=(RelativeTime=0.590000,RelativeSize=0.800000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=3.000000
+         StartSizeRange=(X=(Min=0.350000,Max=0.500000),Y=(Min=0.350000,Max=0.500000),Z=(Min=0.350000,Max=0.500000))
+         InitialParticlesPerSecond=20000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter12"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_itemopen5_ta_simple.MeshEmitter12'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter1
+         VertexMesh=VertMesh'LineageEffectMeshes.hero_aura00'
+         UseMeshBlendMode=False
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.596429,Color=(B=255,G=158,R=40,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.800000
+         FadeOutStartTime=0.448000
+         FadeOut=True
+         FadeInEndTime=0.196000
+         FadeIn=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         StartSizeRange=(X=(Min=0.095000,Max=0.170000),Y=(Min=0.095000,Max=0.170000),Z=(Min=0.050000,Max=0.050000))
+         InitialParticlesPerSecond=20000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         Name="VertMeshEmitter1"
+     End Object
+     Emitters(4)=VertMeshEmitter'LineageEffect.d_itemopen5_ta_simple.VertMeshEmitter1'
+     AutoReplay=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

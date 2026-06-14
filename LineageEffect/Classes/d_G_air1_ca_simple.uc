@@ -1,0 +1,90 @@
+class d_G_air1_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter149
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=162,G=103,R=250,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=113,G=39,R=248,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         Opacity=0.300000
+         FadeOutStartTime=0.318000
+         FadeOut=True
+         FadeInEndTime=0.120000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=160
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-2.000000,Max=2.000000))
+         StartLocationPolarRange=(X=(Min=80.000000,Max=90.000000),Y=(Max=360.000000),Z=(Min=8.000000,Max=15.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.300000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=10.901000,Max=20.549999),Y=(Min=30.000000,Max=40.000000),Z=(Min=10.901000,Max=20.549999))
+         InitialParticlesPerSecond=80.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5011'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=5
+         LifetimeRange=(Min=0.800000,Max=1.000000)
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter149"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_G_air1_ca_simple.SpriteEmitter149'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter150
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=140,G=140,R=140,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=20.000000
+         Opacity=0.400000
+         FadeOutStartTime=0.310800
+         FadeOut=True
+         FadeInEndTime=0.162800
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=80
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-10.584000,Max=10.584000),Y=(Min=-10.584000,Max=10.584000),Z=(Min=-14.112000,Max=14.112000))
+         AddLocationFromOtherEmitter=0
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Max=3.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.200000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=10.000000,Max=15.000000),Y=(Min=10.000000,Max=15.000000),Z=(Min=10.000000,Max=15.000000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0069'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=5
+         SubdivisionEnd=6
+         LifetimeRange=(Min=0.579000,Max=0.665000)
+         InitialDelayRange=(Min=0.150000,Max=0.150000)
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeVelocity=(X=3.000000,Y=3.000000,Z=1.000000))
+         VelocityScale(1)=(RelativeTime=0.200000,RelativeVelocity=(Z=10.000000))
+         Name="SpriteEmitter150"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_G_air1_ca_simple.SpriteEmitter150'
+     bOnInitialDelay=True
+     bNoDelete=False
+     DrawScale=0.200000
+}

@@ -1,0 +1,71 @@
+class br_e_u019_aga_bugbear_eye extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter5
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.532143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=44.000000
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.900000,Max=0.900000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=1.220000
+         FadeOut=True
+         FadeInEndTime=0.580000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationOffset=(X=1.900000,Y=0.530000,Z=0.750000)
+         StartLocationRange=(X=(Min=-0.011864,Max=0.011864))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.177957,Max=0.177957),Y=(Min=0.177957,Max=0.177957),Z=(Min=0.177957,Max=0.177957))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2068'
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="SpriteEmitter5"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.br_e_u019_aga_bugbear_eye.SpriteEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.532143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=44.000000
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.900000,Max=0.900000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=1.220000
+         FadeOut=True
+         FadeInEndTime=0.580000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationOffset=(X=1.900000,Y=-0.680000,Z=0.750000)
+         StartLocationRange=(X=(Min=-0.011864,Max=0.011864))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.177957,Max=0.177957),Y=(Min=0.177957,Max=0.177957),Z=(Min=0.177957,Max=0.177957))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2068'
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.br_e_u019_aga_bugbear_eye.SpriteEmitter0'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.050000
+}

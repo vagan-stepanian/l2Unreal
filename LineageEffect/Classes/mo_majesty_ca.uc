@@ -1,0 +1,138 @@
+class mo_majesty_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter9
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.magiccircle.magiccircleblack02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=134,G=184,R=210,A=255))
+         ColorScale(1)=(RelativeTime=0.992857,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=80,G=139,R=184,A=255))
+         ColorMultiplierRange=(X=(Min=0.790000,Max=0.790000),Y=(Min=0.636000,Max=0.636000),Z=(Min=0.453000,Max=0.453000))
+         Opacity=0.400000
+         FadeOutStartTime=1.350000
+         FadeOut=True
+         FadeInEndTime=0.390000
+         FadeIn=True
+         MaxParticles=1
+         ForcedFade=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-24.500000)
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.400000,RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=20.000000
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000))
+         Name="MeshEmitter9"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.mo_majesty_ca.MeshEmitter9'
+     Begin Object Class=MeshEmitter Name=MeshEmitter10
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Wind.windknifewave00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=240.000015)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=214,G=155,R=33,A=255))
+         ColorScale(1)=(RelativeTime=0.571429,Color=(B=162,G=230,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.771429,Color=(G=159,R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(R=227,A=255))
+         Opacity=0.310000
+         FadeOutStartTime=0.129000
+         FadeOut=True
+         FadeInEndTime=0.060000
+         FadeIn=True
+         MaxParticles=14
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=30.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000),Y=(Min=0.750000,Max=0.750000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.310000,RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.650000,RelativeSize=2.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=3.500000)
+         StartSizeRange=(X=(Min=1.600000,Max=1.600000),Y=(Min=0.350000,Max=0.350000),Z=(Min=0.350000,Max=0.350000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=-240.000015,Max=-240.000015))
+         Name="MeshEmitter10"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.mo_majesty_ca.MeshEmitter10'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=400.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=63,G=216,R=97))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255))
+         ColorScaleRepeats=4.000000
+         Opacity=0.800000
+         FadeOutStartTime=0.192000
+         FadeOut=True
+         FadeInEndTime=0.015000
+         FadeIn=True
+         MaxParticles=26
+         ResetAfterChange=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=25.000000)
+         StartLocationRange=(X=(Min=-15.000000,Max=15.000000),Y=(Min=-15.000000,Max=15.000000))
+         SphereRadiusRange=(Min=12.000000,Max=15.000000)
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=-0.300000,Max=0.300000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.610000,RelativeSize=0.600000)
+         SizeScale(1)=(RelativeTime=0.850000,RelativeSize=0.400000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=1.500000,Max=2.500000),Y=(Min=90.000000,Max=90.000000),Z=(Min=1.500000,Max=2.500000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0061'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=8
+         UseRandomSubdivision=True
+         SubdivisionStart=17
+         SubdivisionEnd=20
+         LifetimeRange=(Min=0.200000,Max=0.300000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         StartVelocityRange=(Z=(Min=-300.000000,Max=-200.000000))
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.mo_majesty_ca.SpriteEmitter9'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter10
+         ColorScale(0)=(Color=(A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.117000
+         FadeOut=True
+         MaxParticles=8
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.100000)
+         StartSizeRange=(X=(Min=28.799999,Max=28.799999),Y=(Min=28.799999,Max=28.799999),Z=(Min=28.799999,Max=28.799999))
+         InitialParticlesPerSecond=12.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0064'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.700000,Max=0.700000)
+         Name="SpriteEmitter10"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.mo_majesty_ca.SpriteEmitter10'
+     bNoDelete=False
+     DrawScale=0.200000
+     bDirectional=True
+}

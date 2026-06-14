@@ -1,0 +1,82 @@
+class u_er_wi_squall_ave extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter26
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.Impact.impact_tx'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=128,A=255))
+         ColorScale(1)=(RelativeTime=0.582143,Color=(B=209,G=255,R=185,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=196,G=255,R=230,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.700000,Max=0.700000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.370000
+         FadeOutStartTime=0.448000
+         FadeOut=True
+         FadeInEndTime=0.272000
+         FadeIn=True
+         MaxParticles=4
+         StartLocationOffset=(Z=1.000000)
+         StartLocationRange=(Z=(Min=25.000000,Max=25.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=1.000000)
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=0.250000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=1.500000,Max=1.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles5.fx_m_t8104'
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         WarmupTicksPerSecond=2.000000
+         RelativeWarmupTime=2.000000
+         Name="MeshEmitter26"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_er_wi_squall_ave.MeshEmitter26'
+     Begin Object Class=MeshEmitter Name=MeshEmitter27
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.wind_L'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=10.000000)
+         ColorScale(0)=(Color=(B=253,G=182,R=138,A=255))
+         ColorScale(1)=(RelativeTime=0.175000,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=106,G=106,R=106,A=255))
+         ColorMultiplierRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.140000
+         FadeOutStartTime=0.420000
+         FadeOut=True
+         FadeInEndTime=0.250000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationRange=(Z=(Min=17.000000,Max=17.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=0.200000,Max=0.230000),Y=(Min=0.200000,Max=0.230000),Z=(Min=0.050000,Max=0.050000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=15.000000,Max=20.000000))
+         WarmupTicksPerSecond=2.000000
+         RelativeWarmupTime=2.000000
+         Name="MeshEmitter27"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.u_er_wi_squall_ave.MeshEmitter27'
+     AutoDestroy=False
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=5485680)
+     DrawScale=0.200000
+     bUnlit=False
+     SwayRotationOrig=(Yaw=5485680)
+     bDirectional=True
+}

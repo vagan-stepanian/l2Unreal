@@ -1,0 +1,155 @@
+class d_trajanmove_deco extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.900000,Max=0.900000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.600000
+         FadeOutStartTime=0.450000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=12
+         StartLocationOffset=(Z=14.000000)
+         StartLocationRange=(X=(Min=-30.000000,Max=-30.000000),Y=(Min=-15.000000,Max=15.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=30.000000,Max=60.000000),Y=(Min=60.000000,Max=200.000000),Z=(Min=30.000000,Max=60.000000))
+         InitialParticlesPerSecond=12.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3206'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=8
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=63
+         LifetimeRange=(Min=1.250000,Max=1.250000)
+         StartVelocityRange=(X=(Min=-70.000000,Max=-70.000000),Z=(Min=3.000000,Max=10.000000))
+         VelocityLossRange=(Z=(Min=0.100000,Max=0.100000))
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_trajanmove_deco.SpriteEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.900000,Max=0.900000),Z=(Min=0.400000,Max=0.400000))
+         Opacity=0.150000
+         FadeOutStartTime=0.450000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         StartLocationOffset=(X=5.000000,Z=12.000000)
+         StartLocationRange=(X=(Min=-40.000000,Max=-40.000000),Y=(Min=-15.000000,Max=15.000000),Z=(Min=-2.000000,Max=2.000000))
+         StartSizeRange=(X=(Min=20.000000,Max=40.000000),Y=(Min=30.000000,Max=70.000000),Z=(Min=20.000000,Max=40.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3206'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=8
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=63
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-40.000000,Max=-40.000000),Z=(Min=1.000000,Max=15.000000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_trajanmove_deco.SpriteEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         Acceleration=(X=-20.000000,Z=-10.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.400000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=80.000000,Max=80.000000),Y=(Min=80.000000,Max=80.000000),Z=(Min=80.000000,Max=80.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4006'
+         LifetimeRange=(Min=0.750000,Max=1.000000)
+         InitialDelayRange=(Min=0.150000,Max=0.150000)
+         StartVelocityRange=(X=(Min=-20.000000,Max=-20.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=1.000000,Max=10.000000))
+         VelocityLossRange=(Z=(Min=0.100000,Max=0.100000))
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_trajanmove_deco.SpriteEmitter3'
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.stone_stone00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=-20.000000,Z=-200.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.500000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=20
+         WeatherSoundCheck=True
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=0.010000,Max=0.300000),Y=(Min=0.010000,Max=0.300000),Z=(Min=0.010000,Max=0.300000))
+         InitialParticlesPerSecond=16.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-110.000000,Max=-30.000000),Y=(Min=-30.000000,Max=30.000000),Z=(Min=80.000000,Max=130.000000))
+         Name="MeshEmitter0"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_trajanmove_deco.MeshEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter4
+         Acceleration=(X=-20.000000,Z=-100.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.500000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=4.000000,Max=18.000000),Y=(Min=4.000000,Max=18.000000),Z=(Min=4.000000,Max=18.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t7088'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=3
+         UseRandomSubdivision=True
+         SubdivisionEnd=6
+         LifetimeRange=(Min=0.750000,Max=1.000000)
+         InitialDelayRange=(Min=0.150000,Max=0.150000)
+         StartVelocityRange=(X=(Min=-80.000000,Max=-30.000000),Y=(Min=-30.000000,Max=30.000000),Z=(Min=20.000000,Max=90.000000))
+         VelocityLossRange=(Z=(Min=0.100000,Max=0.100000))
+         Name="SpriteEmitter4"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_trajanmove_deco.SpriteEmitter4'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.300000
+     bDirectional=True
+}

@@ -1,0 +1,179 @@
+class d_gui_deco_a extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter16
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.twist_m06'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=1.260000
+         FadeOut=True
+         FadeInEndTime=0.540000
+         FadeIn=True
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.150000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.110000,Max=0.110000),Y=(Min=0.110000,Max=0.110000),Z=(Min=0.350000,Max=0.350000))
+         InitialParticlesPerSecond=7.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="MeshEmitter16"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_gui_deco_a.MeshEmitter16'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter8
+         VertexMesh=VertMesh'LineageEffectMeshes.nova_out60'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.330000,Max=1.000000),Y=(Min=0.860000,Max=0.860000),Z=(Min=0.860000,Max=0.860000))
+         Opacity=0.590000
+         FadeOutStartTime=0.340000
+         FadeOut=True
+         FadeInEndTime=0.080000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=15
+         StartLocationRange=(Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=0.090000,Max=0.090000),Y=(Min=0.090000,Max=0.090000),Z=(Min=0.150000,Max=0.150000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=30.000000,Max=40.000000))
+         VelocityLossRange=(Z=(Min=1.000000,Max=1.000000))
+         Name="VertMeshEmitter8"
+     End Object
+     Emitters(1)=VertMeshEmitter'LineageEffect.d_gui_deco_a.VertMeshEmitter8'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter66
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.900000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=1.080000
+         FadeOut=True
+         FadeInEndTime=0.140000
+         FadeIn=True
+         MaxParticles=15
+         StartLocationRange=(X=(Min=-7.000000,Max=7.000000),Y=(Min=-7.000000,Max=7.000000),Z=(Min=5.000000,Max=15.000000))
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=15.000000,Max=20.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5106'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=32
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(Z=(Min=5.000000,Max=5.000000))
+         Name="SpriteEmitter66"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_gui_deco_a.SpriteEmitter66'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter67
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=10,G=10,R=107,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=10,G=7,R=95,A=255))
+         FadeOutStartTime=1.180000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Z=(Max=10.000000))
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=30.000000,Max=30.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5136'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=32
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(Z=(Min=5.000000,Max=5.000000))
+         Name="SpriteEmitter67"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_gui_deco_a.SpriteEmitter67'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter68
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=38,G=39,R=62,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=145,G=145,R=145,A=255))
+         FadeOutStartTime=0.885000
+         FadeOut=True
+         FadeInEndTime=0.240000
+         FadeIn=True
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Max=5.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.200000,Max=0.200000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.600000)
+         StartSizeRange=(X=(Min=15.000000,Max=20.000000),Y=(Min=15.000000,Max=20.000000),Z=(Min=15.000000,Max=20.000000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles5.ct2_c03'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=15.000000))
+         VelocityLossRange=(Z=(Min=0.500000,Max=0.500000))
+         Name="SpriteEmitter68"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_gui_deco_a.SpriteEmitter68'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter69
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=108,G=108,R=108,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=99,G=82,R=75,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.720000
+         FadeOutStartTime=1.095000
+         FadeOut=True
+         FadeInEndTime=0.270000
+         FadeIn=True
+         MaxParticles=15
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Max=5.000000))
+         StartSizeRange=(X=(Min=7.000000,Max=7.000000),Y=(Min=20.000000,Max=30.000000),Z=(Min=7.000000,Max=7.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles5.ct2_c03'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.000000,Max=1.500000)
+         StartVelocityRange=(Z=(Min=5.000000,Max=5.000000))
+         Name="SpriteEmitter69"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.d_gui_deco_a.SpriteEmitter69'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=1144,Roll=32)
+     DrawScale=0.200000
+     bUnlit=False
+     SwayRotationOrig=(Yaw=1144,Roll=32)
+}

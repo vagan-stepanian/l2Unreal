@@ -1,0 +1,76 @@
+class e_u839_tears_weapon_a_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         Acceleration=(Z=-18.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=251,G=253,R=172,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=237,G=223,R=158,A=255))
+         ColorMultiplierRange=(X=(Min=0.750000,Max=0.850000),Y=(Min=0.750000,Max=0.850000),Z=(Min=0.750000,Max=0.850000))
+         Opacity=0.800000
+         FadeOutStartTime=0.860000
+         FadeOut=True
+         FadeInEndTime=0.160000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=55
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000))
+         SphereRadiusRange=(Max=2.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.200000)
+         StartSizeRange=(X=(Min=3.000000,Max=5.000000),Y=(Min=3.000000,Max=5.000000),Z=(Min=3.000000,Max=5.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0109'
+         UseRandomSubdivision=True
+         SubdivisionStart=3
+         SubdivisionEnd=10
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=3.000000))
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u839_tears_weapon_a_simple.SpriteEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         Acceleration=(Z=-20.000000)
+         ColorScale(0)=(Color=(B=213,G=213,R=213,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=200,G=200,R=200,A=255))
+         ColorMultiplierRange=(X=(Min=0.900000,Max=0.900000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.500000
+         FadeOutStartTime=0.960000
+         FadeOut=True
+         FadeInEndTime=0.032000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=45
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000))
+         SphereRadiusRange=(Max=3.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=3.000000,Max=5.000000),Y=(Min=3.000000,Max=5.000000),Z=(Min=3.000000,Max=5.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0099'
+         LifetimeRange=(Min=1.200000,Max=1.200000)
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u839_tears_weapon_a_simple.SpriteEmitter3'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.010000
+}

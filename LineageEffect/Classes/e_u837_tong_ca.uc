@@ -1,0 +1,72 @@
+class e_u837_tong_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter13
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Wind.rollingWind'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=233,G=213,R=171,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=189,G=157,R=119,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=0.189000
+         FadeOut=True
+         FadeInEndTime=0.091000
+         FadeIn=True
+         MaxParticles=38
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-3.900000,Max=3.900000),Y=(Min=-3.900000,Max=3.900000),Z=(Min=-3.900000,Max=3.900000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=2.000000,Max=5.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-0.020000,Max=0.020000),Z=(Min=-0.020000,Max=0.020000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=10.000000)
+         StartSizeRange=(X=(Min=23.400000,Max=29.249998),Y=(Min=23.400000,Max=29.249998),Z=(Min=11.700000,Max=11.700000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.600000,Max=0.800000)
+         StartVelocityRange=(Z=(Min=-130.000000,Max=-25.000000))
+         Name="MeshEmitter13"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.e_u837_tong_ca.MeshEmitter13'
+     Begin Object Class=MeshEmitter Name=MeshEmitter14
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=233,G=213,R=171,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=189,G=157,R=119,A=255))
+         Opacity=0.400000
+         FadeOutStartTime=0.189000
+         FadeOut=True
+         FadeInEndTime=0.091000
+         FadeIn=True
+         MaxParticles=13
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=5.000000)
+         StartLocationRange=(Z=(Min=-9.750000,Max=9.750000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=2.000000,Max=5.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=0.250000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=15.000000)
+         StartSizeRange=(X=(Min=0.039000,Max=0.039000),Y=(Min=0.195000,Max=0.195000),Z=(Min=0.195000,Max=0.195000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.600000,Max=0.800000)
+         StartVelocityRange=(Z=(Min=-52.000000,Max=-10.000000))
+         Name="MeshEmitter14"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.e_u837_tong_ca.MeshEmitter14'
+     bLightChanged=True
+     bNoDelete=False
+}

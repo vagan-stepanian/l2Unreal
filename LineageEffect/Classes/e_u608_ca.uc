@@ -1,0 +1,84 @@
+class e_u608_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter56
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=51,R=225,A=255))
+         ColorScale(1)=(RelativeTime=0.296429,Color=(B=152,G=58,R=14,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=139,G=72,R=44,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=0.770000
+         FadeOut=True
+         FadeInEndTime=0.410000
+         FadeIn=True
+         MaxParticles=60
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000),Z=(Min=-50.000000,Max=50.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.050000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=120.000000,Max=160.000000),Y=(Min=120.000000,Max=160.000000),Z=(Min=120.000000,Max=160.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t4072'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=80.000000,Max=80.000000),Y=(Min=80.000000,Max=80.000000),Z=(Min=80.000000,Max=80.000000))
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter56"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u608_ca.SpriteEmitter56'
+     Begin Object Class=MeshEmitter Name=MeshEmitter32
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.spark00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=50.176003)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.139286,Color=(A=255))
+         ColorScale(2)=(RelativeTime=0.607143,Color=(A=255))
+         ColorScale(3)=(RelativeTime=0.792857,Color=(B=70,G=70,R=255,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=157,G=253,R=251,A=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Min=0.896000,Max=1.000000),Y=(Min=0.896000,Max=1.000000),Z=(Min=0.896000,Max=1.000000))
+         FadeOutStartTime=0.600000
+         FadeOut=True
+         FadeInEndTime=0.600000
+         FadeIn=True
+         MaxParticles=100
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-48.000000,Max=48.000000),Y=(Min=-48.000000,Max=48.000000),Z=(Min=-48.000000,Max=48.000000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=20.000000,Max=40.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.480000,Max=1.000000),Y=(Min=0.480000,Max=1.000000),Z=(Min=0.480000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         StartSizeRange=(X=(Min=0.500000,Max=1.500000),Y=(Min=0.500000,Max=1.500000),Z=(Min=0.500000,Max=1.500000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.600000,Max=1.000000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-70.000000,Max=70.000000),Y=(Min=-70.000000,Max=70.000000),Z=(Min=-70.000000,Max=70.000000))
+         MaxAbsVelocity=(X=6400.000000,Y=10000.000000,Z=8000.000000)
+         VelocityLossRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.800000,Max=0.800000))
+         Name="MeshEmitter32"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.e_u608_ca.MeshEmitter32'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

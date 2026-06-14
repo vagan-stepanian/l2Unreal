@@ -1,0 +1,165 @@
+class d_portal_yellow extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=9,G=14,R=40,A=255))
+         ColorScale(1)=(RelativeTime=0.475000,Color=(B=19,G=19,R=36,A=255))
+         ColorScale(2)=(RelativeTime=0.503571,Color=(B=233,G=154,R=22,A=255))
+         ColorScale(3)=(RelativeTime=0.525000,Color=(B=29,G=28,R=53,A=255))
+         ColorScale(4)=(RelativeTime=0.896429,Color=(R=64,A=255))
+         ColorScale(5)=(RelativeTime=1.000000,Color=(B=34,G=34,R=94,A=255))
+         ColorScaleRepeats=1.000000
+         Opacity=0.400000
+         FadeOutStartTime=3.200000
+         FadeOut=True
+         FadeInEndTime=0.360000
+         FadeIn=True
+         StartLocationRange=(X=(Min=-50.000000,Max=50.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.750000)
+         StartSizeRange=(X=(Min=400.000000,Max=400.000000),Y=(Min=400.000000,Max=400.000000),Z=(Min=400.000000,Max=400.000000))
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8017'
+         UseRandomSubdivision=True
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_portal_yellow.SpriteEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=80,R=128,A=255))
+         ColorScale(1)=(RelativeTime=0.321429,Color=(G=96,R=128,A=255))
+         ColorScale(2)=(RelativeTime=0.375000,Color=(G=143,R=191,A=255))
+         ColorScale(3)=(RelativeTime=0.425000,Color=(G=80,R=128,A=255))
+         ColorScale(4)=(RelativeTime=0.882143,Color=(G=77,R=128,A=255))
+         ColorScale(5)=(RelativeTime=0.960714,Color=(G=134,R=191,A=255))
+         ColorScale(6)=(RelativeTime=1.000000,Color=(G=54,R=128,A=255))
+         ColorScaleRepeats=1.000000
+         FadeOutStartTime=2.880000
+         FadeOut=True
+         FadeInEndTime=0.360000
+         FadeIn=True
+         StartLocationRange=(X=(Min=-50.000000,Max=50.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=400.000000,Max=400.000000),Y=(Min=400.000000,Max=400.000000),Z=(Min=400.000000,Max=400.000000))
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8018'
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=3.000000,Max=4.000000)
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_portal_yellow.SpriteEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=128,A=255))
+         ColorScale(1)=(RelativeTime=0.521429,Color=(B=216,G=87,R=18,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=232,G=123,R=104,A=255))
+         ColorScaleRepeats=1.000000
+         Opacity=0.700000
+         FadeOutStartTime=0.525000
+         FadeOut=True
+         MaxParticles=15
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=90.000000,Max=90.000000),Y=(Min=-170.000000,Max=170.000000),Z=(Min=300.000000,Max=300.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=80.000000,Max=80.000000),Y=(Min=30.000000,Max=60.000000),Z=(Min=80.000000,Max=80.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8136'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=-10.000000),Y=(Min=-10.000000,Max=-10.000000),Z=(Min=-10.000000,Max=-10.000000))
+         VelocityLossRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_portal_yellow.SpriteEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=37,G=101,R=158,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=47,G=157,R=217,A=255))
+         Opacity=0.250000
+         FadeOutStartTime=3.200000
+         FadeOut=True
+         FadeInEndTime=0.240000
+         FadeIn=True
+         StartLocationRange=(X=(Min=-50.000000,Max=50.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.020000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=600.000000,Max=600.000000),Y=(Min=600.000000,Max=600.000000),Z=(Min=600.000000,Max=600.000000))
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.AirFilms.rotcloud'
+         TextureUSubdivisions=6
+         TextureVSubdivisions=6
+         UseRandomSubdivision=True
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_portal_yellow.SpriteEmitter3'
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.bowskill3'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=204,G=112,R=28,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=173,G=54,R=78,A=255))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.800000,Max=0.800000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.100000
+         FadeOutStartTime=2.400000
+         FadeOut=True
+         FadeInEndTime=0.390000
+         FadeIn=True
+         RevolutionsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=1.000000)
+         SpinsPerSecondRange=(Z=(Min=0.010000,Max=0.010000))
+         StartSpinRange=(Y=(Min=0.500000,Max=0.500000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.600000)
+         StartSizeRange=(X=(Min=2.000000,Max=4.000000),Y=(Min=12.000000,Max=12.000000),Z=(Min=12.000000,Max=12.000000))
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles2.fx_m_t_3101'
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="MeshEmitter0"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.d_portal_yellow.MeshEmitter0'
+     bNoDelete=False
+}

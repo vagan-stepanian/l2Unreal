@@ -1,0 +1,127 @@
+class z_ice_hknight_inpact_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter70
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.432143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=26.000000
+         Opacity=0.800000
+         FadeOutStartTime=0.135000
+         FadeOut=True
+         FadeInEndTime=0.045000
+         FadeIn=True
+         MaxParticles=80
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=40.000000,Z=72.771004)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=-78.191002,Max=78.191002))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=9.131000,Max=14.187000),Y=(Min=9.131000,Max=14.187000),Z=(Min=9.131000,Max=14.187000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t7094'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.050000,Max=0.050000)
+         StartVelocityRange=(X=(Min=97.800003,Max=150.000000),Y=(Min=-80.000000,Max=80.000000),Z=(Min=-30.000000,Max=100.000000))
+         Name="SpriteEmitter70"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.z_ice_hknight_inpact_ca.SpriteEmitter70'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter72
+         Acceleration=(X=-332.500000,Z=48.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.667857,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=0.750000,Max=0.750000),Y=(Min=0.930000,Max=0.930000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.700000
+         FadeOutStartTime=0.382720
+         FadeOut=True
+         FadeInEndTime=0.071760
+         FadeIn=True
+         UseActorForces=True
+         MaxParticles=30
+         WeatherSoundCheck=True
+         ForcedFade=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=20.000000,Z=37.200001)
+         StartLocationRange=(X=(Min=-32.799999,Max=32.799999),Y=(Min=-32.799999,Max=32.799999),Z=(Min=-20.898001,Max=20.898001))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=48.000000,Max=90.000000),Z=(Min=5.000000,Max=10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.260000)
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.250000))
+         StartSpinRange=(X=(Min=-0.255000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.070000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=0.130000,RelativeSize=4.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=7.000000)
+         StartSizeRange=(X=(Min=5.858000,Max=8.781000),Y=(Min=5.858000,Max=8.781000),Z=(Min=5.858000,Max=8.781000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1084'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.994000,Max=1.196000)
+         StartVelocityRange=(X=(Min=277.912994,Max=277.912994),Y=(Min=277.912994,Max=277.912994),Z=(Min=127.011002,Max=164.203003))
+         VelocityLossRange=(X=(Min=2.500000,Max=2.500000),Y=(Min=2.500000,Max=2.500000),Z=(Max=1.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter72"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.z_ice_hknight_inpact_ca.SpriteEmitter72'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter75
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.432143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=26.000000
+         ColorMultiplierRange=(X=(Min=0.563000,Max=0.563000),Y=(Min=0.780000,Max=0.780000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.800000
+         FadeOutStartTime=0.080300
+         FadeOut=True
+         FadeInEndTime=0.043800
+         FadeIn=True
+         MaxParticles=34
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=40.000000,Z=72.771004)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=-78.191002,Max=78.191002))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=59.730999,Max=59.730999),Y=(Min=6.776000,Max=6.776000),Z=(Min=6.776000,Max=6.776000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t7066'
+         LifetimeRange=(Min=0.365000,Max=0.365000)
+         InitialDelayRange=(Min=0.050000,Max=0.050000)
+         StartVelocityRange=(X=(Min=135.942001,Max=220.500000),Y=(Min=-80.000000,Max=80.000000),Z=(Min=-30.000000,Max=100.000000))
+         Name="SpriteEmitter75"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.z_ice_hknight_inpact_ca.SpriteEmitter75'
+     bActorForces=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

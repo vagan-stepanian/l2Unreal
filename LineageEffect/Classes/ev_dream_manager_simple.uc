@@ -1,0 +1,161 @@
+class ev_dream_manager_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter21
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.Barler_bright2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.200000
+         FadeOutStartTime=1.240000
+         FadeOut=True
+         FadeInEndTime=0.440000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationOffset=(Z=-30.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Max=0.500000))
+         StartSizeRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         InitialParticlesPerSecond=10000.000000
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(Z=(Min=30.000000,Max=30.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter21"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.ev_dream_manager_simple.MeshEmitter21'
+     Begin Object Class=MeshEmitter Name=MeshEmitter22
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.cloud.Bereth_cloud2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=68,G=168,R=120,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=69,G=158,R=114,A=255))
+         Opacity=0.200000
+         FadeOutStartTime=1.300000
+         FadeOut=True
+         FadeInEndTime=0.460000
+         FadeIn=True
+         MaxParticles=2
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSizeRange=(X=(Min=0.250000,Max=0.250000),Y=(Min=0.250000,Max=0.250000),Z=(Min=0.250000,Max=0.250000))
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter22"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.ev_dream_manager_simple.MeshEmitter22'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter68
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.400000
+         FadeOutStartTime=0.900000
+         FadeOut=True
+         FadeInEndTime=0.740000
+         FadeIn=True
+         MaxParticles=12
+         StartLocationOffset=(Z=5.000000)
+         StartLocationRange=(X=(Min=-9.000000,Max=9.000000),Y=(Min=-9.000000,Max=9.000000))
+         UseRevolutionScale=True
+         RevolutionScale(0)=(RelativeRevolution=(X=0.500000,Y=0.500000,Z=0.500000))
+         RevolutionScale(1)=(RelativeTime=0.510000,RelativeRevolution=(X=1.000000,Y=1.000000,Z=1.000000))
+         RevolutionScale(2)=(RelativeTime=1.000000,RelativeRevolution=(X=2.000000,Y=2.000000,Z=2.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.300000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=7.000000,Max=11.000000),Y=(Min=7.000000,Max=11.000000),Z=(Min=7.000000,Max=11.000000))
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1019'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=15.000000,Max=25.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter68"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.ev_dream_manager_simple.SpriteEmitter68'
+     Begin Object Class=MeshEmitter Name=MeshEmitter23
+         StaticMesh=StaticMesh'FX_E_S.etc.fx_wispray00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=156,G=172,R=47,A=255))
+         ColorScale(1)=(RelativeTime=0.482143,Color=(B=60,G=165,R=196,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=172,G=151,R=64,A=255))
+         Opacity=0.170000
+         FadeOutStartTime=3.000000
+         FadeOut=True
+         FadeInEndTime=0.800000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationOffset=(Z=90.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSizeRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.400000,Max=0.400000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter23"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.ev_dream_manager_simple.MeshEmitter23'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter69
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=68,G=132,R=202,A=255))
+         ColorScale(1)=(RelativeTime=0.475000,Color=(B=62,G=124,R=166,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=63,G=129,R=201,A=255))
+         Opacity=0.420000
+         FadeOutStartTime=2.520000
+         FadeOut=True
+         FadeInEndTime=1.200000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationOffset=(Z=90.000000)
+         UseRevolutionScale=True
+         RevolutionScale(0)=(RelativeRevolution=(X=1.000000,Y=1.000000,Z=1.000000))
+         RevolutionScale(1)=(RelativeTime=1.000000,RelativeRevolution=(X=2.000000,Y=2.000000,Z=2.000000))
+         RevolutionScaleRepeats=1.000000
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=15.000000,Max=15.000000))
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0005'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         SubdivisionEnd=1
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="SpriteEmitter69"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.ev_dream_manager_simple.SpriteEmitter69'
+     Begin Object Class=MeshEmitter Name=MeshEmitter24
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.defense2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=33,G=126,R=163,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=57,G=123,R=204,A=255))
+         Opacity=0.220000
+         FadeOutStartTime=2.640000
+         FadeOut=True
+         FadeInEndTime=1.040000
+         FadeIn=True
+         MaxParticles=1
+         StartLocationOffset=(Z=-20.000000)
+         StartSizeRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="MeshEmitter24"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.ev_dream_manager_simple.MeshEmitter24'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

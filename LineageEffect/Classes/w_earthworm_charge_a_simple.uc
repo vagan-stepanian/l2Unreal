@@ -1,0 +1,99 @@
+class w_earthworm_charge_a_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.Hit2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.300000,Max=0.300000))
+         Opacity=0.150000
+         FadeOutStartTime=1.653000
+         FadeOut=True
+         FadeInEndTime=0.627000
+         FadeIn=True
+         WeatherSoundCheck=True
+         StartLocationRange=(Z=(Min=-10.000000,Max=-10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=1.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=2.850000,Max=2.850000)
+         Name="MeshEmitter1"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.w_earthworm_charge_a_simple.MeshEmitter1'
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.swirl_ring_05'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=151,G=185,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=192,G=128,R=255,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.598000
+         FadeOut=True
+         FadeInEndTime=0.221000
+         FadeIn=True
+         MaxParticles=20
+         StartLocationRange=(Z=(Min=-10.000000,Max=-10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.300000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=1.600000,Max=1.600000))
+         InitialParticlesPerSecond=12.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.300000,Max=1.300000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         Name="MeshEmitter5"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.w_earthworm_charge_a_simple.MeshEmitter5'
+     Begin Object Class=MeshEmitter Name=MeshEmitter6
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.Barler_bright3'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=200.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=125,G=168,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=165,G=74,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.300000
+         FadeOut=True
+         FadeInEndTime=0.135000
+         FadeIn=True
+         MaxParticles=26
+         StartLocationRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000),Z=(Min=-200.000000,Max=50.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         StartSizeRange=(X=(Min=2.000000,Max=3.000000),Y=(Min=2.000000,Max=3.000000),Z=(Min=2.000000,Max=3.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(Z=(Min=300.000000,Max=500.000000))
+         VelocityLossRange=(Z=(Max=1.000000))
+         Name="MeshEmitter6"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.w_earthworm_charge_a_simple.MeshEmitter6'
+     SpawnSound(0)=Sound'MonSound15.earthworm_head.earthworm_head_deco'
+     SoundLooping=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     SoundRadius=160.000000
+     SoundVolume=250.000000
+     bDirectional=True
+}

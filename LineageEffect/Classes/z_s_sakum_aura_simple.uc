@@ -1,0 +1,184 @@
+class z_s_sakum_aura_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter28
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.wispray01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=4,R=153,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=232,G=88,R=2,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.362000,Max=0.362000),Z=(Min=0.367000,Max=0.367000))
+         Opacity=0.340000
+         FadeOutStartTime=2.350000
+         FadeOut=True
+         FadeInEndTime=1.850000
+         FadeIn=True
+         MaxParticles=7
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Min=-0.020000,Max=0.020000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.280000,RelativeSize=1.300000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=5.000000)
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=5.000000,Max=5.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter28"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.z_s_sakum_aura_simple.MeshEmitter28'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter115
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=216,G=87,R=1,A=255))
+         ColorMultiplierRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.920000
+         FadeOut=True
+         FadeInEndTime=0.700000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationRange=(Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=30.000000,Max=50.000000),Y=(Min=30.000000,Max=50.000000),Z=(Min=30.000000,Max=50.000000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t6113'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter115"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.z_s_sakum_aura_simple.SpriteEmitter115'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter117
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=185,G=109,R=6,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.470000
+         FadeOutStartTime=0.920000
+         FadeOut=True
+         FadeInEndTime=0.780000
+         FadeIn=True
+         StartLocationRange=(Z=(Max=3.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=20.000000,Max=40.000000),Y=(Min=20.000000,Max=40.000000),Z=(Min=20.000000,Max=40.000000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t8279'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter117"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.z_s_sakum_aura_simple.SpriteEmitter117'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter118
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=185,G=109,R=6,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.323000,Max=0.323000),Z=(Min=0.323000,Max=0.323000))
+         Opacity=0.310000
+         FadeOutStartTime=0.750000
+         FadeOut=True
+         FadeInEndTime=0.555000
+         FadeIn=True
+         StartLocationRange=(Z=(Max=3.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=10.000000,Max=30.000000),Y=(Min=10.000000,Max=30.000000),Z=(Min=10.000000,Max=30.000000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t8279'
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter118"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.z_s_sakum_aura_simple.SpriteEmitter118'
+     Begin Object Class=MeshEmitter Name=MeshEmitter30
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.sh_sphere'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(R=123,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=123,A=255))
+         ColorScaleRepeats=24.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.362000,Max=0.362000),Z=(Min=0.367000,Max=0.628000))
+         Opacity=0.130000
+         FadeOutStartTime=0.900000
+         FadeOut=True
+         FadeInEndTime=0.740000
+         FadeIn=True
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000),Y=(Min=0.050000,Max=0.050000),Z=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=0.200000,Max=0.250000),Y=(Min=0.200000,Max=0.250000),Z=(Min=0.200000,Max=0.250000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.fx_m_t8279'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter30"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.z_s_sakum_aura_simple.MeshEmitter30'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter95
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=19,G=13,R=251,A=255))
+         ColorScale(1)=(RelativeTime=0.325000,Color=(R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=203,G=169,R=10,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.205000,Max=0.816000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.530000
+         FadeOutStartTime=2.450000
+         FadeOut=True
+         FadeInEndTime=1.365000
+         FadeIn=True
+         MaxParticles=20
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-175.000000,Max=175.000000),Y=(Min=-175.000000,Max=175.000000),Z=(Min=50.000000,Max=50.000000))
+         SpinCCWorCW=(X=0.000000)
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=50.000000,Max=70.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5101'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=32
+         LifetimeRange=(Min=3.500000,Max=3.500000)
+         StartVelocityRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter95"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.z_s_sakum_aura_simple.SpriteEmitter95'
+     bLightChanged=True
+     bNoDelete=False
+     DrawScale=0.200000
+     bDirectional=True
+}

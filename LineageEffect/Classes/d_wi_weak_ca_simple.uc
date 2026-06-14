@@ -1,0 +1,136 @@
+class d_wi_weak_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter24
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.magiccircle.magiccircleblack02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=187,G=187,R=187,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=50.000000
+         ColorMultiplierRange=(X=(Min=0.390000,Max=0.390000),Y=(Min=0.206000,Max=0.206000),Z=(Min=0.236000,Max=0.236000))
+         Opacity=0.500000
+         FadeOutStartTime=0.474500
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=3.000000)
+         StartLocationRange=(Z=(Min=-5.000000,Max=-5.000000))
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=0.200000)
+         SizeScale(2)=(RelativeTime=0.140000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.250000,Max=0.250000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         Name="MeshEmitter24"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_wi_weak_ca_simple.MeshEmitter24'
+     Begin Object Class=MeshEmitter Name=MeshEmitter9
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.BRC_crossplane'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=214,G=54,R=27,A=255))
+         ColorMultiplierRange=(X=(Min=0.229000,Max=0.636000),Y=(Min=0.409000,Max=0.409000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.850000
+         FadeOutStartTime=0.074000
+         FadeOut=True
+         MaxParticles=8
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-10.000000,Max=-10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=0.120000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.800000)
+         StartSizeRange=(X=(Min=0.100000,Max=0.130000),Y=(Min=0.100000,Max=0.130000),Z=(Min=1.000000,Max=2.400000))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles6.fx_m_t8228'
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         Name="MeshEmitter9"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_wi_weak_ca_simple.MeshEmitter9'
+     Begin Object Class=MeshEmitter Name=MeshEmitter10
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.magic_22'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=37,G=34,R=168,A=255))
+         ColorScale(1)=(RelativeTime=0.517857,Color=(B=240,G=15,R=20,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=37,G=34,R=168,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.161000,Max=0.161000))
+         FadeOutStartTime=0.400000
+         FadeOut=True
+         FadeInEndTime=0.125000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         StartSizeRange=(X=(Min=0.650000,Max=0.650000),Y=(Min=0.650000,Max=0.650000),Z=(Min=0.800000,Max=0.800000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter10"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.d_wi_weak_ca_simple.MeshEmitter10'
+     Begin Object Class=MeshEmitter Name=MeshEmitter4
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.wind_L'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=15.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=247,G=103,R=17,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=198,G=68,R=19,A=255))
+         ColorMultiplierRange=(X=(Min=0.820000,Max=0.820000),Y=(Min=0.820000,Max=0.820000),Z=(Min=0.560000,Max=1.000000))
+         Opacity=0.830000
+         FadeOutStartTime=0.357000
+         FadeOut=True
+         FadeInEndTime=0.161000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=0.700000,Max=5.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=3.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.100000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.400000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.400000),Y=(Min=0.300000,Max=0.400000),Z=(Min=0.100000,Max=0.300000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.500000,Max=0.700000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=60.000000))
+         Name="MeshEmitter4"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.d_wi_weak_ca_simple.MeshEmitter4'
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

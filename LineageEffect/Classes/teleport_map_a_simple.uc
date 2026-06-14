@@ -1,0 +1,260 @@
+class teleport_map_a_simple extends Emitter; // 보스전 용 텔레포트큐브.
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(Y=(Min=1.000000,Max=1.000000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.580000
+         FadeOutStartTime=1.220000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationRange=(Z=(Min=-78.000000,Max=-78.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.010000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=240.000000,Max=240.000000),Y=(Min=240.000000,Max=240.000000),Z=(Min=240.000000,Max=240.000000))
+         Texture=Texture'FX_M_T.M_FX_particle.fx_head_texture15'
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.teleport_map_a_simple.SpriteEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.001000,Max=0.001000),Y=(Min=0.200000,Max=0.200000),Z=(Min=0.200000,Max=0.200000))
+         Opacity=0.540000
+         MaxParticles=1
+         StartLocationRange=(Z=(Min=-78.000000,Max=-78.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=150.000000,Max=150.000000),Y=(Min=150.000000,Max=150.000000),Z=(Min=150.000000,Max=150.000000))
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'FX_M_T.M_FX_particle.fx_head_texture22'
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.teleport_map_a_simple.SpriteEmitter1'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'FX_E_S.fx_teleport.fx_teleport_mesh01'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=100.000000
+         MaxParticles=1
+         StartLocationRange=(Z=(Min=-75.000000,Max=-75.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.020000))
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.170000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         SizeScaleRepeats=1.000000
+         StartSizeRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=100.000000,Max=100.000000)
+         Name="MeshEmitter1"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.teleport_map_a_simple.MeshEmitter1'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'FX_E_S.fx_teleport.fx_teleport_mesh05'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         MaxParticles=1
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSizeRange=(X=(Min=1.500000,Max=1.500000),Y=(Min=1.500000,Max=1.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=100.000000,Max=100.000000)
+         Name="MeshEmitter2"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.teleport_map_a_simple.MeshEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter3
+         StaticMesh=StaticMesh'FX_E_S.fx_teleport.fx_teleport_mesh02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         MaxParticles=1
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(Z=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=50.000000
+         StartSizeRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.600000,Max=0.600000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=100.000000,Max=100.000000)
+         Name="MeshEmitter3"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.teleport_map_a_simple.MeshEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.514286,Color=(B=108,G=108,R=108,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=1.000000
+         FadeOutStartTime=50.000000
+         MaxParticles=1
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.700000)
+         SizeScaleRepeats=12.000000
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=100.000000
+         Texture=Texture'FX_E_T.fx_teleport.fx_teleport04'
+         LifetimeRange=(Min=50.000000,Max=50.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=3.000000
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.teleport_map_a_simple.SpriteEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.157143,Color=(B=88,G=88,R=88,A=255))
+         ColorScale(2)=(RelativeTime=0.346429,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.514286,Color=(B=97,G=97,R=97,A=255))
+         ColorScale(4)=(RelativeTime=0.675000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(5)=(RelativeTime=0.846429,Color=(B=91,G=91,R=91,A=255))
+         ColorScale(6)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.450000
+         FadeOutStartTime=3.040000
+         FadeOut=True
+         FadeInEndTime=0.440000
+         FadeIn=True
+         MaxParticles=2
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=130.000000,Max=130.000000),Y=(Min=130.000000,Max=130.000000),Z=(Min=130.000000,Max=130.000000))
+         InitialParticlesPerSecond=100.000000
+         Texture=Texture'FX_E_T.LightGlowSet.npc_2f_etc_G'
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(6)=SpriteEmitter'LineageEffect.teleport_map_a_simple.SpriteEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter4
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.271429,Color=(B=98,G=98,R=98,A=255))
+         ColorScale(2)=(RelativeTime=0.500000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.771429,Color=(B=90,G=90,R=90,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.230000
+         FadeOutStartTime=2.920000
+         FadeOut=True
+         FadeInEndTime=1.200000
+         FadeIn=True
+         MaxParticles=5
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.020000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=120.000000,Max=150.000000),Y=(Min=120.000000,Max=150.000000),Z=(Min=120.000000,Max=150.000000))
+         InitialParticlesPerSecond=50.000000
+         Texture=Texture'FX_E_T.fx_teleport.fx_teleport07'
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="SpriteEmitter4"
+     End Object
+     Emitters(7)=SpriteEmitter'LineageEffect.teleport_map_a_simple.SpriteEmitter4'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter5
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.128571,Color=(B=115,G=115,R=115,A=255))
+         ColorScale(2)=(RelativeTime=0.300000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.471429,Color=(B=115,G=115,R=115,A=255))
+         ColorScale(4)=(RelativeTime=0.646429,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(5)=(RelativeTime=0.821429,Color=(B=106,G=106,R=106,A=255))
+         ColorScale(6)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.430000
+         FadeOutStartTime=50.000000
+         MaxParticles=2
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.700000)
+         SizeScaleRepeats=10.000000
+         StartSizeRange=(X=(Min=45.000000,Max=45.000000),Y=(Min=45.000000,Max=45.000000),Z=(Min=45.000000,Max=45.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'FX_E_T.etc.fx_e_t001_34'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=2
+         SubdivisionEnd=1
+         LifetimeRange=(Min=50.000000,Max=50.000000)
+         Name="SpriteEmitter5"
+     End Object
+     Emitters(8)=SpriteEmitter'LineageEffect.teleport_map_a_simple.SpriteEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.430000
+         FadeOutStartTime=1.770000
+         FadeOut=True
+         FadeInEndTime=1.170000
+         FadeIn=True
+         MaxParticles=4
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=15.000000,Max=32.000000),Y=(Min=15.000000,Max=32.000000),Z=(Min=15.000000,Max=32.000000))
+         InitialParticlesPerSecond=50.000000
+         Texture=Texture'FX_E_T.eva_effect.eva_effect_map38'
+         SubdivisionEnd=7
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=3.000000
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(9)=SpriteEmitter'LineageEffect.teleport_map_a_simple.SpriteEmitter8'
+     bNoDelete=False
+}

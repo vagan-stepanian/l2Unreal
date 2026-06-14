@@ -1,0 +1,157 @@
+class d_mon_fire_handca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter31
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.607143,Color=(B=33,G=124,R=207,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.630000
+         FadeOut=True
+         FadeInEndTime=0.225000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.150000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=12.000000,Max=16.000000),Y=(Min=12.000000,Max=16.000000),Z=(Min=14.524000,Max=21.677000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t4072'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=1.300000,Max=1.500000)
+         StartVelocityRange=(Z=(Min=0.450000,Max=4.000000))
+         Name="SpriteEmitter31"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_mon_fire_handca_simple.SpriteEmitter31'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter29
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=30,G=120,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.360000
+         FadeOut=True
+         FadeInEndTime=0.360000
+         FadeIn=True
+         MaxParticles=4
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.120000,Max=0.300000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.720000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.310000,RelativeSize=0.700000)
+         StartSizeRange=(X=(Min=11.000000,Max=13.000000),Y=(Min=11.000000,Max=13.000000),Z=(Min=11.000000,Max=13.000000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0105'
+         LifetimeRange=(Min=1.000000,Max=1.500000)
+         Name="SpriteEmitter29"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_mon_fire_handca_simple.SpriteEmitter29'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter30
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=217,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.317857,Color=(B=26,G=215,R=230,A=255))
+         ColorScale(2)=(RelativeTime=0.628571,Color=(R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(G=48,R=96,A=255))
+         FadeOutStartTime=0.480000
+         FadeOut=True
+         FadeInEndTime=0.480000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=40
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-4.000000,Max=4.000000),Y=(Min=-4.000000,Max=4.000000),Z=(Min=-4.000000,Max=4.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.600000),Y=(Min=0.300000,Max=0.600000),Z=(Min=0.300000,Max=0.600000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3037'
+         LifetimeRange=(Min=1.300000,Max=1.500000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=9.371000))
+         Name="SpriteEmitter30"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_mon_fire_handca_simple.SpriteEmitter30'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.500000
+         FadeOut=True
+         FadeInEndTime=0.150000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.200000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.400000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=6.500000,Max=6.500000),Y=(Min=6.500000,Max=6.500000),Z=(Min=6.500000,Max=6.500000))
+         InitialParticlesPerSecond=13.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t7029'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_mon_fire_handca_simple.SpriteEmitter7'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter24
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=156,G=142,R=255,A=255))
+         FadeOutStartTime=0.147000
+         FadeOut=True
+         FadeInEndTime=0.147000
+         FadeIn=True
+         MaxParticles=40
+         RespawnDeadParticles=False
+         Disabled=True
+         StartLocationShape=PTLS_Polar
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.600000),Y=(Min=0.300000,Max=0.600000),Z=(Min=0.300000,Max=0.600000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3037'
+         LifetimeRange=(Min=0.400000,Max=0.500000)
+         InitialDelayRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000),Z=(Min=-50.000000,Max=50.000000))
+         Name="SpriteEmitter24"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_mon_fire_handca_simple.SpriteEmitter24'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bUnlit=False
+     bDirectional=True
+}

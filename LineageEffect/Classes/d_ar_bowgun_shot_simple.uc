@@ -1,0 +1,97 @@
+class d_ar_bowgun_shot_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.171429,Color=(B=255,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=0.400000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(R=128,A=255))
+         FadeOutStartTime=0.400000
+         FadeInEndTime=0.056000
+         FadeIn=True
+         MaxParticles=18
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-30.000000,Max=30.000000),Y=(Min=88.000000,Max=93.000000),Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.850000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=1.500000,Max=1.500000),Y=(Min=35.000000,Max=35.000000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t6070'
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(X=(Min=1500.000000,Max=1500.000000),Y=(Min=1500.000000,Max=1500.000000),Z=(Min=1500.000000,Max=1500.000000))
+         VelocityLossRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_ar_bowgun_shot_simple.SpriteEmitter1'
+     Begin Object Class=TrailEmitter Name=TrailEmitter0
+         TrailShadeType=PTTST_PointLife
+         MaxPointsPerTrail=60
+         PointLifeTime=0.350000
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=160,A=255))
+         Opacity=0.700000
+         FadeOutStartTime=0.164000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         AutoReset=True
+         StartSizeRange=(X=(Min=2.200000,Max=2.200000),Y=(Min=2.200000,Max=2.200000),Z=(Min=2.200000,Max=2.200000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.AirFilms.fx_m_t7076'
+         LifetimeRange=(Min=0.380000,Max=0.380000)
+         Name="TrailEmitter0"
+     End Object
+     Emitters(1)=TrailEmitter'LineageEffect.d_ar_bowgun_shot_simple.TrailEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.Tiat_fire_magic3'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=149,G=184,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.292857,Color=(B=57,G=92,R=198,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(R=128,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.240000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.750000,Max=0.750000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=3.500000)
+         StartSizeRange=(X=(Min=48.000000,Max=48.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles4.fx_m_t4047'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=100.000000,Max=100.000000))
+         VelocityLossRange=(X=(Min=2.000000,Max=2.000000))
+         Name="MeshEmitter0"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_ar_bowgun_shot_simple.MeshEmitter0'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.250000
+     bDirectional=True
+}

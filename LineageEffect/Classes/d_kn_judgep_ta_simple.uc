@@ -1,0 +1,132 @@
+class d_kn_judgep_ta_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter14
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.370000
+         FadeOutStartTime=0.119000
+         FadeOut=True
+         FadeInEndTime=0.049000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.400000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.300000,Max=0.300000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.350000,Max=0.350000)
+         StartVelocityRange=(X=(Min=-100.000000,Max=10.000000))
+         Name="MeshEmitter14"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_kn_judgep_ta_simple.MeshEmitter14'
+     Begin Object Class=MeshEmitter Name=MeshEmitter15
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Impact.slashlight00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.784000,Max=0.784000),Z=(Min=0.784000,Max=0.784000))
+         FadeOutStartTime=0.092500
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Y=(Min=6.000000,Max=6.000000),Z=(Min=6.000000,Max=6.000000))
+         SpinParticles=True
+         StartSpinRange=(Z=(Min=-0.110000,Max=-0.110000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=0.270000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.130000,Max=0.130000),Z=(Min=0.160000,Max=0.160000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         StartVelocityRange=(Y=(Min=-50.000000,Max=-50.000000),Z=(Min=-50.000000,Max=-50.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         Name="MeshEmitter15"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_kn_judgep_ta_simple.MeshEmitter15'
+     Begin Object Class=MeshEmitter Name=MeshEmitter16
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Impact.spread00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=111,G=157,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.267857,Color=(G=75,R=151,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=203,G=10,R=10,A=255))
+         FadeOutStartTime=0.123000
+         FadeOut=True
+         FadeInEndTime=0.096000
+         FadeIn=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.050000,Max=0.050000),Y=(Min=0.250000,Max=0.250000),Z=(Min=-0.050000,Max=0.050000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=1.500000,Max=1.500000),Y=(Min=1.500000,Max=1.500000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles.fx_m_t0057'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(X=(Min=-100.000000,Max=-100.000000))
+         Name="MeshEmitter16"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_kn_judgep_ta_simple.MeshEmitter16'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.257143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.317857,Color=(B=135,G=66,R=3,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=12,G=11,R=68,A=255))
+         ColorMultiplierRange=(X=(Min=0.860000,Max=0.860000),Y=(Min=0.860000,Max=0.860000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.720000
+         FadeOutStartTime=0.115000
+         FadeOut=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.750000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=5.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=20.000000),Y=(Min=10.000000,Max=20.000000),Z=(Min=10.000000,Max=20.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3055'
+         LifetimeRange=(Min=0.200000,Max=0.200000)
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_kn_judgep_ta_simple.SpriteEmitter16'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bDirectional=True
+}

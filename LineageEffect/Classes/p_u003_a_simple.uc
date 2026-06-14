@@ -1,0 +1,103 @@
+class p_u003_a_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter3
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Impact.bloodspray00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=-13.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.900000),Y=(Min=0.800000,Max=0.900000),Z=(Min=0.800000,Max=0.900000))
+         Opacity=0.330000
+         FadeOutStartTime=0.012000
+         FadeOut=True
+         MaxParticles=4
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         StartLocationRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=-3.900000,Max=3.900000))
+         UseRotationFrom=PTRS_Actor
+         SpinParticles=True
+         SpinCCWorCW=(Y=1.000000)
+         SpinsPerSecondRange=(Y=(Min=0.080000,Max=0.080000))
+         StartSpinRange=(Y=(Min=-0.070000,Max=0.020000),Z=(Min=-0.050000,Max=0.050000))
+         RotationNormal=(X=1.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.110000,RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.280000,RelativeSize=2.600000)
+         SizeScale(2)=(RelativeTime=0.580000,RelativeSize=3.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=3.500000)
+         StartSizeRange=(X=(Min=0.019000,Max=0.040000),Y=(Min=0.028000,Max=0.028000),Z=(Min=0.028000,Max=0.028000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=0.200000,Max=0.300000)
+         StartVelocityRange=(X=(Min=10.400000,Max=10.400000),Y=(Min=2.600000,Max=2.600000),Z=(Min=2.600000,Max=2.600000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="MeshEmitter3"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.p_u003_a_simple.MeshEmitter3'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Impact.sparkredcone00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.450000
+         FadeOutStartTime=0.060000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-0.452000)
+         SpinParticles=True
+         StartSpinRange=(Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=0.468000,Max=0.468000),Y=(Min=0.156000,Max=0.156000),Z=(Min=0.156000,Max=0.156000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(X=(Min=9.360000,Max=9.360000))
+         VelocityLossRange=(X=(Min=4.000000,Max=4.000000))
+         Name="MeshEmitter2"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.p_u003_a_simple.MeshEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter8
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Impact.shockwave00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.390000
+         FadeOutStartTime=0.037500
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=-3.000000)
+         SpinParticles=True
+         StartSpinRange=(Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.090000,RelativeSize=1.450000)
+         SizeScale(1)=(RelativeTime=0.230000,RelativeSize=1.800000)
+         SizeScale(2)=(RelativeTime=0.620000,RelativeSize=2.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.200000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.150000),Y=(Min=0.150000,Max=0.150000),Z=(Min=0.150000,Max=0.150000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         StartVelocityRange=(X=(Min=4.000000,Max=4.000000))
+         Name="MeshEmitter8"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.p_u003_a_simple.MeshEmitter8'
+     AutoReplay=True
+     bUseDynamicLights=False
+     bLightChanged=True
+     bNoDelete=False
+     bAcceptsProjectors=False
+     DrawScale=0.020000
+}

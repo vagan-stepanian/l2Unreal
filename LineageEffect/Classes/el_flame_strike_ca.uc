@@ -1,0 +1,111 @@
+class el_flame_strike_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter25
+         Acceleration=(Z=-10.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=15,G=15,R=21,A=255))
+         ColorScale(1)=(RelativeTime=0.175000,Color=(B=32,G=48,R=249,A=255))
+         ColorScale(2)=(RelativeTime=0.425000,Color=(B=50,G=162,R=252,A=255))
+         ColorScale(3)=(RelativeTime=0.696429,Color=(B=30,G=21,R=130,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=2,G=2,R=2,A=255))
+         Opacity=0.900000
+         FadeOutStartTime=0.759000
+         FadeOut=True
+         FadeInEndTime=0.172500
+         FadeIn=True
+         MaxParticles=24
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-1.000000)
+         StartLocationRange=(X=(Min=-13.000000,Max=13.000000),Y=(Min=-13.000000,Max=13.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.020000),Y=(Min=0.050000,Max=0.100000),Z=(Min=0.050000,Max=0.100000))
+         StartSpinRange=(X=(Min=-0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=5.000000,Max=8.000000),Y=(Min=5.000000,Max=8.000000),Z=(Min=5.000000,Max=8.000000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4023'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=32
+         LifetimeRange=(Min=1.150000,Max=1.150000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=50.000000))
+         Name="SpriteEmitter25"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.el_flame_strike_ca.SpriteEmitter25'
+     Begin Object Class=MeshEmitter Name=MeshEmitter21
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Fire.fireRoll2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=-80.000000)
+         ColorScale(0)=(Color=(B=208,G=176,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=152,G=67,R=135,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.750000,Max=0.750000),Z=(Min=0.750000,Max=0.750000))
+         Opacity=0.750000
+         FadeOutStartTime=0.370500
+         FadeOut=True
+         FadeInEndTime=0.175500
+         FadeIn=True
+         MaxParticles=12
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-5.000000,Max=-5.000000))
+         SphereRadiusRange=(Min=3.000000,Max=3.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.150000),Y=(Min=0.150000,Max=0.150000),Z=(Min=1.250000,Max=1.250000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Fire.Beflame_12'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=20.000000,Max=20.000000))
+         Name="MeshEmitter21"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.el_flame_strike_ca.MeshEmitter21'
+     Begin Object Class=MeshEmitter Name=MeshEmitter22
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.magiccircle.Bereth_base'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.489286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=32.000000
+         Opacity=0.200000
+         FadeOutStartTime=3.900000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-3.000000,Max=-3.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=0.070000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.900000)
+         StartSizeRange=(X=(Min=0.450000,Max=0.450000),Y=(Min=0.450000,Max=0.450000),Z=(Min=1.000000,Max=1.500000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=5.000000,Max=5.000000)
+         Name="MeshEmitter22"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.el_flame_strike_ca.MeshEmitter22'
+     AutoReplay=True
+     bNoDelete=False
+}

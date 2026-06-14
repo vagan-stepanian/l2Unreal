@@ -1,0 +1,86 @@
+class e_u105_tiat_ra_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter11
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.magiccircle.Bereth_bang'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=2,G=135,R=215,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=128,R=255,A=255))
+         Opacity=0.400000
+         FadeOutStartTime=0.048000
+         FadeOut=True
+         MaxParticles=6
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=10.000000,Max=10.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.900000,Max=0.900000),Y=(Min=0.900000,Max=0.900000),Z=(Min=0.900000,Max=0.900000))
+         InitialParticlesPerSecond=60.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         Name="MeshEmitter11"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.e_u105_tiat_ra_simple.MeshEmitter11'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter35
+         Refraction=REF_LightPerformance
+         RefrUScale=0.014000
+         RefrVScale=0.014000
+         Acceleration=(Z=100.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=176,G=80,R=21,A=20))
+         ColorScale(1)=(RelativeTime=0.146429,Color=(B=57,G=177,R=249,A=255))
+         ColorScale(2)=(RelativeTime=0.571429,Color=(B=13,G=52,R=157,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=9,G=30,R=115,A=150))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.600000,Max=0.600000))
+         Opacity=0.750000
+         FadeOutStartTime=0.255000
+         FadeOut=True
+         UseActorForces=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=50
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=10.000000)
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-2.000000,Max=2.000000))
+         StartLocationShape=PTLS_Polar
+         SphereRadiusRange=(Max=4.000000)
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Y=(Min=90.000000,Max=90.000000),Z=(Max=50.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.440000)
+         SpinsPerSecondRange=(X=(Max=0.250000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.120000,RelativeSize=1.250000)
+         SizeScale(2)=(RelativeTime=0.420000,RelativeSize=3.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=15.000000,Max=20.000000),Y=(Min=15.000000,Max=20.000000),Z=(Min=15.000000,Max=20.000000))
+         InitialParticlesPerSecond=180.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Fire.fx_m_t2003'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=600.000000,Max=600.000000),Y=(Min=600.000000,Max=600.000000),Z=(Min=100.000000,Max=100.000000))
+         VelocityLossRange=(X=(Min=4.000000,Max=4.000000),Y=(Min=4.000000,Max=4.000000),Z=(Min=1.000000,Max=1.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter35"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u105_tiat_ra_simple.SpriteEmitter35'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     bDirectional=True
+}

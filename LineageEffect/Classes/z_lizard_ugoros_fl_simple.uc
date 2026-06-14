@@ -1,0 +1,187 @@
+class z_lizard_ugoros_fl_simple extends NskillProjectile;
+
+defaultproperties
+{
+     Speed=300.000000
+     AccSpeed=1000.000000
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter60
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=128,G=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=128,R=128,A=255))
+         Opacity=0.700000
+         FadeOutStartTime=0.600000
+         FadeOut=True
+         FadeInEndTime=0.280000
+         FadeIn=True
+         MaxParticles=15
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.020000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.250000)
+         StartSizeRange=(X=(Min=17.500000,Max=17.500000),Y=(Min=17.500000,Max=17.500000),Z=(Min=17.500000,Max=17.500000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t8203'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-30.000000,Max=-30.000000))
+         Name="SpriteEmitter60"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.z_lizard_ugoros_fl_simple.SpriteEmitter60'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter56
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=150,G=255,R=45,A=255))
+         ColorScale(1)=(RelativeTime=0.564286,Color=(B=51,G=51,R=51,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(G=255,R=128,A=255))
+         ColorScaleRepeats=10.000000
+         FadeOutStartTime=0.500000
+         FadeOut=True
+         FadeInEndTime=0.500000
+         FadeIn=True
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=25.000000,Max=25.000000),Y=(Min=25.000000,Max=25.000000),Z=(Min=25.000000,Max=25.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t8171'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=0.010000,Max=0.010000))
+         Name="SpriteEmitter56"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.z_lizard_ugoros_fl_simple.SpriteEmitter56'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter107
+         UseDirectionAs=PTDU_Forward
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=150,G=255,R=45,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(G=255,R=128,A=255))
+         ColorScaleRepeats=10.000000
+         Opacity=0.600000
+         FadeOutStartTime=0.114000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=50
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=15.000000,Max=15.000000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4034'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(X=(Min=-0.100000,Max=0.100000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-0.100000,Max=0.100000))
+         Name="SpriteEmitter107"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.z_lizard_ugoros_fl_simple.SpriteEmitter107'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter124
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.770000,Max=0.770000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.770000,Max=0.770000))
+         Opacity=0.350000
+         FadeOutStartTime=0.500000
+         FadeOut=True
+         FadeInEndTime=0.500000
+         FadeIn=True
+         MaxParticles=3
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.030000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=25.000000,Max=25.000000),Y=(Min=25.000000,Max=25.000000),Z=(Min=25.000000,Max=25.000000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8062'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter124"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.z_lizard_ugoros_fl_simple.SpriteEmitter124'
+     Begin Object Class=TrailEmitter Name=TrailEmitter0
+         TrailShadeType=PTTST_PointLife
+         TrailLocation=PTTL_FollowEmitter
+         DistanceThreshold=3.000000
+         PointLifeTime=1.000000
+         AttachEmitterIndex=3
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=128,R=128,A=255))
+         Opacity=0.850000
+         FadeOutStartTime=2.000000
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         AutoReset=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=8.000000,Max=8.000000),Y=(Min=8.000000,Max=8.000000),Z=(Min=8.000000,Max=8.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1077'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="TrailEmitter0"
+     End Object
+     Emitters(4)=TrailEmitter'LineageEffect.z_lizard_ugoros_fl_simple.TrailEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter125
+         Acceleration=(X=-100.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=167,G=115,R=109,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.881000,Max=0.881000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.500000
+         FadeOut=True
+         FadeInEndTime=0.500000
+         FadeIn=True
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.030000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.250000)
+         StartSizeRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=15.000000,Max=15.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t6081'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=20.000000,Max=20.000000))
+         Name="SpriteEmitter125"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.z_lizard_ugoros_fl_simple.SpriteEmitter125'
+     bUseDynamicLights=False
+     bLightChanged=True
+     bAcceptsProjectors=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

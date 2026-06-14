@@ -1,0 +1,78 @@
+class br_e_local_ch_mfighter_spatk extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.039286)
+         ColorScale(2)=(RelativeTime=0.050000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.050000,Color=(B=80,G=80,R=80,A=255))
+         ColorScale(4)=(RelativeTime=0.800000,Color=(B=80,G=80,R=80,A=255))
+         ColorScale(5)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.185000,Max=0.185000))
+         Opacity=0.100000
+         FadeOutStartTime=1.200000
+         MaxParticles=18
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-1.050000,Max=1.050000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.040000,RelativeSize=3.500000)
+         SizeScale(1)=(RelativeTime=0.050000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=1.500000,Max=1.500000),Y=(Min=1.500000,Max=1.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=400.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0000'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=7
+         SubdivisionEnd=8
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(X=(Min=4.500000,Max=4.500000),Y=(Min=-0.750000,Max=0.750000),Z=(Min=-0.750000,Max=0.750000))
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_local_ch_mfighter_spatk.SpriteEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter4
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.spirit_gun00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.521429,Color=(B=105,G=105,R=105,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Min=0.300000,Max=0.500000),Y=(Min=0.300000,Max=0.900000),Z=(Min=0.300000,Max=0.300000))
+         Opacity=0.800000
+         FadeOutStartTime=0.570000
+         FadeOut=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-0.900000,Max=0.900000))
+         SpinParticles=True
+         SpinCCWorCW=(Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000),Y=(Min=0.050000,Max=0.050000),Z=(Min=1.000000,Max=2.000000))
+         StartSpinRange=(Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.030000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.070000,RelativeSize=1.800000)
+         SizeScale(2)=(RelativeTime=0.080000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=0.560000,RelativeSize=1.000000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=0.010000)
+         StartSizeRange=(X=(Min=0.018000,Max=0.018000),Y=(Min=0.009000,Max=0.012600),Z=(Min=0.009000,Max=0.012600))
+         InitialParticlesPerSecond=400.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(X=(Min=6.000000,Max=6.000000))
+         Name="MeshEmitter4"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect_Br.br_e_local_ch_mfighter_spatk.MeshEmitter4'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.050000
+}

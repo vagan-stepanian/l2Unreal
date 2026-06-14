@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{a767b579-13c2-4808-b1d9-99e620d1b329}</UniqueIdentifier>
+      <Extensions>*.uc</Extensions>
+    </Filter>
+    <Filter Include="ServerAdmin">
+      <UniqueIdentifier>{b295d66b-d5cf-4ca0-8a2c-235c28984255}</UniqueIdentifier>
+      <Extensions>*.htm</Extensions>
+    </Filter>
+    <Filter Include="ServerAdmin\Base">
+      <UniqueIdentifier>{3c689f90-b141-47a5-b049-fc924c1667fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerAdmin\Current">
+      <UniqueIdentifier>{f7b88fcc-4420-4d86-8519-dfee99f4a469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerAdmin\Defaults">
+      <UniqueIdentifier>{61cdd1d0-8f27-4537-8e4c-b28b8ee91167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerAdmin\Admins">
+      <UniqueIdentifier>{654f8355-e326-4455-ac5f-a43550620bcc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="todo.txt">
+      <Filter>ServerAdmin</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ServerAdmin\footer.inc">
+      <Filter>ServerAdmin\Base</Filter>
+    </None>
+    <None Include="..\ServerAdmin\header.inc">
+      <Filter>ServerAdmin\Base</Filter>
+    </None>
+    <None Include="..\ServerAdmin\mainmenu.htm">
+      <Filter>ServerAdmin\Base</Filter>
+    </None>
+    <None Include="..\ServerAdmin\message.htm">
+      <Filter>ServerAdmin\Base</Filter>
+    </None>
+    <None Include="..\ServerAdmin\rootframe.htm">
+      <Filter>ServerAdmin\Base</Filter>
+    </None>
+    <None Include="..\ServerAdmin\server_restart.htm">
+      <Filter>ServerAdmin\Base</Filter>
+    </None>
+    <None Include="..\ServerAdmin\server_restart_row.inc">
+      <Filter>ServerAdmin\Base</Filter>
+    </None>
+    <None Include="..\ServerAdmin\ut2003.css">
+      <Filter>ServerAdmin\Base</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_bots.htm">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_bots_row.inc">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_bots_row_sel.inc">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_bots_species.inc">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_console.htm">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_console_log.htm">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_console_send.htm">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_game.htm">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_menu.htm">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_mutators.htm">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_mutators_group.inc">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_mutators_group_row.inc">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_mutators_row.inc">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_mutators_selected.inc">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_mutators_table.inc">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_players.htm">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_players_ban_col.inc">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_players_empty_col.inc">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_players_kick_col.inc">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_players_list_head.inc">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_players_list_head_link.inc">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\current_players_minp.inc">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\currentframe.htm">
+      <Filter>ServerAdmin\Current</Filter>
+    </None>
+    <None Include="..\ServerAdmin\defaults_header.inc">
+      <Filter>ServerAdmin\Defaults</Filter>
+    </None>
+    <None Include="..\ServerAdmin\defaults_ippolicy.htm">
+      <Filter>ServerAdmin\Defaults</Filter>
+    </None>
+    <None Include="..\ServerAdmin\defaults_ippolicy_row.inc">
+      <Filter>ServerAdmin\Defaults</Filter>
+    </None>
+    <None Include="..\ServerAdmin\defaults_maps.htm">
+      <Filter>ServerAdmin\Defaults</Filter>
+    </None>
+    <None Include="..\ServerAdmin\defaults_mark.inc">
+      <Filter>ServerAdmin\Defaults</Filter>
+    </None>
+    <None Include="..\ServerAdmin\defaults_menu.htm">
+      <Filter>ServerAdmin\Defaults</Filter>
+    </None>
+    <None Include="..\ServerAdmin\defaults_menu_row.inc">
+      <Filter>ServerAdmin\Defaults</Filter>
+    </None>
+    <None Include="..\ServerAdmin\defaults_row_check.inc">
+      <Filter>ServerAdmin\Defaults</Filter>
+    </None>
+    <None Include="..\ServerAdmin\defaults_row_select.inc">
+      <Filter>ServerAdmin\Defaults</Filter>
+    </None>
+    <None Include="..\ServerAdmin\defaults_row_text.inc">
+      <Filter>ServerAdmin\Defaults</Filter>
+    </None>
+    <None Include="..\ServerAdmin\defaults_rules.htm">
+      <Filter>ServerAdmin\Defaults</Filter>
+    </None>
+    <None Include="..\ServerAdmin\defaultsframe.htm">
+      <Filter>ServerAdmin\Defaults</Filter>
+    </None>
+    <None Include="..\ServerAdmin\admins_account.htm">
+      <Filter>ServerAdmin\Admins</Filter>
+    </None>
+    <None Include="..\ServerAdmin\admins_home.htm">
+      <Filter>ServerAdmin\Admins</Filter>
+    </None>
+    <None Include="..\ServerAdmin\admins_menu.htm">
+      <Filter>ServerAdmin\Admins</Filter>
+    </None>
+    <None Include="..\ServerAdmin\adminsframe.htm">
+      <Filter>ServerAdmin\Admins</Filter>
+    </None>
+    <None Include="..\ServerAdmin\groups_add.htm">
+      <Filter>ServerAdmin\Admins</Filter>
+    </None>
+    <None Include="..\ServerAdmin\groups_browse.htm">
+      <Filter>ServerAdmin\Admins</Filter>
+    </None>
+    <None Include="..\ServerAdmin\groups_edit.htm">
+      <Filter>ServerAdmin\Admins</Filter>
+    </None>
+    <None Include="..\ServerAdmin\groups_row.inc">
+      <Filter>ServerAdmin\Admins</Filter>
+    </None>
+    <None Include="..\ServerAdmin\privs_element.inc">
+      <Filter>ServerAdmin\Admins</Filter>
+    </None>
+    <None Include="..\ServerAdmin\privs_element_ro.inc">
+      <Filter>ServerAdmin\Admins</Filter>
+    </None>
+    <None Include="..\ServerAdmin\privs_header.inc">
+      <Filter>ServerAdmin\Admins</Filter>
+    </None>
+    <None Include="..\ServerAdmin\privs_header_chk.inc">
+      <Filter>ServerAdmin\Admins</Filter>
+    </None>
+    <None Include="..\ServerAdmin\users_add.htm">
+      <Filter>ServerAdmin\Admins</Filter>
+    </None>
+    <None Include="..\ServerAdmin\users_browse.htm">
+      <Filter>ServerAdmin\Admins</Filter>
+    </None>
+    <None Include="..\ServerAdmin\users_edit.htm">
+      <Filter>ServerAdmin\Admins</Filter>
+    </None>
+    <None Include="..\ServerAdmin\users_groups.htm">
+      <Filter>ServerAdmin\Admins</Filter>
+    </None>
+    <None Include="..\ServerAdmin\users_groups_row.inc">
+      <Filter>ServerAdmin\Admins</Filter>
+    </None>
+    <None Include="..\ServerAdmin\users_row.inc">
+      <Filter>ServerAdmin\Admins</Filter>
+    </None>
+  </ItemGroup>
+</Project>

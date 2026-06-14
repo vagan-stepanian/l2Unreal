@@ -1,0 +1,135 @@
+class u_mon_water_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter8
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.magiccircle.magiccircleblack02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=54,G=46,R=31,A=255))
+         ColorScale(1)=(RelativeTime=0.521429,Color=(B=107,G=83,R=58,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=66,G=55,R=36,A=255))
+         ColorScaleRepeats=8.000000
+         ColorMultiplierRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.300000
+         FadeOutStartTime=1.020000
+         FadeOut=True
+         FadeInEndTime=0.135000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSizeRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.400000,Max=0.400000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         Name="MeshEmitter8"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_mon_water_ca_simple.MeshEmitter8'
+     Begin Object Class=MeshEmitter Name=MeshEmitter9
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.water.tears_water'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=208,G=202,R=166,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=244,G=202,R=145,A=255))
+         ColorMultiplierRange=(X=(Min=0.950000,Max=1.000000),Y=(Min=0.950000,Max=1.000000),Z=(Min=0.950000,Max=1.000000))
+         FadeOutStartTime=0.530000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.550000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=0.950000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.200000),Y=(Min=1.000000,Max=1.200000),Z=(Min=0.400000,Max=0.700000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=0.800000,Max=1.000000)
+         Name="MeshEmitter9"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.u_mon_water_ca_simple.MeshEmitter9'
+     Begin Object Class=MeshEmitter Name=MeshEmitter10
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.water.water_splash1'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=15.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=105,G=102,R=75,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=169,G=149,R=103,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=164,G=163,R=162,A=255))
+         ColorMultiplierRange=(X=(Min=0.950000,Max=1.000000),Y=(Min=0.950000,Max=1.000000),Z=(Min=0.950000,Max=1.000000))
+         FadeOutStartTime=0.567000
+         FadeOut=True
+         FadeInEndTime=0.288000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=1.000000)
+         StartLocationRange=(Z=(Max=1.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.300000,Max=0.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.150000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=0.600000,Max=0.900000),Y=(Min=0.600000,Max=0.900000),Z=(Min=-4.000000,Max=4.000000))
+         InitialParticlesPerSecond=12.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=0.800000,Max=0.900000)
+         StartVelocityRange=(Z=(Min=-15.000000,Max=-5.000000))
+         Name="MeshEmitter10"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.u_mon_water_ca_simple.MeshEmitter10'
+     Begin Object Class=MeshEmitter Name=MeshEmitter11
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.water.water_splash1'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=-25.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=111,G=101,R=64,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=126,G=125,R=124,A=255))
+         FadeOutStartTime=0.432000
+         FadeOut=True
+         FadeInEndTime=0.108000
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=5.000000,Max=10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.600000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=0.700000,Max=1.000000),Z=(Min=-7.000000,Max=2.000000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=0.800000,Max=0.900000)
+         StartVelocityRange=(Z=(Min=5.000000,Max=10.000000))
+         Name="MeshEmitter11"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.u_mon_water_ca_simple.MeshEmitter11'
+     bNoDelete=False
+}

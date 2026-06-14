@@ -1,0 +1,111 @@
+class d_he_shelterr_continue extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter4
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.sphere_01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=233,G=154,R=219,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=111,A=255))
+         Opacity=0.180000
+         FadeOutStartTime=0.940000
+         FadeOut=True
+         FadeInEndTime=0.820000
+         FadeIn=True
+         StartLocationRange=(Z=(Min=20.000000,Max=30.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=2.600000,Max=2.600000),Y=(Min=2.600000,Max=2.600000),Z=(Min=1.800000,Max=1.800000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles.fx_m_t0100'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(Z=(Min=-10.000000,Max=-10.000000))
+         Name="MeshEmitter4"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_he_shelterr_continue.MeshEmitter4'
+     Begin Object Class=MeshEmitter Name=MeshEmitter11
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.sphere_02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=23,G=121,R=253,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=251,G=239,R=225,A=255))
+         ColorMultiplierRange=(X=(Min=0.560000,Max=1.000000),Y=(Min=0.560000,Max=1.000000),Z=(Min=0.775000,Max=0.775000))
+         Opacity=0.790000
+         FadeOutStartTime=0.920000
+         FadeOut=True
+         FadeInEndTime=0.820000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationRange=(Z=(Min=-45.000000,Max=-45.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.010000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-0.170000,Max=0.170000),Z=(Min=-0.100000,Max=0.100000))
+         StartSizeRange=(X=(Min=2.800000,Max=3.000000),Y=(Min=2.800000,Max=3.000000),Z=(Min=2.800000,Max=3.000000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles5.fx_m_t8130'
+         LifetimeRange=(Min=2.000000,Max=3.000000)
+         Name="MeshEmitter11"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_he_shelterr_continue.MeshEmitter11'
+     Begin Object Class=MeshEmitter Name=MeshEmitter13
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.sphere_01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.475000,Color=(B=172,G=172,R=172,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=3.000000
+         ColorMultiplierRange=(X=(Min=0.740000,Max=1.000000),Y=(Min=0.740000,Max=1.000000),Z=(Min=0.740000,Max=1.000000))
+         FadeOutStartTime=1.890000
+         FadeOut=True
+         FadeInEndTime=0.690000
+         FadeIn=True
+         MaxParticles=2
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.003000,Max=0.003000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=2.700000,Max=2.700000),Y=(Min=2.700000,Max=2.700000),Z=(Min=2.100000,Max=2.100000))
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.FX_M_T4174'
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="MeshEmitter13"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_he_shelterr_continue.MeshEmitter13'
+     Begin Object Class=MeshEmitter Name=MeshEmitter14
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.S_around_Aura'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=21,G=99,R=204,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=164,G=34,R=73,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.620000,Max=1.000000))
+         Opacity=0.340000
+         FadeOutStartTime=0.940000
+         FadeOut=True
+         FadeInEndTime=0.820000
+         FadeIn=True
+         StartLocationRange=(Z=(Min=20.000000,Max=20.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=2.450000,Max=2.450000),Y=(Min=2.450000,Max=2.450000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(Z=(Min=-10.000000,Max=-10.000000))
+         Name="MeshEmitter14"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_he_shelterr_continue.MeshEmitter14'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale3D=(X=0.200000,Y=0.200000,Z=0.200000)
+}

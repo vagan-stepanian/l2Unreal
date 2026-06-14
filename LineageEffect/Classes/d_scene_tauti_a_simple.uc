@@ -1,0 +1,130 @@
+class d_scene_tauti_a_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter52
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh03.xel_bolt'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.464286,Color=(B=255,G=209,R=164,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=162,R=162,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.030000
+         FadeOut=True
+         MaxParticles=18
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=590.000000,Y=-70.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.230000,Max=0.230000),Y=(Max=1.000000),Z=(Min=-0.250000,Max=-0.250000))
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=-2.000000,Max=-2.000000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="MeshEmitter52"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_scene_tauti_a_simple.MeshEmitter52'
+     Begin Object Class=MeshEmitter Name=MeshEmitter53
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh03.xel_bolt'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.464286,Color=(B=255,G=209,R=164,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=162,R=162,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.027000
+         FadeOut=True
+         MaxParticles=18
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=410.000000,Y=170.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.310000,Max=0.310000),Y=(Max=1.000000),Z=(Min=-0.250000,Max=-0.250000))
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=-1.500000,Max=-1.500000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="MeshEmitter53"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_scene_tauti_a_simple.MeshEmitter53'
+     Begin Object Class=MeshEmitter Name=MeshEmitter54
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh03.xel_bolt'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.464286,Color=(B=255,G=209,R=164,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=162,R=162,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.027000
+         FadeOut=True
+         MaxParticles=18
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=360.000000,Y=-260.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.150000,Max=0.150000),Y=(Max=1.000000),Z=(Min=-0.250000,Max=-0.250000))
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=-1.500000,Max=-1.500000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="MeshEmitter54"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_scene_tauti_a_simple.MeshEmitter54'
+     Begin Object Class=MeshEmitter Name=MeshEmitter55
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh03.xel_bolt'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.464286,Color=(B=255,G=209,R=164,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=162,R=162,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.027000
+         FadeOut=True
+         MaxParticles=18
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=280.000000,Y=350.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.390000,Max=0.390000),Y=(Max=1.000000),Z=(Min=-0.250000,Max=-0.250000))
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=-1.500000,Max=-1.500000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="MeshEmitter55"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_scene_tauti_a_simple.MeshEmitter55'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter106
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.372000,Max=0.372000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.500000
+         MaxParticles=60
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=170.000000,Z=-50.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-120.000000,Max=120.000000),Y=(Min=-350.000000,Max=350.000000),Z=(Min=100.000000,Max=100.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=35.000000,Max=45.000000),Y=(Min=35.000000,Max=45.000000),Z=(Min=35.000000,Max=45.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0126'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=0.300000,Max=1.000000)
+         Name="SpriteEmitter106"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_scene_tauti_a_simple.SpriteEmitter106'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

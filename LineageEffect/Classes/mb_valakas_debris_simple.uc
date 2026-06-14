@@ -1,0 +1,120 @@
+class mb_valakas_debris_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter23
+         Acceleration=(X=-10.000000,Z=-30.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.409000,Max=0.409000),Y=(Min=0.353000,Max=0.353000),Z=(Min=0.286000,Max=0.286000))
+         Opacity=0.800000
+         FadeOutStartTime=1.480000
+         FadeOut=True
+         UseActorForces=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=50.000000,Z=10.000000)
+         StartLocationRange=(X=(Min=-30.000000,Max=30.000000),Y=(Min=-30.000000,Max=30.000000),Z=(Min=-5.000000,Max=5.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=80.000000,Max=90.000000),Z=(Min=2.000000,Max=20.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Max=0.250000))
+         StartSpinRange=(X=(Min=-0.255000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=25.000000),Y=(Min=10.000000,Max=25.000000),Z=(Min=10.000000,Max=25.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures2.balakas.fx_m_t2011'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         SubdivisionStart=2
+         SubdivisionEnd=3
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         VelocityLossRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Max=1.000000))
+         Name="SpriteEmitter23"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.mb_valakas_debris_simple.SpriteEmitter23'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter24
+         Acceleration=(X=-5.000000,Z=-50.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.743000,Max=0.743000),Z=(Min=0.341000,Max=0.341000))
+         FadeOutStartTime=2.200000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=50.000000,Z=-5.000000)
+         StartLocationRange=(X=(Min=-20.000000,Max=20.000000),Y=(Min=-20.000000,Max=20.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=90.000000),Z=(Min=5.000000,Max=20.000000))
+         SpinParticles=True
+         StartSpinRange=(Y=(Min=0.200000,Max=0.200000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=15.000000,Max=15.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.balakas.fx_m_t1037'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         VelocityLossRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=0.200000))
+         Name="SpriteEmitter24"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.mb_valakas_debris_simple.SpriteEmitter24'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter29
+         Acceleration=(Z=-50.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=134,G=220,R=253,A=255))
+         ColorScale(1)=(RelativeTime=0.314286,Color=(B=77,G=90,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=3,G=21,R=73,A=255))
+         FadeOutStartTime=2.200000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=20
+         RespawnDeadParticles=False
+         Disabled=True
+         StartLocationOffset=(X=100.000000,Z=10.000000)
+         StartLocationRange=(X=(Min=-20.000000,Max=20.000000),Y=(Min=-20.000000,Max=20.000000),Z=(Min=-20.000000,Max=10.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=30.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.470000)
+         SpinsPerSecondRange=(X=(Max=0.020000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=15.000000,Max=35.000000),Y=(Min=15.000000,Max=35.000000),Z=(Min=15.000000,Max=35.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.balakas.fx_m_t1037'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         VelocityLossRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=0.200000))
+         Name="SpriteEmitter29"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.mb_valakas_debris_simple.SpriteEmitter29'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     CollisionRadius=177.667068
+     CollisionHeight=125.629593
+     bCollideActors=True
+     bDirectional=True
+}

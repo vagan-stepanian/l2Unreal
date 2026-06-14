@@ -1,0 +1,131 @@
+class y_er_wa_spinhigh_hand extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter660
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.385000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         MaxParticles=2
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=1.000000,Max=1.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=1.000000,Max=2.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=0.050000,Max=0.050000),Y=(Min=0.050000,Max=0.050000),Z=(Min=0.050000,Max=0.050000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=None
+         TextureUSubdivisions=4
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         Name="SpriteEmitter660"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.y_er_wa_spinhigh_hand.SpriteEmitter660'
+     Begin Object Class=TrailEmitter Name=TrailEmitter194
+         TrailShadeType=PTTST_PointLife
+         UseCrossedSheets=True
+         PointLifeTime=0.800000
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=18,G=245,R=75,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=227,G=137,R=15,A=255))
+         FadeOutStartTime=0.312000
+         FadeOut=True
+         FadeInEndTime=0.216000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         DestroyWhenHitTarget=False
+         RespawnDeadParticles=False
+         AutoReset=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.410000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4148'
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         Name="TrailEmitter194"
+     End Object
+     Emitters(1)=TrailEmitter'LineageEffect.y_er_wa_spinhigh_hand.TrailEmitter194'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.000000
+         FadeOutStartTime=0.621000
+         FadeOut=True
+         FadeInEndTime=0.198000
+         FadeIn=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=7.000000,Max=7.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Min=1.000000,Max=1.000000))
+         RevolutionsPerSecondRange=(X=(Min=3.000000,Max=3.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1060'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.900000,Max=0.900000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.y_er_wa_spinhigh_hand.SpriteEmitter0'
+     Begin Object Class=TrailEmitter Name=TrailEmitter4
+         TrailShadeType=PTTST_PointLife
+         DistanceThreshold=10.000000
+         PointLifeTime=0.750000
+         AttachEmitterIndex=2
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=143,G=245,R=151,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=234,G=81,R=36,A=255))
+         FadeOutStartTime=0.344000
+         FadeOut=True
+         FadeInEndTime=0.224000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         RespawnDeadParticles=False
+         AutoReset=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4148'
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         Name="TrailEmitter4"
+     End Object
+     Emitters(3)=TrailEmitter'LineageEffect.y_er_wa_spinhigh_hand.TrailEmitter4'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bDirectional=True
+}

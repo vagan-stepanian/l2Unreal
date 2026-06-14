@@ -1,0 +1,125 @@
+class d_kn_buff_move_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter5
+         VertexMesh=VertMesh'LineageEffectMeshes2.4_buff_29'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.360000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=13.000000)
+         StartSizeRange=(X=(Min=0.342000,Max=0.342000),Y=(Min=0.342000,Max=0.342000),Z=(Min=0.342000,Max=0.342000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.900000,Max=0.900000)
+         Name="VertMeshEmitter5"
+     End Object
+     Emitters(1)=VertMeshEmitter'LineageEffect.d_kn_buff_move_simple.VertMeshEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter72
+         UseDirectionAs=PTDU_Normal
+         Refraction=REF_LightPerformance
+         RefrUScale=0.016000
+         RefrVScale=0.016000
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.403000,Max=0.403000),Y=(Min=0.598000,Max=0.598000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.050000
+         FadeOutStartTime=0.175000
+         FadeOut=True
+         FadeInEndTime=0.095000
+         FadeIn=True
+         MaxParticles=4
+         RespawnDeadParticles=False
+         Disabled=True
+         StartLocationOffset=(Z=25.000000)
+         StartLocationRange=(X=(Min=-15.000000,Max=15.000000),Y=(Min=-15.000000,Max=15.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=14.000000,Max=14.000000),Y=(Min=14.000000,Max=14.000000),Z=(Min=14.000000,Max=14.000000))
+         InitialParticlesPerSecond=48.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8018'
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter72"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_kn_buff_move_simple.SpriteEmitter72'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter74
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.268800
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=10.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7114'
+         LifetimeRange=(Min=0.840000,Max=0.840000)
+         StartVelocityRange=(Z=(Min=120.000000,Max=120.000000))
+         VelocityLossRange=(Z=(Min=4.000000,Max=4.000000))
+         Name="SpriteEmitter74"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.d_kn_buff_move_simple.SpriteEmitter74'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter75
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.496429,Color=(B=178,G=178,R=178,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=20.000000
+         Opacity=0.800000
+         FadeOutStartTime=0.330000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=10.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=3.000000,Max=3.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=3.286000,Max=3.286000),Y=(Min=3.286000,Max=3.286000),Z=(Min=3.286000,Max=3.286000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t6175'
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(Z=(Min=120.000000,Max=120.000000))
+         VelocityLossRange=(Z=(Min=4.000000,Max=4.000000))
+         Name="SpriteEmitter75"
+     End Object
+     Emitters(6)=SpriteEmitter'LineageEffect.d_kn_buff_move_simple.SpriteEmitter75'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.300000
+}

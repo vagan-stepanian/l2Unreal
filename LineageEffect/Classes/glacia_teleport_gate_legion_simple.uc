@@ -1,0 +1,146 @@
+class glacia_teleport_gate_legion_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter50
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(A=255))
+         ColorScale(1)=(RelativeTime=0.417857,Color=(B=87,R=130,A=255))
+         ColorScale(2)=(RelativeTime=0.521429,Color=(R=64,A=255))
+         ColorScale(3)=(RelativeTime=0.921429,Color=(B=19,R=55,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=17,R=43,A=255))
+         ColorScaleRepeats=1.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.500000
+         FadeOutStartTime=3.000000
+         FadeOut=True
+         FadeInEndTime=1.000000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Z=(Min=2.000000,Max=2.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         Texture=Texture'FX_E_T.warpgate.fx_m_t8036'
+         UseRandomSubdivision=True
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter50"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.glacia_teleport_gate_legion_simple.SpriteEmitter50'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter54
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=27,R=62,A=255))
+         ColorScale(1)=(RelativeTime=0.389286,Color=(B=66,G=2,R=200,A=255))
+         ColorScale(2)=(RelativeTime=0.453571,Color=(B=172,G=141,R=254,A=255))
+         ColorScale(3)=(RelativeTime=0.510714,Color=(B=49,G=1,R=190,A=255))
+         ColorScale(4)=(RelativeTime=0.885714,Color=(B=66,R=189,A=255))
+         ColorScale(5)=(RelativeTime=0.942857,Color=(B=181,G=155,R=255,A=255))
+         ColorScale(6)=(RelativeTime=1.000000,Color=(B=65,G=1,R=197,A=255))
+         ColorScaleRepeats=1.000000
+         FadeOutStartTime=2.880000
+         FadeOut=True
+         FadeInEndTime=0.360000
+         FadeIn=True
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Z=(Min=2.000000,Max=2.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8018'
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=3.000000,Max=4.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter54"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.glacia_teleport_gate_legion_simple.SpriteEmitter54'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter13
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.650000
+         FadeOutStartTime=3.000000
+         FadeOut=True
+         FadeInEndTime=1.000000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationRange=(X=(Min=-20.000000,Max=20.000000),Y=(Min=-20.000000,Max=20.000000),Z=(Min=2.000000,Max=2.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.010000))
+         StartSpinRange=(X=(Max=0.020000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=0.100000)
+         SizeScale(2)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=0.750000,RelativeSize=0.100000)
+         Texture=Texture'FX_E_T.LightGlowSet.npc_2f_etc_W'
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter13"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.glacia_teleport_gate_legion_simple.SpriteEmitter13'
+     Begin Object Class=BeamEmitter Name=BeamEmitter1
+         LowFrequencyNoiseRange=(Z=(Min=30.000000,Max=70.000000))
+         LowFrequencyPoints=2
+         HighFrequencyPoints=2
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=125,G=154,R=193,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=160,G=90,R=56,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         FadeOutStartTime=17.000000
+         FadeOut=True
+         FadeInEndTime=2.800000
+         FadeIn=True
+         StartLocationRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000),Z=(Min=-10.000000,Max=-10.000000))
+         StartSizeRange=(X=(Min=5.000000,Max=10.000000),Y=(Min=5.000000,Max=10.000000),Z=(Min=5.000000,Max=10.000000))
+         InitialParticlesPerSecond=3.000000
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1077'
+         LifetimeRange=(Min=20.000000,Max=20.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="BeamEmitter1"
+     End Object
+     Emitters(3)=BeamEmitter'LineageEffect.glacia_teleport_gate_legion_simple.BeamEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.500000
+         FadeOutStartTime=1.240000
+         FadeOut=True
+         FadeInEndTime=0.640000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationRange=(X=(Min=-40.000000,Max=40.000000),Y=(Min=-40.000000,Max=40.000000))
+         SpinParticles=True
+         UniformSize=True
+         StartSizeRange=(X=(Min=20.000000,Max=30.000000),Y=(Min=20.000000,Max=30.000000),Z=(Min=20.000000,Max=30.000000))
+         Texture=Texture'FX_E_T.Fx_argos_eye.Fx_argos_eye_t05'
+         StartVelocityRange=(Z=(Max=10.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.glacia_teleport_gate_legion_simple.SpriteEmitter7'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

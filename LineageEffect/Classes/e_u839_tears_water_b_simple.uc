@@ -1,0 +1,102 @@
+class e_u839_tears_water_b_simple extends Emitter; //Æ¼¾î½º ±ú²ýÇÑ¹° ¼öÁ¤
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter14
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.water.water_splash1'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=-24.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=242,G=255,R=181,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.500000
+         FadeOut=True
+         FadeInEndTime=0.090000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=14
+         StartLocationOffset=(Z=3.000000)
+         StartLocationRange=(Z=(Max=1.200000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.300000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.900000)
+         StartSizeRange=(X=(Min=0.600000,Max=0.960000),Y=(Min=0.600000,Max=0.960000),Z=(Min=-4.800000,Max=4.800000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=0.800000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=6.000000,Max=12.000000))
+         Name="MeshEmitter14"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.e_u839_tears_water_b_simple.MeshEmitter14'
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.water.tears_water'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=242,G=255,R=181,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=128))
+         ColorMultiplierRange=(X=(Min=0.850000,Max=0.900000),Y=(Min=0.900000,Max=0.950000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.765000
+         FadeOut=True
+         FadeInEndTime=0.375000
+         FadeIn=True
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.550000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=0.950000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.300000),Y=(Min=1.000000,Max=1.300000),Z=(Min=1.100000,Max=1.300000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=1.100000,Max=1.500000)
+         Name="MeshEmitter0"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.e_u839_tears_water_b_simple.MeshEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.water.water_splash1'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=-25.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=242,G=255,R=181,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.640000
+         FadeOut=True
+         FadeInEndTime=0.110000
+         FadeIn=True
+         MaxParticles=6
+         StartLocationRange=(Z=(Min=10.000000,Max=27.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=0.700000,Max=1.200000),Y=(Min=0.700000,Max=1.200000),Z=(Min=-5.000000,Max=2.000000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=0.800000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=5.000000,Max=10.000000))
+         Name="MeshEmitter1"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.e_u839_tears_water_b_simple.MeshEmitter1'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

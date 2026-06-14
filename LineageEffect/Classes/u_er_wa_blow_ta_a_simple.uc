@@ -1,0 +1,135 @@
+class u_er_wa_blow_ta_a_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter42
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=18,G=180,R=27,A=255))
+         Opacity=0.460000
+         FadeOutStartTime=0.125000
+         FadeOut=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=15.000000,Max=23.000000),Y=(Min=15.000000,Max=23.000000),Z=(Min=15.000000,Max=23.000000))
+         InitialParticlesPerSecond=60.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2035'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.050000,Max=0.050000)
+         StartVelocityRange=(X=(Min=-0.010000,Max=0.010000),Y=(Min=-0.010000,Max=0.010000),Z=(Min=-0.010000,Max=0.010000))
+         Name="SpriteEmitter42"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_er_wa_blow_ta_a_simple.SpriteEmitter42'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter43
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=-20.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.257143,Color=(B=255,G=255,R=128,A=255))
+         ColorScale(2)=(RelativeTime=0.400000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.532143,Color=(B=68,G=241,R=251,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=7,G=175,R=248,A=255))
+         FadeOutStartTime=0.065000
+         FadeOut=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=-1.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=90.000000,Max=90.000000),Y=(Min=-170.000000,Max=170.000000),Z=(Min=1.000000,Max=3.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=1.000000,Max=2.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t4085'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=0.350000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-250.000000,Max=-250.000000),Y=(Min=-250.000000,Max=-250.000000),Z=(Min=-250.000000,Max=-250.000000))
+         VelocityLossRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=6.000000,Max=6.000000),Z=(Min=6.000000,Max=6.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter43"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_er_wa_blow_ta_a_simple.SpriteEmitter43'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter45
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.514286,Color=(B=255,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=192,G=128,A=255))
+         FadeOutStartTime=0.066000
+         FadeOut=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-3.000000,Max=3.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=3.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=5.000000)
+         StartSizeRange=(X=(Min=5.000000,Max=8.000000),Y=(Min=5.000000,Max=8.000000),Z=(Min=5.000000,Max=8.000000))
+         InitialParticlesPerSecond=150.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4111'
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         Name="SpriteEmitter45"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_er_wa_blow_ta_a_simple.SpriteEmitter45'
+     Begin Object Class=MeshEmitter Name=MeshEmitter47
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=109,G=241,R=116,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.900000,Max=0.900000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.700000
+         FadeOutStartTime=0.057000
+         FadeOut=True
+         FadeInEndTime=0.015200
+         FadeIn=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Max=10.000000))
+         RevolutionCenterOffsetRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         RevolutionsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(Z=(Min=0.100000,Max=0.600000))
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.350000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.600000)
+         StartSizeRange=(X=(Min=-0.250000,Max=-0.150000),Y=(Min=0.100000,Max=0.100000),Z=(Min=-0.250000,Max=-0.150000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.380000,Max=0.380000)
+         StartVelocityRange=(X=(Max=50.000000))
+         Name="MeshEmitter47"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.u_er_wa_blow_ta_a_simple.MeshEmitter47'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bUnlit=False
+     bDirectional=True
+}

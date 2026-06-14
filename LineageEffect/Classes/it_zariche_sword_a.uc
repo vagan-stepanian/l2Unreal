@@ -1,0 +1,178 @@
+class it_zariche_sword_a extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter46
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.union_zariche.union_zariche_glow'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.050000
+         MaxParticles=4
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000),Z=(Min=0.250000,Max=0.250000))
+         InitialParticlesPerSecond=5000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Name="MeshEmitter46"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.it_zariche_sword_a.MeshEmitter46'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter67
+         UseDirectionAs=PTDU_UpAndNormal
+         Acceleration=(Y=-0.250000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=162,G=208,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=164,G=209,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.100000,Max=0.100000))
+         Opacity=0.080000
+         FadeOutStartTime=0.960000
+         FadeOut=True
+         FadeInEndTime=0.960000
+         FadeIn=True
+         MaxParticles=20
+         StartLocationOffset=(X=15.000000,Y=2.000000)
+         StartLocationRange=(Z=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=8.000000,Max=10.000000),Y=(Min=22.000000,Max=22.000000),Z=(Min=8.000000,Max=10.000000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4012'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=32
+         LifetimeRange=(Min=6.000000,Max=6.000000)
+         StartVelocityRange=(X=(Min=7.000000,Max=7.000000))
+         Name="SpriteEmitter67"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.it_zariche_sword_a.SpriteEmitter67'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter68
+         UseDirectionAs=PTDU_UpAndNormal
+         Acceleration=(Y=-0.250000)
+         ColorScale(0)=(Color=(B=85,G=170,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=91,G=173,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.500000
+         FadeOutStartTime=1.680000
+         FadeOut=True
+         FadeInEndTime=1.680000
+         FadeIn=True
+         MaxParticles=20
+         StartLocationOffset=(X=25.000000,Y=2.500000)
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-1.500000,Max=1.500000),Z=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Min=5.000000,Max=8.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=5.000000,Max=8.000000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3036'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=32
+         StartVelocityRange=(X=(Min=4.000000,Max=4.000000))
+         Name="SpriteEmitter68"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.it_zariche_sword_a.SpriteEmitter68'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter69
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.539286,Color=(B=91,G=91,R=91,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=0.100000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.200000,Max=0.200000))
+         Opacity=0.300000
+         FadeOutStartTime=2.000000
+         MaxParticles=1
+         StartLocationOffset=(X=12.900000,Y=-1.200000,Z=1.700000)
+         UniformSize=True
+         StartSizeRange=(X=(Min=1.500000,Max=1.500000),Y=(Min=1.500000,Max=1.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3037'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="SpriteEmitter69"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.it_zariche_sword_a.SpriteEmitter69'
+     Begin Object Class=MeshEmitter Name=MeshEmitter47
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.union_zariche.union_zariche_glow4'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.200000
+         MaxParticles=1
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000),Z=(Min=0.250000,Max=0.250000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Name="MeshEmitter47"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.it_zariche_sword_a.MeshEmitter47'
+     Begin Object Class=MeshEmitter Name=MeshEmitter48
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.union_zariche.union_zariche2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=132,G=172,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=128,G=169,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.200000,Max=0.200000))
+         Opacity=0.050000
+         FadeOutStartTime=1.050000
+         FadeOut=True
+         FadeInEndTime=1.050000
+         FadeIn=True
+         MaxParticles=3
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000),Z=(Min=0.250000,Max=0.250000))
+         InitialParticlesPerSecond=5000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="MeshEmitter48"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.it_zariche_sword_a.MeshEmitter48'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter70
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.539286,Color=(B=91,G=91,R=91,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=0.100000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.200000,Max=0.200000))
+         Opacity=0.300000
+         FadeOutStartTime=2.000000
+         MaxParticles=1
+         StartLocationOffset=(X=12.900000,Y=-1.200000,Z=-1.550000)
+         UniformSize=True
+         StartSizeRange=(X=(Min=1.500000,Max=1.500000),Y=(Min=1.500000,Max=1.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3037'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="SpriteEmitter70"
+     End Object
+     Emitters(6)=SpriteEmitter'LineageEffect.it_zariche_sword_a.SpriteEmitter70'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=-8)
+     DrawScale=0.200000
+     bUnlit=False
+     SwayRotationOrig=(Yaw=-8)
+     bDirectional=True
+}

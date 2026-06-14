@@ -1,0 +1,114 @@
+class s_u215_peltast_simple extends NSkillProjectile;
+
+defaultproperties
+{
+     Speed=1000.000000
+     AccSpeed=3000.000000
+     Begin Object Class=MeshEmitter Name=MeshEmitter8
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.spear04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=200.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=0.153000
+         FadeOut=True
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=-20.000000)
+         StartLocationRange=(X=(Min=30.000000,Max=30.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(Z=(Min=-2.000000,Max=-2.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.165000,Max=0.165000),Z=(Min=0.165000,Max=0.165000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(X=(Min=300.000000,Max=300.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000))
+         Name="MeshEmitter8"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.s_u215_peltast_simple.MeshEmitter8'
+     Begin Object Class=MeshEmitter Name=MeshEmitter9
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.spear04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.064286,Color=(B=200,G=153,R=55,A=255))
+         ColorScale(2)=(RelativeTime=0.314286,Color=(B=153,G=49,R=49,A=255))
+         ColorScale(3)=(RelativeTime=0.607143,Color=(B=104,G=43,R=43,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(A=255))
+         FadeOutStartTime=0.350000
+         MaxParticles=2
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(Z=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=3.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.080000,Max=0.080000),Z=(Min=0.080000,Max=0.080000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.350000,Max=0.350000)
+         StartVelocityRange=(X=(Min=350.000000,Max=350.000000))
+         VelocityLossRange=(X=(Min=6.000000,Max=6.000000))
+         Name="MeshEmitter9"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.s_u215_peltast_simple.MeshEmitter9'
+     Begin Object Class=MeshEmitter Name=MeshEmitter12
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.064286,Color=(B=200,G=153,R=55,A=255))
+         ColorScale(2)=(RelativeTime=0.314286,Color=(B=153,G=49,R=49,A=255))
+         ColorScale(3)=(RelativeTime=0.607143,Color=(B=104,G=43,R=43,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(A=255))
+         Opacity=0.610000
+         FadeOutStartTime=0.400000
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=60
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-20.000000,Max=50.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(Z=(Min=0.500000,Max=2.000000))
+         StartSpinRange=(Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=0.070000,Max=0.070000),Y=(Min=0.070000,Max=0.070000),Z=(Min=0.070000,Max=0.070000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.350000,Max=0.400000)
+         StartVelocityRange=(X=(Min=30.000000,Max=40.000000))
+         Name="MeshEmitter12"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.s_u215_peltast_simple.MeshEmitter12'
+     bRotEmitter=True
+     Physics=PHYS_Trailer
+     bUseDynamicLights=False
+     bLightChanged=True
+     bTrailerSameRotation=True
+     bTrailerPrePivot=True
+     bTrailerNoOwnerDestroy=True
+     bAcceptsProjectors=False
+     bSunAffect=True
+     Rotation=(Roll=3307994)
+     DrawScale=0.200000
+     bFixedRotationDir=True
+     SwayRotationOrig=(Roll=3307994)
+     bDirectional=True
+}

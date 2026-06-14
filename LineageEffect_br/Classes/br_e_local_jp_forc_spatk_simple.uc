@@ -1,0 +1,140 @@
+class br_e_local_jp_forc_spatk_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter21
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Support.supportenchant01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.455000,Max=0.455000),Z=(Min=0.310000,Max=0.310000))
+         Opacity=0.300000
+         FadeOutStartTime=0.240000
+         FadeOut=True
+         FadeInEndTime=0.075000
+         FadeIn=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.050000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.050000,Max=0.050000),Y=(Min=0.050000,Max=0.050000),Z=(Min=0.050000,Max=0.050000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.200000,Max=0.200000)
+         InitialDelayRange=(Min=0.600000,Max=0.600000)
+         Name="MeshEmitter21"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect_Br.br_e_local_jp_forc_spatk_simple.MeshEmitter21'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter34
+         ColorScale(0)=(Color=(R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.680000,Max=0.680000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.100000,Max=0.100000))
+         Opacity=0.480000
+         FadeOutStartTime=0.290000
+         FadeOut=True
+         FadeInEndTime=0.110000
+         FadeIn=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.550000)
+         SpinsPerSecondRange=(X=(Max=0.400000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.100000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=2.500000,Max=2.500000),Y=(Min=2.500000,Max=2.500000),Z=(Min=2.500000,Max=2.500000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8023'
+         SubdivisionEnd=1
+         LifetimeRange=(Min=0.200000,Max=0.200000)
+         InitialDelayRange=(Min=0.600000,Max=0.600000)
+         Name="SpriteEmitter34"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect_Br.br_e_local_jp_forc_spatk_simple.SpriteEmitter34'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter35
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.521429,Color=(B=170,G=170,R=170,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=15.000000
+         Opacity=0.700000
+         FadeOutStartTime=0.672000
+         FadeOut=True
+         FadeInEndTime=0.132000
+         FadeIn=True
+         MaxParticles=30
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.250000)
+         SizeScaleRepeats=6.000000
+         StartSizeRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.001000,Max=0.300000)
+         InitialDelayRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(X=(Min=42.500000,Max=42.500000),Y=(Min=42.500000,Max=42.500000),Z=(Min=42.500000,Max=42.500000))
+         VelocityLossRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter35"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect_Br.br_e_local_jp_forc_spatk_simple.SpriteEmitter35'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter36
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.521429,Color=(B=170,G=170,R=170,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=15.000000
+         Opacity=0.700000
+         FadeOutStartTime=0.672000
+         FadeOut=True
+         FadeInEndTime=0.132000
+         FadeIn=True
+         MaxParticles=30
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-90.000000,Max=90.000000),Y=(Max=360.000000),Z=(Max=5.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.250000)
+         SizeScaleRepeats=6.000000
+         StartSizeRange=(X=(Min=0.450000,Max=0.875000),Y=(Min=0.450000,Max=0.875000),Z=(Min=0.450000,Max=0.875000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.001000,Max=0.300000)
+         InitialDelayRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(X=(Min=42.500000,Max=42.500000),Y=(Min=42.500000,Max=42.500000),Z=(Min=42.500000,Max=42.500000))
+         VelocityLossRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter36"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect_Br.br_e_local_jp_forc_spatk_simple.SpriteEmitter36'
+     bLightChanged=True
+     bNoDelete=False
+}

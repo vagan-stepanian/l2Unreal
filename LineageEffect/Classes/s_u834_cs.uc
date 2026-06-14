@@ -1,0 +1,125 @@
+class s_u834_cs extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter225
+         Acceleration=(X=409.301819,Z=4.096000)
+         ColorScale(0)=(Color=(B=250,G=56,R=168,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=216,G=78,R=245,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.200000,Max=0.200000))
+         Opacity=0.760000
+         FadeOutStartTime=0.112500
+         FadeOut=True
+         MaxParticles=12
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=5.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=80.000000,Max=90.000000),Y=(Max=360.000000),Z=(Min=8.000000,Max=9.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.040000,Max=0.240000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=9.600000,Max=19.200001),Y=(Min=19.200001,Max=25.600000),Z=(Min=9.600000,Max=19.200001))
+         InitialParticlesPerSecond=160.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5011'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=0.500000,Max=0.650000)
+         StartVelocityRange=(X=(Min=-284.005127,Max=-11.141761),Y=(Min=32.984322,Max=70.382080),Z=(Min=32.984322,Max=70.382080))
+         MaxAbsVelocity=(X=6400.000000,Y=10000.000000,Z=8000.000000)
+         VelocityLossRange=(X=(Min=4.000000,Max=8.000000),Y=(Min=1.600000,Max=3.200000),Z=(Min=1.600000,Max=3.200000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter225"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.s_u834_cs.SpriteEmitter225'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter10
+         VertexMesh=VertMesh'LineageEffectMeshes.soul2'
+         UseMeshBlendMode=False
+         UseParticleColor=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=92,G=231,R=131,A=255))
+         ColorScale(1)=(RelativeTime=0.457143,Color=(B=40,G=215,R=140,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         FadeOutStartTime=0.136000
+         FadeOut=True
+         MaxParticles=8
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=328.000000,Max=328.000000))
+         SpinParticles=True
+         StartSpinRange=(Z=(Max=1.000000))
+         StartSizeRange=(X=(Min=0.776000,Max=0.800000),Y=(Min=0.400000,Max=0.800000),Z=(Min=0.400000,Max=0.800000))
+         InitialParticlesPerSecond=200.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.350000,Max=0.400000)
+         StartVelocityRange=(X=(Min=-44.639999,Max=-44.639999))
+         Name="VertMeshEmitter10"
+     End Object
+     Emitters(1)=VertMeshEmitter'LineageEffect.s_u834_cs.VertMeshEmitter10'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         Acceleration=(X=409.301819,Z=4.096000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=75,G=140,R=248,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.400000
+         FadeOutStartTime=0.307500
+         FadeOut=True
+         MaxParticles=8
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=5.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=80.000000,Max=90.000000),Y=(Max=360.000000),Z=(Min=3.000000,Max=9.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.040000,Max=0.240000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=9.600000,Max=19.200001),Y=(Min=19.200001,Max=25.600000),Z=(Min=9.600000,Max=19.200001))
+         InitialParticlesPerSecond=160.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5011'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=0.500000,Max=0.650000)
+         StartVelocityRange=(X=(Min=-284.005127,Max=-11.141761),Y=(Min=32.984322,Max=70.382080),Z=(Min=32.984322,Max=70.382080))
+         MaxAbsVelocity=(X=6400.000000,Y=10000.000000,Z=8000.000000)
+         VelocityLossRange=(X=(Min=4.000000,Max=8.000000),Y=(Min=1.600000,Max=3.200000),Z=(Min=1.600000,Max=3.200000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.s_u834_cs.SpriteEmitter0'
+     Begin Object Class=SparkEmitter Name=SparkEmitter1
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=None
+         LifetimeRange=(Min=1.800000,Max=1.800000)
+         Name="SparkEmitter1"
+     End Object
+     Emitters(3)=SparkEmitter'LineageEffect.s_u834_cs.SparkEmitter1'
+     bDynamicActorFilterState=True
+     bNoDelete=False
+     DrawScale=0.100000
+     bUnlit=False
+}

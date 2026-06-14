@@ -1,0 +1,137 @@
+class d_arrow_trailuv_simple extends NSkillProjectile;
+
+defaultproperties
+{
+     Speed=1000.000000
+     AccSpeed=3000.000000
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.spear04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=127,G=127,R=127,A=255))
+         ColorScale(1)=(RelativeTime=0.064286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=0.125000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.232143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(4)=(RelativeTime=0.346429,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(5)=(RelativeTime=0.382143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(6)=(RelativeTime=0.439286,Color=(B=194,G=194,R=194,A=255))
+         ColorScale(7)=(RelativeTime=0.482143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(8)=(RelativeTime=0.539286,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(9)=(RelativeTime=0.589286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(10)=(RelativeTime=0.646429,Color=(B=193,G=193,R=193,A=255))
+         ColorScale(11)=(RelativeTime=0.675000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(12)=(RelativeTime=0.750000,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(13)=(RelativeTime=0.789286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(14)=(RelativeTime=0.857143,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(15)=(RelativeTime=0.907143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(16)=(RelativeTime=0.964286,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(17)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.279000
+         FadeOut=True
+         FadeInEndTime=0.045000
+         FadeIn=True
+         MaxParticles=4
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Min=3.000000,Max=3.000000))
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=0.080000,Max=0.080000),Y=(Min=0.030000,Max=0.030000),Z=(Min=0.030000,Max=0.030000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.450000,Max=0.450000)
+         Name="MeshEmitter1"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_arrow_trailuv_simple.MeshEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=128,A=255))
+         Opacity=0.000000
+         FadeOutStartTime=0.270000
+         FadeOut=True
+         MaxParticles=5
+         StartLocationOffset=(X=1.000000)
+         StartLocationRange=(Y=(Min=-5.000000,Max=5.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=90.000000,Max=90.000000),Y=(Min=-180.000000,Max=180.000000),Z=(Min=0.750000,Max=0.750000))
+         RevolutionCenterOffsetRange=(Z=(Min=-2.000000,Max=2.000000))
+         RevolutionsPerSecondRange=(X=(Min=-10.000000,Max=-10.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0083'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_arrow_trailuv_simple.SpriteEmitter1'
+     Begin Object Class=TrailEmitter Name=TrailEmitter104
+         TrailShadeType=PTTST_PointLife
+         MaxPointsPerTrail=120
+         PointLifeTime=0.800000
+         VelocityMinThreshold=2.000000
+         AttachEmitterIndex=2
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.489286,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=64,R=128,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.540000
+         FadeOut=True
+         FadeInEndTime=0.110000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=1
+         AutoReset=True
+         StartSizeRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t7040'
+         LifetimeRange=(Min=0.900000,Max=0.900000)
+         Name="TrailEmitter104"
+     End Object
+     Emitters(2)=TrailEmitter'LineageEffect.d_arrow_trailuv_simple.TrailEmitter104'
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.spear04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=238,G=117,R=17,A=255))
+         ColorScale(1)=(RelativeTime=0.553571,Color=(B=55,G=66,R=200,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.279000
+         FadeOut=True
+         FadeInEndTime=0.045000
+         FadeIn=True
+         MaxParticles=4
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Min=3.000000,Max=3.000000))
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=0.120000,Max=0.120000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.100000,Max=0.100000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.450000,Max=0.450000)
+         Name="MeshEmitter0"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_arrow_trailuv_simple.MeshEmitter0'
+     bRotEmitter=True
+     RotPerSecond=(Roll=191440)
+     bSunAffect=True
+     Rotation=(Roll=-439812092)
+     DrawScale=0.100000
+     SwayRotationOrig=(Roll=-465996268)
+     bDirectional=True
+}

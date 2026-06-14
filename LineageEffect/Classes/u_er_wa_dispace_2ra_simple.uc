@@ -1,0 +1,226 @@
+class u_er_wa_dispace_2ra_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter7
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Impact.lightcone01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=2,G=2,R=255,A=255))
+         Opacity=0.250000
+         FadeOutStartTime=0.033000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.300000)
+         SizeScale(1)=(RelativeTime=0.160000,RelativeSize=1.300000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.130000,Max=0.130000),Y=(Min=0.130000,Max=0.130000),Z=(Min=1.400000,Max=1.400000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         Name="MeshEmitter7"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_er_wa_dispace_2ra_simple.MeshEmitter7'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=175,G=1,R=84,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.598000,Max=0.598000),Z=(Min=0.598000,Max=0.598000))
+         Opacity=0.230000
+         FadeOutStartTime=0.114000
+         FadeOut=True
+         MaxParticles=7
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=0.160000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=30.000000,Max=80.000000),Y=(Min=30.000000,Max=80.000000),Z=(Min=30.000000,Max=80.000000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5108'
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_er_wa_dispace_2ra_simple.SpriteEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.740000,Max=0.740000),Z=(Min=0.660000,Max=0.660000))
+         FadeOutStartTime=0.105000
+         FadeOut=True
+         FadeInEndTime=0.028000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=0.230000,RelativeSize=3.400000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=4.500000)
+         StartSizeRange=(X=(Min=56.000000,Max=56.000000),Y=(Min=56.000000,Max=56.000000),Z=(Min=56.000000,Max=56.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4129'
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         StartVelocityRange=(Z=(Min=0.100000,Max=0.100000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_er_wa_dispace_2ra_simple.SpriteEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter12
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.sphere_01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=230,G=66,R=234,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=70,G=80,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.710000,Max=0.710000),Y=(Min=0.710000,Max=0.710000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.175000
+         FadeOut=True
+         FadeInEndTime=0.021000
+         FadeIn=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=2.650000,Max=2.650000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.FX_M_T4171'
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         Name="MeshEmitter12"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.u_er_wa_dispace_2ra_simple.MeshEmitter12'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.wind_L'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=10.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=35,G=30,R=225,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=133,G=44,R=175,A=255))
+         Opacity=0.380000
+         FadeOutStartTime=0.204000
+         FadeOut=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.400000)
+         StartSizeRange=(X=(Min=2.100000,Max=2.200000),Y=(Min=2.100000,Max=2.200000),Z=(Min=0.290000,Max=0.290000))
+         InitialParticlesPerSecond=60.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.400000,Max=0.800000)
+         StartVelocityRange=(Z=(Min=30.000000,Max=50.000000))
+         Name="MeshEmitter1"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.u_er_wa_dispace_2ra_simple.MeshEmitter1'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter2
+         VertexMesh=VertMesh'LineageEffectMeshes.sphere_shield'
+         UseMeshBlendMode=False
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=40,G=36,R=198,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=135,G=44,R=226,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.800000,Max=0.800000))
+         FadeOutStartTime=0.090000
+         FadeOut=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=30.000000,Max=30.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=1.040000,Max=1.040000),Y=(Min=1.040000,Max=1.040000),Z=(Min=0.750000,Max=0.750000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.FX_M_T4172'
+         LifetimeRange=(Min=0.450000,Max=0.450000)
+         Name="VertMeshEmitter2"
+     End Object
+     Emitters(5)=VertMeshEmitter'LineageEffect.u_er_wa_dispace_2ra_simple.VertMeshEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter28
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Impact.lightcone01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=240,G=156,R=15,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=168,G=53,R=85,A=255))
+         Opacity=0.150000
+         FadeOutStartTime=0.054000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-70.000000,Max=-70.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.300000)
+         SizeScale(1)=(RelativeTime=0.160000,RelativeSize=1.300000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(Z=(Min=300.000000,Max=300.000000))
+         VelocityLossRange=(Z=(Min=7.000000,Max=7.000000))
+         Name="MeshEmitter28"
+     End Object
+     Emitters(6)=MeshEmitter'LineageEffect.u_er_wa_dispace_2ra_simple.MeshEmitter28'
+     Begin Object Class=MeshEmitter Name=MeshEmitter29
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Impact.lightcone01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=142,G=253,R=198,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=138,G=251,R=208,A=255))
+         Opacity=0.090000
+         FadeOutStartTime=0.054000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-70.000000,Max=-70.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.300000)
+         SizeScale(1)=(RelativeTime=0.160000,RelativeSize=1.300000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.100000,Max=0.100000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(Z=(Min=300.000000,Max=300.000000))
+         VelocityLossRange=(Z=(Min=7.000000,Max=7.000000))
+         Name="MeshEmitter29"
+     End Object
+     Emitters(7)=MeshEmitter'LineageEffect.u_er_wa_dispace_2ra_simple.MeshEmitter29'
+     AutoDestroy=False
+     SpawnSound(0)=Sound'SkillSound11.u_er_wa.u_er_wa_dispace_2ra'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     SoundRadius=160.000000
+     SoundVolume=250.000000
+}

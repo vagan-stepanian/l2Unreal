@@ -1,0 +1,79 @@
+class br_e_u027_aga_toybear_neck_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter17
+         Acceleration=(Z=-6.000000)
+         ColorScale(0)=(Color=(G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.560714,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(G=255,R=255,A=255))
+         ColorScaleRepeats=9.000000
+         ColorMultiplierRange=(X=(Max=0.900000),Y=(Max=0.900000),Z=(Max=0.900000))
+         FadeOutStartTime=0.390000
+         FadeOut=True
+         FadeInEndTime=0.040000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=300
+         StartLocationOffset=(Z=-1.100000)
+         StartLocationRange=(X=(Min=-4.252000,Max=4.252000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=1.800000,Max=1.800000)
+         RevolutionScale(0)=(RelativeRevolution=(Z=1.000000))
+         RevolutionScale(1)=(RelativeTime=1.000000)
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         SizeScaleRepeats=5.000000
+         StartSizeRange=(X=(Max=0.420000),Y=(Max=0.420000),Z=(Max=0.420000))
+         InitialParticlesPerSecond=10.000000
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t7035'
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=-2.000000,Max=5.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter17"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.br_e_u027_aga_toybear_neck_simple.SpriteEmitter17'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_charge00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(G=64,R=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(G=64,R=128,A=255))
+         ColorMultiplierRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.400000
+         FadeOutStartTime=0.148000
+         FadeOut=True
+         FadeInEndTime=0.020000
+         FadeIn=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         StartLocationOffset=(Z=-2.500000)
+         StartLocationRange=(Z=(Min=-0.075000,Max=-0.075000))
+         StartLocationShape=PTLS_Sphere
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.250000,Max=0.250000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=30.000000
+         StartSizeRange=(X=(Min=0.037500,Max=0.037500),Y=(Min=0.037500,Max=0.037500),Z=(Min=0.003750,Max=0.003750))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         InitialDelayRange=(Min=0.050000,Max=0.050000)
+         StartVelocityRange=(Z=(Min=1.500000,Max=1.500000))
+         Name="MeshEmitter1"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.br_e_u027_aga_toybear_neck_simple.MeshEmitter1'
+     AutoReplay=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

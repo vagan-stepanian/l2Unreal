@@ -1,0 +1,140 @@
+class GstarFX_jump_c_up extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.000000
+         MaxParticles=1
+         RespawnDeadParticles=False
+         Disabled=True
+         UniformSize=True
+         StartSizeRange=(X=(Min=60.000000,Max=60.000000),Y=(Min=60.000000,Max=60.000000),Z=(Min=60.000000,Max=60.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=1.200000,Max=1.200000)
+         StartVelocityRange=(Z=(Min=1000.000000,Max=1000.000000))
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.GstarFX_jump_c_up.SpriteEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         ColorScale(0)=(Color=(B=128,G=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=128,R=128,A=255))
+         Opacity=0.000000
+         FadeOutStartTime=0.245000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-12.500000,Max=12.500000),Y=(Min=-12.500000,Max=12.500000),Z=(Min=-12.500000,Max=12.500000))
+         AddLocationFromOtherEmitter=0
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=0.010000,Max=0.010000))
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.020000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=0.250000,Max=5.000000),Y=(Min=0.250000,Max=5.000000),Z=(Min=0.250000,Max=5.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=1.200000,Max=1.200000)
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.GstarFX_jump_c_up.SpriteEmitter1'
+     Begin Object Class=TrailEmitter Name=TrailEmitter0
+         TrailShadeType=PTTST_PointLife
+         MaxPointsPerTrail=200
+         DistanceThreshold=3.500000
+         UseCrossedSheets=True
+         PointLifeTime=2.000000
+         AttachEmitterIndex=1
+         ColorScale(0)=(Color=(B=128,G=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=128,G=128,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.455000,Max=0.890000))
+         Opacity=0.400000
+         FadeOutStartTime=0.996000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         RespawnDeadParticles=False
+         AutoReset=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=0.250000,Max=1.000000),Y=(Min=0.250000,Max=1.000000),Z=(Min=0.250000,Max=1.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Aura.aurafilm_000'
+         LifetimeRange=(Min=1.200000,Max=1.200000)
+         Name="TrailEmitter0"
+     End Object
+     Emitters(2)=TrailEmitter'LineageEffect.GstarFX_jump_c_up.TrailEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.350000
+         FadeOutStartTime=0.343000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4009'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.GstarFX_jump_c_up.SpriteEmitter3'
+     Begin Object Class=TrailEmitter Name=TrailEmitter1
+         TrailShadeType=PTTST_PointLife
+         MaxPointsPerTrail=200
+         DistanceThreshold=3.500000
+         UseCrossedSheets=True
+         PointLifeTime=2.000000
+         AttachEmitterIndex=1
+         ColorScale(0)=(Color=(B=128,G=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=128,G=128,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.455000,Max=0.890000))
+         Opacity=0.150000
+         FadeOutStartTime=0.492000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         RespawnDeadParticles=False
+         AutoReset=True
+         Disabled=True
+         StartLocationOffset=(Z=25.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=1.200000,Max=1.200000)
+         Name="TrailEmitter1"
+     End Object
+     Emitters(4)=TrailEmitter'LineageEffect.GstarFX_jump_c_up.TrailEmitter1'
+     bNoDelete=False
+}

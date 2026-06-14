@@ -1,0 +1,142 @@
+class u_ar_deadeye_top extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter24
+         ColorScale(0)=(Color=(B=233,G=68,R=39,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=254,G=207,R=84,A=255))
+         Opacity=0.370000
+         FadeOutStartTime=0.511000
+         FadeOut=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=11.000000,Max=11.000000),Y=(Min=11.000000,Max=11.000000),Z=(Min=11.000000,Max=11.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4192'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.150000,Max=0.300000)
+         Name="SpriteEmitter24"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_ar_deadeye_top.SpriteEmitter24'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter25
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.492857,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.616000,Max=0.616000),Z=(Min=0.400000,Max=0.400000))
+         Opacity=0.760000
+         FadeOutStartTime=0.300000
+         FadeOut=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         Disabled=True
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=9.000000,Max=9.000000),Y=(Min=9.000000,Max=9.000000),Z=(Min=9.000000,Max=9.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4034'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.300000,Max=0.300000)
+         Name="SpriteEmitter25"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_ar_deadeye_top.SpriteEmitter25'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter26
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.492857,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         FadeOutStartTime=3.480000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         Disabled=True
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=9.000000,Max=9.000000),Y=(Min=9.000000,Max=9.000000),Z=(Min=9.000000,Max=9.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5102'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.300000,Max=0.300000)
+         Name="SpriteEmitter26"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_ar_deadeye_top.SpriteEmitter26'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter36
+         ColorScale(0)=(Color=(B=233,G=68,R=39,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=254,G=207,R=84,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=0.243000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=11.000000,Max=11.000000),Y=(Min=11.000000,Max=11.000000),Z=(Min=11.000000,Max=11.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4192'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         SubdivisionStart=15
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         InitialDelayRange=(Min=0.270000,Max=0.270000)
+         Name="SpriteEmitter36"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_ar_deadeye_top.SpriteEmitter36'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter37
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.475000,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.740000,Max=0.740000),Z=(Min=0.684000,Max=0.684000))
+         Opacity=0.300000
+         FadeOutStartTime=0.051000
+         FadeOut=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=15.000000,Max=20.000000),Y=(Min=15.000000,Max=20.000000),Z=(Min=15.000000,Max=20.000000))
+         InitialParticlesPerSecond=80.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4119'
+         LifetimeRange=(Min=0.900000,Max=0.900000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=5.000000))
+         Name="SpriteEmitter37"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.u_ar_deadeye_top.SpriteEmitter37'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+}

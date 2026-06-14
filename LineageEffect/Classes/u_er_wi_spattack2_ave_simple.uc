@@ -1,0 +1,104 @@
+class u_er_wi_spattack2_ave_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter25
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Bereth.round_roll'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(R=225,A=255))
+         ColorScale(1)=(RelativeTime=0.514286,Color=(B=66,G=233,R=251,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=65,G=33,R=1,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.800000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.900000,Max=0.900000))
+         FadeOutStartTime=1.060000
+         FadeOut=True
+         FadeInEndTime=0.780000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationRange=(Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=1.200000,Max=1.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.250000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.250000)
+         StartSizeRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.350000,Max=0.350000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter25"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_er_wi_spattack2_ave_simple.MeshEmitter25'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter12
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=91,G=208,R=253,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=97,G=169,R=250,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.900000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.830000
+         FadeOutStartTime=0.305000
+         FadeOut=True
+         FadeInEndTime=0.170000
+         FadeIn=True
+         MaxParticles=3
+         Disabled=True
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Max=20.000000))
+         StartLocationPolarRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-70.000000,Max=70.000000))
+         UseRevolution=True
+         SpinParticles=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5112'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=30.000000))
+         VelocityLossRange=(Z=(Min=1.750000,Max=1.750000))
+         Name="SpriteEmitter12"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_er_wi_spattack2_ave_simple.SpriteEmitter12'
+     Begin Object Class=MeshEmitter Name=MeshEmitter7
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Bereth.Rotroll'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=53,G=19,R=37,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=23,G=38,R=79,A=255))
+         FadeOutStartTime=0.522000
+         FadeOut=True
+         FadeInEndTime=0.096000
+         FadeIn=True
+         MaxParticles=9
+         StartLocationRange=(Z=(Min=8.000000,Max=20.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=1.500000,Max=1.500000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-0.020000,Max=0.020000),Z=(Min=-0.020000,Max=0.020000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.150000),Y=(Min=0.150000,Max=0.150000),Z=(Min=0.100000,Max=0.100000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles3.FX_M_T4296'
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         Name="MeshEmitter7"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.u_er_wi_spattack2_ave_simple.MeshEmitter7'
+     AutoDestroy=False
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bUnlit=False
+}

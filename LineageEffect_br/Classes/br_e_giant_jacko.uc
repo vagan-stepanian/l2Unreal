@@ -1,0 +1,128 @@
+class br_e_giant_jacko extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter75
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.502000,Max=0.502000),Z=(Min=0.180000,Max=0.180000))
+         Opacity=0.150000
+         FadeOutStartTime=1.102500
+         FadeOut=True
+         FadeInEndTime=0.192500
+         FadeIn=True
+         StartLocationRange=(Y=(Max=10.000000),Z=(Min=25.000000,Max=25.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.700000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Max=45.000000),Y=(Max=45.000000),Z=(Max=45.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5009'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=1.750000,Max=1.750000)
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter75"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_giant_jacko.SpriteEmitter75'
+     Begin Object Class=MeshEmitter Name=MeshEmitter27
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.Barler_bright0'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.532143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=8.000000
+         ColorMultiplierRange=(X=(Min=0.744000,Max=0.744000),Y=(Min=0.502000,Max=0.502000),Z=(Min=0.180000,Max=0.180000))
+         Opacity=0.190000
+         FadeOutStartTime=1.080000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationRange=(Y=(Max=22.000000),Z=(Min=17.000000,Max=17.000000))
+         UseRotationFrom=PTRS_Normal
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.850000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.150000)
+         StartSizeRange=(X=(Min=0.500000,Max=0.800000),Y=(Min=0.400000,Max=0.500000),Z=(Min=0.118000,Max=0.118000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         Name="MeshEmitter27"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect_Br.br_e_giant_jacko.MeshEmitter27'
+     Begin Object Class=MeshEmitter Name=MeshEmitter28
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.Barler_bright0'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=168,G=174,R=51,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=8.000000
+         ColorMultiplierRange=(X=(Min=0.744000,Max=0.744000),Y=(Min=0.502000,Max=0.502000),Z=(Min=0.180000,Max=0.180000))
+         Opacity=0.080000
+         FadeOutStartTime=0.765000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationRange=(X=(Min=8.000000,Max=8.000000),Y=(Min=25.000000,Max=25.000000),Z=(Min=29.000000,Max=29.000000))
+         UseRotationFrom=PTRS_Normal
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.850000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.150000)
+         StartSizeRange=(X=(Min=0.203000,Max=0.400000),Y=(Min=0.203000,Max=0.400000),Z=(Min=0.113000,Max=0.250000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         Name="MeshEmitter28"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect_Br.br_e_giant_jacko.MeshEmitter28'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.Barler_bright0'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=168,G=174,R=51,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=8.000000
+         ColorMultiplierRange=(X=(Min=0.744000,Max=0.744000),Y=(Min=0.502000,Max=0.502000),Z=(Min=0.180000,Max=0.180000))
+         Opacity=0.080000
+         FadeOutStartTime=0.765000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationRange=(X=(Min=-8.000000,Max=-8.000000),Y=(Min=25.000000,Max=25.000000),Z=(Min=29.000000,Max=29.000000))
+         UseRotationFrom=PTRS_Normal
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.850000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.150000)
+         StartSizeRange=(X=(Max=0.400000),Y=(Max=0.400000),Z=(Min=0.100000,Max=0.250000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         Name="MeshEmitter1"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect_Br.br_e_giant_jacko.MeshEmitter1'
+     bNoDelete=False
+     DrawScale=0.200000
+}

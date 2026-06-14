@@ -1,0 +1,145 @@
+class z_beast_type_deco extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         UseDirectionAs=PTDU_Up
+         Acceleration=(X=-8.000000,Z=3.000000)
+         ColorScale(0)=(Color=(B=255,G=128,R=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=179,R=179,A=255))
+         ColorMultiplierRange=(X=(Min=0.750000,Max=1.000000),Y=(Min=0.413000,Max=0.552000),Z=(Min=0.454000,Max=0.777000))
+         Opacity=0.400000
+         FadeOutStartTime=1.590000
+         FadeOut=True
+         FadeInEndTime=0.960000
+         FadeIn=True
+         MaxParticles=32
+         Disabled=True
+         StartLocationOffset=(Z=10.000000)
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.125000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=15.000000),Y=(Min=10.000000,Max=15.000000),Z=(Min=10.000000,Max=15.000000))
+         InitialParticlesPerSecond=12.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures2.balakas.fx_m_t2011'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionStart=1
+         SubdivisionEnd=3
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(X=(Min=-7.000000,Max=7.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=10.000000,Max=20.000000))
+         VelocityLossRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.z_beast_type_deco.SpriteEmitter6'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         Acceleration=(X=-8.000000,Z=3.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=134,G=255,R=198,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=167,G=167,R=167,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=210,G=255,R=166,A=255))
+         ColorScaleRepeats=30.000000
+         FadeOutStartTime=1.380000
+         FadeOut=True
+         FadeInEndTime=0.630000
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         StartLocationOffset=(Z=10.000000)
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=5.000000,Max=10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.300000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=4.500000,Max=8.000000),Y=(Min=4.500000,Max=8.000000),Z=(Min=4.500000,Max=8.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1020'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=15.000000))
+         VelocityLossRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.z_beast_type_deco.SpriteEmitter7'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         UseDirectionAs=PTDU_Up
+         Acceleration=(X=-6.000000,Z=3.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.548000,Max=0.850000),Y=(Min=0.548000,Max=0.850000),Z=(Min=0.760000,Max=1.000000))
+         Opacity=0.200000
+         FadeOutStartTime=0.600000
+         FadeOut=True
+         FadeInEndTime=0.480000
+         FadeIn=True
+         MaxParticles=15
+         Disabled=True
+         StartLocationOffset=(Z=8.000000)
+         StartLocationRange=(Z=(Min=3.000000,Max=8.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Min=7.000000,Max=15.000000),Y=(Min=15.000000,Max=30.000000),Z=(Min=7.000000,Max=15.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2051'
+         TextureUSubdivisions=5
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=19
+         LifetimeRange=(Min=2.500000,Max=2.500000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=20.000000))
+         VelocityLossRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.z_beast_type_deco.SpriteEmitter8'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         Opacity=0.000000
+         MaxParticles=1
+         StartLocationRange=(X=(Min=10.000000,Max=10.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0002'
+         SubdivisionEnd=3
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeVelocity=(Z=5.000000))
+         VelocityScale(1)=(RelativeTime=0.500000,RelativeVelocity=(Z=-5.000000))
+         VelocityScale(2)=(RelativeTime=1.000000,RelativeVelocity=(Z=5.000000))
+         VelocityScaleRepeats=2.000000
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.z_beast_type_deco.SpriteEmitter9'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

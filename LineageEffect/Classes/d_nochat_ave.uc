@@ -1,0 +1,145 @@
+class d_nochat_ave extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=88,G=88,R=88,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=4.000000
+         MaxParticles=3
+         StartSizeRange=(X=(Min=4.200000,Max=4.200000),Y=(Min=4.200000,Max=4.200000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTexturesCha.VD.nochat_ave'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=4
+         StartVelocityRange=(Z=(Min=0.001000,Max=0.001000))
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_nochat_ave.SpriteEmitter16'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter19
+         Acceleration=(Z=-20.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=43,G=43,R=23,A=255))
+         ColorMultiplierRange=(X=(Min=0.430000,Max=0.430000),Y=(Min=0.830000,Max=0.830000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.510000
+         FadeOutStartTime=0.616000
+         FadeOut=True
+         FadeInEndTime=0.196000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationOffset=(Z=-0.500000)
+         StartLocationShape=PTLS_Polar
+         SphereRadiusRange=(Min=-5.000000,Max=5.000000)
+         StartLocationPolarRange=(X=(Min=-360.000000,Max=360.000000),Y=(Min=-360.000000,Max=360.000000),Z=(Min=0.200000,Max=0.200000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.200000))
+         StartSpinRange=(X=(Min=-0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=5.614000,Max=6.604000),Y=(Min=5.614000,Max=6.604000),Z=(Min=5.614000,Max=6.604000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4012'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=20
+         SubdivisionEnd=30
+         LifetimeRange=(Min=1.400000,Max=1.400000)
+         StartVelocityRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=20.000000,Max=20.000000))
+         VelocityLossRange=(X=(Min=8.000000,Max=8.000000),Y=(Min=8.000000,Max=8.000000),Z=(Min=8.000000,Max=8.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter19"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_nochat_ave.SpriteEmitter19'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=47,G=160,R=253,A=255))
+         ColorScale(1)=(RelativeTime=0.757143,Color=(B=160,G=204,R=252,A=255))
+         ColorScale(2)=(RelativeTime=0.896429,Color=(A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.800000,Max=0.800000))
+         FadeOutStartTime=1.440000
+         FadeOut=True
+         FadeInEndTime=0.840000
+         FadeIn=True
+         MaxParticles=4
+         StartLocationOffset=(Z=0.600000)
+         RevolutionCenterOffsetRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-3.000000,Max=3.000000))
+         RevolutionsPerSecondRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         UseRevolutionScale=True
+         RevolutionScale(1)=(RelativeTime=0.150000)
+         RevolutionScale(2)=(RelativeTime=0.300000)
+         RevolutionScale(3)=(RelativeTime=0.650000,RelativeRevolution=(X=3.000000,Y=3.000000,Z=3.000000))
+         RevolutionScale(4)=(RelativeTime=1.000000,RelativeRevolution=(X=2.000000,Y=2.000000,Z=2.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8061'
+         SubdivisionEnd=3
+         LifetimeRange=(Min=2.400000,Max=2.400000)
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_nochat_ave.SpriteEmitter7'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         ColorScale(0)=(Color=(B=47,G=160,R=253,A=255))
+         ColorScale(1)=(RelativeTime=0.757143,Color=(B=160,G=204,R=252,A=255))
+         ColorScale(2)=(RelativeTime=0.896429,Color=(A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.620000
+         FadeOut=True
+         FadeInEndTime=0.270000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationOffset=(Z=0.600000)
+         RevolutionCenterOffsetRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-3.000000,Max=3.000000))
+         RevolutionsPerSecondRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         UseRevolutionScale=True
+         RevolutionScale(1)=(RelativeTime=0.150000)
+         RevolutionScale(2)=(RelativeTime=0.300000)
+         RevolutionScale(3)=(RelativeTime=0.650000,RelativeRevolution=(X=3.000000,Y=3.000000,Z=3.000000))
+         RevolutionScale(4)=(RelativeTime=1.000000,RelativeRevolution=(X=2.000000,Y=2.000000,Z=2.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=4.000000,Max=4.000000),Y=(Min=4.000000,Max=4.000000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4034'
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_nochat_ave.SpriteEmitter8'
+     AutoDestroy=False
+     AutoReplay=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.030000
+}

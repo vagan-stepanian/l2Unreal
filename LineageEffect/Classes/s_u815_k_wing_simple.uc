@@ -1,0 +1,138 @@
+class s_u815_k_wing_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         Acceleration=(Z=-30.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=179,G=179,R=217,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=179,G=179,R=217,A=255))
+         FadeOutStartTime=0.864000
+         FadeOut=True
+         FadeInEndTime=0.276000
+         FadeIn=True
+         MaxParticles=6
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-5.000000,Max=-2.000000),Y=(Min=-5.000000,Max=20.000000),Z=(Min=-5.000000,Max=8.000000))
+         SphereRadiusRange=(Max=15.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-1.000000,Max=1.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.600000)
+         StartSizeRange=(X=(Min=1.000000,Max=4.000000),Y=(Min=1.000000,Max=4.000000),Z=(Min=1.000000,Max=4.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.wingleaf'
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=1.200000,Max=1.200000)
+         InitialDelayRange=(Min=0.250000,Max=0.250000)
+         StartVelocityRange=(X=(Min=-30.000000),Y=(Min=20.000000,Max=60.000000),Z=(Min=-20.000000,Max=20.000000))
+         VelocityLossRange=(Y=(Max=2.500000),Z=(Max=2.500000))
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.s_u815_k_wing_simple.SpriteEmitter1'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter0
+         VertexMesh=VertMesh'LineageEffectMeshes.wing2'
+         UseMeshBlendMode=False
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=199,G=183,R=219,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.750000,Max=0.750000))
+         Opacity=0.500000
+         FadeOutStartTime=0.320000
+         FadeOut=True
+         FadeInEndTime=0.096000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(Y=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000),Y=(Min=-0.020000,Max=-0.020000))
+         StartSizeRange=(X=(Min=-1.300000,Max=-1.300000),Y=(Min=1.100000,Max=1.100000),Z=(Min=1.200000,Max=1.200000))
+         InitialParticlesPerSecond=14.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         Name="VertMeshEmitter0"
+     End Object
+     Emitters(1)=VertMeshEmitter'LineageEffect.s_u815_k_wing_simple.VertMeshEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.496429,Color=(B=64,G=64,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=11.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.900000,Max=0.900000))
+         Opacity=0.750000
+         FadeOutStartTime=0.292500
+         FadeOut=True
+         FadeInEndTime=0.255000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(Y=(Max=0.010000))
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000),Y=(Min=0.010000,Max=0.010000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.950000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.050000)
+         StartSizeRange=(X=(Min=-1.300000,Max=-1.300000),Y=(Min=1.100000,Max=1.100000),Z=(Min=1.200000,Max=1.200000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         InitialDelayRange=(Min=0.350000,Max=0.350000)
+         Name="MeshEmitter2"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.s_u815_k_wing_simple.MeshEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.new_clan.Wing'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.496429,Color=(B=64,G=64,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=11.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.900000,Max=0.900000))
+         Opacity=0.500000
+         FadeOutStartTime=0.540000
+         FadeOut=True
+         FadeInEndTime=0.290000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(Y=(Max=0.010000))
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000),Y=(Min=0.010000,Max=0.010000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.950000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.050000)
+         StartSizeRange=(X=(Min=-1.300000,Max=-1.300000),Y=(Min=1.100000,Max=1.100000),Z=(Min=1.200000,Max=1.200000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         InitialDelayRange=(Min=0.550000,Max=0.550000)
+         Name="MeshEmitter1"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.s_u815_k_wing_simple.MeshEmitter1'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bDirectional=True
+}

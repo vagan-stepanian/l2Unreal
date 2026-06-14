@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{328fe00c-6be4-424a-9696-101ca1346bfd}</UniqueIdentifier>
+      <Extensions>*.cpp;*.h</Extensions>
+    </Filter>
+    <Filter Include="Res">
+      <UniqueIdentifier>{5320b904-78ab-4fda-b672-f2a8da24e8a7}</UniqueIdentifier>
+      <Extensions>*.res</Extensions>
+    </Filter>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{1f77b050-5586-41f4-a58c-2ce920502d2a}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Controls.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Res\WindowRes.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Inc\Window.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\35FLOPPY.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\525FLOP1.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\AUDIO.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\CDDRIVE.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\CLIP01.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\CLIP08.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\CLSDFOLD.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\CRDFLE03.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\CRDFLE07.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\CTRPANEL.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\DESKTOP.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\DRIVE.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\DRIVEDSC.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\DRIVENET.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\EXPLORER.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\FILES05A.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\FOLDER01.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\FOLDER02.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\FOLDER03.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\GRAPH01.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\GRAPH06.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\GRAPH07.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\MYCOMP.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\NETHOOD.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\OPENFOLD.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\PRINTFLD.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\RECYFULL.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\RULERS.ICO">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\Unreal.ico">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\bmp00001.bmp">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\bmp00002.bmp">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\bmp00003.bmp">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\bmp00022.bmp">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\cf_toolb.bmp">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\ico00001.ico">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\ico00002.ico">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\ico00003.ico">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\idbm_che.bmp">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\idbm_tim.bmp">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\idicon_c.ico">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\idicon_f.ico">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\idicon_h.ico">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\idicon_m.ico">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\idicon_p.ico">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\idicon_s.ico">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\idicon_t.ico">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\unreal.bmp">
+      <Filter>Res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Res\WindowRes.rc">
+      <Filter>Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\add.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\crosshai.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\cur00001.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\dragitem.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\draw.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\hand.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\hand1.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\littlear.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\littlepo.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\nodrop.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\splitall.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\splitns.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\splitwe.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\udn_help.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\zoomin.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\zoomout.cur">
+      <Filter>Res</Filter>
+    </None>
+  </ItemGroup>
+</Project>

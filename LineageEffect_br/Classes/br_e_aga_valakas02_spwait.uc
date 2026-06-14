@@ -1,0 +1,87 @@
+class br_e_aga_valakas02_spwait extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter28
+         ColorScale(0)=(Color=(B=255,G=255,R=255))
+         ColorScale(1)=(RelativeTime=0.489286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.400000,Max=0.420000),Y=(Min=0.350000,Max=0.370000),Z=(Min=0.300000,Max=0.320000))
+         Opacity=0.100000
+         FadeOutStartTime=0.195000
+         FadeOut=True
+         FadeInEndTime=0.099000
+         FadeIn=True
+         MaxParticles=35
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-4.000000,Max=4.000000))
+         SphereRadiusRange=(Max=6.000000)
+         StartLocationPolarRange=(X=(Min=-6.000000,Max=6.000000),Y=(Min=9.000000,Max=9.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.150000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4013'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=5
+         SubdivisionEnd=8
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=0.500000,Max=6.000000),Y=(Min=0.500000,Max=4.000000),Z=(Min=1.000000,Max=1.000000))
+         VelocityLossRange=(X=(Min=3.000000,Max=6.000000),Y=(Min=3.000000,Max=6.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter28"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_aga_valakas02_spwait.SpriteEmitter28'
+     Begin Object Class=MeshEmitter Name=MeshEmitter15
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.spark00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.207143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.257143,Color=(A=255))
+         ColorScale(3)=(RelativeTime=0.789286,Color=(A=255))
+         ColorScale(4)=(RelativeTime=0.882143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(5)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=2.000000
+         ColorMultiplierRange=(X=(Min=0.850000,Max=0.850000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.400000
+         FadeOutStartTime=0.368000
+         FadeOut=True
+         FadeInEndTime=0.112000
+         FadeIn=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-2.000000,Max=2.000000))
+         AddLocationFromOtherEmitter=1
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Max=0.200000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.050000,Max=0.050000),Y=(Min=0.050000,Max=0.050000),Z=(Min=0.050000,Max=0.050000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.001000,Max=0.300000)
+         Name="MeshEmitter15"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect_Br.br_e_aga_valakas02_spwait.MeshEmitter15'
+     bUpdate=True
+     bAllDead=True
+     bNoDelete=False
+     DrawScale=0.100000
+}

@@ -1,0 +1,122 @@
+class d_wa_shblast_ta_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2613
+         Acceleration=(Z=5.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=7,G=158,R=239,A=255))
+         ColorScale(1)=(RelativeTime=0.107143,Color=(R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.207143,Color=(B=12,G=73,R=165,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=160,G=160,R=160,A=255))
+         Opacity=0.400000
+         FadeOutStartTime=0.420000
+         FadeOut=True
+         FadeInEndTime=0.120000
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=15.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.050000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=19.747000,Max=32.562000),Y=(Min=19.747000,Max=32.562000),Z=(Min=19.747000,Max=32.562000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures2.balakas.fx_m_t2011'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.800000,Max=2.000000)
+         InitialDelayRange=(Min=0.020000,Max=0.020000)
+         StartVelocityRange=(X=(Min=100.000000,Max=100.000000),Y=(Min=100.000000,Max=100.000000),Z=(Max=100.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=2.000000,Max=2.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter2613"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_wa_shblast_ta_simple.SpriteEmitter2613'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2616
+         Acceleration=(Z=30.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=26,G=241,R=253,A=255))
+         ColorScale(1)=(RelativeTime=0.235714,Color=(B=6,G=111,R=251,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=47,G=60,R=83,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.200000
+         FadeOut=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=15.000000)
+         StartLocationRange=(X=(Min=-25.000000,Max=25.000000),Y=(Min=-25.000000,Max=25.000000),Z=(Min=-25.000000,Max=25.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.110000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=21.600000,Max=49.700001),Y=(Min=21.600000,Max=49.700001),Z=(Min=21.600000,Max=49.700001))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.balakas.fx_m_t2012'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.800000,Max=1.000000)
+         InitialDelayRange=(Min=0.020000,Max=0.020000)
+         StartVelocityRange=(X=(Min=-200.000000,Max=200.000000),Y=(Min=-200.000000,Max=200.000000),Z=(Min=-50.000000,Max=50.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         Name="SpriteEmitter2616"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_wa_shblast_ta_simple.SpriteEmitter2616'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2617
+         Acceleration=(Z=30.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=26,G=241,R=253,A=255))
+         ColorScale(1)=(RelativeTime=0.235714,Color=(B=6,G=111,R=251,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=47,G=60,R=83,A=255))
+         ColorScaleRepeats=20.000000
+         Opacity=0.700000
+         FadeOutStartTime=0.200000
+         FadeOut=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=15.000000)
+         StartLocationRange=(X=(Min=-15.000000,Max=15.000000),Y=(Min=-15.000000,Max=15.000000),Z=(Min=-15.000000,Max=15.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.110000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.600000,RelativeSize=0.700000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=15.104000,Max=15.104000),Y=(Min=15.104000,Max=15.104000),Z=(Min=15.104000,Max=15.104000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t7059'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=1.128000,Max=1.350000)
+         InitialDelayRange=(Min=0.020000,Max=0.020000)
+         StartVelocityRange=(X=(Min=-200.000000,Max=200.000000),Y=(Min=-200.000000,Max=200.000000),Z=(Min=-50.000000,Max=50.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         Name="SpriteEmitter2617"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.d_wa_shblast_ta_simple.SpriteEmitter2617'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.050000
+     bDirectional=True
+}

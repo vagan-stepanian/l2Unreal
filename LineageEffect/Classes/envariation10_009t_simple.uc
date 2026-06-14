@@ -1,0 +1,82 @@
+class envariation10_009t_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter32
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Y=3.500000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=128,R=128,A=255))
+         ColorScale(1)=(RelativeTime=0.350000,Color=(B=255,G=51,R=153,A=255))
+         ColorScale(2)=(RelativeTime=0.660714,Color=(B=251,G=4,R=90,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=168,G=87,R=166,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=0.795000
+         FadeOut=True
+         FadeInEndTime=0.420000
+         FadeIn=True
+         MaxParticles=8
+         StartLocationRange=(Y=(Min=-0.800000,Max=0.800000),Z=(Min=-0.800000,Max=0.800000))
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.700000)
+         StartSizeRange=(X=(Min=2.200000,Max=3.200000),Y=(Min=5.000000,Max=6.000000),Z=(Min=1.000000,Max=1.340000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5030'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=2.500000,Max=3.500000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         WarmupTicksPerSecond=2.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter32"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.envariation10_009t_simple.SpriteEmitter32'
+     Begin Object Class=MeshEmitter Name=MeshEmitter75
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.whirl_04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=128,R=128,A=255))
+         Opacity=0.700000
+         FadeOutStartTime=1.320000
+         FadeOut=True
+         FadeInEndTime=0.390000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationOffset=(Y=2.000000)
+         StartLocationRange=(Y=(Min=1.000000,Max=2.000000))
+         SpinParticles=True
+         SpinCCWorCW=(Z=1.000000)
+         SpinsPerSecondRange=(Z=(Min=0.250000,Max=0.250000))
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=0.480000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.080000,Max=0.130000),Z=(Min=0.080000,Max=0.130000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.FX_M_T4147'
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         VelocityLossRange=(Z=(Min=0.200000,Max=0.200000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter75"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.envariation10_009t_simple.MeshEmitter75'
+     bNoDelete=False
+     Rotation=(Pitch=16372,Yaw=16349)
+     DrawScale=0.050000
+     SwayRotationOrig=(Pitch=16372,Yaw=16349)
+}

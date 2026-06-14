@@ -1,0 +1,125 @@
+class d_istinaDeath_fl_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=TrailEmitter Name=TrailEmitter1999
+         TrailShadeType=PTTST_PointLife
+         MaxPointsPerTrail=200
+         DistanceThreshold=3.000000
+         UseCrossedSheets=True
+         PointLifeTime=2.000000
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.780000,Max=0.780000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.780000,Max=0.780000))
+         FadeOutStartTime=0.770000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         StartSizeRange=(X=(Min=7.500000,Max=7.500000),Y=(Min=7.500000,Max=7.500000),Z=(Min=7.500000,Max=7.500000))
+         InitialParticlesPerSecond=10000.000000
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1077'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="TrailEmitter1999"
+     End Object
+     Emitters(0)=TrailEmitter'LineageEffect.d_istinaDeath_fl_simple.TrailEmitter1999'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter12
+         Acceleration=(X=-10.000000)
+         ColorScale(0)=(Color=(B=255,G=225,R=164,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.750000,Max=0.750000),Y=(Min=0.800000,Max=1.000000),Z=(Min=0.400000,Max=0.400000))
+         Opacity=0.400000
+         FadeOutStartTime=0.340000
+         FadeOut=True
+         FadeInEndTime=0.115000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=20
+         WeatherSoundCheck=True
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Min=2.500000,Max=2.500000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=7.500000,Max=10.000000),Y=(Min=7.500000,Max=10.000000),Z=(Min=7.500000,Max=10.000000))
+         InitialParticlesPerSecond=25.000000
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0111'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-5.000000,Max=-5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         UseSoftParticle=True
+         SoftParticleFadeDist=30.000000
+         Name="SpriteEmitter12"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_istinaDeath_fl_simple.SpriteEmitter12'
+     Begin Object Class=MeshEmitter Name=MeshEmitter4
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.sh_sphere'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.508000,Max=0.508000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.844000,Max=0.844000))
+         Opacity=0.400000
+         FadeOutStartTime=0.165000
+         FadeOut=True
+         StartLocationOffset=(X=-3.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         StartSpinRange=(Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.280000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=-0.040000,Max=-0.040000),Y=(Min=0.040000,Max=0.040000),Z=(Min=0.040000,Max=0.040000))
+         InitialParticlesPerSecond=10000.000000
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles4.fx_m_t8013'
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(X=(Min=-75.000000,Max=-75.000000))
+         Name="MeshEmitter4"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_istinaDeath_fl_simple.MeshEmitter4'
+     Begin Object Class=MeshEmitter Name=MeshEmitter5
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh03.istina_bullet'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.832000,Max=0.832000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.574000,Max=0.574000))
+         Opacity=0.350000
+         FadeOutStartTime=0.245000
+         FadeOut=True
+         FadeInEndTime=0.235000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationOffset=(X=5.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         StartSpinRange=(Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.750000,Max=1.750000),Z=(Min=1.750000,Max=1.750000))
+         InitialParticlesPerSecond=10000.000000
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="MeshEmitter5"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_istinaDeath_fl_simple.MeshEmitter5'
+     AutoReset=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Location=(X=718.775635,Y=-680.007507,Z=-446.000000)
+     DrawScale=0.200000
+     bUnlit=False
+     bDirectional=True
+}

@@ -1,0 +1,132 @@
+class d_wi_mms_ta_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter33
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=166,G=255,R=210,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=191,A=255))
+         FadeOutStartTime=0.048000
+         FadeOut=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.250000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.750000)
+         StartSizeRange=(X=(Min=7.000000,Max=7.000000),Y=(Min=15.000000,Max=20.000000),Z=(Min=7.000000,Max=7.000000))
+         InitialParticlesPerSecond=70.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.etc.fx_m_t0144'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=1
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.300000,Max=0.400000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=5.000000))
+         Name="SpriteEmitter33"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_wi_mms_ta_simple.SpriteEmitter33'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.435000,Max=0.435000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.570000,Max=0.570000))
+         FadeOutStartTime=0.595000
+         FadeOut=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Y=(Max=360.000000),Z=(Max=2.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=20.000000,Max=30.000000),Y=(Min=20.000000,Max=30.000000),Z=(Min=20.000000,Max=30.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4153'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-10.000000,Max=10.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         UseSoftParticle=True
+         SoftParticleFadeDist=30.000000
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_wi_mms_ta_simple.SpriteEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter60
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=17,G=13,R=176,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=121,R=121,A=255))
+         ColorMultiplierRange=(X=(Min=0.880000,Max=0.880000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.622000,Max=0.622000))
+         FadeOutStartTime=0.051000
+         FadeOut=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=0.130000,RelativeSize=1.250000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=5.000000,Max=11.000000),Y=(Min=10.000000,Max=42.000000),Z=(Min=5.000000,Max=11.000000))
+         InitialParticlesPerSecond=80.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3037'
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=5.000000))
+         Name="SpriteEmitter60"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_wi_mms_ta_simple.SpriteEmitter60'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.196429,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.250000,Color=(B=23,G=21,R=117,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=12,G=11,R=68,A=255))
+         FadeOutStartTime=0.045000
+         FadeOut=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.750000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=5.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=15.000000),Y=(Min=10.000000,Max=15.000000),Z=(Min=10.000000,Max=15.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4157'
+         LifetimeRange=(Min=0.300000,Max=0.500000)
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_wi_mms_ta_simple.SpriteEmitter2'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

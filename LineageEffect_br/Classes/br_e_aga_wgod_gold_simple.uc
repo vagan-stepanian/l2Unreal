@@ -1,0 +1,114 @@
+class br_e_aga_wgod_gold_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(G=255,R=255,A=255))
+         ColorScaleRepeats=44.000000
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.200000
+         FadeOutStartTime=1.950000
+         FadeOut=True
+         FadeInEndTime=0.570000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=25
+         StartLocationOffset=(Z=0.700000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.750000,Max=0.780000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.400000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.700000)
+         StartSizeRange=(X=(Min=2.687294,Max=2.687294),Y=(Min=2.687294,Max=2.687294),Z=(Min=2.687294,Max=2.687294))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8023'
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_aga_wgod_gold_simple.SpriteEmitter8'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         Acceleration=(Z=-4.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(G=255,R=255,A=255))
+         ColorScaleRepeats=9.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         FadeOutStartTime=0.320000
+         FadeOut=True
+         FadeInEndTime=0.040000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=35
+         StartLocationOffset=(Z=0.700000)
+         StartLocationRange=(Y=(Min=-1.000000,Max=1.000000),Z=(Min=-0.500000,Max=-0.500000))
+         SphereRadiusRange=(Min=1.300000,Max=1.300000)
+         RevolutionCenterOffsetRange=(X=(Max=2.000000),Y=(Max=2.000000),Z=(Max=2.000000))
+         RevolutionsPerSecondRange=(X=(Max=0.200000),Y=(Max=0.200000),Z=(Min=0.200000,Max=0.200000))
+         RevolutionScale(0)=(RelativeRevolution=(Z=1.000000))
+         RevolutionScale(1)=(RelativeTime=1.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Max=0.100000))
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Max=0.150000),Y=(Max=0.150000),Z=(Max=0.150000))
+         InitialParticlesPerSecond=10.000000
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6009'
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect_Br.br_e_aga_wgod_gold_simple.SpriteEmitter9'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(G=255,R=255,A=255))
+         ColorScaleRepeats=44.000000
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.500000
+         FadeOutStartTime=1.950000
+         FadeOut=True
+         FadeInEndTime=0.570000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         StartLocationOffset=(Z=0.700000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.001000))
+         StartSpinRange=(X=(Min=0.750000,Max=0.780000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.400000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.700000)
+         StartSizeRange=(X=(Min=1.655373,Max=1.655373),Y=(Min=1.655373,Max=1.655373),Z=(Min=1.655373,Max=1.655373))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8012'
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect_Br.br_e_aga_wgod_gold_simple.SpriteEmitter11'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.050000
+}

@@ -1,0 +1,207 @@
+class y_scene_kelbim_hand_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Aura.aurora3'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=7.500000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=252,G=164,R=105,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=189,G=157,R=119,A=255))
+         FadeOutStartTime=0.265000
+         FadeOut=True
+         FadeInEndTime=0.235000
+         FadeIn=True
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.150000,Max=0.150000),Z=(Min=0.150000,Max=0.150000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-12.000000,Max=-4.500000))
+         Name="MeshEmitter0"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.y_scene_kelbim_hand_simple.MeshEmitter0'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter4
+         VertexMesh=VertMesh'LineageEffectMeshes.spirit_30'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=24,G=20,R=207,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.567000
+         FadeOut=True
+         FadeInEndTime=0.207000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationOffset=(X=-90.000000)
+         StartLocationRange=(X=(Min=200.000000,Max=200.000000))
+         SpinParticles=True
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=-0.400000,Max=-0.400000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.100000,Max=0.100000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles6.fx_m_t6103'
+         LifetimeRange=(Min=0.900000,Max=0.900000)
+         Name="VertMeshEmitter4"
+     End Object
+     Emitters(1)=VertMeshEmitter'LineageEffect.y_scene_kelbim_hand_simple.VertMeshEmitter4'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1727
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Aura.aurora3'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=7.500000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(R=232,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=12,G=99,R=243,A=255))
+         Opacity=0.410000
+         FadeOutStartTime=0.265000
+         FadeOut=True
+         FadeInEndTime=0.235000
+         FadeIn=True
+         MaxParticles=5
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.100000,Max=0.100000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-12.000000,Max=-4.500000))
+         Name="MeshEmitter1727"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.y_scene_kelbim_hand_simple.MeshEmitter1727'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter373
+         VertexMesh=VertMesh'LineageEffectMeshes.spirit_30'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=24,G=20,R=207,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.567000
+         FadeOut=True
+         FadeInEndTime=0.207000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationOffset=(X=-90.000000)
+         StartLocationRange=(X=(Min=200.000000,Max=200.000000))
+         SpinParticles=True
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=-0.400000,Max=-0.400000),Y=(Min=0.100000,Max=0.130000),Z=(Min=0.100000,Max=0.130000))
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles6.fx_m_t6103'
+         LifetimeRange=(Min=0.900000,Max=0.900000)
+         Name="VertMeshEmitter373"
+     End Object
+     Emitters(3)=VertMeshEmitter'LineageEffect.y_scene_kelbim_hand_simple.VertMeshEmitter373'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter4148
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(Y=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=12,G=6,R=221,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=12,G=6,R=221,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         MaxParticles=1
+         StartLocationRange=(X=(Min=55.000000,Max=55.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         StartSizeRange=(X=(Min=55.000000,Max=55.000000),Y=(Min=6.000000,Max=6.000000),Z=(Min=6.000000,Max=6.000000))
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures2.beamtile.beamtile2_000'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=1.000000,Max=1.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter4148"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.y_scene_kelbim_hand_simple.SpriteEmitter4148'
+     Begin Object Class=BeamEmitter Name=BeamEmitter0
+         BeamDistanceRange=(Min=-50.000000,Max=50.000000)
+         BeamEndPoints(0)=(ActorTag="u_lind_ultimate_ca",offset=(X=(Min=110.000000,Max=110.000000)),Weight=1.000000)
+         DetermineEndPointBy=PTEP_TraceOffset
+         RotatingSheets=1
+         LowFrequencyPoints=5
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.100000,Max=0.100000))
+         Opacity=0.200000
+         FadeOutStartTime=4.000000
+         FadeOut=True
+         FadeInEndTime=0.050000
+         FadeIn=True
+         MaxParticles=2
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=0.700000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.beamtile.beamtile2_000'
+         LifetimeRange=(Min=4.500000,Max=4.500000)
+         Name="BeamEmitter0"
+     End Object
+     Emitters(5)=BeamEmitter'LineageEffect.y_scene_kelbim_hand_simple.BeamEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter4132
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.wispray01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.532143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.700000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.330000
+         FadeOutStartTime=0.560000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=15
+         StartLocationRange=(X=(Min=110.000000,Max=110.000000))
+         SpinParticles=True
+         SpinCCWorCW=(Z=0.000000)
+         SpinsPerSecondRange=(X=(Max=0.040000),Y=(Max=0.040000),Z=(Max=0.040000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=0.800000)
+         SizeScale(2)=(RelativeTime=0.360000,RelativeSize=1.200000)
+         SizeScale(3)=(RelativeTime=0.590000,RelativeSize=0.800000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=3.000000
+         StartSizeRange=(X=(Min=0.100000,Max=0.230000),Y=(Min=0.100000,Max=0.230000),Z=(Min=0.100000,Max=0.230000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter4132"
+     End Object
+     Emitters(6)=MeshEmitter'LineageEffect.y_scene_kelbim_hand_simple.MeshEmitter4132'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bDirectional=True
+}

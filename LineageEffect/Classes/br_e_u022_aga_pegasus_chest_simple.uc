@@ -1,0 +1,107 @@
+class br_e_u022_aga_pegasus_chest_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter5
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.532143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=44.000000
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.900000,Max=0.900000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=1.220000
+         FadeOut=True
+         FadeInEndTime=0.580000
+         FadeIn=True
+         MaxParticles=1
+         StartLocationOffset=(X=0.100000,Y=1.000000,Z=1.500000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.750000,Max=0.780000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.355914,Max=0.355914),Y=(Min=0.355914,Max=0.355914),Z=(Min=0.355914,Max=0.355914))
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3057'
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="SpriteEmitter5"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.br_e_u022_aga_pegasus_chest_simple.SpriteEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.532143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=44.000000
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.900000,Max=0.900000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=1.220000
+         FadeOut=True
+         FadeInEndTime=0.580000
+         FadeIn=True
+         MaxParticles=1
+         StartLocationOffset=(X=0.100000,Y=-1.000000,Z=1.500000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.750000,Max=0.780000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.355914,Max=0.355914),Y=(Min=0.355914,Max=0.355914),Z=(Min=0.355914,Max=0.355914))
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3057'
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.br_e_u022_aga_pegasus_chest_simple.SpriteEmitter6'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         Acceleration=(X=-0.750000,Z=-1.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.621429,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=9.000000
+         Opacity=0.600000
+         FadeOutStartTime=0.100000
+         FadeInEndTime=0.044000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=50
+         WeatherSoundCheck=True
+         StartLocationRange=(Y=(Min=-0.350000,Max=0.350000))
+         SphereRadiusRange=(Min=1.300000,Max=1.300000)
+         RevolutionCenterOffsetRange=(X=(Max=0.400000),Y=(Max=2.000000),Z=(Max=0.800000))
+         RevolutionsPerSecondRange=(Z=(Min=0.200000,Max=0.200000))
+         RevolutionScale(0)=(RelativeRevolution=(Z=1.000000))
+         RevolutionScale(1)=(RelativeTime=1.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Max=0.125000),Y=(Max=0.125000),Z=(Max=0.125000))
+         InitialParticlesPerSecond=10.000000
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8062'
+         TextureVSubdivisions=3
+         SubdivisionEnd=3
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-0.750000,Max=0.750000),Y=(Min=-0.750000,Max=0.750000),Z=(Min=-0.750000,Max=0.750000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.br_e_u022_aga_pegasus_chest_simple.SpriteEmitter8'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.050000
+}

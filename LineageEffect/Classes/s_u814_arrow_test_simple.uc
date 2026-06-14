@@ -1,0 +1,147 @@
+class s_u814_arrow_test_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter11
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.bowgun_arrow'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=127,G=127,R=127,A=255))
+         ColorScale(1)=(RelativeTime=0.064286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=0.125000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.232143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(4)=(RelativeTime=0.346429,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(5)=(RelativeTime=0.382143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(6)=(RelativeTime=0.439286,Color=(B=194,G=194,R=194,A=255))
+         ColorScale(7)=(RelativeTime=0.482143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(8)=(RelativeTime=0.539286,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(9)=(RelativeTime=0.589286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(10)=(RelativeTime=0.646429,Color=(B=193,G=193,R=193,A=255))
+         ColorScale(11)=(RelativeTime=0.675000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(12)=(RelativeTime=0.750000,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(13)=(RelativeTime=0.789286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(14)=(RelativeTime=0.857143,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(15)=(RelativeTime=0.907143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(16)=(RelativeTime=0.964286,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(17)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.422500
+         FadeOut=True
+         FadeInEndTime=0.026000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Min=3.000000,Max=3.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=0.025000,Max=0.025000),Y=(Min=0.013000,Max=0.013000),Z=(Min=0.013000,Max=0.013000))
+         InitialParticlesPerSecond=100000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter11"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.s_u814_arrow_test_simple.MeshEmitter11'
+     Begin Object Class=MeshEmitter Name=MeshEmitter16
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.bowgun_twist'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=127,G=127,R=127,A=255))
+         ColorScale(1)=(RelativeTime=0.064286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=0.125000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.232143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(4)=(RelativeTime=0.346429,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(5)=(RelativeTime=0.382143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(6)=(RelativeTime=0.439286,Color=(B=194,G=194,R=194,A=255))
+         ColorScale(7)=(RelativeTime=0.482143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(8)=(RelativeTime=0.539286,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(9)=(RelativeTime=0.589286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(10)=(RelativeTime=0.646429,Color=(B=193,G=193,R=193,A=255))
+         ColorScale(11)=(RelativeTime=0.675000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(12)=(RelativeTime=0.750000,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(13)=(RelativeTime=0.789286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(14)=(RelativeTime=0.857143,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(15)=(RelativeTime=0.907143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(16)=(RelativeTime=0.964286,Color=(B=191,G=191,R=191,A=255))
+         ColorScale(17)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.400000
+         FadeOutStartTime=0.422500
+         FadeOut=True
+         FadeInEndTime=0.026000
+         FadeIn=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(Z=1.000000)
+         SpinsPerSecondRange=(Z=(Min=3.000000,Max=3.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=0.025000,Max=0.025000),Y=(Min=0.015000,Max=0.015000),Z=(Min=0.015000,Max=0.015000))
+         InitialParticlesPerSecond=100000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter16"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.s_u814_arrow_test_simple.MeshEmitter16'
+     Begin Object Class=MeshEmitter Name=MeshEmitter17
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.bowgun_tail'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=64,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.620000,Max=0.620000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.180000
+         FadeOut=True
+         MaxParticles=12
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=2.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.168000,Max=0.168000),Y=(Min=0.168000,Max=0.168000),Z=(Min=0.168000,Max=0.168000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-60.000000,Max=-60.000000))
+         Name="MeshEmitter17"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.s_u814_arrow_test_simple.MeshEmitter17'
+     Begin Object Class=MeshEmitter Name=MeshEmitter18
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.bowgun_wind'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.521000,Max=0.521000),Y=(Min=0.692000,Max=0.692000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=3.200000
+         FadeOut=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=4.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(Z=(Min=1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=0.055000,Max=0.055000),Y=(Min=0.012000,Max=0.012000),Z=(Min=0.012000,Max=0.012000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="MeshEmitter18"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.s_u814_arrow_test_simple.MeshEmitter18'
+     Physics=PHYS_Trailer
+     bUseDynamicLights=False
+     bNoDelete=False
+     bTrailerSameRotation=True
+     bTrailerPrePivot=True
+     bTrailerNoOwnerDestroy=True
+     bAcceptsProjectors=False
+     bSunAffect=True
+     Rotation=(Pitch=-1928)
+     DrawScale=0.100000
+     SwayRotationOrig=(Pitch=-1928)
+}

@@ -1,0 +1,104 @@
+class br_e_u108_aga_rudolph_always_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=140,G=28,R=67,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=99,G=16,R=70))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=98,G=160,R=255,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=1.470000
+         FadeOut=True
+         FadeInEndTime=1.110000
+         FadeIn=True
+         MaxParticles=3
+         SphereRadiusRange=(Min=1.000000,Max=1.500000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=70.000000,Max=70.000000),Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.500000,RelativeSize=1.300000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=1.500000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4023'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=31
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=2.000000,Max=4.000000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.br_e_u108_aga_rudolph_always_simple.SpriteEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=162,G=19,R=101,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=131,G=66,R=50))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=98,G=160,R=255,A=255))
+         FadeOutStartTime=1.400000
+         FadeOut=True
+         FadeInEndTime=0.260000
+         FadeIn=True
+         MaxParticles=3
+         SphereRadiusRange=(Min=1.000000,Max=1.500000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=70.000000,Max=70.000000),Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.500000,RelativeSize=1.300000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=1.500000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4012'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=15
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=2.000000,Max=5.000000))
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.br_e_u108_aga_rudolph_always_simple.SpriteEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         Acceleration=(Z=2.000000)
+         ColorScale(0)=(Color=(B=205,G=151,R=215,A=255))
+         ColorScale(1)=(RelativeTime=0.382143,Color=(B=132,G=49,R=45,A=255))
+         ColorScale(2)=(RelativeTime=0.707143,Color=(B=209,G=140,R=213,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=124,G=56,R=116,A=255))
+         ColorScaleRepeats=4.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.200000
+         FadeOutStartTime=1.140000
+         FadeOut=True
+         FadeInEndTime=0.860000
+         FadeIn=True
+         MaxParticles=7
+         WeatherSoundCheck=True
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.040000,Max=0.080000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.480000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=1.000000,Max=3.000000),Y=(Min=1.000000,Max=3.000000),Z=(Min=1.000000,Max=3.000000))
+         Texture=Texture'FX_E_T.broadcasting_middletower_t.broadcasting_middletower_o005'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-4.000000,Max=4.000000),Y=(Min=-4.000000,Max=4.000000),Z=(Min=1.000000,Max=7.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.br_e_u108_aga_rudolph_always_simple.SpriteEmitter6'
+     bNoDelete=False
+}

@@ -1,0 +1,92 @@
+class e_u331_deco_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         Acceleration=(X=-3.000000,Z=-22.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=176,G=176,R=176,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=145,G=145,R=145,A=255))
+         ColorMultiplierRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.450000,Max=0.450000),Z=(Min=0.400000,Max=0.400000))
+         FadeOutStartTime=2.880000
+         FadeOut=True
+         FadeInEndTime=0.240000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=36
+         StartLocationOffset=(Z=-3.000000)
+         StartLocationRange=(X=(Min=-4.000000,Max=4.000000),Y=(Min=-12.000000,Max=12.000000),Z=(Min=-4.000000,Max=4.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.080000))
+         StartSpinRange=(X=(Min=-0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.600000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=12.000000,Max=20.000000),Y=(Min=12.000000,Max=20.000000),Z=(Min=12.000000,Max=20.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3046'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=3.500000,Max=4.000000)
+         StartVelocityRange=(X=(Max=4.000000),Y=(Min=-8.000000,Max=8.000000),Z=(Min=-38.000000,Max=-10.000000))
+         VelocityLossRange=(Z=(Min=1.000000,Max=2.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u331_deco_simple.SpriteEmitter7'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         Acceleration=(X=-4.500000,Z=-33.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=133,G=107,R=108,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=34,G=29,R=23,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=65,G=65,R=65,A=255))
+         FadeOutStartTime=2.160000
+         FadeOut=True
+         FadeInEndTime=0.450000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         StartLocationOffset=(Z=-3.000000)
+         StartLocationRange=(X=(Min=-6.000000,Max=6.000000),Y=(Min=-18.000000,Max=18.000000),Z=(Min=-6.000000,Max=6.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.080000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.600000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=18.000000,Max=30.000000),Y=(Min=18.000000,Max=30.000000),Z=(Min=18.000000,Max=30.000000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4036'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=31
+         LifetimeRange=(Min=3.500000,Max=4.000000)
+         StartVelocityRange=(X=(Max=6.000000),Y=(Min=-12.000000,Max=12.000000),Z=(Min=-27.000000,Max=-10.000000))
+         VelocityLossRange=(Z=(Min=1.000000,Max=2.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u331_deco_simple.SpriteEmitter0'
+     SpawnSound(0)=Sound'MonSound4.dragon_shadow.Dragon_shadow_darksmog'
+     SoundPitchMin=0.900000
+     SoundPitchMax=1.100000
+     SoundLooping=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     SoundRadius=100.000000
+     SoundVolume=250.000000
+}

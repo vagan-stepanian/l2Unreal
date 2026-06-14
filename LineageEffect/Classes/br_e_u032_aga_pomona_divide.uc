@@ -1,0 +1,130 @@
+class br_e_u032_aga_pomona_divide extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter10
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.Plane'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=-35.000000)
+         ColorScale(0)=(Color=(B=128,G=255,R=255,A=255))
+         ColorScale(1)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(Color=(G=128,A=255))
+         ColorScale(4)=(Color=(B=192,G=128,A=255))
+         ColorScale(5)=(Color=(G=128,R=128,A=255))
+         ColorScale(6)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(7)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(8)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         ColorScale(9)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=0.200000,Max=1.000000),Z=(Min=0.100000,Max=1.000000))
+         FadeOutStartTime=1.770000
+         FadeOut=True
+         MaxParticles=100
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=3.000000),Y=(Min=1.000000,Max=3.000000),Z=(Min=1.000000,Max=3.000000))
+         StartSpinRange=(X=(Max=0.200000),Y=(Max=0.200000),Z=(Max=0.200000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=0.025200,Max=0.070000),Y=(Min=0.025200,Max=0.070000),Z=(Min=0.025200,Max=0.070000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(X=(Min=-24.500000,Max=24.500000),Y=(Min=-24.500000,Max=24.500000),Z=(Min=1.400000,Max=140.000000))
+         VelocityLossRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=5.000000,Max=5.000000))
+         Name="MeshEmitter10"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.br_e_u032_aga_pomona_divide.MeshEmitter10'
+     Begin Object Class=MeshEmitter Name=MeshEmitter11
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.wispray00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.600000,Max=0.600000))
+         Opacity=0.200000
+         FadeOutStartTime=0.100000
+         FadeOut=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=7.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=0.183750,Max=0.183750),Y=(Min=0.183750,Max=0.183750),Z=(Min=0.183750,Max=0.183750))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Name="MeshEmitter11"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.br_e_u032_aga_pomona_divide.MeshEmitter11'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         Acceleration=(Z=123.479996)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.400000
+         FadeOut=True
+         MaxParticles=30
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=3.000000)
+         StartLocationRange=(X=(Min=-1.543000,Max=1.543000),Y=(Min=-1.543000,Max=1.543000),Z=(Min=-1.543000,Max=1.543000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=4.000000,Max=4.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=70.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.410000)
+         SpinsPerSecondRange=(X=(Min=0.150000,Max=0.200000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=4.630500,Max=7.717500),Y=(Min=4.630500,Max=7.717500),Z=(Min=4.630500,Max=7.717500))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1002'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=4
+         SubdivisionEnd=7
+         LifetimeRange=(Min=0.820000,Max=2.000000)
+         StartVelocityRange=(X=(Min=30.869999,Max=30.869999),Y=(Min=30.869999,Max=30.869999),Z=(Min=-122.500000,Max=122.500000))
+         VelocityLossRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=6.000000,Max=6.000000),Z=(Min=20.000000,Max=20.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.br_e_u032_aga_pomona_divide.SpriteEmitter11'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter12
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.900000,Max=0.900000))
+         Opacity=0.400000
+         FadeOutStartTime=0.100000
+         FadeOut=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=7.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.110000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.400000,RelativeSize=1.500000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.600000)
+         StartSizeRange=(X=(Min=7.000000,Max=7.000000),Y=(Min=7.000000,Max=7.000000),Z=(Min=7.000000,Max=7.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0100'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter12"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.br_e_u032_aga_pomona_divide.SpriteEmitter12'
+     bLightChanged=True
+     bNoDelete=False
+     Rotation=(Yaw=24)
+     DrawScale=0.050000
+     TexModifyInfo=(Color=(B=255,G=255,R=255,A=255),AlphaOp=1,ColorOp=1)
+}

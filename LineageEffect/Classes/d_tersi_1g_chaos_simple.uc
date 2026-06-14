@@ -1,0 +1,141 @@
+class d_tersi_1g_chaos_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter15
+         Acceleration=(Z=3.000000)
+         ColorScale(0)=(Color=(B=128,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=128,R=255))
+         Opacity=0.310000
+         FadeOutStartTime=0.397500
+         FadeOut=True
+         FadeInEndTime=0.202500
+         FadeIn=True
+         MaxParticles=12
+         StartLocationRange=(X=(Min=-0.750000,Max=0.750000),Y=(Min=-0.750000,Max=0.750000))
+         RevolutionsPerSecondRange=(X=(Min=-0.300000,Max=0.300000),Y=(Min=-0.300000,Max=0.300000),Z=(Min=-0.300000,Max=0.300000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.650000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Min=11.750000,Max=15.250000),Y=(Min=11.750000,Max=15.250000),Z=(Min=11.750000,Max=15.250000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t6182'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=4.000000,Max=20.000000))
+         Name="SpriteEmitter15"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_tersi_1g_chaos_simple.SpriteEmitter15'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter76
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=2.520000
+         FadeOut=True
+         FadeInEndTime=1.120000
+         FadeIn=True
+         MaxParticles=8
+         StartLocationOffset=(Z=1.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.540000,Max=0.540000))
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=2.000000,Max=4.000000),Y=(Min=2.000000,Max=4.000000),Z=(Min=2.000000,Max=4.000000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0111'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=2
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter76"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_tersi_1g_chaos_simple.SpriteEmitter76'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter88
+         Acceleration=(Z=6.000000)
+         ColorScale(0)=(Color=(B=128,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=128,R=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.397500
+         FadeOut=True
+         FadeInEndTime=0.202500
+         FadeIn=True
+         MaxParticles=12
+         StartLocationRange=(X=(Min=-0.750000,Max=0.750000),Y=(Min=-0.750000,Max=0.750000))
+         RevolutionsPerSecondRange=(X=(Min=-0.300000,Max=0.300000),Y=(Min=-0.300000,Max=0.300000),Z=(Min=-0.300000,Max=0.300000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.650000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Min=5.000000,Max=10.000000),Y=(Min=5.000000,Max=10.000000),Z=(Min=5.000000,Max=10.000000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t4072'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-4.000000,Max=4.000000),Y=(Min=-4.000000,Max=4.000000),Z=(Min=10.000000,Max=26.000000))
+         Name="SpriteEmitter88"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_tersi_1g_chaos_simple.SpriteEmitter88'
+     Begin Object Class=MeshEmitter Name=MeshEmitter13
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill.ring2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=20.000000
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.200000
+         FadeOutStartTime=1.562000
+         FadeOut=True
+         FadeInEndTime=0.572000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationOffset=(Z=-8.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.070000,Max=0.070000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=0.230000,Max=0.230000),Y=(Min=0.230000,Max=0.230000),Z=(Min=0.300000,Max=0.300000))
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         InitialTimeRange=(Min=0.100000,Max=0.100000)
+         LifetimeRange=(Min=2.200000,Max=2.200000)
+         InitialDelayRange=(Min=0.300000,Max=0.300000)
+         Name="MeshEmitter13"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_tersi_1g_chaos_simple.MeshEmitter13'
+     SpawnSound(0)=Sound'SkillSound15.GD1.d_tersi_chaos_1'
+     SoundLooping=True
+     bNoDelete=False
+     DrawScale=0.100000
+     SoundRadius=30.000000
+     SoundVolume=250.000000
+}

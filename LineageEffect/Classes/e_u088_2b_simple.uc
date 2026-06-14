@@ -1,0 +1,99 @@
+class e_u088_2b_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter51
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.067857,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=0.150000,Max=0.150000),Y=(Min=0.750000,Max=0.750000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.550000
+         FadeOutStartTime=0.056000
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.800000)
+         SizeScale(2)=(RelativeTime=0.430000,RelativeSize=2.200000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.400000)
+         StartSizeRange=(X=(Min=22.000000,Max=22.000000),Y=(Min=22.000000,Max=22.000000),Z=(Min=22.000000,Max=22.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8122'
+         LifetimeRange=(Min=0.550000,Max=0.550000)
+         Name="SpriteEmitter51"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u088_2b_simple.SpriteEmitter51'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter52
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=194,G=194,R=194,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.800000,Max=0.800000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.200000
+         FadeOutStartTime=0.080000
+         FadeOut=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=1.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.030000)
+         SizeScale(2)=(RelativeTime=0.430000,RelativeSize=1.050000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.070000)
+         StartSizeRange=(X=(Min=28.000000,Max=28.000000),Y=(Min=28.000000,Max=28.000000),Z=(Min=28.000000,Max=28.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8122'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter52"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u088_2b_simple.SpriteEmitter52'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter53
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.300000,Max=0.550000),Y=(Min=0.300000,Max=0.550000),Z=(Min=0.200000,Max=0.600000))
+         FadeOutStartTime=0.520000
+         FadeOut=True
+         MaxParticles=30
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Max=70.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=85.000000,Max=95.000000),Z=(Min=15.000000,Max=15.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.600000,RelativeSize=0.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=15.000000
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.800000,Max=1.300000)
+         StartVelocityRange=(X=(Min=200.000000,Max=200.000000),Y=(Min=200.000000,Max=200.000000),Z=(Min=200.000000,Max=200.000000))
+         VelocityLossRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=6.000000,Max=6.000000),Z=(Min=6.000000,Max=6.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter53"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.e_u088_2b_simple.SpriteEmitter53'
+     SpawnSound(0)=Sound'SkillSound11.e_u088_b.e_u088_b'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     SoundRadius=50.000000
+     SoundVolume=250.000000
+}

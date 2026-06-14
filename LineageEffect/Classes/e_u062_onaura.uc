@@ -1,0 +1,84 @@
+class e_u062_onaura extends Emitter; // 바이움 - 공격동작시 머리에 추가
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter35
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.700000),Y=(Min=0.700000,Max=1.000000),Z=(Min=0.500000,Max=0.700000))
+         Opacity=0.400000
+         FadeOutStartTime=0.400000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=8
+         StartLocationOffset=(Z=-50.000000)
+         StartLocationRange=(Y=(Min=-60.000000,Max=60.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=90.000000,Max=90.000000),Y=(Min=-80.000000,Max=80.000000),Z=(Min=35.000000,Max=35.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=40.000000,Max=70.000000),Y=(Min=40.000000,Max=70.000000),Z=(Min=40.000000,Max=70.000000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0127'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(Z=(Min=80.000000,Max=80.000000))
+         VelocityLossRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter35"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u062_onaura.SpriteEmitter35'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter36
+         IndependentSprayAccel=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=0.580000,Max=0.880000),Z=(Min=0.650000,Max=0.950000))
+         Opacity=0.250000
+         FadeOutStartTime=0.400000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=24
+         StartLocationOffset=(Z=-70.000000)
+         StartLocationRange=(Y=(Min=-60.000000,Max=60.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=70.000000,Max=110.000000),Y=(Min=-80.000000,Max=80.000000),Z=(Min=55.000000,Max=55.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=1.400000)
+         StartSizeRange=(X=(Min=30.000000,Max=45.000000),Y=(Min=30.000000,Max=45.000000),Z=(Min=30.000000,Max=45.000000))
+         InitialParticlesPerSecond=12.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0127'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=50.000000,Max=160.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter36"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u062_onaura.SpriteEmitter36'
+     bNoDelete=False
+     DrawScale=1.200000
+     bDirectional=True
+}

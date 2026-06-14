@@ -1,0 +1,83 @@
+class br_e_aga_bird_spatk_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         Acceleration=(Z=-2.250000)
+         IndependentSprayAccel=True
+         ColorScale(0)=(Color=(R=128,A=255))
+         ColorScale(1)=(RelativeTime=0.628571,Color=(R=64,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(A=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         Opacity=0.500000
+         FadeOutStartTime=0.378000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=100
+         StartLocationOffset=(Z=-3.000000)
+         StartLocationRange=(X=(Min=-0.752000,Max=0.752000),Y=(Min=-0.752000,Max=0.752000),Z=(Min=-1.063000,Max=0.752000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Max=3.000000)
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-1.000000,Max=1.000000))
+         RevolutionsPerSecondRange=(X=(Min=-0.100000,Max=0.100000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-0.300000,Max=0.300000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.200000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.600000)
+         StartSizeRange=(X=(Min=0.265781,Max=0.354375),Y=(Min=0.265781,Max=0.354375),Z=(Min=0.265781,Max=0.354375))
+         InitialParticlesPerSecond=75.000000
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0081'
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.250000,Max=0.600000)
+         StartVelocityRange=(Z=(Min=-1.462500,Max=-1.125000))
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_aga_bird_spatk_simple.SpriteEmitter6'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         Acceleration=(Z=-2.250000)
+         IndependentSprayAccel=True
+         ColorScale(0)=(Color=(R=128,A=255))
+         ColorScale(1)=(RelativeTime=0.628571,Color=(R=64,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(A=255))
+         ColorScaleRepeats=5.000000
+         ColorMultiplierRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         Opacity=0.500000
+         FadeOutStartTime=0.378000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=100
+         StartLocationOffset=(Z=-3.000000)
+         StartLocationRange=(X=(Min=-0.752000,Max=0.752000),Y=(Min=-0.752000,Max=0.752000),Z=(Min=-1.063000,Max=0.752000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Max=3.000000)
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-1.000000,Max=1.000000))
+         RevolutionsPerSecondRange=(X=(Min=-0.100000,Max=0.100000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-0.300000,Max=0.300000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.200000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.600000)
+         StartSizeRange=(X=(Min=0.265781,Max=0.354375),Y=(Min=0.265781,Max=0.354375),Z=(Min=0.265781,Max=0.354375))
+         InitialParticlesPerSecond=75.000000
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0081'
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.250000,Max=0.600000)
+         StartVelocityRange=(Z=(Min=-1.462500,Max=-1.125000))
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect_Br.br_e_aga_bird_spatk_simple.SpriteEmitter0'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

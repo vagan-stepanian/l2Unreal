@@ -1,0 +1,148 @@
+class d_mon_red2_fl extends NSkillProjectile;
+
+defaultproperties
+{
+     Speed=1000.000000
+     AccSpeed=3000.000000
+     Begin Object Class=MeshEmitter Name=MeshEmitter19
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.spear04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=223,G=191,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.128571,Color=(B=2,G=53,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.664286,Color=(B=241,G=88,R=188,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=83,R=117,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.210000
+         FadeOut=True
+         FadeInEndTime=0.150000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationOffset=(X=-10.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(Z=(Min=1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=0.150000,Max=0.150000),Y=(Min=0.050000,Max=0.050000),Z=(Min=0.050000,Max=0.050000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         VelocityLossRange=(X=(Min=6.000000,Max=6.000000))
+         Name="MeshEmitter19"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_mon_red2_fl.MeshEmitter19'
+     Begin Object Class=MeshEmitter Name=MeshEmitter20
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.spear_hand01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.900000,Max=0.900000),Z=(Min=0.700000,Max=0.700000))
+         FadeOutStartTime=0.210000
+         FadeOut=True
+         FadeInEndTime=0.150000
+         FadeIn=True
+         MaxParticles=5
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(Z=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(Z=(Max=1.000000))
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=0.080000,Max=0.080000),Z=(Min=0.080000,Max=0.080000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles2.fx_m_t_3042'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         VelocityLossRange=(X=(Min=6.000000,Max=6.000000))
+         Name="MeshEmitter20"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_mon_red2_fl.MeshEmitter20'
+     Begin Object Class=MeshEmitter Name=MeshEmitter21
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.aura_nemo'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         Acceleration=(X=-80.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.200000
+         FadeOutStartTime=0.200000
+         FadeOut=True
+         FadeInEndTime=0.080000
+         FadeIn=True
+         WeatherSoundCheck=True
+         StartLocationOffset=(X=-15.000000)
+         SpinParticles=True
+         StartSpinRange=(Z=(Max=1.000000))
+         StartSizeRange=(X=(Min=1.100000,Max=1.100000),Y=(Min=0.130000,Max=0.130000),Z=(Min=0.130000,Max=0.130000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(X=(Min=-20.000000,Max=-20.000000))
+         Name="MeshEmitter21"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_mon_red2_fl.MeshEmitter21'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter30
+         Acceleration=(X=-20.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=0.600000
+         FadeOut=True
+         StartLocationOffset=(X=6.000000)
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-3.000000,Max=3.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.400000)
+         StartSizeRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=6.000000,Max=6.000000),Z=(Min=6.000000,Max=6.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2033'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(X=(Min=-20.000000,Max=-20.000000))
+         Name="SpriteEmitter30"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_mon_red2_fl.SpriteEmitter30'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter31
+         Acceleration=(X=-90.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=159,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(G=233,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.400000
+         FadeOutStartTime=0.600000
+         FadeOut=True
+         FadeInEndTime=0.480000
+         FadeIn=True
+         MaxParticles=20
+         StartLocationOffset=(X=10.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=30.000000,Max=30.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t4072'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.300000,Max=1.300000)
+         Name="SpriteEmitter31"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_mon_red2_fl.SpriteEmitter31'
+     bLightChanged=True
+     bSunAffect=True
+     DrawScale=0.300000
+     bDirectional=True
+}

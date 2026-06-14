@@ -1,0 +1,110 @@
+class d_smash_ssec extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.900000
+         FadeOutStartTime=0.022500
+         FadeOut=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=65.000000,Y=-17.000000,Z=2.000000)
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=10.590000,Max=10.590000),Y=(Min=14.280000,Max=14.280000),Z=(Min=10.590000,Max=10.590000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3208'
+         LifetimeRange=(Min=0.200000,Max=0.200000)
+         InitialDelayRange=(Min=0.150000,Max=0.150000)
+         StartVelocityRange=(Z=(Min=0.100000,Max=0.100000))
+         VelocityLossRange=(Z=(Min=0.100000,Max=0.100000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_smash_ssec.SpriteEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.sandman_sword'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.689286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=0.575000,Max=0.575000),Y=(Min=0.813000,Max=0.980000),Z=(Min=0.784000,Max=0.784000))
+         Opacity=0.300000
+         FadeOutStartTime=0.063240
+         FadeOut=True
+         FadeInEndTime=0.033480
+         FadeIn=True
+         MaxParticles=12
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=15.000000,Y=-7.000000,Z=-2.000000)
+         StartLocationRange=(X=(Min=-15.000000,Max=10.000000),Z=(Max=0.500000))
+         SpinParticles=True
+         SpinCCWorCW=(Z=0.000000)
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         StartSizeRange=(X=(Min=0.930000,Max=0.930000),Y=(Min=0.930000,Max=0.930000),Z=(Min=0.921000,Max=1.060000))
+         InitialParticlesPerSecond=800.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.200000,Max=0.200000)
+         InitialDelayRange=(Min=0.150000,Max=0.150000)
+         Name="MeshEmitter0"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_smash_ssec.MeshEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter154
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(Y=1.000000,Z=0.000000)
+         Acceleration=(X=100.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.162000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Y=-15.580000,Z=28.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.750000,Max=0.750000))
+         StartSpinRange=(X=(Min=-0.100000,Max=-0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=25.000000,Max=25.000000),Y=(Min=25.000000,Max=25.000000),Z=(Min=25.000000,Max=25.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t6134'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(X=(Min=300.000000,Max=300.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000))
+         Name="SpriteEmitter154"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_smash_ssec.SpriteEmitter154'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=-2352)
+     DrawScale=0.200000
+     CollisionRadius=190.608185
+     CollisionHeight=134.780334
+     SwayRotationOrig=(Yaw=-2352)
+     ColLocation=(X=89.941353,Y=-267.000000,Z=-511.183350)
+     bDirectional=True
+}

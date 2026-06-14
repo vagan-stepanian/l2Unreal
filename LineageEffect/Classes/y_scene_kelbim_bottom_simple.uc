@@ -1,0 +1,187 @@
+class y_scene_kelbim_bottom_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter14027
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.magiccircle.magiccircleblack02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,R=64,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=106,R=106,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=64,R=64,A=255))
+         ColorScaleRepeats=8.000000
+         ColorMultiplierRange=(X=(Min=0.150000,Max=0.150000),Z=(Min=0.100000,Max=0.100000))
+         Opacity=0.800000
+         FadeOutStartTime=3.240000
+         FadeOut=True
+         FadeInEndTime=0.440000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSizeRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.400000,Max=0.400000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Name="MeshEmitter14027"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.y_scene_kelbim_bottom_simple.MeshEmitter14027'
+     Begin Object Class=MeshEmitter Name=MeshEmitter14029
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.death.death_base'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=21,G=64,R=234,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=21,G=64,R=234,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.720000
+         FadeOutStartTime=2.905000
+         FadeOut=True
+         FadeInEndTime=0.420000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-1.000000,Max=-1.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSizeRange=(X=(Min=0.330000,Max=0.330000),Y=(Min=0.330000,Max=0.330000),Z=(Min=0.360000,Max=0.360000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=3.500000,Max=3.500000)
+         InitialDelayRange=(Min=0.250000,Max=0.250000)
+         Name="MeshEmitter14029"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.y_scene_kelbim_bottom_simple.MeshEmitter14029'
+     Begin Object Class=MeshEmitter Name=MeshEmitter14031
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.Barler_bright3'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.300000
+         FadeOutStartTime=0.375000
+         FadeOut=True
+         FadeInEndTime=0.115000
+         FadeIn=True
+         MaxParticles=40
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=180.000000),Y=(Min=-90.000000,Max=90.000000),Z=(Min=12.000000,Max=22.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.600000,Max=0.600000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         StartVelocityRange=(Z=(Min=-190.000000,Max=-190.000000))
+         VelocityLossRange=(Z=(Min=3.000000,Max=3.000000))
+         Name="MeshEmitter14031"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.y_scene_kelbim_bottom_simple.MeshEmitter14031'
+     Begin Object Class=MeshEmitter Name=MeshEmitter16849
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.death.deathspike'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=139,G=139,R=139,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=114,G=104,R=236,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=139,G=139,R=139,A=255))
+         ColorScaleRepeats=34.000000
+         Opacity=0.730000
+         FadeOutStartTime=3.400000
+         FadeOut=True
+         FadeInEndTime=0.440000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.990000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.010000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.990000)
+         SizeScaleRepeats=6.000000
+         StartSizeRange=(X=(Min=0.280000,Max=0.280000),Y=(Min=0.280000,Max=0.280000),Z=(Min=0.230000,Max=0.230000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Name="MeshEmitter16849"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.y_scene_kelbim_bottom_simple.MeshEmitter16849'
+     Begin Object Class=MeshEmitter Name=MeshEmitter16971
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.Barler_bright3'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.200000,Max=0.200000))
+         Opacity=0.300000
+         FadeOutStartTime=0.375000
+         FadeOut=True
+         FadeInEndTime=0.115000
+         FadeIn=True
+         MaxParticles=40
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=180.000000),Y=(Min=-90.000000,Max=90.000000),Z=(Min=12.000000,Max=22.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.600000,Max=0.600000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.FX_M_T4194'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.200000,Max=0.200000)
+         StartVelocityRange=(Z=(Min=-190.000000,Max=-190.000000))
+         VelocityLossRange=(Z=(Min=3.000000,Max=3.000000))
+         Name="MeshEmitter16971"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.y_scene_kelbim_bottom_simple.MeshEmitter16971'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.magiccircle.magiccircleblack04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.750000
+         FadeOutStartTime=3.280000
+         FadeOut=True
+         FadeInEndTime=0.640000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-5.000000,Max=-5.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.020000))
+         StartSpinRange=(X=(Max=1.000000))
+         StartSizeRange=(X=(Min=0.450000,Max=0.450000),Y=(Min=0.450000,Max=0.450000),Z=(Min=1.000000,Max=1.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Name="MeshEmitter1"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.y_scene_kelbim_bottom_simple.MeshEmitter1'
+     bNoDelete=False
+     DrawScale=0.200000
+}

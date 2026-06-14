@@ -1,0 +1,133 @@
+class br_e_aga_gangsi_atk_a_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter24
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.heart_ring01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=179,G=133,R=239,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.600000
+         FadeOutStartTime=0.108000
+         FadeOut=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.700000)
+         StartSizeRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.100000,Max=0.100000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.150000,Max=0.150000)
+         StartVelocityRange=(X=(Min=7.500000,Max=7.500000))
+         Name="MeshEmitter24"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect_Br.br_e_aga_gangsi_atk_a_simple.MeshEmitter24'
+     Begin Object Class=MeshEmitter Name=MeshEmitter25
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.heart_ring02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(A=255))
+         ColorScale(1)=(RelativeTime=0.503571,Color=(A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.108000
+         FadeOut=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.105700,Max=0.105700),Y=(Min=0.105700,Max=0.105700),Z=(Min=0.105700,Max=0.105700))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.150000,Max=0.150000)
+         Name="MeshEmitter25"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect_Br.br_e_aga_gangsi_atk_a_simple.MeshEmitter25'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter28
+         Acceleration=(X=17.500000,Z=7.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.107143,Color=(B=172,G=172,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.289286,Color=(B=217,G=143,R=252,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=149,G=116,R=237,A=255))
+         ColorMultiplierRange=(X=(Min=0.640000,Max=0.640000),Y=(Min=0.640000,Max=0.640000),Z=(Min=0.640000,Max=0.640000))
+         Opacity=0.300000
+         FadeOutStartTime=0.204000
+         FadeOut=True
+         MaxParticles=23
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=80.000000,Max=90.000000),Y=(Max=360.000000),Z=(Max=2.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.050000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.700000,Max=14.000000),Y=(Min=0.700000,Max=14.000000),Z=(Min=0.700000,Max=14.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=None
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.501000,Max=0.600000)
+         StartVelocityRange=(Y=(Min=56.000000,Max=56.000000),Z=(Min=56.000000,Max=56.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter28"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect_Br.br_e_aga_gangsi_atk_a_simple.SpriteEmitter28'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter29
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.475000,Color=(B=32,G=32,R=32,A=255))
+         ColorScale(2)=(RelativeTime=0.700000,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=8.131000
+         FadeOutStartTime=0.351000
+         FadeOut=True
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=5.000000)
+         StartLocationShape=PTLS_Polar
+         SphereRadiusRange=(Max=1.000000)
+         StartLocationPolarRange=(X=(Min=90.000000,Max=90.000000),Y=(Max=360.000000),Z=(Min=1.033000,Max=1.033000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=2.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.240000,RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=0.490000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.880000,RelativeSize=0.050000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=0.095135,Max=0.241376),Y=(Min=0.095135,Max=0.241376),Z=(Min=0.095135,Max=0.241376))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2068'
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=0.800000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-6.793115),Y=(Min=117.936012,Max=117.936012),Z=(Min=117.936012,Max=117.936012))
+         VelocityLossRange=(Y=(Min=4.000000,Max=4.000000),Z=(Min=4.000000,Max=4.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter29"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect_Br.br_e_aga_gangsi_atk_a_simple.SpriteEmitter29'
+     bNoDelete=False
+}

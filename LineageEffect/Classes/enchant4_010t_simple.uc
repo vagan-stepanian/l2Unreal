@@ -1,0 +1,50 @@
+class enchant4_010t_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter190
+         UseDirectionAs=PTDU_Up
+         Acceleration=(X=12.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=247,G=188,R=136,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=247,G=188,R=136,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=0.490000
+         FadeOut=True
+         FadeInEndTime=0.370000
+         FadeIn=True
+         MaxParticles=30
+         StartLocationOffset=(X=5.000000)
+         StartLocationRange=(X=(Min=-1.500000,Max=17.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=90.000000),Z=(Max=30.000000))
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=3.000000,Max=5.000000),Z=(Min=1.000000,Max=1.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.Weapon.fx_m_t6290'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         SubdivisionEnd=15
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=8.000000,Max=16.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter190"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.enchant4_010t_simple.SpriteEmitter190'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Pitch=16372,Yaw=16349)
+     DrawScale=0.100000
+     bUnlit=False
+     SwayRotationOrig=(Pitch=16372,Yaw=16349)
+     bDirectional=True
+}

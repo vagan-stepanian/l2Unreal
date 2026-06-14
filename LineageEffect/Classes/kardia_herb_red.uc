@@ -1,0 +1,126 @@
+class kardia_herb_red extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1787
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.525000,Color=(A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=2.000000
+         ColorMultiplierRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.610000
+         FadeOutStartTime=9.000000
+         FadeOut=True
+         FadeInEndTime=3.000000
+         FadeIn=True
+         MaxParticles=6
+         StartLocationOffset=(Z=48.000000)
+         StartLocationRange=(X=(Min=-12.000000,Max=12.000000),Y=(Min=-12.000000,Max=12.000000),Z=(Min=-7.000000,Max=7.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.007000,Max=0.007000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=24.000000,Max=36.000000),Y=(Min=24.000000,Max=36.000000),Z=(Min=24.000000,Max=36.000000))
+         InitialParticlesPerSecond=20.000000
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles.gas2'
+         TextureUSubdivisions=3
+         TextureVSubdivisions=3
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=12.000000,Max=12.000000)
+         StartVelocityRange=(Z=(Min=3.000000,Max=5.000000))
+         VelocityLossRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.500000,Max=1.500000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter1787"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.kardia_herb_red.SpriteEmitter1787'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         ProjectionNormal=(Y=1.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=6.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         FadeOutStartTime=4.720000
+         FadeOut=True
+         FadeInEndTime=3.360000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=24
+         StartLocationOffset=(Z=40.000000)
+         StartLocationRange=(X=(Min=-12.000000,Max=12.000000),Y=(Min=-12.000000,Max=12.000000),Z=(Max=4.000000))
+         ZTest=False
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(Z=(Min=-1.000000,Max=1.000000))
+         RevolutionsPerSecondRange=(Z=(Min=-0.050000,Max=0.050000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=-0.050000,Max=0.050000),Y=(Min=0.050000,Max=0.100000),Z=(Min=0.050000,Max=0.100000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=8.000000,Max=16.000000),Y=(Min=8.000000,Max=16.000000),Z=(Min=8.000000,Max=16.000000))
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8156'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=16.000000,Max=16.000000)
+         StartVelocityRange=(Z=(Min=3.000000,Max=3.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.kardia_herb_red.SpriteEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         ProjectionNormal=(Y=1.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=8.000000
+         FadeOutStartTime=4.720000
+         FadeOut=True
+         FadeInEndTime=3.360000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=12
+         StartLocationOffset=(Z=40.000000)
+         StartLocationRange=(X=(Min=-6.000000,Max=6.000000),Y=(Min=-6.000000,Max=6.000000),Z=(Max=4.000000))
+         ZTest=False
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(Z=(Min=-1.000000,Max=1.000000))
+         RevolutionsPerSecondRange=(Z=(Min=-0.100000,Max=0.100000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=-0.050000,Max=0.050000),Y=(Min=0.050000,Max=0.100000),Z=(Min=0.050000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=4.000000,Max=8.000000),Y=(Min=4.000000,Max=8.000000),Z=(Min=4.000000,Max=8.000000))
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1020'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=16.000000,Max=16.000000)
+         StartVelocityRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=3.000000,Max=3.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.kardia_herb_red.SpriteEmitter3'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=1656)
+     SwayRotationOrig=(Yaw=1656)
+     bDirectional=True
+}

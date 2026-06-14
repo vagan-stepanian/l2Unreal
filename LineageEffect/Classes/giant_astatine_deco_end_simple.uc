@@ -1,0 +1,146 @@
+class giant_astatine_deco_end_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter59
+         StaticMesh=StaticMesh'BG_Effect_S.E_A_F_astatine_00'
+         RenderTwoSided=True
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=192,G=192,R=192,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=249,R=199,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=192,G=192,R=192,A=255))
+         ColorScaleRepeats=1.000000
+         ColorMultiplierRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.200000,Max=0.200000),Z=(Min=0.200000,Max=0.200000))
+         MaxParticles=1
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter59"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.giant_astatine_deco_end_simple.MeshEmitter59'
+     Begin Object Class=MeshEmitter Name=MeshEmitter65
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.up_03'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=235,R=140,A=255))
+         ColorScale(1)=(RelativeTime=0.432143,Color=(B=225,G=5,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=251,G=207,A=255))
+         Opacity=0.350000
+         FadeOutStartTime=4.000000
+         FadeInEndTime=1.000000
+         FadeIn=True
+         MaxParticles=7
+         StartLocationRange=(Z=(Min=75.000000,Max=75.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.170000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=1000.000000
+         DrawStyle=PTDS_Darken
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.FX_M_T4178'
+         Name="MeshEmitter65"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.giant_astatine_deco_end_simple.MeshEmitter65'
+     Begin Object Class=MeshEmitter Name=MeshEmitter81
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.wooh04.aura_cy'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.525000,Color=(B=208,G=208,R=208,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=50.000000
+         ColorMultiplierRange=(X=(Min=0.750000,Max=1.000000),Y=(Min=0.750000,Max=0.750000),Z=(Min=0.750000,Max=1.000000))
+         Opacity=0.200000
+         FadeOutStartTime=1.110000
+         FadeOut=True
+         FadeInEndTime=1.110000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationOffset=(Z=220.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.150000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.200000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.700000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=5.500000,Max=5.500000))
+         InitialParticlesPerSecond=10.000000
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(Z=(Min=2.500000,Max=2.500000))
+         Name="MeshEmitter81"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.giant_astatine_deco_end_simple.MeshEmitter81'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter60
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(R=55,A=255))
+         ColorScale(1)=(RelativeTime=0.189286,Color=(B=67,G=114,R=254,A=255))
+         ColorScale(2)=(RelativeTime=0.332143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.350000
+         FadeOutStartTime=2.500000
+         FadeOut=True
+         FadeInEndTime=0.200000
+         FadeIn=True
+         MaxParticles=75
+         StartLocationOffset=(Z=100.000000)
+         StartLocationRange=(X=(Min=-380.000000,Max=-340.000000),Y=(Min=-20.000000,Max=30.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Min=70.000000,Max=80.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=0.100000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=0.160000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=30.000000),Y=(Min=70.000000,Max=70.000000),Z=(Min=20.000000,Max=30.000000))
+         InitialParticlesPerSecond=10.000000
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8156'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=10.000000,Max=10.000000)
+         StartVelocityRange=(Z=(Min=100.000000,Max=100.000000))
+         Name="SpriteEmitter60"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.giant_astatine_deco_end_simple.SpriteEmitter60'
+     Begin Object Class=MeshEmitter Name=MeshEmitter10
+         StaticMesh=StaticMesh'BG_Effect_S.E_A_F_astatine_00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=255,G=255,R=128,A=255))
+         ColorScale(1)=(RelativeTime=0.567857,Color=(B=255,G=83,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=128,A=255))
+         ColorScaleRepeats=1.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.100000
+         FadeOutStartTime=1.760000
+         FadeOut=True
+         FadeInEndTime=1.760000
+         FadeIn=True
+         MaxParticles=5
+         InitialParticlesPerSecond=1.000000
+         CustomMaterials(0)=Texture'LineageBgMeshes_T.astatine.E_A_astatine_01'
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter10"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.giant_astatine_deco_end_simple.MeshEmitter10'
+     AutoReplay=True
+     bAlwaysVisible=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     bIgnoredRange=True
+     bDirectional=True
+}

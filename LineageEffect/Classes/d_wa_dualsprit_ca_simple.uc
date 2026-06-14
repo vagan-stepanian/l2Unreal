@@ -1,0 +1,77 @@
+class d_wa_dualsprit_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter54
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.Impact.impact_tx'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=-40.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=96,G=96,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.292857,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.714286,Color=(B=255,G=62,R=62,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=62,R=62,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.650000,Max=0.650000),Z=(Min=0.450000,Max=0.450000))
+         Opacity=0.400000
+         FadeOutStartTime=0.215000
+         FadeOut=True
+         FadeInEndTime=0.075000
+         FadeIn=True
+         MaxParticles=12
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=10.000000)
+         SpinParticles=True
+         StartSpinRange=(Z=(Min=-0.010000,Max=0.010000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.200000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.400000,RelativeSize=2.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=2.200000)
+         StartSizeRange=(X=(Min=1.700000,Max=1.700000),Y=(Min=1.500000,Max=1.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.Particles.fx_m_t5108'
+         LifetimeRange=(Min=0.400000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-30.000000,Max=-30.000000))
+         Name="MeshEmitter54"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_wa_dualsprit_ca_simple.MeshEmitter54'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         ColorScale(0)=(Color=(G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=192,G=128,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.600000
+         FadeOutStartTime=0.200000
+         FadeOut=True
+         FadeInEndTime=0.055000
+         FadeIn=True
+         MaxParticles=7
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=10.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=18.000000,Max=18.000000),Y=(Min=18.000000,Max=18.000000),Z=(Min=18.000000,Max=18.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0105'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_wa_dualsprit_ca_simple.SpriteEmitter1'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+}

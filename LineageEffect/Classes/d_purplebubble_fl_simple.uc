@@ -1,0 +1,142 @@
+class d_purplebubble_fl_simple extends NskillProjectile;
+
+defaultproperties
+{
+     Speed=1000.000000
+     AccSpeed=3000.000000
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.cross_poison'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(G=139,R=191,A=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(G=29,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(G=139,R=191,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.830000
+         FadeOut=True
+         FadeInEndTime=0.230000
+         FadeIn=True
+         MaxParticles=3
+         Disabled=True
+         StartLocationOffset=(X=5.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(Z=(Min=1.500000,Max=1.500000))
+         StartSizeRange=(X=(Min=-0.402500,Max=-0.402500),Y=(Min=0.460000,Max=0.460000),Z=(Min=0.460000,Max=0.460000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter0"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_purplebubble_fl_simple.MeshEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         Acceleration=(Z=-5.750000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.600000,Max=0.600000))
+         Opacity=0.500000
+         FadeOutStartTime=0.247500
+         FadeOut=True
+         FadeInEndTime=0.202500
+         FadeIn=True
+         MaxParticles=15
+         StartLocationRange=(Y=(Min=-1.150000,Max=1.150000),Z=(Min=-1.150000,Max=1.150000))
+         SphereRadiusRange=(Max=3.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=0.800000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.250000)
+         StartSizeRange=(X=(Min=4.600000,Max=6.900000),Y=(Min=4.600000,Max=6.900000),Z=(Min=4.600000,Max=6.900000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4013'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         StartVelocityRange=(X=(Min=-28.750000,Max=-28.750000),Y=(Min=-2.300000,Max=5.750000),Z=(Min=-2.300000,Max=5.750000))
+         StartVelocityRadialRange=(Min=72.617996,Max=72.617996)
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_purplebubble_fl_simple.SpriteEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Max=1.000000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.600000,Max=0.600000))
+         Opacity=0.800000
+         FadeOutStartTime=0.500000
+         FadeInEndTime=0.105000
+         FadeIn=True
+         MaxParticles=3
+         SphereRadiusRange=(Max=3.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.300000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=9.200000,Max=9.200000),Y=(Min=9.200000,Max=9.200000),Z=(Min=9.200000,Max=9.200000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0035'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         SubdivisionStart=4
+         SubdivisionEnd=7
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-20.699999,Max=-20.699999))
+         StartVelocityRadialRange=(Min=72.617996,Max=72.617996)
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_purplebubble_fl_simple.SpriteEmitter7'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.500000
+         FadeOutStartTime=0.500000
+         FadeInEndTime=0.105000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         SphereRadiusRange=(Max=3.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.300000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.650000)
+         StartSizeRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=6.000000,Max=6.000000),Z=(Min=6.000000,Max=6.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0035'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         SubdivisionStart=9
+         SubdivisionEnd=11
+         LifetimeRange=(Min=0.650000,Max=0.650000)
+         StartVelocityRange=(X=(Min=-25.875000,Max=-25.875000))
+         StartVelocityRadialRange=(Min=72.617996,Max=72.617996)
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_purplebubble_fl_simple.SpriteEmitter8'
+     bUseDynamicLights=False
+     bLightChanged=True
+     bAcceptsProjectors=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bDirectional=True
+}

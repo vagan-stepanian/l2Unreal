@@ -1,0 +1,138 @@
+class u_he_devinebless_ta extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.517857,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.880000,Max=0.880000),Z=(Min=0.688000,Max=0.688000))
+         Opacity=0.700000
+         FadeOutStartTime=0.444000
+         FadeOut=True
+         FadeInEndTime=0.108000
+         FadeIn=True
+         MaxParticles=4
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=1.000000)
+         StartLocationRange=(Z=(Min=-0.384000,Max=0.384000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         StartSpinRange=(X=(Min=0.270000,Max=0.270000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.320000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=49.152004,Max=49.152004),Y=(Min=49.152004,Max=49.152004),Z=(Min=49.152004,Max=49.152004))
+         InitialParticlesPerSecond=6.000000
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles7.fx_m_t7114'
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_he_devinebless_ta.SpriteEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.wispray01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=209,G=90,R=46,A=255))
+         ColorMultiplierRange=(X=(Min=0.462000,Max=0.462000),Y=(Min=0.320000,Max=0.320000),Z=(Min=0.144000,Max=0.144000))
+         Opacity=0.800000
+         FadeOutStartTime=0.500000
+         FadeOut=True
+         FadeInEndTime=0.380000
+         FadeIn=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.400000)
+         SizeScale(1)=(RelativeTime=0.540000,RelativeSize=0.600000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=0.512000,Max=0.512000),Y=(Min=0.512000,Max=0.512000),Z=(Min=0.512000,Max=0.512000))
+         InitialParticlesPerSecond=15.000000
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         Name="MeshEmitter1"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.u_he_devinebless_ta.MeshEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=172,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=172,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.900000,Max=1.000000),Y=(Min=0.800000,Max=0.900000),Z=(Min=0.700000,Max=1.000000))
+         Opacity=0.300000
+         FadeOutStartTime=0.550000
+         FadeOut=True
+         FadeInEndTime=0.150000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=4
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-8.000000,Max=8.000000),Y=(Min=8.000000,Max=12.000000),Z=(Min=-12.000000,Max=-12.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=0.600000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=24.000000,Max=24.000000),Y=(Min=16.000000,Max=16.000000),Z=(Min=24.000000,Max=24.000000))
+         InitialParticlesPerSecond=30.000000
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4009'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         StartVelocityRange=(X=(Min=-8.000000,Max=-8.000000),Y=(Min=16.000000,Max=24.000000),Z=(Min=16.000000,Max=16.000000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_he_devinebless_ta.SpriteEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=172,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=172,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.900000,Max=1.000000),Y=(Min=0.800000,Max=0.900000),Z=(Min=0.700000,Max=1.000000))
+         Opacity=0.300000
+         FadeOutStartTime=0.550000
+         FadeOut=True
+         FadeInEndTime=0.150000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=4
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-8.000000,Max=8.000000),Y=(Min=-12.000000,Max=-8.000000),Z=(Min=-12.000000,Max=-12.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=0.600000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=24.000000,Max=24.000000),Y=(Min=16.000000,Max=16.000000),Z=(Min=24.000000,Max=24.000000))
+         InitialParticlesPerSecond=30.000000
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4009'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         StartVelocityRange=(X=(Min=-8.000000,Max=-8.000000),Y=(Min=-24.000000,Max=-16.000000),Z=(Min=16.000000,Max=16.000000))
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_he_devinebless_ta.SpriteEmitter3'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bUnlit=False
+}

@@ -1,0 +1,131 @@
+class u_event_wheelwind_ra_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter25
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.aura_wooh02'
+         UseMeshBlendMode=False
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=1,G=133,R=231,A=255))
+         ColorScale(1)=(RelativeTime=0.325000,Color=(B=38,G=74,R=142,A=255))
+         ColorScale(2)=(RelativeTime=0.671429,Color=(B=40,G=67,R=87,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=37,G=71,R=67,A=255))
+         Opacity=0.590000
+         FadeOutStartTime=1.980000
+         FadeOut=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=4.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         Name="MeshEmitter25"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.u_event_wheelwind_ra_simple.MeshEmitter25'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter37
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         MaxParticles=100
+         RespawnDeadParticles=False
+         Disabled=True
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=400.000000,Max=400.000000))
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter37"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_event_wheelwind_ra_simple.SpriteEmitter37'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter41
+         Acceleration=(Z=1.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=108,G=190,R=210,A=255))
+         ColorScale(1)=(RelativeTime=0.496429,Color=(B=64,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=64,G=128,R=128,A=255))
+         Opacity=0.630000
+         FadeOutStartTime=0.750000
+         FadeOut=True
+         FadeInEndTime=0.195000
+         FadeIn=True
+         MaxParticles=160
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=5.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=100.000000,Max=300.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Max=0.250000),Y=(Max=1.000000),Z=(Max=1.000000))
+         RevolutionsPerSecondRange=(X=(Min=-0.010000,Max=0.010000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-0.100000,Max=0.100000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.070000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=15.000000,Max=35.000000),Y=(Min=15.000000,Max=35.000000),Z=(Min=15.000000,Max=35.000000))
+         InitialParticlesPerSecond=400.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t6081'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.400000,Max=1.500000)
+         StartVelocityRange=(X=(Min=10.000000,Max=100.000000),Y=(Min=10.000000,Max=100.000000),Z=(Min=10.000000,Max=100.000000))
+         VelocityLossRange=(X=(Min=7.000000,Max=7.000000),Y=(Min=7.000000,Max=7.000000),Z=(Min=7.000000,Max=7.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter41"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_event_wheelwind_ra_simple.SpriteEmitter41'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter44
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.697000,Max=0.697000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.697000,Max=0.697000))
+         Opacity=0.500000
+         FadeOutStartTime=0.200000
+         FadeOut=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.010000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=160.000000,Max=175.000000),Y=(Min=160.000000,Max=175.000000),Z=(Min=160.000000,Max=175.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t8228'
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         StartVelocityRange=(X=(Min=-1.000000,Max=1.000000),Z=(Min=2.000000,Max=3.000000))
+         Name="SpriteEmitter44"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_event_wheelwind_ra_simple.SpriteEmitter44'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bUnlit=False
+}

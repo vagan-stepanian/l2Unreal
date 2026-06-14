@@ -1,0 +1,89 @@
+class e_u408_deco_small extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         RefrUScale=0.100000
+         RefrVScale=0.100000
+         Acceleration=(Z=2.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=9,G=64,R=193,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.600000
+         FadeOutStartTime=0.690000
+         FadeOut=True
+         FadeInEndTime=0.600000
+         FadeIn=True
+         StartLocationOffset=(Z=4.000000)
+         StartLocationRange=(X=(Min=-9.180000,Max=9.180000),Y=(Min=-9.180000,Max=9.180000),Z=(Min=-4.590000,Max=4.590000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=4.000000,Max=4.000000)
+         SpinParticles=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.850000)
+         StartSizeRange=(X=(Min=6.000000,Max=8.000000),Y=(Min=8.000000,Max=12.000000),Z=(Min=11.475000,Max=11.475000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4023'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=20
+         SubdivisionEnd=32
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.530000,Max=2.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u408_deco_small.SpriteEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         Refraction=REF_LightPerformance
+         RefrUScale=0.030000
+         RefrVScale=0.030000
+         Acceleration=(Z=10.710001)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.800000,Max=0.800000))
+         FadeOutStartTime=0.460000
+         FadeOut=True
+         FadeInEndTime=0.440000
+         FadeIn=True
+         StartLocationOffset=(Z=3.000000)
+         StartLocationRange=(X=(Min=-2.142000,Max=2.142000),Y=(Min=-2.142000,Max=2.142000),Z=(Min=-2.142000,Max=2.142000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=2.000000,Max=2.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=70.000000,Max=90.000000),Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=5.000000,Max=9.000000),Y=(Min=8.033000,Max=12.852000),Z=(Min=10.041000,Max=10.041000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4036'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=4
+         SubdivisionEnd=20
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=4.820000,Max=4.820000),Y=(Min=4.820000,Max=4.820000),Z=(Min=-1.690000,Max=5.000000))
+         VelocityLossRange=(Z=(Max=4.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.e_u408_deco_small.SpriteEmitter1'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

@@ -1,0 +1,166 @@
+class d_in_makestone_ta_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter4
+         VertexMesh=VertMesh'LineageEffectMeshes.ice_knight_exp2'
+         UseMeshBlendMode=False
+         UseParticleColor=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=128,G=149,R=168,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=91,G=113,R=130,A=255))
+         FadeOutStartTime=0.750000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         StartSizeRange=(X=(Min=0.230000,Max=0.230000),Y=(Min=0.230000,Max=0.230000),Z=(Min=0.230000,Max=0.230000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles6.fx_m_t4088'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="VertMeshEmitter4"
+     End Object
+     Emitters(0)=VertMeshEmitter'LineageEffect.d_in_makestone_ta_simple.VertMeshEmitter4'
+     Begin Object Class=TrailEmitter Name=TrailEmitter30464
+         TrailShadeType=PTTST_PointLife
+         MaxPointsPerTrail=1000
+         UseCrossedSheets=True
+         PointLifeTime=1.000000
+         AttachEmitterIndex=3
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=208,G=216,R=223,A=255))
+         ColorScale(1)=(RelativeTime=0.457143,Color=(B=137,G=156,R=173,A=255))
+         ColorScale(2)=(RelativeTime=0.896429)
+         ColorScale(3)=(RelativeTime=1.000000)
+         FadeOutStartTime=0.600000
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=4.000000)
+         SizeScale(1)=(RelativeTime=0.400000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4039'
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         Name="TrailEmitter30464"
+     End Object
+     Emitters(1)=TrailEmitter'LineageEffect.d_in_makestone_ta_simple.TrailEmitter30464'
+     Begin Object Class=MeshEmitter Name=MeshEmitter21
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.Barler_crack3'
+         RenderTwoSided=True
+         UseParticleColor=True
+         Acceleration=(Z=-300.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=203,G=203,R=228,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=200,G=200,R=227,A=255))
+         ColorMultiplierRange=(X=(Min=0.900000,Max=1.000000),Y=(Min=0.900000,Max=1.000000),Z=(Min=0.900000,Max=1.000000))
+         FadeOutStartTime=0.560000
+         FadeOut=True
+         MaxParticles=7
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=40.000000)
+         StartLocationRange=(X=(Min=-20.000000,Max=20.000000),Y=(Min=-20.000000,Max=20.000000),Z=(Min=-30.000000,Max=30.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=10.000000,Max=100.000000),Z=(Min=10.000000,Max=30.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.300000,Max=0.300000),Y=(Min=-0.300000,Max=0.300000),Z=(Min=-0.300000,Max=0.300000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=0.050000,Max=0.250000),Y=(Min=0.050000,Max=0.250000),Z=(Min=0.050000,Max=0.250000))
+         InitialParticlesPerSecond=300.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles6.fx_m_t7099'
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         StartVelocityRange=(X=(Min=10.000000,Max=200.000000),Y=(Min=10.000000,Max=200.000000),Z=(Min=50.000000,Max=80.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="MeshEmitter21"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_in_makestone_ta_simple.MeshEmitter21'
+     Begin Object Class=MeshEmitter Name=MeshEmitter22
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.Barler_crack3'
+         RenderTwoSided=True
+         UseParticleColor=True
+         Acceleration=(Z=-500.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=200,G=200,R=227,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=199,G=199,R=226,A=255))
+         ColorMultiplierRange=(X=(Min=0.900000,Max=1.000000),Y=(Min=0.900000,Max=1.000000),Z=(Min=0.900000,Max=1.000000))
+         FadeOutStartTime=0.650000
+         FadeOut=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=30.000000)
+         StartLocationRange=(X=(Min=-30.000000,Max=30.000000),Y=(Min=-30.000000,Max=30.000000),Z=(Max=5.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=10.000000,Max=100.000000),Z=(Min=10.000000,Max=30.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-0.500000,Max=0.500000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=0.010000,Max=0.080000),Y=(Min=0.010000,Max=0.080000),Z=(Min=0.010000,Max=0.080000))
+         InitialParticlesPerSecond=300.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles6.fx_m_t7099'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=300.000000,Max=300.000000),Y=(Min=300.000000,Max=300.000000),Z=(Min=50.000000,Max=300.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Max=1.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="MeshEmitter22"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.d_in_makestone_ta_simple.MeshEmitter22'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter14
+         Acceleration=(Z=-57.200001)
+         ColorScale(0)=(Color=(B=254,G=227,R=203,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=250,G=227,R=197,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.850000,Max=0.850000),Z=(Min=0.600000,Max=0.600000))
+         Opacity=0.600000
+         FadeOutStartTime=0.600000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=15.000000)
+         StartLocationRange=(X=(Min=-14.300000,Max=14.300000),Y=(Min=-14.300000,Max=14.300000),Z=(Min=-14.300000,Max=14.300000))
+         StartLocationShape=PTLS_Polar
+         SphereRadiusRange=(Min=20.000000,Max=20.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=60.000000,Max=110.000000),Z=(Min=20.000000,Max=20.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=30.000000,Max=85.800003),Y=(Min=30.000000,Max=85.800003),Z=(Min=30.000000,Max=85.800003))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5001'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.200000,Max=1.500000)
+         StartVelocityRange=(X=(Min=143.000000,Max=143.000000),Y=(Min=143.000000,Max=143.000000),Z=(Min=143.000000,Max=143.000000))
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         GetVelocityDirectionFrom=PTVD_StartPositionAndOwner
+         Name="SpriteEmitter14"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.d_in_makestone_ta_simple.SpriteEmitter14'
+     AutoReset=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bUnlit=False
+}

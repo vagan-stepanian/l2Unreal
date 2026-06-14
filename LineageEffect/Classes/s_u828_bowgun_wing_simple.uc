@@ -1,0 +1,157 @@
+class s_u828_bowgun_wing_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         Acceleration=(Z=-30.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=179,G=179,R=217,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=179,G=179,R=217,A=255))
+         FadeOutStartTime=0.864000
+         FadeOut=True
+         FadeInEndTime=0.276000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=6
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-5.000000,Max=-2.000000),Y=(Min=-5.000000,Max=20.000000),Z=(Max=20.000000))
+         SphereRadiusRange=(Max=15.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-1.000000,Max=1.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.600000)
+         StartSizeRange=(X=(Min=1.000000,Max=4.000000),Y=(Min=1.000000,Max=4.000000),Z=(Min=1.000000,Max=4.000000))
+         InitialParticlesPerSecond=12.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.wingleaf'
+         BlendBetweenSubdivisions=True
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=1.200000,Max=1.200000)
+         InitialDelayRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-30.000000),Y=(Min=20.000000,Max=60.000000),Z=(Min=-20.000000,Max=20.000000))
+         VelocityLossRange=(Y=(Max=2.500000),Z=(Max=2.500000))
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.s_u828_bowgun_wing_simple.SpriteEmitter7'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter3
+         VertexMesh=VertMesh'LineageEffectMeshes.bowgunWing60'
+         UseMeshBlendMode=False
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=199,G=183,R=219,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.750000,Max=0.750000))
+         Opacity=0.500000
+         FadeOutStartTime=1.640000
+         FadeOut=True
+         FadeInEndTime=0.220000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=-1.050000,Max=-1.050000),Y=(Min=1.050000,Max=1.050000),Z=(Min=1.050000,Max=1.050000))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         InitialDelayRange=(Min=1.000000,Max=1.000000)
+         Name="VertMeshEmitter3"
+     End Object
+     Emitters(1)=VertMeshEmitter'LineageEffect.s_u828_bowgun_wing_simple.VertMeshEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.000000
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         UniformSize=True
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.s_u828_bowgun_wing_simple.SpriteEmitter8'
+     Begin Object Class=MeshEmitter Name=MeshEmitter14
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.Barler_bright0'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.457143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=4.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.030000
+         FadeOutStartTime=0.300000
+         FadeOut=True
+         FadeInEndTime=0.300000
+         FadeIn=True
+         MaxParticles=6
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-5.000000,Max=-5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=-10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(Y=(Max=0.250000))
+         StartSpinRange=(Y=(Max=0.250000),Z=(Min=0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=0.220000,Max=0.220000),Y=(Min=0.220000,Max=0.220000),Z=(Min=0.220000,Max=0.220000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.800000,Max=0.800000)
+         StartVelocityRange=(X=(Min=-20.000000,Max=-15.000000))
+         AddVelocityFromOtherEmitter=1
+         Name="MeshEmitter14"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.s_u828_bowgun_wing_simple.MeshEmitter14'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.300000
+         FadeOutStartTime=0.412500
+         FadeOut=True
+         FadeInEndTime=0.187500
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=12
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-20.000000,Max=-5.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.800000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0127'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.100000,Max=1.250000)
+         InitialDelayRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-20.000000,Max=-15.000000),Y=(Min=15.000000,Max=20.000000))
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.s_u828_bowgun_wing_simple.SpriteEmitter11'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.300000
+     bDirectional=True
+}

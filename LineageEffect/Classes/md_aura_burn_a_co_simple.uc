@@ -1,0 +1,118 @@
+class md_aura_burn_a_co_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter39
+         UseDirectionAs=PTDU_UpAndNormal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=187,G=111,R=206,A=255))
+         ColorScale(1)=(RelativeTime=0.732143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.350000
+         FadeOutStartTime=0.230000
+         FadeOut=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         ForcedFade=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=10.000000,Z=80.000000)
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-0.020000,Max=0.020000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.300000)
+         SizeScale(2)=(RelativeTime=0.250000,RelativeSize=1.100000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=100.000000,Max=100.000000),Z=(Min=40.000000,Max=40.000000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3043'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(Z=(Min=5.000000,Max=10.000000))
+         VelocityLossRange=(Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter39"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.md_aura_burn_a_co_simple.SpriteEmitter39'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter40
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.006000
+         FadeOut=True
+         MaxParticles=1
+         WeatherSoundCheck=True
+         ForcedFade=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=15.000000,Z=80.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=50.000000,Max=50.000000))
+         InitialParticlesPerSecond=170.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3033'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=1.000000))
+         VelocityLossRange=(Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter40"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.md_aura_burn_a_co_simple.SpriteEmitter40'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter41
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=-300.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.607143,Color=(B=195,G=195,R=195,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         Opacity=0.600000
+         FadeOutStartTime=0.150000
+         FadeOut=True
+         FadeInEndTime=0.010000
+         FadeIn=True
+         MaxParticles=30
+         WeatherSoundCheck=True
+         ForcedFade=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=75.000000)
+         StartLocationRange=(X=(Min=-35.000000,Max=35.000000),Y=(Min=-35.000000,Max=35.000000),Z=(Min=-40.000000,Max=40.000000))
+         SphereRadiusRange=(Min=20.000000,Max=20.000000)
+         StartLocationPolarRange=(X=(Min=70.000000,Max=110.000000),Y=(Max=360.000000),Z=(Min=10.000000,Max=15.000000))
+         SpinsPerSecondRange=(X=(Max=0.100000),Y=(Min=0.050000,Max=0.100000),Z=(Min=0.050000,Max=0.100000))
+         StartSpinRange=(X=(Min=-0.050000,Max=0.050000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.180000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.800000,RelativeSize=0.500000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=0.400000,Max=0.800000),Y=(Min=3.000000,Max=6.000000),Z=(Min=0.400000,Max=0.800000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'FX_E_T.Flameset_a.flame_a00'
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.300000,Max=1.500000)
+         StartVelocityRange=(X=(Min=400.000000,Max=400.000000),Y=(Min=400.000000,Max=400.000000),Z=(Min=250.000000,Max=250.000000))
+         VelocityLossRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter41"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.md_aura_burn_a_co_simple.SpriteEmitter41'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=-16512)
+     DrawScale=0.150000
+     SwayRotationOrig=(Yaw=-16512)
+     bDirectional=True
+}

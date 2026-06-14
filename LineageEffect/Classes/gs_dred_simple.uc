@@ -1,0 +1,206 @@
+class gs_dred_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter30
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.000000
+         MaxParticles=1
+         RespawnDeadParticles=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=8.000000,Max=8.000000)
+         Name="SpriteEmitter30"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.gs_dred_simple.SpriteEmitter30'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter31
+         ColorScale(0)=(Color=(R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.100000,Max=0.100000))
+         FadeOutStartTime=0.129000
+         FadeOut=True
+         FadeInEndTime=0.129000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=210
+         RespawnDeadParticles=False
+         AddLocationFromOtherEmitter=0
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.010000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.250000)
+         StartSizeRange=(X=(Min=12.000000,Max=12.000000),Y=(Min=12.000000,Max=12.000000),Z=(Min=12.000000,Max=12.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t4046'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-0.100000,Max=0.100000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-0.100000,Max=0.100000))
+         Name="SpriteEmitter31"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.gs_dred_simple.SpriteEmitter31'
+     Begin Object Class=TrailEmitter Name=TrailEmitter2132
+         TrailShadeType=PTTST_Linear
+         MaxPointsPerTrail=100
+         DistanceThreshold=10.000000
+         UseCrossedSheets=True
+         PointLifeTime=3.000000
+         ColorScale(0)=(Color=(R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.655000,Max=0.655000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.655000,Max=0.655000))
+         FadeOutStartTime=3.000000
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=12.000000,Max=12.000000),Y=(Min=12.000000,Max=12.000000),Z=(Min=12.000000,Max=12.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t7040'
+         LifetimeRange=(Min=10.000000,Max=10.000000)
+         Name="TrailEmitter2132"
+     End Object
+     Emitters(2)=TrailEmitter'LineageEffect.gs_dred_simple.TrailEmitter2132'
+     Begin Object Class=TrailEmitter Name=TrailEmitter2133
+         TrailShadeType=PTTST_PointLife
+         MaxPointsPerTrail=100
+         DistanceThreshold=5.000000
+         UseCrossedSheets=True
+         PointLifeTime=1.500000
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=196,G=125,R=196,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=17,G=13,R=200,A=255))
+         FadeOutStartTime=3.000000
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         RespawnDeadParticles=False
+         AutoReset=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=13.000000,Max=13.000000),Y=(Min=13.000000,Max=13.000000),Z=(Min=13.000000,Max=13.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t8282'
+         LifetimeRange=(Min=8.000000,Max=8.000000)
+         Name="TrailEmitter2133"
+     End Object
+     Emitters(3)=TrailEmitter'LineageEffect.gs_dred_simple.TrailEmitter2133'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter32
+         ColorScale(0)=(Color=(B=150,G=255,R=45,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(G=255,R=128,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.450000,Max=0.450000),Z=(Min=0.450000,Max=0.450000))
+         FadeOutStartTime=0.215000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         MaxParticles=210
+         RespawnDeadParticles=False
+         AddLocationFromOtherEmitter=0
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.010000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Min=9.000000,Max=9.000000),Y=(Min=9.000000,Max=9.000000),Z=(Min=9.000000,Max=9.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5110a'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-0.100000,Max=0.100000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-0.100000,Max=0.100000))
+         Name="SpriteEmitter32"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.gs_dred_simple.SpriteEmitter32'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter33
+         ColorScale(0)=(Color=(B=150,G=255,R=45,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(G=255,R=128,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         FadeOutStartTime=0.075000
+         FadeOut=True
+         FadeInEndTime=0.075000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=210
+         RespawnDeadParticles=False
+         AddLocationFromOtherEmitter=0
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.010000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=15.000000,Max=15.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8062'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(X=(Min=-0.100000,Max=0.100000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-0.100000,Max=0.100000))
+         Name="SpriteEmitter33"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.gs_dred_simple.SpriteEmitter33'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter35
+         ColorScale(0)=(Color=(B=150,G=255,R=45,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(G=255,R=128,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         FadeOutStartTime=0.075000
+         FadeOut=True
+         FadeInEndTime=0.075000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=1
+         RespawnDeadParticles=False
+         Disabled=True
+         AddLocationFromOtherEmitter=0
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.010000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=80.000000,Max=80.000000),Y=(Min=80.000000,Max=80.000000),Z=(Min=80.000000,Max=80.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t7136'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=5.000000,Max=5.000000)
+         StartVelocityRange=(X=(Min=-0.100000,Max=0.100000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-0.100000,Max=0.100000))
+         Name="SpriteEmitter35"
+     End Object
+     Emitters(6)=SpriteEmitter'LineageEffect.gs_dred_simple.SpriteEmitter35'
+     AutoReset=True
+     RotPerSecond=(Roll=12288)
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.300000
+     bUnlit=False
+     bDirectional=True
+}

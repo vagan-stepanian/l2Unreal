@@ -1,0 +1,88 @@
+class br_e_u044_aga_dancingchild_atk_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter37
+         Acceleration=(Z=5.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=253,G=187,R=241,A=255))
+         ColorScale(1)=(RelativeTime=0.550000,Color=(B=79,G=79,R=79,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=175,G=253,R=153,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.880000),Y=(Min=0.600000,Max=0.850000),Z=(Min=0.700000,Max=1.000000))
+         FadeOutStartTime=0.740000
+         FadeOut=True
+         FadeInEndTime=0.040000
+         FadeIn=True
+         MaxParticles=28
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=1.000000)
+         StartLocationRange=(Y=(Min=-0.235000,Max=0.235000),Z=(Min=-0.235000,Max=0.235000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=9.000000,Max=9.000000),Y=(Min=-13.500000,Max=13.500000),Z=(Min=-2.000000,Max=2.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         RevolutionsPerSecondRange=(X=(Min=-0.150000,Max=0.150000),Y=(Min=-0.150000,Max=0.150000),Z=(Min=-0.150000,Max=0.150000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.700000,RelativeSize=2.500000)
+         SizeScale(1)=(RelativeTime=0.850000,RelativeSize=5.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=7.000000)
+         StartSizeRange=(X=(Min=0.125000,Max=0.312500),Y=(Min=0.125000,Max=0.312500),Z=(Min=0.125000,Max=0.312500))
+         InitialParticlesPerSecond=72.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6004'
+         UseRandomSubdivision=True
+         SubdivisionStart=7
+         SubdivisionEnd=8
+         LifetimeRange=(Min=0.001000,Max=2.500000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         VelocityLossRange=(Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter37"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.br_e_u044_aga_dancingchild_atk_simple.SpriteEmitter37'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter38
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=179,G=179,R=179,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.900000,Max=0.900000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.120000
+         FadeOut=True
+         FadeInEndTime=0.035000
+         FadeIn=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         RevolutionsPerSecondRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.150000,RelativeSize=1.800000)
+         SizeScale(1)=(RelativeTime=0.240000,RelativeSize=1.900000)
+         SizeScale(2)=(RelativeTime=0.490000,RelativeSize=2.500000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=3.200000)
+         StartSizeRange=(X=(Min=0.375000,Max=0.625000),Y=(Min=0.375000,Max=0.625000),Z=(Min=0.375000,Max=0.625000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6001'
+         SubdivisionStart=1
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="SpriteEmitter38"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.br_e_u044_aga_dancingchild_atk_simple.SpriteEmitter38'
+     bLightChanged=True
+     bNoDelete=False
+     Tag="Emitter"
+     bSunAffect=True
+     DrawScale=0.100000
+}

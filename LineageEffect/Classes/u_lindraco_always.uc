@@ -1,0 +1,87 @@
+class u_lindraco_always extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         Acceleration=(Z=1.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=216,R=81,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=100,A=255))
+         Opacity=0.400000
+         FadeOutStartTime=0.650000
+         FadeOut=True
+         FadeInEndTime=0.440000
+         FadeIn=True
+         UseActorForces=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=35
+         StartLocationRange=(X=(Min=-2.500000,Max=2.500000),Y=(Min=-0.850000,Max=0.850000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=1.000000,Max=2.000000)
+         StartLocationPolarRange=(X=(Min=360.000000,Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.430000)
+         SpinsPerSecondRange=(X=(Min=0.015000,Max=0.250000))
+         StartSpinRange=(X=(Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=4.000000)
+         SizeScale(1)=(RelativeTime=0.100000,RelativeSize=2.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=6.000000)
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.300000,Max=0.300000))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t7059'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionStart=1
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_lindraco_always.SpriteEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         Acceleration=(Z=1.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=180,R=87,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=100,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.800000
+         FadeOutStartTime=0.260000
+         FadeOut=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=30
+         StartLocationRange=(X=(Min=0.500000,Max=0.500000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=1.000000,Max=3.000000)
+         StartLocationPolarRange=(Z=(Max=5.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.420000)
+         SpinsPerSecondRange=(X=(Max=0.125000))
+         StartSpinRange=(X=(Min=0.200000,Max=0.400000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.040000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=12.000000)
+         StartSizeRange=(X=(Min=0.050000,Max=0.050000),Y=(Min=0.050000,Max=0.050000),Z=(Min=0.050000,Max=0.050000))
+         InitialParticlesPerSecond=7.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0002'
+         UseRandomSubdivision=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_lindraco_always.SpriteEmitter1'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.020000
+     CollisionRadius=5.599734
+     CollisionHeight=3.959610
+     ColLocation=(X=-96.000000,Y=-109.000000,Z=-449.000000)
+}

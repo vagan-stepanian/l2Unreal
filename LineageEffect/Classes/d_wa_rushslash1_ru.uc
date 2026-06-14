@@ -1,0 +1,137 @@
+class d_wa_rushslash1_ru extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter15
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.pwave00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=-5.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.707143,Color=(B=108,G=108,R=108,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=62,G=62,R=62,A=255))
+         ColorMultiplierRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.490000,Max=0.490000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.100000
+         FadeOutStartTime=0.068000
+         FadeOut=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=15.000000)
+         SpinParticles=True
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.500000,Max=1.500000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(X=(Min=-20.000000,Max=-20.000000))
+         Name="MeshEmitter15"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_wa_rushslash1_ru.MeshEmitter15'
+     Begin Object Class=MeshEmitter Name=MeshEmitter10
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_power04'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=-100.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=255,G=255,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=151,R=151,A=255))
+         Opacity=0.700000
+         FadeOutStartTime=0.092400
+         FadeOut=True
+         FadeInEndTime=0.006600
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=20.000000)
+         StartLocationRange=(X=(Min=-20.000000,Max=20.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Min=2.000000,Max=4.000000))
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=0.750000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.250000,Max=0.300000),Z=(Min=0.250000,Max=0.300000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.220000,Max=0.220000)
+         StartVelocityRange=(X=(Min=-200.000000,Max=-200.000000))
+         Name="MeshEmitter10"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_wa_rushslash1_ru.MeshEmitter10'
+     Begin Object Class=MeshEmitter Name=MeshEmitter14
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.spear_hand02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=-5.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.707143,Color=(B=108,G=108,R=108,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=62,G=62,R=62,A=255))
+         ColorMultiplierRange=(X=(Min=0.938000,Max=0.938000),Y=(Min=0.780000,Max=0.780000),Z=(Min=0.620000,Max=0.620000))
+         Opacity=0.400000
+         FadeOutStartTime=0.068000
+         FadeOut=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=20.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Min=23.180000,Max=23.180000))
+         StartSpinRange=(Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(X=(Min=-232.559998,Max=-90.288002))
+         Name="MeshEmitter14"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_wa_rushslash1_ru.MeshEmitter14'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseDirectionAs=PTDU_Up
+         Acceleration=(X=-500.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.320000,Max=0.320000),Y=(Min=0.764000,Max=0.764000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.150000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         WeatherSoundCheck=True
+         IsRepresentativeParticle=False
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=-20.000000)
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-20.000000,Max=20.000000),Z=(Min=-20.000000,Max=20.000000))
+         SphereRadiusRange=(Max=50.000000)
+         StartSizeRange=(X=(Min=4.180000,Max=8.131000),Y=(Min=80.000000,Max=120.000000),Z=(Min=4.180000,Max=8.131000))
+         InitialParticlesPerSecond=200.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8137'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         StartVelocityRange=(X=(Min=-90.000000,Max=-30.000000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_wa_rushslash1_ru.SpriteEmitter2'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.500000
+     bDirectional=True
+}

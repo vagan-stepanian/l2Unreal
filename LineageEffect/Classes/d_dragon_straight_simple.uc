@@ -1,0 +1,80 @@
+class d_dragon_straight_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter4
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=5.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.550000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.432000
+         FadeOut=True
+         FadeInEndTime=0.288000
+         FadeIn=True
+         MaxParticles=100
+         RespawnDeadParticles=False
+         Disabled=True
+         StartLocationRange=(X=(Max=500.000000),Y=(Min=-20.000000,Max=20.000000),Z=(Min=-2.000000,Max=6.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.001000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=11.000000,Max=11.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=11.000000,Max=11.000000))
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4023'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=32
+         LifetimeRange=(Min=3.400000,Max=3.400000)
+         StartVelocityRange=(X=(Min=-1.500000,Max=1.500000),Y=(Min=-1.500000,Max=1.500000),Z=(Min=4.000000,Max=7.000000))
+         VelocityLossRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.500000,Max=1.500000))
+         Name="SpriteEmitter4"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_dragon_straight_simple.SpriteEmitter4'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter5
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=2.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=109,G=106,R=219,A=255))
+         ColorScale(1)=(RelativeTime=0.346429,Color=(B=11,G=11,R=223,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=85,G=34,R=26,A=255))
+         FadeOutStartTime=0.432000
+         FadeOut=True
+         FadeInEndTime=0.270000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=300
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Max=500.000000),Y=(Min=-20.000000,Max=20.000000))
+         UseRevolutionScale=True
+         RevolutionScale(0)=(RelativeTime=0.030000,RelativeRevolution=(X=50.000000))
+         RevolutionScaleRepeats=20.000000
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.001000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.800000,RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.460000,RelativeSize=-1.000000)
+         StartSizeRange=(X=(Min=13.000000,Max=13.000000),Y=(Min=13.000000,Max=13.000000),Z=(Min=13.000000,Max=13.000000))
+         InitialParticlesPerSecond=120.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8040'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=1
+         SubdivisionEnd=32
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         VelocityLossRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.500000,Max=1.500000))
+         Name="SpriteEmitter5"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.d_dragon_straight_simple.SpriteEmitter5'
+     bNoDelete=False
+}

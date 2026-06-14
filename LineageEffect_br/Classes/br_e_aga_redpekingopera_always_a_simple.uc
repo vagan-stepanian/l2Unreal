@@ -1,0 +1,87 @@
+class br_e_aga_redpekingopera_always_a_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.521429,Color=(B=97,G=97,R=97,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=20.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.800000
+         FadeOutStartTime=1.836000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=25
+         StartLocationOffset=(Z=3.000000)
+         StartLocationShape=PTLS_Polar
+         UseRevolution=True
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.150000,Max=0.250000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.050000,RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=0.070000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=0.410000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=0.187500,Max=0.187500),Y=(Min=0.187500,Max=0.187500),Z=(Min=0.187500,Max=0.187500))
+         InitialParticlesPerSecond=40.000000
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=1.000000,Max=6.000000)
+         StartVelocityRange=(Z=(Min=-28.125000,Max=28.125000))
+         MaxAbsVelocity=(X=2500.000000,Y=10000.000000,Z=5000.000000)
+         VelocityLossRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_e_aga_redpekingopera_always_a_simple.SpriteEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.539286,Color=(B=155,G=155,R=155,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=9.000000
+         ColorMultiplierRange=(X=(Max=0.900000),Y=(Max=0.900000),Z=(Max=0.900000))
+         Opacity=0.500000
+         FadeOutStartTime=0.120000
+         FadeOut=True
+         FadeInEndTime=0.040000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=15
+         StartLocationOffset=(Z=5.000000)
+         StartLocationRange=(X=(Min=-45.360001,Max=45.360001))
+         StartLocationShape=PTLS_Sphere
+         RevolutionCenterOffsetRange=(X=(Max=0.400000),Y=(Max=2.000000),Z=(Max=0.800000))
+         RevolutionsPerSecondRange=(Z=(Min=0.200000,Max=0.200000))
+         RevolutionScale(0)=(RelativeRevolution=(Z=1.000000))
+         RevolutionScale(1)=(RelativeTime=1.000000)
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Max=1.000000))
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.300000)
+         StartSizeRange=(X=(Max=5.040000),Y=(Max=5.040000),Z=(Max=5.040000))
+         InitialParticlesPerSecond=10.000000
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0105'
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect_Br.br_e_aga_redpekingopera_always_a_simple.SpriteEmitter1'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

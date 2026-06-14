@@ -1,0 +1,133 @@
+class mb_frintessa_body_b_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter267
+         Acceleration=(Z=10.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.960000
+         FadeOut=True
+         FadeInEndTime=0.960000
+         FadeIn=True
+         MaxParticles=25
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-30.000000,Max=30.000000),Z=(Max=20.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.040000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=20.000000,Max=40.000000),Y=(Min=20.000000,Max=40.000000),Z=(Min=20.000000,Max=40.000000))
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures2.balakas.fx_m_t2013'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=2.000000,Max=2.400000)
+         StartVelocityRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         Name="SpriteEmitter267"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.mb_frintessa_body_b_simple.SpriteEmitter267'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter268
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=15.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=4,G=4,R=253,A=255))
+         Opacity=0.240000
+         FadeOutStartTime=1.410000
+         FadeOut=True
+         FadeInEndTime=1.410000
+         FadeIn=True
+         MaxParticles=20
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-30.000000,Max=30.000000),Z=(Max=20.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.040000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.680000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.540000)
+         StartSizeRange=(X=(Min=10.000000,Max=20.000000),Y=(Min=18.000000,Max=37.000000),Z=(Min=18.000000,Max=37.000000))
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2054'
+         TextureUSubdivisions=10
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=30
+         LifetimeRange=(Min=2.000000,Max=3.000000)
+         StartVelocityRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=1.000000,Max=2.000000))
+         Name="SpriteEmitter268"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.mb_frintessa_body_b_simple.SpriteEmitter268'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.spark00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=49.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=235,G=67,R=71,A=255))
+         ColorMultiplierRange=(X=(Min=0.896000,Max=1.000000),Y=(Min=0.896000,Max=1.000000),Z=(Min=0.896000,Max=1.000000))
+         Opacity=0.800000
+         FadeOutStartTime=0.480000
+         FadeOut=True
+         FadeInEndTime=0.480000
+         FadeIn=True
+         MaxParticles=25
+         WeatherSoundCheck=True
+         StartLocationRange=(X=(Min=-30.000000,Max=30.000000),Y=(Min=-30.000000,Max=30.000000),Z=(Min=-30.000000,Max=30.000000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=15.000000,Max=30.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.600000,Max=1.000000),Y=(Min=0.600000,Max=1.000000),Z=(Min=0.600000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         StartSizeRange=(X=(Min=0.100000,Max=0.700000),Y=(Min=0.100000,Max=0.700000),Z=(Min=0.100000,Max=0.700000))
+         LifetimeRange=(Min=0.600000,Max=0.801000)
+         StartVelocityRange=(X=(Min=-60.000000,Max=60.000000),Y=(Min=-60.000000,Max=60.000000),Z=(Min=-60.000000,Max=60.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="MeshEmitter1"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.mb_frintessa_body_b_simple.MeshEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter271
+         Acceleration=(Z=63.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.400000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=16
+         StartLocationOffset=(Z=20.000000)
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-50.000000,Max=50.000000),Z=(Min=-20.000000,Max=20.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.050000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UniformSize=True
+         StartSizeRange=(X=(Min=20.000000,Max=30.000000),Y=(Min=20.000000,Max=30.000000),Z=(Min=20.000000,Max=30.000000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.balakas.fx_m_t1037'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=20.000000))
+         Name="SpriteEmitter271"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.mb_frintessa_body_b_simple.SpriteEmitter271'
+     AutoReset=True
+     bDynamicActorFilterState=True
+     bLightChanged=True
+     bNoDelete=False
+     DrawScale=0.100000
+     bDirectional=True
+}

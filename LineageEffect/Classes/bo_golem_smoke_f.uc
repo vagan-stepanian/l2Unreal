@@ -1,0 +1,86 @@
+class bo_golem_smoke_f extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         UseDirectionAs=PTDU_Up
+         Acceleration=(Z=15.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=28,G=145,R=251,A=255))
+         ColorScale(1)=(RelativeTime=0.082143,Color=(R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.125000,Color=(B=12,G=12,R=12,A=255))
+         ColorScale(3)=(RelativeTime=0.207143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.970000,Max=1.000000),Y=(Min=0.970000,Max=1.000000),Z=(Min=0.970000,Max=1.000000))
+         Opacity=0.600000
+         FadeOutStartTime=0.399000
+         FadeOut=True
+         FadeInEndTime=0.399000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=40
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.400000)
+         SpinsPerSecondRange=(X=(Min=-0.020000,Max=0.020000))
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=4.000000,Max=8.000000),Y=(Min=4.000000,Max=8.000000),Z=(Min=4.000000,Max=8.000000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1002'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         StartVelocityRange=(X=(Min=30.000000,Max=50.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=13.350000,Max=17.665001))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.bo_golem_smoke_f.SpriteEmitter8'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         Acceleration=(Z=15.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=41,G=100,R=237,A=255))
+         ColorScale(1)=(RelativeTime=0.221429,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.970000,Max=1.000000),Y=(Min=0.970000,Max=1.000000),Z=(Min=0.970000,Max=1.000000))
+         Opacity=0.400000
+         FadeOutStartTime=0.399000
+         FadeOut=True
+         FadeInEndTime=0.399000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=40
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=-0.020000,Max=0.020000))
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=3.000000,Max=6.000000),Y=(Min=3.000000,Max=6.000000),Z=(Min=3.000000,Max=6.000000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1066'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=1
+         UseRandomSubdivision=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         StartVelocityRange=(X=(Min=40.000000,Max=60.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=13.350000,Max=17.665001))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.bo_golem_smoke_f.SpriteEmitter9'
+     AutoReset=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=901136)
+     DrawScale=0.100000
+     SwayRotationOrig=(Yaw=901136)
+     bDirectional=True
+}

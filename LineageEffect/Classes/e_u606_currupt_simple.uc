@@ -1,0 +1,80 @@
+class e_u606_currupt_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         Acceleration=(Z=10.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=51,R=225,A=255))
+         ColorScale(1)=(RelativeTime=0.417857,Color=(B=64,R=64,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=64,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.810000
+         FadeOut=True
+         FadeInEndTime=0.250000
+         FadeIn=True
+         MaxParticles=18
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.050000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=100.000000,Max=120.000000),Y=(Min=100.000000,Max=120.000000),Z=(Min=100.000000,Max=120.000000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t4072'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Max=5.000000),Y=(Max=5.000000),Z=(Max=5.000000))
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.e_u606_currupt_simple.SpriteEmitter0'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter6
+         VertexMesh=VertMesh'LineageEffectMeshes.linetail60frm_red'
+         UseMeshBlendMode=False
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=96,G=96,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=113,G=241,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.300000,Max=0.300000))
+         Opacity=0.140000
+         FadeOutStartTime=1.696500
+         FadeOut=True
+         FadeInEndTime=0.799500
+         FadeIn=True
+         MaxParticles=30
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SphereRadiusRange=(Max=50.000000)
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         RevolutionsPerSecondRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-0.500000,Max=0.500000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.200000,Max=0.400000),Y=(Min=0.200000,Max=0.400000),Z=(Min=0.200000,Max=0.400000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles5.fx_m_t4073'
+         LifetimeRange=(Min=1.950000,Max=2.500000)
+         Name="VertMeshEmitter6"
+     End Object
+     Emitters(1)=VertMeshEmitter'LineageEffect.e_u606_currupt_simple.VertMeshEmitter6'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=-32)
+     DrawScale=0.200000
+     SwayRotationOrig=(Yaw=-32)
+}

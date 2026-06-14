@@ -1,0 +1,50 @@
+class a_u011_death_penalty extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         Acceleration=(Z=-65.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=145,R=117,A=255))
+         ColorScale(1)=(RelativeTime=0.182143,Color=(B=255,G=203,R=155,A=255))
+         ColorScale(2)=(RelativeTime=0.432143,Color=(B=255,G=120,R=47,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=247,G=86,A=255))
+         FadeOutStartTime=1.080000
+         FadeOut=True
+         FadeInEndTime=0.120000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=20
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=3.000000)
+         StartLocationRange=(X=(Min=-5.200000,Max=5.200000),Y=(Min=-5.200000,Max=5.200000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.100000,RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=0.360000,RelativeSize=4.600000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=6.000000)
+         StartSizeRange=(X=(Min=1.300000,Max=2.925000),Y=(Min=1.300000,Max=2.925000),Z=(Min=1.300000,Max=2.925000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0089'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.000000,Max=1.500000)
+         StartVelocityRange=(X=(Min=-70.000000,Max=70.000000),Y=(Min=-70.000000,Max=70.000000),Z=(Min=80.000000,Max=80.000000))
+         VelocityLossRange=(X=(Min=4.000000,Max=4.000000),Y=(Min=4.000000,Max=4.000000),Z=(Min=4.000000,Max=4.000000))
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.a_u011_death_penalty.SpriteEmitter3'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

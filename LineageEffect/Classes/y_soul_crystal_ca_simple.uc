@@ -1,0 +1,187 @@
+class y_soul_crystal_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter314
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.new_clan.new_clan_round2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=254,G=185,R=69,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=240,G=20,R=15,A=255))
+         Opacity=0.910000
+         FadeOutStartTime=0.690000
+         FadeOut=True
+         FadeInEndTime=0.190000
+         FadeIn=True
+         MaxParticles=20
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.700000)
+         SizeScale(1)=(RelativeTime=0.700000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.250000),Y=(Min=0.150000,Max=0.250000),Z=(Min=0.150000,Max=0.250000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles2.fx_m_t_3216'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter314"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.y_soul_crystal_ca_simple.MeshEmitter314'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter829
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=250,G=214,R=41,A=255))
+         ColorScale(1)=(RelativeTime=0.332143,Color=(B=253,G=71,R=2,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=94,G=26,R=9,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.576000
+         FadeOut=True
+         FadeInEndTime=0.324000
+         FadeIn=True
+         MaxParticles=80
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-38.000000,Max=-34.000000),Y=(Min=-2.000000,Max=3.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Min=20.000000,Max=20.000000))
+         RevolutionCenterOffsetRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         RevolutionsPerSecondRange=(X=(Min=-0.050000,Max=0.050000),Y=(Min=-0.050000,Max=0.050000),Z=(Min=-0.050000,Max=0.050000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=3.000000,Max=4.000000),Y=(Min=-7.000000,Max=-4.000000),Z=(Min=3.000000,Max=4.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3042'
+         LifetimeRange=(Min=0.700000,Max=1.200000)
+         StartVelocityRange=(X=(Min=-20.000000,Max=-20.000000),Y=(Min=-20.000000,Max=-20.000000),Z=(Min=-20.000000,Max=-20.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         WarmupTicksPerSecond=2.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter829"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.y_soul_crystal_ca_simple.SpriteEmitter829'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter831
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=251,G=162,R=40,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=251,G=98,R=15,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.300000,Max=0.300000))
+         FadeOutStartTime=0.570000
+         FadeOut=True
+         FadeInEndTime=0.340000
+         FadeIn=True
+         MaxParticles=40
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-2.250000,Max=2.250000),Y=(Min=-2.250000,Max=2.250000),Z=(Min=-3.000000,Max=4.500000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.700000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=15.000000),Z=(Min=12.000000,Max=12.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5011'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Max=5.000000))
+         Name="SpriteEmitter831"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.y_soul_crystal_ca_simple.SpriteEmitter831'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=128,A=255))
+         ColorMultiplierRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.350000,Max=0.550000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.500000
+         FadeOutStartTime=0.810000
+         FadeOut=True
+         FadeInEndTime=0.630000
+         FadeIn=True
+         MaxParticles=35
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=0.600000,Max=0.600000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=12.000000,Max=12.000000),Y=(Min=12.000000,Max=12.000000),Z=(Min=12.000000,Max=12.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t5133'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.y_soul_crystal_ca_simple.SpriteEmitter1'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter0
+         VertexMesh=VertMesh'LineageEffectMeshes.spiritRoll60'
+         UseMeshBlendMode=False
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=237,G=163,R=122,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=249,G=104,R=62,A=255))
+         Opacity=0.610000
+         FadeOutStartTime=0.840000
+         FadeOut=True
+         FadeInEndTime=0.180000
+         FadeIn=True
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         StartSizeRange=(X=(Min=0.150000,Max=0.150000),Y=(Min=0.150000,Max=0.150000),Z=(Min=0.150000,Max=0.150000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles6.fx_m_t6103'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="VertMeshEmitter0"
+     End Object
+     Emitters(4)=VertMeshEmitter'LineageEffect.y_soul_crystal_ca_simple.VertMeshEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter11
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.White.white_Protect01'
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=237,G=118,R=88,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=200,G=128,R=55,A=255))
+         Opacity=0.100000
+         FadeOutStartTime=0.128000
+         FadeOut=True
+         FadeInEndTime=0.120000
+         FadeIn=True
+         MaxParticles=42
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         Name="MeshEmitter11"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.y_soul_crystal_ca_simple.MeshEmitter11'
+     bNoDelete=False
+}

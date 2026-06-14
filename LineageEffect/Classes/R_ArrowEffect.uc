@@ -1,0 +1,86 @@
+class R_ArrowEffect extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter5
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.000000
+         FadeOutStartTime=0.390000
+         FadeOut=True
+         FadeInEndTime=0.140000
+         FadeIn=True
+         MaxParticles=2
+         WeatherSoundCheck=True
+         StartLocationOffset=(Z=1.000000)
+         StartLocationRange=(X=(Min=-1.500000,Max=1.500000),Y=(Min=-1.500000,Max=1.500000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Y=(Min=1.000000,Max=1.000000))
+         UseRevolutionScale=True
+         RevolutionScale(0)=(RelativeRevolution=(Y=3.000000))
+         RevolutionScale(1)=(RelativeTime=1.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Max=0.400000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.250000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3037'
+         SubdivisionScale(0)=2.000000
+         LifetimeRange=(Min=1.300000,Max=1.300000)
+         StartVelocityRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         VelocityLossRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter5"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.R_ArrowEffect.SpriteEmitter5'
+     Begin Object Class=TrailEmitter Name=TrailEmitter6503
+         TrailShadeType=PTTST_PointLife
+         MaxPointsPerTrail=20
+         DistanceThreshold=10.000000
+         PointLifeTime=1.000000
+         VelocityMinThreshold=1.000000
+         AttachEmitterIndex=1
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.132143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.767857,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=109,G=109,R=109,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=102,G=102,R=102,A=255))
+         ColorMultiplierRange=(X=(Min=0.559000,Max=0.559000),Y=(Min=0.680000,Max=0.680000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.400000
+         FadeOutStartTime=0.522000
+         FadeOut=True
+         FadeInEndTime=0.117000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=1
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0123'
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="TrailEmitter6503"
+     End Object
+     Emitters(2)=TrailEmitter'LineageEffect.R_ArrowEffect.TrailEmitter6503'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bUnlit=False
+     bDirectional=True
+}

@@ -1,0 +1,134 @@
+class rm_self_blaster_body_b_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter33
+         Acceleration=(Z=2.800000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=0.700000),Y=(Min=0.800000,Max=0.800000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.370000
+         FadeOut=True
+         FadeInEndTime=0.370000
+         FadeIn=True
+         MaxParticles=15
+         StartLocationRange=(X=(Min=-0.200000,Max=0.200000),Y=(Min=-0.200000,Max=0.200000),Z=(Min=-0.700000,Max=5.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.400000)
+         StartSizeRange=(X=(Min=2.800000,Max=4.900000),Y=(Min=2.800000,Max=4.900000),Z=(Min=2.800000,Max=4.900000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1002'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=1.300000,Max=1.300000)
+         StartVelocityRange=(X=(Min=-2.800000,Max=2.800000),Y=(Min=-2.800000,Max=2.800000),Z=(Min=-0.700000,Max=4.900000))
+         Name="SpriteEmitter33"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.rm_self_blaster_body_b_simple.SpriteEmitter33'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter34
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=0.490000
+         FadeOut=True
+         FadeInEndTime=0.490000
+         FadeIn=True
+         MaxParticles=4
+         StartLocationOffset=(Z=5.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.050000,Max=0.050000))
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Fire.fx_m_t_3003'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=32
+         LifetimeRange=(Min=1.200000,Max=1.400000)
+         StartVelocityRange=(Z=(Min=0.500000,Max=0.500000))
+         Name="SpriteEmitter34"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.rm_self_blaster_body_b_simple.SpriteEmitter34'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter5
+         VertexMesh=VertMesh'LineageEffectMeshes.hero_aura00'
+         UseMeshBlendMode=False
+         Acceleration=(Z=8.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.630000,Max=0.630000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.700000
+         FadeOutStartTime=0.400000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=4
+         StartLocationOffset=(Z=1.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=0.003000,Max=0.007000),Y=(Min=0.003000,Max=0.007000),Z=(Min=0.003000,Max=0.007000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=4.000000))
+         Name="VertMeshEmitter5"
+     End Object
+     Emitters(2)=VertMeshEmitter'LineageEffect.rm_self_blaster_body_b_simple.VertMeshEmitter5'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter35
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.514286,Color=(B=175,G=175,R=175,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=30.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.790000,Max=0.790000),Z=(Min=0.649000,Max=0.649000))
+         Opacity=0.600000
+         FadeOutStartTime=1.600000
+         FadeOut=True
+         FadeInEndTime=1.600000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=5
+         StartLocationOffset=(Z=-3.000000)
+         StartLocationRange=(Z=(Max=4.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.400000)
+         StartSizeRange=(X=(Min=1.000000,Max=3.000000),Y=(Min=1.000000,Max=3.000000),Z=(Min=1.000000,Max=3.000000))
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1071'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         StartVelocityRange=(Z=(Min=2.000000,Max=4.000000))
+         Name="SpriteEmitter35"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.rm_self_blaster_body_b_simple.SpriteEmitter35'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.010000
+     bDirectional=True
+}

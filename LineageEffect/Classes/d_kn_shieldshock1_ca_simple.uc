@@ -1,0 +1,183 @@
+class d_kn_shieldshock1_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter753
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.828000,Max=0.828000),Z=(Min=0.414000,Max=0.414000))
+         Opacity=0.300000
+         FadeOutStartTime=0.450000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=3
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=-40.000000,Z=-25.000000)
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000))
+         AddLocationFromOtherEmitter=2
+         StartSizeRange=(X=(Min=30.000000,Max=35.000000),Y=(Min=40.000000,Max=60.000000),Z=(Min=30.000000,Max=35.000000))
+         InitialParticlesPerSecond=45.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3206'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=8
+         BlendBetweenSubdivisions=True
+         SubdivisionScale(0)=2.000000
+         SubdivisionStart=10
+         SubdivisionEnd=63
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.120000,Max=0.120000)
+         StartVelocityRange=(X=(Min=-20.000000,Max=-20.000000))
+         Name="SpriteEmitter753"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_kn_shieldshock1_ca_simple.SpriteEmitter753'
+     Begin Object Class=MeshEmitter Name=MeshEmitter380
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.printesha.Ground_e'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=0.164500
+         FadeOut=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(Y=(Min=0.250000,Max=0.250000))
+         StartSizeRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.250000,Max=0.250000),Z=(Min=0.600000,Max=0.600000))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.150000,Max=0.150000)
+         StartVelocityRange=(X=(Min=200.000000,Max=200.000000))
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         Name="MeshEmitter380"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_kn_shieldshock1_ca_simple.MeshEmitter380'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter754
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.180000
+         FadeOutStartTime=0.140000
+         FadeOut=True
+         MaxParticles=2
+         RespawnDeadParticles=False
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=15.000000,Max=15.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=15.000000,Max=15.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(X=(Min=150.000000,Max=150.000000))
+         VelocityLossRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         Name="SpriteEmitter754"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_kn_shieldshock1_ca_simple.SpriteEmitter754'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter755
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.140000
+         FadeOutStartTime=0.105000
+         FadeOut=True
+         MaxParticles=3
+         RespawnDeadParticles=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=50.000000,Max=50.000000))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0105'
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         Name="SpriteEmitter755"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_kn_shieldshock1_ca_simple.SpriteEmitter755'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter756
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.164500
+         FadeOut=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.340000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=55.000000,Max=55.000000),Y=(Min=55.000000,Max=55.000000),Z=(Min=55.000000,Max=55.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.fx_m_t7114'
+         LifetimeRange=(Min=0.350000,Max=0.350000)
+         Name="SpriteEmitter756"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.d_kn_shieldshock1_ca_simple.SpriteEmitter756'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter757
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.760000
+         FadeOutStartTime=0.258000
+         FadeOut=True
+         MaxParticles=7
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=60.000000,Max=120.000000),Y=(Max=360.000000),Z=(Min=5.000000,Max=5.000000))
+         RevolutionsPerSecondRange=(X=(Min=-1.500000,Max=1.500000))
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=15.000000,Max=15.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2033'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         StartVelocityRange=(X=(Min=200.000000,Max=200.000000),Y=(Min=200.000000,Max=200.000000),Z=(Min=200.000000,Max=200.000000))
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=3.000000,Max=3.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter757"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.d_kn_shieldshock1_ca_simple.SpriteEmitter757'
+     Begin Object Class=MeshEmitter Name=MeshEmitter381
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.sh_sphere'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=0.164500
+         FadeOut=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=1.000000)
+         SpinsPerSecondRange=(Z=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=3.500000)
+         StartSizeRange=(X=(Min=0.065000,Max=0.065000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.100000,Max=0.100000))
+         InitialParticlesPerSecond=25.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles5.fx_m_t8104'
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(X=(Min=-35.000000,Max=-35.000000))
+         Name="MeshEmitter381"
+     End Object
+     Emitters(7)=MeshEmitter'LineageEffect.d_kn_shieldshock1_ca_simple.MeshEmitter381'
+     AutoReplay=True
+     bNoDelete=False
+}

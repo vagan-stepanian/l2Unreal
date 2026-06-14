@@ -1,0 +1,128 @@
+class grail_brazier_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter4
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.471429,Color=(B=165,G=165,R=165,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=4.000000
+         ColorMultiplierRange=(X=(Min=0.850000,Max=1.000000),Y=(Min=0.850000,Max=1.000000),Z=(Min=0.850000,Max=1.000000))
+         Opacity=0.410000
+         FadeOutStartTime=1.360000
+         FadeOut=True
+         FadeInEndTime=0.600000
+         FadeIn=True
+         MaxParticles=15
+         StartLocationOffset=(Z=70.000000)
+         StartLocationRange=(X=(Min=-12.000000,Max=12.000000),Y=(Min=-12.000000,Max=12.000000),Z=(Min=-15.000000,Max=15.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.500000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.700000)
+         StartSizeRange=(X=(Min=2.000000,Max=5.000000),Y=(Min=2.000000,Max=5.000000),Z=(Min=2.000000,Max=5.000000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'FX_E_T.particles_etc.elf_particleA_03'
+         UseRandomSubdivision=True
+         StartVelocityRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=10.000000,Max=20.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="SpriteEmitter4"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.grail_brazier_simple.SpriteEmitter4'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter5
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.471429,Color=(B=2,G=203,R=253,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=252,G=156,R=99,A=255))
+         Opacity=0.490000
+         FadeOutStartTime=2.120000
+         FadeOut=True
+         FadeInEndTime=2.120000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationOffset=(Z=60.000000)
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Max=0.040000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.020000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=30.000000,Max=30.000000),Y=(Min=30.000000,Max=30.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=2.000000
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'FX_E_T.Fx_argos_eye.Fx_argos_eye_t04'
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=7.000000,Max=7.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="SpriteEmitter5"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.grail_brazier_simple.SpriteEmitter5'
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'FX_E_S.broadcasting_tower_s.FX_e_still_mesh00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=76,G=76,R=76,A=255))
+         Opacity=0.250000
+         FadeOutStartTime=1.880000
+         FadeOut=True
+         FadeInEndTime=1.880000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationOffset=(Z=70.000000)
+         StartLocationRange=(Z=(Min=-5.000000,Max=10.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.070000,Max=0.070000))
+         StartSizeRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.200000,Max=0.200000),Z=(Min=1.500000,Max=1.500000))
+         StartVelocityRange=(Z=(Min=5.000000,Max=15.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="MeshEmitter0"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.grail_brazier_simple.MeshEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Aura.auracharge00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.485714,Color=(B=97,G=97,R=97,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=3.000000
+         Opacity=0.210000
+         FadeOutStartTime=1.600000
+         FadeOut=True
+         FadeInEndTime=1.200000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationOffset=(Z=50.000000)
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000,Y=1.000000,Z=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.010000))
+         StartSizeRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=0.300000,Max=0.300000),Z=(Min=0.500000,Max=0.500000))
+         StartVelocityRange=(Z=(Min=10.000000,Max=10.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=4.000000
+         Name="MeshEmitter1"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.grail_brazier_simple.MeshEmitter1'
+     bDynamicActorFilterState=True
+     bLightChanged=True
+     bNoDelete=False
+     Tag="Emitter"
+     bSunAffect=True
+     Location=(X=-225.000000,Y=37.000000,Z=-1022.000000)
+     TexModifyInfo=(Color=(B=255,G=255,R=255,A=255),AlphaOp=1,ColorOp=1)
+}

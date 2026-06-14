@@ -1,0 +1,200 @@
+class weapon_lind_cutter_bul extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter150
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.White.white_Protect01'
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,A=255))
+         Opacity=0.200000
+         FadeOutStartTime=0.128000
+         FadeOut=True
+         FadeInEndTime=0.120000
+         FadeIn=True
+         StartLocationRange=(Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=1.200000,Max=1.200000),Y=(Min=1.200000,Max=1.200000),Z=(Min=1.200000,Max=1.200000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         Name="MeshEmitter150"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.weapon_lind_cutter_bul.MeshEmitter150'
+     Begin Object Class=MeshEmitter Name=MeshEmitter151
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.wispray01'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.532143,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.400000
+         FadeOutStartTime=0.800000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationRange=(Z=(Min=5.000000,Max=5.000000))
+         SpinParticles=True
+         SpinCCWorCW=(Z=0.000000)
+         SpinsPerSecondRange=(X=(Max=0.040000),Y=(Max=0.040000),Z=(Max=0.040000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=0.800000)
+         SizeScale(2)=(RelativeTime=0.360000,RelativeSize=1.200000)
+         SizeScale(3)=(RelativeTime=0.590000,RelativeSize=0.800000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=3.000000
+         StartSizeRange=(X=(Min=0.080000,Max=0.150000),Y=(Min=0.080000,Max=0.150000),Z=(Min=0.080000,Max=0.150000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         Name="MeshEmitter151"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.weapon_lind_cutter_bul.MeshEmitter151'
+     Begin Object Class=MeshEmitter Name=MeshEmitter153
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.Weapon.lind_cutter_outglow'
+         RenderTwoSided=True
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.600000
+         FadeOutStartTime=1.000000
+         MaxParticles=1
+         WeatherSoundCheck=True
+         SpinParticles=True
+         StartSpinRange=(Y=(Min=0.750000,Max=0.750000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         CustomMaterials(0)=Shader'LineageEffectsTextures2.lindvior.outglow_cutter_shader'
+         CustomMaterials(1)=Shader'LineageEffectsTextures2.lindvior.Lind_cutter_shader1'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter153"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.weapon_lind_cutter_bul.MeshEmitter153'
+     Begin Object Class=MeshEmitter Name=MeshEmitter154
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.Weapon.lind_cutter_m00'
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.600000
+         FadeOut=True
+         FadeInEndTime=0.200000
+         FadeIn=True
+         MaxParticles=1
+         SpinParticles=True
+         StartSpinRange=(Y=(Min=0.750000,Max=0.750000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Shader'LineageEffectsTextures2.lindvior.Lind_cutter_glow_Shader'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter154"
+     End Object
+     Emitters(3)=MeshEmitter'LineageEffect.weapon_lind_cutter_bul.MeshEmitter154'
+     Begin Object Class=MeshEmitter Name=MeshEmitter155
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.new_clan.new_clan_round2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.600000,Max=0.600000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.615000
+         FadeOut=True
+         FadeInEndTime=0.330000
+         FadeIn=True
+         MaxParticles=12
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.200000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-0.010000,Max=0.010000),Z=(Min=-0.010000,Max=0.010000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=0.169000,Max=0.312000),Y=(Min=0.169000,Max=0.312000),Z=(Min=0.500000,Max=0.900000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles2.fx_m_t_3216'
+         LifetimeRange=(Min=1.250000,Max=1.500000)
+         StartVelocityRange=(Z=(Min=2.000000,Max=5.240000))
+         Name="MeshEmitter155"
+     End Object
+     Emitters(4)=MeshEmitter'LineageEffect.weapon_lind_cutter_bul.MeshEmitter155'
+     Begin Object Class=MeshEmitter Name=MeshEmitter156
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.Weapon.lind_cutter_m00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.503571,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=5.000000
+         Opacity=0.600000
+         FadeOutStartTime=0.680000
+         FadeOut=True
+         FadeInEndTime=0.200000
+         FadeIn=True
+         MaxParticles=4
+         SpinParticles=True
+         StartSpinRange=(Y=(Min=0.750000,Max=0.750000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         CustomMaterials(0)=Texture'LineageEffectsTextures2.lindvior.fx_m_t6303'
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="MeshEmitter156"
+     End Object
+     Emitters(5)=MeshEmitter'LineageEffect.weapon_lind_cutter_bul.MeshEmitter156'
+     Begin Object Class=MeshEmitter Name=MeshEmitter195
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes2.miyun.whirl_02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(A=255))
+         ColorScale(1)=(RelativeTime=0.107143,Color=(A=255))
+         ColorScale(2)=(RelativeTime=0.250000,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=0.876000
+         FadeOut=True
+         FadeInEndTime=0.348000
+         FadeIn=True
+         StartLocationRange=(Z=(Min=-2.000000,Max=5.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=0.500000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.280000,Max=0.280000),Y=(Min=0.280000,Max=0.280000),Z=(Min=0.391000,Max=0.391000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.200000,Max=1.200000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=15.000000))
+         Name="MeshEmitter195"
+     End Object
+     Emitters(6)=MeshEmitter'LineageEffect.weapon_lind_cutter_bul.MeshEmitter195'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bUnlit=False
+     bDirectional=True
+}

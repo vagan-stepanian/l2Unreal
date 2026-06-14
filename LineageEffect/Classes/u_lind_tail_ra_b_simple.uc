@@ -1,0 +1,69 @@
+class u_lind_tail_ra_b_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter2
+         UseMeshBlendMode=False
+         UseParticleColor=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(A=255))
+         ColorScale(1)=(RelativeTime=0.607143,Color=(A=255))
+         ColorScale(2)=(RelativeTime=0.889286,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.957143,Color=(B=255,G=255,R=255,A=255))
+         ColorScale(4)=(RelativeTime=0.982143,Color=(A=255))
+         ColorScale(5)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=0.300000,Max=0.300000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.900000,Max=0.900000))
+         Opacity=0.400000
+         MaxParticles=6
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.860000,RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         InitialParticlesPerSecond=50.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         Name="VertMeshEmitter2"
+     End Object
+     Emitters(0)=VertMeshEmitter'LineageEffect.u_lind_tail_ra_b_simple.VertMeshEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter4
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.etcpotion00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.600000,Max=0.600000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.300000
+         FadeOutStartTime=0.224000
+         FadeOut=True
+         FadeInEndTime=0.042000
+         FadeIn=True
+         MaxParticles=7
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=50.000000,Z=40.000000)
+         StartLocationRange=(X=(Max=10.000000),Z=(Min=-5.000000,Max=5.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.700000,Max=0.700000),Z=(Min=0.020000,Max=0.040000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.500000)
+         StartSizeRange=(X=(Min=0.400000,Max=0.600000),Y=(Min=0.400000,Max=0.600000),Z=(Min=-0.100000,Max=-0.050000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.700000,Max=0.700000)
+         InitialDelayRange=(Min=1.350000,Max=1.350000)
+         StartVelocityRange=(X=(Min=10.000000,Max=200.000000))
+         VelocityLossRange=(X=(Min=2.000000,Max=3.000000))
+         Name="MeshEmitter4"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.u_lind_tail_ra_b_simple.MeshEmitter4'
+     bOnInitialDelay=True
+     bNoDelete=False
+}

@@ -1,0 +1,215 @@
+class s_u825_death_beam_ta_short_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter18
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=10.000000
+         Opacity=0.500000
+         FadeOutStartTime=0.355000
+         FadeOut=True
+         FadeInEndTime=0.085000
+         FadeIn=True
+         MaxParticles=6
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=20.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=0.400000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=150.000000,Max=150.000000),Y=(Min=130.000000,Max=130.000000),Z=(Min=150.000000,Max=150.000000))
+         InitialParticlesPerSecond=24.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6017'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=300.000000,Max=400.000000),Y=(Min=-10.000000,Max=10.000000))
+         Name="SpriteEmitter18"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.s_u825_death_beam_ta_short_simple.SpriteEmitter18'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter19
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.700000
+         FadeOutStartTime=0.096000
+         FadeOut=True
+         FadeInEndTime=0.030000
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=35.000000,Y=-20.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.188000,Max=0.188000))
+         StartSizeRange=(X=(Min=10.000000,Max=15.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=10.000000,Max=15.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6016'
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(X=(Min=400.000000,Max=500.000000),Y=(Min=-200.000000,Max=-150.000000))
+         Name="SpriteEmitter19"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.s_u825_death_beam_ta_short_simple.SpriteEmitter19'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter20
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=0.216000
+         FadeOut=True
+         FadeInEndTime=0.090000
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=25.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         StartSizeRange=(X=(Min=10.000000,Max=15.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=10.000000,Max=15.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6016'
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(X=(Min=400.000000,Max=500.000000),Y=(Min=-30.000000,Max=30.000000))
+         Name="SpriteEmitter20"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.s_u825_death_beam_ta_short_simple.SpriteEmitter20'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter21
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.700000
+         FadeOutStartTime=0.096000
+         FadeOut=True
+         FadeInEndTime=0.030000
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=35.000000,Y=20.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.300000,Max=0.300000))
+         StartSizeRange=(X=(Min=10.000000,Max=15.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=10.000000,Max=15.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6016'
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(X=(Min=400.000000,Max=500.000000),Y=(Min=150.000000,Max=200.000000))
+         Name="SpriteEmitter21"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.s_u825_death_beam_ta_short_simple.SpriteEmitter21'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter22
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.700000
+         FadeOutStartTime=0.156000
+         FadeOut=True
+         FadeInEndTime=0.096000
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=30.000000,Y=-8.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.225000,Max=0.225000))
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.260000,RelativeSize=0.300000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=15.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=10.000000,Max=15.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6016'
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(X=(Min=400.000000,Max=500.000000),Y=(Min=-100.000000,Max=-50.000000))
+         Name="SpriteEmitter22"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.s_u825_death_beam_ta_short_simple.SpriteEmitter22'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter23
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.700000
+         FadeOutStartTime=0.156000
+         FadeOut=True
+         FadeInEndTime=0.108000
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=20.000000,Y=8.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.280000,Max=0.280000))
+         StartSizeRange=(X=(Min=10.000000,Max=15.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=10.000000,Max=15.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6016'
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(X=(Min=400.000000,Max=500.000000),Y=(Min=50.000000,Max=100.000000))
+         Name="SpriteEmitter23"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.s_u825_death_beam_ta_short_simple.SpriteEmitter23'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter24
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=0.432000
+         FadeOut=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=10.000000)
+         StartLocationRange=(X=(Min=-15.000000,Max=15.000000),Y=(Min=-30.000000,Max=30.000000),Z=(Min=-15.000000,Max=15.000000))
+         AddLocationFromOtherEmitter=2
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=5.000000,Max=15.000000),Y=(Min=10.000000,Max=20.000000),Z=(Min=15.000000,Max=15.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3051'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=3
+         SubdivisionEnd=17
+         LifetimeRange=(Min=0.500000,Max=0.600000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=1.000000))
+         VelocityLossRange=(Z=(Min=1.000000,Max=1.000000))
+         AddVelocityFromOtherEmitter=2
+         Name="SpriteEmitter24"
+     End Object
+     Emitters(6)=SpriteEmitter'LineageEffect.s_u825_death_beam_ta_short_simple.SpriteEmitter24'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter25
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(Y=1.000000,Z=0.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=0.216000
+         FadeOut=True
+         FadeInEndTime=0.090000
+         FadeIn=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(X=25.000000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.500000,Max=-0.500000))
+         StartSizeRange=(X=(Min=10.000000,Max=15.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=10.000000,Max=15.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t6016'
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         StartVelocityRange=(X=(Min=400.000000,Max=500.000000))
+         Name="SpriteEmitter25"
+     End Object
+     Emitters(7)=SpriteEmitter'LineageEffect.s_u825_death_beam_ta_short_simple.SpriteEmitter25'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.500000
+     bDirectional=True
+}

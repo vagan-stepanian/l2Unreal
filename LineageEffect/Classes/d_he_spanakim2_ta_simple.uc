@@ -1,0 +1,76 @@
+class d_he_spanakim2_ta_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter12
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.307143,Color=(B=197,G=237,R=252,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=233,G=152,R=148,A=255))
+         Opacity=0.400000
+         FadeOutStartTime=0.144000
+         FadeOut=True
+         MaxParticles=7
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(Z=(Min=-3.000000,Max=3.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=1.300000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=18.000000,Max=25.000000),Y=(Min=18.000000,Max=25.000000),Z=(Min=18.000000,Max=25.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.ring-bw'
+         LifetimeRange=(Min=0.800000,Max=0.900000)
+         StartVelocityRange=(Z=(Min=-15.000000,Max=15.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter12"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_he_spanakim2_ta_simple.SpriteEmitter12'
+     Begin Object Class=MeshEmitter Name=MeshEmitter6
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Monster.bright_red'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.753571,Color=(B=231,G=194,R=208,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=232,G=79,R=98,A=255))
+         Opacity=0.100000
+         FadeOutStartTime=0.780000
+         FadeOut=True
+         FadeInEndTime=0.360000
+         FadeIn=True
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-8.000000,Max=8.000000),Y=(Min=-8.000000,Max=8.000000),Z=(Min=-70.000000,Max=-50.000000))
+         SpinsPerSecondRange=(X=(Min=10.000000,Max=10.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.600000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=0.900000,Max=0.900000),Y=(Min=0.900000,Max=0.900000),Z=(Min=0.400000,Max=0.700000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=10.000000))
+         Name="MeshEmitter6"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_he_spanakim2_ta_simple.MeshEmitter6'
+     bLightChanged=True
+     bNoDelete=False
+     bAcceptsProjectors=False
+     bSunAffect=True
+     DrawScale=0.200000
+     Skins(0)=Texture'LineageEffectsTextures2.Particles.FX_M_T4119'
+     bDirectional=True
+}

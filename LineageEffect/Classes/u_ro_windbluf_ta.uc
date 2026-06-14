@@ -1,0 +1,117 @@
+class u_ro_windbluf_ta extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter40
+         Acceleration=(X=-120.000000,Z=50.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=128,G=128,R=128,A=255))
+         ColorScale(1)=(RelativeTime=0.050000,Color=(B=64,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=0.282143,Color=(R=64,A=255))
+         ColorScale(3)=(RelativeTime=0.607143,Color=(B=43,G=43,R=43,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(A=255))
+         Opacity=0.700000
+         FadeOutStartTime=0.481000
+         FadeOut=True
+         FadeInEndTime=0.104000
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-16.000000,Max=16.000000),Y=(Min=-16.000000,Max=16.000000),Z=(Min=-16.000000,Max=16.000000))
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=3.000000,Max=3.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.050000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=12.000000,Max=30.000000),Y=(Min=12.000000,Max=30.000000),Z=(Min=12.000000,Max=30.000000))
+         InitialParticlesPerSecond=500.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4013'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=0.600000,Max=1.300000)
+         StartVelocityRange=(X=(Min=50.000000,Max=160.000000),Y=(Min=50.000000,Max=160.000000),Z=(Min=50.000000,Max=160.000000))
+         VelocityLossRange=(X=(Min=7.000000,Max=10.000000),Y=(Min=7.000000,Max=10.000000),Z=(Min=7.000000,Max=10.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter40"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_ro_windbluf_ta.SpriteEmitter40'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter43
+         Acceleration=(X=-270.000000,Z=100.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.489286,Color=(R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=128,G=128,R=255,A=255))
+         ColorScaleRepeats=5.000000
+         FadeOutStartTime=0.400000
+         FadeOut=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-15.000000,Max=15.000000))
+         StartLocationShape=PTLS_Polar
+         UseRevolution=True
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=3.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=5.000000)
+         StartSizeRange=(X=(Min=2.000000,Max=5.000000),Y=(Min=2.000000,Max=5.000000),Z=(Min=2.000000,Max=5.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4006'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=250.000000,Max=250.000000),Y=(Min=250.000000,Max=250.000000),Z=(Min=250.000000,Max=250.000000))
+         VelocityLossRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter43"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.u_ro_windbluf_ta.SpriteEmitter43'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter19
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.850000,Max=0.850000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.750000
+         FadeOutStartTime=0.203500
+         FadeOut=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-10.000000,Max=10.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UniformSize=True
+         StartSizeRange=(X=(Min=15.000000,Max=20.000000),Y=(Min=15.000000,Max=20.000000),Z=(Min=15.000000,Max=20.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         Name="SpriteEmitter19"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_ro_windbluf_ta.SpriteEmitter19'
+     bUseQuake=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=32768)
+     DrawScale=0.100000
+     bUnlit=False
+     SwayRotationOrig=(Yaw=32768)
+     bDirectional=True
+}

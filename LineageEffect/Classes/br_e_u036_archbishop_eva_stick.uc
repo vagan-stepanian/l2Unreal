@@ -1,0 +1,99 @@
+class br_e_u036_archbishop_eva_stick extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_charge00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=4.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.500000,Max=0.500000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.750000
+         FadeOutStartTime=0.240000
+         FadeOut=True
+         FadeInEndTime=0.050000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationOffset=(Z=-4.000000)
+         StartLocationRange=(Z=(Min=-0.030720,Max=-0.030720))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.250000,Max=0.250000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.300000)
+         StartSizeRange=(X=(Min=0.015360,Max=0.015360),Y=(Min=0.015360,Max=0.015360),Z=(Min=0.001536,Max=0.001536))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.050000,Max=0.050000)
+         StartVelocityRange=(Z=(Min=0.614400,Max=0.614400))
+         Name="MeshEmitter2"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.br_e_u036_archbishop_eva_stick.MeshEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter3
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_charge00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=-10.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.900000,Max=0.900000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.100000,Max=0.100000))
+         FadeOutStartTime=1.280000
+         FadeOut=True
+         FadeInEndTime=0.320000
+         FadeIn=True
+         StartLocationOffset=(Z=-4.300000)
+         StartLocationRange=(Z=(Min=-0.031000,Max=-0.031000))
+         StartLocationShape=PTLS_Sphere
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.250000,Max=0.250000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.700000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=0.015360,Max=0.015360),Y=(Min=0.015360,Max=0.015360),Z=(Min=0.001536,Max=0.001536))
+         InitialParticlesPerSecond=10.000000
+         InitialDelayRange=(Min=0.050000,Max=0.050000)
+         StartVelocityRange=(Z=(Min=0.614400,Max=0.614400))
+         Name="MeshEmitter3"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.br_e_u036_archbishop_eva_stick.MeshEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter15
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=201,G=156,R=101,A=255))
+         ColorScale(1)=(RelativeTime=0.357143,Color=(B=209,G=160,R=46,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=6,R=13,A=255))
+         ColorMultiplierRange=(X=(Min=0.537000,Max=0.537000),Y=(Min=0.474000,Max=0.474000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.320000
+         FadeOut=True
+         FadeInEndTime=0.088000
+         FadeIn=True
+         MaxParticles=22
+         WeatherSoundCheck=True
+         StartLocationOffset=(Z=-1.500000)
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=0.330000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=2.500000,Max=2.500000),Y=(Min=2.500000,Max=2.500000),Z=(Min=2.500000,Max=2.500000))
+         InitialParticlesPerSecond=11.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0064'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="SpriteEmitter15"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.br_e_u036_archbishop_eva_stick.SpriteEmitter15'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

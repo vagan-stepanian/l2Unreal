@@ -1,0 +1,140 @@
+class s_u837_ta_head_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter35
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=0.800000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.400000,Max=0.400000))
+         Opacity=0.600000
+         FadeOutStartTime=0.742000
+         FadeOut=True
+         MaxParticles=2
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.400000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.450000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=7.000000,Max=7.000000),Y=(Min=7.000000,Max=7.000000),Z=(Min=7.000000,Max=7.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0105'
+         LifetimeRange=(Min=1.200000,Max=1.200000)
+         MaxAbsVelocity=(X=40000.000000,Y=10000.000000,Z=20000.000000)
+         Name="SpriteEmitter35"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.s_u837_ta_head_simple.SpriteEmitter35'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter36
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.307143,Color=(B=153,G=153,R=153,A=255))
+         ColorScale(2)=(RelativeTime=0.582143,Color=(B=249,G=249,R=249,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.300000,Max=0.600000),Y=(Min=0.600000,Max=0.600000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.370000
+         FadeOut=True
+         FadeInEndTime=0.110000
+         FadeIn=True
+         MaxParticles=3
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=7.500000,Max=7.500000),Y=(Min=7.500000,Max=7.500000),Z=(Min=7.500000,Max=7.500000))
+         InitialParticlesPerSecond=16.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4012'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=20
+         SubdivisionEnd=30
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=0.800000,Max=0.800000)
+         MaxAbsVelocity=(X=40000.000000,Y=10000.000000,Z=20000.000000)
+         Name="SpriteEmitter36"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.s_u837_ta_head_simple.SpriteEmitter36'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter42
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.300000,Max=0.300000))
+         Opacity=0.600000
+         FadeOutStartTime=0.130000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         MaxParticles=6
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=7.500000,Max=7.500000),Y=(Min=7.500000,Max=7.500000),Z=(Min=7.500000,Max=7.500000))
+         InitialParticlesPerSecond=24.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t2070'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         InitialDelayRange=(Min=0.800000,Max=0.800000)
+         MaxAbsVelocity=(X=40000.000000,Y=10000.000000,Z=20000.000000)
+         Name="SpriteEmitter42"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.s_u837_ta_head_simple.SpriteEmitter42'
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter5
+         VertexMesh=VertMesh'LineageEffectMeshes.kii2'
+         UseMeshBlendMode=False
+         Acceleration=(Z=40.000000)
+         ColorScale(0)=(Color=(B=247,G=193,R=32,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=111,G=219,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=1.000000,Max=1.000000),Z=(Min=0.200000,Max=0.200000))
+         FadeOutStartTime=0.640000
+         FadeOut=True
+         FadeInEndTime=0.360000
+         FadeIn=True
+         MaxParticles=5
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=-10.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.200000,Max=0.800000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=0.400000,Max=0.600000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.600000,RelativeSize=0.600000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.700000)
+         StartSizeRange=(X=(Min=0.400000,Max=0.500000),Y=(Min=0.400000,Max=0.500000),Z=(Min=0.400000,Max=0.500000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=0.800000,Max=0.900000)
+         InitialDelayRange=(Min=0.050000,Max=0.050000)
+         Name="VertMeshEmitter5"
+     End Object
+     Emitters(3)=VertMeshEmitter'LineageEffect.s_u837_ta_head_simple.VertMeshEmitter5'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.050000
+}

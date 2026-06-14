@@ -1,0 +1,133 @@
+class u_lind_log05_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.000000
+         FadeOutStartTime=2.225000
+         FadeOut=True
+         FadeInEndTime=0.250000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationRange=(X=(Max=1.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Min=-0.500000,Max=0.500000),Z=(Min=-0.500000,Max=0.500000))
+         RevolutionsPerSecondRange=(X=(Min=1.500000,Max=1.500000),Z=(Min=0.500000,Max=0.500000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=0.350000,Max=0.350000),Y=(Min=0.350000,Max=0.350000),Z=(Min=0.350000,Max=0.350000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4112'
+         LifetimeRange=(Min=2.500000,Max=2.500000)
+         StartVelocityRange=(X=(Min=0.500000,Max=0.500000),Z=(Min=0.010000,Max=0.010000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_lind_log05_ca.SpriteEmitter2'
+     Begin Object Class=TrailEmitter Name=TrailEmitter19
+         TrailShadeType=PTTST_PointLife
+         MaxPointsPerTrail=60
+         PointLifeTime=1.500000
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.060714,Color=(B=255,G=172,R=98,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=89,A=255))
+         Opacity=0.300000
+         FadeOutStartTime=1.700000
+         FadeOut=True
+         FadeInEndTime=0.500000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=1
+         RevolutionCenterOffsetRange=(X=(Min=50.000000,Max=50.000000),Y=(Min=50.000000,Max=50.000000),Z=(Min=50.000000,Max=50.000000))
+         RevolutionsPerSecondRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=1.200000,Max=1.200000),Y=(Min=1.200000,Max=1.200000),Z=(Min=1.200000,Max=1.200000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.antaras.fx_m_t_7210'
+         LifetimeRange=(Min=2.500000,Max=2.500000)
+         Name="TrailEmitter19"
+     End Object
+     Emitters(1)=TrailEmitter'LineageEffect.u_lind_log05_ca.TrailEmitter19'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.White.white_Protect01'
+         RenderTwoSided=True
+         UseParticleColor=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=192,G=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.400000,Max=0.400000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.800000
+         FadeOutStartTime=1.200000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=4
+         SpinParticles=True
+         StartSpinRange=(Y=(Min=0.100000,Max=0.100000))
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.200000,Max=0.200000),Z=(Min=0.200000,Max=0.200000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter1"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.u_lind_log05_ca.MeshEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         Acceleration=(X=2.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=96,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=108,R=66,A=255))
+         ColorScaleRepeats=1.000000
+         ColorMultiplierRange=(X=(Min=0.077000,Max=0.077000),Y=(Min=0.282000,Max=0.282000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.650000
+         FadeOutStartTime=1.080000
+         FadeOut=True
+         FadeInEndTime=0.330000
+         FadeIn=True
+         MaxParticles=40
+         StartLocationOffset=(X=-2.000000)
+         StartLocationRange=(X=(Min=-0.300000,Max=0.300000),Y=(Min=-0.300000,Max=0.300000),Z=(Min=-0.300000,Max=0.300000))
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.300000)
+         SizeScale(1)=(RelativeTime=0.470000,RelativeSize=0.400000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=5.000000,Max=7.000000),Y=(Min=5.000000,Max=7.000000),Z=(Min=5.000000,Max=7.000000))
+         InitialParticlesPerSecond=20.000000
+         Texture=Texture'LineageEffectsTextures2.Fire.fx_m_t6214'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=5.000000,Max=5.000000),Z=(Min=-2.500000,Max=2.500000))
+         VelocityLossRange=(X=(Min=0.750000,Max=0.750000),Z=(Min=1.000000,Max=1.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.u_lind_log05_ca.SpriteEmitter3'
+     AutoReset=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=32768,Roll=32768)
+     DrawScale=0.100000
+     bUnlit=False
+     SwayRotationOrig=(Yaw=32768,Roll=32768)
+     bDirectional=True
+}

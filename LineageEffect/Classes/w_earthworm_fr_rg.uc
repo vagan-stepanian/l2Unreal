@@ -1,0 +1,118 @@
+class w_earthworm_fr_rg extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter200
+         Acceleration=(Z=25.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=128,R=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(G=128,R=128,A=255))
+         FadeOutStartTime=0.460000
+         FadeOut=True
+         FadeInEndTime=0.460000
+         FadeIn=True
+         MaxParticles=700
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=100.000000,Max=2400.000000),Y=(Min=-300.000000,Max=300.000000),Z=(Max=20.000000))
+         RevolutionCenterOffsetRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Max=1.000000))
+         RevolutionsPerSecondRange=(X=(Min=-0.050000,Max=-0.050000),Y=(Min=-0.050000,Max=-0.050000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.020000,Max=0.020000))
+         StartSpinRange=(X=(Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=10.000000,Max=30.000000),Y=(Min=10.000000,Max=30.000000),Z=(Min=10.000000,Max=30.000000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4140'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         InitialDelayRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(Z=(Min=5.000000,Max=15.000000))
+         Name="SpriteEmitter200"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.w_earthworm_fr_rg.SpriteEmitter200'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter218
+         UseDirectionAs=PTDU_Normal
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=128,R=128,A=255))
+         ColorScale(1)=(RelativeTime=0.475000,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(G=128,R=128,A=255))
+         ColorScaleRepeats=5.000000
+         Opacity=0.840000
+         FadeOutStartTime=7.744000
+         FadeOut=True
+         FadeInEndTime=2.024000
+         FadeIn=True
+         MaxParticles=15
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Max=2300.000000),Y=(Min=-150.000000,Max=150.000000),Z=(Max=10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.002000,Max=0.005000))
+         StartSpinRange=(X=(Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=300.000000,Max=300.000000),Y=(Min=300.000000,Max=300.000000),Z=(Min=300.000000,Max=300.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8156'
+         LifetimeRange=(Min=8.800000,Max=8.800000)
+         InitialDelayRange=(Min=1.500000,Max=1.500000)
+         Name="SpriteEmitter218"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.w_earthworm_fr_rg.SpriteEmitter218'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         UseColorScale=True
+         ColorScale(0)=(Color=(G=128,R=128,A=255))
+         ColorScale(1)=(RelativeTime=0.482143,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(G=128,R=128,A=255))
+         ColorScaleRepeats=2.000000
+         Opacity=0.600000
+         FadeOutStartTime=0.800000
+         FadeOut=True
+         FadeInEndTime=0.800000
+         FadeIn=True
+         MaxParticles=250
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=100.000000,Max=2400.000000),Y=(Min=-300.000000,Max=300.000000),Z=(Min=-10.000000,Max=20.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.025000,Max=0.025000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=60.000000,Max=190.000000),Y=(Min=60.000000,Max=190.000000),Z=(Min=60.000000,Max=190.000000))
+         InitialParticlesPerSecond=35.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8156'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         InitialDelayRange=(Min=2.000000,Max=2.000000)
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.w_earthworm_fr_rg.SpriteEmitter7'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter139
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.000000
+         MaxParticles=1
+         WeatherSoundCheck=True
+         RespawnDeadParticles=False
+         UniformSize=True
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=10.000000,Max=10.000000)
+         Name="SpriteEmitter139"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.w_earthworm_fr_rg.SpriteEmitter139'
+     bLightChanged=True
+     bNoDelete=False
+     bDirectional=True
+}

@@ -1,0 +1,126 @@
+class br_e_u032_aga_pomona_always extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.521429,Color=(B=97,G=97,R=97,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=20.000000
+         ColorMultiplierRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.800000
+         FadeOutStartTime=1.836000
+         FadeOut=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=60
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Max=10.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=8.000000,Max=8.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         RevolutionsPerSecondRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-0.500000,Max=0.500000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.150000,Max=0.250000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.050000,RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=0.070000,RelativeSize=1.200000)
+         SizeScale(2)=(RelativeTime=0.410000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=0.144000,Max=0.144000),Y=(Min=0.144000,Max=0.144000),Z=(Min=0.144000,Max=0.144000))
+         InitialParticlesPerSecond=40.000000
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=2.600000,Max=4.400000)
+         StartVelocityRange=(Z=(Min=-4.800000,Max=4.800000))
+         MaxAbsVelocity=(X=2500.000000,Y=10000.000000,Z=5000.000000)
+         VelocityLossRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.br_e_u032_aga_pomona_always.SpriteEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         Acceleration=(Z=-1.010880)
+         ColorScale(0)=(Color=(A=255))
+         ColorScale(1)=(RelativeTime=0.571429,Color=(A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(A=255))
+         ColorScaleRepeats=1000.000000
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.900000,Max=0.900000),Z=(Min=0.500000,Max=0.500000))
+         FadeOutStartTime=0.980000
+         FadeOut=True
+         FadeInEndTime=0.800000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=50
+         WeatherSoundCheck=True
+         StartLocationOffset=(X=-3.000000,Z=0.500000)
+         AddLocationFromOtherEmitter=0
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=3.000000,Max=3.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.460000,RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         SizeScaleRepeats=7.000000
+         StartSizeRange=(X=(Min=0.189237,Max=0.378474),Y=(Min=0.189237,Max=0.378474),Z=(Min=0.189237,Max=0.378474))
+         InitialParticlesPerSecond=20.000000
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0002'
+         UseRandomSubdivision=True
+         SubdivisionStart=1
+         SubdivisionEnd=8
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(Z=(Max=2.808000))
+         VelocityLossRange=(X=(Max=1.000000),Y=(Max=1.000000),Z=(Min=1.000000,Max=3.000000))
+         AddVelocityFromOtherEmitter=0
+         AddVelocityMultiplierRange=(X=(Min=0.050000,Max=0.400000),Y=(Min=0.050000,Max=0.200000),Z=(Min=0.400000,Max=0.650000))
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.br_e_u032_aga_pomona_always.SpriteEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter4
+         UseDirectionAs=PTDU_Normal
+         Acceleration=(Z=0.900000)
+         ColorScale(0)=(Color=(B=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.596429,Color=(B=128,R=255,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=128,R=255,A=255))
+         ColorScaleRepeats=100.000000
+         FadeOutStartTime=0.081000
+         FadeOut=True
+         MaxParticles=60
+         ResetAfterChange=True
+         StartLocationShape=PTLS_Sphere
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Max=0.200000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.130000,RelativeSize=1.700000)
+         SizeScale(1)=(RelativeTime=0.360000,RelativeSize=2.200000)
+         SizeScale(2)=(RelativeTime=0.600000,RelativeSize=2.600000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=1.471134,Max=1.471134),Y=(Min=2.353814,Max=2.353814),Z=(Min=2.353814,Max=2.353814))
+         InitialParticlesPerSecond=20.000000
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0063'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         SubdivisionStart=5
+         SubdivisionEnd=6
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-0.003600,Max=0.003600),Y=(Min=-0.003600,Max=0.003600),Z=(Min=-0.003600,Max=0.003600))
+         Name="SpriteEmitter4"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.br_e_u032_aga_pomona_always.SpriteEmitter4'
+     bLightChanged=True
+     bNoDelete=False
+     DrawScale=0.100000
+}

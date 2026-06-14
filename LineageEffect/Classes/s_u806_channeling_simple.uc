@@ -1,0 +1,181 @@
+class s_u806_channeling_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=BeamEmitter Name=BeamEmitter3
+         BeamDistanceRange=(Min=500.000000,Max=500.000000)
+         BeamEndPoints(0)=(ActorTag="MFighter1",offset=(X=(Min=-200.000000,Max=-200.000000)),Weight=1.000000)
+         DetermineEndPointBy=PTEP_Actor
+         LowFrequencyNoiseRange=(X=(Min=-1.500000,Max=1.500000),Y=(Min=-1.500000,Max=1.500000),Z=(Min=-1.500000,Max=1.500000))
+         LowFrequencyPoints=6
+         HighFrequencyNoiseRange=(X=(Min=-2.500000,Max=2.500000),Y=(Min=-2.500000,Max=2.500000),Z=(Min=-2.500000,Max=2.500000))
+         HighFrequencyPoints=12
+         HFScaleFactors(0)=(FrequencyScale=(Z=-1.500000),RelativeLength=0.300000)
+         HFScaleFactors(1)=(FrequencyScale=(Z=1.500000),RelativeLength=0.650000)
+         BranchProbability=(Min=1.000000,Max=1.000000)
+         BranchEmitter=1
+         BranchSpawnAmountRange=(Min=1.000000,Max=1.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.450000,Max=0.450000),Z=(Min=0.200000,Max=0.200000))
+         Opacity=0.650000
+         FadeOutStartTime=0.100000
+         CoordinateSystem=PTCS_Independent
+         RespawnDeadParticles=False
+         StartSizeRange=(X=(Min=4.000000,Max=5.000000),Y=(Min=4.000000,Max=5.000000),Z=(Min=4.000000,Max=5.000000))
+         InitialParticlesPerSecond=20.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4030'
+         LifetimeRange=(Min=0.100000,Max=0.100000)
+         TriggerDisabled=False
+         ResetOnTrigger=True
+         Name="BeamEmitter3"
+     End Object
+     Emitters(0)=BeamEmitter'LineageEffect.s_u806_channeling_simple.BeamEmitter3'
+     Begin Object Class=MeshEmitter Name=MeshEmitter14
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.swirl_ring_03'
+         UseMeshBlendMode=False
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.650000,Max=0.650000))
+         Opacity=0.400000
+         FadeOutStartTime=0.180000
+         FadeOut=True
+         FadeInEndTime=0.120000
+         FadeIn=True
+         MaxParticles=9
+         RespawnDeadParticles=False
+         Disabled=True
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000),Y=(Max=1.000000),Z=(Min=0.250000,Max=0.250000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=0.150000,Max=0.150000),Y=(Min=0.140000,Max=0.140000),Z=(Min=0.015000,Max=0.080000))
+         InitialParticlesPerSecond=4.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.700000,Max=1.000000)
+         InitialDelayRange=(Min=2.650000,Max=2.650000)
+         Name="MeshEmitter14"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.s_u806_channeling_simple.MeshEmitter14'
+     Begin Object Class=MeshEmitter Name=MeshEmitter15
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill_Power.skill_rapidshot'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.557143,Color=(B=102,G=102,R=102,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=40.000000
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.600000,Max=1.000000),Z=(Min=0.600000,Max=1.000000))
+         Opacity=0.700000
+         FadeOutStartTime=13.350000
+         FadeOut=True
+         FadeInEndTime=0.150000
+         FadeIn=True
+         MaxParticles=1
+         RespawnDeadParticles=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000),Z=(Min=0.500000,Max=0.500000))
+         StartSizeRange=(X=(Min=0.200000,Max=0.200000),Y=(Min=0.200000,Max=0.200000),Z=(Min=0.200000,Max=0.200000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=15.000000,Max=15.000000)
+         InitialDelayRange=(Min=2.650000,Max=2.650000)
+         Name="MeshEmitter15"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.s_u806_channeling_simple.MeshEmitter15'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter18
+         Acceleration=(X=-16.000000)
+         ColorScale(0)=(Color=(B=164,G=217,R=249,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.916000,Max=0.916000),Y=(Min=0.944000,Max=0.944000),Z=(Min=0.830000,Max=0.830000))
+         Opacity=0.280000
+         FadeOutStartTime=0.810000
+         FadeOut=True
+         FadeInEndTime=0.120000
+         FadeIn=True
+         MaxParticles=65
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=3.000000,Max=3.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=15.000000,Max=15.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=0.800000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=16.000000,Max=16.000000),Z=(Min=16.000000,Max=16.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0111'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=2
+         LifetimeRange=(Min=1.300000,Max=1.500000)
+         InitialDelayRange=(Min=2.650000,Max=2.650000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=-8.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter18"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.s_u806_channeling_simple.SpriteEmitter18'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter19
+         Acceleration=(X=-16.000000)
+         ColorScale(0)=(Color=(B=164,G=217,R=249,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.969000,Max=0.969000),Y=(Min=0.767000,Max=0.767000),Z=(Min=0.626000,Max=0.626000))
+         Opacity=0.420000
+         FadeOutStartTime=0.750000
+         FadeOut=True
+         FadeInEndTime=0.120000
+         FadeIn=True
+         MaxParticles=65
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000))
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=15.000000,Max=15.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.400000,RelativeSize=0.800000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=16.000000,Max=16.000000),Z=(Min=16.000000,Max=16.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5011'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=1.300000,Max=1.500000)
+         InitialDelayRange=(Min=2.650000,Max=2.650000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=-8.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter19"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.s_u806_channeling_simple.SpriteEmitter19'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter22
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         MaxParticles=1
+         WeatherSoundCheck=True
+         UniformSize=True
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         Texture=None
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter22"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.s_u806_channeling_simple.SpriteEmitter22'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

@@ -1,0 +1,102 @@
+class z_ice_screen_a_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         Refraction=REF_LightPerformance
+         RefrUScale=0.150000
+         RefrVScale=0.150000
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=184,G=175,R=154,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=199,G=186,R=158,A=255))
+         FadeOutStartTime=4.300000
+         FadeOut=True
+         FadeInEndTime=0.300000
+         FadeIn=True
+         CoordinateSystem=PTCS_ScreenAbsolute
+         MaxParticles=50
+         Disabled=True
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=90.000000,Max=90.000000),Y=(Max=360.000000),Z=(Min=15.000000,Max=15.000000))
+         ZTest=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=6.000000,Max=6.000000),Z=(Min=6.000000,Max=6.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4013'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=10.000000,Max=10.000000)
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.z_ice_screen_a_simple.SpriteEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         ProjectionNormal=(X=1.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=6.600000
+         FadeOut=True
+         FadeInEndTime=0.300000
+         FadeIn=True
+         CoordinateSystem=PTCS_ScreenAbsolute
+         MaxParticles=1
+         WeatherSoundCheck=True
+         StartLocationPolarRange=(X=(Min=90.000000,Max=90.000000),Y=(Max=360.000000),Z=(Min=13.000000,Max=13.000000))
+         ZTest=False
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-0.250000,Max=0.250000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=10.500000,Max=10.500000),Y=(Min=10.500000,Max=10.500000),Z=(Min=10.500000,Max=10.500000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=None
+         LifetimeRange=(Min=10.000000,Max=10.000000)
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.z_ice_screen_a_simple.SpriteEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter4
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=184,G=175,R=154,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=199,G=186,R=158,A=255))
+         FadeOutStartTime=5.300000
+         FadeOut=True
+         FadeInEndTime=0.300000
+         FadeIn=True
+         CoordinateSystem=PTCS_ScreenAbsolute
+         MaxParticles=25
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=90.000000,Max=90.000000),Y=(Max=360.000000),Z=(Min=13.000000,Max=13.000000))
+         ZTest=False
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.050000)
+         StartSizeRange=(X=(Min=2.000000,Max=3.000000),Y=(Min=2.000000,Max=3.000000),Z=(Min=2.000000,Max=3.000000))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4035'
+         LifetimeRange=(Min=10.000000,Max=10.000000)
+         Name="SpriteEmitter4"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.z_ice_screen_a_simple.SpriteEmitter4'
+     bSetSizeScale=False
+     IsScreenEffect=True
+     bAlwaysVisible=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.050000
+     bIgnoredRange=True
+}

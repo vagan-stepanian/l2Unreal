@@ -1,0 +1,170 @@
+class w_entry_silen_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter152
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.350000
+         MaxParticles=1
+         StartLocationOffset=(Y=10.000000,Z=-10.000000)
+         UniformSize=True
+         StartSizeRange=(X=(Min=436.800018,Max=436.800018),Y=(Min=436.800018,Max=436.800018),Z=(Min=436.800018,Max=436.800018))
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'FX_E_T.LightGlowSet.sp2f_fire_glow01'
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter152"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.w_entry_silen_simple.SpriteEmitter152'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter153
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         MaxParticles=1
+         StartLocationOffset=(Y=10.000000,Z=-10.000000)
+         UniformSize=True
+         StartSizeRange=(X=(Min=436.800018,Max=436.800018),Y=(Min=436.800018,Max=436.800018),Z=(Min=436.800018,Max=436.800018))
+         Texture=Texture'FX_E_T.LightGlowSet.npc_2f_etc_R'
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter153"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.w_entry_silen_simple.SpriteEmitter153'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter154
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=128,A=255))
+         ColorScale(1)=(RelativeTime=0.496429,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=1.000000
+         Opacity=0.700000
+         FadeOutStartTime=0.525000
+         FadeOut=True
+         MaxParticles=4
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-100.000000,Max=100.000000),Y=(Min=-100.000000,Max=100.000000),Z=(Min=-100.000000,Max=100.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.750000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=100.800003,Max=100.800003),Y=(Min=268.800018,Max=336.000000),Z=(Min=100.800003,Max=100.800003))
+         Texture=Texture'LineageEffectsTextures.Particles5.fx_m_t8136'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=8
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         StartVelocityRange=(X=(Min=-33.600002,Max=-33.600002),Y=(Min=-33.600002,Max=-33.600002),Z=(Min=-33.600002,Max=-33.600002))
+         VelocityLossRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter154"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.w_entry_silen_simple.SpriteEmitter154'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter155
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         RefrUScale=0.500000
+         RefrVScale=0.500000
+         ColorScale(0)=(Color=(B=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=70,G=2,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.370000
+         FadeOutStartTime=158.000000
+         FadeOut=True
+         FadeInEndTime=74.000000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationRange=(X=(Min=-168.000000,Max=168.000000))
+         AlphaRef=64
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=504.000000,Max=504.000000),Y=(Min=504.000000,Max=504.000000),Z=(Min=504.000000,Max=504.000000))
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.AirFilms.rotcloud'
+         TextureUSubdivisions=6
+         TextureVSubdivisions=6
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=36
+         LifetimeRange=(Min=200.000000,Max=200.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter155"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.w_entry_silen_simple.SpriteEmitter155'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter157
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=7,G=5,R=97,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         FadeOutStartTime=3.400000
+         FadeOut=True
+         FadeInEndTime=1.560000
+         FadeIn=True
+         MaxParticles=4
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=-0.050000,Max=0.050000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.200000)
+         StartSizeRange=(X=(Min=576.000000,Max=576.000000),Y=(Min=576.000000,Max=576.000000),Z=(Min=576.000000,Max=576.000000))
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t8018'
+         UseRandomSubdivision=True
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter157"
+     End Object
+     Emitters(4)=SpriteEmitter'LineageEffect.w_entry_silen_simple.SpriteEmitter157'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter158
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         Refraction=REF_HeavyPerformanceButElaborate
+         RefrUScale=0.020000
+         RefrVScale=0.030000
+         ColorScale(0)=(Color=(B=128,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=70,G=2,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.700000,Max=0.700000),Z=(Min=0.800000,Max=0.800000))
+         Opacity=0.250000
+         FadeOutStartTime=12.000000
+         MaxParticles=1
+         AlphaTest=False
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.050000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=576.000000,Max=576.000000),Y=(Min=576.000000,Max=576.000000),Z=(Min=576.000000,Max=576.000000))
+         DrawStyle=PTDS_Regular
+         Texture=Texture'FX_E_T.cloud.fx_m_t4058'
+         LifetimeRange=(Min=20.000000,Max=20.000000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter158"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.w_entry_silen_simple.SpriteEmitter158'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     SwayRotationOrig=(Pitch=-20,Yaw=-28508,Roll=-1012)
+     bDirectional=True
+}

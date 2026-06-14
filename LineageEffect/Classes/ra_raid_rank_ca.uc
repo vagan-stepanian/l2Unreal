@@ -1,0 +1,89 @@
+class ra_raid_rank_ca extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter15
+         UseDirectionAs=PTDU_Up
+         RefrUScale=0.020000
+         RefrVScale=0.020000
+         Acceleration=(Z=-0.800000)
+         ColorScale(0)=(Color=(B=16,G=16,R=218,A=255))
+         ColorScale(1)=(RelativeTime=0.446429,Color=(B=210,G=152,R=245,A=255))
+         ColorScale(2)=(RelativeTime=0.957143,Color=(B=251,G=174,R=198,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=132,G=181,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.500000,Max=0.600000),Z=(Min=0.500000,Max=0.600000))
+         Opacity=0.650000
+         FadeOutStartTime=1.410000
+         FadeOut=True
+         FadeInEndTime=0.840000
+         FadeIn=True
+         MaxParticles=18
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-6.000000,Max=6.000000))
+         SphereRadiusRange=(Min=30.000000,Max=30.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=3.000000,Max=3.000000))
+         SpinsPerSecondRange=(X=(Min=-0.020000,Max=0.020000))
+         StartSpinRange=(X=(Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.200000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.500000),Y=(Min=3.000000,Max=3.500000),Z=(Min=1.000000,Max=1.500000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5011'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=2.000000,Max=3.000000)
+         StartVelocityRange=(X=(Min=-1.500000,Max=1.500000),Y=(Min=-1.500000,Max=1.500000),Z=(Min=3.000000,Max=5.000000))
+         GetVelocityDirectionFrom=PTVD_AddRadial
+         Name="SpriteEmitter15"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.ra_raid_rank_ca.SpriteEmitter15'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         RefrUScale=0.020000
+         RefrVScale=0.020000
+         ColorScale(0)=(Color=(B=16,G=16,R=218,A=255))
+         ColorScale(1)=(RelativeTime=0.446429,Color=(B=210,G=152,R=245,A=255))
+         ColorScale(2)=(RelativeTime=0.957143,Color=(B=251,G=174,R=198,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=132,G=181,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.600000,Max=0.700000),Z=(Min=0.600000,Max=0.700000))
+         Opacity=0.800000
+         FadeOutStartTime=0.880000
+         FadeOut=True
+         FadeInEndTime=0.600000
+         FadeIn=True
+         MaxParticles=18
+         StartLocationOffset=(Z=2.000000)
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-6.000000,Max=6.000000),Z=(Min=-1.000000,Max=1.000000))
+         SphereRadiusRange=(Min=20.000000,Max=20.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=3.000000,Max=3.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.040000,Max=0.040000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.500000),Y=(Min=4.000000,Max=8.000000),Z=(Min=1.000000,Max=1.500000))
+         InitialParticlesPerSecond=3.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5011'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=2.000000,Max=3.000000)
+         StartVelocityRange=(Z=(Min=3.000000,Max=3.000000))
+         GetVelocityDirectionFrom=PTVD_AddRadial
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.ra_raid_rank_ca.SpriteEmitter6'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bDirectional=True
+}

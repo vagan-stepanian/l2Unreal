@@ -1,0 +1,74 @@
+class d_ave_change_body extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Y=1.000000,Z=0.000000)
+         Acceleration=(Z=-1000.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.700000,Max=1.000000),Y=(Min=0.700000,Max=1.000000),Z=(Min=0.700000,Max=1.000000))
+         Opacity=0.300000
+         FadeOutStartTime=0.234000
+         FadeOut=True
+         FadeInEndTime=0.108000
+         FadeIn=True
+         MaxParticles=8
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=100.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=110.000000,Max=150.000000),Z=(Min=12.000000,Max=12.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000))
+         StartSizeRange=(X=(Min=2.000000,Max=5.000000),Y=(Min=120.000000,Max=120.000000),Z=(Min=3.000000,Max=3.000000))
+         InitialParticlesPerSecond=140.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t8178'
+         SubdivisionStart=13
+         SubdivisionEnd=14
+         LifetimeRange=(Min=0.300000,Max=0.300000)
+         StartVelocityRange=(Z=(Min=-120.000000,Max=-120.000000))
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_ave_change_body.SpriteEmitter0'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Skill.ring2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(Z=-10.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.800000,Max=0.800000),Z=(Min=0.600000,Max=0.600000))
+         Opacity=0.700000
+         FadeOutStartTime=0.175000
+         FadeOut=True
+         FadeInEndTime=0.098000
+         FadeIn=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=100.000000)
+         StartLocationRange=(Z=(Min=-10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=1.000000)
+         SpinsPerSecondRange=(X=(Min=0.500000,Max=1.000000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=55.000000)
+         StartSizeRange=(X=(Min=0.007000,Max=0.007000),Y=(Min=0.007000,Max=0.007000),Z=(Min=0.004000,Max=0.004000))
+         InitialParticlesPerSecond=150.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         LifetimeRange=(Min=0.500000,Max=0.700000)
+         InitialDelayRange=(Min=0.100000,Max=0.100000)
+         StartVelocityRange=(Z=(Min=-290.000000,Max=-290.000000))
+         VelocityLossRange=(Z=(Min=3.000000,Max=3.000000))
+         Name="MeshEmitter1"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_ave_change_body.MeshEmitter1'
+     AutoDestroy=False
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+}

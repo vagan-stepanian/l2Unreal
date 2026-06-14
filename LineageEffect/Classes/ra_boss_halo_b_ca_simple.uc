@@ -1,0 +1,125 @@
+class ra_boss_halo_b_ca_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         UseDirectionAs=PTDU_Up
+         RefrUScale=0.020000
+         RefrVScale=0.020000
+         Acceleration=(Z=3.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=1.770000
+         FadeOut=True
+         FadeInEndTime=0.210000
+         FadeIn=True
+         MaxParticles=32
+         StartLocationOffset=(Z=2.000000)
+         StartLocationRange=(X=(Min=-45.000000,Max=45.000000),Y=(Min=-22.000000,Max=22.000000),Z=(Min=-8.000000,Max=8.000000))
+         SphereRadiusRange=(Min=30.000000,Max=30.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=3.000000,Max=3.000000))
+         SpinsPerSecondRange=(X=(Min=-0.020000,Max=0.020000))
+         StartSpinRange=(X=(Max=0.100000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=5.000000)
+         StartSizeRange=(X=(Min=3.000000,Max=4.000000),Y=(Min=4.000000,Max=8.000000),Z=(Min=3.000000,Max=4.000000))
+         InitialParticlesPerSecond=15.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5011'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=2.500000,Max=3.000000)
+         StartVelocityRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         GetVelocityDirectionFrom=PTVD_AddRadial
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.ra_boss_halo_b_ca_simple.SpriteEmitter8'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter13
+         UseDirectionAs=PTDU_Up
+         RefrUScale=0.020000
+         RefrVScale=0.020000
+         Acceleration=(Z=1.000000)
+         ColorScale(0)=(Color=(B=16,G=16,R=218,A=255))
+         ColorScale(1)=(RelativeTime=0.446429,Color=(B=210,G=152,R=245,A=255))
+         ColorScale(2)=(RelativeTime=0.957143,Color=(B=251,G=174,R=198,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=132,G=181,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.950000,Max=0.950000),Z=(Min=0.850000,Max=0.900000))
+         Opacity=0.700000
+         FadeOutStartTime=1.125000
+         FadeOut=True
+         FadeInEndTime=0.750000
+         FadeIn=True
+         MaxParticles=20
+         StartLocationRange=(X=(Min=-45.000000,Max=45.000000),Y=(Min=-20.000000,Max=20.000000),Z=(Min=-8.000000,Max=8.000000))
+         SphereRadiusRange=(Min=30.000000,Max=30.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=3.000000,Max=3.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.010000,Max=0.010000))
+         StartSpinRange=(X=(Max=0.050000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.150000,RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.700000,RelativeSize=3.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=3.000000,Max=4.000000),Y=(Min=5.000000,Max=8.000000),Z=(Min=5.000000,Max=8.000000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t5011'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=2.500000,Max=3.000000)
+         StartVelocityRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=1.000000,Max=3.000000))
+         GetVelocityDirectionFrom=PTVD_AddRadial
+         Name="SpriteEmitter13"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.ra_boss_halo_b_ca_simple.SpriteEmitter13'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter14
+         UseDirectionAs=PTDU_Up
+         RefrUScale=0.020000
+         RefrVScale=0.020000
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=192,G=194,R=235,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=149,G=176,R=240,A=255))
+         FadeOutStartTime=1.500000
+         FadeOut=True
+         FadeInEndTime=0.540000
+         FadeIn=True
+         MaxParticles=28
+         StartLocationRange=(X=(Min=-45.000000,Max=45.000000),Y=(Min=-20.000000,Max=20.000000),Z=(Min=-8.000000,Max=8.000000))
+         SphereRadiusRange=(Min=30.000000,Max=30.000000)
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.030000,Max=0.030000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.300000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=2.000000,Max=3.000000),Y=(Min=4.000000,Max=8.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=6.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles3.fx_m_t4023'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=31
+         LifetimeRange=(Min=2.000000,Max=2.500000)
+         StartVelocityRange=(X=(Min=-0.100000,Max=0.100000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=1.000000,Max=3.000000))
+         Name="SpriteEmitter14"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.ra_boss_halo_b_ca_simple.SpriteEmitter14'
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.100000
+     bDirectional=True
+}

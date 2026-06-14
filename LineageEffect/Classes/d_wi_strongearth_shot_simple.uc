@@ -1,0 +1,153 @@
+class d_wi_strongearth_shot_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter40
+         Acceleration=(X=500.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.000000
+         MaxParticles=1
+         RespawnDeadParticles=False
+         UniformSize=True
+         StartSizeRange=(X=(Min=37.950001,Max=37.950001),Y=(Min=37.950001,Max=37.950001),Z=(Min=37.950001,Max=37.950001))
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.jm-flat'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=500.000000,Max=500.000000))
+         Name="SpriteEmitter40"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.d_wi_strongearth_shot_simple.SpriteEmitter40'
+     Begin Object Class=MeshEmitter Name=MeshEmitter35
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh03.stone_p'
+         Acceleration=(Z=-30.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.800000,Max=0.800000))
+         FadeOutStartTime=0.495000
+         FadeOut=True
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=1.000000)
+         StartLocationRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000))
+         AddLocationFromOtherEmitter=0
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-90.000000,Max=90.000000),Y=(Min=90.000000,Max=90.000000),Z=(Max=100.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.005000,Max=0.005000),Y=(Min=-0.005000,Max=0.005000),Z=(Min=-0.005000,Max=0.005000))
+         StartSpinRange=(X=(Max=1.000000),Y=(Min=-0.050000,Max=0.050000),Z=(Min=-0.050000,Max=0.050000))
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.600000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=0.250000,Max=0.250000),Y=(Min=0.250000,Max=0.250000),Z=(Min=0.250000,Max=0.250000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(Z=(Min=5.000000,Max=5.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Name="MeshEmitter35"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_wi_strongearth_shot_simple.MeshEmitter35'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter55
+         UseDirectionAs=PTDU_Normal
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(Y=(Max=0.150000),Z=(Max=0.200000))
+         FadeOutStartTime=0.510000
+         FadeOut=True
+         MaxParticles=40
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-60.000000,Max=60.000000),Y=(Min=-60.000000,Max=60.000000))
+         AddLocationFromOtherEmitter=0
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-60.000000,Max=60.000000),Y=(Min=90.000000,Max=90.000000),Z=(Max=120.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.540000)
+         StartSpinRange=(X=(Max=1.000000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=65.500000,Max=111.199997),Y=(Min=65.500000,Max=111.199997),Z=(Min=65.500000,Max=111.199997))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures.Particles5.ct2_c03'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=7
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="SpriteEmitter55"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.d_wi_strongearth_shot_simple.SpriteEmitter55'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter118
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.714000,Max=0.714000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.250000
+         FadeOutStartTime=0.420000
+         FadeOut=True
+         FadeInEndTime=0.090000
+         FadeIn=True
+         CoordinateSystem=PTCS_Spray
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=10.000000)
+         StartLocationRange=(X=(Min=-35.000000,Max=35.000000),Y=(Min=-35.000000,Max=35.000000))
+         AddLocationFromOtherEmitter=0
+         StartSizeRange=(X=(Min=30.000000,Max=35.000000),Y=(Min=40.000000,Max=60.000000),Z=(Min=30.000000,Max=35.000000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3206'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=8
+         BlendBetweenSubdivisions=True
+         SubdivisionScale(0)=2.000000
+         SubdivisionStart=10
+         SubdivisionEnd=63
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(X=(Min=-20.000000,Max=-20.000000),Z=(Min=-5.000000,Max=8.000000))
+         Name="SpriteEmitter118"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.d_wi_strongearth_shot_simple.SpriteEmitter118'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter119
+         UseDirectionAs=PTDU_Up
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.400000
+         FadeOutStartTime=0.246000
+         FadeOut=True
+         RespawnDeadParticles=False
+         StartLocationRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000),Z=(Min=-7.000000,Max=7.000000))
+         AddLocationFromOtherEmitter=0
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
+         StartSizeRange=(X=(Min=30.000000,Max=55.000000),Y=(Min=30.000000,Max=55.000000),Z=(Min=30.000000,Max=55.000000))
+         InitialParticlesPerSecond=30.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t_3051'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=17
+         LifetimeRange=(Min=0.300000,Max=0.600000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=-10.000000),Z=(Min=0.500000,Max=0.500000))
+         VelocityLossRange=(Z=(Min=1.000000,Max=1.000000))
+         Name="SpriteEmitter119"
+     End Object
+     Emitters(5)=SpriteEmitter'LineageEffect.d_wi_strongearth_shot_simple.SpriteEmitter119'
+     AutoReplay=True
+     bNoDelete=False
+     bUnlit=False
+}

@@ -1,0 +1,122 @@
+class z_quest_blue_end_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter149
+         Acceleration=(Z=-32.000000)
+         ColorScale(0)=(Color=(B=170,G=200,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=170,G=200,R=255,A=255))
+         FadeOutStartTime=0.500000
+         MaxParticles=1
+         ForcedLifeTime=True
+         ForcedMaxParticles=True
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000))
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.900000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=24.000000,Max=24.000000),Y=(Min=24.000000,Max=24.000000),Z=(Min=24.000000,Max=24.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'LineageEffectsTextures2.Particles2.fx_m_t6241'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Min=8.000000,Max=8.000000))
+         Name="SpriteEmitter149"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.z_quest_blue_end_simple.SpriteEmitter149'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter150
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=128,R=255,A=255))
+         Opacity=0.700000
+         FadeOutStartTime=0.236000
+         FadeOut=True
+         FadeInEndTime=0.104000
+         FadeIn=True
+         StartLocationRange=(X=(Min=-32.000000,Max=32.000000),Y=(Min=-32.000000,Max=32.000000),Z=(Min=-32.000000,Max=32.000000))
+         UseSizeScale=True
+         UniformSize=True
+         StartSizeRange=(X=(Min=12.000000,Max=20.000000),Y=(Min=12.000000,Max=20.000000),Z=(Min=12.000000,Max=20.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0085'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=3
+         LifetimeRange=(Min=0.400000,Max=0.400000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter150"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.z_quest_blue_end_simple.SpriteEmitter150'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter151
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=17,G=202,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorScaleRepeats=3.000000
+         Opacity=0.100000
+         FadeOutStartTime=0.915000
+         FadeOut=True
+         FadeInEndTime=0.255000
+         FadeIn=True
+         MaxParticles=5
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.250000)
+         StartSizeRange=(X=(Min=48.000000,Max=48.000000),Y=(Min=48.000000,Max=48.000000),Z=(Min=48.000000,Max=48.000000))
+         InitialParticlesPerSecond=5.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.ring-bw'
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter151"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.z_quest_blue_end_simple.SpriteEmitter151'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter152
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=18,G=176,R=237,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.900000,Max=0.900000),Z=(Min=0.700000,Max=0.700000))
+         Opacity=0.200000
+         FadeOutStartTime=0.915000
+         FadeOut=True
+         FadeInEndTime=0.255000
+         FadeIn=True
+         MaxParticles=5
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.010000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=72.000000,Max=72.000000),Y=(Min=72.000000,Max=72.000000),Z=(Min=72.000000,Max=72.000000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t0821'
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter152"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.z_quest_blue_end_simple.SpriteEmitter152'
+     bSetSizeScale=False
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     Rotation=(Yaw=1144,Roll=32)
+     DrawScale=0.060000
+     bUnlit=False
+     SwayRotationOrig=(Yaw=1144,Roll=32)
+}

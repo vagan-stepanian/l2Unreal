@@ -1,0 +1,114 @@
+class e_u611_tiat_lose_B_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter27
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.cloud.Bereth_cloud2'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=43,G=34,R=28,A=255))
+         ColorScale(1)=(RelativeTime=0.239286,Color=(B=89,G=68,R=55,A=255))
+         ColorScale(2)=(RelativeTime=0.650000,Color=(B=132,G=103,R=218,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=108,G=66,R=255,A=255))
+         Opacity=0.500000
+         FadeOutStartTime=4.450000
+         FadeOut=True
+         FadeInEndTime=2.100000
+         FadeIn=True
+         MaxParticles=13
+         StartLocationOffset=(Z=30.000000)
+         StartLocationRange=(Z=(Min=10.000000,Max=80.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.080000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.400000)
+         StartSizeRange=(X=(Min=1.800000,Max=1.800000),Y=(Min=1.800000,Max=1.800000),Z=(Min=1.500000,Max=1.500000))
+         InitialParticlesPerSecond=10.000000
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=5.000000,Max=5.000000)
+         StartVelocityRange=(Z=(Min=1.000000,Max=30.000000))
+         Name="MeshEmitter27"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.e_u611_tiat_lose_B_simple.MeshEmitter27'
+     Begin Object Class=MeshEmitter Name=MeshEmitter30
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.aura_wooh02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         Acceleration=(Z=5.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=104,G=55,R=73,A=255))
+         ColorScale(1)=(RelativeTime=0.514286,Color=(B=111,G=135,R=251,A=255))
+         ColorScale(2)=(RelativeTime=0.964286,Color=(B=205,G=121,R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=104,G=55,R=73,A=255))
+         ColorMultiplierRange=(X=(Min=0.100000,Max=0.100000),Y=(Min=0.100000,Max=0.100000),Z=(Min=0.100000,Max=0.100000))
+         FadeOutStartTime=4.300000
+         FadeOut=True
+         FadeInEndTime=1.200000
+         FadeIn=True
+         MaxParticles=8
+         StartLocationOffset=(Z=-50.000000)
+         StartLocationRange=(Z=(Min=50.000000,Max=50.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Min=30.000000,Max=30.000000))
+         InitialParticlesPerSecond=10.000000
+         DrawStyle=PTDS_AlphaBlend
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles4.fx_m_t8018'
+         LifetimeRange=(Min=5.000000,Max=5.000000)
+         StartVelocityRange=(Z=(Max=30.000000))
+         Name="MeshEmitter30"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.e_u611_tiat_lose_B_simple.MeshEmitter30'
+     Begin Object Class=MeshEmitter Name=MeshEmitter31
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.aura_wooh02'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         Acceleration=(Z=10.560000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=109,G=137,R=248,A=255))
+         ColorScale(1)=(RelativeTime=0.514286,Color=(B=111,G=135,R=251,A=255))
+         ColorScale(2)=(RelativeTime=0.964286,Color=(B=205,G=121,R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=104,G=55,R=73,A=255))
+         ColorMultiplierRange=(X=(Min=0.050000,Max=0.050000),Y=(Min=0.050000,Max=0.050000),Z=(Min=0.050000,Max=0.050000))
+         FadeOutStartTime=4.300000
+         FadeOut=True
+         FadeInEndTime=2.100000
+         FadeIn=True
+         MaxParticles=6
+         StartLocationOffset=(Z=10.000000)
+         StartLocationRange=(Z=(Min=-5.500000,Max=5.500000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000,Y=0.000000,Z=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.100000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.500000)
+         StartSizeRange=(X=(Min=8.800000,Max=9.680000),Y=(Min=8.800000,Max=9.680000),Z=(Min=26.400002,Max=26.400002))
+         InitialParticlesPerSecond=10.000000
+         DrawStyle=PTDS_AlphaBlend
+         CustomMaterials(0)=Texture'LineageEffectsTextures.Particles4.fx_m_t8017'
+         LifetimeRange=(Min=5.000000,Max=5.000000)
+         StartVelocityRange=(Z=(Min=8.800000,Max=26.400002))
+         Name="MeshEmitter31"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.e_u611_tiat_lose_B_simple.MeshEmitter31'
+     bNoDelete=False
+     DrawScale=2.000000
+}

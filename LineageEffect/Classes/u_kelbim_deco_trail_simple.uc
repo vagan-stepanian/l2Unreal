@@ -1,0 +1,124 @@
+class u_kelbim_deco_trail_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter176
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.000000
+         FadeOutStartTime=0.900000
+         MaxParticles=5
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=7.000000,Max=7.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(X=(Min=1.500000,Max=1.500000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=2.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles2.fx_m_t1060'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         SubdivisionEnd=4
+         LifetimeRange=(Min=0.600000,Max=0.600000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter176"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.u_kelbim_deco_trail_simple.SpriteEmitter176'
+     Begin Object Class=TrailEmitter Name=TrailEmitter4
+         TrailShadeType=PTTST_PointLife
+         DistanceThreshold=10.000000
+         PointLifeTime=0.590000
+         ColorScale(0)=(Color=(B=135,G=201,R=254,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=19,G=19,R=251,A=255))
+         ColorMultiplierRange=(X=(Min=0.500000,Max=0.500000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         FadeOutStartTime=0.289100
+         FadeOut=True
+         FadeInEndTime=0.147500
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         DestroyWhenHitTarget=False
+         AutoReset=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4148'
+         LifetimeRange=(Min=0.590000,Max=0.590000)
+         Name="TrailEmitter4"
+     End Object
+     Emitters(1)=TrailEmitter'LineageEffect.u_kelbim_deco_trail_simple.TrailEmitter4'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter177
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         Opacity=0.000000
+         FadeOutStartTime=0.900000
+         MaxParticles=2
+         StartLocationPolarRange=(X=(Min=-180.000000,Max=180.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=7.000000,Max=7.000000))
+         UseRevolution=True
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=5.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4145'
+         LifetimeRange=(Min=0.900000,Max=0.900000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter177"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect.u_kelbim_deco_trail_simple.SpriteEmitter177'
+     Begin Object Class=TrailEmitter Name=TrailEmitter5
+         TrailShadeType=PTTST_PointLife
+         DistanceThreshold=10.000000
+         PointLifeTime=0.890000
+         AttachEmitterIndex=2
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=21,G=21,R=255))
+         ColorScale(1)=(Color=(B=119))
+         ColorScale(2)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=5,G=5,R=73,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000))
+         Opacity=0.610000
+         FadeOutStartTime=0.507300
+         FadeOut=True
+         FadeInEndTime=0.409400
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=1
+         DestroyWhenHitTarget=False
+         AutoReset=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.120000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         InitialParticlesPerSecond=1000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures2.Particles.FX_M_T4148'
+         LifetimeRange=(Min=0.890000,Max=0.890000)
+         Name="TrailEmitter5"
+     End Object
+     Emitters(3)=TrailEmitter'LineageEffect.u_kelbim_deco_trail_simple.TrailEmitter5'
+     AutoReplay=True
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.200000
+     bDirectional=True
+}

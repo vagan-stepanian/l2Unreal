@@ -1,0 +1,65 @@
+class br_e_u031_aga_dailaon_bip extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=VertMeshEmitter Name=VertMeshEmitter0
+         AnimRate(2)=0.559855
+         AnimRate(3)=0.495418
+         AnimRate(4)=0.430333
+         AnimRate(5)=0.344372
+         AnimRate(6)=0.279929
+         AnimRate(7)=0.215461
+         AnimRate(8)=0.151045
+         AnimRate(9)=0.086415
+         AnimRate(10)=0.021485
+         AnimRate(11)=0.956977
+         AnimRate(12)=0.892527
+         AnimRate(13)=0.827456
+         AnimRate(14)=0.762973
+         AnimRate(15)=0.677031
+         AnimRate(16)=0.611971
+         AnimRate(17)=0.547521
+         AnimRate(18)=0.479869
+         AnimRate(19)=0.415363
+         AnimRate(20)=0.359354
+         AnimRate(21)=0.294269
+         AnimRate(22)=0.229166
+         AnimRate(23)=0.164062
+         AnimRate(24)=0.078125
+         VertexMesh=VertMesh'LineageEffectMeshes.bereth_horn45'
+         UseMeshBlendMode=False
+         Acceleration=(Z=0.001050)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=128,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.514286,Color=(R=128,A=255))
+         ColorScale(2)=(RelativeTime=0.800000,Color=(B=78,R=155,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(A=255))
+         ColorMultiplierRange=(X=(Min=0.250000,Max=0.250000),Y=(Min=0.250000,Max=0.250000),Z=(Min=0.250000,Max=0.250000))
+         Opacity=0.500000
+         FadeOutStartTime=0.720000
+         FadeOut=True
+         FadeInEndTime=0.030000
+         FadeIn=True
+         CoordinateSystem=PTCS_Independent
+         MaxParticles=25
+         StartLocationOffset=(Z=3.000000)
+         StartLocationRange=(X=(Min=-0.000517,Max=0.000517),Y=(Min=-0.000517,Max=0.000517))
+         SpinParticles=True
+         StartSpinRange=(X=(Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.800000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.200000)
+         StartSizeRange=(X=(Min=0.025000,Max=0.025000),Y=(Min=0.025000,Max=0.025000),Z=(Min=0.025000,Max=0.025000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         InitialDelayRange=(Min=0.500000,Max=0.500000)
+         Name="VertMeshEmitter0"
+     End Object
+     Emitters(0)=VertMeshEmitter'LineageEffect.br_e_u031_aga_dailaon_bip.VertMeshEmitter0'
+     bLightChanged=True
+     bNoDelete=False
+     DrawScale=0.050000
+}

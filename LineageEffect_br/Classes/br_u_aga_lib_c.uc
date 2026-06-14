@@ -1,0 +1,128 @@
+class br_u_aga_lib_c extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter144
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=45,G=45,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.300000,Color=(B=65,G=109,R=228,A=255))
+         ColorScale(2)=(RelativeTime=0.539286,Color=(B=176,G=176,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.750000,Color=(B=23,G=99,R=255,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=55,G=55,R=255,A=255))
+         ColorScale(5)=(RelativeTime=1.000000,Color=(B=43,G=43,R=43,A=255))
+         Opacity=0.490000
+         FadeOutStartTime=1.360000
+         FadeOut=True
+         FadeInEndTime=0.500000
+         FadeIn=True
+         MaxParticles=4
+         SpinCCWorCW=(X=0.000000)
+         UniformSize=True
+         StartSizeRange=(X=(Min=5.300000,Max=5.300000),Y=(Min=5.300000,Max=5.300000),Z=(Min=5.300000,Max=5.300000))
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t6136'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         WarmupTicksPerSecond=2.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter144"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect_Br.br_u_aga_lib_c.SpriteEmitter144'
+     Begin Object Class=MeshEmitter Name=MeshEmitter55
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.aga_star1'
+         UseParticleColor=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=117,G=117,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.321429,Color=(B=82,G=146,R=224,A=255))
+         ColorScale(2)=(RelativeTime=0.517857,Color=(B=92,G=180,R=237,A=255))
+         ColorScale(3)=(RelativeTime=0.653571,Color=(B=77,G=138,R=230,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=91,G=91,R=255,A=255))
+         FadeOutStartTime=12.000000
+         StartLocationRange=(X=(Min=0.500000,Max=2.000000),Y=(Min=0.500000,Max=2.000000),Z=(Min=0.500000,Max=2.000000))
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=90.000000,Max=90.000000),Y=(Max=360.000000),Z=(Min=2.500000,Max=5.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(X=(Min=10.000000,Max=10.000000))
+         RevolutionsPerSecondRange=(X=(Min=0.050000,Max=0.150000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.300000),Y=(Min=0.100000,Max=0.300000),Z=(Min=0.100000,Max=0.300000))
+         StartSpinRange=(X=(Max=0.200000),Y=(Max=0.200000),Z=(Max=0.200000))
+         StartSizeRange=(X=(Min=0.008000,Max=0.016000),Y=(Min=0.008000,Max=0.016000),Z=(Min=0.022000,Max=0.022000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=12.000000,Max=12.000000)
+         Name="MeshEmitter55"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect_Br.br_u_aga_lib_c.MeshEmitter55'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter171
+         UseDirectionAs=PTDU_Normal
+         ProjectionNormal=(X=1.000000,Z=0.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=85,G=85,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.307143,Color=(B=17,G=95,R=255,A=255))
+         ColorScale(2)=(RelativeTime=0.539286,Color=(B=142,G=142,R=255,A=255))
+         ColorScale(3)=(RelativeTime=0.746429,Color=(B=64,G=128,R=255,A=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=117,G=117,R=255,A=255))
+         Opacity=0.600000
+         FadeOutStartTime=8.400000
+         FadeOut=True
+         FadeInEndTime=0.900000
+         FadeIn=True
+         MaxParticles=2
+         StartLocationOffset=(Z=5.000000)
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.950000)
+         SizeScale(1)=(RelativeTime=0.280000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.050000)
+         StartSizeRange=(X=(Min=2.000000,Max=2.000000),Y=(Min=2.000000,Max=2.000000),Z=(Min=2.000000,Max=2.000000))
+         InitialParticlesPerSecond=1.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles6.fx_m_t6137'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         SubdivisionStart=2
+         SubdivisionEnd=3
+         LifetimeRange=(Min=10.000000,Max=10.000000)
+         WarmupTicksPerSecond=2.000000
+         RelativeWarmupTime=2.000000
+         Name="SpriteEmitter171"
+     End Object
+     Emitters(2)=SpriteEmitter'LineageEffect_Br.br_u_aga_lib_c.SpriteEmitter171'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter182
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=98,G=98,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.514286,Color=(B=37,G=209,R=218,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=102,G=102,R=255,A=255))
+         Opacity=0.800000
+         FadeOutStartTime=0.800000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=15
+         StartLocationOffset=(Z=5.000000)
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Max=360.000000),Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(1)=(RelativeTime=0.410000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=1.000000,Max=2.000000),Y=(Min=1.000000,Max=2.000000),Z=(Min=1.000000,Max=2.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Particles.fx_m_t0069'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=4
+         SubdivisionStart=5
+         SubdivisionEnd=6
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="SpriteEmitter182"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect_Br.br_u_aga_lib_c.SpriteEmitter182'
+     AutoDestroy=False
+     bNoDelete=False
+}

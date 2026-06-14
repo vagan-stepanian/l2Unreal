@@ -1,0 +1,49 @@
+class ab_bleeding_simple extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter0
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.Impact.bloodspray00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=-13.000000,Z=-50.000000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.400000,Max=0.400000))
+         Opacity=0.600000
+         FadeOutStartTime=0.052000
+         FadeOut=True
+         MaxParticles=4
+         RespawnDeadParticles=False
+         StartLocationOffset=(Z=5.000000)
+         UseRotationFrom=PTRS_Actor
+         SpinParticles=True
+         SpinCCWorCW=(Y=1.000000)
+         SpinsPerSecondRange=(Y=(Min=0.060000,Max=0.060000))
+         StartSpinRange=(X=(Min=-0.150000,Max=0.150000),Y=(Min=-0.070000,Max=0.020000),Z=(Min=-0.050000,Max=0.050000))
+         RotationNormal=(X=1.000000)
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeTime=0.110000,RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.280000,RelativeSize=2.600000)
+         SizeScale(2)=(RelativeTime=0.580000,RelativeSize=3.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=3.500000)
+         StartSizeRange=(X=(Min=0.015000,Max=0.030000),Y=(Min=0.028000,Max=0.028000),Z=(Min=0.028000,Max=0.028000))
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=0.200000,Max=0.400000)
+         StartVelocityRange=(Z=(Min=10.000000,Max=10.000000))
+         GetVelocityDirectionFrom=PTVD_OwnerAndStartPosition
+         Name="MeshEmitter0"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.ab_bleeding_simple.MeshEmitter0'
+     bRotEmitter=True
+     RotPerSecond=(Yaw=10000)
+     bLightChanged=True
+     bNoDelete=False
+     bSunAffect=True
+     DrawScale=0.300000
+     bDirectional=True
+}

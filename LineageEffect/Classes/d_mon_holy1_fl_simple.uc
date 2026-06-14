@@ -1,0 +1,102 @@
+class d_mon_holy1_fl_simple extends NSkillProjectile;
+
+defaultproperties
+{
+     Speed=1000.000000
+     AccSpeed=3000.000000
+     Begin Object Class=MeshEmitter Name=MeshEmitter26
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.aura_nemo'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         Acceleration=(X=-88.000000)
+         ColorScale(0)=(Color=(B=235,G=247,R=166,A=180))
+         ColorScale(1)=(RelativeTime=0.525000,Color=(B=96,G=234,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=225,G=242,R=168,A=180))
+         ColorScaleRepeats=10.000000
+         ColorMultiplierRange=(X=(Min=0.600000,Max=0.600000),Y=(Min=0.800000,Max=0.800000),Z=(Min=1.000000,Max=1.000000))
+         Opacity=0.150000
+         FadeOutStartTime=0.296000
+         FadeOut=True
+         FadeInEndTime=0.248000
+         FadeIn=True
+         MaxParticles=40
+         StartLocationOffset=(X=-5.000000)
+         SpinParticles=True
+         StartSpinRange=(Z=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.400000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=0.500000,Max=0.500000),Z=(Min=0.500000,Max=0.500000))
+         InitialParticlesPerSecond=40.000000
+         AutomaticInitialSpawning=False
+         TextureUSubdivisions=1
+         TextureVSubdivisions=1
+         LifetimeRange=(Min=0.800000,Max=0.800000)
+         StartVelocityRange=(X=(Min=-24.000000,Max=-24.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-5.000000,Max=5.000000))
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter26"
+     End Object
+     Emitters(0)=MeshEmitter'LineageEffect.d_mon_holy1_fl_simple.MeshEmitter26'
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.wooh02.firecornl'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=128,A=255))
+         ColorScale(1)=(RelativeTime=0.507143,Color=(B=192,G=192,R=192,A=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=155,G=251,R=196,A=255))
+         ColorScaleRepeats=2.000000
+         Opacity=0.050000
+         FadeOutStartTime=0.800000
+         FadeOut=True
+         FadeInEndTime=0.230000
+         FadeIn=True
+         MaxParticles=6
+         StartLocationRange=(X=(Min=-8.000000,Max=-6.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Min=1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=0.400000,Max=0.400000),Y=(Min=0.400000,Max=0.400000),Z=(Min=0.400000,Max=0.400000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter2"
+     End Object
+     Emitters(1)=MeshEmitter'LineageEffect.d_mon_holy1_fl_simple.MeshEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter3
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.White.white_radiation00'
+         UseMeshBlendMode=False
+         RenderTwoSided=True
+         UseParticleColor=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=0.600000,Max=0.600000),Z=(Min=0.500000,Max=0.500000))
+         Opacity=0.080000
+         FadeOutStartTime=0.300000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationRange=(X=(Min=9.000000,Max=9.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(Z=(Min=1.000000,Max=1.000000))
+         StartSpinRange=(Z=(Max=0.200000))
+         StartSizeRange=(X=(Min=-0.500000,Max=-0.500000),Y=(Min=0.180000,Max=0.180000),Z=(Min=0.180000,Max=0.180000))
+         InitialParticlesPerSecond=8.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="MeshEmitter3"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.d_mon_holy1_fl_simple.MeshEmitter3'
+     bLightChanged=True
+     bSunAffect=True
+     Rotation=(Yaw=-56)
+     DrawScale=0.100000
+     bUnlit=False
+     SwayRotationOrig=(Yaw=-56)
+}

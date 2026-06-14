@@ -1,0 +1,134 @@
+class ave_hungrypet extends Emitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         Acceleration=(Z=3.000000)
+         ColorScale(0)=(Color=(B=185,G=185,R=185,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         ColorMultiplierRange=(X=(Min=0.800000,Max=1.000000),Y=(Min=0.500000,Max=0.800000),Z=(Max=0.700000))
+         Opacity=0.380000
+         FadeOutStartTime=1.400000
+         FadeOut=True
+         FadeInEndTime=0.400000
+         FadeIn=True
+         MaxParticles=8
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Y=(Min=-2.000000,Max=2.000000),Z=(Min=-2.000000,Max=2.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.050000,Max=0.050000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.300000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=5.000000,Max=8.000000),Y=(Min=5.000000,Max=8.000000),Z=(Min=5.000000,Max=8.000000))
+         InitialParticlesPerSecond=100.000000
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t6030'
+         TextureUSubdivisions=8
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=10
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(0)=SpriteEmitter'LineageEffect.ave_hungrypet.SpriteEmitter6'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         Acceleration=(Z=-3.000000)
+         ColorScale(0)=(Color=(B=128,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=0.307143,Color=(A=255))
+         ColorScale(2)=(RelativeTime=0.689286,Color=(B=128,G=128,R=128,A=255))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=114,G=231,R=175,A=255))
+         ColorScaleRepeats=33.000000
+         FadeOutStartTime=1.000000
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-3.000000,Max=3.000000))
+         AddLocationFromOtherEmitter=3
+         StartLocationPolarRange=(X=(Max=360.000000),Y=(Min=90.000000,Max=90.000000),Z=(Min=2.000000,Max=2.000000))
+         RevolutionsPerSecondRange=(Z=(Max=1.000000))
+         UseRevolutionScale=True
+         RevolutionScale(1)=(RelativeTime=1.000000,RelativeRevolution=(Z=1.000000))
+         SpinsPerSecondRange=(X=(Min=0.100000,Max=0.300000))
+         StartSpinRange=(X=(Min=1.000000,Max=1.000000))
+         UniformSize=True
+         StartSizeRange=(X=(Min=3.000000,Max=4.000000),Y=(Min=3.000000,Max=4.000000),Z=(Min=3.000000,Max=4.000000))
+         InitialParticlesPerSecond=10.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'LineageEffectsTextures.Lobby.fx_m_t_3147'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionEnd=16
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(1)=SpriteEmitter'LineageEffect.ave_hungrypet.SpriteEmitter7'
+     Begin Object Class=MeshEmitter Name=MeshEmitter1
+         StaticMesh=StaticMesh'LineageEffectsStaticmeshes.etc.meat2'
+         UseMeshBlendMode=False
+         UseParticleColor=True
+         Acceleration=(Z=1.200000)
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255,A=255))
+         FadeOutStartTime=1.360000
+         FadeOut=True
+         FadeInEndTime=0.740000
+         FadeIn=True
+         MaxParticles=3
+         StartLocationOffset=(Z=-2.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=0.500000,Max=0.500000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=0.700000)
+         SizeScale(2)=(RelativeTime=0.500000,RelativeSize=0.600000)
+         SizeScale(3)=(RelativeTime=0.750000,RelativeSize=0.900000)
+         SizeScale(4)=(RelativeTime=1.000000,RelativeSize=0.800000)
+         StartSizeRange=(X=(Min=0.240000,Max=0.480000),Y=(Min=0.240000,Max=0.480000),Z=(Min=0.240000,Max=0.480000))
+         InitialParticlesPerSecond=1.000000
+         DrawStyle=PTDS_AlphaBlend
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-3.600000,Max=3.600000),Y=(Min=-3.600000,Max=3.600000),Z=(Min=12.000000,Max=12.000000))
+         VelocityLossRange=(Z=(Min=1.000000,Max=1.300000))
+         Name="MeshEmitter1"
+     End Object
+     Emitters(2)=MeshEmitter'LineageEffect.ave_hungrypet.MeshEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         Acceleration=(Z=2.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=222,G=138,R=54,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=72,G=114,R=238,A=255))
+         FadeOutStartTime=1.400000
+         FadeOut=True
+         FadeInEndTime=0.220000
+         FadeIn=True
+         MaxParticles=5
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=-3.000000,Max=3.000000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.000000)
+         SpinsPerSecondRange=(X=(Min=0.300000,Max=0.300000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         UniformSize=True
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=0.150000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.300000,RelativeSize=0.600000)
+         SizeScale(3)=(RelativeTime=0.450000,RelativeSize=1.200000)
+         SizeScale(4)=(RelativeTime=0.600000,RelativeSize=0.800000)
+         SizeScale(5)=(RelativeTime=0.750000,RelativeSize=1.600000)
+         SizeScale(6)=(RelativeTime=1.000000,RelativeSize=1.100000)
+         StartSizeRange=(X=(Min=2.000000,Max=3.000000),Y=(Min=2.000000,Max=3.000000),Z=(Min=2.000000,Max=3.000000))
+         InitialParticlesPerSecond=1.500000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'LineageEffectsTextures.Particles4.fx_m_t6034'
+         LifetimeRange=(Min=3.000000,Max=3.000000)
+         StartVelocityRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000),Z=(Min=5.000000,Max=5.000000))
+         VelocityLossRange=(Z=(Min=0.800000,Max=1.200000))
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(3)=SpriteEmitter'LineageEffect.ave_hungrypet.SpriteEmitter8'
+     bNoDelete=False
+}
