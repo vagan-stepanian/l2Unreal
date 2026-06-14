@@ -49,6 +49,7 @@ class WBrowserScaleform : public WBrowser
 
 		pScaleformList = new WListBox(this, IDLB_MUSIC);
 		pScaleformList->OpenWindow(1, 0, 0, 0, 1);
+		pScaleformList->RightClickDelegate = FDelegate(this, (TDelegate)&WBrowserScaleform::OnListScaleformRightClick);
 
 		hWndToolBar = CreateToolbarEx(
 			hWnd, WS_CHILD | WS_BORDER | WS_VISIBLE | CCS_ADJUSTABLE,
@@ -165,8 +166,132 @@ class WBrowserScaleform : public WBrowser
 			break;
 		case IDMN_SB_FileSave:
 			break;
-		case IDMN_SB_IMPORT: 
+		case IDMN_SB_IMPORT:
+		{
+			OPENFILENAMEA ofn;
+			char File[16384] = "\0";
+
+			ZeroMemory(&ofn, sizeof(OPENFILENAMEA));
+			ofn.lStructSize = sizeof(OPENFILENAMEA);
+			ofn.hwndOwner = hWnd;
+			ofn.lpstrFile = File;
+			ofn.nMaxFile = sizeof(File);
+			ofn.lpstrFilter = "gfx Files (*.gfx)\0*.gfx\0All Files\0*.*\0\0";
+			ofn.lpstrInitialDir = "..\\Systextures";
+			ofn.lpstrDefExt = "gfx";
+			ofn.lpstrTitle = "Import GFxUI";
+			ofn.Flags = OFN_HIDEREADONLY | OFN_NOCHANGEDIR | OFN_ALLOWMULTISELECT | OFN_EXPLORER;
+
+			if (GetOpenFileNameA(&ofn))
+			{
+				INT iNULLs = FormatFilenames(File);
+
+				TArray<FString> StringArray;
+				FString S = appFromAnsi(File);
+				S.ParseIntoArray(TEXT("|"), &StringArray);
+
+				INT iStart = 0;
+				FString Prefix = TEXT("\0");
+
+				if (iNULLs)
+				{
+					iStart = 1;
+					Prefix = *(StringArray(0));
+					Prefix += TEXT("\\");
+				}
+
+				// Build the full list of selected filenames.
+				TArray<FString> FilenamesArray;
+				for (INT x = iStart; x < StringArray.Num(); ++x)
+					new(FilenamesArray)FString(FString::Printf(TEXT("%s%s"), *Prefix, *(StringArray(x))));
+
+				if (FilenamesArray.Num() > 0)
+				{
+					// Import everything into the currently selected package; if none is
+					// selected fall back to the first file's base name as a new package.
+					FString PackageName = pComboPackage->GetString(pComboPackage->GetCurrent());
+					if (!PackageName.Len())
+						PackageName = GetFilenameOnly(FilenamesArray(0));
+
+					UPackage* Pkg = UObject::CreatePackage(NULL, *PackageName);
+
+					GWarn->BeginSlowTask(TEXT(""), 1);
+
+					for (INT x = 0; x < FilenamesArray.Num(); ++x)
+					{
+						GWarn->StatusUpdatef(x, FilenamesArray.Num(), TEXT("Importing %s"), *(FilenamesArray(x)));
+
+						TArray<BYTE> Data;
+						if (!appLoadFileToArray(Data, *(FilenamesArray(x))))
+						{
+							appMsgf(0, TEXT("Can't open file:\n\n%s"), *(FilenamesArray(x)));
+							continue;
+						}
+
+						FString ObjName = GetFilenameOnly(FilenamesArray(x));
+
+						UGFxFlash* Flash = Cast<UGFxFlash>(UObject::StaticConstructObject(
+							UGFxFlash::StaticClass(), Pkg, *ObjName, RF_Public | RF_Standalone));
+
+						if (!Flash)
+						{
+							appMsgf(0, TEXT("Can't create GFxFlash object '%s'."), *ObjName);
+							continue;
+						}
+
+						Flash->GFxType_ = FName(TEXT("gfx"));
+						Flash->GFxData_ = Data;
+					}
+
+					GWarn->EndSlowTask();
+
+					GBrowserMaster->RefreshAll();
+					pComboPackage->SetCurrent(pComboPackage->FindStringExact(*PackageName));
+					RefreshAll();
+				}
+			}
+
+			GFileManager->SetDefaultDirectory(appBaseDir());
 			break;
+		}
+		case IDMN_SB_RENAME:
+		{
+			FString Name = GetScaleformName();
+			if (!Name.Len())
+				break;
+
+			FString PackageName = pComboPackage->GetString(pComboPackage->GetCurrent());
+
+			WDlgRename dlg(NULL, this);
+			if (dlg.DoModal(*Name, TEXT(""), PackageName))
+			{
+				GUnrealEd->Exec(*FString::Printf(
+					TEXT("OBJ RENAME OLDNAME=\"%s\" OLDGROUP=\"%s\" OLDPACKAGE=\"%s\" NEWNAME=\"%s\" NEWGROUP=\"%s\" NEWPACKAGE=\"%s\""),
+					*dlg.OldName, *dlg.OldGroup, *dlg.OldPackage, *dlg.NewName, *dlg.NewGroup, *dlg.NewPackage));
+
+				GBrowserMaster->RefreshAll();
+				RefreshAll();
+			}
+			break;
+		}
+		case IDMN_SB_DELETE:
+		{
+			FString Name = GetScaleformName();
+			if (!Name.Len())
+				break;
+
+			FStringOutputDevice GetPropResult = FStringOutputDevice();
+			TCHAR l_chCmd[256];
+
+			appSprintf(l_chCmd, TEXT("DELETE CLASS=GFxFlash OBJECT=\"%s\""), *Name);
+			GUnrealEd->Get(TEXT("Obj"), l_chCmd, GetPropResult);
+
+			if (!GetPropResult.Len())
+				RefreshScaleformList();
+			else
+				appMsgf(0, TEXT("Can't delete GFxUI\n\n%s"), *GetPropResult);
+			break;
+		}
 		case IDMN_SB_EXPORT: {
 			OPENFILENAMEA ofn;
 			char File[8192] = "\0";
@@ -302,6 +427,30 @@ class WBrowserScaleform : public WBrowser
 	void OnComboPackageSelChange() {
 		guard(WBrowserScaleform::OnComboPackageSelChange);
 		RefreshScaleformList();
+		unguard;
+	}
+
+	// Returns the name of the currently selected GFxUI object in the list.
+	FString GetScaleformName() {
+		guard(WBrowserScaleform::GetScaleformName);
+		if (pScaleformList->GetCount() <= 0 || pScaleformList->GetCurrent() < 0)
+			return TEXT("");
+		return pScaleformList->GetString(pScaleformList->GetCurrent());
+		unguard;
+	}
+
+	// Show the context menu (Delete / Rename) for the selected list item.
+	void OnListScaleformRightClick() {
+		guard(WBrowserScaleform::OnListScaleformRightClick);
+		HMENU root = LoadMenuIdX(hInstance, IDMENU_BrowserScaleform_Context);
+		HMENU menu = GetSubMenu(root, 0);
+		POINT pt;
+		::GetCursorPos(&pt);
+		TrackPopupMenu(menu,
+			TPM_LEFTALIGN | TPM_TOPALIGN | TPM_RIGHTBUTTON,
+			pt.x, pt.y, 0,
+			hWnd, NULL);
+		DestroyMenu(root);
 		unguard;
 	}
 };

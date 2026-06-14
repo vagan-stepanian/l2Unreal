@@ -1479,7 +1479,6 @@ IDMENU_BrowserScaleform_Context MENU
 BEGIN
     POPUP "Context"
     BEGIN
-        MENUITEM "&Properties",                 IDMN_SB_PROPERTIES
         MENUITEM "&Delete",                     IDMN_SB_DELETE
         MENUITEM "&Rename...",                  IDMN_SB_RENAME
     END
@@ -2711,7 +2710,7 @@ BEGIN
     ID_SEGMENT_INSERT       "Insert Segment\nInsert Segment"
     ID_SEGMENT_REMOVE       "Remove Segment\nRemove Segment"
     ID_SEGMENT_LINEAR       "Linear Segment\nLinear Segment"
-    ID_SEGMENT_BEZIER       "Bézier Segment\nBézier Segment"
+    ID_SEGMENT_BEZIER       "Bï¿½zier Segment\nBï¿½zier Segment"
     ID_SHAPE_SCALE          "Scale the selected shape\nScale Shape"
     ID_SHAPE_ROTATE         "Rotate the selected shape\nRotate Shape"
     ID_SHAPE_MIRROR         "Mirror the selected shape\nMirror Shape"
