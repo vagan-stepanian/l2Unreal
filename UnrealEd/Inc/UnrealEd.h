@@ -64,6 +64,9 @@ extern WBrowserAnimation* GBrowserAnimation;
 
 extern UPrefab* GCurrentPrefab;
 extern ULevel* GPrefabLevel;		// A temporary level we assign to the prefab viewport, where we hold the prefabs actors for viewing.
+extern ULevel* GEmitterPreviewLevel;	// Temporary level for the Emitter Viewer 3D preview (holds the spawned emitter).
+extern UBOOL GEmitterBrowserLoading;	// TRUE while the Emitter Viewer is (re)loading; suppresses preview tick/render.
+extern UBOOL GEmitterPreviewUnsupported;	// TRUE when the selected emitter is mesh-based and can't be previewed yet.
 extern FTexAlignTools GTexAlignTools;
 
 

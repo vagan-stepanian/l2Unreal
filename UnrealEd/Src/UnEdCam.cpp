@@ -51,6 +51,9 @@ void MoveActors( UViewport* Viewport, ULevel* Level, FVector Delta, FRotator Del
 // Global variables.
 UPrefab* GCurrentPrefab = NULL;
 ULevel* GPrefabLevel = NULL;		// A temporary level we assign to the prefab viewport, where we hold the prefabs actors for viewing.
+ULevel* GEmitterPreviewLevel = NULL;	// Temporary level for the Emitter Viewer 3D preview.
+UBOOL GEmitterBrowserLoading = 0;		// TRUE while the Emitter Viewer is (re)loading an emitter; suppresses preview tick/render to avoid re-entrant draws of a half-mutated level.
+UBOOL GEmitterPreviewUnsupported = 0;	// TRUE when the selected emitter is mesh-based and can't be previewed yet; draw shows a message instead.
 INT GFixPanU=0, GFixPanV=0;
 INT GFixScale=0;
 
@@ -3672,7 +3675,7 @@ void UUnrealEdEngine::Draw( UViewport* Viewport, UBOOL Blit, BYTE* HitData, INT*
 		ClearScreen = 1;
 	}
 
-	if(Viewport->Lock(HitData,HitCount))
+	if( Viewport->Lock(HitData,HitCount) )
 	{
 		Viewport->Canvas->Update();
 
@@ -3931,6 +3934,63 @@ void UUnrealEdEngine::Draw( UViewport* Viewport, UBOOL Blit, BYTE* HitData, INT*
 					);
 
 					edDrawAxisIndicator(&SceneNode);
+				}
+
+				unguard;
+				break;
+			}
+			case REN_EmitterBrowser:
+			{
+				guard(REN_EmitterBrowser);
+
+				// While the browser is (re)loading an emitter, the load pumps the
+				// message queue (progress bar / missing-class warnings), which can
+				// re-enter here. Ticking/rendering the preview level mid-mutation
+				// (old actor destroyed, new one half-loaded) crashes. Just clear.
+				if( GEmitterBrowserLoading )
+				{
+					FCameraSceneNode SceneNode(Viewport,&Viewport->RenderTarget,Viewport->Actor,Viewport->Actor->Location,Viewport->Actor->Rotation,Viewport->Actor->FovAngle);
+					DrawWireBackground(&SceneNode);
+					break;
+				}
+
+				if( GEmitterPreviewLevel )
+				{
+					Viewport->Actor->XLevel = GEmitterPreviewLevel;
+					Viewport->Actor->bHiddenEd = 1;
+					Viewport->Actor->bHiddenEdGroup = 1;
+					Viewport->Actor->bHidden = 1;
+
+					// Tick the preview level so the emitter's particles animate.
+					static INT EmitterLastCycles = 0;
+					INT NowCycles = appCycles();
+					FLOAT DeltaTime = EmitterLastCycles ? (NowCycles - EmitterLastCycles) * GSecondsPerCycle : 0.f;
+					EmitterLastCycles = NowCycles;
+					DeltaTime = Clamp( DeltaTime, 0.f, 0.1f );
+					GEmitterPreviewLevel->Tick( LEVELTICK_All, DeltaTime );
+
+					// Render all actors in the preview level (the emitter draws itself).
+					FCameraSceneNode	SceneNode(Viewport,&Viewport->RenderTarget,Viewport->Actor,Viewport->Actor->Location,Viewport->Actor->Rotation,Viewport->Actor->FovAngle);
+
+					DrawWireBackground(&SceneNode);
+					Viewport->RI->Clear(0);
+
+					Viewport->Actor->RendMap = REN_DynLight;
+					SceneNode.Render(Viewport->RI);
+					Viewport->Actor->RendMap = REN_EmitterBrowser;
+
+					edDrawAxisIndicator(&SceneNode);
+
+					// Mesh/vertmesh emitters are skipped (their mesh serializer would
+					// crash) — tell the user instead of showing an empty grid.
+					if( GEmitterPreviewUnsupported )
+					{
+						Viewport->Canvas->CurX = 8;
+						Viewport->Canvas->CurY = 8;
+						Viewport->Canvas->Color = FColor(255,200,80);
+						Viewport->Canvas->WrappedPrintf( Viewport->Canvas->SmallFont, 1,
+							TEXT("Mesh-based emitter - 3D preview not supported yet") );
+					}
 				}
 
 				unguard;

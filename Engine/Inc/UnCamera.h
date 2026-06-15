@@ -91,6 +91,7 @@ enum ERenderType
 	REN_TerrainHeightmap	= 22,	// Terrain heightmap info
 	REN_TerrainLayers		= 23,	// Terrain layers
 	REN_TerrainDecoLayers	= 24,	// Terrain decoration Layers
+	REN_EmitterBrowser		= 25,	// Emitter Viewer 3D preview
 	REN_Animation			= 26,	// Animations
 	REN_MatineeScenes		= 27,
 	REN_MatineeActions		= 28,
