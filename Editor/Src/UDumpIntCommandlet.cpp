@@ -285,6 +285,16 @@ class UEmitterLoadCommandlet : public UCommandlet
 		FString Pkg = L->LinkerRoot->GetName();
 		GWarn->Logf( NAME_Log, TEXT("Registered package %s"), *Pkg );
 
+		// No emitter names => force-load EVERY object in the package (reproduces the
+		// GUI render-path load headless: e.g. a texture .utx whose exports reference
+		// material classes this engine lacks). Logs each missing/skipped class.
+		if( Names.Num()==0 )
+		{
+			GWarn->Logf( NAME_Log, TEXT("Force-loading all objects in %s ..."), *Pkg );
+			UObject* P = UObject::LoadPackage( NULL, *FilePath, LOAD_NoWarn );
+			GWarn->Logf( NAME_Log, TEXT("  %s: LoadPackage %s"), *Pkg, P ? TEXT("OK") : TEXT("returned NULL") );
+		}
+
 		for( INT i=0; i<Names.Num(); i++ )
 		{
 			FString Full = Pkg + TEXT(".") + Names(i);

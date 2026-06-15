@@ -693,7 +693,23 @@ UObject* ULinkerLoad::CreateExport( INT Index )
 		// Get the object's class.
 		UClass* LoadClass = (UClass*)IndexToObject( Export.ClassIndex );
 		if( !LoadClass )
+		{
+			// An export whose class is an unresolved IMPORT means this engine build
+			// lacks that class (e.g. L2's Engine.FresnelMaterial, which is a UE2.5
+			// material class absent from this UT2003-era Engine). The old code fell
+			// back to UClass::StaticClass(), then mis-serialized the instance with the
+			// UClass serializer and crashed. Instead skip the export: leave it NULL so
+			// references to it resolve to NULL (the renderer handles a missing material)
+			// and the rest of the package still loads. Only do this for imported classes;
+			// an unresolved in-package (export) class is a genuine error -> keep old path.
+			if( Export.ClassIndex < 0 )
+			{
+				debugf( NAME_Warning, TEXT("Skipping '%s': missing class %s"),
+					*Export.ObjectName, *GetImportFullName( -Export.ClassIndex-1 ) );
+				return NULL;
+			}
 			LoadClass = UClass::StaticClass();
+		}
 		check(LoadClass);
 		check(LoadClass->GetClass()==UClass::StaticClass());
 		if( (LoadClass->GetFName()==NAME_Camera) || (LoadClass->GetFName()==NAME_PlayerInput) )//oldver
