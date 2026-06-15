@@ -235,6 +235,75 @@ class UEmitterListCommandlet : public UCommandlet
 IMPLEMENT_CLASS(UEmitterListCommandlet)
 
 /*-----------------------------------------------------------------------------
+	UEmitterLoadCommandlet : try to load a specific emitter class (e.g.
+	"LineageEffect.a_u000_a") to see whether a single emitter loads without
+	crashing on its mesh/texture dependencies. Usage:
+	  ucc "Editor.EmitterLoad" LineageEffect.a_u000_a [more...]
+-----------------------------------------------------------------------------*/
+
+class UEmitterLoadCommandlet : public UCommandlet
+{
+	DECLARE_CLASS(UEmitterLoadCommandlet,UCommandlet,CLASS_Transient,Editor);
+	void StaticConstructor()
+	{
+		guard(UEmitterLoadCommandlet::StaticConstructor);
+		LogToStdout = 1; IsClient = 1; IsEditor = 1; IsServer = 1; LazyLoad = 1; ShowErrorCount = 1;
+		unguard;
+	}
+
+	INT Main( const TCHAR *Parms )
+	{
+		guard(UEmitterLoadCommandlet::Main);
+
+		UClass* EditorEngineClass = UObject::StaticLoadClass( UEditorEngine::StaticClass(), NULL, TEXT("ini:Engine.Engine.EditorEngine"), NULL, LOAD_NoFail | LOAD_DisallowFiles, NULL );
+		GEditor  = ConstructObject<UEditorEngine>( EditorEngineClass );
+		GEditor->UseSound = 0;
+		GEditor->InitEditor();
+		GIsRequestingExit = 1;
+
+		// Args: <full package file path> <emitterName> [emitterName...]
+		FString FilePath, Tok;
+		TArray<FString> Names;
+		while( ParseToken(Parms, Tok, 0) )
+		{
+			if( !FilePath.Len() && GFileManager->FileSize(*Tok) >= 0 )
+				FilePath = Tok;
+			else if( Tok.InStr(TEXT(".")) != INDEX_NONE && Tok.Left(7).Caps() == TEXT("EDITOR.") )
+				continue; // skip commandlet-name token
+			else
+				new(Names) FString(Tok);
+		}
+		if( !FilePath.Len() )
+			appErrorf(TEXT("Usage: ucc Editor.EmitterLoad <pkgfile> <emitterName>..."));
+
+		// Register the package (linker) by full path, like the browser does.
+		UObject::BeginLoad();
+		ULinkerLoad* L = UObject::GetPackageLinker( NULL, *FilePath, LOAD_NoVerify|LOAD_NoWarn|LOAD_Quiet, NULL, NULL );
+		UObject::EndLoad();
+		if( !L || !L->LinkerRoot )
+			appErrorf(TEXT("Could not open linker for %s"), *FilePath);
+		FString Pkg = L->LinkerRoot->GetName();
+		GWarn->Logf( NAME_Log, TEXT("Registered package %s"), *Pkg );
+
+		for( INT i=0; i<Names.Num(); i++ )
+		{
+			FString Full = Pkg + TEXT(".") + Names(i);
+			GWarn->Logf( NAME_Log, TEXT("Loading emitter class %s ..."), *Full );
+			UClass* C = UObject::StaticLoadClass( AActor::StaticClass(), NULL, *Full, NULL, LOAD_NoWarn, NULL );
+			if( C )
+				GWarn->Logf( NAME_Log, TEXT("  OK: loaded %s (super=%s)"), C->GetName(), C->GetSuperClass() ? C->GetSuperClass()->GetName() : TEXT("?") );
+			else
+				GWarn->Logf( NAME_Log, TEXT("  FAILED to load %s"), *Full );
+		}
+
+		GIsRequestingExit = 1;
+		return 0;
+		unguard;
+	}
+};
+IMPLEMENT_CLASS(UEmitterLoadCommandlet)
+
+/*-----------------------------------------------------------------------------
 	UCompareIntCommandlet.
 -----------------------------------------------------------------------------*/
 
