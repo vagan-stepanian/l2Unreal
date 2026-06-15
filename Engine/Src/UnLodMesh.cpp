@@ -74,6 +74,13 @@ void ULodMesh::Serialize( FArchive& Ar )
 	if (InternalVersion >= 5) {
 		Ar << Unk1;
 	}
+	// L2 LodMesh (InternalVersion 6/7) appends two trailing bytes.
+	if (InternalVersion >= 6) {
+		Ar << Unk2;
+	}
+	if (InternalVersion >= 7) {
+		Ar << Unk3;
+	}
 
 	if( !Ar.IsPersistent() ) {}
 

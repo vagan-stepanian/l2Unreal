@@ -161,22 +161,20 @@ public:
 	FMeshVert.
 -----------------------------------------------------------------------------*/
 
-// Packed mesh vertex point for vertex-animated meshes.
-#define GET_MESHVERT_DWORD(mv) (*(DWORD*)&(mv))
+// Mesh vertex point for vertex-animated meshes.
+// In L2 (package Ver >= 133) verts are stored on disk as full FVectors (3 floats,
+// 12 bytes); older packages store a packed 11:11:10 signed DWORD (4 bytes). Either
+// way we keep the in-memory representation as 3 floats (matching the L2 client),
+// so the renderer and animation code read real, unquantized positions.
 struct FMeshVert
 {
-	// Variables.
-#if __INTEL_BYTE_ORDER__
-	INT X:11; INT Y:11; INT Z:10;
-#else
-	INT Z:10; INT Y:11; INT X:11;
-#endif
+	FLOAT X, Y, Z;
 
 	// Constructor.
 	FMeshVert()
 	{}
 	FMeshVert( const FVector& In )
-	: X((INT)In.X), Y((INT)In.Y), Z((INT)In.Z)
+	: X(In.X), Y(In.Y), Z(In.Z)
 	{}
 
 	// Functions.
@@ -188,7 +186,19 @@ struct FMeshVert
 	// Serializer.
 	friend FArchive& operator<<( FArchive& Ar, FMeshVert& V )
 	{
-		return Ar << GET_MESHVERT_DWORD(V);
+		if( Ar.IsLoading() && Ar.Ver() < 133 )
+		{
+			// Legacy packed 11:11:10 signed DWORD -> unpack to floats.
+			DWORD D = 0;
+			Ar << D;
+			V.X = (FLOAT)( ((INT)(D << 21)) >> 21 );	// low 11 bits, sign-extended
+			V.Y = (FLOAT)( ((INT)(D << 10)) >> 21 );	// next 11 bits, sign-extended
+			V.Z = (FLOAT)( ((INT)D) >> 22 );			// top 10 bits, sign-extended
+			return Ar;
+		}
+		// L2 Ver >= 133: full FVector (3 floats).
+		Ar << V.X << V.Y << V.Z;
+		return Ar;
 	}
 };
 
@@ -566,10 +576,12 @@ class ENGINE_API ULodMesh : public UMesh
 	// Multi-purpose content authentication key.
 	DWORD            AuthenticationKey;
 
-	INT				 Unk1;
+	INT				 Unk1;	// L2 InternalVersion >= 5
+	BYTE			 Unk2;	// L2 InternalVersion >= 6
+	BYTE			 Unk3;	// L2 InternalVersion >= 7
 
 	// Object interface.
-	void Serialize( FArchive& Ar );	
+	void Serialize( FArchive& Ar );
 	ULodMesh(){};	
 	UClass* MeshGetInstanceClass() { return ULodMeshInstance::StaticClass(); }
 
