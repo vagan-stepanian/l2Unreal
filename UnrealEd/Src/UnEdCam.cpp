@@ -54,6 +54,7 @@ ULevel* GPrefabLevel = NULL;		// A temporary level we assign to the prefab viewp
 ULevel* GEmitterPreviewLevel = NULL;	// Temporary level for the Emitter Viewer 3D preview.
 UBOOL GEmitterBrowserLoading = 0;		// TRUE while the Emitter Viewer is (re)loading an emitter; suppresses preview tick/render to avoid re-entrant draws of a half-mutated level.
 UBOOL GEmitterPreviewUnsupported = 0;	// TRUE when the selected emitter is mesh-based and can't be previewed yet; draw shows a message instead.
+UBOOL GEmitterBrowserPaused = 0;		// TRUE pauses the Emitter Viewer preview (the level stops ticking; particles freeze).
 INT GFixPanU=0, GFixPanV=0;
 INT GFixScale=0;
 
@@ -3666,8 +3667,9 @@ void UUnrealEdEngine::Draw( UViewport* Viewport, UBOOL Blit, BYTE* HitData, INT*
 		if(Viewport->Actor->RendMap == REN_StaticMeshBrowser
 				|| Viewport->Actor->RendMap == REN_MeshView
 				|| Viewport->Actor->RendMap == REN_Animation
-				|| Viewport->Actor->RendMap == REN_MaterialEditor 
-				|| Viewport->Actor->RendMap == REN_TexView )
+				|| Viewport->Actor->RendMap == REN_MaterialEditor
+				|| Viewport->Actor->RendMap == REN_TexView
+				|| Viewport->Actor->RendMap == REN_EmitterBrowser )
 			ClearColor = FColor(64,64,64);
 		else
 			ClearColor = Viewport->IsOrtho() ? C_OrthoBackground : C_WireBackground;
@@ -3961,13 +3963,15 @@ void UUnrealEdEngine::Draw( UViewport* Viewport, UBOOL Blit, BYTE* HitData, INT*
 					Viewport->Actor->bHiddenEdGroup = 1;
 					Viewport->Actor->bHidden = 1;
 
-					// Tick the preview level so the emitter's particles animate.
+					// Tick the preview level so the emitter's particles animate
+					// (unless paused via the playback controls).
 					static INT EmitterLastCycles = 0;
 					INT NowCycles = appCycles();
 					FLOAT DeltaTime = EmitterLastCycles ? (NowCycles - EmitterLastCycles) * GSecondsPerCycle : 0.f;
 					EmitterLastCycles = NowCycles;
 					DeltaTime = Clamp( DeltaTime, 0.f, 0.1f );
-					GEmitterPreviewLevel->Tick( LEVELTICK_All, DeltaTime );
+					if( !GEmitterBrowserPaused )
+						GEmitterPreviewLevel->Tick( LEVELTICK_All, DeltaTime );
 
 					// Render all actors in the preview level (the emitter draws itself).
 					FCameraSceneNode	SceneNode(Viewport,&Viewport->RenderTarget,Viewport->Actor,Viewport->Actor->Location,Viewport->Actor->Rotation,Viewport->Actor->FovAngle);

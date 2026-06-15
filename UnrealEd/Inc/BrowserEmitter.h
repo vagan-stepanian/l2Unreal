@@ -18,6 +18,9 @@
 
 #include "UnLinker.h"
 
+#define IDPB_EMIT_PLAY		19010
+#define IDPB_EMIT_RESTART	19011
+
 static int CDECL EmitterNameSortCompare( const void *elem1, const void *elem2 )
 {
 	return appStricmp( **(FString*)elem1, **(FString*)elem2 );
@@ -58,6 +61,14 @@ class WBrowserEmitter : public WBrowser
 	ULevel* PreviewLevel;
 	AActor* PreviewEmitter;
 
+	// Playback controls (bottom strip)
+	WButton* PlayButton;
+	WButton* RestartButton;
+	WTrackBar* ScrubBar;
+
+	// Properties of the previewed emitter (right column).
+	WObjectProperties* PropertyWindow;
+
 	// Scan results (no linkers kept). Parallel rows: emitter EmitName(i) lives in
 	// package EmitPkg(i). Packages holds the unique package names for the combo.
 	TArray<FString> Packages;
@@ -76,6 +87,10 @@ class WBrowserEmitter : public WBrowser
 		Viewport = NULL;
 		PreviewLevel = NULL;
 		PreviewEmitter = NULL;
+		PlayButton = NULL;
+		RestartButton = NULL;
+		ScrubBar = NULL;
+		PropertyWindow = NULL;
 		MenuID = IDMENU_BrowserEmitter;
 		BrowserID = eBROWSER_EMITTER;
 		Description = TEXT("Emitter Viewer");
@@ -264,6 +279,27 @@ class WBrowserEmitter : public WBrowser
 			ToolTipCtrl->AddTool(hWndToolBar, ToolTips_BEM[tooltip].ToolTip, tooltip, &rect);
 		}
 
+		// Playback controls along the bottom of the preview (like the Animation browser).
+		PlayButton = new WButton(this, IDPB_EMIT_PLAY, FDelegate(this, (TDelegate)&WBrowserEmitter::OnPlayPause));
+		PlayButton->OpenWindow(1, 0, 0, 80, 22, TEXT("Pause"));
+		RestartButton = new WButton(this, IDPB_EMIT_RESTART, FDelegate(this, (TDelegate)&WBrowserEmitter::OnRestart));
+		RestartButton->OpenWindow(1, 0, 0, 80, 22, TEXT("Restart"));
+
+		// Timeline scrubber: drag to seek the effect to a point in time.
+		ScrubBar = new WTrackBar(this, 0);
+		ScrubBar->OpenWindow(1, 0);
+		ScrubBar->SetRange(0, 1000);
+		ScrubBar->ThumbPositionDelegate = FDelegate(this, (TDelegate)&WBrowserEmitter::OnSliderMove);
+		ScrubBar->ThumbTrackDelegate = FDelegate(this, (TDelegate)&WBrowserEmitter::OnSliderMove);
+
+		// Property panel (right column) showing the previewed emitter's settings.
+		PropertyWindow = new WObjectProperties(TEXT("EmitterProperties"), CPF_Edit, TEXT("Properties"), this, 1);
+		PropertyWindow->OpenChildWindow(0);
+		PropertyWindow->Root.Sorted = 0;
+		PropertyWindow->SetNotifyHook(GUnrealEd);
+
+		const INT BarH = 28, BtnW = 80, BtnH = 22, RightX = 4 + 200 + 4, PropW = 230;
+
 		INT Top = 0;
 		Anchors.Set((DWORD)hWndToolBar, FWindowAnchor(hWnd, hWndToolBar, ANCHOR_TL, 0, 0, ANCHOR_RIGHT | ANCHOR_HEIGHT, 0, STANDARD_TOOLBAR_HEIGHT));
 		Top += STANDARD_TOOLBAR_HEIGHT + 4;
@@ -271,10 +307,16 @@ class WBrowserEmitter : public WBrowser
 		Top += STANDARD_CTRL_HEIGHT + 2;
 		Anchors.Set((DWORD)pEditFilter->hWnd, FWindowAnchor(hWnd, pEditFilter->hWnd, ANCHOR_TL, 4, Top, ANCHOR_RIGHT | ANCHOR_HEIGHT, -4, STANDARD_CTRL_HEIGHT));
 		Top += STANDARD_CTRL_HEIGHT + 2;
-		// List on the left (fixed width), 3D preview fills the rest on the right.
+		// Three columns: list (left, fixed) | viewport + playback strip (center) |
+		// properties (right, fixed). The center reserves a bottom strip for controls.
+		const INT CenterRight = -(PropW + 8);	// right edge of the center column (offset from hWnd right)
 		Anchors.Set((DWORD)pEmitterList->hWnd, FWindowAnchor(hWnd, pEmitterList->hWnd, ANCHOR_TL, 4, Top, ANCHOR_WIDTH | ANCHOR_BOTTOM, 200, -4));
-		Anchors.Set((DWORD)ViewportLabel->hWnd, FWindowAnchor(hWnd, ViewportLabel->hWnd, ANCHOR_TL, 4 + 200 + 4, Top, ANCHOR_BR, -4, -4));
+		Anchors.Set((DWORD)ViewportLabel->hWnd, FWindowAnchor(hWnd, ViewportLabel->hWnd, ANCHOR_TL, RightX, Top, ANCHOR_RIGHT | ANCHOR_BOTTOM, CenterRight, -4 - BarH));
 		Anchors.Set((DWORD)Viewport->GetWindow(), FWindowAnchor(ViewportLabel->hWnd, (HWND)Viewport->GetWindow(), ANCHOR_TL, 0, 0, ANCHOR_BR, 0, 0));
+		Anchors.Set((DWORD)PlayButton->hWnd, FWindowAnchor(hWnd, PlayButton->hWnd, ANCHOR_LEFT | ANCHOR_BOTTOM, RightX, -BarH + 2, ANCHOR_WIDTH | ANCHOR_HEIGHT, BtnW, BtnH));
+		Anchors.Set((DWORD)RestartButton->hWnd, FWindowAnchor(hWnd, RestartButton->hWnd, ANCHOR_LEFT | ANCHOR_BOTTOM, RightX + BtnW + 4, -BarH + 2, ANCHOR_WIDTH | ANCHOR_HEIGHT, BtnW, BtnH));
+		Anchors.Set((DWORD)ScrubBar->hWnd, FWindowAnchor(hWnd, ScrubBar->hWnd, ANCHOR_LEFT | ANCHOR_BOTTOM, RightX + 2 * (BtnW + 4), -BarH + 2, ANCHOR_RIGHT | ANCHOR_HEIGHT, CenterRight, BtnH));
+		Anchors.Set((DWORD)PropertyWindow->hWnd, FWindowAnchor(hWnd, PropertyWindow->hWnd, ANCHOR_TOP | ANCHOR_RIGHT, -PropW, Top, ANCHOR_RIGHT | ANCHOR_BOTTOM, -4, -4));
 
 		Container->SetAnchors(&Anchors);
 
@@ -483,6 +525,10 @@ class WBrowserEmitter : public WBrowser
 		// again (old actor gone, new one fully spawned).
 		GEmitterBrowserLoading = 1;
 
+		// Detach the property panel before we destroy the actor it points at.
+		if (PropertyWindow)
+			PropertyWindow->Root.SetObjects(NULL, 0);
+
 		// Remove any previously previewed emitter.
 		if (PreviewEmitter)
 		{
@@ -545,9 +591,27 @@ class WBrowserEmitter : public WBrowser
 			// (UnRender.cpp). Spawning in the editor leaves it at DT_Sprite, so only
 			// the (empty) editor sprite icon would draw -> nothing visible.
 			if (PreviewEmitter)
+			{
 				PreviewEmitter->DrawType = DT_Particle;
 
-			if (!PreviewEmitter)
+				// Loop the effect for preview: when all particles die, AEmitter::Tick
+				// re-runs the whole emitter (AutoReset + !AutoDestroy, AllDead path in
+				// UnParticleSystem.cpp). Without this, one-shot effects play once and
+				// stop. TimeTillReset=0 => restart immediately (seamless loop).
+				AEmitter* Em = Cast<AEmitter>(PreviewEmitter);
+				if (Em)
+				{
+					Em->AutoDestroy = 0;
+					Em->AutoReset = 1;
+					Em->TimeTillReset = 0.f;
+					Em->TimeTillResetRange.Min = Em->TimeTillResetRange.Max = 0.f;
+				}
+
+				// Show the emitter's properties in the right-hand panel.
+				if (PropertyWindow)
+					PropertyWindow->Root.SetObjects((UObject**)&PreviewEmitter, 1);
+			}
+			else
 				debugf(NAME_Warning, TEXT("EmitterViewer: '%s' could not be loaded for preview"), *Full);
 		}
 
@@ -564,6 +628,63 @@ class WBrowserEmitter : public WBrowser
 		unguard;
 	}
 
+	// Pause/resume the particle animation (the preview level stops ticking).
+	void OnPlayPause() {
+		guard(WBrowserEmitter::OnPlayPause);
+		GEmitterBrowserPaused = !GEmitterBrowserPaused;
+		if (PlayButton)
+			PlayButton->SetText(GEmitterBrowserPaused ? TEXT("Play") : TEXT("Pause"));
+		if (Viewport)
+			Viewport->Repaint(1);
+		unguard;
+	}
+
+	// Restart the effect from scratch (re-spawns the emitter -> particles reset).
+	void OnRestart() {
+		guard(WBrowserEmitter::OnRestart);
+		GEmitterBrowserPaused = 0;
+		if (PlayButton)
+			PlayButton->SetText(TEXT("Pause"));
+		if (ScrubBar)
+			ScrubBar->SetPos(0);
+		SpawnSelectedEmitter();
+		unguard;
+	}
+
+	// Scrub: seek the effect to a point in time by resetting the particle emitters
+	// and re-simulating up to that time, then freezing (pause). Scrubbing implies
+	// manual control, so it pauses auto-play.
+	void OnSliderMove() {
+		guard(WBrowserEmitter::OnSliderMove);
+		if (!PreviewLevel || !PreviewEmitter || !Viewport || !ScrubBar)
+			return;
+		AEmitter* Em = Cast<AEmitter>(PreviewEmitter);
+		if (!Em)
+			return;
+
+		GEmitterBrowserPaused = 1;
+		if (PlayButton)
+			PlayButton->SetText(TEXT("Play"));
+
+		const FLOAT MaxScrubSeconds = 4.f;
+		FLOAT T = (FLOAT)ScrubBar->GetPos() / 1000.f * MaxScrubSeconds;
+
+		// Multi-tick the level here; suppress the realtime draw case re-entering
+		// while we do it (it pumps no messages, but be safe & consistent).
+		GEmitterBrowserLoading = 1;
+		for (INT i = 0; i < Em->Emitters.Num(); ++i)
+			if (Em->Emitters(i))
+				Em->Emitters(i)->Reset();
+		const INT Steps = 60;
+		FLOAT dt = (T > 0.f) ? (T / Steps) : 0.f;
+		for (INT s = 0; s < Steps && dt > 0.f; ++s)
+			PreviewLevel->Tick(LEVELTICK_All, dt);
+		GEmitterBrowserLoading = 0;
+
+		Viewport->Repaint(1);
+		unguard;
+	}
+
 	void OnDestroy() {
 		guard(WBrowserEmitter::OnDestroy);
 
@@ -572,7 +693,11 @@ class WBrowserEmitter : public WBrowser
 			PreviewLevel->DestroyActor(PreviewEmitter);
 			PreviewEmitter = NULL;
 		}
+		if (PropertyWindow)
+			PropertyWindow->Root.SetObjects(NULL, 0);
 		GEmitterPreviewLevel = NULL;
+		GEmitterBrowserPaused = 0;
+		GEmitterPreviewUnsupported = 0;
 		if (Viewport)
 		{
 			delete Viewport;
@@ -582,6 +707,10 @@ class WBrowserEmitter : public WBrowser
 		delete pComboPackage;
 		delete pEditFilter;
 		delete pEmitterList;
+		delete PlayButton;
+		delete RestartButton;
+		delete ScrubBar;
+		delete PropertyWindow;
 		delete ViewportLabel;
 		::DestroyWindow(hWndToolBar);
 		delete ToolTipCtrl;

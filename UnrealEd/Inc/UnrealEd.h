@@ -67,6 +67,7 @@ extern ULevel* GPrefabLevel;		// A temporary level we assign to the prefab viewp
 extern ULevel* GEmitterPreviewLevel;	// Temporary level for the Emitter Viewer 3D preview (holds the spawned emitter).
 extern UBOOL GEmitterBrowserLoading;	// TRUE while the Emitter Viewer is (re)loading; suppresses preview tick/render.
 extern UBOOL GEmitterPreviewUnsupported;	// TRUE when the selected emitter is mesh-based and can't be previewed yet.
+extern UBOOL GEmitterBrowserPaused;		// TRUE pauses the Emitter Viewer preview (particles freeze).
 extern FTexAlignTools GTexAlignTools;
 
 
