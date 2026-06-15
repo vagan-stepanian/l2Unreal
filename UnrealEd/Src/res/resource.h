@@ -581,6 +581,7 @@
 #define IDMENU_BrowserScaleform         15170
 #define IDMENU_BrowserScaleform_Context1 15171
 #define IDMENU_BrowserScaleform_Context 15171
+#define IDMENU_BrowserEmitter           15172
 #define IDMN_2DSE_OPEN_IMAGE            16000
 #define IDCB_SIMPLE_SCALE               18000
 #define IDCB_LIGHTMAP_SCALE             18002

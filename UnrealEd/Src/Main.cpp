@@ -122,6 +122,7 @@ const DWORD GShowFlags =
 #include "BrowserMesh.h"
 #include "BrowserPrefab.h"
 #include "BrowserScaleform.h"
+#include "BrowserEmitter.h"
 #include "..\..\core\inc\unmsg.h"
 
 // The last viewport to get the focus.  The main editor
@@ -241,6 +242,7 @@ WDlgSearchActors* GDlgSearchActors = NULL;
 WDlgTexReplace* GDlgTexReplace = NULL;
 WUDNWindow* GUDNWindow = NULL;
 WBrowserScaleform* GBrowserScaleform = NULL;
+WBrowserEmitter* GBrowserEmitter = NULL;
 // External caller ( i.e. SL Maya plugin )
 CMainLoop * GExtCallLoopInstance = 0;
 bool GExtCallLaunched = false;
@@ -2584,6 +2586,14 @@ class WEditorFrame : public WMdiFrame, public FNotifyHook
 						GBrowserScaleform->OpenWindow(1);
 						GBrowserMaster->ShowBrowser(eBROWSER_SCALEFORM);
 						break;
+
+					case eBROWSER_EMITTER:
+						SAFEDELETENULL(GBrowserEmitter);
+						GBrowserEmitter = new WBrowserEmitter(TEXT("Emitter Browser"), GBrowserMaster, GEditorFrame->hWnd);
+						check(GBrowserEmitter);
+						GBrowserEmitter->OpenWindow(1);
+						GBrowserMaster->ShowBrowser(eBROWSER_EMITTER);
+						break;
 				}
 				unguard;
 			}
@@ -2674,6 +2684,14 @@ class WEditorFrame : public WMdiFrame, public FNotifyHook
 						check(GBrowserScaleform);
 						GBrowserScaleform->OpenWindow(0);
 						GBrowserMaster->ShowBrowser(eBROWSER_SCALEFORM);
+						break;
+
+					case eBROWSER_EMITTER:
+						SAFEDELETENULL(GBrowserEmitter);
+						GBrowserEmitter = new WBrowserEmitter(TEXT("Emitter Browser"), GEditorFrame, GEditorFrame->hWnd);
+						check(GBrowserEmitter);
+						GBrowserEmitter->OpenWindow(0);
+						GBrowserMaster->ShowBrowser(eBROWSER_EMITTER);
 						break;
 				}
 
@@ -4318,6 +4336,7 @@ INT CallWinMain( HINSTANCE hInInstance, HINSTANCE hPrevInstance, char* InCmdLine
 		IMPLEMENT_WINDOWCLASS(WPageUsed,CS_DBLCLKS | CS_VREDRAW | CS_HREDRAW);
 		IMPLEMENT_WINDOWCLASS(WPageMRU,CS_DBLCLKS | CS_VREDRAW | CS_HREDRAW);
 		IMPLEMENT_WINDOWCLASS(WBrowserScaleform, CS_DBLCLKS | CS_VREDRAW | CS_HREDRAW);
+		IMPLEMENT_WINDOWCLASS(WBrowserEmitter, CS_DBLCLKS | CS_VREDRAW | CS_HREDRAW);
 		
 		// Windows.
 		if (GUnRealEdFrame == 0) 
@@ -4418,7 +4437,8 @@ INT CallWinMain( HINSTANCE hInInstance, HINSTANCE hPrevInstance, char* InCmdLine
 		GBrowserMaster->Browsers[eBROWSER_STATICMESH] = (WBrowser**)(&GBrowserStaticMesh);
 		GBrowserMaster->Browsers[eBROWSER_PREFAB] = (WBrowser**)(&GBrowserPrefab);
 		GBrowserMaster->Browsers[eBROWSER_SCALEFORM] = (WBrowser**)(&GBrowserScaleform);
-		
+		GBrowserMaster->Browsers[eBROWSER_EMITTER] = (WBrowser**)(&GBrowserEmitter);
+
 		GBuildSheet = new WBuildPropSheet( TEXT("Build Options"), GEditorFrame );
 		GBuildSheet->OpenWindow();
 		GBuildSheet->Show( FALSE );
@@ -4520,6 +4540,14 @@ INT CallWinMain( HINSTANCE hInInstance, HINSTANCE hPrevInstance, char* InCmdLine
 		{
 			if (!GConfig->GetInt(*GBrowserScaleform->PersistentName, TEXT("Active"), bActive, TEXT("UnrealEd.ini")))	bActive = FALSE;
 			GBrowserScaleform->Show(bActive);
+		}
+
+		if (!GConfig->GetInt(TEXT("Emitter Browser"), TEXT("Docked"), bDocked, TEXT("UnrealEd.ini")))	bDocked = TRUE;
+		SendMessageX(GEditorFrame->hWnd, WM_COMMAND, bDocked ? WM_BROWSER_DOCK : WM_BROWSER_UNDOCK, eBROWSER_EMITTER);
+		if (!bDocked)
+		{
+			if (!GConfig->GetInt(*GBrowserEmitter->PersistentName, TEXT("Active"), bActive, TEXT("UnrealEd.ini")))	bActive = FALSE;
+			GBrowserEmitter->Show(bActive);
 		}
 		
 		if(!GConfig->GetInt( TEXT("CodeFrame"), TEXT("Active"), bActive, TEXT("UnrealEd.ini") ))	bActive = FALSE;

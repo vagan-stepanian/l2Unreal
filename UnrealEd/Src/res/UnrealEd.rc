@@ -1484,6 +1484,16 @@ BEGIN
     END
 END
 
+IDMENU_BrowserEmitter MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open...",                    IDMN_SB_FileOpen
+        MENUITEM "&Save...",                    IDMN_SB_FileSave
+        MENUITEM SEPARATOR
+    END
+END
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
