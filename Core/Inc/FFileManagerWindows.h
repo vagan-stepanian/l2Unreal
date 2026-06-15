@@ -193,22 +193,19 @@ class FLineageArchive121FileReader : public FArchiveFileReader
 	}
 
 	static const wchar_t* GetLastPathComponent(const wchar_t* Filename) {
-		INT filenameLength = wcsnlen(Filename, 1024);
-
-		const wchar_t* lastValidPathString = NULL;
-		const wchar_t* currentPathSeparator = L"\\";
-		const wchar_t* currentPathString = wcsstr(Filename, currentPathSeparator);
-		if (currentPathString == NULL) {
-			currentPathSeparator = L"/";
-			currentPathString = wcsstr(Filename, currentPathSeparator);
+		// The XOR key for Lineage2Ver121+ packages is the checksum of the bare
+		// file name (no directory). Paths handed to the file manager can mix '\'
+		// and '/' separators (e.g. "..\L2Editor\..\Textures/Foo.utx"), so scan to
+		// the LAST separator of EITHER kind. The previous version locked onto a
+		// single separator type and, on a mixed path, returned ".../Textures/Foo.utx"
+		// instead of "Foo.utx" -> wrong key -> mis-decrypted summary -> garbage
+		// NameCount -> crash in ULinkerLoad while reading the name map.
+		const wchar_t* lastComponent = Filename;
+		for (const wchar_t* p = Filename; *p; ++p) {
+			if (*p == L'\\' || *p == L'/')
+				lastComponent = p + 1;
 		}
-
-		while (currentPathString != NULL && currentPathString < currentPathString + filenameLength) {
-			lastValidPathString = currentPathString;
-			currentPathString = wcsstr(++currentPathString, currentPathSeparator);
-		}
-
-		return ++lastValidPathString;
+		return lastComponent;
 	}
 private:
 	INT Key;

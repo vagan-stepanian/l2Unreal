@@ -191,6 +191,7 @@
       <SubSystem>Windows</SubSystem>
       <BaseAddress>0x10E00000</BaseAddress>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <StackReserveSize>16777216</StackReserveSize>
     </Link>
     <Midl>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -513,6 +514,7 @@
       <SubSystem>Windows</SubSystem>
       <BaseAddress>0x10E00000</BaseAddress>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <StackReserveSize>16777216</StackReserveSize>
     </Link>
     <Midl>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>

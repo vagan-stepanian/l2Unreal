@@ -42,6 +42,7 @@ struct {
 	NULL, 0
 };
 
+
 class WBrowserEmitter : public WBrowser
 {
 	DECLARE_WINDOWCLASS(WBrowserEmitter, WBrowser, Window)
@@ -539,40 +540,17 @@ class WBrowserEmitter : public WBrowser
 		FString Name = pEmitterList->GetString(pEmitterList->GetCurrent());
 		FString Pkg = pComboPackage->GetString(pComboPackage->GetCurrent());
 
-		// Refuse to load mesh/vertmesh-based emitters: their VertMesh/SkeletalMesh
-		// fails the serial-size check and appErrorf's mid-load, which leaves the
-		// linker half-built and takes the editor down. Detected at scan time.
-		UBOOL bMesh = 0;
-		for (INT i = 0; i < EmitName.Num(); ++i)
-			if (EmitPkg(i) == Pkg && EmitName(i) == Name) { bMesh = (EmitMesh(i) != 0); break; }
-
-		GEmitterPreviewUnsupported = bMesh;
-
-		if (bMesh)
-		{
-			debugf(NAME_Log, TEXT("EmitterViewer: '%s.%s' is mesh-based; 3D preview not supported yet (skipped)"), *Pkg, *Name);
-			GEmitterBrowserLoading = 0;
-			Viewport->Repaint(1);
-			return;
-		}
+		// Mesh emitters are loaded too now: the L2 VertMesh serializer was fixed and
+		// the file manager's Lineage2Ver121 XOR-key derivation was corrected (it used
+		// to mis-parse mixed-separator paths -> wrong key -> a mesh material's texture
+		// package decrypted to garbage -> crash in ULinkerLoad's name-map read).
+		GEmitterPreviewUnsupported = 0;
 
 		if (Name.Len() && Pkg.Len())
 		{
 			FString Full = Pkg + TEXT(".") + Name;
 
-			// Mesh-based emitters are filtered out above; this catch is a safety net
-			// for any other load-time throw so the editor survives.
-			UClass* C = NULL;
-			try
-			{
-				C = UObject::StaticLoadClass(AActor::StaticClass(), NULL, *Full, NULL, LOAD_NoWarn, NULL);
-			}
-			catch (...)
-			{
-				GIsCriticalError = 0;
-				C = NULL;
-				debugf(NAME_Warning, TEXT("Emitter '%s' could not be loaded for preview (unsupported mesh?)"), *Full);
-			}
+			UClass* C = UObject::StaticLoadClass( AActor::StaticClass(), NULL, *Full, NULL, LOAD_NoWarn, NULL );
 
 			if (C)
 			{
