@@ -78,6 +78,7 @@ CORE_API UBOOL appIsDebuggerPresent();
 -----------------------------------------------------------------------------*/
 
 CORE_API void* appGetDllHandle( const TCHAR* DllName );
+CORE_API UBOOL appIsBadReadPtr( const void* Ptr, INT Size );
 CORE_API void appFreeDllHandle( void* DllHandle );
 CORE_API void* appGetDllExport( void* DllHandle, const TCHAR* ExportName );
 CORE_API void appLaunchURL( const TCHAR* URL, const TCHAR* Parms=NULL, FString* Error=NULL );

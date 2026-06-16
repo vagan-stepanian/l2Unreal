@@ -2753,7 +2753,7 @@ void UObject::EndLoad()
 			unguard;
 			}
 
-			// Dissociate all linker import object references, since they 
+			// Dissociate all linker import object references, since they
 			// may be destroyed, causing their pointers to become invalid.
 			guard(DissociateImports);
 			if( GImportCount )
@@ -2763,7 +2763,13 @@ void UObject::EndLoad()
 					for( INT j=0; j<GetLoader(i)->ImportMap.Num(); j++ )
 					{
 						FObjectImport& Import = GetLoader(i)->ImportMap(j);
-						if( Import.XObject && !(Import.XObject->GetFlags() & RF_Native) )
+						// Import.XObject can already be a dangling pointer if the imported
+						// object was destroyed during this load (happens with L2 content
+						// that pulls classes/objects this build only partially supports).
+						// Guard the flag read so a stale pointer is simply dropped (the
+						// whole point of this loop) instead of crashing the editor.
+						if( Import.XObject
+						&&	( appIsBadReadPtr( Import.XObject, sizeof(UObject) ) || !(Import.XObject->GetFlags() & RF_Native) ) )
 							Import.XObject = NULL;
 					}
 				}

@@ -461,6 +461,15 @@ CORE_API void* appGetDllHandle( const TCHAR* Filename )
 #pragma warning(default:4700)
 
 //
+// Return TRUE if [Ptr, Ptr+Size) is NOT safely readable (committed) memory.
+// Used to drop dangling object pointers during load instead of faulting on them.
+//
+CORE_API UBOOL appIsBadReadPtr( const void* Ptr, INT Size )
+{
+	return Ptr==NULL || IsBadReadPtr( Ptr, Size );
+}
+
+//
 // Free a DLL.
 //
 CORE_API void appFreeDllHandle( void* DllHandle )

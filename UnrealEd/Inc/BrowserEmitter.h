@@ -540,13 +540,19 @@ class WBrowserEmitter : public WBrowser
 		FString Name = pEmitterList->GetString(pEmitterList->GetCurrent());
 		FString Pkg = pComboPackage->GetString(pComboPackage->GetCurrent());
 
-		// Mesh emitters are loaded too now: the L2 VertMesh serializer was fixed and
-		// the file manager's Lineage2Ver121 XOR-key derivation was corrected (it used
-		// to mis-parse mixed-separator paths -> wrong key -> a mesh material's texture
-		// package decrypted to garbage -> crash in ULinkerLoad's name-map read).
-		GEmitterPreviewUnsupported = 0;
+		// Mesh (VertMesh) emitters are listed but NOT previewed. Loading one in the GUI
+		// pulls L2 mesh/material content this UT2003-era engine only partially supports;
+		// the render-path load ultimately corrupts the heap (a later small allocation -
+		// e.g. the next package's name map - then fails and crashes). Headless loads the
+		// same emitter cleanly (no render device), so this is GUI/render-specific and is
+		// a separate, larger effort. Sprite emitters preview fully. Show a message
+		// instead of loading mesh ones (see GEmitterPreviewUnsupported draw in UnEdCam).
+		UBOOL bMesh = 0;
+		for (INT i = 0; i < EmitName.Num(); ++i)
+			if (EmitName(i) == Name && EmitPkg(i) == Pkg) { bMesh = EmitMesh(i); break; }
+		GEmitterPreviewUnsupported = bMesh;
 
-		if (Name.Len() && Pkg.Len())
+		if (!bMesh && Name.Len() && Pkg.Len())
 		{
 			FString Full = Pkg + TEXT(".") + Name;
 

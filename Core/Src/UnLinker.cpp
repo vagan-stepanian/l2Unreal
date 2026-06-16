@@ -223,6 +223,29 @@ ULinkerLoad::ULinkerLoad( UObject* InParent, const TCHAR* InFilename, DWORD InLo
 			throw( LocalizeError(TEXT("Aborted"),TEXT("Core")) );
 	unguard;
 
+	// Sanity-check the summary counts/offsets before allocating from them. If a
+	// package parsed wrong (bad decryption key, or a format this build mis-reads),
+	// an absurd NameCount makes NameMap.Empty(NameCount) reserve a huge size whose
+	// allocation fails -> NULL data -> the name-map loop writes through NULL and
+	// takes the whole editor down. Fail the load cleanly instead so the editor
+	// survives (the object that referenced this package just gets a missing dep).
+	{
+		INT TS = TotalSize();
+		if( Summary.NameCount   < 0 || Summary.NameCount   > TS
+		||	Summary.ExportCount < 0 || Summary.ExportCount > TS
+		||	Summary.ImportCount < 0 || Summary.ImportCount > TS
+		||	Summary.NameOffset  < 0 || Summary.NameOffset   > TS
+		||	Summary.ExportOffset< 0 || Summary.ExportOffset > TS
+		||	Summary.ImportOffset< 0 || Summary.ImportOffset > TS )
+		{
+			debugf( NAME_Warning, TEXT("[PKG] Bad summary %s: Names=%i Exports=%i Imports=%i NameOff=%i ExpOff=%i ImpOff=%i Size=%i -> aborting"),
+				*Filename, Summary.NameCount, Summary.ExportCount, Summary.ImportCount,
+				Summary.NameOffset, Summary.ExportOffset, Summary.ImportOffset, TS );
+			GLog->Flush();
+			throw( LocalizeError(TEXT("Aborted"),TEXT("Core")) );
+		}
+	}
+
 	// Slack everything according to summary.
 	ImportMap   .Empty( Summary.ImportCount   );
 	ExportMap   .Empty( Summary.ExportCount   );
